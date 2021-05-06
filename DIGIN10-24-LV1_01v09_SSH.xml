@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF 
+			xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" 
+			xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
+			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+<!-- 
+Change log:
+2021-04-28: Inital Version (Svein Olsen)
+2021-04-28: Added Breakers (Thomas R Eriksen)
+-->	
+
+	<md:FullModel rdf:about="_a529556e-aa95-4b28-b729-e9114f90880a">
+		<md:Model.created>2021-04-28T13:00:37.958Z</md:Model.created>
+		<md:Model.scenarioTime>2021-04-28T20:11:59Z</md:Model.scenarioTime>
+		<md:Model.description>DIGIN10 Low Voltage MAS1</md:Model.description>
+		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+		<md:Model.profile>http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</md:Model.profile>
+		<md:Model.version>01v09</md:Model.version>
+		<!-- Depending on EQ file -->
+		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
+	</md:FullModel>
+
+ 	<cim:Breaker rdf:about="_8aad5c29-6039-4321-8f8a-ad1c186dd145">
+		<cim:Switch.open>false</cim:Switch.open>
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:Breaker>
+
+ 	<cim:Breaker rdf:about="_76335f11-64c3-474d-92fd-7ab11ed607e4">
+		<cim:Switch.open>false</cim:Switch.open>
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:Breaker>
+
+	<cim:Terminal rdf:about="_1f6d65dc-0498-4e9f-beda-0e36a667bb43">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_e1a6c356-813b-4311-8986-898231fa1aa1">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_aea98b32-d6db-4a7e-a95a-ada4f44c8198">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_8096380f-f98c-4e4e-aa15-1866edf2a519">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_a9b32dfb-6dfe-4d4c-b563-2e29614b4319">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+ 	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_54a2bbab-bf15-4b63-afc6-ecfbd135d058">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_d4141353-a4b9-4b70-8aad-a9206b76b35c">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_be24dc11-bfeb-4879-b0ff-18a490500393">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_bfe5eea8-b897-49ec-afc9-bbec308f93be">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+	<cim:Terminal rdf:about="_1e4f0009-85b7-4087-85a8-bf7c21f01e47">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+</rdf:RDF>
