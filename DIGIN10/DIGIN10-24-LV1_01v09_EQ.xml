@@ -12,7 +12,7 @@ Change log:
 2021-03-29: Consolidated model. Removed GeographicalRegion (Svein Olsen)
 2021-04-28: Editing names and adding missing attributes (Thomas Ranvik Eriksen)
 2021-04-28: Changed decimal from comma to dot (Thomas Ranvik Eriksen)
-2021-05-05: Added Names
+2021-05-07: Added Names
 -->	
 
  <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
@@ -33,7 +33,7 @@ Change log:
   <cim:IdentifiedObject.name>04 Telemarkstien 2 ACLS1</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName>Telemarkstien 2</cim:IdentifiedObject.aliasName> <!--Optional-->
   <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  <cim:Equipment.inService>true</cim:Equipment.inService> <!--SSH-->
+  <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->
   <cim:Conductor.length>0.03125</cim:Conductor.length> <!--Make mandatory-->
@@ -49,29 +49,12 @@ Change log:
   <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
  </cim:ACLineSegment>
 
- <cim:Name>
-  <cim:Name.name>6573456</cim:Name.name>
-  <cim:Name.IdentifiedObject rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
-  <cim:Name.NameType>companyNisId</cim:Name.NameType>
- </cim:Name>
-
- <cim:NameType>
-  <cim:NameType.description>Unique identifier in Company NIS</cim:NameType.description>
-  <cim:NameType.name>companyNisId</cim:NameType.name>
-  <cim:NameType.NameTypeAthority>companyNis</cim:NameType.NameTypeAthority>
- </cim:NameType>
-
- <cim:NameTypeAuthority>
-  <cim:NameTypeAuthority.description>Network Information System made by Company</cim:NameTypeAuthority.description>
-  <cim:NameTypeAuthority.name>companyNis</cim:NameTypeAuthority.name>
- </cim:NameTypeAuthority>
-
  <cim:ACLineSegment rdf:ID="_46bce40c-71c2-4d19-b63f-78a69c460b0e">
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 ACLineSegment 2</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 ACLS2</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
   <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  <cim:Equipment.inService>true</cim:Equipment.inService>
+  <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
   <cim:Conductor.length>90.97949981689453</cim:Conductor.length>
@@ -114,7 +97,7 @@ Change log:
   <cim:IdentifiedObject.name>04 Telemarkstien 2 Br1</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
   <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  <!--<cim:Equipment.inService>true</cim:Equipment.inService>--> <!--SSH-->
+  <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
   <cim:Switch.locked>false</cim:Switch.locked>
@@ -135,7 +118,7 @@ Change log:
   <cim:IdentifiedObject.name>04 Telemarkstien 2 Br2</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
   <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  <!--<cim:Equipment.inService>true</cim:Equipment.inService>--> <!--SSH-->
+  <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
   <cim:Switch.locked>false</cim:Switch.locked>
@@ -156,7 +139,7 @@ Change log:
   <cim:IdentifiedObject.name>04 Telemarkstien 2 BS1</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
   <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  <cim:Equipment.inService>true</cim:Equipment.inService>
+  <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
   <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
@@ -169,7 +152,7 @@ Change log:
   <cim:IdentifiedObject.name>04 Telemarkstien 2 CL1</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
   <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  <cim:Equipment.inService>true</cim:Equipment.inService>
+  <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
   <cim:EnergyConsumer.customerCount>1</cim:EnergyConsumer.customerCount>
@@ -274,6 +257,53 @@ Change log:
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
  </cim:LoadArea>
 
+ <cim:Name> <!--ACLineSegment-->
+  <cim:Name.name>6573456</cim:Name.name>
+  <cim:Name.IdentifiedObject rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
+  <cim:Name.NameType>companyNisId</cim:Name.NameType>
+ </cim:Name>
+
+ <cim:Name> <!--ACLineSegment-->
+  <cim:Name.name>653497324</cim:Name.name>
+  <cim:Name.IdentifiedObject rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e">
+  <cim:Name.NameType>companyNisId</cim:Name.NameType>
+ </cim:Name>
+
+ <cim:Name> <!--Breaker-->
+  <cim:Name.name>27785734</cim:Name.name>
+  <cim:Name.IdentifiedObject rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145">
+  <cim:Name.NameType>companyNisId</cim:Name.NameType>
+ </cim:Name>
+
+  <cim:Name> <!--Breaker-->
+  <cim:Name.name>6534512</cim:Name.name>
+  <cim:Name.IdentifiedObject rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4">
+  <cim:Name.NameType>companyNisId</cim:Name.NameType>
+ </cim:Name>
+
+  <cim:Name> <!--ConformLoad-->
+  <cim:Name.name>65767234</cim:Name.name>
+  <cim:Name.IdentifiedObject rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9">
+  <cim:Name.NameType>companyNisId</cim:Name.NameType>
+ </cim:Name>
+
+  <cim:Name> <!--Substation-->
+  <cim:Name.name>8345723</cim:Name.name>
+  <cim:Name.IdentifiedObject rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44">
+  <cim:Name.NameType>companyNisId</cim:Name.NameType>
+ </cim:Name>
+
+ <cim:NameType>
+  <cim:NameType.description>Unique identifier in Company NIS</cim:NameType.description>
+  <cim:NameType.name>companyNisId</cim:NameType.name>
+  <cim:NameType.NameTypeAthority>companyNis</cim:NameType.NameTypeAthority>
+ </cim:NameType>
+
+ <cim:NameTypeAuthority>
+  <cim:NameTypeAuthority.description>Network Information System made by Company</cim:NameTypeAuthority.description>
+  <cim:NameTypeAuthority.name>companyNis</cim:NameTypeAuthority.name>
+ </cim:NameTypeAuthority>
+
  <cim:OperationalLimitSet rdf:ID="_af33e871-8764-4203-af6c-1d4a1108a28a">
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 1 for AC Line Segment 1</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS1 ACLS1</cim:IdentifiedObject.name>
@@ -337,7 +367,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 3</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T3</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
@@ -348,7 +378,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 4</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04V Telemarkstien 2 T4</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
@@ -359,7 +389,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 5</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T5</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_b8a334a5-2bcb-40e6-b6c2-db906441552d"/>
@@ -370,7 +400,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 6</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T6</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4"/>
@@ -381,7 +411,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 7</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T7</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4"/>
@@ -392,7 +422,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 8</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T8</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e"/>
@@ -403,7 +433,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 9</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T9</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e"/>
@@ -414,7 +444,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 10</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T10</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9"/>
@@ -425,7 +455,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 13</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T13</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
@@ -436,7 +466,7 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 14</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 T14</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  <!--<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>--> <!--SSH-->
   <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
   <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
   <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
