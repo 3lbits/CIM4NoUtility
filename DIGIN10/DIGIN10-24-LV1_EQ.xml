@@ -13,6 +13,7 @@ Change log:
 2021-04-28: Editing names and adding missing attributes (Thomas Ranvik Eriksen)
 2021-04-28: Changed decimal from comma to dot (Thomas Ranvik Eriksen)
 2021-05-07: Added Names
+2021-05-12: Review of various classes and attributes (Helge Lund)
 -->	
 
  <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
@@ -46,6 +47,7 @@ Change log:
   <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
   <cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
   <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+  <cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_"/> <!--Feeder-Operation-->
   <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
  </cim:ACLineSegment>
 
@@ -85,10 +87,10 @@ Change log:
   <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 2</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.name>04 Telemarkstien 2 Ba2</cim:IdentifiedObject.name>
   <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-  <cim:Bay.bayEnergyMeasFlag>false</cim:Bay.bayEnergyMeasFlag>
-  <cim:Bay.bayPowerMeasFlag>false</cim:Bay.bayPowerMeasFlag>
-  <cim:Bay.breakerConfiguration></cim:Bay.breakerConfiguration>
-  <cim:Bay.busBarConfiguration></cim:Bay.busBarConfiguration>
+  <cim:Bay.bayEnergyMeasFlag>false</cim:Bay.bayEnergyMeasFlag> <!--Fjernes-->
+  <cim:Bay.bayPowerMeasFlag>false</cim:Bay.bayPowerMeasFlag> <!--Fjernes-->
+  <cim:Bay.breakerConfiguration></cim:Bay.breakerConfiguration> <!--Fjernes, legges i  backlog-->
+  <cim:Bay.busBarConfiguration></cim:Bay.busBarConfiguration> <!--Fjernes, legges i backlog-->
   <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
  </cim:Bay>
 
@@ -100,15 +102,15 @@ Change log:
   <!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
   <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
   <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-  <cim:Switch.locked>false</cim:Switch.locked>
+  <cim:Switch.locked>false</cim:Switch.locked> <!--optional SSH CGMES 3.0-->
   <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
   <!--<cim:Switch.open>false</cim:Switch.open>--> <!--SSH-->
   <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
   <cim:Switch.retained>false</cim:Switch.retained>
-  <cim:Switch.switchOnCount>100</cim:Switch.switchOnCount>
-  <cim:Switch.switchOnDate></cim:Switch.switchOnDate>
-  <cim:ProtectedSwitch.breakingCapacity>0</cim:ProtectedSwitch.breakingCapacity>
-  <cim:Breaker.inTransitTime></cim:Breaker.inTransitTime>
+  <cim:Switch.switchOnCount>100</cim:Switch.switchOnCount> <!--Må fjernes-->
+  <cim:Switch.switchOnDate></cim:Switch.switchOnDate> <!--Må fjernes-->
+  <cim:ProtectedSwitch.breakingCapacity>0</cim:ProtectedSwitch.breakingCapacity> <!--optional-->
+  <cim:Breaker.inTransitTime></cim:Breaker.inTransitTime> <!--optional-->
   <cim:Equipment.EquipmentContainer rdf:resource="#_d4067150-d743-4e1d-a48d-7a8d20de4c06"/>
   <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
  </cim:Breaker>
@@ -128,8 +130,8 @@ Change log:
   <cim:Switch.retained>false</cim:Switch.retained>
   <cim:Switch.switchOnCount>100</cim:Switch.switchOnCount>
   <cim:Switch.switchOnDate></cim:Switch.switchOnDate>
-  <cim:ProtectedSwitch.breakingCapacity>0</cim:ProtectedSwitch.breakingCapacity>
-  <cim:Breaker.inTransitTime></cim:Breaker.inTransitTime>
+  <cim:ProtectedSwitch.breakingCapacity>0</cim:ProtectedSwitch.breakingCapacity> <!--optional-->
+  <cim:Breaker.inTransitTime></cim:Breaker.inTransitTime> <!--optional-->
   <cim:Equipment.EquipmentContainer rdf:resource="#_de4c9f33-bceb-4355-afc6-c725bda819e3"/>
   <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
  </cim:Breaker>
@@ -177,9 +179,9 @@ Change log:
  </cim:ConformLoadGroup>
 
  <cim:ConnectivityNode rdf:ID="_df2ee556-3539-4772-aa10-052af1fab06f">
-  <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 2 BoundryPoint</cim:IdentifiedObject.description>
+  <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 2 BoundryPoint</cim:IdentifiedObject.description> <!--Fjernes-->
   <cim:IdentifiedObject.name>04 Telemarkstien 2 CN2 BP</cim:IdentifiedObject.name>
-  <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName> <!--fjernes-->
   <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
  </cim:ConnectivityNode>
 
@@ -212,9 +214,9 @@ Change log:
  </cim:ConnectivityNode>
 
  <cim:CurrentLimit rdf:ID="_9ff945ef-e893-4c68-b514-ff8940c01f17">
-  <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Current Limit 1</cim:IdentifiedObject.description>
-  <cim:IdentifiedObject.name>04 Telemarkstien 2 CL1</cim:IdentifiedObject.name>
-  <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+  <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Current Limit 1</cim:IdentifiedObject.description> <!--Fjernes-->
+  <cim:IdentifiedObject.name>04 Telemarkstien 2 CL1 PATL</cim:IdentifiedObject.name> <!--TATL/PATL i navnestandard-->
+  <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName> <!--Fjernes-->
   <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
   <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
   <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_13c61cd0-00fc-4017-ad7d-c22a26466ea9"/>
