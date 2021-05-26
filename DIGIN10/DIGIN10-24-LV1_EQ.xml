@@ -271,37 +271,37 @@ Change log:
 
     <cim:Name> <!--ACLineSegment-->
         <cim:Name.name>6573456</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
+        <cim:Name.IdentifiedObject rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
     <cim:Name> <!--ACLineSegment-->
         <cim:Name.name>653497324</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e">
+        <cim:Name.IdentifiedObject rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e"/>
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
     <cim:Name> <!--Breaker-->
         <cim:Name.name>27785734</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145">
+        <cim:Name.IdentifiedObject rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
     <cim:Name> <!--Breaker-->
         <cim:Name.name>6534512</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4">
+        <cim:Name.IdentifiedObject rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4"/>
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
     <cim:Name> <!--ConformLoad-->
         <cim:Name.name>65767234</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9">
+        <cim:Name.IdentifiedObject rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9"/>
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
     <cim:Name> <!--Substation-->
         <cim:Name.name>8345723</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44">
+        <cim:Name.IdentifiedObject rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44"/>
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
