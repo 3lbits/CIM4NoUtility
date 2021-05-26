@@ -2139,7 +2139,7 @@ Change log:
 <!--Lag til eksempel-->
 	<cim:Name> <!--Power Transformer-->
 		<cim:Name.name>8345723</cim:Name.name>
-		<cim:Name.IdentifiedObject rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191">
+		<cim:Name.IdentifiedObject rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Name.NameType>companyNisId</cim:Name.NameType>
 	</cim:Name>
 
