@@ -2308,14 +2308,17 @@ Change log:
 	<cim:Substation rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Engene Substation</cim:IdentifiedObject.description>
+    <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Substation>
 	<cim:Substation rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>FROLAND</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Froland Coupling Substation</cim:IdentifiedObject.description>
+    <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Substation>
 	<cim:Substation rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>T_ENGENE</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Engene T-junction</cim:IdentifiedObject.description>
+    <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Substation>
 	<cim:TapChangerControl rdf:ID="_681a2fe6-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1331</cim:IdentifiedObject.description>
