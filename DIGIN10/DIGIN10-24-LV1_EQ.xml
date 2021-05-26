@@ -12,7 +12,7 @@ Change log:
 2021-03-29: Consolidated model. Removed GeographicalRegion (Svein Olsen)
 2021-04-28: Editing names and adding missing attributes (Thomas Ranvik Eriksen)
 2021-04-28: Changed decimal from comma to dot (Thomas Ranvik Eriksen)
-2021-05-07: Added Names
+2021-05-07: Added Names (Thomas Ranvik Eriksen)
 2021-05-12: Review of various classes and attributes (Helge Lund)
 -->	
 
