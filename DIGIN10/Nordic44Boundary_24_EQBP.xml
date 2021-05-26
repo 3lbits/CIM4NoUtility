@@ -194,27 +194,26 @@ Change log:
 		<cim:IdentifiedObject.description>Secondary Substation Nedenes</cim:IdentifiedObject.description>
 	</cim:Substation>
 
+	<cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NEDENES 0400</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
+		<cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
+	</cim:VoltageLevel>
 
- <cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
-  <cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
-  <cim:IdentifiedObject.name>NEDENES 0400</cim:IdentifiedObject.name>
-  <cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
-  <cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
- </cim:VoltageLevel>
-
-  <cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
-    <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191" />
-    <entsoe:ConnectivityNode.boundaryPoint>true</entsoe:ConnectivityNode.boundaryPoint>
-    <entsoe:ConnectivityNode.fromEndIsoCode>NO</entsoe:ConnectivityNode.fromEndIsoCode>
-    <entsoe:ConnectivityNode.fromEndName>Nedenes</entsoe:ConnectivityNode.fromEndName>
-    <entsoe:ConnectivityNode.fromEndNameTso>DSO1</entsoe:ConnectivityNode.fromEndNameTso>
-    <entsoe:ConnectivityNode.toEndIsoCode>NO</entsoe:ConnectivityNode.toEndIsoCode>
-    <entsoe:ConnectivityNode.toEndName>Nedenes</entsoe:ConnectivityNode.toEndName>
-    <entsoe:ConnectivityNode.toEndNameTso>DSO2</entsoe:ConnectivityNode.toEndNameTso>
-    <cim:IdentifiedObject.description>Secondary side of transformer Nedenes T1</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
-    <entsoe:IdentifiedObject.shortName>XNED1_XNED2</entsoe:IdentifiedObject.shortName>
-  </cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
+		<cim:IdentifiedObject.description>Secondary side of transformer Nedenes T1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>XNED1_XNED2</entsoe:IdentifiedObject.shortName>
+		<entsoe:ConnectivityNode.boundaryPoint>true</entsoe:ConnectivityNode.boundaryPoint>
+		<entsoe:ConnectivityNode.fromEndIsoCode>NO</entsoe:ConnectivityNode.fromEndIsoCode>
+		<entsoe:ConnectivityNode.fromEndName>Nedenes</entsoe:ConnectivityNode.fromEndName>
+		<entsoe:ConnectivityNode.fromEndNameTso>DSO1</entsoe:ConnectivityNode.fromEndNameTso>
+		<entsoe:ConnectivityNode.toEndIsoCode>NO</entsoe:ConnectivityNode.toEndIsoCode>
+		<entsoe:ConnectivityNode.toEndName>Nedenes</entsoe:ConnectivityNode.toEndName>
+		<entsoe:ConnectivityNode.toEndNameTso>DSO2</entsoe:ConnectivityNode.toEndNameTso>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+	</cim:ConnectivityNode>
  
  <!-- 
 	BoundaryPoints to High Voltage (Nordic44)
@@ -235,17 +234,15 @@ Change log:
 	<cim:ConnectivityNode rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c">
 		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:IdentifiedObject.name>XARE1_XARE2 CN</cim:IdentifiedObject.name>
-		
-
-    <entsoe:ConnectivityNode.boundaryPoint>true</entsoe:ConnectivityNode.boundaryPoint>
-    <entsoe:ConnectivityNode.fromEndIsoCode>NO</entsoe:ConnectivityNode.fromEndIsoCode>
-    <entsoe:ConnectivityNode.fromEndName>ARENDAL</entsoe:ConnectivityNode.fromEndName>
-    <entsoe:ConnectivityNode.fromEndNameTso>TSO1</entsoe:ConnectivityNode.fromEndNameTso>
-    <entsoe:ConnectivityNode.toEndIsoCode>NO</entsoe:ConnectivityNode.toEndIsoCode>
-    <entsoe:ConnectivityNode.toEndName>ARENDAL</entsoe:ConnectivityNode.toEndName>
-    <entsoe:ConnectivityNode.toEndNameTso>DSO1</entsoe:ConnectivityNode.toEndNameTso>
-    <cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
-    <entsoe:IdentifiedObject.shortName>XARE1_XARE2</entsoe:IdentifiedObject.shortName>
+		<entsoe:ConnectivityNode.boundaryPoint>true</entsoe:ConnectivityNode.boundaryPoint>
+		<entsoe:ConnectivityNode.fromEndIsoCode>NO</entsoe:ConnectivityNode.fromEndIsoCode>
+		<entsoe:ConnectivityNode.fromEndName>ARENDAL</entsoe:ConnectivityNode.fromEndName>
+		<entsoe:ConnectivityNode.fromEndNameTso>TSO1</entsoe:ConnectivityNode.fromEndNameTso>
+		<entsoe:ConnectivityNode.toEndIsoCode>NO</entsoe:ConnectivityNode.toEndIsoCode>
+		<entsoe:ConnectivityNode.toEndName>ARENDAL</entsoe:ConnectivityNode.toEndName>
+		<entsoe:ConnectivityNode.toEndNameTso>DSO1</entsoe:ConnectivityNode.toEndNameTso>
+		<cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>XARE1_XARE2</entsoe:IdentifiedObject.shortName>
 	</cim:ConnectivityNode>
 
 </rdf:RDF>
