@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!-- Exported from CIMSpy/CIMdesk at 2021-05-28T12:51:27Z. -->
+   <dm:DifferenceModel rdf:about="">
+      <dm:reverseDifferences rdf:parseType="Statements">
+         <rdf:Description rdf:about="#_681a2fd5-5a55-11eb-a658-74e5f963e191">
+            <cim:TapChanger.TapChangerControl rdf:resource="#_681a2fd4-5a55-11eb-a658-74e5f963e191"/>
+         </rdf:Description>
+         <rdf:Description rdf:about="#_681a2fe7-5a55-11eb-a658-74e5f963e191">
+            <cim:TapChanger.TapChangerControl rdf:resource="#_681a2fe6-5a55-11eb-a658-74e5f963e191"/>
+         </rdf:Description>
+         <rdf:Description rdf:about="#_681a323d-5a55-11eb-a658-74e5f963e191">
+            <cim:RegulatingCondEq.RegulatingControl rdf:resource="#_92d33c00-7034-11eb-a65a-74e5f963e191"/>
+         </rdf:Description>
+         <cim:Terminal rdf:ID="_4ea6e9ee-1626-4119-9f7e-9b13f88c401b">
+            <cim:IdentifiedObject.name>T_ENGENE 132 CN 001 T</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_4fbbd35b-85d2-4136-8ce4-287f14831764"/>
+         </cim:Terminal>
+         <cim:RegulatingControl rdf:ID="_681a261f-5a55-11eb-a658-74e5f963e191">
+            <cim:IdentifiedObject.name>ARENDAL  420 RC1</cim:IdentifiedObject.name>
+            <cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+            <cim:RegulatingControl.Terminal rdf:resource="#_92d33b4d-7034-11eb-a65a-74e5f963e191"/>
+            <cim:IdentifiedObject.description>1331</cim:IdentifiedObject.description>
+         </cim:RegulatingControl>
+         <cim:TapChangerControl rdf:ID="_681a2fd4-5a55-11eb-a658-74e5f963e191">
+            <cim:IdentifiedObject.description>1095</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>ENGENE NT10 P</cim:IdentifiedObject.name>
+            <cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+            <cim:RegulatingControl.Terminal rdf:resource="#_92d33b45-7034-11eb-a65a-74e5f963e191"/>
+         </cim:TapChangerControl>
+         <cim:TapChangerControl rdf:ID="_681a2fe6-5a55-11eb-a658-74e5f963e191">
+            <cim:IdentifiedObject.description>1331</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>ARENDAL  T1 P</cim:IdentifiedObject.name>
+            <cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+            <cim:RegulatingControl.Terminal rdf:resource="#_92d33b4d-7034-11eb-a65a-74e5f963e191"/>
+         </cim:TapChangerControl>
+         <cim:Terminal rdf:ID="_92d33b33-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>NS1-LINJE</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_92d33b34-7034-11eb-a65a-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b41-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-AVG</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e24-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b42-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>LINJE-ENGENE</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e2b-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b45-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-22SP1TA</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e4b-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b46-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-22SP1TB</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e53-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b47-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-22SP1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e5a-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b49-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ARENDALT1A</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e6a-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b4b-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ARENDAL132T1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e78-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b4c-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>AREN132T1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e80-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b4d-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ARENDAL420T1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e88-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b4f-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>AREN132-SP1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e91-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b53-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENGENE22T1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a2154-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b54-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-22-T1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a215b-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b56-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-22-QB</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a2169-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b59-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>ENG-22-NT1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a2187-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b5c-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>NS1-0.400SI</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a21fd-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b5d-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>KUNDE1</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+         </cim:Terminal>
+         <cim:Terminal rdf:ID="_92d33b60-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.description>AREN-BAMBL</cim:IdentifiedObject.description>
+            <cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a245d-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+         <cim:RegulatingControl rdf:ID="_92d33c00-7034-11eb-a65a-74e5f963e191">
+            <cim:IdentifiedObject.name>ENGENE 22 SHUNT BATTERY RC1</cim:IdentifiedObject.name>
+            <cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+            <cim:RegulatingControl.Terminal rdf:resource="#_92d33b56-7034-11eb-a65a-74e5f963e191"/>
+            <cim:IdentifiedObject.description>3868</cim:IdentifiedObject.description>
+         </cim:RegulatingControl>
+         <cim:Terminal rdf:ID="_ac86c0db-6f9a-4684-b584-a66cad2c5013">
+            <cim:Terminal.ConnectivityNode rdf:resource="#_681a2154-5a55-11eb-a658-74e5f963e191"/>
+         </cim:Terminal>
+      </dm:reverseDifferences>
+      <dm:forwardDifferences rdf:parseType="Statements">
+         <rdf:Description rdf:about="#_681a2fe0-5a55-11eb-a658-74e5f963e191">
+            <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+         </rdf:Description>
+         <rdf:Description rdf:about="#_681a2fea-5a55-11eb-a658-74e5f963e191">
+            <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
+         </rdf:Description>
+         <rdf:Description rdf:about="#_681a308a-5a55-11eb-a658-74e5f963e191">
+            <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
+         </rdf:Description>
+      </dm:forwardDifferences>
+   </dm:DifferenceModel>
+</rdf:RDF>

@@ -1,179 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
-	xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" 
-	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	
-<!-- 
-Change log:
-2021-03-12: Inital Version
-2021-03-24: Updated to alighen with boundary model and removed item that is located in Nordic44.
-			Did some renaming.
-2021-04-28: Updated version and line. Some clean up (Svein Olsen)
-2021-04-28: Updated naming (Geir Abusdal)
-2021-05-12: Review of various classes and attributes (Helge Lund)
--->
-
-	<md:FullModel rdf:about="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16">
-		<md:Model.created>2021-02-24T20:55:46.000Z</md:Model.created>
-		<md:Model.scenarioTime>2021-02-13T20:54:27Z</md:Model.scenarioTime>
-		<md:Model.description>DIGIN10 Medium Voltage EQ Test model.</md:Model.description>
-		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!-- Exported from CIMSpy/CIMdesk on 2021-05-28T12:52:48Z. -->
+	<md:FullModel rdf:about="urn:uuid:">
+		<md:Model.created>2021-05-28T12:52:48Z</md:Model.created>
+		<md:Model.description>Partitioned by CIMdesk/CIMSpy from DIGIN10-24-MV1_EQ</md:Model.description>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
-		<!--<md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>-->
-		<md:Model.version>01v09</md:Model.version>		
-		<!-- Dependent reference to Boundary EQ -->
-		<md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
 	</md:FullModel>
-
-	<!--Sjekket-->
 	<cim:ACLineSegment rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>132 ARENDAL-ENGENE 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132ARENDAL-ENGENE 1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>132ARENDAL-ENGENE 1</cim:IdentifiedObject.aliasName> <!--Optional-->
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->
-		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.bch>0.00008017679647309706</cim:ACLineSegment.bch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+		<cim:ACLineSegment.bch>0.00008017679647309706</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>1.9480031728744507</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.x>10.52932357788086</cim:ACLineSegment.x>		
-		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_"/> <!--Feeder-Operation-->		
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
+		<cim:ACLineSegment.x>10.52932357788086</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
-
 	<cim:ACLineSegment rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>132 ARENDAL-FROLAND1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132ARENDAL-FROLAND1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>132ARENDAL-FROLAND1</cim:IdentifiedObject.aliasName> <!--Optional-->
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->
 		<cim:Conductor.length>0.5860000252723694</cim:Conductor.length>
-		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>0.17579999566078186</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
 		<cim:ACLineSegment.x>0.03519999980926514</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>132 T-Engene Engene 1 line 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132T_ENGENE-ENGENE 1 1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>132T_ENGENE-ENGENE 1 1</cim:IdentifiedObject.aliasName> <!--Optional-->
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->		
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->
-		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.bch>0.000007633099812665023</cim:ACLineSegment.bch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+		<cim:ACLineSegment.bch>0.000007633099812665023</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>0.32408639788627625</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
 		<cim:ACLineSegment.x>1.0837727785110474</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>132 T-Engene Engene 1 line 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132T_ENGENE-ENGENE 1 2</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>132T_ENGENE-ENGENE 1 2</cim:IdentifiedObject.aliasName> <!--Optional-->
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->		
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->		
-		<cim:ACLineSegment.bch>0.0000616390971117653</cim:ACLineSegment.bch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.bch>0.0000616390971117653</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>0.01568160019814968</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
 		<cim:ACLineSegment.x>0.09408959746360779</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
-	</cim:ACLineSegment>
-	<cim:ACLineSegment rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>22 ENGENE-ZT1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>22ENGENE-ZT1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>22ENGENE-ZT1</cim:IdentifiedObject.aliasName> <!--Optional-->
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->		
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->				
-		<cim:ACLineSegment.bch>0.000002066100023512263</cim:ACLineSegment.bch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.r>0.007356800138950348</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.x>0.0027588000521063805</cim:ACLineSegment.x>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
-	</cim:ACLineSegment>
-	<cim:ACLineSegment rdf:ID="_681a26db-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>22 ZT1-EFC 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>22ZT1-EFC 1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>22ZT1-EFC 1</cim:IdentifiedObject.aliasName> <!--Optional-->
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->				
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->
-		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.r>0.0019359999569132924</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.x>0.0007259999983943999</cim:ACLineSegment.x>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
-	</cim:ACLineSegment>
-	<cim:ACLineSegment rdf:ID="_681a2df3-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>5013 1331 &apos;1 &apos;</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>5013_1331_1 420kV</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>5013_1331_1 420kV</cim:IdentifiedObject.aliasName> <!--Optional-->
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->		
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->								
-		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>  <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.r>0.017640000209212303</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.x>0.017640000209212303</cim:ACLineSegment.x>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>22 Engene Nedenes 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22ENGENE-NEDENES1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>5013_1331_1 420kV</cim:IdentifiedObject.aliasName> <!--Optional-->
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->				
 		<cim:Conductor.length>0.5</cim:Conductor.length>
-		<cim:ACLineSegment.bch>0.00006818179826950654</cim:ACLineSegment.bch>  <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1--> 	
+		<cim:ACLineSegment.bch>0.00006818179826950654</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>0.023522399365901947</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
 		<cim:ACLineSegment.x>0.04501200094819069</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
@@ -181,93 +89,165 @@ Change log:
 		<cim:IdentifiedObject.description>22 Engene Transformer 1 Cable 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22ENGENE-T1 1 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->						
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->								
-		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>  <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>0.00014519999967887998</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
 		<cim:ACLineSegment.x>0.0003387999895494431</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a13-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>22 Engene Transformer 1 Cable 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22ENGENE-T1 1 2</cim:IdentifiedObject.name>
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>		
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->						
-		<cim:Conductor.length>0</cim:Conductor.length> <!--Missing length-->								
-		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>  <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1--> <!--Stemmer dette???-->
-		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
 		<cim:ACLineSegment.r>0.00014519999967887998</cim:ACLineSegment.r>
-		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
-  		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0> <!--Mandatory IF http://entsoe.eu/CIM/EquipmentShortCircuit/3/1-->
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
 		<cim:ACLineSegment.x>0.0003387999895494431</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
-
-	<!--Legg inn eksempel, må legges til i DSO utvidelse-->
-	<cim:Feeder>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>		
-		<cim:IdentifiedObject.description>Engene 22 Nedenes 1 Feeder</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name></cim:IdentifiedObject.name>		
-	</cim:Feeder>
-
+	<cim:ACLineSegment rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>22 ENGENE-ZT1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22ENGENE-ZT1</cim:IdentifiedObject.name>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.bch>0.000002066100023512263</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
+		<cim:ACLineSegment.r>0.007356800138950348</cim:ACLineSegment.r>
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
+		<cim:ACLineSegment.x>0.0027588000521063805</cim:ACLineSegment.x>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:ID="_681a26db-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>22 ZT1-EFC 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22ZT1-EFC 1</cim:IdentifiedObject.name>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
+		<cim:ACLineSegment.r>0.0019359999569132924</cim:ACLineSegment.r>
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
+		<cim:ACLineSegment.x>0.0007259999983943999</cim:ACLineSegment.x>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:ID="_681a2df3-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>5013 1331 &apos;1 &apos;</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>5013_1331_1 420kV</cim:IdentifiedObject.name>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
+		<cim:ACLineSegment.r>0.017640000209212303</cim:ACLineSegment.r>
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
+		<cim:ACLineSegment.x>0.017640000209212303</cim:ACLineSegment.x>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:ACLineSegment>
+	<cim:BaseVoltage rdf:ID="_92d33b38-7034-11eb-a65a-74e5f963e191">
+		<cim:IdentifiedObject.description>Base Voltage 22 kV</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>22</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>22kV</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>22</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_06d3126a-8b34-4101-b800-c09ec42275a9">
+		<cim:IdentifiedObject.description>Base Voltage 1000 V</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>1</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-1000V</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>1</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_2dd90174-bdfb-11e5-94fa-c8f73332c8f4">
+		<cim:IdentifiedObject.description>Base Voltage 132 kV</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>132</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-132kV</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>132</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_830622e6-d259-4526-b14e-122d94a622a4">
+		<cim:IdentifiedObject.description>Base Voltage 230 V</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>0.23</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-230V</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>0.230</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_2dd90169-bdfb-11e5-94fa-c8f73332c8f4">
+		<cim:IdentifiedObject.description>Base Voltage 300 kV</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>300</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-300kV</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>300</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_9598e4a0-67e5-4ad7-879c-c85a1f63159c">
+		<cim:IdentifiedObject.description>Base Voltage 400 V</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>0.4</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-400V</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>0.400</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_2dd90159-bdfb-11e5-94fa-c8f73332c8f4">
+		<cim:IdentifiedObject.description>Base Voltage 420 kV</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>420</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-420kV</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>420</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
+	<cim:BaseVoltage rdf:ID="_fb384693-5e5b-4432-a281-1c7b206f652e">
+		<cim:IdentifiedObject.description>Base Voltage 690 V</cim:IdentifiedObject.description>
+		<cim:BaseVoltage.nominalVoltage>0.690</cim:BaseVoltage.nominalVoltage>
+		<cim:IdentifiedObject.name>AC-690V</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>0.690</entsoe:IdentifiedObject.shortName>
+	</cim:BaseVoltage>
 	<cim:Bay rdf:ID="_9b11eb79-4938-451f-84cd-8d2be79a03e9">
 		<cim:IdentifiedObject.description>Engene 22 Nedenes 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE   22NE1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_29ace056-c4e8-46ea-8935-38f32ddbee49">
 		<cim:IdentifiedObject.description>Engene 22 Transformer 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE   22T1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_b8f0ccb7-db0a-41bf-b6a7-5075397e729c">
 		<cim:IdentifiedObject.description>Engene 132 Transformer 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE  132T1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_5b299df4-d232-4348-9d1e-096f6d10fb5a">
 		<cim:IdentifiedObject.description>Engene 22 Shunt Compensator 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE  22SC1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_4ef626b9-586b-4845-80eb-6a008766c8f5">
 		<cim:IdentifiedObject.description>Engene 22 ZT1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE  22ZT1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b">
 		<cim:IdentifiedObject.description>Froland 132 Arendal 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132AR1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_f2b5acf1-6067-4d18-9d75-ea1611013a3d">
 		<cim:IdentifiedObject.description>Froland 132 Bamble 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132BA1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_12c2570d-d7d8-445b-865d-eb981c7603de">
 		<cim:IdentifiedObject.description>Froland 132 Engene 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132EN1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
-<!-- sjekk -->
 	<cim:Bay rdf:ID="_3d51330c-7528-4efb-8edc-e61dcc145ac4">
 		<cim:IdentifiedObject.description>Nedenes 22 Low Voltage Cable 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>NEDENES  22LC1</cim:IdentifiedObject.name>
@@ -278,7 +258,6 @@ Change log:
 		<cim:IdentifiedObject.name>NEDENES  22T1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Bay>
-<!-- sjekk _S bak breaker??-->
 	<cim:Breaker rdf:ID="_48668646-105a-490d-aaad-3259b852aa23">
 		<cim:IdentifiedObject.description>Arendal 132 Trafo 1 Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL 132 T1E</cim:IdentifiedObject.name>
@@ -288,23 +267,14 @@ Change log:
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
-	<!--Master for CIM:Breaker-->
 	<cim:Breaker rdf:ID="_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73">
 		<cim:IdentifiedObject.description>Arendal 132 Peterson coil 1 Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL 132 T1SP1E</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->		
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
-  		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-  		<cim:Switch.locked>false</cim:Switch.locked> <!--optional SSH CGMES 3.0-->
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<!--<cim:Switch.open>false</cim:Switch.open>--> <!--SSH-->
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<cim:ProtectedSwitch.breakingCapacity>0</cim:ProtectedSwitch.breakingCapacity> <!--optional-->
-  		<cim:Breaker.inTransitTime></cim:Breaker.inTransitTime> <!--optional-->
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_d4afd20b-a007-43f0-9736-4a868c4cc65a">
 		<cim:IdentifiedObject.description>Engene 132 T1 Breaker</cim:IdentifiedObject.description>
@@ -314,7 +284,6 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<!-- Mangler BaseVoltage?-->		
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_12156bb5-7a82-4e95-8ea4-2ff8573133fe">
 		<cim:IdentifiedObject.description>Engene 22 Nedenes 1 Breaker</cim:IdentifiedObject.description>
@@ -324,7 +293,7 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>				
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_808643b7-4e47-4faa-b906-999d0f1fe32b">
 		<cim:IdentifiedObject.description>Engene 22 NT10 Breaker</cim:IdentifiedObject.description>
@@ -364,7 +333,6 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<!-- Mangler BaseVoltage?-->		
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_2714d85d-92e7-4f88-a488-f39e782a6298">
 		<cim:IdentifiedObject.description>Froland 132 Bamble 1 Breaker</cim:IdentifiedObject.description>
@@ -374,7 +342,6 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<!-- Mangler BaseVoltage?-->		
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_2fb546e7-9e06-4356-a3ad-7e3756c34f6a">
 		<cim:IdentifiedObject.description>Froland 132 Engene 1 Breaker L</cim:IdentifiedObject.description>
@@ -384,20 +351,13 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<!-- Mangler BaseVoltage?-->		
 	</cim:Breaker>
-	<!--BusbarSection gjennomgått-->
 	<cim:BusbarSection rdf:ID="_681a1eac-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>AREN-BAM</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>AREN-BAM</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>		
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
-  		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
-		<!--Legg inn Base Voltage-->
-		<!--Base voltage optional-->
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_681a1e60-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Arendal 132 A Busbar section 1</cim:IdentifiedObject.description>
@@ -429,8 +389,20 @@ Change log:
 		<cim:IdentifiedObject.name>T_ENGENE 132 A</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:BusbarSection>
+	<cim:ConnectivityNode rdf:ID="_24f48aa3-6aee-4097-8d7c-a7c1d1bbb7d8">
+		<cim:IdentifiedObject.name>??? CN 001</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_bac2f946-e2eb-427f-acad-a7cd55f8368b">
+		<cim:IdentifiedObject.name>??? CN 002</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_ef3236fe-85a7-4409-a9a8-a34c0a627665">
+		<cim:IdentifiedObject.name>??? CN 003</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
+	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a245d-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>ARENDAL CN 001</cim:IdentifiedObject.name>				
+		<cim:IdentifiedObject.name>ARENDAL CN 001</cim:IdentifiedObject.name>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_5c8c33a5-5326-4f43-941e-4a624ef9b0d3">
 		<cim:IdentifiedObject.name>ARENDAL CN 002</cim:IdentifiedObject.name>
@@ -557,34 +529,10 @@ Change log:
 		<cim:IdentifiedObject.name>ENGENE CN 021</cim:IdentifiedObject.name>
 		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_90167ea1-93e2-4895-b2a8-0813b51d2d73">
-		<cim:IdentifiedObject.name>T_ENGENE CN 001</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
+	<cim:ConnectivityNode rdf:ID="_92d33b34-7034-11eb-a65a-74e5f963e191">
+		<cim:IdentifiedObject.name>ENGENE-NEDENES CN 001</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_4be26e87-097c-4e3e-bf52-d95ca89261a6">
-		<cim:IdentifiedObject.name>T_ENGENE CN 002</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_83522891-487f-43ec-ad0a-17ba5015df32">
-		<cim:IdentifiedObject.name>T_ENGENE CN 003</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_4fbbd35b-85d2-4136-8ce4-287f14831764">
-		<cim:IdentifiedObject.name>T_ENGENE CN 004</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2">
-		<cim:IdentifiedObject.name>T_ENGENE CN 005</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_681a1e43-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>T_ENGENE CN 006</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>	
-	<cim:ConnectivityNode rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>T_ENGENE-ENGENE CN 001</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>	
 	<cim:ConnectivityNode rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0">
 		<cim:IdentifiedObject.name>FROLAND CN001</cim:IdentifiedObject.name>
 		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
@@ -637,1203 +585,1204 @@ Change log:
 		<cim:IdentifiedObject.name>NEDENES CN 004</cim:IdentifiedObject.name>
 		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_92d33b34-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.name>ENGENE-NEDENES CN 001</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
+	<cim:ConnectivityNode rdf:ID="_90167ea1-93e2-4895-b2a8-0813b51d2d73">
+		<cim:IdentifiedObject.name>T_ENGENE CN 001</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-<!-- Sjekk -->	
-	<cim:ConnectivityNode rdf:ID="_24f48aa3-6aee-4097-8d7c-a7c1d1bbb7d8">
-		<cim:IdentifiedObject.name>??? CN 001</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
+	<cim:ConnectivityNode rdf:ID="_4be26e87-097c-4e3e-bf52-d95ca89261a6">
+		<cim:IdentifiedObject.name>T_ENGENE CN 002</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_bac2f946-e2eb-427f-acad-a7cd55f8368b">
-		<cim:IdentifiedObject.name>??? CN 002</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
+	<cim:ConnectivityNode rdf:ID="_83522891-487f-43ec-ad0a-17ba5015df32">
+		<cim:IdentifiedObject.name>T_ENGENE CN 003</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:ID="_ef3236fe-85a7-4409-a9a8-a34c0a627665">
-		<cim:IdentifiedObject.name>??? CN 003</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
+	<cim:ConnectivityNode rdf:ID="_4fbbd35b-85d2-4136-8ce4-287f14831764">
+		<cim:IdentifiedObject.name>T_ENGENE CN 004</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ControlArea rdf:ID="_681a1dd5-5a55-11eb-a658-74e5f963e191"> <!--Kun i MV-->
+	<cim:ConnectivityNode rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2">
+		<cim:IdentifiedObject.name>T_ENGENE CN 005</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_681a1e43-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.name>T_ENGENE CN 006</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.name>T_ENGENE-ENGENE CN 001</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c">
+		<cim:IdentifiedObject.name>XARE1_XARE2 CN</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+		<cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>XARE1_XARE2</entsoe:IdentifiedObject.shortName>
+	</cim:ConnectivityNode>
+	<cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
+		<cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.description>Secondary side of transformer Nedenes T1</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>XNED1_XNED2</entsoe:IdentifiedObject.shortName>
+	</cim:ConnectivityNode>
+	<cim:ControlArea rdf:ID="_681a1dd5-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>DSO1 CA 1</cim:IdentifiedObject.name>
 		<cim:ControlArea.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#ControlAreaTypeKind.Interchange"/>
 		<cim:ControlArea.EnergyArea rdf:resource="#_92d33b39-7034-11eb-a65a-74e5f963e191"/>
 		<cim:IdentifiedObject.description>DSO 1 ControlArea 1</cim:IdentifiedObject.description>
 	</cim:ControlArea>
-
-	<!--CurrentLimit Sjekket ferdig-->
-	<cim:CurrentLimit rdf:ID="_681a2df8-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>RATEA PATL</cim:IdentifiedObject.name> <!--TATL/PATL i navnestandard-->
-		<cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>  		
-		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>  
-		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2df7-5a55-11eb-a658-74e5f963e191"/>
-		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>		
-	</cim:CurrentLimit>
-
 	<cim:CurrentLimit rdf:ID="_681a26f0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26ef-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a272c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a272b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2684-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2683-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26d8-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a60-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a5f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a34-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a33-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2704-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2703-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a1c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a1b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a268c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a268b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a84-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a83-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a64-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a63-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2738-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2737-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26fc-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26fb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2680-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2678-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a28-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a27-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a88-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a87-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a308c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>109.34664154052734</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a308b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>109.34664154052734</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2698-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2dfc-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2dfb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a271c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a271b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26f8-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26f7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a3c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a3b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26c0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26bf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a274c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a274b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2710-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a270f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a30-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a2f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26d4-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bdd-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bdc-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2728-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2727-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2750-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a274f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd5-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2708-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2707-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2714-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2713-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33be1-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be0-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e4-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26e3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33ba2-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33ba1-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26df-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2734-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2733-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd1-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd0-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fec-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1312.15966796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2feb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1312.15966796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a40-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a3f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26bc-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26bb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2720-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a271f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33be9-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be8-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a18-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bed-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bec-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2690-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a268f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33b9e-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a3096-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a3095-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fda-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fd9-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fe2-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fe1-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fd0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fcf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a24-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a23-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26ec-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEA</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26eb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
+	</cim:CurrentLimit>
+	<cim:CurrentLimit rdf:ID="_681a2df8-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.name>RATEA PATL</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
+		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2df7-5a55-11eb-a658-74e5f963e191"/>
+		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2715-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2713-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2df9-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2df7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26bd-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26bb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a1d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a1b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2751-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a274f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a89-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a87-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bea-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be8-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2739-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2737-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a25-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a23-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a274d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a274b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26d9-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a31-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a2f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2dfd-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2dfb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2735-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2733-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd2-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd0-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2681-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2678-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a308d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>109.34664154052734</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a308b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>109.34664154052734</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a35-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a33-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26f1-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26ef-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fed-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1312.15966796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2feb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1312.15966796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd6-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26f9-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26f7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a41-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a3f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2699-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2721-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a271f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33be2-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be0-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fe3-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fe1-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a85-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a83-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2729-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2727-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26d5-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33ba3-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33ba1-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2709-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2707-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e5-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26e3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a61-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a5f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a29-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a27-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fdb-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fd9-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a271d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a271b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33b9f-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a268d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a268b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fd1-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fcf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a19-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26c1-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26bf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a272d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a272b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bde-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bdc-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26ed-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26eb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26fd-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26fb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2705-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2703-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bee-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bec-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2711-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a270f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a3d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a3b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a3097-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a3095-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e1-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26df-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2691-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a268f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a65-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a63-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2685-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEB</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2683-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33be3-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be0-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fdc-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fd9-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2dfe-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2dfb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a2a-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>		
+		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a27-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fee-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1312.15966796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2feb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1312.15966796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a62-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a5f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2712-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a270f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a32-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a2f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a272a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2727-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2736-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2733-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fd2-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fcf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a273a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2737-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a66-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a63-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>399.9462890625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fe4-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fe1-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2706-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2703-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e2-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26df-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a3098-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a3095-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33ba4-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33ba1-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26f2-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26ef-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a271e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a271b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bef-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bec-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26da-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a1a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2722-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a271f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>3999.987548828125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26fa-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26f7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a308e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>109.34664154052734</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a308b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>109.34664154052734</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2dfa-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2df7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.99908447265625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd7-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd3-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd0-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a1e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a1b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33ba0-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26ee-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26eb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a272e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a272b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e6-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26e3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26c2-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26bf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2682-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2678-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2686-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2683-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2692-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a268f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26d6-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a36-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a33-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>599.91943359375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33beb-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be8-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2752-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a274f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a274e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a274b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>2500.01416015625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a3e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a3b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a270a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2707-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1969.9891357421875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26be-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26bb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a26-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a23-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1000.1281127929688</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2716-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2713-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>999.9968872070312</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a42-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a3f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>499.932861328125</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a86-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a83-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a8a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a87-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bdf-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bdc-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>630.0990600585938</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26fe-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26fb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1999.9937744140625</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a268e-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>RATEC</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a268b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
-		<cim:CurrentLimit.value>1600.0037841796875</cim:CurrentLimit.value>
 	</cim:CurrentLimit>
-	
-<!---->
 	<cim:Disconnector rdf:ID="_a8afc199-8a20-41d8-8ada-5261202610eb">
 		<cim:IdentifiedObject.description>Arendal 132 T1 S Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL 132 T1 SD_S</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->		
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
-  		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-  		<cim:Switch.locked>false</cim:Switch.locked> <!--optional SSH CGMES 3.0-->
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<!--<cim:Switch.open>false</cim:Switch.open>--> <!--SSH-->
 		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
-		<!--Legg inn BaseVoltage på alle conducting equipment - OPTIONAL-->		
-	</cim:Disconnector>
-
-	<cim:Disconnector rdf:ID="_feda8daa-a08a-4ade-b1e0-028542035a2b">
-		<cim:IdentifiedObject.description>T_Engene 132 A Disconnector </cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T_ENGENE 132 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
-		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_3c5f8a16-b746-4950-a896-29a52ebb1d4e">
 		<cim:IdentifiedObject.description>Engene 132 T_Engene A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 132 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7">
 		<cim:IdentifiedObject.description>Engene 132 Transformer 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 132 T1 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3">
 		<cim:IdentifiedObject.description>Engene 22 Nedenes 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 22 N1 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_9b11eb79-4938-451f-84cd-8d2be79a03e9"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_9b11eb79-4938-451f-84cd-8d2be79a03e9"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_57b1462c-259c-426b-86f9-f6f6f2af9c5c">
 		<cim:IdentifiedObject.description>Engene 22 Neutral Transformer 10 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 22 NT10 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_b8b9b131-6eb7-41c7-899e-7003960b1a5f">
 		<cim:IdentifiedObject.description>Engene 22 Shunt battery A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 22 SB AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_5b299df4-d232-4348-9d1e-096f6d10fb5a"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_5b299df4-d232-4348-9d1e-096f6d10fb5a"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_842aed4c-0828-4e7a-babc-ce724633a43d">
 		<cim:IdentifiedObject.description>Engene 22 Transformer 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 22T1 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_29ace056-c4e8-46ea-8935-38f32ddbee49"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_29ace056-c4e8-46ea-8935-38f32ddbee49"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_fd338915-3831-4cc5-8c55-af2b4c1c2bb8">
 		<cim:IdentifiedObject.description>Froland 132 Arendal 1 A Disconnector </cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132 AR1 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_41e0788e-9dc5-4bf0-862b-f2a99e421602">
 		<cim:IdentifiedObject.description>Froland 132 Arendal 1 L Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132 AR1 LD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_e63a5023-05b9-4adf-bafd-a372b751a6ed">
 		<cim:IdentifiedObject.description>Froland 132 Bamble 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_411847e0-02b3-49df-951a-f1cf780f4738">
 		<cim:IdentifiedObject.description>Froland 132 Bamble 1 L Disconnector L</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 LD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_1ac100c3-7a71-4b22-b32c-47fd73c3d01a">
 		<cim:IdentifiedObject.description>Froland 132 Engene 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132 EN1 AD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_75f12fd9-2057-4b79-9f19-73736a0f2a6d">
 		<cim:IdentifiedObject.description>Froland 132 Engene 1 L Disconnector </cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132 EN1 LD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
+	</cim:Disconnector>
+	<cim:Disconnector rdf:ID="_feda8daa-a08a-4ade-b1e0-028542035a2b">
+		<cim:IdentifiedObject.description>T_Engene 132 A Disconnector </cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>T_ENGENE 132 AD_S</cim:IdentifiedObject.name>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_652e1c63-50b0-4f5a-b88d-8f814a0cda4d">
 		<cim:IdentifiedObject.description>T_ENGENE 132 Engene 1 L Disconnector </cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>T_ENGENE 132 EN1 LD_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
-	<!--Sjekket cim:EquivalentInjection-->
 	<cim:EquivalentInjection rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802">
 		<cim:IdentifiedObject.name>ARENDAL 420 TM EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>ARENDAL 420 Transmission Equivalent</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  		<!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
-  		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
-  		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-		<cim:EquivalentInjection.maxP></cim:EquivalentInjection.maxP>		
-		<cim:EquivalentInjection.maxQ></cim:EquivalentInjection.maxQ>		
-		<cim:EquivalentInjection.minP></cim:EquivalentInjection.minP>		
-		<cim:EquivalentInjection.minQ></cim:EquivalentInjection.minQ>		
+		<cim:EquivalentInjection.maxP></cim:EquivalentInjection.maxP>
+		<cim:EquivalentInjection.maxQ></cim:EquivalentInjection.maxQ>
+		<cim:EquivalentInjection.minP></cim:EquivalentInjection.minP>
+		<cim:EquivalentInjection.minQ></cim:EquivalentInjection.minQ>
 		<cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
 		<cim:EquivalentInjection.r0>2.86738</cim:EquivalentInjection.r0>
 		<cim:EquivalentInjection.r2>0.43445</cim:EquivalentInjection.r2>
-		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability> <!--SSH-->
+		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
 		<cim:EquivalentInjection.x0>14.3369</cim:EquivalentInjection.x0>
 		<cim:EquivalentInjection.x2>4.3445</cim:EquivalentInjection.x2>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:EquivalentInjection>
-
-	<!--Sjekket - cim:Line - Brukes kun i Regionalnett-->
-	<cim:Line rdf:ID="_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"> 
+	<cim:GeographicalRegion rdf:ID="_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4">
+		<cim:IdentifiedObject.name>NO</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Nordic</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>NO</entsoe:IdentifiedObject.shortName>
+	</cim:GeographicalRegion>
+	<cim:Line rdf:ID="_8e0075c4-ea93-4669-b57c-3f6b229bb6d3">
 		<cim:IdentifiedObject.name>LC 132ARENDAL-ENGENE</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>		
 		<cim:IdentifiedObject.description>Line 132 ARENDAL-ENGENE</cim:IdentifiedObject.description>
 		<entsoe:IdentifiedObject.shortName>132ARE-ENG</entsoe:IdentifiedObject.shortName>
 		<cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Line>
-	
-	<!--Sjekket - cim:LinearShuntCompensator-->
 	<cim:LinearShuntCompensator rdf:ID="_681a323d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Engene 22 A Shunt Compensator</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 22 SC1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-  		<!--<entsoe:Equipment.inService>true</entsoe:Equipment.inService>--> <!--SSH-->
-  		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
-  		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService> <!--Optional, If not used then true-->		
 		<cim:ShuntCompensator.aVRDelay>1</cim:ShuntCompensator.aVRDelay>
 		<cim:ShuntCompensator.maximumSections>1</cim:ShuntCompensator.maximumSections>
 		<cim:ShuntCompensator.nomU>22</cim:ShuntCompensator.nomU>
@@ -1843,9 +1792,7 @@ Change log:
 		<cim:LinearShuntCompensator.g0PerSection></cim:LinearShuntCompensator.g0PerSection>
 		<cim:LinearShuntCompensator.gPerSection>0</cim:LinearShuntCompensator.gPerSection>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
-		<cim:RegulatingCondEq.RegulatingControl rdf:resource="#_92d33c00-7034-11eb-a65a-74e5f963e191"/>
 	</cim:LinearShuntCompensator>
-
 	<cim:LoadArea rdf:ID="_92d33b39-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>DSO1 LA 1</cim:IdentifiedObject.name>
 	</cim:LoadArea>
@@ -2125,37 +2072,46 @@ Change log:
 		<cim:IdentifiedObject.name>ARENDAL T1</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:PowerTransformer>
-	<cim:PowerTransformer rdf:ID="_681a3087-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene 132/22 Transformer 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE T1</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
-	</cim:PowerTransformer>
 	<cim:PowerTransformer rdf:ID="_681a2fcb-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Engene 22 Neutral transformer 10</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE NT10</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformer>
-
-<!--Lag til eksempel-->
-	<cim:Name> <!--Power Transformer-->
-		<cim:Name.name>8345723</cim:Name.name>
-		<cim:Name.IdentifiedObject rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
-		<cim:Name.NameType>companyNisId</cim:Name.NameType>
-	</cim:Name>
-
-	<cim:NameType>
-  		<cim:NameType.description>Unique identifier in Company NIS</cim:NameType.description>
-		<cim:NameType.name>companyNisId</cim:NameType.name>
-  		<cim:NameType.NameTypeAthority>companyNis</cim:NameType.NameTypeAthority>
-	</cim:NameType>
-
-	<cim:NameTypeAuthority>
-		<cim:NameTypeAuthority.description>Network Information System made by Company</cim:NameTypeAuthority.description>
-		<cim:NameTypeAuthority.name>companyNis</cim:NameTypeAuthority.name>
-	</cim:NameTypeAuthority>
-
-
-	<!--Sjekket må følges opp-->
+	<cim:PowerTransformer rdf:ID="_681a3087-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>Engene 132/22 Transformer 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE T1</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
+	</cim:PowerTransformer>
+	<cim:PowerTransformerEnd rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>1331_1330_0_1  Primary Winding</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ARENDAL T1 P</cim:IdentifiedObject.name>
+		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
+		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.g>0.0000006179100182635011</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
+		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
+		<cim:PowerTransformerEnd.x>87.61799621582031</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
+	</cim:PowerTransformerEnd>
+	<cim:PowerTransformerEnd rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>1331_1330_0_1  Secondary Winding</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ARENDAL T1 S</cim:IdentifiedObject.name>
+		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf7-7034-11eb-a65a-74e5f963e191"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
+		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
+		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
+		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
+	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a2fce-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1095_1096_0_1  Primary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE NT10 P</cim:IdentifiedObject.name>
@@ -2174,25 +2130,26 @@ Change log:
 		<cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
-
-	<cim:PowerTransformerEnd rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>1331_1330_0_1  Primary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL T1 P</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191"/>
+	<cim:PowerTransformerEnd rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.description>1095_1096_0_1  Secondary Winding</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE NT10 S</cim:IdentifiedObject.name>
+		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
+		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf3-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0.0000006179100182635011</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>87.61799621582031</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
+		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
+		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a308a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1001_3865_0_1  Primary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE T1 P</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
@@ -2202,20 +2159,6 @@ Change log:
 		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>82.2760009765625</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
-	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>1331_1330_0_1  Secondary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL T1 S</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf7-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a3094-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1001_3865_0_1  Secondary Winding</cim:IdentifiedObject.description>
@@ -2232,21 +2175,6 @@ Change log:
 		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>1095_1096_0_1  Secondary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE NT10 S</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf3-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
-	</cim:PowerTransformerEnd>
 	<cim:RatioTapChanger rdf:ID="_681a2fe7-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Primary tap changer</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL T1 P RTC1</cim:IdentifiedObject.name>
@@ -2256,7 +2184,6 @@ Change log:
 		<cim:TapChanger.neutralStep>17</cim:TapChanger.neutralStep>
 		<cim:TapChanger.neutralU>420</cim:TapChanger.neutralU>
 		<cim:TapChanger.normalStep>17</cim:TapChanger.normalStep>
-		<cim:TapChanger.TapChangerControl rdf:resource="#_681a2fe6-5a55-11eb-a658-74e5f963e191"/>
 		<cim:RatioTapChanger.stepVoltageIncrement>0.625</cim:RatioTapChanger.stepVoltageIncrement>
 		<cim:RatioTapChanger.tculControlMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#TransformerControlMode.volt"/>
 		<cim:RatioTapChanger.TransformerEnd rdf:resource="#_681a2fe0-5a55-11eb-a658-74e5f963e191"/>
@@ -2270,7 +2197,6 @@ Change log:
 		<cim:TapChanger.neutralStep>17</cim:TapChanger.neutralStep>
 		<cim:TapChanger.neutralU>22</cim:TapChanger.neutralU>
 		<cim:TapChanger.normalStep>17</cim:TapChanger.normalStep>
-		<cim:TapChanger.TapChangerControl rdf:resource="#_681a2fd4-5a55-11eb-a658-74e5f963e191"/>
 		<cim:RatioTapChanger.stepVoltageIncrement>0.625</cim:RatioTapChanger.stepVoltageIncrement>
 		<cim:RatioTapChanger.tculControlMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#TransformerControlMode.volt"/>
 		<cim:RatioTapChanger.TransformerEnd rdf:resource="#_681a2fce-5a55-11eb-a658-74e5f963e191"/>
@@ -2289,18 +2215,66 @@ Change log:
 		<cim:RatioTapChanger.tculControlMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#TransformerControlMode.volt"/>
 		<cim:RatioTapChanger.TransformerEnd rdf:resource="#_681a308a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:RatioTapChanger>
-	<cim:RegulatingControl rdf:ID="_681a261f-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>ARENDAL  420 RC1</cim:IdentifiedObject.name>
-		<cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
-		<cim:RegulatingControl.Terminal rdf:resource="#_92d33b4d-7034-11eb-a65a-74e5f963e191"/>
-		<cim:IdentifiedObject.description>1331</cim:IdentifiedObject.description>
-	</cim:RegulatingControl>
-	<cim:RegulatingControl rdf:ID="_92d33c00-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.name>ENGENE 22 SHUNT BATTERY RC1</cim:IdentifiedObject.name>
-		<cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
-		<cim:RegulatingControl.Terminal rdf:resource="#_92d33b56-7034-11eb-a65a-74e5f963e191"/>
-		<cim:IdentifiedObject.description>3868</cim:IdentifiedObject.description>
-	</cim:RegulatingControl>
+	<cim:SubGeographicalRegion rdf:ID="_f17696b3-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>FI1 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>FI1</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>FI1 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f1769609-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>NO1 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>NO1</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>NO1 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f176965f-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>NO2 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>NO2</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>NO2 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f1769699-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>NO3 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>NO3</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>NO3 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17696a3-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>NO4 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>NO4</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>NO4 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f1769619-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>NO5 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>NO5</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>NO5 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17695cd-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>SE1 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>SE1</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>SE1 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17695c3-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>SE2 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>SE2</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>SE2 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17695af-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>SE3 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>SE3</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>SE3 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17696cf-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.name>SE4 SGR</cim:IdentifiedObject.name>
+		<entsoe:IdentifiedObject.shortName>SE4</entsoe:IdentifiedObject.shortName>
+		<cim:IdentifiedObject.description>SE4 Bidding Zone</cim:IdentifiedObject.description>
+	</cim:SubGeographicalRegion>
 	<cim:SubLoadArea rdf:ID="_92d33b3a-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>Area 1</cim:IdentifiedObject.name>
 		<cim:SubLoadArea.LoadArea rdf:resource="#_92d33b39-7034-11eb-a65a-74e5f963e191"/>
@@ -2308,30 +2282,27 @@ Change log:
 	<cim:Substation rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Engene Substation</cim:IdentifiedObject.description>
-    <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Substation>
 	<cim:Substation rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>FROLAND</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Froland Coupling Substation</cim:IdentifiedObject.description>
-    <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Substation>
 	<cim:Substation rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>T_ENGENE</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Engene T-junction</cim:IdentifiedObject.description>
-    <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 	</cim:Substation>
-	<cim:TapChangerControl rdf:ID="_681a2fe6-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>1331</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL  T1 P</cim:IdentifiedObject.name>
-		<cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
-		<cim:RegulatingControl.Terminal rdf:resource="#_92d33b4d-7034-11eb-a65a-74e5f963e191"/>
-	</cim:TapChangerControl>
-	<cim:TapChangerControl rdf:ID="_681a2fd4-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>1095</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE NT10 P</cim:IdentifiedObject.name>
-		<cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
-		<cim:RegulatingControl.Terminal rdf:resource="#_92d33b45-7034-11eb-a65a-74e5f963e191"/>
-	</cim:TapChangerControl>
+	<cim:Substation rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.name>ARENDAL</cim:IdentifiedObject.name>
+		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+	</cim:Substation>
+	<cim:Substation rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.name>NEDENES</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Secondary Substation Nedenes</cim:IdentifiedObject.description>
+		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+	</cim:Substation>
 	<cim:TapChangerControl rdf:ID="_681a3090-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1001</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE T1 P</cim:IdentifiedObject.name>
@@ -2344,16 +2315,6 @@ Change log:
 		<cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
 		<cim:RegulatingControl.Terminal rdf:resource="#_92d33b58-7034-11eb-a65a-74e5f963e191"/>
 	</cim:TapChangerControl>
-	<cim:Terminal rdf:ID="_92d33b47-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-22SP1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e5a-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b4f-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>AREN132-SP1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e91-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33b55-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>ENGENE22</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
@@ -2367,22 +2328,12 @@ Change log:
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a26cf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b4b-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ARENDAL132T1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e78-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33b9a-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>1020 1463 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_b20e4b70-f546-48b1-82e8-66b138fd7ae2"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_92d33b99-7034-11eb-a65a-74e5f963e191"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b60-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>AREN-BAMBL</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a245d-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33bf5-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>1331_1330_0_1  Primary Winding</cim:IdentifiedObject.description>
@@ -2391,11 +2342,6 @@ Change log:
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 		<cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b4d-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ARENDAL420T1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e88-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33b78-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>1004 1003 &apos;1 &apos;</cim:IdentifiedObject.description>
@@ -2410,31 +2356,6 @@ Change log:
 		<cim:Terminal.ConnectivityNode rdf:resource="#_681a21b3-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a21b1-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b59-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-22-NT1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2187-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b45-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-22SP1TA</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e4b-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b41-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-AVG</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e24-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b53-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENGENE22T1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2154-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b46-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-22SP1TB</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e53-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33b3e-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>ENGENE132</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
@@ -2448,46 +2369,17 @@ Change log:
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a2a7f-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b42-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>LINJE-ENGENE</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e2b-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b33-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>NS1-LINJE</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_92d33b34-7034-11eb-a65a-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b56-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-22-QB</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2169-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b49-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ARENDALT1A</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e6a-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33b48-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>ARENDAL132</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e62-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a1e60-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b5d-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>KUNDE1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33c01-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>SWSH0</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2169-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a323d-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b5c-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>NS1-0.400SI</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a21fd-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33ba8-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>3866 3865 &apos;1 &apos;</cim:IdentifiedObject.description>
@@ -2516,20 +2408,10 @@ Change log:
 		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2178-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a2176-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b4c-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>AREN132T1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e80-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_f6e8c471-b1eb-467b-af68-78c6aa25771b">
 		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_4fbbd35b-85d2-4136-8ce4-287f14831764"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_92d33bcc-7034-11eb-a65a-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_92d33b54-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.description>ENG-22-T1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T1</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a215b-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_92d33be5-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>3871 238 &apos;1 &apos;</cim:IdentifiedObject.description>
@@ -2626,10 +2508,6 @@ Change log:
 	<cim:Terminal rdf:ID="_d6dc59b6-e2e8-4f66-9e16-69b0078b74dc">
 		<cim:IdentifiedObject.name>TN</cim:IdentifiedObject.name>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
-	<cim:Terminal rdf:ID="_4ea6e9ee-1626-4119-9f7e-9b13f88c401b">
-		<cim:IdentifiedObject.name>T_ENGENE 132 CN 001 T</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_4fbbd35b-85d2-4136-8ce4-287f14831764"/>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_80286cc1-61e8-4a3c-8407-33f21ef3821e">
 		<cim:IdentifiedObject.name>T_ENGENE 132 T</cim:IdentifiedObject.name>
@@ -2836,9 +2714,6 @@ Change log:
 		<cim:Terminal.ConnectivityNode rdf:resource="#_f48c2263-2375-446c-8ee5-6fa8ef2825d9"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_75f12fd9-2057-4b79-9f19-73736a0f2a6d"/>
 	</cim:Terminal>
-	<cim:Terminal rdf:ID="_ac86c0db-6f9a-4684-b584-a66cad2c5013">
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2154-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Terminal>
 	<cim:Terminal rdf:ID="_b36e2055-5bfc-4055-9960-dceaaf478d8a">
 		<cim:Terminal.ConductingEquipment rdf:resource="#_92d33b99-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Terminal>
@@ -2985,4 +2860,45 @@ Change log:
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e3c-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Substation HV</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
+	<cim:VoltageLevel rdf:ID="_1f4fabd4-8c57-c245-b107-4e64c9007ae3">
+		<cim:IdentifiedObject.name>ARENDAL 420</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:VoltageLevel.Substation rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
+	</cim:VoltageLevel>
+	<cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
+		<cim:IdentifiedObject.name>NEDENES 0400</cim:IdentifiedObject.name>
+		<cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
+		<cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
+	</cim:VoltageLevel>
+	<entsoe:EnergySchedulingType rdf:ID="_24C12434-E42B-497f-928F-119C6AE92079">
+		<cim:IdentifiedObject.name>Biomass</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Generation type Biomass</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>EST-Biomass</entsoe:IdentifiedObject.shortName>
+	</entsoe:EnergySchedulingType>
+	<entsoe:EnergySchedulingType rdf:ID="_FB6F43D6-E71E-423a-8CEB-084BC504FD1A">
+		<cim:IdentifiedObject.name>Co-generation</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Generation type Co-generation</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>CoGen</entsoe:IdentifiedObject.shortName>
+	</entsoe:EnergySchedulingType>
+	<entsoe:EnergySchedulingType rdf:ID="_1CDFB476-4E01-4488-B5A2-FDDEA0488C59">
+		<cim:IdentifiedObject.name>Geothermal</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Generation type Geothermal</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>Geotherm</entsoe:IdentifiedObject.shortName>
+	</entsoe:EnergySchedulingType>
+	<entsoe:EnergySchedulingType rdf:ID="_2C897906-9B7F-4508-B132-74EA3EE1D3B0">
+		<cim:IdentifiedObject.name>Marine</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Generation type Marine</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>ES-Marine</entsoe:IdentifiedObject.shortName>
+	</entsoe:EnergySchedulingType>
+	<entsoe:EnergySchedulingType rdf:ID="_A43C7A90-B4C7-460c-A607-942EFA3EFB79">
+		<cim:IdentifiedObject.name>Other renewable</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Generation type Other renewable</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>OtherRenew</entsoe:IdentifiedObject.shortName>
+	</entsoe:EnergySchedulingType>
+	<entsoe:EnergySchedulingType rdf:ID="_1C405140-0F45-4534-9C90-F38F4905362C">
+		<cim:IdentifiedObject.name>Waste</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Generation type Waste</cim:IdentifiedObject.description>
+		<entsoe:IdentifiedObject.shortName>EST-Waste</entsoe:IdentifiedObject.shortName>
+	</entsoe:EnergySchedulingType>
 </rdf:RDF>
