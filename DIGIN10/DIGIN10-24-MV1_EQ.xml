@@ -284,7 +284,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>4000</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73">
@@ -293,7 +293,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_d4afd20b-a007-43f0-9736-4a868c4cc65a">
@@ -302,7 +302,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>1600</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_12156bb5-7a82-4e95-8ea4-2ff8573133fe">
@@ -311,7 +311,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_9b11eb79-4938-451f-84cd-8d2be79a03e9"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Breaker>
@@ -321,7 +321,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Breaker>
@@ -331,7 +331,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_5b299df4-d232-4348-9d1e-096f6d10fb5a"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Breaker>
@@ -341,7 +341,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_29ace056-c4e8-46ea-8935-38f32ddbee49"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>1250</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Breaker>
@@ -351,7 +351,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_2714d85d-92e7-4f88-a488-f39e782a6298">
@@ -360,7 +360,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_2fb546e7-9e06-4356-a3ad-7e3756c34f6a">
@@ -369,7 +369,7 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:BusbarSection rdf:ID="_681a1eac-5a55-11eb-a658-74e5f963e191">
@@ -1664,7 +1664,7 @@ Change log:
 		<cim:IdentifiedObject.name>ARENDAL 132 T1 SD_S</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent></cim:Switch.ratedCurrent>
+		<cim:Switch.ratedCurrent>1600</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
@@ -1672,6 +1672,7 @@ Change log:
 		<cim:IdentifiedObject.description>Engene 132 T_Engene A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 132 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+		<cim:Switch.ratedCurrent>1600</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
@@ -1680,6 +1681,7 @@ Change log:
 		<cim:IdentifiedObject.name>ENGENE 132 T1 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>1600</cim:Switch.ratedCurrent>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3">
@@ -1687,6 +1689,7 @@ Change log:
 		<cim:IdentifiedObject.name>ENGENE 22 N1 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>		
 		<cim:Equipment.EquipmentContainer rdf:resource="#_9b11eb79-4938-451f-84cd-8d2be79a03e9"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
@@ -1695,6 +1698,7 @@ Change log:
 		<cim:IdentifiedObject.name>ENGENE 22 NT10 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>	
 		<cim:Equipment.EquipmentContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
@@ -1703,6 +1707,7 @@ Change log:
 		<cim:IdentifiedObject.name>ENGENE 22 SB AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>	
 		<cim:Equipment.EquipmentContainer rdf:resource="#_5b299df4-d232-4348-9d1e-096f6d10fb5a"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
@@ -1711,6 +1716,7 @@ Change log:
 		<cim:IdentifiedObject.name>ENGENE 22T1 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>1250</cim:Switch.ratedCurrent>	
 		<cim:Equipment.EquipmentContainer rdf:resource="#_29ace056-c4e8-46ea-8935-38f32ddbee49"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Disconnector>
@@ -1719,6 +1725,7 @@ Change log:
 		<cim:IdentifiedObject.name>FROLAND 132 AR1 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_41e0788e-9dc5-4bf0-862b-f2a99e421602">
@@ -1726,6 +1733,7 @@ Change log:
 		<cim:IdentifiedObject.name>FROLAND 132 AR1 LD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_e63a5023-05b9-4adf-bafd-a372b751a6ed">
@@ -1733,6 +1741,7 @@ Change log:
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_411847e0-02b3-49df-951a-f1cf780f4738">
@@ -1740,6 +1749,7 @@ Change log:
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 LD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_1ac100c3-7a71-4b22-b32c-47fd73c3d01a">
@@ -1747,6 +1757,7 @@ Change log:
 		<cim:IdentifiedObject.name>FROLAND 132 EN1 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_75f12fd9-2057-4b79-9f19-73736a0f2a6d">
@@ -1754,6 +1765,7 @@ Change log:
 		<cim:IdentifiedObject.name>FROLAND 132 EN1 LD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_feda8daa-a08a-4ade-b1e0-028542035a2b">
@@ -1761,6 +1773,7 @@ Change log:
 		<cim:IdentifiedObject.name>T_ENGENE 132 AD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:Disconnector rdf:ID="_652e1c63-50b0-4f5a-b88d-8f814a0cda4d">
@@ -1768,16 +1781,17 @@ Change log:
 		<cim:IdentifiedObject.name>T_ENGENE 132 EN1 LD_S</cim:IdentifiedObject.name>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
+		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>			
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Disconnector>
 	<cim:EquivalentInjection rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802">
 		<cim:IdentifiedObject.name>ARENDAL 420 TM EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>ARENDAL 420 Transmission Equivalent</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:EquivalentInjection.maxP></cim:EquivalentInjection.maxP>
-		<cim:EquivalentInjection.maxQ></cim:EquivalentInjection.maxQ>
-		<cim:EquivalentInjection.minP></cim:EquivalentInjection.minP>
-		<cim:EquivalentInjection.minQ></cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.maxP>300</cim:EquivalentInjection.maxP>
+		<cim:EquivalentInjection.maxQ>100</cim:EquivalentInjection.maxQ>
+		<cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
+		<cim:EquivalentInjection.minQ>-100</cim:EquivalentInjection.minQ>
 		<cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
 		<cim:EquivalentInjection.r0>2.86738</cim:EquivalentInjection.r0>
 		<cim:EquivalentInjection.r2>0.43445</cim:EquivalentInjection.r2>
@@ -1807,9 +1821,9 @@ Change log:
 		<cim:ShuntCompensator.maximumSections>1</cim:ShuntCompensator.maximumSections>
 		<cim:ShuntCompensator.nomU>22</cim:ShuntCompensator.nomU>
 		<cim:ShuntCompensator.normalSections>1</cim:ShuntCompensator.normalSections>
-		<cim:LinearShuntCompensator.b0PerSection></cim:LinearShuntCompensator.b0PerSection>
+		<cim:LinearShuntCompensator.b0PerSection>0</cim:LinearShuntCompensator.b0PerSection>
 		<cim:LinearShuntCompensator.bPerSection>0.01983500085771084</cim:LinearShuntCompensator.bPerSection>
-		<cim:LinearShuntCompensator.g0PerSection></cim:LinearShuntCompensator.g0PerSection>
+		<cim:LinearShuntCompensator.g0PerSection>0</cim:LinearShuntCompensator.g0PerSection>
 		<cim:LinearShuntCompensator.gPerSection>0</cim:LinearShuntCompensator.gPerSection>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:LinearShuntCompensator>
@@ -2142,12 +2156,10 @@ Change log:
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0.000002066100023512263</cim:PowerTransformerEnd.g>
-		<cim:PowerTransformerEnd.r0></cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.r>1.524399995803833</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>7.622000217437744</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191">
