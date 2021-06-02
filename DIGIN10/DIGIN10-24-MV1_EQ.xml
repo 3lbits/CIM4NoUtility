@@ -15,6 +15,7 @@ Change log:
 2021-06-01: Export from CIMdesk and added the header and FullModel back. Updated version to 01v10. Removed the comments from ShortCircut.
 2021-06-02: Added aliasName. Removed item that is located in boundary file.
 2021-06-02: Removed connectivityNode.
+2021-06-02: Updated based on CIMdesk validation. Added ShortCircut attributes.
 -->
 
   <md:FullModel rdf:about="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16">
@@ -96,6 +97,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0.0000616390971117653</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -114,6 +116,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0.5</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0.00006818179826950654</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -132,6 +135,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -150,6 +154,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -168,6 +173,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0.000002066100023512263</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -186,6 +192,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -204,6 +211,7 @@ Change log:
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:Conductor.length>0</cim:Conductor.length>
+    <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
@@ -486,6 +494,7 @@ Change log:
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a1e88-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ARENDAL CN 011</cim:IdentifiedObject.name>
+    <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2169-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE CN 002</cim:IdentifiedObject.name>
@@ -2108,45 +2117,60 @@ Change log:
 		<cim:IdentifiedObject.description>1331_1330_0_1  Primary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL T1 P</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+    <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>     <!--ToDo: Need to check.-->
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191"/>
+    <cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0.0000006179100182635011</cim:PowerTransformerEnd.g>
+    <cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock> <!--ToDo: Need to check.-->
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+    <cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>    <!--ToDo: Need to check.-->
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>87.61799621582031</cim:PowerTransformerEnd.x>
+    <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>     <!--ToDo: Need to check.-->
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1331_1330_0_1  Secondary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL T1 S</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+    <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf7-7034-11eb-a65a-74e5f963e191"/>
+    <cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
+    <cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+    <cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
+    <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a2fce-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1095_1096_0_1  Primary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE NT10 P</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+    <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191"/>
+    <cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0.000002066100023512263</cim:PowerTransformerEnd.g>
+    <cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
 		<cim:PowerTransformerEnd.r>1.524399995803833</cim:PowerTransformerEnd.r>
+    <cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>7.622000217437744</cim:PowerTransformerEnd.x>
+    <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 	</cim:PowerTransformerEnd>
@@ -2154,45 +2178,60 @@ Change log:
 		<cim:IdentifiedObject.description>1095_1096_0_1  Secondary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE NT10 S</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+    <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf3-7034-11eb-a65a-74e5f963e191"/>
+    <cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
+    <cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+    <cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
+    <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a308a-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1001_3865_0_1  Primary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE T1 P</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+    <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
+    <cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0.0000012625999943338684</cim:PowerTransformerEnd.g>
+    <cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
 		<cim:PowerTransformerEnd.r>2.3696999549865723</cim:PowerTransformerEnd.r>
+    <cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>82.2760009765625</cim:PowerTransformerEnd.x>
+    <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a3094-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1001_3865_0_1  Secondary Winding</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE T1 S</cim:IdentifiedObject.name>
 		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+    <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
+    <cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
+    <cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+    <cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
+    <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:RatioTapChanger rdf:ID="_681a2fe7-5a55-11eb-a658-74e5f963e191">
