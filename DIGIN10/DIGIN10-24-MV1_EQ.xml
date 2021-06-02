@@ -2172,7 +2172,6 @@ Change log:
 		<cim:PowerTransformerEnd.x>7.622000217437744</cim:PowerTransformerEnd.x>
     <cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
-		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>1095_1096_0_1  Secondary Winding</cim:IdentifiedObject.description>
@@ -2828,12 +2827,7 @@ Change log:
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e63-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Substation HV</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
-	<cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>NEDENES 0400</cim:IdentifiedObject.name>
-		<cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
-		<cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
-		<cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
-	</cim:VoltageLevel>
+
 	<cim:VoltageLevel rdf:ID="_92d33b37-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>NEDENES 22</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
