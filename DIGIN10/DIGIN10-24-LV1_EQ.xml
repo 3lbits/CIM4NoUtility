@@ -396,7 +396,7 @@
     <cim:Terminal rdf:ID="_be24dc11-bfeb-4879-b0ff-18a490500393">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T10</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T10</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9"/>
@@ -406,7 +406,7 @@
     <cim:Terminal rdf:ID="_bfe5eea8-b897-49ec-afc9-bbec308f93be">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T13</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T13</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
@@ -416,7 +416,7 @@
     <cim:Terminal rdf:ID="_1e4f0009-85b7-4087-85a8-bf7c21f01e47">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T14</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T14</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
@@ -427,9 +427,7 @@
     <cim:VoltageLevel rdf:ID="_91ef68b3-8878-47a4-b24f-66f42bb459ba">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Voltage Level 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 VL1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:VoltageLevel.highVoltageLimit></cim:VoltageLevel.highVoltageLimit>
-        <cim:VoltageLevel.lowVoltageLimit></cim:VoltageLevel.lowVoltageLimit>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 VL1</cim:IdentifiedObject.aliasName>
         <cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
         <cim:VoltageLevel.Substation rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44"/>
     </cim:VoltageLevel>

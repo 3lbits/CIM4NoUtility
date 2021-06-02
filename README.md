@@ -53,6 +53,9 @@ LV EQ
 - Missing ExternalNetworkInjection
 - Missing EquivalentInjection
 
+Remvoed:
+        <cim:VoltageLevel.highVoltageLimit></cim:VoltageLevel.highVoltageLimit>
+        <cim:VoltageLevel.lowVoltageLimit></cim:VoltageLevel.lowVoltageLimit>
 
 ## Feeder
 
