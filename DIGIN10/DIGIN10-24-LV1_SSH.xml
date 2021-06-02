@@ -22,6 +22,14 @@ Change log:
 		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
 	</md:FullModel>
 
+ 	<cim:ACLineSegment rdf:about="_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:ACLineSegment>
+
+ 	<cim:ACLineSegment rdf:about="_46bce40c-71c2-4d19-b63f-78a69c460b0e">
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:ACLineSegment>
+
  	<cim:Breaker rdf:about="_8aad5c29-6039-4321-8f8a-ad1c186dd145">
 		<cim:Switch.open>false</cim:Switch.open>
 		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
@@ -31,6 +39,14 @@ Change log:
 		<cim:Switch.open>false</cim:Switch.open>
 		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
 	</cim:Breaker>
+
+ 	<cim:BusbarSection rdf:about="_b8a334a5-2bcb-40e6-b6c2-db906441552d">
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:BusbarSection>
+
+ 	<cim:ConformLoad rdf:about="_eba80fde-c5f8-49fc-8465-0329fdeefda9">
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:ConformLoad>
 
 	<cim:Terminal rdf:about="_1f6d65dc-0498-4e9f-beda-0e36a667bb43">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
