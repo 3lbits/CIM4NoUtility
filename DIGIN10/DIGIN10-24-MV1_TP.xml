@@ -10,6 +10,7 @@ Change log:
 2021-03-12: Inital Version
 2021-03-29: Version 7. Clean up. 
 2021-04-28: Updated version and line. Some clean up (Svein Olsen)
+2021-06-02: Removed ConnectivityNode.
 
 -->		
 	<md:FullModel rdf:about="urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5">
@@ -18,7 +19,7 @@ Change log:
 		<md:Model.description>DIGIN10 Medium Voltage MAS1</md:Model.description>		
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/Topology/4/1</md:Model.profile>
-		<md:Model.version>01v08</md:Model.version>
+		<md:Model.version>01v10</md:Model.version>
 		  		<!-- Depending on EQ file -->
 		<md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"/>
 		  		<!-- Depending on SSH file 
@@ -41,17 +42,11 @@ Change log:
 	<cim:ConnectivityNode rdf:about="#_681a1e2b-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e2d-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a1e43-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e45-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_681a1e4b-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e4d-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_681a1e53-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e55-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a1e5a-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e5c-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_681a1e62-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e64-5a55-11eb-a658-74e5f963e191"/>
@@ -59,17 +54,11 @@ Change log:
 	<cim:ConnectivityNode rdf:about="#_681a1e6a-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e6c-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a1e78-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e7a-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_681a1e80-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e82-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_681a1e88-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e8a-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a1e91-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a1e93-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_681a2154-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a2156-5a55-11eb-a658-74e5f963e191"/>
@@ -86,29 +75,8 @@ Change log:
 	<cim:ConnectivityNode rdf:about="#_681a2178-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a217a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a2187-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a2189-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a21b3-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a21b5-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a21fd-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a21ff-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a2456-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a2458-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a245d-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a245f-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_681a2464-5a55-11eb-a658-74e5f963e191">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a2466-5a55-11eb-a658-74e5f963e191"/>
-	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:about="#_92d33b34-7034-11eb-a65a-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_92d33b36-7034-11eb-a65a-74e5f963e191"/>
-	</cim:ConnectivityNode>
-	<cim:ConnectivityNode rdf:about="#_d19c5348-b436-4156-8fa9-cf0a8ea95e10">
-		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_681a2173-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:Terminal rdf:about="#_92d33b33-7034-11eb-a65a-74e5f963e191">
 		<cim:Terminal.TopologicalNode rdf:resource="#_92d33b36-7034-11eb-a65a-74e5f963e191"/>
