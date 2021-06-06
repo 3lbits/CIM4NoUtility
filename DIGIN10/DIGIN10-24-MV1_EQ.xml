@@ -17,6 +17,7 @@ Change log:
 2021-06-02: Removed connectivityNode.
 2021-06-02: Updated based on CIMdesk validation. Added ShortCircut attributes. Added missing Attribute cim:PowerTransformer.isPartOfGeneratorUnit for all PowerTransformers.
 2021-06-03: Removed OperationalLimits not used. Checked all objects name and made updated. Add new Terminal that had been deleted.
+2021-06-06: Added Nedenes EquivalentInjection.
 
 
 -->
@@ -54,6 +55,7 @@ Change log:
 		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fa3115c0-5710-443a-bb30-8f101e1062f1"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 	</cim:ACLineSegment>
+
 	<cim:ACLineSegment rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.description>132 ARENDAL-ENGENE 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132ARENDAL-ENGENE 1</cim:IdentifiedObject.name>
@@ -76,6 +78,7 @@ Change log:
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
 	</cim:ACLineSegment>
+
 	<cim:ACLineSegment rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>132 ARENDAL-FROLAND1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132ARENDAL-FROLAND1</cim:IdentifiedObject.name>
@@ -273,7 +276,7 @@ Change log:
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_4ef626b9-586b-4845-80eb-6a008766c8f5">
-		<cim:IdentifiedObject.description>Engene 22kV ZT1 Bay</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Engene 22kV Neutral Connection Transformer 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE  22ZT1</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.aliasName>ENGENE  22ZT1</cim:IdentifiedObject.aliasName>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
@@ -1091,6 +1094,27 @@ Change log:
 		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:EquivalentInjection>
+
+	<cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+        <cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>ARENDAL 420 TM EQV</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.description>Nedenes 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
+        <cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+        <cim:EquivalentInjection.maxP>0.003</cim:EquivalentInjection.maxP>
+        <cim:EquivalentInjection.maxQ>0</cim:EquivalentInjection.maxQ>
+        <cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
+    	<cim:EquivalentInjection.minQ>0</cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.r>0</cim:EquivalentInjection.r>
+		<cim:EquivalentInjection.r0>0</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.r2>0</cim:EquivalentInjection.r2>
+		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+		<cim:EquivalentInjection.x>0</cim:EquivalentInjection.x>
+		<cim:EquivalentInjection.x0>0</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x2>0</cim:EquivalentInjection.x2>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:EquivalentInjection>
+
 	<cim:Feeder rdf:ID="_fa3115c0-5710-443a-bb30-8f101e1062f1">
 		<cim:IdentifiedObject.aliasName>Nedenes 22 04 FeLVCi</cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Nedenes 22kV - 400V Telemarkstien 2 Feeder Low Voltage Circuit</cim:IdentifiedObject.description>
@@ -1116,12 +1140,7 @@ Change log:
 		<cim:Equipment.EquipmentContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_681a309b-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Fuse>
-	<cim:Line rdf:ID="_8e0075c4-ea93-4669-b57c-3f6b229bb6d3">
-		<cim:IdentifiedObject.name>LC 132ARENDAL-FROLAND</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Line 132 ARENDAL-FROLAND</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.aliasName>LC 132ARENDAL-ENGENE</cim:IdentifiedObject.aliasName>
-		<cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
-	</cim:Line>
+
   	<cim:Line rdf:ID="_8e0075c4-ea93-4669-b57c-3f6b229bb6d3">
 		<cim:IdentifiedObject.name>LC 132ARENDAL-FROLAND</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Line 132 ARENDAL-FROLAND</cim:IdentifiedObject.description>
@@ -1425,7 +1444,7 @@ Change log:
 		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b5b-7034-11eb-a65a-74e5f963e191"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bff-7034-11eb-a65a-74e5f963e191"/>
+		<cim:TransformerEnd.Terminal rdf:resource="#__9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
@@ -2047,7 +2066,7 @@ Change log:
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_f8846bea-b1a3-4b2c-8da5-7fa0231079f6">
 		<cim:IdentifiedObject.name>T2 ARENDAL 132 T1E</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_f1ca182c-3cec-4ffe-a615-0a0f557ec1bb"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e80-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
@@ -2088,6 +2107,7 @@ Change log:
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_e190ae57-ed18-f340-90c2-ddbbfe168ed8">
 		<cim:IdentifiedObject.name>T1 ARENDAL 420 TM EQV</cim:IdentifiedObject.name>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_cb837454-5c66-d341-be63-d0c044e5fd3c"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_ed8865cf-8b36-42ce-acdc-0627b5f55802"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
@@ -2108,7 +2128,7 @@ Change log:
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_9077e7e3-9b90-9e46-a24c-30c28317e7e4">
 		<cim:IdentifiedObject.name>T2 FROLAND 132 BA1 LD_S</cim:IdentifiedObject.name>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_8a6562a6-8eb8-49e3-92a1-155587726e3f"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e62-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_411847e0-02b3-49df-951a-f1cf780f4738"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
@@ -2122,6 +2142,14 @@ Change log:
 		<cim:Terminal.ConductingEquipment rdf:resource="#_feda8daa-a08a-4ade-b1e0-028542035a2b"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
+
+	<cim:Terminal rdf:ID="_ef17168b-d7ee-7548-9822-e10bbbcec793">
+		<cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d"/>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+		
 	<cim:VoltageLevel rdf:ID="_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c">
 		<cim:IdentifiedObject.name>ARENDAL 132</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>

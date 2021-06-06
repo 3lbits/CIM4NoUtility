@@ -13,6 +13,7 @@ Change log:
 2021-04-28: 01v08. Updated version and line. Some clean up (Svein Olsen)
 2021-06-02: 01v10. Updated based on validation in CIMdesk (Svein Olsen)
 2021-06-02: Updated regulating control (Svein Olsen)
+2021-06-06: Removed Terminals that is not incuded in EQ (Svein Olsen)
 -->
 
   <md:FullModel rdf:about="_f19668c6-e0a1-4db7-bfee-7645392d0021">
@@ -136,6 +137,34 @@ Change log:
 		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
 		<cim:EquivalentInjection.regulationTarget>420</cim:EquivalentInjection.regulationTarget>
 	</cim:EquivalentInjection>
+	<cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+		<cim:EquivalentInjection.p>0.0006</cim:EquivalentInjection.p>
+		<cim:EquivalentInjection.q></cim:EquivalentInjection.q>
+		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
+		<cim:EquivalentInjection.regulationTarget>0.4</cim:EquivalentInjection.regulationTarget>
+	</cim:EquivalentInjection>
+
+
+	<cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+        <cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>ARENDAL 420 TM EQV</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.description>Nedenes 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
+        <cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+        <cim:EquivalentInjection.maxP>0.003</cim:EquivalentInjection.maxP>
+        <cim:EquivalentInjection.maxQ>0</cim:EquivalentInjection.maxQ>
+        <cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
+    	<cim:EquivalentInjection.minQ>0</cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.r>0</cim:EquivalentInjection.r>
+		<cim:EquivalentInjection.r0>0</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.r2>0</cim:EquivalentInjection.r2>
+		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+		<cim:EquivalentInjection.x>0</cim:EquivalentInjection.x>
+		<cim:EquivalentInjection.x0>0</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x2>0</cim:EquivalentInjection.x2>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:EquivalentInjection>
+
 	<cim:LinearShuntCompensator rdf:about="#_681a323d-5a55-11eb-a658-74e5f963e191">
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
@@ -158,6 +187,10 @@ Change log:
 	</cim:RatioTapChanger>
 	<cim:RatioTapChanger rdf:about="#_681a3091-5a55-11eb-a658-74e5f963e191">
 		<cim:TapChanger.step>18</cim:TapChanger.step>
+		<cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
+	</cim:RatioTapChanger>
+	<cim:RatioTapChanger rdf:about="#_681a30a5-5a55-11eb-a658-74e5f963e191">
+		<cim:TapChanger.step>4</cim:TapChanger.step>
 		<cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
 	</cim:RatioTapChanger>
 	<cim:RegulatingControl rdf:about="#_92d33c00-7034-11eb-a65a-74e5f963e191">
@@ -225,12 +258,7 @@ Change log:
 	<cim:Terminal rdf:about="#_92d33bb8-7034-11eb-a65a-74e5f963e191">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
-	<cim:Terminal rdf:about="#_92d33bc9-7034-11eb-a65a-74e5f963e191">
-		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
-	</cim:Terminal>
-	<cim:Terminal rdf:about="#_92d33bca-7034-11eb-a65a-74e5f963e191">
-		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
-	</cim:Terminal>
+
 	<cim:Terminal rdf:about="#_92d33bce-7034-11eb-a65a-74e5f963e191">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
