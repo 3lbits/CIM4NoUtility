@@ -51,7 +51,7 @@ Change log:
 		<cim:IdentifiedObject.description>Base Voltage 22 kV</cim:IdentifiedObject.description>
 		<cim:BaseVoltage.nominalVoltage>22</cim:BaseVoltage.nominalVoltage>
 		<entsoe:IdentifiedObject.shortName>22</entsoe:IdentifiedObject.shortName>	
-		<cim:IdentifiedObject.name>22kV</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>AC-22kV</cim:IdentifiedObject.name>
 	</cim:BaseVoltage>
 	<!-- Low Voltage (LV) BaseVoltage -->
 	<cim:BaseVoltage rdf:ID="_06d3126a-8b34-4101-b800-c09ec42275a9">
