@@ -12,6 +12,8 @@ Change log:
 2021-03-29: Version 7c. Removed dangling terminals.
 2021-04-28: 01v08. Updated version and line. Some clean up (Svein Olsen)
 2021-06-02: 01v10. Updated based on validation in CIMdesk (Svein Olsen)
+2021-06-02: Updated regulating control (Svein Olsen)
+2021-06-06: Removed Terminals that is not incuded in EQ (Svein Olsen)
 -->
 
   <md:FullModel rdf:about="_f19668c6-e0a1-4db7-bfee-7645392d0021">
@@ -135,6 +137,13 @@ Change log:
 		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
 		<cim:EquivalentInjection.regulationTarget>420</cim:EquivalentInjection.regulationTarget>
 	</cim:EquivalentInjection>
+	<cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+		<cim:EquivalentInjection.p>0.0006</cim:EquivalentInjection.p>
+		<cim:EquivalentInjection.q>0</cim:EquivalentInjection.q>
+		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
+		<cim:EquivalentInjection.regulationTarget>0.4</cim:EquivalentInjection.regulationTarget>
+	</cim:EquivalentInjection>
+
 	<cim:LinearShuntCompensator rdf:about="#_681a323d-5a55-11eb-a658-74e5f963e191">
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
@@ -159,13 +168,10 @@ Change log:
 		<cim:TapChanger.step>18</cim:TapChanger.step>
 		<cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
 	</cim:RatioTapChanger>
-	<cim:RegulatingControl rdf:about="#_681a261f-5a55-11eb-a658-74e5f963e191">
-		<cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
-		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
-		<cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
-		<cim:RegulatingControl.targetValue>420</cim:RegulatingControl.targetValue>
-		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
-	</cim:RegulatingControl>
+	<cim:RatioTapChanger rdf:about="#_681a30a5-5a55-11eb-a658-74e5f963e191">
+		<cim:TapChanger.step>4</cim:TapChanger.step>
+		<cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
+	</cim:RatioTapChanger>
 	<cim:RegulatingControl rdf:about="#_92d33c00-7034-11eb-a65a-74e5f963e191">
 		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
 		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
@@ -173,20 +179,8 @@ Change log:
 		<cim:RegulatingControl.targetValue>22</cim:RegulatingControl.targetValue>
 		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
 	</cim:RegulatingControl>
-	<cim:TapChangerControl rdf:about="#_681a2fd4-5a55-11eb-a658-74e5f963e191">
-		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
-		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
-		<cim:RegulatingControl.targetDeadband>22</cim:RegulatingControl.targetDeadband>
-		<cim:RegulatingControl.targetValue>11</cim:RegulatingControl.targetValue>
-		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
-	</cim:TapChangerControl>
-	<cim:TapChangerControl rdf:about="#_681a2fe6-5a55-11eb-a658-74e5f963e191">
-		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
-		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
-		<cim:RegulatingControl.targetDeadband>420</cim:RegulatingControl.targetDeadband>
-		<cim:RegulatingControl.targetValue>210</cim:RegulatingControl.targetValue>
-		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
-	</cim:TapChangerControl>
+
+
 	<cim:TapChangerControl rdf:about="#_681a3090-5a55-11eb-a658-74e5f963e191">
 		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
 		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
@@ -243,12 +237,7 @@ Change log:
 	<cim:Terminal rdf:about="#_92d33bb8-7034-11eb-a65a-74e5f963e191">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
-	<cim:Terminal rdf:about="#_92d33bc9-7034-11eb-a65a-74e5f963e191">
-		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
-	</cim:Terminal>
-	<cim:Terminal rdf:about="#_92d33bca-7034-11eb-a65a-74e5f963e191">
-		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
-	</cim:Terminal>
+
 	<cim:Terminal rdf:about="#_92d33bce-7034-11eb-a65a-74e5f963e191">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
@@ -276,4 +265,30 @@ Change log:
 	<cim:Terminal rdf:about="#_92d33c01-7034-11eb-a65a-74e5f963e191">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
+
+  <cim:Fuse rdf:about="#_38cd8874-fb01-462c-8c85-95dac14fee9c">
+    <entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+   
+    <cim:Switch.locked>false</cim:Switch.locked>
+    <cim:Switch.open>false</cim:Switch.open>-->
+    
+  </cim:Fuse>
+
+  <cim:ACLineSegment rdf:about="#_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">
+    <entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+   </cim:ACLineSegment>
+
+  <cim:ACLineSegment rdf:about="#_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
+    <entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+  </cim:ACLineSegment>
+  
+	<cim:Breaker rdf:about="_456569da-3708-5640-a0ab-623b45b4f9b5">
+		<cim:Switch.open>false</cim:Switch.open>
+		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+	</cim:Breaker>
+	<cim:ConformLoad rdf:about="_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f">
+		<cim:EnergyConsumer.p>0.001</cim:EnergyConsumer.p>
+		<cim:EnergyConsumer.q>0</cim:EnergyConsumer.q>
+	</cim:ConformLoad>
+ 
 </rdf:RDF>
