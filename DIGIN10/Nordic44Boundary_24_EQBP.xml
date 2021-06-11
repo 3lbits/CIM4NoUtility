@@ -202,7 +202,6 @@ Change log:
 	</cim:VoltageLevel>
 
 	<cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
-		<cim:IdentifiedObject.description>Secondary side of transformer Nedenes T1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
 		<entsoe:IdentifiedObject.shortName>XNED1_XNED2</entsoe:IdentifiedObject.shortName>
 		<entsoe:ConnectivityNode.boundaryPoint>true</entsoe:ConnectivityNode.boundaryPoint>
