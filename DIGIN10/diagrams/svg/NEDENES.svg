@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="NEDENES" width="595.75" height="731.5" viewBox="0 0 595.75 731.5" cimspy:name="NEDENES" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191" cimspy:diagramType="7" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <text id="FreeText_NEDENES CN 001" x="309.25" y="168.72" rdf:ID="_92d33b34-7034-11eb-a65a-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_NEDENES 22 E1 LB_S" x="374.5" y="206.72" rdf:ID="_55de4e32-8cb0-4602-9901-ec91e104b300" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES 22 E1 LB_S</text>
+  <text id="FreeText_NEDENES 22 TELEMA 2 FU1" x="377" y="363.22" rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES 22 TELEMA 2 FU1</text>
+  <text id="FreeText_NEDENES 22 T1 ALB_S" x="374.5" y="282.72" rdf:ID="_20605037-a626-4691-8601-89666564ff87" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES 22 T1 ALB_S</text>
+  <text id="FreeText_22 TELEMA 2 ACLS4" x="377" y="448.22" rdf:ID="_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 TELEMA 2 ACLS4</text>
+  <text id="FreeText_NEDENES 04 LV EQV" x="315.625" y="701.97" rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25" fill="#008080" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES 04 LV EQV</text>
+  <text id="FreeText_04 TELEMA 2 ACLS3" x="377" y="606.72" rdf:ID="_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9" fill="#008080" font-family="Segoe UI" font-size="9" font-weight="normal">04 TELEMA 2 ACLS3</text>
+  <text id="FreeText_NEDENES T1" x="382" y="527.47" rdf:ID="_681a309b-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES T1</text>
+  <text id="FreeText_22 ENGENE-NEDENES ACLS1" x="370" y="148.72" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 ENGENE-NEDENES ACLS1</text>
+  <a id="xlink_FreeText_ENGENE" xlink:href="ENGENE.svg">
+    <text id="FreeText_ENGENE" x="348.75" y="91.97" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE</text>
+  </a>
+  <text id="FreeText_NEDENES CN 005" x="321.75" y="497.72" rdf:ID="_9bf03de1-7f35-4dfe-86aa-29dff75a6962" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_NEDENES CN 003" x="316" y="573.22" rdf:ID="_681a21b3-5a55-11eb-a658-74e5f963e191" fill="#008080" font-family="Segoe UI" font-size="9" font-weight="normal">0.4 KV</text>
+  <text id="FreeText_NEDENES CN 002" x="321.75" y="414.72" rdf:ID="_d5b4c5ad-1762-8e43-9330-6ec8f7d97bce" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_NEDENES 22A CN 002" x="357.5" y="243.47" rdf:ID="_681a2178-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_NEDENES 22A CN 002" x="284.25" y="253.72" rdf:ID="_681a2178-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES 22A</text>
+  <text id="FreeText_NEDENES CN 004" x="321.75" y="329.72" rdf:ID="_ec60b5b3-1ffc-f940-8ce5-140d04267667" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_XNED1_XNED2 CN" x="357.5" y="657.97" rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d" fill="#008080" font-family="Segoe UI" font-size="9" font-weight="normal">0.4 KV</text>
+  <text id="FreeText_XNED1_XNED2 CN" x="284.25" y="668.22" rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d" fill="#008080" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES 04A</text>
+  <polyline id="ACLineSegment_22 ENGENE-NEDENES ACLS1" points="367.5,122.5 367.5,162.5" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 NEDENES T1 P" points="367.5,492.5 367.5,491.5" rdf:ID="_92d33bfd-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 TELEMA 2 ACLS4" points="367.5,474.5 367.5,491.5" rdf:ID="_eaa32378-2082-4b76-92df-09fa5f8b8b51" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 NEDENES T1 S" points="367.5,550 367.5,567" rdf:ID="_92d33bff-7034-11eb-a65a-74e5f963e191" stroke="#008080" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 TELEMA 2 ACLS4" points="367.5,568 367.5,567" rdf:ID="_25581747-6599-46ae-a8ac-62a0161045aa" stroke="#008080" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 22 TELEMA 2 ACLS4" points="367.5,409.5 367.5,408.5" rdf:ID="_db529221-814c-4f40-ab73-a7084d6308b7" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 22 TELEMA 2 FU1" points="367.5,389.5 367.5,408.5" rdf:ID="_21699bda-a520-45ea-b011-21a56bf567d7" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 NEDENES 22 E1 LB_S" points="367.5,172.5 367.5,162.5" rdf:ID="_bec25a71-68ca-496f-ad8a-edf43f6e6982" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 NEDENES 22 E1 LB_S" points="367.5,228.5 367.5,247.5" rdf:ID="_0766474a-94ad-40b5-8bb5-db0b7fcd04ff" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 NEDENES 22 T1 ALB_S" points="367.5,248.5 367.5,247.5" rdf:ID="_fa9b4957-62cd-4146-8483-a9620bf5ba3f" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 TELEMA 2 FU1" points="367.5,324.5 367.5,323.5" rdf:ID="_f3b95f0e-d18e-4d14-a61a-79c020ac8c30" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 NEDENES 22 T1 ALB_S" points="367.5,304.5 367.5,323.5" rdf:ID="_802d9d22-8304-5444-ac23-6f071fb84b77" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 NEDENES 04 LV EQV" points="367.5,663 367.5,662" rdf:ID="_ef17168b-d7ee-7548-9822-e10bbbcec793" stroke="#008080" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 A22 TELEMA 2 ACLS4" points="367.5,633 367.5,662" rdf:ID="_c2797e60-6614-4c5f-9090-ed8cef7b15b5" stroke="#008080" fill="none" stroke-width="1" />
+  <g id="Breaker_NEDENES 22 E1 LB_S" rdf:ID="_55de4e32-8cb0-4602-9901-ec91e104b300">
+    <rect id="Breaker_NEDENES 22 E1 LB_S_1" x="362.5" y="189.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_NEDENES 22 E1 LB_S_2" x1="367.5" y1="172.5" x2="367.5" y2="189.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_NEDENES 22 E1 LB_S_3" x1="367.5" y1="211.5" x2="367.5" y2="228.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Breaker_NEDENES 22 E1 LB_S_4" cx="367.5" cy="172.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <ellipse id="Breaker_NEDENES 22 E1 LB_S_5" cx="367.5" cy="228.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+  </g>
+  <g id="Disconnector_NEDENES 22 TELEMA 2 FU1" rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c">
+    <line id="Disconnector_NEDENES 22 TELEMA 2 FU1_1" x1="367.5" y1="344.5" x2="367.5" y2="369.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_NEDENES 22 TELEMA 2 FU1_2" x1="375" y1="344.5" x2="360" y2="369.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_NEDENES 22 TELEMA 2 FU1_3" x1="367.5" y1="324.5" x2="367.5" y2="344.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_NEDENES 22 TELEMA 2 FU1_4" x1="367.5" y1="369.5" x2="367.5" y2="389.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Disconnector_NEDENES 22 TELEMA 2 FU1_5" cx="367.5" cy="324.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <ellipse id="Disconnector_NEDENES 22 TELEMA 2 FU1_6" cx="367.5" cy="389.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+  </g>
+  <g id="Breaker_NEDENES 22 T1 ALB_S" rdf:ID="_20605037-a626-4691-8601-89666564ff87">
+    <rect id="Breaker_NEDENES 22 T1 ALB_S_1" x="362.5" y="265.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_NEDENES 22 T1 ALB_S_2" x1="367.5" y1="248.5" x2="367.5" y2="265.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_NEDENES 22 T1 ALB_S_3" x1="367.5" y1="287.5" x2="367.5" y2="304.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Breaker_NEDENES 22 T1 ALB_S_4" cx="367.5" cy="248.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <ellipse id="Breaker_NEDENES 22 T1 ALB_S_5" cx="367.5" cy="304.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+  </g>
+  <g id="Impedance_22 TELEMA 2 ACLS4" rdf:ID="_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">
+    <polyline id="Impedance_22 TELEMA 2 ACLS4_1" points="367.5,429.5 360,431.5833 375,435.75 360,439.9167 375,444.0833 360,448.25 375,452.4167 367.5,454.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Impedance_22 TELEMA 2 ACLS4_2" x1="367.5" y1="409.5" x2="367.5" y2="429.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Impedance_22 TELEMA 2 ACLS4_3" x1="367.5" y1="454.5" x2="367.5" y2="474.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Impedance_22 TELEMA 2 ACLS4_4" cx="367.5" cy="409.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <ellipse id="Impedance_22 TELEMA 2 ACLS4_5" cx="367.5" cy="474.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_ENGENE" xlink:href="ENGENE.svg">
+    <g id="NeighborSubstation_ENGENE" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 367.5, 107)">
+      <polyline id="NeighborSubstation_ENGENE_1" points="362,112.5 367.5,122.5 373,112.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_ENGENE_2" x1="367.5" y1="112.5" x2="367.5" y2="122" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_ENGENE_3" x1="367.5" y1="91.5" x2="367.5" y2="112.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <ellipse id="NeighborSubstation_ENGENE_4" cx="367.5" cy="91.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    </g>
+  </a>
+  <g id="Load_NEDENES 04 LV EQV" rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+    <polygon id="Load_NEDENES 04 LV EQV_1" points="362.5,678 372.5,678 367.5,688" stroke="#008080" fill="#008080" stroke-width="1" />
+    <line id="Load_NEDENES 04 LV EQV_2" x1="367.5" y1="663" x2="367.5" y2="678" stroke="#008080" fill="none" stroke-width="1" />
+    <ellipse id="Load_NEDENES 04 LV EQV_3" cx="367.5" cy="663" rx="3" ry="3" stroke="#008080" fill="#008080" stroke-width="1" />
+  </g>
+  <g id="Impedance_04 TELEMA 2 ACLS3" rdf:ID="_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
+    <polyline id="Impedance_04 TELEMA 2 ACLS3_1" points="367.5,588 360,590.0833 375,594.25 360,598.4167 375,602.5833 360,606.75 375,610.9167 367.5,613" stroke="#008080" fill="none" stroke-width="1" />
+    <line id="Impedance_04 TELEMA 2 ACLS3_2" x1="367.5" y1="568" x2="367.5" y2="588" stroke="#008080" fill="none" stroke-width="1" />
+    <line id="Impedance_04 TELEMA 2 ACLS3_3" x1="367.5" y1="613" x2="367.5" y2="633" stroke="#008080" fill="none" stroke-width="1" />
+    <ellipse id="Impedance_04 TELEMA 2 ACLS3_4" cx="367.5" cy="568" rx="3" ry="3" stroke="#008080" fill="#008080" stroke-width="1" />
+    <ellipse id="Impedance_04 TELEMA 2 ACLS3_5" cx="367.5" cy="633" rx="3" ry="3" stroke="#008080" fill="#008080" stroke-width="1" />
+  </g>
+  <g id="Transformer2W_NEDENES T1" rdf:ID="_681a309b-5a55-11eb-a658-74e5f963e191">
+    <ellipse id="Transformer2W_NEDENES T1_1" cx="367.5" cy="515" rx="12.5" ry="12.5" rdf:ID="_681a309e-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Transformer2W_NEDENES T1_2" cx="367.5" cy="527.5" rx="12.5" ry="12.5" rdf:ID="_681a30a8-5a55-11eb-a658-74e5f963e191" stroke="#008080" fill="none" stroke-width="1" />
+    <line id="Transformer2W_NEDENES T1_3" x1="367.5" y1="492.5" x2="367.5" y2="502.5" rdf:ID="_681a309e-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Transformer2W_NEDENES T1_4" x1="367.5" y1="540" x2="367.5" y2="550" rdf:ID="_681a30a8-5a55-11eb-a658-74e5f963e191" stroke="#008080" fill="none" stroke-width="1" />
+    <g id="Transformer2W_NEDENES T1_5">
+      <line id="Transformer2W_NEDENES T1_5_1" x1="355" y1="540" x2="380" y2="502.5" stroke="#008080" fill="none" stroke-width="1" />
+      <line id="Transformer2W_NEDENES T1_5_2" x1="376" y1="503.8333" x2="380" y2="502.5" stroke="#008080" fill="none" stroke-width="1" />
+      <line id="Transformer2W_NEDENES T1_5_3" x1="380" y1="506.5" x2="380" y2="502.5" stroke="#008080" fill="none" stroke-width="1" />
+    </g>
+    <ellipse id="Transformer2W_NEDENES T1_6" cx="367.5" cy="492.5" rx="3" ry="3" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <ellipse id="Transformer2W_NEDENES T1_7" cx="367.5" cy="550" rx="3" ry="3" stroke="#008080" fill="#008080" stroke-width="1" />
+  </g>
+  <line id="Bus_NEDENES CN 001" x1="345" y1="162.5" x2="390" y2="162.5" rdf:ID="_92d33b34-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_NEDENES CN 005" x1="357.5" y1="491.5" x2="377.5" y2="491.5" rdf:ID="_9bf03de1-7f35-4dfe-86aa-29dff75a6962" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_NEDENES CN 003" x1="357.5" y1="567" x2="377.5" y2="567" rdf:ID="_681a21b3-5a55-11eb-a658-74e5f963e191" stroke="#008080" fill="none" stroke-width="5" />
+  <line id="Bus_NEDENES CN 002" x1="357.5" y1="408.5" x2="377.5" y2="408.5" rdf:ID="_d5b4c5ad-1762-8e43-9330-6ec8f7d97bce" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_NEDENES 22A CN 002" x1="357.5" y1="247.5" x2="377.5" y2="247.5" rdf:ID="_681a2178-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_NEDENES CN 004" x1="357.5" y1="323.5" x2="377.5" y2="323.5" rdf:ID="_ec60b5b3-1ffc-f940-8ce5-140d04267667" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_XNED1_XNED2 CN" x1="357.5" y1="662" x2="377.5" y2="662" rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d" stroke="#008080" fill="none" stroke-width="5" />
+  <g id="NEDENES_69">
+    <rect id="NEDENES_69_1" x="364.5" y="159.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_70">
+    <rect id="NEDENES_70_1" x="364.5" y="159.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_71">
+    <rect id="NEDENES_71_1" x="364.5" y="488.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_72">
+    <rect id="NEDENES_72_1" x="364.5" y="488.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_73">
+    <rect id="NEDENES_73_1" x="364.5" y="564" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_74">
+    <rect id="NEDENES_74_1" x="364.5" y="564" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_75">
+    <rect id="NEDENES_75_1" x="364.5" y="405.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_76">
+    <rect id="NEDENES_76_1" x="364.5" y="405.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_77">
+    <rect id="NEDENES_77_1" x="364.5" y="244.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_78">
+    <rect id="NEDENES_78_1" x="364.5" y="244.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_79">
+    <rect id="NEDENES_79_1" x="364.5" y="320.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_80">
+    <rect id="NEDENES_80_1" x="364.5" y="320.5" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_81">
+    <rect id="NEDENES_81_1" x="364.5" y="659" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+  <g id="NEDENES_82">
+    <rect id="NEDENES_82_1" x="364.5" y="659" width="6" height="6" stroke="#FF0000" fill="#FF0000" stroke-width="1" />
+  </g>
+</svg>

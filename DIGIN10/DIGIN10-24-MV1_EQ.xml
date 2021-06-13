@@ -625,11 +625,11 @@ Change log:
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2178-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>NEDENES 22A CN 002</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#__47f5ebe7-1d03-4d20-b599-9b6068319987"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_92d33b34-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>NEDENES CN 001</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#__3d51330c-7528-4efb-8edc-e61dcc145ac4"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a21b3-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>NEDENES CN 003</cim:IdentifiedObject.name>

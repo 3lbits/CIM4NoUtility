@@ -32,11 +32,11 @@ Oppgave:
 - Add PetersenCoil
 - Fix Fuse connectivty
     - inn mellom LBS og ACLS mot trafo 22 Nedens T1
-- Fix Nedenes legg inn BusbareSection på rett plass... mellom LBS
+- Fix Nedenes by adding the BusbareSection inn between the the two LBS - SHO: Fixed by adding the ConnectivityNode to the Bay rather VoltageLevel
 
 
 
-
+Note: Colour on the Voltage Level
 
 
 # EQ
