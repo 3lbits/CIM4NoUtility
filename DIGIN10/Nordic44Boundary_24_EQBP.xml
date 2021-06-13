@@ -51,7 +51,7 @@ Change log:
 		<cim:IdentifiedObject.description>Base Voltage 22 kV</cim:IdentifiedObject.description>
 		<cim:BaseVoltage.nominalVoltage>22</cim:BaseVoltage.nominalVoltage>
 		<entsoe:IdentifiedObject.shortName>22</entsoe:IdentifiedObject.shortName>	
-		<cim:IdentifiedObject.name>22kV</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>AC-22kV</cim:IdentifiedObject.name>
 	</cim:BaseVoltage>
 	<!-- Low Voltage (LV) BaseVoltage -->
 	<cim:BaseVoltage rdf:ID="_06d3126a-8b34-4101-b800-c09ec42275a9">
@@ -63,20 +63,20 @@ Change log:
 	<cim:BaseVoltage rdf:ID="_fb384693-5e5b-4432-a281-1c7b206f652e">
 		<cim:IdentifiedObject.description>Base Voltage 690 V</cim:IdentifiedObject.description>
 		<cim:BaseVoltage.nominalVoltage>0.690</cim:BaseVoltage.nominalVoltage>
-		<entsoe:IdentifiedObject.shortName>0.690</entsoe:IdentifiedObject.shortName>	
+		<entsoe:IdentifiedObject.shortName>069</entsoe:IdentifiedObject.shortName>	
 		<cim:IdentifiedObject.name>AC-690V</cim:IdentifiedObject.name>
 	</cim:BaseVoltage>
 	<!-- Household BaseVoltage -->	
 	<cim:BaseVoltage rdf:ID="_9598e4a0-67e5-4ad7-879c-c85a1f63159c">
 		<cim:IdentifiedObject.description>Base Voltage 400 V</cim:IdentifiedObject.description>
 		<cim:BaseVoltage.nominalVoltage>0.4</cim:BaseVoltage.nominalVoltage>
-		<entsoe:IdentifiedObject.shortName>0.400</entsoe:IdentifiedObject.shortName>	
+		<entsoe:IdentifiedObject.shortName>04</entsoe:IdentifiedObject.shortName>	
 		<cim:IdentifiedObject.name>AC-400V</cim:IdentifiedObject.name>
 	</cim:BaseVoltage>
 	<cim:BaseVoltage rdf:ID="_830622e6-d259-4526-b14e-122d94a622a4">
 		<cim:IdentifiedObject.description>Base Voltage 230 V</cim:IdentifiedObject.description>
 		<cim:BaseVoltage.nominalVoltage>0.23</cim:BaseVoltage.nominalVoltage>
-		<entsoe:IdentifiedObject.shortName>0.230</entsoe:IdentifiedObject.shortName>	
+		<entsoe:IdentifiedObject.shortName>023</entsoe:IdentifiedObject.shortName>	
 		<cim:IdentifiedObject.name>AC-230V</cim:IdentifiedObject.name>
 	</cim:BaseVoltage>
 
@@ -196,10 +196,17 @@ Change log:
 
 	<cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES 0400</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>NEDENES 04</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
 	</cim:VoltageLevel>
+
+		<cim:Bay rdf:ID="_3d51330c-7528-4efb-8edc-e61dcc145ac4">
+		<cim:IdentifiedObject.description>Nedenes 400V Low Voltage Cable 1 Bay</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NEDENES  04LC1</cim:IdentifiedObject.name>
+		<cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+	</cim:Bay>
+
 
 	<cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
 		<cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>

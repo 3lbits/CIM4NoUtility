@@ -16,8 +16,8 @@
   <polyline id="ACLineSegment_132 FROLAND-T_ENGENE ACLS 1" points="369.9583,230 369.9583,279" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
   <polyline id="PinLink_T1 T_ENGENE 132 EN1 LD_S" points="369.9583,280 369.9583,279" rdf:ID="_1a4d9840-26f0-452a-afe4-d74ba8829451" stroke="#601F40" fill="none" stroke-width="1" />
   <polyline id="ACLineSegment_132 T_ENGENE-ENGENE ACLS 1 2" points="436.625,400 436.625,440" rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 132T_ENGENE-ENGENE 1 1" points="369.9583,430 369.9583,440" rdf:ID="_f6e8c471-b1eb-467b-af68-78c6aa25771b" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 132T_ENGENE-ENGENE 1 1" points="369.9583,365 369.9583,364" rdf:ID="_92d33bce-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 132 T_ENGENE-ENGENE ACLS 1 1" points="369.9583,430 369.9583,440" rdf:ID="_f6e8c471-b1eb-467b-af68-78c6aa25771b" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 132 T_ENGENE-ENGENE ACLS 1 1" points="369.9583,365 369.9583,364" rdf:ID="_92d33bce-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
   <polyline id="PinLink_T2 T_ENGENE 132 EN1 LD_S" points="369.9583,345 369.9583,364" rdf:ID="_78c5385c-be34-4f4f-a81a-225decba8227" stroke="#601F40" fill="none" stroke-width="1" />
   <g id="Disconnector_T_ENGENE 132 EN1 LD_S" rdf:ID="_652e1c63-50b0-4f5a-b88d-8f814a0cda4d">
     <line id="Disconnector_T_ENGENE 132 EN1 LD_S_1" x1="369.9583" y1="300" x2="369.9583" y2="325" stroke="#601F40" fill="none" stroke-width="2" />

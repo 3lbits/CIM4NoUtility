@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="ARENDAL" width="635.375" height="694.5" viewBox="0 0 635.375 694.5" cimspy:name="ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" cimspy:diagramType="7" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
-  <text id="FreeText_ARENDAL CN 010" x="414.875" y="489.47" rdf:ID="_517ac677-7ac0-dd4d-ac94-a191b7c05b13" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
-  <text id="FreeText_ARENDAL 420 TM EQV" x="384.875" y="625.97" rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 420 TM EQV</text>
-  <text id="FreeText_ARENDAL 132 T1 SD_S" x="411.625" y="372.22" rdf:ID="_ce365fed-87da-da4c-b646-6d39ba7eb406" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1 SD_S</text>
-  <text id="FreeText_ARENDAL 132 T1E" x="409.125" y="291.72" rdf:ID="_48668646-105a-490d-aaad-3259b852aa23" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1E</text>
-  <text id="FreeText_ARENDAL 132 T1 LD_S" x="411.625" y="211.22" rdf:ID="_a8afc199-8a20-41d8-8ada-5261202610eb" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1 LD_S</text>
-  <text id="FreeText_ARENDAL 132 T1SP1E" x="244.625" y="537.72" rdf:ID="_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1SP1E</text>
-  <text id="FreeText_ARENDAL 132 T1 PC" x="369.125" y="640.72" rdf:ID="_62585c75-b020-614c-89a1-fec7c118c3fa" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1 PC</text>
-  <text id="FreeText_132 ARENDAL-T1 ACLS" x="411.625" y="457.22" rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 ARENDAL-T1 ACLS</text>
-  <text id="FreeText_ARENDAL T1" x="454.125" y="536.47" rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL T1</text>
-  <text id="FreeText_ARENDAL CN 009" x="351.625" y="177.72" rdf:ID="_d33115d5-f70a-7543-818c-f15f9b7d4501" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
-  <text id="FreeText_132 ARENDAL-FROLAND ACLS1" x="404.625" y="153.22" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 ARENDAL-FROLAND ACLS1</text>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="ARENDAL" width="638.25" height="694.5" viewBox="0 0 638.25 694.5" cimspy:name="ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" cimspy:diagramType="7" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <text id="FreeText_ARENDAL CN 010" x="412" y="489.47" rdf:ID="_517ac677-7ac0-dd4d-ac94-a191b7c05b13" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ARENDAL 420 TM EQV" x="382" y="625.97" rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 420 TM EQV</text>
+  <text id="FreeText_ARENDAL 132 T1 SD_S" x="408.75" y="372.22" rdf:ID="_ce365fed-87da-da4c-b646-6d39ba7eb406" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1 SD_S</text>
+  <text id="FreeText_ARENDAL 132 T1E" x="406.25" y="291.72" rdf:ID="_48668646-105a-490d-aaad-3259b852aa23" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1E</text>
+  <text id="FreeText_ARENDAL 132 T1 LD_S" x="408.75" y="211.22" rdf:ID="_a8afc199-8a20-41d8-8ada-5261202610eb" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1 LD_S</text>
+  <text id="FreeText_ARENDAL 132 T1SP1E" x="241.75" y="537.72" rdf:ID="_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1SP1E</text>
+  <text id="FreeText_ARENDAL 132 T1 PC" x="366.25" y="640.72" rdf:ID="_62585c75-b020-614c-89a1-fec7c118c3fa" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 132 T1 PC</text>
+  <text id="FreeText_132 ARENDAL-T1 ACLS 1" x="408.75" y="457.22" rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 ARENDAL-T1 ACLS 1</text>
+  <text id="FreeText_ARENDAL T1" x="451.25" y="536.47" rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL T1</text>
+  <text id="FreeText_ARENDAL CN 009" x="348.75" y="177.72" rdf:ID="_d33115d5-f70a-7543-818c-f15f9b7d4501" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_132 ARENDAL-FROLAND ACLS 1" x="401.75" y="153.22" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 ARENDAL-FROLAND ACLS 1</text>
   <a id="xlink_FreeText_FROLAND" xlink:href="FROLAND.svg">
-    <text id="FreeText_FROLAND" x="380.25" y="91.97" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND</text>
+    <text id="FreeText_FROLAND" x="377.375" y="91.97" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND</text>
   </a>
-  <text id="FreeText_XARE1_XARE2 CN" x="429.625" y="581.97" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420 KV</text>
-  <text id="FreeText_ARENDAL CN 011" x="309.125" y="594.72" rdf:ID="_8f69bfc5-3f5a-7f49-aeab-7df584878465" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
-  <text id="FreeText_ARENDAL CN 012" x="351.625" y="423.72" rdf:ID="_730d0140-2cfb-1046-a131-fe4022d80e95" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
-  <text id="FreeText_ARENDAL CN 007" x="351.625" y="338.72" rdf:ID="_681a1e80-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
-  <text id="FreeText_ARENDAL CN 008" x="351.625" y="262.72" rdf:ID="_1aea01d1-2f09-1a4d-a2b1-872e3f11457f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
-  <polyline id="ACLineSegment_132 ARENDAL-FROLAND ACLS1" points="402.125,122.5 402.125,171.5" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 ARENDAL 132 T1 LD_S" points="402.125,172.5 402.125,171.5" rdf:ID="_71d501b8-9459-40b1-abe6-d18563eed82f" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL T1 P" points="439.625,559 439.625,586" rdf:ID="_92d33bf5-7034-11eb-a65a-74e5f963e191" stroke="#622423" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL 420 TM EQV" points="439.625,587 439.625,586" rdf:ID="_e190ae57-ed18-f340-90c2-ddbbfe168ed8" stroke="#622423" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 ARENDAL T1 S" points="439.625,501.5 439.625,493.5" rdf:ID="_92d33bf7-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL 132 T1 PC" points="359.625,589.5 359.625,588.5" rdf:ID="_e2dfb756-4b1e-f34b-a0be-880ea3a2ef50" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 ARENDAL 132 T1SP1E" points="359.625,559.5 359.625,588.5" rdf:ID="_484698af-2887-c446-afa2-c1f4bb5a9e65" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 132ARENDAL-T1 ACLS" points="402.125,483.5 402.125,493.5" rdf:ID="_19be92de-7307-074e-af23-2acb6521214a" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 132ARENDAL-T1 ACLS" points="402.125,418.5 402.125,417.5" rdf:ID="_5b2bb253-421b-b14e-9d6c-ca972e830e4a" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 ARENDAL 132 T1 SD_S" points="402.125,398.5 402.125,417.5" rdf:ID="_ccbe9368-07f4-184b-b3e5-9af9b1a08592" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL 132 T1 SD_S" points="402.125,333.5 402.125,332.5" rdf:ID="_86def089-155d-984b-a28f-2d4835cc7dfe" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL 132 T1E" points="402.125,313.5 402.125,332.5" rdf:ID="_8266f01c-2b3d-4111-957e-b871f71f0fad" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T2 ARENDAL 132 T1E" points="402.125,257.5 402.125,256.5" rdf:ID="_f8846bea-b1a3-4b2c-8da5-7fa0231079f6" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL 132 T1 LD_S" points="402.125,237.5 402.125,256.5" rdf:ID="_0523e10e-4e02-48c6-94dd-ef1938932497" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="PinLink_T1 ARENDAL 132 T1SP1E" points="359.625,503.5 359.625,493.5" rdf:ID="_45fbf47e-a9b2-4131-8851-afceeecf0ec9" stroke="#601F40" fill="none" stroke-width="1" />
+  <text id="FreeText_XARE1_XARE2 CN" x="426.75" y="581.97" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420 KV</text>
+  <text id="FreeText_ARENDAL CN 011" x="306.25" y="594.72" rdf:ID="_8f69bfc5-3f5a-7f49-aeab-7df584878465" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ARENDAL CN 012" x="348.75" y="423.72" rdf:ID="_730d0140-2cfb-1046-a131-fe4022d80e95" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ARENDAL CN 007" x="348.75" y="338.72" rdf:ID="_681a1e80-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ARENDAL CN 008" x="348.75" y="262.72" rdf:ID="_1aea01d1-2f09-1a4d-a2b1-872e3f11457f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <polyline id="ACLineSegment_132 ARENDAL-FROLAND ACLS 1" points="399.25,122.5 399.25,171.5" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ARENDAL 132 T1 LD_S" points="399.25,172.5 399.25,171.5" rdf:ID="_71d501b8-9459-40b1-abe6-d18563eed82f" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL T1 420 P" points="436.75,559 436.75,586" rdf:ID="_92d33bf5-7034-11eb-a65a-74e5f963e191" stroke="#622423" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL 420 TM EQV" points="436.75,587 436.75,586" rdf:ID="_e190ae57-ed18-f340-90c2-ddbbfe168ed8" stroke="#622423" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ARENDAL T1 132 S" points="436.75,501.5 436.75,493.5" rdf:ID="_92d33bf7-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL 132 T1 PC" points="356.75,589.5 356.75,588.5" rdf:ID="_e2dfb756-4b1e-f34b-a0be-880ea3a2ef50" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ARENDAL 132 T1SP1E" points="356.75,559.5 356.75,588.5" rdf:ID="_484698af-2887-c446-afa2-c1f4bb5a9e65" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 132 ARENDAL-T1 ACLS 1" points="399.25,483.5 399.25,493.5" rdf:ID="_19be92de-7307-074e-af23-2acb6521214a" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 132 ARENDAL-T1 ACLS 1" points="399.25,418.5 399.25,417.5" rdf:ID="_5b2bb253-421b-b14e-9d6c-ca972e830e4a" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ARENDAL 132 T1 SD_S" points="399.25,398.5 399.25,417.5" rdf:ID="_ccbe9368-07f4-184b-b3e5-9af9b1a08592" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL 132 T1 SD_S" points="399.25,333.5 399.25,332.5" rdf:ID="_86def089-155d-984b-a28f-2d4835cc7dfe" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL 132 T1E" points="399.25,313.5 399.25,332.5" rdf:ID="_8266f01c-2b3d-4111-957e-b871f71f0fad" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ARENDAL 132 T1E" points="399.25,257.5 399.25,256.5" rdf:ID="_f8846bea-b1a3-4b2c-8da5-7fa0231079f6" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL 132 T1 LD_S" points="399.25,237.5 399.25,256.5" rdf:ID="_0523e10e-4e02-48c6-94dd-ef1938932497" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ARENDAL 132 T1SP1E" points="356.75,503.5 356.75,493.5" rdf:ID="_45fbf47e-a9b2-4131-8851-afceeecf0ec9" stroke="#601F40" fill="none" stroke-width="1" />
   <g id="Load_ARENDAL 420 TM EQV" rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802">
-    <polygon id="Load_ARENDAL 420 TM EQV_1" points="434.625,602 444.625,602 439.625,612" stroke="#622423" fill="#622423" stroke-width="1" />
-    <line id="Load_ARENDAL 420 TM EQV_2" x1="439.625" y1="587" x2="439.625" y2="602" stroke="#622423" fill="none" stroke-width="1" />
+    <polygon id="Load_ARENDAL 420 TM EQV_1" points="431.75,602 441.75,602 436.75,612" stroke="#622423" fill="#622423" stroke-width="1" />
+    <line id="Load_ARENDAL 420 TM EQV_2" x1="436.75" y1="587" x2="436.75" y2="602" stroke="#622423" fill="none" stroke-width="1" />
   </g>
   <g id="Disconnector_ARENDAL 132 T1 SD_S" rdf:ID="_ce365fed-87da-da4c-b646-6d39ba7eb406">
-    <line id="Disconnector_ARENDAL 132 T1 SD_S_1" x1="402.125" y1="353.5" x2="402.125" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
-    <line id="Disconnector_ARENDAL 132 T1 SD_S_2" x1="409.625" y1="353.5" x2="394.625" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
-    <line id="Disconnector_ARENDAL 132 T1 SD_S_3" x1="402.125" y1="333.5" x2="402.125" y2="353.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Disconnector_ARENDAL 132 T1 SD_S_4" x1="402.125" y1="378.5" x2="402.125" y2="398.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 132 T1 SD_S_1" x1="399.25" y1="353.5" x2="399.25" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 132 T1 SD_S_2" x1="406.75" y1="353.5" x2="391.75" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 132 T1 SD_S_3" x1="399.25" y1="333.5" x2="399.25" y2="353.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 132 T1 SD_S_4" x1="399.25" y1="378.5" x2="399.25" y2="398.5" stroke="#601F40" fill="none" stroke-width="1" />
   </g>
   <g id="Breaker_ARENDAL 132 T1E" rdf:ID="_48668646-105a-490d-aaad-3259b852aa23">
-    <rect id="Breaker_ARENDAL 132 T1E_1" x="397.125" y="274.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
-    <line id="Breaker_ARENDAL 132 T1E_2" x1="402.125" y1="257.5" x2="402.125" y2="274.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Breaker_ARENDAL 132 T1E_3" x1="402.125" y1="296.5" x2="402.125" y2="313.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <rect id="Breaker_ARENDAL 132 T1E_1" x="394.25" y="274.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_ARENDAL 132 T1E_2" x1="399.25" y1="257.5" x2="399.25" y2="274.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 132 T1E_3" x1="399.25" y1="296.5" x2="399.25" y2="313.5" stroke="#601F40" fill="none" stroke-width="1" />
   </g>
   <g id="Disconnector_ARENDAL 132 T1 LD_S" rdf:ID="_a8afc199-8a20-41d8-8ada-5261202610eb">
-    <line id="Disconnector_ARENDAL 132 T1 LD_S_1" x1="402.125" y1="192.5" x2="402.125" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
-    <line id="Disconnector_ARENDAL 132 T1 LD_S_2" x1="409.625" y1="192.5" x2="394.625" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
-    <line id="Disconnector_ARENDAL 132 T1 LD_S_3" x1="402.125" y1="172.5" x2="402.125" y2="192.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Disconnector_ARENDAL 132 T1 LD_S_4" x1="402.125" y1="217.5" x2="402.125" y2="237.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 132 T1 LD_S_1" x1="399.25" y1="192.5" x2="399.25" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 132 T1 LD_S_2" x1="406.75" y1="192.5" x2="391.75" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 132 T1 LD_S_3" x1="399.25" y1="172.5" x2="399.25" y2="192.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 132 T1 LD_S_4" x1="399.25" y1="217.5" x2="399.25" y2="237.5" stroke="#601F40" fill="none" stroke-width="1" />
   </g>
   <g id="Breaker_ARENDAL 132 T1SP1E" rdf:ID="_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73">
-    <rect id="Breaker_ARENDAL 132 T1SP1E_1" x="354.625" y="520.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
-    <line id="Breaker_ARENDAL 132 T1SP1E_2" x1="359.625" y1="503.5" x2="359.625" y2="520.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Breaker_ARENDAL 132 T1SP1E_3" x1="359.625" y1="542.5" x2="359.625" y2="559.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <rect id="Breaker_ARENDAL 132 T1SP1E_1" x="351.75" y="520.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_ARENDAL 132 T1SP1E_2" x1="356.75" y1="503.5" x2="356.75" y2="520.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 132 T1SP1E_3" x1="356.75" y1="542.5" x2="356.75" y2="559.5" stroke="#601F40" fill="none" stroke-width="1" />
   </g>
   <g id="Ground_ARENDAL 132 T1 PC" rdf:ID="_62585c75-b020-614c-89a1-fec7c118c3fa">
     <g id="Ground_ARENDAL 132 T1 PC_1" stroke="#601F40" fill="none" stroke-width="1">
-      <path id="Ground_ARENDAL 132 T1 PC_1_1" d="M 359.625 604 A 7.5 6 0 0 0 359.625 616.5 " />
-      <path id="Ground_ARENDAL 132 T1 PC_1_2" d="M 359.625 612.5 A 7.5 6 0 0 0 359.625 625 " />
-      <path id="Ground_ARENDAL 132 T1 PC_1_3" d="M 359.625 612.5 A 5 2 0 0 1 359.625 616.5 " />
+      <path id="Ground_ARENDAL 132 T1 PC_1_1" d="M 356.75 604 A 7.5 6 0 0 0 356.75 616.5 " />
+      <path id="Ground_ARENDAL 132 T1 PC_1_2" d="M 356.75 612.5 A 7.5 6 0 0 0 356.75 625 " />
+      <path id="Ground_ARENDAL 132 T1 PC_1_3" d="M 356.75 612.5 A 5 2 0 0 1 356.75 616.5 " />
     </g>
-    <line id="Ground_ARENDAL 132 T1 PC_2" x1="359.625" y1="589.5" x2="359.625" y2="604.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Ground_ARENDAL 132 T1 PC_3" x1="359.625" y1="624.5" x2="359.625" y2="634.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Ground_ARENDAL 132 T1 PC_4" x1="354" y1="634.5" x2="365.25" y2="634.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Ground_ARENDAL 132 T1 PC_5" x1="355.875" y1="637" x2="363.375" y2="637" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Ground_ARENDAL 132 T1 PC_6" x1="357.75" y1="639.5" x2="361.5" y2="639.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Ground_ARENDAL 132 T1 PC_2" x1="356.75" y1="589.5" x2="356.75" y2="604.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Ground_ARENDAL 132 T1 PC_3" x1="356.75" y1="624.5" x2="356.75" y2="634.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Ground_ARENDAL 132 T1 PC_4" x1="351.125" y1="634.5" x2="362.375" y2="634.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Ground_ARENDAL 132 T1 PC_5" x1="353" y1="637" x2="360.5" y2="637" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Ground_ARENDAL 132 T1 PC_6" x1="354.875" y1="639.5" x2="358.625" y2="639.5" stroke="#601F40" fill="none" stroke-width="1" />
   </g>
-  <g id="Impedance_132 ARENDAL-T1 ACLS" rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a">
-    <polyline id="Impedance_132 ARENDAL-T1 ACLS_1" points="402.125,438.5 394.625,440.5833 409.625,444.75 394.625,448.9167 409.625,453.0833 394.625,457.25 409.625,461.4167 402.125,463.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Impedance_132 ARENDAL-T1 ACLS_2" x1="402.125" y1="418.5" x2="402.125" y2="438.5" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Impedance_132 ARENDAL-T1 ACLS_3" x1="402.125" y1="463.5" x2="402.125" y2="483.5" stroke="#601F40" fill="none" stroke-width="1" />
+  <g id="Impedance_132 ARENDAL-T1 ACLS 1" rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a">
+    <polyline id="Impedance_132 ARENDAL-T1 ACLS 1_1" points="399.25,438.5 391.75,440.5833 406.75,444.75 391.75,448.9167 406.75,453.0833 391.75,457.25 406.75,461.4167 399.25,463.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Impedance_132 ARENDAL-T1 ACLS 1_2" x1="399.25" y1="418.5" x2="399.25" y2="438.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Impedance_132 ARENDAL-T1 ACLS 1_3" x1="399.25" y1="463.5" x2="399.25" y2="483.5" stroke="#601F40" fill="none" stroke-width="1" />
   </g>
   <a id="xlink_NeighborSubstation_FROLAND" xlink:href="FROLAND.svg">
-    <g id="NeighborSubstation_FROLAND" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 402.125, 107)">
-      <polyline id="NeighborSubstation_FROLAND_1" points="396.625,112.5 402.125,122.5 407.625,112.5" stroke="#601F40" fill="none" stroke-width="1" />
-      <line id="NeighborSubstation_FROLAND_2" x1="402.125" y1="112.5" x2="402.125" y2="122" stroke="#601F40" fill="none" stroke-width="1" />
-      <line id="NeighborSubstation_FROLAND_3" x1="402.125" y1="91.5" x2="402.125" y2="112.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <g id="NeighborSubstation_FROLAND" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 399.25, 107)">
+      <polyline id="NeighborSubstation_FROLAND_1" points="393.75,112.5 399.25,122.5 404.75,112.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_FROLAND_2" x1="399.25" y1="112.5" x2="399.25" y2="122" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_FROLAND_3" x1="399.25" y1="91.5" x2="399.25" y2="112.5" stroke="#601F40" fill="none" stroke-width="1" />
     </g>
   </a>
   <g id="Transformer2W_ARENDAL T1" rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191">
-    <ellipse id="Transformer2W_ARENDAL T1_1" cx="439.625" cy="524" rx="12.5" ry="12.5" rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
-    <ellipse id="Transformer2W_ARENDAL T1_2" cx="439.625" cy="536.5" rx="12.5" ry="12.5" rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191" stroke="#622423" fill="none" stroke-width="1" />
-    <line id="Transformer2W_ARENDAL T1_3" x1="439.625" y1="501.5" x2="439.625" y2="511.5" rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
-    <line id="Transformer2W_ARENDAL T1_4" x1="439.625" y1="549" x2="439.625" y2="559" rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191" stroke="#622423" fill="none" stroke-width="1" />
+    <ellipse id="Transformer2W_ARENDAL T1_1" cx="436.75" cy="524" rx="12.5" ry="12.5" rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Transformer2W_ARENDAL T1_2" cx="436.75" cy="536.5" rx="12.5" ry="12.5" rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191" stroke="#622423" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ARENDAL T1_3" x1="436.75" y1="501.5" x2="436.75" y2="511.5" rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ARENDAL T1_4" x1="436.75" y1="549" x2="436.75" y2="559" rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191" stroke="#622423" fill="none" stroke-width="1" />
     <g id="Transformer2W_ARENDAL T1_5">
-      <line id="Transformer2W_ARENDAL T1_5_1" x1="427.125" y1="549" x2="452.125" y2="511.5" stroke="#601F40" fill="none" stroke-width="1" />
-      <line id="Transformer2W_ARENDAL T1_5_2" x1="448.125" y1="512.8333" x2="452.125" y2="511.5" stroke="#601F40" fill="none" stroke-width="1" />
-      <line id="Transformer2W_ARENDAL T1_5_3" x1="452.125" y1="515.5" x2="452.125" y2="511.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ARENDAL T1_5_1" x1="424.25" y1="549" x2="449.25" y2="511.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ARENDAL T1_5_2" x1="445.25" y1="512.8333" x2="449.25" y2="511.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ARENDAL T1_5_3" x1="449.25" y1="515.5" x2="449.25" y2="511.5" stroke="#601F40" fill="none" stroke-width="1" />
     </g>
   </g>
-  <line id="Bus_ARENDAL CN 010" x1="342.125" y1="493.5" x2="462.125" y2="493.5" rdf:ID="_517ac677-7ac0-dd4d-ac94-a191b7c05b13" stroke="#601F40" fill="none" stroke-width="5" />
-  <line id="Bus_ARENDAL CN 009" x1="392.125" y1="171.5" x2="412.125" y2="171.5" rdf:ID="_d33115d5-f70a-7543-818c-f15f9b7d4501" stroke="#601F40" fill="none" stroke-width="5" />
-  <line id="Bus_XARE1_XARE2 CN" x1="429.625" y1="586" x2="449.625" y2="586" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" stroke="#622423" fill="none" stroke-width="5" />
-  <line id="Bus_ARENDAL CN 011" x1="349.625" y1="588.5" x2="369.625" y2="588.5" rdf:ID="_8f69bfc5-3f5a-7f49-aeab-7df584878465" stroke="#601F40" fill="none" stroke-width="5" />
-  <line id="Bus_ARENDAL CN 012" x1="392.125" y1="417.5" x2="412.125" y2="417.5" rdf:ID="_730d0140-2cfb-1046-a131-fe4022d80e95" stroke="#601F40" fill="none" stroke-width="5" />
-  <line id="Bus_ARENDAL CN 007" x1="392.125" y1="332.5" x2="412.125" y2="332.5" rdf:ID="_681a1e80-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
-  <line id="Bus_ARENDAL CN 008" x1="392.125" y1="256.5" x2="412.125" y2="256.5" rdf:ID="_1aea01d1-2f09-1a4d-a2b1-872e3f11457f" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 010" x1="339.25" y1="493.5" x2="459.25" y2="493.5" rdf:ID="_517ac677-7ac0-dd4d-ac94-a191b7c05b13" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 009" x1="389.25" y1="171.5" x2="409.25" y2="171.5" rdf:ID="_d33115d5-f70a-7543-818c-f15f9b7d4501" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_XARE1_XARE2 CN" x1="426.75" y1="586" x2="446.75" y2="586" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" stroke="#622423" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 011" x1="346.75" y1="588.5" x2="366.75" y2="588.5" rdf:ID="_8f69bfc5-3f5a-7f49-aeab-7df584878465" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 012" x1="389.25" y1="417.5" x2="409.25" y2="417.5" rdf:ID="_730d0140-2cfb-1046-a131-fe4022d80e95" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 007" x1="389.25" y1="332.5" x2="409.25" y2="332.5" rdf:ID="_681a1e80-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 008" x1="389.25" y1="256.5" x2="409.25" y2="256.5" rdf:ID="_1aea01d1-2f09-1a4d-a2b1-872e3f11457f" stroke="#601F40" fill="none" stroke-width="5" />
 </svg>
