@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="ENGENE" width="858.9167" height="999" viewBox="0 0 904.8107 1052.379" cimspy:name="ENGENE" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" cimspy:diagramType="7" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <text id="FreeText_ENGENE 22A CN 013" x="255.0417" y="723.97" rdf:ID="_681a2162-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE 22A CN 013" x="127.1667" y="734.22" rdf:ID="_681a2162-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE  22A</text>
+  <text id="FreeText_ENGENE CN 002" x="224.625" y="562.97" rdf:ID="_681a215b-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 014" x="172" y="488.22" rdf:ID="_681a2154-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 003" x="611.0417" y="723.97" rdf:ID="_681a1e4b-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE 132 T1 AD_S" x="252.75" y="211.22" rdf:ID="_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 132 T1 AD_S</text>
+  <text id="FreeText_ENGENE 132 T1E" x="250.25" y="291.72" rdf:ID="_d4afd20b-a007-43f0-9736-4a868c4cc65a" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 132 T1E</text>
+  <text id="FreeText_ENGENE 132 T1 SD_S" x="252.75" y="372.22" rdf:ID="_a450fac1-80a9-cd4d-aa26-0223af980b17" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 132 T1 SD_S</text>
+  <text id="FreeText_ENGENE 22 NT1 AD_S" x="308.4167" y="749.47" rdf:ID="_57b1462c-259c-426b-86f9-f6f6f2af9c5c" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 NT1 AD_S</text>
+  <text id="FreeText_ENGENE 22 NE1 AD_S" x="311.0833" y="671.72" rdf:ID="_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 NE1 AD_S</text>
+  <text id="FreeText_ENGENE 22T1 AD_S" x="135.75" y="691.72" rdf:ID="_842aed4c-0828-4e7a-babc-ce724633a43d" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22T1 AD_S</text>
+  <text id="FreeText_ENGENE 22 SB AD_S" x="269.4167" y="776.72" rdf:ID="_b8b9b131-6eb7-41c7-899e-7003960b1a5f" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 SB AD_S</text>
+  <text id="FreeText_ENGENE 22 NE1 E" x="308.5833" y="631.22" rdf:ID="_12156bb5-7a82-4e95-8ea4-2ff8573133fe" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 NE1 E</text>
+  <text id="FreeText_ENGENE 22 T1E" x="156.5" y="611.22" rdf:ID="_b16294fe-269c-4f3d-b6af-4bc473c663d6" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 T1E</text>
+  <text id="FreeText_ENGENE 22 SC1" x="274.4167" y="935.22" rdf:ID="_681a323d-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 SC1</text>
+  <text id="FreeText_ENGENE 22 SBE" x="266.9167" y="857.22" rdf:ID="_f7d8e580-296d-4c2a-b989-1eb4db7af387" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 SBE</text>
+  <text id="FreeText_22 ZT1-EFC PC" x="494.6667" y="864.22" rdf:ID="_c9d5445c-9ad6-3849-9e02-08762805826b" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 ZT1-EFC PC</text>
+  <text id="FreeText_ENGENE 22 NT1E" x="400.9167" y="721.47" rdf:ID="_808643b7-4e47-4faa-b906-999d0f1fe32b" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 22 NT1E</text>
+  <text id="FreeText_22 ENGENE-T1 ACLS 1 2" x="80.00001" y="530.72" rdf:ID="_681a2a13-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 ENGENE-T1 ACLS 1 2</text>
+  <text id="FreeText_22 ENGENE-T1 ACLS 1 1" x="272.75" y="530.72" rdf:ID="_681a2a7f-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 ENGENE-T1 ACLS 1 1</text>
+  <text id="FreeText_22 ZT1-EFC ACLS 1" x="471.6667" y="776.72" rdf:ID="_b1b4714b-a160-7742-84d5-d6486d776c94" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 ZT1-EFC ACLS 1</text>
+  <text id="FreeText_22 ENGENE-ZT1 ACLS 1" x="453.9167" y="749.47" rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 ENGENE-ZT1 ACLS 1</text>
+  <text id="FreeText_ENGENE 023 ZT1 CL" x="612.5417" y="945.47" rdf:ID="_eb9b50c9-e363-0940-a177-2b7abd47f398" fill="#4D2E00" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE 023 ZT1 CL</text>
+  <text id="FreeText_023 ZT1-EFC ACLS 1" x="672.9167" y="850.22" rdf:ID="_681a26db-5a55-11eb-a658-74e5f963e191" fill="#4D2E00" font-family="Segoe UI" font-size="9" font-weight="normal">023 ZT1-EFC ACLS 1</text>
+  <text id="FreeText_ENGENE T1" x="257.75" y="451.47" rdf:ID="_681a3087-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE T1</text>
+  <text id="FreeText_ENGENE NT1" x="677.9167" y="770.97" rdf:ID="_681a2fcb-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE NT1</text>
+  <text id="FreeText_ENGENE CN 015" x="192.75" y="177.72" rdf:ID="_681a1e24-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_132 T_ENGENE-ENGENE ACLS 1 2" x="245.75" y="153.22" rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 T_ENGENE-ENGENE ACLS 1 2</text>
+  <a id="xlink_FreeText_T_ENGENE" xlink:href="T_ENGENE.svg">
+    <text id="FreeText_T_ENGENE" x="218.5" y="91.97" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE</text>
+  </a>
+  <text id="FreeText_ENGENE CN 016" x="255.8333" y="582.22" rdf:ID="_20d31521-c427-4640-9b7f-97d230607fa4" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_22 ENGENE-NEDENES ACLS 1" x="304.0833" y="557.72" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 ENGENE-NEDENES ACLS 1</text>
+  <a id="xlink_FreeText_NEDENES" xlink:href="NEDENES.svg">
+    <text id="FreeText_NEDENES" x="279.7083" y="496.47" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES</text>
+  </a>
+  <text id="FreeText_ENGENE CN 017" x="192.75" y="421.72" rdf:ID="_68fd81e3-9e30-6b4c-a373-84c6387d6780" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ENGENE CN 004" x="606.1667" y="816.72" rdf:ID="_681a1e53-5a55-11eb-a658-74e5f963e191" fill="#4D2E00" font-family="Segoe UI" font-size="9" font-weight="normal">0.23 KV</text>
+  <text id="FreeText_ENGENE CN 005" x="192.75" y="262.72" rdf:ID="_457c0964-f107-4223-a3c3-92eff4b11f5c" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ENGENE CN 018" x="192.75" y="338.72" rdf:ID="_7de52109-cf23-6846-adf0-2e69ef1d6aac" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_ENGENE CN 001" x="214.1667" y="914.22" rdf:ID="_681a2169-5a55-11eb-a658-74e5f963e191" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 019" x="537.6667" y="838.22" rdf:ID="_39082cb0-8808-b047-893c-ba0503a458d6" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 011" x="470.9167" y="723.97" rdf:ID="_dd01dba2-04ba-46a6-9752-37010d7c7e45" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 010" x="394.9167" y="723.97" rdf:ID="_4e8ec3b0-386c-43d4-8311-e98d8a8f565a" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 008" x="291.5833" y="647.97" rdf:ID="_5346a24c-57fa-4f68-a879-6400d46cb5bd" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 006" x="197.5" y="658.22" rdf:ID="_15748f64-9c04-48c4-be7c-3f8b628f9520" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 007" x="214.1667" y="828.22" rdf:ID="_a93aa804-2baf-4bef-b283-766fe00a4e71" fill="#996600" font-family="Segoe UI" font-size="9" font-weight="normal">22 KV</text>
+  <text id="FreeText_ENGENE CN 009" x="606.1667" y="911.72" rdf:ID="_681a1e88-5a55-11eb-a658-74e5f963e191" fill="#4D2E00" font-family="Segoe UI" font-size="9" font-weight="normal">0.23 KV</text>
+  <polyline id="ACLineSegment_132 T_ENGENE-ENGENE ACLS 1 2" points="243.25,122.5 243.25,171.5" rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 132 T1 AD_S" points="243.25,172.5 243.25,171.5" rdf:ID="_4e7dd4ef-600d-4ada-9cf4-115877382adc" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_22 ENGENE-NEDENES ACLS 1" points="301.5833,527 301.5833,576" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22 N1E" points="301.5833,577 301.5833,576" rdf:ID="_83bf6035-97b6-4433-b5f9-bb455444a983" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE T1 132 P" points="243.25,416.5 243.25,415.5" rdf:ID="_05548bc6-70a0-44b7-8bac-20f745974e43" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 132 T1 SD_S" points="243.25,398.5 243.25,415.5" rdf:ID="_b9bbb321-d34a-c142-a321-b4fa3ac440cb" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE T1 22 S" points="243.25,474 243.25,482" rdf:ID="_92d33bfb-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE NT1 22 P" points="663.4167,736 663.4167,728" rdf:ID="_92d33bf1-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE ZT1 023 S" points="663.4167,793.5 663.4167,810.5" rdf:ID="_92d33bf3-7034-11eb-a65a-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 023 ZT1-EFC ACLS 1" points="663.4167,811.5 663.4167,810.5" rdf:ID="_92d33b81-7034-11eb-a65a-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 132 T1 AD_S" points="243.25,237.5 243.25,256.5" rdf:ID="_cb3849f8-60a6-406b-8567-39293b5a1f76" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 132 T1E" points="243.25,257.5 243.25,256.5" rdf:ID="_e36ac936-4891-4871-b3b5-604e0d163922" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 132 T1E" points="243.25,313.5 243.25,332.5" rdf:ID="_342b33ad-8621-4065-8b98-d7497369f93b" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 132 T1 SD_S" points="243.25,333.5 243.25,332.5" rdf:ID="_8be67710-8728-3546-b2be-87f8fa2ee604" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22 SC1" points="259.9167,909 259.9167,908" rdf:ID="_92d33c01-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22 SBE" points="259.9167,879 259.9167,908" rdf:ID="_deb8bef1-6ddc-49fe-bf8f-a2252b2f5cc4" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 ZT1-EFC PC" points="583.4167,833 583.4167,832" rdf:ID="_0a936e9d-6e05-6547-af77-18e442db0913" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 22 ZT1-EFC ACLS 1" points="583.4167,803 583.4167,832" rdf:ID="_0851452b-3751-0843-b8e3-74f14543907b" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 ENGENE-T1 ACLS 1 2" points="215.75,557 215.75,567" rdf:ID="_92d33ba8-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 22 ENGENE-T1 ACLS 1 2" points="215.75,492 215.75,482" rdf:ID="_92d33ba9-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 22 ENGENE-T1 ACLS 1 1" points="263.25,557 263.25,567" rdf:ID="_92d33bb8-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 ENGENE-T1 ACLS 1 1" points="263.25,492 263.25,482" rdf:ID="_92d33bb7-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 ZT1-EFC ACLS 1" points="583.4167,738 583.4167,728" rdf:ID="_86c847a4-9732-9844-b480-c53b70f6ceec" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 22 ENGENE-ZT1 ACLS 1" points="555.9167,728 565.9167,728" rdf:ID="_92d33b7f-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 22 ENGENE-ZT1 ACLS 1" points="490.9167,728 480.9167,728" rdf:ID="_b4e0a331-3de4-4ac8-802b-a8eb031ce568" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22 NT10E" points="470.9167,728 480.9167,728" rdf:ID="_5e488684-a146-4775-8cd8-5dbbe9da8034" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22  NT1 AD_S" points="329.9167,728 319.9167,728" rdf:ID="_fa0a4d49-abad-4371-a75e-3051034a834a" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2  ENGENE 22 NT1 AD_S" points="394.9167,728 404.9167,728" rdf:ID="_d1b627f7-1429-4a78-845a-17e9a7068a4f" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22  NT10E" points="414.9167,728 404.9167,728" rdf:ID="_54d22a2e-c361-45e2-94cd-08a2573b3c4e" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22 NE1 AD_S" points="301.5833,718 301.5833,728" rdf:ID="_991c13e2-277f-4d4b-9c53-d6d58b1008c0" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22 NE1 AD_S" points="301.5833,653 301.5833,652" rdf:ID="_a4c98c27-2025-413a-b0e3-152d1cdf425d" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22 N1E" points="301.5833,633 301.5833,652" rdf:ID="_0eb374ed-073c-481e-bc88-1be81df7070b" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22T1 AD_S" points="243.25,718 243.25,728" rdf:ID="_1c3ecb82-a323-4874-bdf0-95c84c12113d" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22T1 AD_S" points="243.25,653 243.25,652" rdf:ID="_34c1e6c6-72ce-4d1c-904b-d11a63c3490b" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22 T1E" points="243.25,633 243.25,652" rdf:ID="_47144173-d517-44a1-b149-91017d75db78" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22 SB AD_S" points="259.9167,738 259.9167,728" rdf:ID="_5b6cb662-bbaf-49aa-9c9e-b86d268a8518" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22 SB AD_S" points="259.9167,803 259.9167,822" rdf:ID="_5781ec87-90e4-4f57-8651-6b34b8f3eb4d" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 22 SBE" points="259.9167,823 259.9167,822" rdf:ID="_223dbb61-ee70-474e-8e58-adc96aa4458d" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 ENGENE 22 T1E" points="243.25,577 243.25,567" rdf:ID="_78148af7-4690-43b1-ab25-80913fb55a75" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 ENGENE 023 ZT1 CL" points="663.4167,906.5 663.4167,905.5" rdf:ID="_87f8c183-5711-4941-9eb4-c6b84d6a80b9" stroke="#4D2E00" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 023 ZT1-EFC ACLS 1" points="663.4167,876.5 663.4167,905.5" rdf:ID="_92d33b82-7034-11eb-a65a-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="1" />
+  <g id="Disconnector_ENGENE 132 T1 AD_S" rdf:ID="_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7">
+    <line id="Disconnector_ENGENE 132 T1 AD_S_1" x1="243.25" y1="192.5" x2="243.25" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 132 T1 AD_S_2" x1="250.75" y1="192.5" x2="235.75" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 132 T1 AD_S_3" x1="243.25" y1="172.5" x2="243.25" y2="192.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_ENGENE 132 T1 AD_S_4" x1="243.25" y1="217.5" x2="243.25" y2="237.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ENGENE 132 T1E" rdf:ID="_d4afd20b-a007-43f0-9736-4a868c4cc65a">
+    <rect id="Breaker_ENGENE 132 T1E_1" x="238.25" y="274.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_ENGENE 132 T1E_2" x1="243.25" y1="257.5" x2="243.25" y2="274.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_ENGENE 132 T1E_3" x1="243.25" y1="296.5" x2="243.25" y2="313.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ENGENE 132 T1 SD_S" rdf:ID="_a450fac1-80a9-cd4d-aa26-0223af980b17">
+    <line id="Disconnector_ENGENE 132 T1 SD_S_1" x1="243.25" y1="353.5" x2="243.25" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 132 T1 SD_S_2" x1="250.75" y1="353.5" x2="235.75" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 132 T1 SD_S_3" x1="243.25" y1="333.5" x2="243.25" y2="353.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_ENGENE 132 T1 SD_S_4" x1="243.25" y1="378.5" x2="243.25" y2="398.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_T_ENGENE" xlink:href="T_ENGENE.svg">
+    <g id="NeighborSubstation_T_ENGENE" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 243.25, 107)">
+      <polyline id="NeighborSubstation_T_ENGENE_1" points="237.75,112.5 243.25,122.5 248.75,112.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_T_ENGENE_2" x1="243.25" y1="112.5" x2="243.25" y2="122" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_T_ENGENE_3" x1="243.25" y1="91.5" x2="243.25" y2="112.5" stroke="#601F40" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <g id="Disconnector_ENGENE 22 NT1 AD_S" rdf:ID="_57b1462c-259c-426b-86f9-f6f6f2af9c5c" transform="rotate(270, 362.416687011719, 728)">
+    <line id="Disconnector_ENGENE 22 NT1 AD_S_1" x1="362.4167" y1="715.5" x2="362.4167" y2="740.5" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22 NT1 AD_S_2" x1="369.9167" y1="715.5" x2="354.9167" y2="740.5" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22 NT1 AD_S_3" x1="362.4167" y1="695.5" x2="362.4167" y2="715.5" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Disconnector_ENGENE 22 NT1 AD_S_4" x1="362.4167" y1="740.5" x2="362.4167" y2="760.5" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ENGENE 22 NE1 AD_S" rdf:ID="_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3">
+    <line id="Disconnector_ENGENE 22 NE1 AD_S_1" x1="301.5833" y1="673" x2="301.5833" y2="698" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22 NE1 AD_S_2" x1="309.0833" y1="673" x2="294.0833" y2="698" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22 NE1 AD_S_3" x1="301.5833" y1="653" x2="301.5833" y2="673" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Disconnector_ENGENE 22 NE1 AD_S_4" x1="301.5833" y1="698" x2="301.5833" y2="718" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ENGENE 22T1 AD_S" rdf:ID="_842aed4c-0828-4e7a-babc-ce724633a43d">
+    <line id="Disconnector_ENGENE 22T1 AD_S_1" x1="243.25" y1="673" x2="243.25" y2="698" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22T1 AD_S_2" x1="250.75" y1="673" x2="235.75" y2="698" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22T1 AD_S_3" x1="243.25" y1="653" x2="243.25" y2="673" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Disconnector_ENGENE 22T1 AD_S_4" x1="243.25" y1="698" x2="243.25" y2="718" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ENGENE 22 SB AD_S" rdf:ID="_b8b9b131-6eb7-41c7-899e-7003960b1a5f">
+    <line id="Disconnector_ENGENE 22 SB AD_S_1" x1="259.9167" y1="758" x2="259.9167" y2="783" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22 SB AD_S_2" x1="267.4167" y1="758" x2="252.4167" y2="783" stroke="#996600" fill="none" stroke-width="2" />
+    <line id="Disconnector_ENGENE 22 SB AD_S_3" x1="259.9167" y1="738" x2="259.9167" y2="758" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Disconnector_ENGENE 22 SB AD_S_4" x1="259.9167" y1="783" x2="259.9167" y2="803" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ENGENE 22 NE1 E" rdf:ID="_12156bb5-7a82-4e95-8ea4-2ff8573133fe">
+    <rect id="Breaker_ENGENE 22 NE1 E_1" x="296.5833" y="594" width="10" height="22" stroke="#996600" fill="#996600" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 NE1 E_2" x1="301.5833" y1="577" x2="301.5833" y2="594" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 NE1 E_3" x1="301.5833" y1="616" x2="301.5833" y2="633" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ENGENE 22 T1E" rdf:ID="_b16294fe-269c-4f3d-b6af-4bc473c663d6">
+    <rect id="Breaker_ENGENE 22 T1E_1" x="238.25" y="594" width="10" height="22" stroke="#996600" fill="#996600" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 T1E_2" x1="243.25" y1="577" x2="243.25" y2="594" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 T1E_3" x1="243.25" y1="616" x2="243.25" y2="633" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Capacitor_ENGENE 22 SC1" rdf:ID="_681a323d-5a55-11eb-a658-74e5f963e191">
+    <line id="Capacitor_ENGENE 22 SC1_1" x1="247.4167" y1="922.6" x2="272.4167" y2="922.6" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Capacitor_ENGENE 22 SC1_2" x1="247.4167" y1="928.6" x2="272.4167" y2="928.6" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Capacitor_ENGENE 22 SC1_3" x1="259.9167" y1="909" x2="259.9167" y2="922.6" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Capacitor_ENGENE 22 SC1_4" x1="259.9167" y1="928.6" x2="259.9167" y2="938.2" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Capacitor_ENGENE 22 SC1_5" x1="250.5417" y1="938.2" x2="269.2917" y2="938.2" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Capacitor_ENGENE 22 SC1_6" x1="253.6667" y1="940.2" x2="266.1667" y2="940.2" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Capacitor_ENGENE 22 SC1_7" x1="256.7917" y1="942.2" x2="263.0417" y2="942.2" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ENGENE 22 SBE" rdf:ID="_f7d8e580-296d-4c2a-b989-1eb4db7af387">
+    <rect id="Breaker_ENGENE 22 SBE_1" x="254.9167" y="840" width="10" height="22" stroke="#996600" fill="#996600" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 SBE_2" x1="259.9167" y1="823" x2="259.9167" y2="840" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 SBE_3" x1="259.9167" y1="862" x2="259.9167" y2="879" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Ground_22 ZT1-EFC PC" rdf:ID="_c9d5445c-9ad6-3849-9e02-08762805826b">
+    <g id="Ground_22 ZT1-EFC PC_1" stroke="#996600" fill="none" stroke-width="1">
+      <path id="Ground_22 ZT1-EFC PC_1_1" d="M 583.4167 847.5 A 7.5 6 0 0 0 583.4167 860 " />
+      <path id="Ground_22 ZT1-EFC PC_1_2" d="M 583.4167 856 A 7.5 6 0 0 0 583.4167 868.5 " />
+      <path id="Ground_22 ZT1-EFC PC_1_3" d="M 583.4167 856 A 5 2 0 0 1 583.4167 860 " />
+    </g>
+    <line id="Ground_22 ZT1-EFC PC_2" x1="583.4167" y1="833" x2="583.4167" y2="848" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Ground_22 ZT1-EFC PC_3" x1="583.4167" y1="868" x2="583.4167" y2="878" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Ground_22 ZT1-EFC PC_4" x1="577.7917" y1="878" x2="589.0417" y2="878" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Ground_22 ZT1-EFC PC_5" x1="579.6667" y1="880.5" x2="587.1667" y2="880.5" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Ground_22 ZT1-EFC PC_6" x1="581.5417" y1="883" x2="585.2917" y2="883" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ENGENE 22 NT1E" rdf:ID="_808643b7-4e47-4faa-b906-999d0f1fe32b" transform="rotate(270, 442.916687011719, 728)">
+    <rect id="Breaker_ENGENE 22 NT1E_1" x="437.9167" y="717" width="10" height="22" stroke="#996600" fill="#996600" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 NT1E_2" x1="442.9167" y1="700" x2="442.9167" y2="717" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Breaker_ENGENE 22 NT1E_3" x1="442.9167" y1="739" x2="442.9167" y2="756" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Impedance_22 ENGENE-T1 ACLS 1 2" rdf:ID="_681a2a13-5a55-11eb-a658-74e5f963e191">
+    <polyline id="Impedance_22 ENGENE-T1 ACLS 1 2_1" points="215.75,512 208.25,514.0833 223.25,518.25 208.25,522.4167 223.25,526.5833 208.25,530.75 223.25,534.9167 215.75,537" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ENGENE-T1 ACLS 1 2_2" x1="215.75" y1="492" x2="215.75" y2="512" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ENGENE-T1 ACLS 1 2_3" x1="215.75" y1="537" x2="215.75" y2="557" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Impedance_22 ENGENE-T1 ACLS 1 1" rdf:ID="_681a2a7f-5a55-11eb-a658-74e5f963e191">
+    <polyline id="Impedance_22 ENGENE-T1 ACLS 1 1_1" points="263.25,512 255.75,514.0833 270.75,518.25 255.75,522.4167 270.75,526.5833 255.75,530.75 270.75,534.9167 263.25,537" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ENGENE-T1 ACLS 1 1_2" x1="263.25" y1="492" x2="263.25" y2="512" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ENGENE-T1 ACLS 1 1_3" x1="263.25" y1="537" x2="263.25" y2="557" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Impedance_22 ZT1-EFC ACLS 1" rdf:ID="_b1b4714b-a160-7742-84d5-d6486d776c94">
+    <polyline id="Impedance_22 ZT1-EFC ACLS 1_1" points="583.4167,758 575.9167,760.0833 590.9167,764.25 575.9167,768.4167 590.9167,772.5833 575.9167,776.75 590.9167,780.9167 583.4167,783" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ZT1-EFC ACLS 1_2" x1="583.4167" y1="738" x2="583.4167" y2="758" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ZT1-EFC ACLS 1_3" x1="583.4167" y1="783" x2="583.4167" y2="803" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <g id="Impedance_22 ENGENE-ZT1 ACLS 1" rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191" transform="rotate(270, 523.416687011719, 728)">
+    <polyline id="Impedance_22 ENGENE-ZT1 ACLS 1_1" points="523.4167,715.5 515.9167,717.5833 530.9167,721.75 515.9167,725.9167 530.9167,730.0833 515.9167,734.25 530.9167,738.4167 523.4167,740.5" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ENGENE-ZT1 ACLS 1_2" x1="523.4167" y1="695.5" x2="523.4167" y2="715.5" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Impedance_22 ENGENE-ZT1 ACLS 1_3" x1="523.4167" y1="740.5" x2="523.4167" y2="760.5" stroke="#996600" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_NEDENES" xlink:href="NEDENES.svg">
+    <g id="NeighborSubstation_NEDENES" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 301.583343505859, 511.5)">
+      <polyline id="NeighborSubstation_NEDENES_1" points="296.0833,517 301.5833,527 307.0833,517" stroke="#996600" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_NEDENES_2" x1="301.5833" y1="517" x2="301.5833" y2="526.5" stroke="#996600" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_NEDENES_3" x1="301.5833" y1="496" x2="301.5833" y2="517" stroke="#996600" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <g id="Load_ENGENE 023 ZT1 CL" rdf:ID="_eb9b50c9-e363-0940-a177-2b7abd47f398">
+    <polygon id="Load_ENGENE 023 ZT1 CL_1" points="658.4167,921.5 668.4167,921.5 663.4167,931.5" stroke="#4D2E00" fill="#4D2E00" stroke-width="1" />
+    <line id="Load_ENGENE 023 ZT1 CL_2" x1="663.4167" y1="906.5" x2="663.4167" y2="921.5" stroke="#4D2E00" fill="none" stroke-width="1" />
+  </g>
+  <g id="Impedance_023 ZT1-EFC ACLS 1" rdf:ID="_681a26db-5a55-11eb-a658-74e5f963e191">
+    <polyline id="Impedance_023 ZT1-EFC ACLS 1_1" points="663.4167,831.5 655.9167,833.5833 670.9167,837.75 655.9167,841.9167 670.9167,846.0833 655.9167,850.25 670.9167,854.4167 663.4167,856.5" stroke="#4D2E00" fill="none" stroke-width="1" />
+    <line id="Impedance_023 ZT1-EFC ACLS 1_2" x1="663.4167" y1="811.5" x2="663.4167" y2="831.5" stroke="#4D2E00" fill="none" stroke-width="1" />
+    <line id="Impedance_023 ZT1-EFC ACLS 1_3" x1="663.4167" y1="856.5" x2="663.4167" y2="876.5" stroke="#4D2E00" fill="none" stroke-width="1" />
+  </g>
+  <g id="Transformer2W_ENGENE T1" rdf:ID="_681a3087-5a55-11eb-a658-74e5f963e191">
+    <ellipse id="Transformer2W_ENGENE T1_1" cx="243.25" cy="439" rx="12.5" ry="12.5" rdf:ID="_681a308a-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+    <ellipse id="Transformer2W_ENGENE T1_2" cx="243.25" cy="451.5" rx="12.5" ry="12.5" rdf:ID="_681a3094-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ENGENE T1_3" x1="243.25" y1="416.5" x2="243.25" y2="426.5" rdf:ID="_681a308a-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ENGENE T1_4" x1="243.25" y1="464" x2="243.25" y2="474" rdf:ID="_681a3094-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+    <g id="Transformer2W_ENGENE T1_5">
+      <line id="Transformer2W_ENGENE T1_5_1" x1="230.75" y1="464" x2="255.75" y2="426.5" stroke="#996600" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ENGENE T1_5_2" x1="251.75" y1="427.8333" x2="255.75" y2="426.5" stroke="#996600" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ENGENE T1_5_3" x1="255.75" y1="430.5" x2="255.75" y2="426.5" stroke="#996600" fill="none" stroke-width="1" />
+    </g>
+  </g>
+  <g id="Transformer2W_ENGENE NT1" rdf:ID="_681a2fcb-5a55-11eb-a658-74e5f963e191">
+    <ellipse id="Transformer2W_ENGENE NT1_1" cx="663.4167" cy="758.5" rx="12.5" ry="12.5" rdf:ID="_681a2fce-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+    <ellipse id="Transformer2W_ENGENE NT1_2" cx="663.4167" cy="771" rx="12.5" ry="12.5" rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ENGENE NT1_3" x1="663.4167" y1="736" x2="663.4167" y2="746" rdf:ID="_681a2fce-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ENGENE NT1_4" x1="663.4167" y1="783.5" x2="663.4167" y2="793.5" rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="1" />
+    <g id="Transformer2W_ENGENE NT1_5">
+      <line id="Transformer2W_ENGENE NT1_5_1" x1="650.9167" y1="783.5" x2="675.9167" y2="746" stroke="#4D2E00" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ENGENE NT1_5_2" x1="671.9167" y1="747.3333" x2="675.9167" y2="746" stroke="#4D2E00" fill="none" stroke-width="1" />
+      <line id="Transformer2W_ENGENE NT1_5_3" x1="675.9167" y1="750" x2="675.9167" y2="746" stroke="#4D2E00" fill="none" stroke-width="1" />
+    </g>
+  </g>
+  <line id="Bus_ENGENE 22A CN 013" x1="199.9167" y1="728" x2="319.9167" y2="728" rdf:ID="_681a2162-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 002" x1="207.75" y1="567" x2="271.25" y2="567" rdf:ID="_681a215b-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 014" x1="207.75" y1="482" x2="271.25" y2="482" rdf:ID="_681a2154-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 003" x1="565.9167" y1="728" x2="685.9167" y2="728" rdf:ID="_681a1e4b-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 015" x1="233.25" y1="171.5" x2="253.25" y2="171.5" rdf:ID="_681a1e24-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 016" x1="291.5833" y1="576" x2="311.5833" y2="576" rdf:ID="_20d31521-c427-4640-9b7f-97d230607fa4" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 017" x1="233.25" y1="415.5" x2="253.25" y2="415.5" rdf:ID="_68fd81e3-9e30-6b4c-a373-84c6387d6780" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 004" x1="653.4167" y1="810.5" x2="673.4167" y2="810.5" rdf:ID="_681a1e53-5a55-11eb-a658-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 005" x1="233.25" y1="256.5" x2="253.25" y2="256.5" rdf:ID="_457c0964-f107-4223-a3c3-92eff4b11f5c" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 018" x1="233.25" y1="332.5" x2="253.25" y2="332.5" rdf:ID="_7de52109-cf23-6846-adf0-2e69ef1d6aac" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 001" x1="249.9167" y1="908" x2="269.9167" y2="908" rdf:ID="_681a2169-5a55-11eb-a658-74e5f963e191" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 019" x1="573.4167" y1="832" x2="593.4167" y2="832" rdf:ID="_39082cb0-8808-b047-893c-ba0503a458d6" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 011" x1="470.9167" y1="728" x2="490.9167" y2="728" rdf:ID="_dd01dba2-04ba-46a6-9752-37010d7c7e45" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 010" x1="394.9167" y1="728" x2="414.9167" y2="728" rdf:ID="_4e8ec3b0-386c-43d4-8311-e98d8a8f565a" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 008" x1="291.5833" y1="652" x2="311.5833" y2="652" rdf:ID="_5346a24c-57fa-4f68-a879-6400d46cb5bd" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 006" x1="233.25" y1="652" x2="253.25" y2="652" rdf:ID="_15748f64-9c04-48c4-be7c-3f8b628f9520" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 007" x1="249.9167" y1="822" x2="269.9167" y2="822" rdf:ID="_a93aa804-2baf-4bef-b283-766fe00a4e71" stroke="#996600" fill="none" stroke-width="5" />
+  <line id="Bus_ENGENE CN 009" x1="653.4167" y1="905.5" x2="673.4167" y2="905.5" rdf:ID="_681a1e88-5a55-11eb-a658-74e5f963e191" stroke="#4D2E00" fill="none" stroke-width="5" />
+</svg>
