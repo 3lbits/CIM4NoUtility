@@ -209,7 +209,6 @@
         <cim:IdentifiedObject.name>04 Telemarkstien 2 Fe1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Feeder.NormalEnergizingSubstation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
-        <cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fa3115c0-5710-443a-bb30-8f101e1062f1"/>
     </cim:Feeder>
 
     <cim:LoadArea rdf:ID="_d9bff920-f767-4fd9-96c7-4b87585a8cc2">
