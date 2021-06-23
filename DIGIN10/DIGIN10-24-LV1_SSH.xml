@@ -46,6 +46,8 @@ Change log:
 
  	<cim:ConformLoad rdf:about="#_eba80fde-c5f8-49fc-8465-0329fdeefda9">
 		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
+		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
+		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
 	</cim:ConformLoad>
 
 	<cim:Terminal rdf:about="#_1f6d65dc-0498-4e9f-beda-0e36a667bb43">

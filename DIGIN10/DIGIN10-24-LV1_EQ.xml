@@ -125,11 +125,9 @@
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:EnergyConsumer.customerCount>1</cim:EnergyConsumer.customerCount>
         <cim:EnergyConsumer.grounded>true</cim:EnergyConsumer.grounded>
-        <cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.phaseConnection rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseShuntConnectionKind.Yn"/>
-        <cim:EnergyConsumer.q>100</cim:EnergyConsumer.q>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
         <cim:EnergyConsumer.qfixedPct>0</cim:EnergyConsumer.qfixedPct>
         <cim:PowerSystemResource.Location rdf:resource="#_2c995837-a494-4d8e-b5b3-c256c6ed031d"/>
