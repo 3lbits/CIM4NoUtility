@@ -34,7 +34,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
-        <cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fb2959cd-e32f-4109-add8-8c9a2e8ff11d"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -55,7 +54,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.0274387709796428</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.006859692744910717</cim:ACLineSegment.x>
-        <cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fb2959cd-e32f-4109-add8-8c9a2e8ff11d"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -102,7 +100,6 @@
         <cim:Switch.retained>false</cim:Switch.retained>
         <cim:ProtectedSwitch.breakingCapacity>0</cim:ProtectedSwitch.breakingCapacity>
         <cim:Breaker.inTransitTime></cim:Breaker.inTransitTime>
-        <cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fb2959cd-e32f-4109-add8-8c9a2e8ff11d"/>
         <cim:Equipment.EquipmentContainer rdf:resource="#_de4c9f33-bceb-4355-afc6-c725bda819e3"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:Breaker>
@@ -128,14 +125,14 @@
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:EnergyConsumer.customerCount>1</cim:EnergyConsumer.customerCount>
         <cim:EnergyConsumer.grounded>true</cim:EnergyConsumer.grounded>
-        <cim:EnergyConsumer.p>5000</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.phaseConnection rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseShuntConnectionKind.Yn"/>
         <cim:EnergyConsumer.q>100</cim:EnergyConsumer.q>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
         <cim:EnergyConsumer.qfixedPct>0</cim:EnergyConsumer.qfixedPct>
-        <cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fb2959cd-e32f-4109-add8-8c9a2e8ff11d"/>
+        <cim:PowerSystemResource.Location rdf:resource="#_2c995837-a494-4d8e-b5b3-c256c6ed031d"/>
         <cim:Equipment.EquipmentContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
         <cim:ConformLoad.LoadGroup rdf:resource="#_4e3219d0-02d8-4535-a53b-a47d1e134add"/>
@@ -204,12 +201,25 @@
         <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
     </cim:CurrentLimit>
 
-    <cim:Feeder rdf:ID="_fb2959cd-e32f-4109-add8-8c9a2e8ff11d">
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Feeder 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 Fe1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Feeder.NormalEnergizingSubstation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
-    </cim:Feeder>
+	<cim:EquivalentInjection rdf:ID="_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a">
+		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.name>Telemarkstien 2 DB EQV</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Telemarkstien 2 400 V Distribution Equivalent</cim:IdentifiedObject.description>
+		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		<cim:EquivalentInjection.maxP>0.005</cim:EquivalentInjection.maxP>
+		<cim:EquivalentInjection.maxQ>0.00056</cim:EquivalentInjection.maxQ>
+		<cim:EquivalentInjection.minP>0.001</cim:EquivalentInjection.minP>
+		<cim:EquivalentInjection.minQ>0.00011</cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.r>0.029116565</cim:EquivalentInjection.r>
+		<cim:EquivalentInjection.r0>0.116466259372828</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.r2></cim:EquivalentInjection.r2>
+		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+		<cim:EquivalentInjection.x>0.00686281774505914</cim:EquivalentInjection.x>
+		<cim:EquivalentInjection.x0>0.0274512709802365</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x2></cim:EquivalentInjection.x2>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
+	</cim:EquivalentInjection>
 
     <cim:LoadArea rdf:ID="_d9bff920-f767-4fd9-96c7-4b87585a8cc2">
         <cim:IdentifiedObject.description>Bamble Load Area</cim:IdentifiedObject.description>
@@ -267,35 +277,35 @@
     <cim:OperationalLimitSet rdf:ID="_af33e871-8764-4203-af6c-1d4a1108a28a">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 1 for AC Line Segment 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS1 ACLS1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS1 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_e1a6c356-813b-4311-8986-898231fa1aa1"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_5e677227-8a2c-44c4-ab11-0cb99f5b2a32">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 2 for AC Line Segment 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS2 ACLS1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS2 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_1f6d65dc-0498-4e9f-beda-0e36a667bb43"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_13c61cd0-00fc-4017-ad7d-c22a26466ea9">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 3 for AC Line Segment 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS3 ACLS2</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS3 ACLS2</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_54a2bbab-bf15-4b63-afc6-ecfbd135d058"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_e829e80c-9d1e-4716-b129-70a7485b4822">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 4 for AC Line Segment 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS4 ACLS1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS4 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_d4141353-a4b9-4b70-8aad-a9206b76b35c"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitType rdf:ID="_a7d9b42e-0f87-4882-903d-1cf454f85df4">
         <cim:IdentifiedObject.description>Temporarily Admissible Transmission Loading</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>PATL</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>PATL</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitType.acceptableDuration>3600</cim:OperationalLimitType.acceptableDuration>
         <cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#OperationalLimitDirectionKind.absoluteValue"/>
         <cim:OperationalLimitType.isInfiniteDuration>false</cim:OperationalLimitType.isInfiniteDuration>
@@ -305,28 +315,29 @@
     <cim:SubGeographicalRegion rdf:ID="_d9b89685-1fed-4233-8f85-70fd9e6cfd23">
         <cim:IdentifiedObject.description>Distribution System Operator Vest</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>DSO V</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>DSO V</cim:IdentifiedObject.aliasName>
         <cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
     </cim:SubGeographicalRegion>
 
     <cim:SubLoadArea rdf:ID="_8e39a403-1b86-4a06-be89-3a83eb230789">
         <cim:IdentifiedObject.description>Bamble Sub Load Area</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>Bamble SLA</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>Bamble SLA</cim:IdentifiedObject.aliasName>
         <cim:SubLoadArea.LoadArea rdf:resource="#_d9bff920-f767-4fd9-96c7-4b87585a8cc2"/>
     </cim:SubLoadArea>
 
     <cim:Substation rdf:ID="_e322d64a-0413-4703-b31c-b8e0c5c32f44">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Cable Box 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 CB1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB1</cim:IdentifiedObject.aliasName>
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
+        <cim:PowerSystemResource.Location rdf:resource="#_990df1b7-bd8c-4989-808f-15b73ae0b1f4"/>
     </cim:Substation>
 
     <cim:Terminal rdf:ID="_1f6d65dc-0498-4e9f-beda-0e36a667bb43">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T3</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T3</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
@@ -335,8 +346,8 @@
 
     <cim:Terminal rdf:ID="_e1a6c356-813b-4311-8986-898231fa1aa1">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04V Telemarkstien 2 T4</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.name>04 Telemarkstien 2 T4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T4</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
@@ -346,7 +357,7 @@
     <cim:Terminal rdf:ID="_aea98b32-d6db-4a7e-a95a-ada4f44c8198">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T5</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T5</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_b8a334a5-2bcb-40e6-b6c2-db906441552d"/>
@@ -356,7 +367,7 @@
     <cim:Terminal rdf:ID="_8096380f-f98c-4e4e-aa15-1866edf2a519">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T6</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T6</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4"/>
@@ -366,7 +377,7 @@
     <cim:Terminal rdf:ID="_a9b32dfb-6dfe-4d4c-b563-2e29614b4319">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T7</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T7</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4"/>
@@ -376,7 +387,7 @@
     <cim:Terminal rdf:ID="_54a2bbab-bf15-4b63-afc6-ecfbd135d058">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T8</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T8</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e"/>
@@ -386,7 +397,7 @@
     <cim:Terminal rdf:ID="_d4141353-a4b9-4b70-8aad-a9206b76b35c">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 Telemarkstien 2 T9</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T9</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e"/>
@@ -421,7 +432,16 @@
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
         <cim:Terminal.ConnectivityNode rdf:resource="#_12dc1e8c-e50d-4029-9aeb-8b664db702e6"/>
-        <cim:Terminal.Feeder rdf:resource="#_fb2959cd-e32f-4109-add8-8c9a2e8ff11d"/>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:ID="_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 15</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 Telemarkstien 2 T15</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T15</cim:IdentifiedObject.aliasName>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+        <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
+        <cim:Terminal.ConductingEquipment rdf:resource="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a"/>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d"/>
     </cim:Terminal>
 
     <cim:VoltageLevel rdf:ID="_91ef68b3-8878-47a4-b24f-66f42bb459ba">
