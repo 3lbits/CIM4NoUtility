@@ -432,7 +432,6 @@
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
         <cim:Terminal.ConnectivityNode rdf:resource="#_12dc1e8c-e50d-4029-9aeb-8b664db702e6"/>
-        <cim:Terminal.Feeder rdf:resource="#_fb2959cd-e32f-4109-add8-8c9a2e8ff11d"/>
     </cim:Terminal>
 
     <cim:Terminal rdf:ID="_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1">
