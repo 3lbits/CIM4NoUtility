@@ -122,7 +122,6 @@
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:EnergyConsumer.customerCount>1</cim:EnergyConsumer.customerCount>
         <cim:EnergyConsumer.grounded>true</cim:EnergyConsumer.grounded>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
