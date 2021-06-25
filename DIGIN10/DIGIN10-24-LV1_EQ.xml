@@ -19,7 +19,7 @@
  
     <cim:ACLineSegment rdf:ID="_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 ACLineSegment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 ACLS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 ACLS1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>Telemarkstien 2</cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
@@ -39,7 +39,7 @@
 
     <cim:ACLineSegment rdf:ID="_46bce40c-71c2-4d19-b63f-78a69c460b0e">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 ACLineSegment 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 ACLS2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 ACLS2</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
@@ -59,21 +59,21 @@
 
     <cim:Bay rdf:ID="_de4c9f33-bceb-4355-afc6-c725bda819e3">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 Ba1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 Ba1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_d4067150-d743-4e1d-a48d-7a8d20de4c06">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 Ba2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 Ba2</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
     </cim:Bay>
 
     <cim:Breaker rdf:ID="_8aad5c29-6039-4321-8f8a-ad1c186dd145">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Breaker 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 Br1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 Br1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
@@ -89,7 +89,7 @@
 
     <cim:Breaker rdf:ID="_76335f11-64c3-474d-92fd-7ab11ed607e4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Breaker 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 Br2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 Br2</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
@@ -106,7 +106,7 @@
 
     <cim:BusbarSection rdf:ID="_b8a334a5-2bcb-40e6-b6c2-db906441552d">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Busbar Section 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 BS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 BS1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
@@ -118,7 +118,7 @@
 
     <cim:ConformLoad rdf:ID="_eba80fde-c5f8-49fc-8465-0329fdeefda9">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Conform Load 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CL1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CL1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
@@ -137,37 +137,37 @@
 
     <cim:ConformLoadGroup rdf:ID="_4e3219d0-02d8-4535-a53b-a47d1e134add">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Conform Load Group 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CLG1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CLG1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:LoadGroup.SubLoadArea rdf:resource="#_8e39a403-1b86-4a06-be89-3a83eb230789"/>
     </cim:ConformLoadGroup>
 
     <cim:ConnectivityNode rdf:ID="_1447d25c-5977-43ec-8878-8ac210edda8f">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 3</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CN3</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CN3</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
     </cim:ConnectivityNode>
 
     <cim:ConnectivityNode rdf:ID="_8e754ae4-3b0b-5415-a552-e3e776e43ff4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CN4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CN4</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:ConnectivityNode>
 
     <cim:ConnectivityNode rdf:ID="_7a0a4af1-bfe3-4177-9ffc-4b7537fbd4e4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CN5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CN5</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:ConnectivityNode>
 
     <cim:ConnectivityNode rdf:ID="_12dc1e8c-e50d-4029-9aeb-8b664db702e6">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CN6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CN6</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
     </cim:ConnectivityNode>
 
     <cim:CurrentLimit rdf:ID="_9ff945ef-e893-4c68-b514-ff8940c01f17">
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CL1 PATL</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CL1 PATL</cim:IdentifiedObject.name>
         <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
         <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
         <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_13c61cd0-00fc-4017-ad7d-c22a26466ea9"/>
@@ -175,7 +175,7 @@
     </cim:CurrentLimit>
 
     <cim:CurrentLimit rdf:ID="_595ef45a-78f4-4366-aebb-f565c1a1f6c5">
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CL2 PATL</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CL2 PATL</cim:IdentifiedObject.name>
         <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
         <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
         <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_e829e80c-9d1e-4716-b129-70a7485b4822"/>
@@ -183,7 +183,7 @@
     </cim:CurrentLimit>
 
     <cim:CurrentLimit rdf:ID="_6422ea71-1ec4-431e-812f-1ac05f25b6fe">
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CL3 PATL</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CL3 PATL</cim:IdentifiedObject.name>
         <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
         <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
         <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_af33e871-8764-4203-af6c-1d4a1108a28a"/>
@@ -191,7 +191,7 @@
     </cim:CurrentLimit>
 
     <cim:CurrentLimit rdf:ID="_a83ab804-572f-41d9-9b8b-248875b2815a">
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CL4 PATL</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CL4 PATL</cim:IdentifiedObject.name>
         <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
         <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
         <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5e677227-8a2c-44c4-ab11-0cb99f5b2a32"/>
@@ -273,28 +273,28 @@
 
     <cim:OperationalLimitSet rdf:ID="_af33e871-8764-4203-af6c-1d4a1108a28a">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 1 for AC Line Segment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS1 ACLS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS1 ACLS1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS1 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_e1a6c356-813b-4311-8986-898231fa1aa1"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_5e677227-8a2c-44c4-ab11-0cb99f5b2a32">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 2 for AC Line Segment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS2 ACLS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS2 ACLS1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS2 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_1f6d65dc-0498-4e9f-beda-0e36a667bb43"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_13c61cd0-00fc-4017-ad7d-c22a26466ea9">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 3 for AC Line Segment 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS3 ACLS2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS3 ACLS2</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS3 ACLS2</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_54a2bbab-bf15-4b63-afc6-ecfbd135d058"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_e829e80c-9d1e-4716-b129-70a7485b4822">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 4 for AC Line Segment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 OLS4 ACLS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS4 ACLS1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS4 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_d4141353-a4b9-4b70-8aad-a9206b76b35c"/>
     </cim:OperationalLimitSet>
@@ -325,7 +325,7 @@
 
     <cim:Substation rdf:ID="_e322d64a-0413-4703-b31c-b8e0c5c32f44">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Cable Box 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 CB1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 CB1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB1</cim:IdentifiedObject.aliasName>
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
         <cim:PowerSystemResource.Location rdf:resource="#_990df1b7-bd8c-4989-808f-15b73ae0b1f4"/>
@@ -333,7 +333,7 @@
 
     <cim:Terminal rdf:ID="_1f6d65dc-0498-4e9f-beda-0e36a667bb43">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 3</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T3</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T3</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T3</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -343,7 +343,7 @@
 
     <cim:Terminal rdf:ID="_e1a6c356-813b-4311-8986-898231fa1aa1">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T4</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T4</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -353,7 +353,7 @@
 
     <cim:Terminal rdf:ID="_aea98b32-d6db-4a7e-a95a-ada4f44c8198">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T5</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T5</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -363,7 +363,7 @@
 
     <cim:Terminal rdf:ID="_8096380f-f98c-4e4e-aa15-1866edf2a519">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T6</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T6</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -373,7 +373,7 @@
 
     <cim:Terminal rdf:ID="_a9b32dfb-6dfe-4d4c-b563-2e29614b4319">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T7</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T7</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -383,7 +383,7 @@
 
     <cim:Terminal rdf:ID="_54a2bbab-bf15-4b63-afc6-ecfbd135d058">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 8</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T8</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T8</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T8</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -393,7 +393,7 @@
 
     <cim:Terminal rdf:ID="_d4141353-a4b9-4b70-8aad-a9206b76b35c">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 9</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T9</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T9</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T9</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -403,7 +403,7 @@
 
     <cim:Terminal rdf:ID="_be24dc11-bfeb-4879-b0ff-18a490500393">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 10</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T10</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T10</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T10</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -413,7 +413,7 @@
 
     <cim:Terminal rdf:ID="_bfe5eea8-b897-49ec-afc9-bbec308f93be">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 13</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T13</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T13</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T13</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -423,7 +423,7 @@
 
     <cim:Terminal rdf:ID="_1e4f0009-85b7-4087-85a8-bf7c21f01e47">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 14</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T14</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T14</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T14</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -433,7 +433,7 @@
 
     <cim:Terminal rdf:ID="_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 15</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 T15</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T15</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T15</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
@@ -443,7 +443,7 @@
 
     <cim:VoltageLevel rdf:ID="_91ef68b3-8878-47a4-b24f-66f42bb459ba">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Voltage Level 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 Telemarkstien 2 VL1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 VL1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 VL1</cim:IdentifiedObject.aliasName>
         <cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
         <cim:VoltageLevel.Substation rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44"/>
