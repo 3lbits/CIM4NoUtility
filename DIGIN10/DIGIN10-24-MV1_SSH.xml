@@ -59,11 +59,11 @@ Change log:
 	</cim:Breaker>
 	<cim:ConformLoad rdf:about="#_eb9b50c9-e363-0940-a177-2b7abd47f398">
 		<cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
-		<cim:EnergyConsumer.q>0.00002</cim:EnergyConsumer.q>
+		<cim:EnergyConsumer.q>0.0002</cim:EnergyConsumer.q>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f">
-		<cim:EnergyConsumer.p>0.001</cim:EnergyConsumer.p>
-		<cim:EnergyConsumer.q>0</cim:EnergyConsumer.q>
+		<cim:EnergyConsumer.p>10.50</cim:EnergyConsumer.p>
+		<cim:EnergyConsumer.q>2.077</cim:EnergyConsumer.q>
 	</cim:ConformLoad>
 	<cim:ControlArea rdf:about="#_681a1dd5-5a55-11eb-a658-74e5f963e191">
 		<cim:ControlArea.netInterchange>0</cim:ControlArea.netInterchange>
