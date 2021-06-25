@@ -38,16 +38,16 @@ Change log:
 		<cim:IdentifiedObject.description>230V ZT1-EFC ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>023 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>0.021</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.0019359999569132924</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.025</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.0007259999983943999</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0017</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
@@ -55,7 +55,7 @@ Change log:
 		<cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 3</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>04 TELEMA 2 ACLS 3</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>1</cim:Conductor.length>
+		<cim:Conductor.length>0</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
@@ -72,16 +72,16 @@ Change log:
 		<cim:IdentifiedObject.description>132kV Arendal-Froland 1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.5860000252723694</cim:Conductor.length>
+		<cim:Conductor.length>0.59</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.17579999566078186</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.176</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.03519999980926514</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.035</cim:ACLineSegment.x>
 
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
@@ -90,16 +90,16 @@ Change log:
 		<cim:IdentifiedObject.description>132kV Arendal-T1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.5860000252723694</cim:Conductor.length>
+		<cim:Conductor.length>0.035</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.17579999566078186</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.03519999980926514</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0059</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191">
@@ -107,16 +107,16 @@ Change log:
 		<cim:IdentifiedObject.description>132kV Froland-T-Engene ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>27.07</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
-		<cim:ACLineSegment.bch>0.00008017679647309706</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>1.9480031728744507</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>1.95</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>10.52932357788086</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>10.53</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
 		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_157e4751-d212-4527-a94d-664452241325"/>    <!-- SHO: Feeder reference-->
@@ -126,16 +126,16 @@ Change log:
 		<cim:IdentifiedObject.description>132kV T-Engene Engene 1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>2.68</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
-		<cim:ACLineSegment.bch>0.000007633099812665023</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.32408639788627625</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.32</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>1.0837727785110474</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>1.08</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191">
@@ -143,16 +143,16 @@ Change log:
 		<cim:IdentifiedObject.description>132kV T-Engene Engene 1 ACLineSegment 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>0.86</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
-		<cim:ACLineSegment.bch>0.0000616390971117653</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.01568160019814968</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.016</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.09408959746360779</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.094</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191">
@@ -162,14 +162,14 @@ Change log:
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Conductor.length>0.5</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
-		<cim:ACLineSegment.bch>0.00006818179826950654</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.023522399365901947</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.026</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.04501200094819069</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.045</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a7f-5a55-11eb-a658-74e5f963e191">
@@ -177,16 +177,16 @@ Change log:
 		<cim:IdentifiedObject.description>22kV Engene Transformer 1 Cable 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>0.020</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.00014519999967887998</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.0003387999895494431</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0034</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a13-5a55-11eb-a658-74e5f963e191">
@@ -194,16 +194,16 @@ Change log:
 		<cim:IdentifiedObject.description>22kV Engene Transformer 1 Cable 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>0.020</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.00014519999967887998</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.0003387999895494431</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0034</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191">
@@ -211,16 +211,16 @@ Change log:
 		<cim:IdentifiedObject.description>22kV Engene-ZT1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>0.028</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
-		<cim:ACLineSegment.bch>0.000002066100023512263</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.007356800138950348</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.0074</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.0027588000521063805</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0028</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">
@@ -228,16 +228,16 @@ Change log:
 		<cim:IdentifiedObject.description>22kV Telemarkstien 2 ACLineSegment 4</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>1</cim:Conductor.length>
+		<cim:Conductor.length>0.005</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.0031</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0007</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_b1b4714b-a160-7742-84d5-d6486d776c94">
@@ -245,16 +245,16 @@ Change log:
 		<cim:IdentifiedObject.description>22kV ZT1-EFC ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0</cim:Conductor.length>
+		<cim:Conductor.length>0.013</cim:Conductor.length>
 		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
 		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
 		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
-		<cim:ACLineSegment.r>0.0019359999569132924</cim:ACLineSegment.r>
+		<cim:ACLineSegment.r>0.0019</cim:ACLineSegment.r>
 		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
 		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
-		<cim:ACLineSegment.x>0.0007259999983943999</cim:ACLineSegment.x>
+		<cim:ACLineSegment.x>0.0007</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:Bay rdf:ID="_5b498a4e-d2de-7f41-8f17-be255b3489db">
@@ -459,8 +459,8 @@ Change log:
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
 		<cim:EnergyConsumer.LoadResponse rdf:resource="#_6963e27e-9aaa-df42-a71c-1268f02e472f"/>
-		<cim:EnergyConsumer.pfixed>0.002</cim:EnergyConsumer.pfixed>
-		<cim:EnergyConsumer.qfixed>0.00002</cim:EnergyConsumer.qfixed>
+		<cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
@@ -471,7 +471,7 @@ Change log:
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
 		<cim:EnergyConsumer.LoadResponse rdf:resource="#_6963e27e-9aaa-df42-a71c-1268f02e472f"/>
-		<cim:EnergyConsumer.pfixed>0.001</cim:EnergyConsumer.pfixed>
+		<cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
 		<cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
 	</cim:ConformLoad>
 	<cim:ConformLoadGroup rdf:ID="_0b8f03ae-b704-664c-8665-49300c9c1fff">
@@ -659,241 +659,241 @@ Change log:
 	</cim:ControlArea>
 	<cim:CurrentLimit rdf:ID="_681a26d8-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a1c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a1b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a84-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a83-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a88-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a87-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2698-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd5-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 NEDENES T1 22 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26df-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33be9-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-NEDENES ACLS1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>745</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be8-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a18-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>589.947021484375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bed-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-NEDENES ACLS1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>745.0442504882812</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>745</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bec-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33b9e-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a3096-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 ENGENE T1 22 S</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>656.079833984375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>656</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a3095-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fd0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 ENGENE NT1 22 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>83.19092559814453</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>83</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fcf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd6-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T2 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2699-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T1 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623.013427734375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33b9f-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T1 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_0f183ae8-bf40-4c42-ba28-aff0684ec683">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_ee06cf5c-6eeb-1141-bf78-24098e198fc0"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_245cd84e-872f-d141-b6ae-c791424d0237">
 		<cim:IdentifiedObject.name>PATL T2 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f4e2587e-c4f9-e34c-a20e-d724f9e89af1"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_10d3dc6c-c98a-df45-b1ce-c043dbfeef25">
 		<cim:IdentifiedObject.name>PATL T1 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_8c9343e1-3296-3241-baf6-1e33351236a3"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_f822f3a2-4516-9048-913a-b808866ec168">
 		<cim:IdentifiedObject.name>PATL T2 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_e7c2e720-4e7c-bc4d-a38b-e5b7fafe09b0"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_bd381b90-7f6e-8a45-bff0-1370214c234c">
 		<cim:IdentifiedObject.name>PATL T1 ENGENE T1 132 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5a7908d7-612b-2346-918a-b7b6d458475a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_c8231145-5610-4245-b1a1-572fecb643d8">
 		<cim:IdentifiedObject.name>PATL T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_105b264a-2ab7-2441-bb32-aae12a3cfa51"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_df8139f5-361f-9846-b6ff-aaa351935dbb">
 		<cim:IdentifiedObject.name>TATL T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_105b264a-2ab7-2441-bb32-aae12a3cfa51"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_c3594d55-896e-7447-a90b-6b3c087b788e">
 		<cim:IdentifiedObject.name>PATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5227cc47-799d-3b4f-bf79-c0fee6d63e4a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_87f5ed47-2758-514e-9a13-ef692d942321">
 		<cim:IdentifiedObject.name>TATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>726.980224609375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5227cc47-799d-3b4f-bf79-c0fee6d63e4a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_e5e585f8-423e-c049-8e8e-58bda1ec78e8">
 		<cim:IdentifiedObject.name>PATL T1 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_2b69675e-dd3b-0e47-9039-845c5b5095f4"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_859d05d5-cdac-f849-81a2-4f0593c6c824">
 		<cim:IdentifiedObject.name>TATL T1 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_2b69675e-dd3b-0e47-9039-845c5b5095f4"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_7b025cfa-4526-6f49-a420-ea211e8eceba">
 		<cim:IdentifiedObject.name>TATL T2 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_d975d3c6-4aa8-e143-9188-a86cee4db583"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_1ab33989-6134-7f4f-876d-9fcd150fd081">
 		<cim:IdentifiedObject.name>PATL T2 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_d975d3c6-4aa8-e143-9188-a86cee4db583"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_a982d4f5-7307-3942-ab95-b3cac858d733">
 		<cim:IdentifiedObject.name>TATL T1 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_940fdf54-1e42-9840-a37f-7806a54f9e4b"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_11e9226e-e3cf-0f48-b691-8dfa2d25ae7b">
 		<cim:IdentifiedObject.name>PATL T1 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_940fdf54-1e42-9840-a37f-7806a54f9e4b"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_57661de3-c67c-b74b-8729-912a82eeec22">
 		<cim:IdentifiedObject.name>PATL T2 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_4219ab33-927a-bb43-9506-b9b1b3487afd"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_de98fb60-241a-5e47-a390-ac62f1d20079">
 		<cim:IdentifiedObject.name>TATL T2 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1019.9854736328125</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_4219ab33-927a-bb43-9506-b9b1b3487afd"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_3401221c-3b67-7144-981f-94a1d57a77a1">
 		<cim:IdentifiedObject.name>PATL T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>412</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_17264ab0-1492-6243-8e2d-44d85d0841fc"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_1d069b92-4138-454e-9db4-c05f38f767ca">
 		<cim:IdentifiedObject.name>TALT T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>412.3930358886719</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>412</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_17264ab0-1492-6243-8e2d-44d85d0841fc"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_3817162d-5e9d-d243-be82-10c2eca33b5b">
 		<cim:IdentifiedObject.name>PATL T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f681a7bd-f378-4c49-89b9-2fb70ec52c6a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_a3dceeba-ffb3-4349-9c4f-efb8c5c05923">
 		<cim:IdentifiedObject.name>TALT T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f681a7bd-f378-4c49-89b9-2fb70ec52c6a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_b0e72714-9f93-c444-913f-a2437efb1d7e">
 		<cim:IdentifiedObject.name>TATL T1 ENGENE T1 132 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275.0286865234375</cim:CurrentLimit.value>
+		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5a7908d7-612b-2346-918a-b7b6d458475a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
@@ -1042,12 +1042,12 @@ Change log:
 		<cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
 		<cim:EquivalentInjection.minQ>-100</cim:EquivalentInjection.minQ>
 		<cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
-		<cim:EquivalentInjection.r0>2.86738</cim:EquivalentInjection.r0>
-		<cim:EquivalentInjection.r2>0.43445</cim:EquivalentInjection.r2>
+		<cim:EquivalentInjection.r0>0</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.r2>0</cim:EquivalentInjection.r2>
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
-		<cim:EquivalentInjection.x0>14.3369</cim:EquivalentInjection.x0>
-		<cim:EquivalentInjection.x2>4.3445</cim:EquivalentInjection.x2>
+		<cim:EquivalentInjection.x0>0</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x2>0</cim:EquivalentInjection.x2>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:EquivalentInjection>
@@ -1056,16 +1056,16 @@ Change log:
 		<cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Nedenes 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
-		<cim:EquivalentInjection.maxP>0.003</cim:EquivalentInjection.maxP>
-		<cim:EquivalentInjection.maxQ>0</cim:EquivalentInjection.maxQ>
-		<cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
-		<cim:EquivalentInjection.minQ>0</cim:EquivalentInjection.minQ>
-		<cim:EquivalentInjection.r>0</cim:EquivalentInjection.r>
-		<cim:EquivalentInjection.r0>0</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.maxP>0.005</cim:EquivalentInjection.maxP>
+		<cim:EquivalentInjection.maxQ>0.00056</cim:EquivalentInjection.maxQ>
+		<cim:EquivalentInjection.minP>0.001</cim:EquivalentInjection.minP>
+		<cim:EquivalentInjection.minQ>0.00011</cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.r>0.029116565</cim:EquivalentInjection.r>
+		<cim:EquivalentInjection.r0>0.116466259372828</cim:EquivalentInjection.r0>
 		<cim:EquivalentInjection.r2>0</cim:EquivalentInjection.r2>
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
-		<cim:EquivalentInjection.x>0</cim:EquivalentInjection.x>
-		<cim:EquivalentInjection.x0>0</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x>0.00686281774505914</cim:EquivalentInjection.x>
+		<cim:EquivalentInjection.x0>0.0274512709802365</cim:EquivalentInjection.x0>
 		<cim:EquivalentInjection.x2>0</cim:EquivalentInjection.x2>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_3d51330c-7528-4efb-8edc-e61dcc145ac4"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
@@ -1354,13 +1354,13 @@ Change log:
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0.0000006179100182635011</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
 		<cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>87.61799621582031</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.x>87.62</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
@@ -1394,13 +1394,13 @@ Change log:
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0.0000012625999943338684</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
 		<cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
-		<cim:PowerTransformerEnd.r>2.3696999549865723</cim:PowerTransformerEnd.r>
+		<cim:PowerTransformerEnd.r>2.37</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>82.2760009765625</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.x>82.28</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
@@ -1434,13 +1434,13 @@ Change log:
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0.000002066100023512263</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
 		<cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
-		<cim:PowerTransformerEnd.r>1.524399995803833</cim:PowerTransformerEnd.r>
+		<cim:PowerTransformerEnd.r>1.52</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>7.622000217437744</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.x>7.62</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
@@ -1474,13 +1474,13 @@ Change log:
 		<cim:PowerTransformerEnd.b0>0</cim:PowerTransformerEnd.b0>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.g>0.000002066100023512263</cim:PowerTransformerEnd.g>
+		<cim:PowerTransformerEnd.g>0</cim:PowerTransformerEnd.g>
 		<cim:PowerTransformerEnd.phaseAngleClock>0</cim:PowerTransformerEnd.phaseAngleClock>
-		<cim:PowerTransformerEnd.r>5.081999778747559</cim:PowerTransformerEnd.r>
+		<cim:PowerTransformerEnd.r>5.081</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.r0>0</cim:PowerTransformerEnd.r0>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>35.45399856567383</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.x>35.45</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.x0>0</cim:PowerTransformerEnd.x0>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a309b-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
