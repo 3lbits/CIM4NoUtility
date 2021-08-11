@@ -24,8 +24,8 @@ Change log:
  </md:FullModel>
 
   <cim:CoordinateSystem rdf:ID="_a5417df7-4f3c-4661-8701-aa5ee6991834">
-  	<cim:IdentifiedObject.name>EPSG 4236</cim:IdentifiedObject.name>
-    <cim:CoordinateSystem.crsUrn>urn:ogc:def:crs:EPSG::4236</cim:CoordinateSystem.crsUrn>
+  	<cim:IdentifiedObject.name>EPSG 4326</cim:IdentifiedObject.name>
+    <cim:CoordinateSystem.crsUrn>urn:ogc:def:crs:EPSG::4336</cim:CoordinateSystem.crsUrn>
   </cim:CoordinateSystem>
 	<cim:Location rdf:ID="_9d68070f-959b-472b-8774-d552c9bcec5c">
 		<cim:Location.CoordinateSystem rdf:resource="#_a5417df7-4f3c-4661-8701-aa5ee6991834"/>
