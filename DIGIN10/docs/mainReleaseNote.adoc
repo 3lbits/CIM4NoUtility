@@ -1,0 +1,29 @@
+= Release Note DIGIN10
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toc-title: Content
+:toclevels: 4
+:sectlinks:
+:table-stripes: even
+:leveloffset: +1
+:title-logo-image: image:images/DIGIN.png[pdfwidth=30vw]
+
+image::images/DIGIN.png[width=50%, pdfwidth=30vw]
+
+
+
+NOTE: *Report Error:* +
+Please provide feedback in the case you are dicsovering any errors, https://github.com/DIGINenergi/Grunnprofil/issues[Github Issues].
+
+
+*Status*: Current +
+*Version*: 0.0.1
+*Published*: 2021-08-25 +
+*Updated*: 2021-08-25 +
+*Current Version*: https://diginenergi.no/nedlastinger/ +
+*Previous version*: https://diginenergi.no/nedlastinger/ +
+
+
+include::KnownIssues.adoc[]

@@ -1,0 +1,6 @@
+# Known Issues
+
+## Equivalent Injection
+The GeneratingUnit (including Synchrous Machine) are included in the model to make power flow since the Power Flow tool used does not support using EquivalentInjection as a generator in the Power Flow.
+
+This part is planned to be removed
