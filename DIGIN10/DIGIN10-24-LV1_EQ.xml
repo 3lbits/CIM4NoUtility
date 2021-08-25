@@ -16,7 +16,102 @@
         <md:Model.version>01v09</md:Model.version>
         <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
     </md:FullModel>
- 
+
+    <cim:Analog rdf:ID="_173ce5e1-d16b-4015-9793-b12913c9f428">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Analog 1 Temperature Sensor</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 ANALOG1TEMPSENS</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>Underground LV Cable Serving Temperature</cim:Measurement.measurementType>
+        <cim:Measurement.phases></cim:Measurement.phases>
+        <cim:Measurement.unitMultiplier>none</cim:Measurement.unitMultiplier>
+        <cim:Measurement.unitSymbol>degC</cim:Measurement.unitSymbol>
+        <cim:Analog.maxValue>120</cim:Analog.maxValue>
+        <cim:Analog.minValue>10</cim:Analog.minValue>
+        <cim:Analog.normalValue>30</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
+        <cim:Measurement.PowerSystemResources rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
+        <cim:Measurement.ACDCTerminal rdf:resource="#_e1a6c356-813b-4311-8986-898231fa1aa1"/>
+    </cim:Analog>
+
+    <cim:AnalogValue rdf:ID="_ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 AnalogValue 1 Temperature</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 ANALOGVALUE1TEMP</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>24.37</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a3da94b-aafb-45c7-ae8a-9444ee4c111e"/>
+        <cim:MeasurementValue.RemoteSource rdf:resource="#_055d5259-8401-4206-a483-f7fd13a87299"/>
+        <cim:AnalogValue.Analog rdf:resource="#_173ce5e1-d16b-4015-9793-b12913c9f428"/>
+    </cim:AnalogValue>
+
+    <cim:CableInfo rdf:ID="_d25f35ca-69fb-4c06-905b-67ec532e5f14"> <!--CableInfo for ACLineSegment--> <!--Missing: Phases, -->
+        <cim:IdentifiedObject.description>PFXP underground cable with dimension 1x4x95 and aluminum conductor for low voltage grid</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>PFXP_1x4x95_Al 1 kV</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>PFXP1x4x95Al1kV</cim:IdentifiedObject.aliasName>
+        <cim:WireInfo.coreRadius></cim:WireInfo.coreRadius>
+        <cim:WireInfo.coreStrandCount></cim:WireInfo.coreStrandCount>
+        <cim:WireInfo.gmr></cim:WireInfo.gmr>
+        <cim:WireInfo.insulated>true</cim:WireInfo.insulated>
+        <cim:WireInfo.insulationMaterial>other</cim:WireInfo.insulationMaterial> <!--PVC?-->
+        <cim:WireInfo.insulationThickness></cim:WireInfo.insulationThickness>
+        <cim:WireInfo.material>aluminum</cim:WireInfo.material>
+        <cim:WireInfo.rAC25>320</cim:WireInfo.rAC25>
+        <cim:WireInfo.rAC50></cim:WireInfo.rAC50>
+        <cim:WireInfo.rAC75></cim:WireInfo.rAC75>
+        <cim:WireInfo.rDC20></cim:WireInfo.rDC20>
+        <cim:WireInfo.radius>95</cim:WireInfo.radius>
+        <cim:WireInfo.ratedCurrent>220</cim:WireInfo.ratedCurrent>
+        <cim:WireInfo.sizeDescription></cim:WireInfo.sizeDescription>
+        <cim:WireInfo.strandCount></cim:WireInfo.strandCount>
+        <cim:CableInfo.constructionKind></cim:CableInfo.constructionKind>
+        <cim:CableInfo.diameterOverCore></cim:CableInfo.diameterOverCore>
+        <cim:CableInfo.diameterOverInsulation></cim:CableInfo.diameterOverInsulation>
+        <cim:CableInfo.diameterOverJacket></cim:CableInfo.diameterOverJacket>
+        <cim:CableInfo.diameterOverScreen></cim:CableInfo.diameterOverScreen>
+        <cim:CableInfo.isStrandFill></cim:CableInfo.isStrandFill>
+        <cim:CableInfo.nominalTemperature></cim:CableInfo.nominalTemperature>
+        <cim:CableInfo.outerJacketKind>pvc</cim:CableInfo.outerJacketKind>
+        <cim:CableInfo.sheathAsNeutral></cim:CableInfo.sheathAsNeutral>
+        <cim:CableInfo.shieldMaterial>aluminum</cim:CableInfo.shieldMaterial>
+    </cim:CableInfo>
+
+    <cim:CommunicationLink rdf:ID="_1fe5049c-34d7-4e30-a411-ff01c16b8f3a">
+        <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTechWiFi</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>DTWiFi</cim:IdentifiedObject.aliasName>
+        <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
+    </cim:CommunicationLink>
+
+    <cim:CommunicationLink rdf:ID="_2bf1f9fc-263d-4995-80da-9802dc087fe5">
+        <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTech4G</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>DT4G</cim:IdentifiedObject.aliasName>
+        <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
+    </cim:CommunicationLink>
+
+    <cim:MeasurementValueSource rdf:ID="_6a3da94b-aafb-45c7-ae8a-9444ee4c111e">
+        <cim:IdentifiedObject.description>Telemetered values received from a local SCADA system</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>SCADA</cim:IdentifiedObject.name>
+    </cim:MeasurementValueSource>
+
+    <cim:RemoteSource rdf:ID="_055d5259-8401-4206-a483-f7fd13a87299">
+        <cim:IdentifiedObject.description>SensorPoint 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>SensorPoint1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>SensorPoint1</cim:IdentifiedObject.aliasName>
+        <cim:RemoteSource.deadband>0</cim:RemoteSource.deadband>
+        <cim:RemoteSource.scanInterval>1</cim:RemoteSource.scanInterval>
+        <cim:RemoteSource.sensorMaximum>120</cim:RemoteSource.sensorMaximum>
+        <cim:RemoteSource.sensorMinimum>-30</cim:RemoteSource.sensorMinimum>
+        <cim:RemotePoint.RemoteUnit rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
+    </cim:RemoteSource>
+
+    <cim:RemoteUnit rdf:ID="_00160296-775f-407a-8d67-c9a5d610715a">
+        <cim:IdentifiedObject.description>Disruptive Technologies temperature sensor 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTechTempSensor1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>DTSensor1</cim:IdentifiedObject.aliasName>
+        <cim:RemoteUnit.remoteUnitType>IED</cim:RemoteUnit.remoteUnitType>
+    </cim:RemoteUnit>
+
     <cim:ACLineSegment rdf:ID="_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 ACLineSegment 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 ACLS1</cim:IdentifiedObject.name>
@@ -34,6 +129,7 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -54,6 +150,7 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.0274387709796428</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.006859692744910717</cim:ACLineSegment.x>
+        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
