@@ -28,7 +28,7 @@ Change log:
     <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
     <md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
     <md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>
-    <md:Model.version>01v20</md:Model.version>
+    <md:Model.version>01v26</md:Model.version>
     <!-- Dependent reference to Boundary EQ -->
     <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
   </md:FullModel>
@@ -1051,6 +1051,55 @@ Change log:
 		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:EquivalentInjection>
+
+	<!-- Add SynchrousMachine to emulate EI for the power flow-->
+	<cim:SynchronousMachine rdf:ID="_33666962-c2f9-4f6b-af5a-2ef1982ac282">
+		<cim:SynchronousMachine.maxQ>300</cim:SynchronousMachine.maxQ>
+		<cim:SynchronousMachine.maxU>100</cim:SynchronousMachine.maxU>
+		<cim:SynchronousMachine.minQ>-100</cim:SynchronousMachine.minQ>
+		<cim:SynchronousMachine.minU>0</cim:SynchronousMachine.minU>
+		<cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
+		<cim:SynchronousMachine.r>0.43445</cim:SynchronousMachine.r>
+		<cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
+		<cim:RotatingMachine.GeneratingUnit rdf:resource="#_b7057d99-e21a-4ba1-9cef-15aeeee4232a"/> 
+		<cim:RotatingMachine.ratedS>350</cim:RotatingMachine.ratedS>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ARENDAL 420 M1</cim:IdentifiedObject.name>
+	</cim:SynchronousMachine>
+
+	<cim:Terminal rdf:ID="_7d09271d-7826-442e-bc57-d1fa1955495e">
+		<cim:Terminal.ConductingEquipment rdf:resource="#_33666962-c2f9-4f6b-af5a-2ef1982ac282"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_cb837454-5c66-d341-be63-d0c044e5fd3c"/>
+		<cim:IdentifiedObject.name>T1 ARENDAL 420 TM M1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
+	</cim:Terminal>
+
+	<cim:GeneratingUnit rdf:ID="_b7057d99-e21a-4ba1-9cef-15aeeee4232a">
+		<cim:GeneratingUnit.highControlLimit>380</cim:GeneratingUnit.highControlLimit>
+		<cim:GeneratingUnit.initialP>178</cim:GeneratingUnit.initialP>
+		<cim:GeneratingUnit.lowControlLimit>0</cim:GeneratingUnit.lowControlLimit>
+		<cim:GeneratingUnit.maxEconomicP>280</cim:GeneratingUnit.maxEconomicP>
+		<cim:GeneratingUnit.maxOperatingP>300</cim:GeneratingUnit.maxOperatingP>
+		<cim:GeneratingUnit.minEconomicP>0</cim:GeneratingUnit.minEconomicP>
+		<cim:GeneratingUnit.minOperatingP>0</cim:GeneratingUnit.minOperatingP>
+		<cim:GeneratingUnit.nominalP>200</cim:GeneratingUnit.nominalP>
+		<cim:GeneratingUnit.ratedGrossMaxP>380</cim:GeneratingUnit.ratedGrossMaxP>
+		<cim:GeneratingUnit.ratedNetMaxP>350</cim:GeneratingUnit.ratedNetMaxP>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ARENDAL 420  G1</cim:IdentifiedObject.name>
+	</cim:GeneratingUnit>
+
+	<cim:RegulatingControl rdf:ID="_570e76de-1b18-4a92-a1a2-b6f780f5dcbe">
+		<cim:RegulatingControl.Terminal rdf:resource="#_7d09271d-7826-442e-bc57-d1fa1955495e"/>
+		<cim:RegulatingControl.mode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#RegulatingControlModeKind.voltage"/>
+		<cim:IdentifiedObject.name>Arendal 300kV RC1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
+	</cim:RegulatingControl>
+
 	<cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>

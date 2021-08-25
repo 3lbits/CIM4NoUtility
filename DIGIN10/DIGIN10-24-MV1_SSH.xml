@@ -120,6 +120,27 @@ Change log:
 		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
 		<cim:EquivalentInjection.regulationTarget>420</cim:EquivalentInjection.regulationTarget>
 	</cim:EquivalentInjection>
+
+	<cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
+		<cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+		<cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+		<cim:RotatingMachine.p>-178</cim:RotatingMachine.p>
+		<cim:RotatingMachine.q>0</cim:RotatingMachine.q>
+		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+	</cim:SynchronousMachine>
+	
+	<cim:GeneratingUnit rdf:about="#_b7057d99-e21a-4ba1-9cef-15aeeee4232a">
+		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
+	</cim:GeneratingUnit>
+
+	<cim:RegulatingControl rdf:about="#_570e76de-1b18-4a92-a1a2-b6f780f5dcbe">
+		<cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+		<cim:RegulatingControl.targetValue>300</cim:RegulatingControl.targetValue>
+		<cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+	</cim:RegulatingControl>
+
 	<cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
 		<cim:EquivalentInjection.p>0.0006</cim:EquivalentInjection.p>
 		<cim:EquivalentInjection.q>0</cim:EquivalentInjection.q>
