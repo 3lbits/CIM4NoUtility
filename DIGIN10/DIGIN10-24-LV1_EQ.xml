@@ -43,37 +43,6 @@
         <cim:AnalogValue.Analog rdf:resource="#_173ce5e1-d16b-4015-9793-b12913c9f428"/>
     </cim:AnalogValue>
 
-    <cim:CableInfo rdf:ID="_d25f35ca-69fb-4c06-905b-67ec532e5f14"> <!--CableInfo for ACLineSegment--> <!--Missing: Phases, -->
-        <cim:IdentifiedObject.description>PFXP underground cable with dimension 1x4x95 and aluminum conductor for low voltage grid</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>PFXP_1x4x95_Al 1 kV</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>PFXP1x4x95Al1kV</cim:IdentifiedObject.aliasName>
-        <cim:WireInfo.coreRadius></cim:WireInfo.coreRadius>
-        <cim:WireInfo.coreStrandCount></cim:WireInfo.coreStrandCount>
-        <cim:WireInfo.gmr></cim:WireInfo.gmr>
-        <cim:WireInfo.insulated>true</cim:WireInfo.insulated>
-        <cim:WireInfo.insulationMaterial>other</cim:WireInfo.insulationMaterial> <!--PVC?-->
-        <cim:WireInfo.insulationThickness></cim:WireInfo.insulationThickness>
-        <cim:WireInfo.material>aluminum</cim:WireInfo.material>
-        <cim:WireInfo.rAC25>320</cim:WireInfo.rAC25>
-        <cim:WireInfo.rAC50></cim:WireInfo.rAC50>
-        <cim:WireInfo.rAC75></cim:WireInfo.rAC75>
-        <cim:WireInfo.rDC20></cim:WireInfo.rDC20>
-        <cim:WireInfo.radius>95</cim:WireInfo.radius>
-        <cim:WireInfo.ratedCurrent>220</cim:WireInfo.ratedCurrent>
-        <cim:WireInfo.sizeDescription></cim:WireInfo.sizeDescription>
-        <cim:WireInfo.strandCount></cim:WireInfo.strandCount>
-        <cim:CableInfo.constructionKind></cim:CableInfo.constructionKind>
-        <cim:CableInfo.diameterOverCore></cim:CableInfo.diameterOverCore>
-        <cim:CableInfo.diameterOverInsulation></cim:CableInfo.diameterOverInsulation>
-        <cim:CableInfo.diameterOverJacket></cim:CableInfo.diameterOverJacket>
-        <cim:CableInfo.diameterOverScreen></cim:CableInfo.diameterOverScreen>
-        <cim:CableInfo.isStrandFill></cim:CableInfo.isStrandFill>
-        <cim:CableInfo.nominalTemperature></cim:CableInfo.nominalTemperature>
-        <cim:CableInfo.outerJacketKind>pvc</cim:CableInfo.outerJacketKind>
-        <cim:CableInfo.sheathAsNeutral></cim:CableInfo.sheathAsNeutral>
-        <cim:CableInfo.shieldMaterial>aluminum</cim:CableInfo.shieldMaterial>
-    </cim:CableInfo>
-
     <cim:CommunicationLink rdf:ID="_1fe5049c-34d7-4e30-a411-ff01c16b8f3a">
         <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>DisrTechWiFi</cim:IdentifiedObject.name>
