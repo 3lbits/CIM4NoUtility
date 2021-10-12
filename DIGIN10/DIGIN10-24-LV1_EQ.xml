@@ -23,16 +23,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -44,16 +44,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>90.97949981689453</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.116453759372234</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.029113439843058586</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0274387709796428</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.006859692744910717</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -65,16 +65,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -86,16 +86,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -107,16 +107,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -128,16 +128,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -149,16 +149,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -170,16 +170,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -191,16 +191,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -212,16 +212,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -233,16 +233,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -254,16 +254,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -275,16 +275,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -296,16 +296,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -317,16 +317,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -338,16 +338,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>60</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0,076799999740563</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0,019199999935141</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0,018095573861056</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0,004523893465264</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -359,16 +359,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -380,16 +380,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -401,16 +401,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -422,16 +422,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -443,16 +443,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -464,16 +464,16 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>0.03125</cim:Conductor.length>
+        <cim:Conductor.length>60</cim:Conductor.length>
         <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.0000125000005937181</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0.0000031250001484295353</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0,076799999740563</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0,019199999935141</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0.0000125000005937181</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0.0000031250001484295353</cim:ACLineSegment.x>
+        <cim:ACLineSegment.x0>0,018095573861056</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0,004523893465264</cim:ACLineSegment.x>
         <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
@@ -499,21 +499,21 @@
         <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
     </cim:Bay>
 	
-	    <cim:Bay rdf:ID="_93e2b374-b3b5-40d7-8723-285903e47a05">
+    <cim:Bay rdf:ID="_93e2b374-b3b5-40d7-8723-285903e47a05">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba4</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 	
-	    <cim:Bay rdf:ID="_4e192fee-c90d-4e29-80b6-3e71dc353a79">
+	<cim:Bay rdf:ID="_4e192fee-c90d-4e29-80b6-3e71dc353a79">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba5</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 	
-	    <cim:Bay rdf:ID="_2fc9b615-5925-4e2a-baaa-165ee4f51910">
+	<cim:Bay rdf:ID="_2fc9b615-5925-4e2a-baaa-165ee4f51910">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba6</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
@@ -727,7 +727,7 @@
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:Breaker>
 
-   <cim:Breaker rdf:ID="_131a14f6-7032-499d-b691-f65bc52cc635">
+    <cim:Breaker rdf:ID="_131a14f6-7032-499d-b691-f65bc52cc635">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Breaker 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Br3</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
@@ -1860,16 +1860,16 @@
 		<cim:IdentifiedObject.name>Telemarkstien 2 DB EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Telemarkstien 2 400 V Distribution Equivalent</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
-		<cim:EquivalentInjection.maxP>0.005</cim:EquivalentInjection.maxP>
-		<cim:EquivalentInjection.maxQ>0.00056</cim:EquivalentInjection.maxQ>
-		<cim:EquivalentInjection.minP>0.001</cim:EquivalentInjection.minP>
-		<cim:EquivalentInjection.minQ>0.00011</cim:EquivalentInjection.minQ>
-		<cim:EquivalentInjection.r>0.029116565</cim:EquivalentInjection.r>
-		<cim:EquivalentInjection.r0>0.116466259372828</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.maxP>0.065</cim:EquivalentInjection.maxP>
+		<cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
+		<cim:EquivalentInjection.minP>0.0013</cim:EquivalentInjection.minP>
+		<cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
+		<cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
 		<cim:EquivalentInjection.r2></cim:EquivalentInjection.r2>
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
-		<cim:EquivalentInjection.x>0.00686281774505914</cim:EquivalentInjection.x>
-		<cim:EquivalentInjection.x0>0.0274512709802365</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
+		<cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
 		<cim:EquivalentInjection.x2></cim:EquivalentInjection.x2>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
@@ -2030,7 +2030,7 @@
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
     </cim:Substation>
 
-     <cim:Terminal rdf:ID="_a9b61cc1-6066-49e5-bfbc-8ab93df5378f">
+    <cim:Terminal rdf:ID="_a9b61cc1-6066-49e5-bfbc-8ab93df5378f">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 T1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T1</cim:IdentifiedObject.aliasName>
@@ -2040,7 +2040,7 @@
         <cim:Terminal.ConnectivityNode rdf:resource="#_1447d25c-5977-43ec-8878-8ac210edda8f"/>
     </cim:Terminal>
 	
-	 <cim:Terminal rdf:ID="_31333403-d015-4f06-964e-9e17a61c5a8b">
+	<cim:Terminal rdf:ID="_31333403-d015-4f06-964e-9e17a61c5a8b">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 T2</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T2</cim:IdentifiedObject.aliasName>
@@ -3300,6 +3300,357 @@
         <cim:Terminal.ConductingEquipment rdf:resource="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2"/>
         <cim:Terminal.ConnectivityNode rdf:resource="#_df241dc7-8ae0-4a0c-aadb-69d2fea29d4c"/>
     </cim:Terminal>
+
+    <cim:UsagePoint rdf:ID="_ab9eba1c-28e2-41e6-9d90-97b484581582">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 1<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP1<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP1<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower><!--MW-->
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9"> <!--CL1 er reff--> 
+    </cim:UsagePoint>
+    
+    <cim:UsagePoint rdf:ID="_0b88dcec-5657-4e00-9957-41c42dda9e90">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 2<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP2<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP2<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_dda0993b-140e-41f4-ab0e-9690859afef3"> 
+    </cim:UsagePoint>
+    
+    <cim:UsagePoint rdf:ID="_aa75e2ad-ac2b-476f-a20c-f7b75dec97d9">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 3<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP3<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP3<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_ed384e6d-b8d1-45bf-9778-fb2e1b5142fa"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_4111f640-e2d3-49e1-a3b2-bca045db3e5b">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 4<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP4<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP4<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_7d2f35f7-82ef-42f9-bc10-6f62fe96d116"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_c07ae94f-63ac-4d65-ba38-02db925c2623">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 5<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP5<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP5<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_a6d32ac1-e894-4d28-a44b-41635a6c8b6f"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_4b7cce2d-a55f-45a3-89ef-c0fcaec6660e">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 6<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP6<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP6<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_1ab052d3-e055-4dfe-9e47-8af771bd652a"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_e56eef37-2b37-4eb6-bfbe-d1a693d54f48">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 7<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP7<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP7<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_5394fd91-851b-406a-ab9c-ecbe7a411c17"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_c49577df-41d9-4ce5-bf39-401980a173ba">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 8<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP8<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP8<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_aae86260-d615-473f-9622-5817da962df1"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_7b416d80-631d-47ff-b9c1-da3ccf35be97">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 9<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP9<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP9<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_2a850d95-6c2e-4a20-a9c6-0f97158473d6"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_959cdda7-ac98-44e1-ab61-2f739702eded">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 10<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP10<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP10<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_3a7461ed-8e5d-427a-8b48-af3a46c042f5"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_e3f14479-7342-4a7d-8cc5-47f14438e41e">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 11<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP11<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP11<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_67334cb3-902b-4d55-9207-50c75357458c"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_f1e8abd7-524d-483c-b20d-d895e2923a22">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 12<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP12<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP12<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_1bb434df-1410-4b79-b57b-1af90387e355"> 
+    </cim:UsagePoint>
+      
+    <cim:UsagePoint rdf:ID="_a62be726-c257-42d6-82cc-33fdf9b826c8">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 UsagePoint 13<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 UP13<cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 UP13<cim:IdentifiedObject.aliasName>
+        <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#AmiBillingReady.enabled">
+        <cim:UsagePoint.chekBilling>false<cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage<cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected">
+        <cim:UsagePoint.disconnectionMethod><cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad>19.5<cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true<cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.isSdq>false<cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false<cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false<cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4<cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien<cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN">
+        <cim:UsagePoint.phaseCount>3<cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>63<cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>0.02268<cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly<cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute><cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>Houshold<cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>Low<cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:recource="#_e2b45f87-e399-47b4-86f9-0e68fb374a65"> 
+    </cim:UsagePoint>
 
     <cim:VoltageLevel rdf:ID="_91ef68b3-8878-47a4-b24f-66f42bb459ba">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Voltage Level 1</cim:IdentifiedObject.description>
