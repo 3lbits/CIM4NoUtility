@@ -897,6 +897,51 @@ Change log:
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5a7908d7-612b-2346-918a-b7b6d458475a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
+	<cim:CurrentTransformer rdf:ID="_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
+		<cim:IdentifiedObject.description>22 kilo Volt Vestfoldstien 2 Current Transformer 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22 VESTFO 2 CURRTRA1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>22VFS2CURTRA1</cim:IdentifiedObject.aliasName>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
+		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:CurrentTransformer.accuracyClass></cim:CurrentTransformer.accuracyClass>
+		<cim:CurrentTransformer.accuracyLimit></cim:CurrentTransformer.accuracyLimit>
+		<cim:CurrentTransformer.coreBurden></cim:CurrentTransformer.coreBurden>
+		<cim:CurrentTransformer.ctClass></cim:CurrentTransformer.ctClass>
+		<cim:CurrentTransformer.usage>metering</cim:CurrentTransformer.usage>
+		<cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+	</cim:CurrentTransformer>
+	<cim:CurrentTransformer rdf:ID="_0f3b6200-684d-4365-8d55-45baae73bffb">
+		<cim:IdentifiedObject.description>22 kilo Volt Vestfoldstien 2 Current Transformer 2</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22 VESTFO 2 CURRTRA2</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>22VFS2CURTRA2</cim:IdentifiedObject.aliasName>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
+		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:CurrentTransformer.accuracyClass></cim:CurrentTransformer.accuracyClass>
+		<cim:CurrentTransformer.accuracyLimit></cim:CurrentTransformer.accuracyLimit>
+		<cim:CurrentTransformer.coreBurden></cim:CurrentTransformer.coreBurden>
+		<cim:CurrentTransformer.ctClass></cim:CurrentTransformer.ctClass>
+		<cim:CurrentTransformer.usage>metering</cim:CurrentTransformer.usage>
+		<cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+	</cim:CurrentTransformer>
+	<cim:CurrentTransformer rdf:ID="_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541">
+		<cim:IdentifiedObject.description>22 kilo Volt Vestfoldstien 2 Current Transformer</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22 VESTFO 2 CURRTRA</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>22VFS2CURTRA</cim:IdentifiedObject.aliasName>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
+		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:CurrentTransformer.accuracyClass></cim:CurrentTransformer.accuracyClass>
+		<cim:CurrentTransformer.accuracyLimit></cim:CurrentTransformer.accuracyLimit>
+		<cim:CurrentTransformer.coreBurden></cim:CurrentTransformer.coreBurden>
+		<cim:CurrentTransformer.ctClass></cim:CurrentTransformer.ctClass>
+		<cim:CurrentTransformer.usage>metering</cim:CurrentTransformer.usage>
+		<cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+	</cim:CurrentTransformer>
 	<cim:Disconnector rdf:ID="_a8afc199-8a20-41d8-8ada-5261202610eb">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Arendal 132kV T1 L Disconnector</cim:IdentifiedObject.description>
@@ -1365,6 +1410,48 @@ Change log:
 		<cim:Equipment.EquipmentContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
 		<cim:IdentifiedObject.description>22kV ZT1-EFC Petersen Coil</cim:IdentifiedObject.description>
 	</cim:PetersenCoil>
+	<cim:PotentialTransformer rdf:ID="_fd11bf7f-138b-4a1b-802c-25262b7b8672">
+		<cim:IdentifiedObject.description>22 kilo Volt Vestfoldstien 2 Potential Transformer 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22 VESTFO 2 POTTRA1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>22VFS2POTTRA1</cim:IdentifiedObject.aliasName>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
+		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:PotentialTransformer.accuracyClass></cim:PotentialTransformer.accuracyClass>
+		<cim:PotentialTransformer.nominalRatio></cim:PotentialTransformer.nominalRatio>
+		<cim:PotentialTransformer.ptClass></cim:PotentialTransformer.ptClass>
+		<cim:PotentialTransformer.type rdf:recource="">
+		<cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+	</cim:PotentialTransformer>
+	<cim:PotentialTransformer rdf:ID="_03f7a245-aeca-48ba-af07-58419fb9b77c">
+		<cim:IdentifiedObject.description>22 kilo Volt Vestfoldstien 2 Potential Transformer 2</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22 VESTFO 2 POTTRA2</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>22VFS2POTTRA2</cim:IdentifiedObject.aliasName>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
+		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:PotentialTransformer.accuracyClass></cim:PotentialTransformer.accuracyClass>
+		<cim:PotentialTransformer.nominalRatio></cim:PotentialTransformer.nominalRatio>
+		<cim:PotentialTransformer.ptClass></cim:PotentialTransformer.ptClass>
+		<cim:PotentialTransformer.type rdf:recource="">
+		<cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+	</cim:PotentialTransformer>
+	<cim:PotentialTransformer rdf:ID="_74936f6f-296e-44db-b772-1d522f317069">
+		<cim:IdentifiedObject.description>22 kilo Volt Vestfoldstien 2 Potential Transformer 3</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>22 VESTFO 2 POTTRA3</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.aliasName>22VFS2POTTRA3</cim:IdentifiedObject.aliasName>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
+		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+		<cim:PotentialTransformer.accuracyClass></cim:PotentialTransformer.accuracyClass>
+		<cim:PotentialTransformer.nominalRatio></cim:PotentialTransformer.nominalRatio>
+		<cim:PotentialTransformer.ptClass></cim:PotentialTransformer.ptClass>
+		<cim:PotentialTransformer.type rdf:recource="">
+		<cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+	</cim:PotentialTransformer>
 	<cim:PowerTransformer rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Arendal 420kV / 132kV Transformer 1</cim:IdentifiedObject.description>
