@@ -166,8 +166,7 @@ Change log:
 	</cim:Breaker>
 		
  	<cim:Breaker rdf:about="#_81f3131f-baed-442d-bf7a-3606832fc3e0">
-	 	<!--breaker 12 is open-->
-		<cim:Switch.open>true</cim:Switch.open>
+		<cim:Switch.open>true</cim:Switch.open>	<!--breaker 12 is open-->
 		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
 	</cim:Breaker>
 	
@@ -207,8 +206,7 @@ Change log:
 	</cim:Breaker>
 		
  	<cim:Breaker rdf:about="#_b63024f5-df5f-4d21-ba9d-97288bdabe97">
-	 	<!--breaker 20 is open-->
-		<cim:Switch.open>true</cim:Switch.open>
+		<cim:Switch.open>true</cim:Switch.open> <!--breaker 20 is open-->
 		<entsoe:Equipment.inService>true</entsoe:Equipment.inService>
 	</cim:Breaker>
 	
