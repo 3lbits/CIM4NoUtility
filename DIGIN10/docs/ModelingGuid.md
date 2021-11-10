@@ -1,4 +1,10 @@
-# OperationalLimit
+# Modeling guide
+ Må inkludere:
+ - Klasser og tilhørende attributter
+ - - Optional eller ikke
+ - - Hvilken standard klassene er i tråd med 
+ - ++
+## OperationalLimit
 The following equipment shall have OperantionalLimit
 - ACLineSegment:
     PATL and TATL and differnet values on each Terminal (how do we include Auxiliary Equipment?) Shall we include CurrentTransformer etc?
@@ -40,6 +46,7 @@ Note: Colour on the Voltage Level
 
 
 # EQ
+
 ACLineSegment
 - <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName> <!--Optional-->
 - <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled> <!--Optional, If not used then true-->
@@ -104,3 +111,5 @@ LV EQ
 ## LV
 
 ![LV](/DIGIN10-24-LV1_EQ.drawio.png)
+
+
