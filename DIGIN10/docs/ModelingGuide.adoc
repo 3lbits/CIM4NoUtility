@@ -1,1 +1,188 @@
-# Modeling Guide
+:hardbreaks:
+<style>
+.indent {
+    padding-left: 4rem;
+}
+</style>
+= Modeling guide
+
+_[yellow]#This document contains documentation of all profiles necessary to perform power flow analyses. .....#_
+The set of profiles consists of Equipment (EQ), Steady State Hypothesis (SSH), Geographical Location (GL), Diagram Layout (DL) and _State Variables (SV )[red]#?#_, together with the Equipment Boundary (EQBP) model for the Nordic44 and DIGIN10 Test model.
+
+## Equipment model 
+### _MV_
+#### ACLineSegment
+
+cim:IdentifiedObject.aliasName 
+//
+cim:IdentifiedObject.description 
+//
+cim:IdentifiedObject.name 
+//
+cim:Equipment.aggregate 
+//
+cim:Conductor.length 
+//
+cim:ACLineSegment.b0ch 
+//
+cim:ACLineSegment.bch 
+//
+cim:ACLineSegment.g0ch 
+//
+cim:ACLineSegment.gch 
+//
+cim:ACLineSegment.r0 
+//
+cim:ACLineSegment.r 
+//
+cim:ACLineSegment.shortCircuitEndTemperature 
+//
+cim:ACLineSegment.x0 
+//
+cim:ACLineSegment.x 
+//
+cim:ConductingEquipment.BaseVoltage 
+
+
+
+#### Bay
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:Bay.VoltageLevel 
+
+
+#### Breaker
+cim:IdentifiedObject.aliasName
+//
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:Equipment.aggregate
+//
+cim:Equipment.EquipmentContainer 
+//
+cim:Switch.normalOpen
+//
+cim:Switch.ratedCurrent
+//
+cim:Switch.retained
+
+
+#### BusbarSection
+cim:IdentifiedObject.aliasName>
+//
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:BusbarSection.ipMax
+//
+cim:Equipment.EquipmentContainer 
+
+
+#### ConformLoad
+cim:IdentifiedObject.aliasName
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.description
+//
+cim:Equipment.EquipmentContainer 
+//
+cim:ConformLoad.LoadGroup 
+//
+cim:ConductingEquipment.BaseVoltage 
+//
+cim:Equipment.aggregate
+//
+cim:EnergyConsumer.LoadResponse 
+//
+cim:EnergyConsumer.pfixed
+//
+cim:EnergyConsumer.qfixed
+//
+
+#### ConformLoadGroup
+cim:LoadGroup.SubLoadArea 
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.description
+
+#### ConnectivityNode
+cim:IdentifiedObject.name
+//
+cim:ConnectivityNode.ConnectivityNodeContainer 
+
+#### Control Area
+cim:IdentifiedObject.name
+//
+cim:ControlArea.type 
+//
+cim:ControlArea.EnergyArea
+//
+cim:IdentifiedObject.description
+
+#### CurrentLimit
+cim:IdentifiedObject.name
+//
+cim:CurrentLimit.value
+//
+cim:OperationalLimit.OperationalLimitSet 
+//
+cim:OperationalLimit.OperationalLimitType 
+
+#### Disconnector
+cim:IdentifiedObject.aliasName
+//
+cim:IdentifiedObject.description>
+//
+cim:IdentifiedObject.name>
+//
+cim:Switch.normalOpen>
+//
+cim:Switch.ratedCurrent>
+//
+cim:Switch.retained
+//
+cim:Equipment.EquipmentContainer 
+
+#### EquivalentInjection
+_Note that EquivalentInjection will be off [red]#[# ref regulationStatus?[red]#]# as it is not a part of the conformity assessment_
+
+<cim:IdentifiedObject.aliasName
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.description
+//
+cim:Equipment.aggregate
+//
+cim:EquivalentInjection.maxP
+//
+cim:EquivalentInjection.maxQ
+//
+cim:EquivalentInjection.minP
+//
+cim:EquivalentInjection.minQ
+//
+cim:EquivalentInjection.r
+//
+cim:EquivalentInjection.r0
+//
+cim:EquivalentInjection.r2
+//
+cim:EquivalentInjection.regulationCapability
+//
+cim:EquivalentInjection.x
+//
+cim:EquivalentInjection.x0
+//
+cim:EquivalentInjection.x2
+//
+cim:Equipment.EquipmentContainer 
+//
+cim:ConductingEquipment.BaseVoltage 
