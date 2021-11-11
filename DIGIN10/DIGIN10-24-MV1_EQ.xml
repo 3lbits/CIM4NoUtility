@@ -902,7 +902,6 @@ Change log:
 		<cim:IdentifiedObject.name>22 VESTFO 2 CURRTRA1</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.aliasName>22VFS2CURTRA1</cim:IdentifiedObject.aliasName>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:CurrentTransformer.accuracyClass></cim:CurrentTransformer.accuracyClass>
@@ -917,7 +916,6 @@ Change log:
 		<cim:IdentifiedObject.name>22 VESTFO 2 CURRTRA2</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.aliasName>22VFS2CURTRA2</cim:IdentifiedObject.aliasName>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:CurrentTransformer.accuracyClass></cim:CurrentTransformer.accuracyClass>
@@ -932,7 +930,6 @@ Change log:
 		<cim:IdentifiedObject.name>22 VESTFO 2 CURRTRA</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.aliasName>22VFS2CURTRA</cim:IdentifiedObject.aliasName>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.inService>true</cim:Equipment.inService> <!--Will be placed in the SSH file-->
 		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:CurrentTransformer.accuracyClass></cim:CurrentTransformer.accuracyClass>

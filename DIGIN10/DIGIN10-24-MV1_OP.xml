@@ -5,80 +5,276 @@
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-    <md:FullModel rdf:about="urn:uuid:c419f7e4-eb25-45e1-9534-09e37bd474a81">
+    <md:FullModel rdf:about="urn:uuid:c419f7e4-eb25-45e1-9534-09e37bd474a81"> <!--same as LV OP file-->
         <md:Model.created>2021-08-25T12:48:37.958Z</md:Model.created>
         <md:Model.scenarioTime>2021-01-17T20:11:59Z</md:Model.scenarioTime>
-        <md:Model.description>DIGIN10 Low Voltage Operational MAS</md:Model.description>
-        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+        <md:Model.description>DIGIN10 Medium Voltage Operational MAS</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
         <md:Model.version>01v09</md:Model.version>
-        <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
+        <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/> <!--same as LV OP file-->
     </md:FullModel>
 
-    <cim:Analog rdf:ID="_173ce5e1-d16b-4015-9793-b12913c9f428">
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Analog 1 Temperature Sensor</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 ANALOG1TEMPSENS</cim:IdentifiedObject.name>
-        <cim:Measurement.measurementType>Underground LV Cable Serving Temperature</cim:Measurement.measurementType>
-        <cim:Measurement.phases></cim:Measurement.phases>
-        <cim:Measurement.unitMultiplier>none</cim:Measurement.unitMultiplier>
-        <cim:Measurement.unitSymbol>degC</cim:Measurement.unitSymbol>
-        <cim:Analog.maxValue>120</cim:Analog.maxValue>
-        <cim:Analog.minValue>10</cim:Analog.minValue>
-        <cim:Analog.normalValue>30</cim:Analog.normalValue>
+    <cim:Accumulator rdf:ID="_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator 1<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUM1<cim:IdentifiedObject.name>
+        <cim:Measurement.measuremenrType>Phase A Current<cim:Measurement.measuremenrType>
+        <cim:Measurement.phases rdf:resource "_http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.A">
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A">
+        <cim:Accumulator.maxValue><cim:Accumulator.maxValue>
+        <cim:Measurement.PowerSystemResources rdf:resource="#_"/> 
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.Terminal rdf:recource="#_3d75146a-8de3-44f3-ad93-aec6c820eb9b">
+    </cim:Accumulator>
+
+    <cim:AccumulatorValue rdf:ID="_66f04631-f6c5-4e96-85c6-949d0ea7a9bb">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator Value 1<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUMVALUE1<cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:AccumulatorValue.value><cim:AccumulatorValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:recource="#_bb396abd-8537-409b-a983-ac1eb907ac30"> 
+        <cim:AccumulatorValue.Accumulator rdf:recource ="#_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:MeasurementValue.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+    </cim:AccumulatorValue>	
+
+    <cim:AccumulatorValue rdf:ID="_">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator Value 2<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUMVALUE2<cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:AccumulatorValue.value><cim:AccumulatorValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:recource="#_bb396abd-8537-409b-a983-ac1eb907ac30"> 
+        <cim:AccumulatorValue.Accumulator rdf:recource ="#_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:MeasurementValue.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+    </cim:AccumulatorValue>
+
+    <cim:AccumulatorValue rdf:ID="_">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator Value 3<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUMVALUE3<cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:AccumulatorValue.value><cim:AccumulatorValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:recource="#_bb396abd-8537-409b-a983-ac1eb907ac30"> 
+        <cim:AccumulatorValue.Accumulator rdf:recource ="#_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:MeasurementValue.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+    </cim:AccumulatorValue>	
+
+    <cim:AccumulatorValue rdf:ID="_">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator Value 4<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUMVALUE4<cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:AccumulatorValue.value><cim:AccumulatorValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:recource="#_bb396abd-8537-409b-a983-ac1eb907ac30"> 
+        <cim:AccumulatorValue.Accumulator rdf:recource ="#_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:MeasurementValue.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+    </cim:AccumulatorValue>	
+
+    <cim:AccumulatorValue rdf:ID="_">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator Value 5<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUMVALUE5<cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:AccumulatorValue.value><cim:AccumulatorValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:recource="#_bb396abd-8537-409b-a983-ac1eb907ac30"> 
+        <cim:AccumulatorValue.Accumulator rdf:recource ="#_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:MeasurementValue.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+    </cim:AccumulatorValue>	
+
+    <cim:AccumulatorValue rdf:ID="_">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Accumulator Value 6<cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ACCUMVALUE6<cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:AccumulatorValue.value><cim:AccumulatorValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:recource="#_bb396abd-8537-409b-a983-ac1eb907ac30"> 
+        <cim:AccumulatorValue.Accumulator rdf:recource ="#_bc611349-5f9f-4bb2-989b-087ea2d5c571">
+        <cim:MeasurementValue.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+    </cim:AccumulatorValue>	
+                        
+    <cim:Analog rdf:ID="_b64c1205-d433-425f-9861-17e67fd8dd92">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Analog 1 Current Transformer 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOG1CURRTRA1</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>Phase 1 current</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.A">
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A">
+        <cim:Analog.maxValue>450</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>270</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/> <!--A terminal from MV File--> 
         <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
-        <cim:Measurement.PowerSystemResources rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
-        <cim:Measurement.ACDCTerminal rdf:resource="#_e1a6c356-813b-4311-8986-898231fa1aa1"/>
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.PowerSystemResources rdf:resource="#_26d2f8aa-b651-46c5-a54d-05948f35f3d2"/>
     </cim:Analog>
 
-    <cim:AnalogValue rdf:ID="_ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f">
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 AnalogValue 1 Temperature</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 ANALOGVALUE1TEMP</cim:IdentifiedObject.name>
+    <cim:Analog rdf:ID="_d92eb31b-7af4-44d3-9d35-cc39ec96463a">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Analog 2 Current Transformer 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOG2CURRTRA2</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>Phase 2 current</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.B">
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A">
+        <cim:Analog.maxValue>450</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>270</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/> 
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.PowerSystemResources rdf:resource="#_0f3b6200-684d-4365-8d55-45baae73bffb"/>
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_421acdf3-c623-47fa-9de1-3029ca7db837">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Analog 3 Current Transformer 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOG3CURRTRA3</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>Phase 3 current</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.C">
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.none">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A">
+        <cim:Analog.maxValue>450</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>270</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.PowerSystemResources rdf:resource="#_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541"/>
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Analog 4 Potential Transformer 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOG4POTTRA1</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>AB Voltage</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.AB">
+        <cim:Measurement.unitMultiplier> rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V">
+        <cim:Analog.maxValue>24</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>21.6</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.PowerSystemResources rdf:resource="#_fd11bf7f-138b-4a1b-802c-25262b7b8672"/>
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_25498d39-29b5-45aa-8dae-ccfa497353db">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Analog 5 Potential Transformer 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOG5POTTRA2</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>AC Voltage</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.AC">
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V">
+        <cim:Analog.maxValue>24</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>21.8</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.PowerSystemResources rdf:resource="#_03f7a245-aeca-48ba-af07-58419fb9b77c"/>
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_e11a4842-898f-43fc-9d09-1a7f4e6a694a">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene Analog 6 Potential Transformer 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOG6POTTRA3</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>BC Voltage</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.BC">
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k">
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V">
+        <cim:Analog.maxValue>24</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>21.9</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <!--<cim:Measurement.Asset rdf:resource="#_"/>--><!--Can also be used related to an Asset like a tool-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983"/>
+        <cim:Measurement.CalculationMethodHierarchy rdf:resoucre="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:Measurement.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069"/>
+    </cim:Analog>
+        
+    <cim:AnalogValue rdf:ID="_c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene AnalogValue 1 Current</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOGVALUE1CURR</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
-        <cim:AnalogValue.value>24.37</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a3da94b-aafb-45c7-ae8a-9444ee4c111e"/>
-        <cim:MeasurementValue.RemoteSource rdf:resource="#_055d5259-8401-4206-a483-f7fd13a87299"/>
-        <cim:AnalogValue.Analog rdf:resource="#_173ce5e1-d16b-4015-9793-b12913c9f428"/>
+        <cim:AnalogValue.value>265.8</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:AnalogValue.Analog rdf:resource="#_b64c1205-d433-425f-9861-17e67fd8dd92"/>
     </cim:AnalogValue>
 
-    <!--SHO: CommunicationLink is not part of the CGMES 3.0 profile - but included in the information model-->
-    <cim:CommunicationLink rdf:ID="_1fe5049c-34d7-4e30-a411-ff01c16b8f3a">
-        <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>DisrTechWiFi</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>DTWiFi</cim:IdentifiedObject.aliasName>
-        <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
-    </cim:CommunicationLink>
+    <cim:AnalogValue rdf:ID="_a446a44a-2eef-448c-8890-29b9d4f40b5f">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene AnalogValue 2 Current 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOGVALUE2CURR2</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>270.3</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:AnalogValue.Analog rdf:resource="#_d92eb31b-7af4-44d3-9d35-cc39ec96463a"/>
+    </cim:AnalogValue>
 
-    <cim:CommunicationLink rdf:ID="_2bf1f9fc-263d-4995-80da-9802dc087fe5">
-        <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>DisrTech4G</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>DT4G</cim:IdentifiedObject.aliasName>
-        <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
-    </cim:CommunicationLink>
+    <cim:AnalogValue rdf:ID="_6068978b-1a52-4cc6-bd3d-b17d7a239ad0">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene AnalogValue 3 Current 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOGVALUE3CURR3</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>268.9</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:AnalogValue.Analog rdf:resource="#_421acdf3-c623-47fa-9de1-3029ca7db837"/>
+    </cim:AnalogValue>
 
-    <cim:MeasurementValueSource rdf:ID="_6a3da94b-aafb-45c7-ae8a-9444ee4c111e">
+    <cim:AnalogValue rdf:ID="_3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene AnalogValue 4 Voltage AB</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOGVALUE4VOLTAB</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>22.2</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:AnalogValue.Analog rdf:resource="#_2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7"/>
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_4e707066-d551-4f75-ae9c-c8fba5e6242d">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene AnalogValue 5 Voltage AC</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOGVALUE5VOLTAC</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>21.5</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:AnalogValue.Analog rdf:resource="#_25498d39-29b5-45aa-8dae-ccfa497353db"/>
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_108f2b7f-dd63-4c41-b996-439c68275490">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene AnalogValue 6 Voltage BC</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG ANALOGVALUE6VOLTBC</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>21.8</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:AnalogValue.Analog rdf:resource="#_e11a4842-898f-43fc-9d09-1a7f4e6a694a"/>
+    </cim:AnalogValue>
+
+    <!--Not sure about calculations-->
+
+    <cim:CalculationMethodHierarchy rdf:ID="_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:IdentifiedObject.description>22 kilo Volt Engene CalculationMethodHierarchy 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>22 ENG CALCMETHHIERA1</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy><cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp><cim:MeasurementValue.timeStamp>
+        <cim:MeasurementValue.AnalogValue rdf:recource="#_c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6"> 
+    </cim:CalculationMethodHierarchy>
+
+    <cim:CalculationMethodOrder rdf:ID="_22dbee9d-d00d-4c74-a0ec-91ed7cf03aef">
+        <cim:CalculationMethodOrder.order><cim.CalculationMethodOrder.order>
+        <cim:CalculationMethodOrder.CalculationMethodHierarchy rdf:recource="#_a714b0ce-1257-40cb-9288-c096a248d497">
+        <cim:CalculationMethodOrder.StatisticalCalculation rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#StatisticalCalculation.????"><!--være med?-->
+    </cim:CalculationMethodOrder>
+        
+    <cim:MeasurementValueSource rdf:ID="_bb396abd-8537-409b-a983-ac1eb907ac30">
         <cim:IdentifiedObject.description>Telemetered values received from a local SCADA system</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>SCADA</cim:IdentifiedObject.name>
     </cim:MeasurementValueSource>
-
-    <!--SHO: RemoteSource is not part of the CGMES 3.0 profile - but included in the information model-->
-    <cim:RemoteSource rdf:ID="_055d5259-8401-4206-a483-f7fd13a87299">
-        <cim:IdentifiedObject.description>SensorPoint 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>SensorPoint1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>SensorPoint1</cim:IdentifiedObject.aliasName>
-        <cim:RemoteSource.deadband>0</cim:RemoteSource.deadband>
-        <cim:RemoteSource.scanInterval>1</cim:RemoteSource.scanInterval>
-        <cim:RemoteSource.sensorMaximum>120</cim:RemoteSource.sensorMaximum>
-        <cim:RemoteSource.sensorMinimum>-30</cim:RemoteSource.sensorMinimum>
-        <cim:RemotePoint.RemoteUnit rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
-    </cim:RemoteSource>
-
-    <cim:RemoteUnit rdf:ID="_00160296-775f-407a-8d67-c9a5d610715a">
-        <cim:IdentifiedObject.description>Disruptive Technologies temperature sensor 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>DisrTechTempSensor1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>DTSensor1</cim:IdentifiedObject.aliasName>
-        <cim:RemoteUnit.remoteUnitType>IED</cim:RemoteUnit.remoteUnitType>
-    </cim:RemoteUnit>
 
 </rdf:RDF>
