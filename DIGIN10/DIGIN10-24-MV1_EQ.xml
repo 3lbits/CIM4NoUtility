@@ -119,7 +119,7 @@ Change log:
 		<cim:ACLineSegment.x>10.53</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
-		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_157e4751-d212-4527-a94d-664452241325"/>    <!-- SHO: Feeder reference-->
+		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_"/>    <!-- SHO: Feeder reference-->
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
@@ -505,7 +505,7 @@ Change log:
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2162-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE 22A CN 013</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_9b11eb79-4938-451f-84cd-8d2be79a03e9"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2169-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE CN 001</cim:IdentifiedObject.name>
@@ -645,7 +645,7 @@ Change log:
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>T_ENGENE CN 001</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2d80e032-6152-0a44-8206-45b04656dc85"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_4fbbd35b-85d2-4136-8ce4-287f14831764">
 		<cim:IdentifiedObject.name>T_ENGENE CN 002</cim:IdentifiedObject.name>
@@ -1120,20 +1120,6 @@ Change log:
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 	</cim:EquivalentInjection>
 	
-	<cim:Feeder rdf:ID="_157e4751-d212-4527-a94d-664452241325">
-		<cim:IdentifiedObject.aliasName>ENGENE 22 FE1</cim:IdentifiedObject.aliasName>
-		<cim:IdentifiedObject.description>Engene 22 Nedenes 1 Feeder</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22 FE1</cim:IdentifiedObject.name>
-		<cim:Feeder.NormalEnergizingSubstation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Feeder>
-
-	<cim:Feeder rdf:ID="_fa3115c0-5710-443a-bb30-8f101e1062f1">
-		<cim:IdentifiedObject.aliasName>Nedenes 22 04 FeLVCi</cim:IdentifiedObject.aliasName>
-		<cim:IdentifiedObject.description>Nedenes 22kV - 400V Telemarkstien 2 Feeder Low Voltage Circuit</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES 22 04 TELEMA 2 FELVCI</cim:IdentifiedObject.name>
-		<cim:Feeder.NormalEnergizingSubstation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Feeder>
-	
 	<cim:Fuse rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c">
 		<cim:IdentifiedObject.description>Nedenes 22kV Telemarkstien 2 Fuse 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>NEDENES 22 TELEMA 2 FU1</cim:IdentifiedObject.name>
@@ -1144,7 +1130,7 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_fa3115c0-5710-443a-bb30-8f101e1062f1"/>
+		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
 	</cim:Fuse>
 
