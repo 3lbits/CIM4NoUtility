@@ -119,7 +119,6 @@ Change log:
 		<cim:ACLineSegment.x>10.53</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
-		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_"/>    <!-- SHO: Feeder reference-->
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
@@ -1130,7 +1129,6 @@ Change log:
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
-		<cim:Equipment.AdditionalEquipmentContainer rdf:resource="#_"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
 	</cim:Fuse>
 
