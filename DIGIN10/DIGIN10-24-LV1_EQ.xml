@@ -1520,307 +1520,307 @@
 	<cim:ConnectivityNode rdf:ID="_a1d394c6-fe4a-4a1a-ba12-7148f80af5ca">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN1</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_93e2b374-b3b5-40d7-8723-285903e47a05"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_87ec01a7-bbb3-497f-a497-6f3a9627cfe8">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN2</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_93e2b374-b3b5-40d7-8723-285903e47a05"/>
     </cim:ConnectivityNode>
     
     <cim:ConnectivityNode rdf:ID="_1447d25c-5977-43ec-8878-8ac210edda8f">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN3</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_719ee1dd-0516-4873-be5e-8e9da1507818"/>
     </cim:ConnectivityNode>
 
     <cim:ConnectivityNode rdf:ID="_8e754ae4-3b0b-5415-a552-e3e776e43ff4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN4</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_de4c9f33-bceb-4355-afc6-c725bda819e3"/>
     </cim:ConnectivityNode>
 
     <cim:ConnectivityNode rdf:ID="_7a0a4af1-bfe3-4177-9ffc-4b7537fbd4e4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN5</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_de4c9f33-bceb-4355-afc6-c725bda819e3"/>
     </cim:ConnectivityNode>
 
     <cim:ConnectivityNode rdf:ID="_12dc1e8c-e50d-4029-9aeb-8b664db702e6">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN6</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d4067150-d743-4e1d-a48d-7a8d20de4c06"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_25aa69e7-0916-427f-9d87-d8690d39358b">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN7</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_4e192fee-c90d-4e29-80b6-3e71dc353a79"/>
     </cim:ConnectivityNode>
 	
 	<cim:ConnectivityNode rdf:ID="_832d8fe2-00f4-4f0b-a948-883088e0f5f2">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN8</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2fc9b615-5925-4e2a-baaa-165ee4f51910"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_c9f68b3b-2f5a-459b-8de2-c87ebeffa4ef">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN9</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1358279b-5a65-4b15-b277-a9bd5ca011e4"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_570e408d-5441-4c27-8480-5ef76e636e89">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN10</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_0d6af688-1749-4a34-93ca-ae6c87989cd2"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_ec7523f4-1a9e-472b-a95d-a1d435f61388">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN11</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1a7ff7f1-a631-4d72-84cd-c35000acda8d"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_2504ac3f-4c17-4720-a21d-e9f225b510d4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN12</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91b33a38-c99c-4bc1-a05c-bc0852aca841"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_bbe326ff-1c66-452d-85d1-80204f25efff">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN13</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1358279b-5a65-4b15-b277-a9bd5ca011e4"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_76b4a441-e593-4da5-a3b0-b586eaa4e223">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN14</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_0d6af688-1749-4a34-93ca-ae6c87989cd2"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_75e87fc0-107d-4555-8f1d-ec8f88211a11">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 15</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN15</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1a7ff7f1-a631-4d72-84cd-c35000acda8d"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_4aad58b1-6d97-4e4f-ba3c-1251700966e4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 16</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN16</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6bda8694-d83f-467f-ba31-a3a155a1b803"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_ef273823-732b-426a-951f-d0173813d4d2">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 17</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN17</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_61ad7a21-f7bd-40c0-8f86-2d1f07bbef3b"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_2c05c827-3cc9-476e-9211-01ec54bcdeb9">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 18</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN18</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_eeded44f-071c-471f-952f-4be5134b40bc"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_7b6e3bae-60cb-4a0d-afba-ba25fe060c34">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 19</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN19</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_ce116534-d9bd-4929-be64-4d43ea0f1803"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_7516eaac-9a58-4e11-b680-5c51172bc397">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 20</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN20</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1cf342d4-9dfe-4cd8-ab14-b11c48e59b84"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_272725c5-c7cf-4f72-88fb-fea5b73fad97">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 21</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN21</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8cae3059-9886-40db-befa-ddfa56ba94cd"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_f8449f3f-e37e-4392-9cb0-366f378593c7">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 22</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN22</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8cae3059-9886-40db-befa-ddfa56ba94cd"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_176d0737-9e72-456d-bb64-c430987bb331">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 23</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN23</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_0acd4d2c-1cc2-4b9b-8277-f3763b0ed6ab"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 24</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN24</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_b1626403-9c0c-4f0c-a072-b7d5d86cdb58"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_bed5bfb9-b344-4590-9139-f9786847a70b">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 25</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN25</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_321f4b75-4cc7-4e4c-874e-cf20693886cf"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_2e1efef0-2493-41a1-9347-a7b82b533699">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 26</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN26</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_876f7fb1-8568-4024-bbd2-664b9503adeb"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_39b43067-3131-4502-a17d-bd207081cbca">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 27</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN27</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_a9ceb50c-8ed0-47a0-9738-e556cf09a0f0"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_3c2a2de4-9c8f-4ca7-b0b7-7ecb97e0538f">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 28</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN28</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_321f4b75-4cc7-4e4c-874e-cf20693886cf"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_f0b614f9-38c1-4850-b1a5-2759b8cf6353">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 29</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN29</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_876f7fb1-8568-4024-bbd2-664b9503adeb"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_396f6446-4d2c-45dc-8a81-5ddfb22bedb5">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 30</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN30</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_a9ceb50c-8ed0-47a0-9738-e556cf09a0f0"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_5ba4f34d-39c7-4713-b421-8cb74672d90e">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 31</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN31</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_32bc8225-a8b7-45eb-a1ad-9adb4648f1dc"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_b58e75c8-e79f-4aa3-b10b-871db40c0f09">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 32</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN32</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_14c73969-0d0b-436e-be34-8e8f5593c351"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_03af34d5-0687-4ac9-b531-f6acedd3ce1f">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 33</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN33</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d01ae8b2-c93b-4147-bc81-f593dda56773"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_f0c8dea3-a433-4fd8-9fb2-f69c6f1d8f5a">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 34</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN34</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6ef007de-6d2c-4ab9-ab5b-b2571b714d8d"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_0070949a-32c4-460d-8e40-c6b2cb0f62d8">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 35</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN35</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d01ae8b2-c93b-4147-bc81-f593dda56773"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_acd3ba85-71e9-43d1-8a81-093dc2fda8b5">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 36</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN36</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6ef007de-6d2c-4ab9-ab5b-b2571b714d8d"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_49583330-a500-44ed-96b8-9970119ec8b2">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 37</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN37</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_76cfe1e0-43f8-4783-8110-a93ee808d6d6"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_f7f48e0d-74ee-4a53-80a7-dbb02e8dfe2b">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 38</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN38</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_c0fe3dc4-dcc1-43b9-afe8-c5d4e76a2470"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_4501c2ef-d566-4004-9008-cc42b9b4a687">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 39</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN39</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1231dfc8-411f-4de0-88fe-cdfa58ed470e"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_cdb1d670-77ff-4b70-9335-f1a5b6c2ce69">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 40</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN40</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_c937c7d7-777e-45dd-a01d-d792ba4efec4"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_94872c96-676c-453d-8231-a0b4064ac5a8">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 41</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN41</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1231dfc8-411f-4de0-88fe-cdfa58ed470e"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_ba789e86-4cb4-4e17-aef9-e39d95e1721d">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 42</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN42</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_c937c7d7-777e-45dd-a01d-d792ba4efec4"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_d64b7ace-fb94-4968-b976-d213b803c698">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 43</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN43</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_719ee1dd-0516-4873-be5e-8e9da1507818"/>
     </cim:ConnectivityNode>
 	
 	<cim:ConnectivityNode rdf:ID="_486f219e-c4dc-498d-ba6a-3c8c8c46cdcf">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 44</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN44</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2fc9b615-5925-4e2a-baaa-165ee4f51910"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_261ac434-edce-4b15-a8d2-a18d03c3cee3">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 45</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN45</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6bda8694-d83f-467f-ba31-a3a155a1b803"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_e0556fab-2c55-4a3c-a68e-7b1c97221a74">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 46</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN46</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_61ad7a21-f7bd-40c0-8f86-2d1f07bbef3b"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_9b327c9f-86c3-41ee-b833-7150048a0c15">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 47</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN47</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_eeded44f-071c-471f-952f-4be5134b40bc"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_72550aa6-89f4-40cc-b3f9-8d2b0699fd32">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 48</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN48</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1cf342d4-9dfe-4cd8-ab14-b11c48e59b84"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_6461597d-bdcf-428e-aa69-221cd2760fa5">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 49</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN49</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_0acd4d2c-1cc2-4b9b-8277-f3763b0ed6ab"/>
     </cim:ConnectivityNode>
 	
 	<cim:ConnectivityNode rdf:ID="_e00c3050-afa4-47e7-8a4a-c061051ce9d4">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 50</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN50</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_14c73969-0d0b-436e-be34-8e8f5593c351"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_df241dc7-8ae0-4a0c-aadb-69d2fea29d4c">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 51</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN51</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_c0fe3dc4-dcc1-43b9-afe8-c5d4e76a2470"/>
     </cim:ConnectivityNode>
 
     <cim:CurrentLimit rdf:ID="_9ff945ef-e893-4c68-b514-ff8940c01f17">
