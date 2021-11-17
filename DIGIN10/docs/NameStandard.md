@@ -90,9 +90,11 @@ voltage | component("dritftsmerke") | component class | sequence number
 
 ### cim:PowerTransformerEnd
 
-| Name | Description |
-| ---- | :---------- |
-|      |             |
+| Name             | Description                        |
+| ---------------- | :--------------------------------- |
+| ARENDAL T1 420 P | Arendal T1 420kV Primary Winding   |
+| ARENDAL T1 132 S | Arendal T1 132kV Secondary Winding |
+| ENGENE ZT1 22 P  | Engene ZT1 22kV Primary Winding    |
 
 ### cim:RatioTapChanger
 
@@ -110,9 +112,11 @@ voltage | component("dritftsmerke") | component class | sequence number
 
 ### cim:Substation
 
-| Name | Description |
-| ---- | :---------- |
-|      |             |
+| Name     | Description                 |
+| -------- | :-------------------------- |
+| ENGENE   | Engene Substation           |
+| FROLAND  | Froland Coupling Substation |
+| T_ENGENE | Engene T-junction           |
 
 ### cim:TapChangerControl
 
@@ -123,6 +127,8 @@ voltage | component("dritftsmerke") | component class | sequence number
 
 ### cim:Terminal
 
-| Name | Description |
-| ---- | :---------- |
-|      |             |
+| Name                     | Description      |
+| ------------------------ | :--------------- |
+| T1 132ARENDAL-FROLAND1   | Arendal Side     |
+| T1 132 ARENDAL-T1 ACLS 1 | Transformer Side |
+| T1 22 ENGENE-T1 ACLS 1 1 | Engene Side      |
