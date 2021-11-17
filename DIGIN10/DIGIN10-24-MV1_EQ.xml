@@ -50,6 +50,24 @@ Change log:
 		<cim:ACLineSegment.x>0.0017</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
+	</cim:ACLineSegment>
+		<cim:ACLineSegment rdf:ID="_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
+		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.description>230V ZT1-EFC ACLineSegment 2</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>023 ZT1-EFC ACLS 2</cim:IdentifiedObject.name>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Conductor.length>10.5</cim:Conductor.length>
+		<cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+		<cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+		<cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+		<cim:ACLineSegment.r0>0</cim:ACLineSegment.r0>
+		<cim:ACLineSegment.r>12.5</cim:ACLineSegment.r>
+		<cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+		<cim:ACLineSegment.x0>0</cim:ACLineSegment.x0>
+		<cim:ACLineSegment.x>0.85</cim:ACLineSegment.x>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
+	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 3</cim:IdentifiedObject.description>
@@ -351,6 +369,16 @@ Change log:
 		<cim:Switch.ratedCurrent>1600</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
+	<cim:Breaker rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c">
+		<cim:IdentifiedObject.aliasName>Nedenes 22 Telema 2 Br1</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.description>Nedenes 22kV Telemarkstien 2 Breaker 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NEDENES 22 TELEMA 2 BR1</cim:IdentifiedObject.name>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>
+		<cim:Switch.retained>false</cim:Switch.retained>
+	</cim:Breaker>
 	<cim:Breaker rdf:ID="_12156bb5-7a82-4e95-8ea4-2ff8573133fe">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Engene 22kV Nedenes 1 Breaker</cim:IdentifiedObject.description>
@@ -389,6 +417,17 @@ Change log:
 		<cim:Equipment.EquipmentContainer rdf:resource="#_29ace056-c4e8-46ea-8935-38f32ddbee49"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent>1250</cim:Switch.ratedCurrent>
+		<cim:Switch.retained>false</cim:Switch.retained>
+	</cim:Breaker>
+	</cim:Breaker>
+		<cim:Breaker rdf:ID="_dd41276d-9ea7-47a8-a0f3-65215c8225a5">
+		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.description>Engene 0.23kV NT1 Breaker</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE 023 NT1BR</cim:IdentifiedObject.name>
+		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_7544cd75-be72-9644-b333-a932ff3ba603"/>
+		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+		<cim:Switch.ratedCurrent>32</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_a2a20c81-78b5-40bc-81d1-14ed8ea03e12">
@@ -573,6 +612,15 @@ Change log:
 	<cim:ConnectivityNode rdf:ID="_39082cb0-8808-b047-893c-ba0503a458d6">
 		<cim:IdentifiedObject.name>ENGENE CN 019</cim:IdentifiedObject.name>
 		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
+	</cim:ConnectivityNode>
+	</cim:ConnectivityNode>
+		<cim:ConnectivityNode rdf:ID="_ab9b57dd-c5f7-49c1-95a1-56d1f650db21">
+		<cim:IdentifiedObject.name>ENGENE CN 020</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_7544cd75-be72-9644-b333-a932ff3ba603"/>
+	</cim:ConnectivityNode>
+		<cim:ConnectivityNode rdf:ID="_ecd42e0b-67a4-4ebe-911b-c3f3146e6bed">
+		<cim:IdentifiedObject.name>ENGENE CN 021</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_7544cd75-be72-9644-b333-a932ff3ba603"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_ff2e9331-31f5-0247-ac4c-77a2bc179624">
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 CN 001</cim:IdentifiedObject.name>
@@ -1119,19 +1167,6 @@ Change log:
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 	</cim:EquivalentInjection>
 	
-	<cim:Fuse rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c">
-		<cim:IdentifiedObject.description>Nedenes 22kV Telemarkstien 2 Fuse 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES 22 TELEMA 2 FU1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.aliasName>Nedenes 22 Telema 2 Fu1</cim:IdentifiedObject.aliasName>
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
-		<cim:Switch.retained>false</cim:Switch.retained>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
-	</cim:Fuse>
-
 	<cim:Line rdf:ID="_8e0075c4-ea93-4669-b57c-3f6b229bb6d3">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.name>LC 132ARENDAL-FROLAND</cim:IdentifiedObject.name>
@@ -1672,7 +1707,7 @@ Change log:
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_f3b95f0e-d18e-4d14-a61a-79c020ac8c30">
-		<cim:IdentifiedObject.name>T1 22 TELEMA 2 FU1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T1 22 TELEMA 2 BR1</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_ec60b5b3-1ffc-f940-8ce5-140d04267667"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_38cd8874-fb01-462c-8c85-95dac14fee9c"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
@@ -1764,10 +1799,24 @@ Change log:
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
+		<cim:Terminal rdf:ID="_6cc409d6-980c-481b-8b67-127ecf5dc19c">
+		<cim:IdentifiedObject.name>T1 ENGENE 023 ZT1 BR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e88-5a55-11eb-a658-74e5f963e191"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_dd41276d-9ea7-47a8-a0f3-65215c8225a5"/>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_1089c4dd-7fa5-4b0b-a92c-1680375ae16f">
+		<cim:IdentifiedObject.name>T1 ENGENE 023 ZT1-EFC ACLS 2</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_ab9b57dd-c5f7-49c1-95a1-56d1f650db21"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e"/>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
 	<cim:Terminal rdf:ID="_87f8c183-5711-4941-9eb4-c6b84d6a80b9">
 		<cim:IdentifiedObject.name>T1 ENGENE 023 ZT1 CL</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
-		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e88-5a55-11eb-a658-74e5f963e191"/>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_ecd42e0b-67a4-4ebe-911b-c3f3146e6bed"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_eb9b50c9-e363-0940-a177-2b7abd47f398"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
@@ -2028,7 +2077,7 @@ Change log:
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_21699bda-a520-45ea-b011-21a56bf567d7">
-		<cim:IdentifiedObject.name>T2 22 TELEMA 2 FU1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T2 22 TELEMA 2 BR1</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_d5b4c5ad-1762-8e43-9330-6ec8f7d97bce"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_38cd8874-fb01-462c-8c85-95dac14fee9c"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
@@ -2074,6 +2123,20 @@ Change log:
 		<cim:IdentifiedObject.description>EFC Side</cim:IdentifiedObject.description>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_681a1e88-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_681a26db-5a55-11eb-a658-74e5f963e191"/>
+		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_240e7e1c-2d1b-4637-9721-c3642adea4f7">
+		<cim:IdentifiedObject.name>T2 023 NT1BR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>EFC Side</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_ab9b57dd-c5f7-49c1-95a1-56d1f650db21"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_dd41276d-9ea7-47a8-a0f3-65215c8225a5"/>
+		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_7ca23509-fcc4-4653-a7db-334e1e113581">
+		<cim:IdentifiedObject.name>T2 023 ZT1-EFC ACLS 2</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>EFC Side</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_ecd42e0b-67a4-4ebe-911b-c3f3146e6bed"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_c2797e60-6614-4c5f-9090-ed8cef7b15b5">
