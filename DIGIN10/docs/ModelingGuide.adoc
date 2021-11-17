@@ -1,18 +1,19 @@
 :hardbreaks:
-<style>
-.indent {
-    padding-left: 4rem;
-}
-</style>
+
 = Modeling guide
 
-_[yellow]#This document contains documentation of all profiles necessary to perform power flow analyses. .....#_
+
+This document contains documentation of all profiles necessary to perform power flow analyses
 The set of profiles consists of Equipment (EQ), Steady State Hypothesis (SSH), Geographical Location (GL), Diagram Layout (DL) and _State Variables (SV )[red]#?#_, together with the Equipment Boundary (EQBP) model for the Nordic44 and DIGIN10 Test model.
 
-## Equipment model 
-### _MV_
-#### ACLineSegment
+The DIGIN10 model is based on CGMES 2.4.15 (CIM16).
 
+...
+
+## Equipment model 
+
+### ACLineSegment
+////
 cim:IdentifiedObject.aliasName 
 //
 cim:IdentifiedObject.description 
@@ -42,18 +43,105 @@ cim:ACLineSegment.x0
 cim:ACLineSegment.x 
 //
 cim:ConductingEquipment.BaseVoltage 
+////
 
+|===
+|MV|LV
 
+|cim:IdentifiedObject.aliasName 
+//
+cim:IdentifiedObject.description 
+//
+cim:IdentifiedObject.name 
+//
+cim:Equipment.aggregate 
+//
+cim:Conductor.length 
+//
+cim:ACLineSegment.b0ch 
+//
+cim:ACLineSegment.bch 
+//
+cim:ACLineSegment.g0ch 
+//
+cim:ACLineSegment.gch 
+//
+cim:ACLineSegment.r0 
+//
+cim:ACLineSegment.r 
+//
+cim:ACLineSegment.shortCircuitEndTemperature 
+//
+cim:ACLineSegment.x0 
+//
+cim:ACLineSegment.x 
+//
+cim:ConductingEquipment.BaseVoltage 
+//
+//
+|cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:Equipment.aggregate
+//
+cim:Equipment.networkAnalysisEnabled
+//
+cim:Equipment.normallyInService
+//
+cim:Conductor.length
+//
+cim:ACLineSegment.b0ch
+//
+cim:ACLineSegment.bch
+//
+cim:ACLineSegment.g0ch
+//
+cim:ACLineSegment.gch
+//
+cim:ACLineSegment.r0
+//
+cim:ACLineSegment.r
+//
+cim:ACLineSegment.shortCircuitEndTemperature
+//
+cim:ACLineSegment.x0
+//
+cim:ACLineSegment.x
+//
+cim:PowerSystemResource.AssetDatasheet 
+//
+cim:ConductingEquipment.BaseVoltage 
+|===
 
 #### Bay
-cim:IdentifiedObject.description
+|===
+|MV|LV
+
+|cim:IdentifiedObject.description
 //
 cim:IdentifiedObject.name
 //
 cim:Bay.VoltageLevel 
+//
+//
+|cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName [red]#unused#
+//
+cim:Bay.VoltageLevel 
+|===
 
 
 #### Breaker
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.aliasName
 //
 cim:IdentifiedObject.description
@@ -69,10 +157,44 @@ cim:Switch.normalOpen
 cim:Switch.ratedCurrent
 //
 cim:Switch.retained
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:Equipment.aggregate
+//
+cim:Equipment.networkAnalysisEnabled
+//
+cim:Equipment.normallyInService
+//
+cim:Switch.normalOpen
+//
+cim:Switch.ratedCurrent
+//
+cim:Switch.retained
+//
+cim:ProtectedSwitch.breakingCapacity
+//
+cim:Breaker.inTransitTime
+//
+cim:Equipment.EquipmentContainer 
+//
+cim:ConductingEquipment.BaseVoltage
+//
+|===
 
 
 #### BusbarSection
-cim:IdentifiedObject.aliasName>
+|===
+|MV|LV
+
+|
+cim:IdentifiedObject.aliasName
 //
 cim:IdentifiedObject.description
 //
@@ -81,9 +203,36 @@ cim:IdentifiedObject.name
 cim:BusbarSection.ipMax
 //
 cim:Equipment.EquipmentContainer 
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:Equipment.aggregate
+//
+cim:Equipment.networkAnalysisEnabled
+//
+cim:Equipment.normallyInService
+//
+cim:BusbarSection.ipMax
+//
+cim:Equipment.EquipmentContainer 
+//
+cim:ConductingEquipment.BaseVoltage 
+//   
+|===
+
 
 
 #### ConformLoad
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.aliasName
 //
 cim:IdentifiedObject.name
@@ -104,20 +253,89 @@ cim:EnergyConsumer.pfixed
 //
 cim:EnergyConsumer.qfixed
 //
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:Equipment.aggregate
+//
+cim:Equipment.networkAnalysisEnabled
+//
+cim:EnergyConsumer.customerCount
+//
+cim:EnergyConsumer.grounded
+//
+cim:EnergyConsumer.pfixed
+//
+cim:EnergyConsumer.pfixedPct
+//
+cim:EnergyConsumer.phaseConnection 
+//
+cim:EnergyConsumer.qfixed
+//
+cim:EnergyConsumer.qfixedPct
+//
+cim:PowerSystemResource.Location 
+//
+cim:Equipment.EquipmentContainer
+//
+cim:ConductingEquipment.BaseVoltage
+//
+cim:ConformLoad.LoadGroup 
+//
+|===
 
 #### ConformLoadGroup
+|===
+|MV|LV
+
+|
 cim:LoadGroup.SubLoadArea 
 //
 cim:IdentifiedObject.name
 //
 cim:IdentifiedObject.description
+//
+//
+|cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:LoadGroup.SubLoadArea 
+//   
+|===
+
 
 #### ConnectivityNode
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:ConnectivityNode.ConnectivityNodeContainer 
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:ConnectivityNode.ConnectivityNodeContainer 
+//
+|===
 
 #### Control Area
+|===
+|MV
+
+|
 cim:IdentifiedObject.name
 //
 cim:ControlArea.type 
@@ -125,8 +343,15 @@ cim:ControlArea.type
 cim:ControlArea.EnergyArea
 //
 cim:IdentifiedObject.description
+|===
+
+
 
 #### CurrentLimit
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:CurrentLimit.value
@@ -134,8 +359,28 @@ cim:CurrentLimit.value
 cim:OperationalLimit.OperationalLimitSet 
 //
 cim:OperationalLimit.OperationalLimitType 
+//
+//
+|
+cim:IdentifiedObject.name
+//
+cim:CurrentLimit.normalValue
+//
+cim:CurrentLimit.value
+//
+cim:OperationalLimit.OperationalLimitSet
+//
+cim:OperationalLimit.OperationalLimitType
+//
+|===
+
+
 
 #### Disconnector
+|===
+|MV
+
+|
 cim:IdentifiedObject.aliasName
 //
 cim:IdentifiedObject.description>
@@ -149,10 +394,16 @@ cim:Switch.ratedCurrent>
 cim:Switch.retained
 //
 cim:Equipment.EquipmentContainer 
+|===
+
 
 #### EquivalentInjection
 _Note that EquivalentInjection will be off [red]#[# ref regulationStatus?[red]#]# as it is not a part of the conformity assessment_
 
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.aliasName
 //
 cim:IdentifiedObject.name
@@ -186,11 +437,20 @@ cim:EquivalentInjection.x2
 cim:Equipment.EquipmentContainer 
 //
 cim:ConductingEquipment.BaseVoltage 
+//
+//
+|
+Same as for MV
+|===
 
 
 #### SynchronousMachine
 _Added to emulate EquivalentInjection for the power flow_
 
+|===
+|MV
+
+|
 cim:SynchronousMachine.maxQ
 //
 cim:SynchronousMachine.maxU
@@ -203,7 +463,7 @@ cim:SynchronousMachine.qPercent
 //
 cim:SynchronousMachine.r
 //
-cim:SynchronousMachine.type [red]#is this a typo or should it be lower case (it is linked as rdf:resouce)#
+cim:SynchronousMachine.type 
 //
 cim:RotatingMachine.GeneratingUnit 
 //
@@ -214,9 +474,11 @@ cim:Equipment.EquipmentContainer
 cim:IdentifiedObject.description
 //
 cim:IdentifiedObject.name
-
+//
+|===
 
 #### Terminal
+[yellow]#added due to SynchronousMachine?#
 cim:Terminal.ConductingEquipment 
 //
 cim:Terminal.ConnectivityNode 
@@ -224,9 +486,13 @@ cim:Terminal.ConnectivityNode
 cim:IdentifiedObject.name
 //
 cim:IdentifiedObject.description
+//
+//
 
 
 #### GeneratingUnit
+[yellow]#added due to SynchronousMachine?#
+
 cim:GeneratingUnit.highControlLimit
 //
 cim:GeneratingUnit.initialP
@@ -257,14 +523,18 @@ cim:IdentifiedObject.description
 //
 cim:IdentifiedObject.name
 
+
+
 #### RegulatingControl
 cim:RegulatingControl.Terminal 
 //
-cim:RegulatingControl.mode [red]#is this a typo or should it be lower case (it is linked as rdf:resouce)#
+cim:RegulatingControl.mode 
 //
 cim:IdentifiedObject.name
 //
 cim:IdentifiedObject.description
+
+
 
 #### Fuse
 cim:IdentifiedObject.description
@@ -286,6 +556,8 @@ cim:Switch.ratedCurrent
 cim:Switch.retained
 //
 cim:Equipment.EquipmentContainer 
+
+
 	
 #### Line
 cim:IdentifiedObject.aliasName
@@ -295,6 +567,8 @@ cim:IdentifiedObject.name
 cim:IdentifiedObject.description
 //
 cim:Line.Region 
+
+
 	   
 #### LinearShuntCompensator	
 cim:IdentifiedObject.aliasName
@@ -325,9 +599,24 @@ cim:Equipment.EquipmentContainer
 
 
 #### LoadArea
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:IdentifiedObject.description
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName [red]#unused#
+//
+|===
+
 
 
 #### LoadBreakSwitch	
@@ -376,15 +665,72 @@ cim:IdentifiedObject.name
 cim:IdentifiedObject.description
 
 
+#### Name
+|===
+|LV
+
+|
+cim:Name.name
+cim:Name.IdentifiedObject 
+cim:Name.NameType
+//       
+|===
+
+
+#### NameType
+|===
+|LV
+
+|
+cim:NameType.description
+cim:NameType.name
+cim:NameType.NameTypeAthority
+//
+|===
+
+
+#### NameTypeAuthority
+|===
+|LV
+
+|
+cim:NameTypeAuthority.description
+//
+cim:NameTypeAuthority.name
+//
+|===
+
+
+
 #### OperationalLimitSet
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:OperationalLimitSet.Terminal 
 //
 cim:OperationalLimitSet.Equipment 
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:OperationalLimitSet.Terminal
+//
+|===
 
 
 #### OperationalLimitType
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:OperationalLimitType.acceptableDuration
@@ -394,9 +740,30 @@ cim:OperationalLimitType.direction
 entsoe:OperationalLimitType.limitType 
 //
 cim:IdentifiedObject.description
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:OperationalLimitType.acceptableDuration
+//
+cim:OperationalLimitType.direction 
+//
+cim:OperationalLimitType.isInfiniteDuration
+//
+entsoe:OperationalLimitType.limitType 
+//
+|===   
 
 
 #### PetersenCoil
+|===
+|MV
+|
 cim:IdentifiedObject.name
 //
 cim:Equipment.EquipmentContainer 
@@ -406,9 +773,13 @@ cim:IdentifiedObject.description
 cim:Equipment.aggregate
 [red]#Optional? not used inn all objects# 
 //
+|===
 
 
 #### PowerTransformer
+|===
+|MV
+|
 cim:IdentifiedObject.aliasName
 //
 cim:IdentifiedObject.description
@@ -418,10 +789,14 @@ cim:IdentifiedObject.name
 cim:Equipment.EquipmentContainer 
 //
 cim:PowerTransformer.isPartOfGeneratorUnit
-
+//
+|===
 
 
 #### PowerTransformerEnd
+|===
+|MV
+|
 cim:IdentifiedObject.description
 //
 cim:IdentifiedObject.name
@@ -458,9 +833,14 @@ cim:PowerTransformerEnd.x0
 //
 cim:PowerTransformerEnd.PowerTransformer 
 //
+|===
+
 
 
 #### RatioTapChanger
+|===
+|MV
+|
 cim:IdentifiedObject.description
 //
 cim:IdentifiedObject.name
@@ -482,9 +862,14 @@ cim:RatioTapChanger.stepVoltageIncrement
 cim:RatioTapChanger.tculControlMode 
 //
 cim:RatioTapChanger.TransformerEnd 
+|===
+
 
 
 #### RegulatingControl
+|===
+|MV
+|
 cim:IdentifiedObject.name
 //
 cim:IdentifiedObject.description
@@ -492,26 +877,80 @@ cim:IdentifiedObject.description
 cim:RegulatingControl.Terminal 
 //
 cim:RegulatingControl.mode 
+//
+|===
+
+
+#### SubGeographicalRegion
+|===
+|LV
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:SubGeographicalRegion.Region
+//
+|===
 
 
 #### SubLoadArea
+|===
+|MV|LV
+|
 cim:IdentifiedObject.name
 //
 cim:SubLoadArea.LoadArea 
 //
 cim:IdentifiedObject.description
 //
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:SubLoadArea.LoadArea 
+//
+|===
+
 
 
 #### Substation
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:Substation.Region 
 //
 cim:IdentifiedObject.description
 //
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:Substation.Region 
+//
+cim:PowerSystemResource.Location
+//
+|===
+
 
 #### TapChangerControl
+|===
+|MV
+
+|
 cim:IdentifiedObject.description
 //
 cim:IdentifiedObject.name
@@ -520,9 +959,12 @@ cim:RegulatingControl.mode
 //
 cim:RegulatingControl.Terminal 
 //
-			
+|===
 
 #### Terminal
+|===
+|MV|LV
+|
 cim:IdentifiedObject.name
 //
 cim:IdentifiedObject.description
@@ -537,9 +979,19 @@ cim:ACDCTerminal.sequenceNumber
 cim:Terminal.phases
 [red]#Optional? not used inn all objects# 
 //
+//
+|
+Same as for MV
+|===
+
+
 
 
 #### VoltageLevel
+|===
+|MV|LV
+
+|
 cim:IdentifiedObject.name
 //
 cim:VoltageLevel.BaseVoltage 
@@ -547,9 +999,472 @@ cim:VoltageLevel.BaseVoltage
 cim:VoltageLevel.Substation 
 //
 cim:IdentifiedObject.description
+//
+//
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:VoltageLevel.BaseVoltage 
+//
+cim:VoltageLevel.Substation
+//
+|===
+
+
+#### UsagePoint
+|===
+|LV
+|
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.aliasName
+//
+cim:UsagePoint.amiBillingReady 
+//
+cim:UsagePoint.chekBilling
+//
+cim:UsagePoint.connectionCategory
+//
+cim:UsagePoint.connectionState 
+//
+cim:UsagePoint.disconnectionMethod
+//
+cim:UsagePoint.estimatedLoad
+//
+cim:UsagePoint.grounded
+//
+cim:UsagePoint.isSdq
+//
+cim:UsagePoint.isVirtual
+//
+cim:UsagePoint.minimalUsageExpected
+//
+cim:UsagePoint.nominalServiceVoltage
+//
+cim:UsagePoint.outageRegion
+//
+cim:UsagePoint.phaseCode 
+//
+cim:UsagePoint.phaseCount
+//
+cim:UsagePoint.ratedCurrent
+//
+cim:UsagePoint.ratedPower
+//
+cim:UsagePoint.readCycle
+//
+cim:UsagePoint.readRoute
+//
+cim:UsagePoint.serviceDeliveryRemark
+//
+cim:UsagePoint.servicePriority
+//
+cim:UsagePoint.Equipments 
+//
+
+|===
 
 
 
+////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+////
 
+## Steady State Hypothesis
+
+### _MV_
+
+#### Breaker
+cim:Switch.open
+
+#### ConformLoad
+cim:EnergyConsumer.p
+//
+cim:EnergyConsumer.q
+
+
+#### ControlArea
+cim:ControlArea.netInterchange
+//
+cim:ControlArea.pTolerance
+
+
+#### Disconnector
+cim:Switch.open
+
+
+#### EquivalentInjection
+[red]#Will not be active#
+//
+cim:EquivalentInjection.p
+//
+cim:EquivalentInjection.q
+//
+cim:EquivalentInjection.regulationStatus
+//
+cim:EquivalentInjection.regulationTarget
+//
+
+#### SynchronousMachine
+[red]#Added to emulate EquivalentInjection for the power flow#
+//
+cim:SynchronousMachine.operatingMode 
+//
+cim:SynchronousMachine.referencePriority
+//
+cim:RotatingMachine.p
+//
+cim:RotatingMachine.q
+//
+cim:RegulatingCondEq.controlEnabled
+//
+	
+
+#### GeneratingUnit	
+cim:GeneratingUnit.normalPF
+
+
+#### RegulatingControl
+cim:RegulatingControl.discrete
+//
+cim:RegulatingControl.enabled
+//
+cim:RegulatingControl.targetValue
+//
+cim:RegulatingControl.targetDeadband
+//
+cim:RegulatingControl.targetValueUnitMultiplier 
+
+
+#### LinearShuntCompensator
+cim:ShuntCompensator.sections
+cim:RegulatingCondEq.controlEnabled
+		
+
+#### LoadBreakSwitch
+cim:Switch.open
+
+
+#### RatioTapChanger
+cim:TapChanger.step
+//
+cim:TapChanger.controlEnabled
+
+
+#### RegulatingControl
+cim:RegulatingControl.discrete
+//
+cim:RegulatingControl.enabled
+//
+cim:RegulatingControl.targetDeadband
+//
+cim:RegulatingControl.targetValue
+//
+cim:RegulatingControl.targetValueUnitMultiplier 
+
+
+#### TapChangerControl	
+cim:RegulatingControl.discrete
+//
+cim:RegulatingControl.enabled
+//
+cim:RegulatingControl.targetDeadband
+//
+cim:RegulatingControl.targetValue
+//
+cim:RegulatingControl.targetValueUnitMultiplier 
+
+
+#### Terminal
+cim:ACDCTerminal.connected	
+
+
+## Geographical Location
+### _MV_
+
+
+#### CoordinateSystem
+cim:IdentifiedObject.name
+//
+cim:CoordinateSystem.crsUrn
+    
+
+#### Location
+cim:Location.CoordinateSystem 
+//
+cim:Location.PowerSystemResources 
+//
+cim:IdentifiedObject.name
+//
+
+
+#### PositionPoint
+cim:PositionPoint.sequenceNumber
+//
+cim:PositionPoint.xPosition
+//
+cim:PositionPoint.yPosition
+//
+cim:PositionPoint.Location 
+
+
+## DiagramLayout
+### _MV_
+
+#### Diagram
+<cim:IdentifiedObject.name
+//
+<cim:Diagram.orientation 
+//
+pti:Diagram.type
+[red]#Optional?#
+
+
+#### DiagramObject
+cim:IdentifiedObject.name
+//
+cim:DiagramObject.Diagram 
+//
+cim:DiagramObject.IdentifiedObject 
+//
+cim:DiagramObject.DiagramObjectStyle 
+//
+
+#### DiagramObjectPoint
+cim:DiagramObjectPoint.xPosition
+//
+cim:DiagramObjectPoint.yPosition
+//
+cim:DiagramObjectPoint.sequenceNumber
+//
+cim:DiagramObjectPoint.DiagramObject 
+//
+cim:DiagramObjectPoint.DiagramObjectGluePoint 
+//
+
+
+#### DiagramObjectStyle
+cim:IdentifiedObject.name
+
+
+#### TextDiagramObject
+cim:IdentifiedObject.name
+//
+cim:DiagramObject.Diagram 
+//
+cim:TextDiagramObject.text
+//
+cim:DiagramObject.DiagramObjectStyle 
+//
+
+
+
+## State Variables
+### _MV_
+
+#### SvPowerFlow
+cim:SvPowerFlow.Terminal 
+//
+cim:SvPowerFlow.p
+//
+cim:SvPowerFlow.q
+//
+
+
+#### SvShuntCompensatorSections
+cim:SvShuntCompensatorSections.ShuntCompensator 
+//
+cim:SvShuntCompensatorSections.sections
+//
+ 
+
+#### SvStatus
+cim:SvStatus.ConductingEquipment 
+//
+cim:SvStatus.inService
+//
+ 
+
+#### SvTapStep
+cim:SvTapStep.TapChanger 
+//
+cim:SvTapStep.position
+  
+
+#### TopologicalIsland
+[red]#Need to describe how this should be used? adding nodes etc?#
+cim:TopologicalIsland.AngleRefTopologicalNode 
+//
+cim:IdentifiedObject.name
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+//
+cim:TopologicalIsland.TopologicalNodes 
+
+
+
+## Equipment Boundary Profile
+
+### BasePower
+cim:IdentifiedObject.description
+//
+cim:BasePower.basePower
+//
+
+
+### BaseVoltage
+[yellow]#Something about that objects should be added for both high voltage, medium voltage, low voltage and houshold voltage?#
+//
+cim:IdentifiedObject.description
+//
+cim:BaseVoltage.nominalVoltage
+//
+cim:IdentifiedObject.name
+//
+entsoe:IdentifiedObject.shortName
+
+
+### GeographicalRegion
+[yellow]#GeographicalRegion are defined as a Nordic to simplify and remove the contry domains.#
+//
+cim:IdentifiedObject.name
+//
+cim:IdentifiedObject.description
+//
+entsoe:IdentifiedObject.shortName
+//
+
+
+### SubGeographicalRegion
+[yellow]#SubGeographicalRegion are defined as a Nordic to simplify and remove the contry domains.#
+//
+cim:SubGeographicalRegion.Region 
+//
+cim:IdentifiedObject.name
+//
+entsoe:IdentifiedObject.shortName
+//
+cim:IdentifiedObject.description
+//
+
+
+### EnergySchedulingType
+[yellow]#These are the EnergySchedulingType that is needed for CGMES 3.0.#
+//
+<cim:IdentifiedObject.name
+//
+<cim:IdentifiedObject.description
+//
+<entsoe:IdentifiedObject.shortName
+//
+
+
+
+### Substation
+[yellow]#Boundary points#
+//
+cim:IdentifiedObject.name
+//
+cim:Substation.Region 
+//
+cim:IdentifiedObject.description
+//
+
+### Substation
+[yellow]#Boundary points to High voltage#
+//
+cim:Substation.Region 
+//
+cim:IdentifiedObject.name
+//
+pti:Substation.EnergySchedulingArea 
+//
+
+### VoltageLevel
+[yellow]#Boundary points, also need boundary points to High voltage#
+//
+cim:IdentifiedObject.description
+[red]#Optional? not included in boundary to HV#
+//
+cim:IdentifiedObject.name
+//
+cim:VoltageLevel.BaseVoltage 
+//
+cim:VoltageLevel.Substation 
+//
+
+
+### Bay
+[yellow]#Boundary points#
+//
+cim:IdentifiedObject.description
+//
+cim:IdentifiedObject.name
+//
+cim:Bay.VoltageLevel 
+
+
+### ConnectivityNode
+[yellow]#Boundary points, also need boundary points to High voltage#
+//
+cim:IdentifiedObject.name
+//
+entsoe:IdentifiedObject.shortName
+//
+entsoe:ConnectivityNode.boundaryPoint
+//
+entsoe:ConnectivityNode.fromEndIsoCode
+//
+entsoe:ConnectivityNode.fromEndName
+//
+entsoe:ConnectivityNode.fromEndNameTso
+//
+entsoe:ConnectivityNode.toEndIsoCode
+//
+entsoe:ConnectivityNode.toEndName
+//
+entsoe:ConnectivityNode.toEndNameTso
+//
+cim:ConnectivityNode.ConnectivityNodeContainer 
+//
+cim:IdentifiedObject.description
+[red]#Optional? only included in boundary to HV#
+		
 
 
