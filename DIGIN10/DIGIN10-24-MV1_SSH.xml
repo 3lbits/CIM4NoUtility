@@ -69,6 +69,15 @@ Change log:
 		<cim:ControlArea.netInterchange>0</cim:ControlArea.netInterchange>
 		<cim:ControlArea.pTolerance>0.1</cim:ControlArea.pTolerance>
 	</cim:ControlArea>
+  <cim:CurrentTransformer rdf:about="#_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:CurrentTransformer>
+  <cim:CurrentTransformer rdf:about="#_0f3b6200-684d-4365-8d55-45baae73bffb">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:CurrentTransformer>
+    <cim:CurrentTransformer rdf:about="#_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:CurrentTransformer>
 	<cim:Disconnector rdf:about="#_a8afc199-8a20-41d8-8ada-5261202610eb">
 		<cim:Switch.open>false</cim:Switch.open>
 	</cim:Disconnector>
@@ -157,6 +166,15 @@ Change log:
 	<cim:LoadBreakSwitch rdf:about="#_20605037-a626-4691-8601-89666564ff87">
 		<cim:Switch.open>false</cim:Switch.open>
 	</cim:LoadBreakSwitch>
+  <cim:PotentialTransformer rdf:about="#_fd11bf7f-138b-4a1b-802c-25262b7b8672">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:PotentialTransformer>
+    <cim:PotentialTransformer rdf:about="#_03f7a245-aeca-48ba-af07-58419fb9b77c">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:PotentialTransformer>
+    <cim:PotentialTransformer rdf:about="#_74936f6f-296e-44db-b772-1d522f317069">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:PotentialTransformer>
 	<cim:RatioTapChanger rdf:about="#_681a2fe7-5a55-11eb-a658-74e5f963e191">
 		<cim:TapChanger.step>17</cim:TapChanger.step>
 		<cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
