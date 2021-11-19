@@ -449,6 +449,20 @@ Change log:
 		<cim:Switch.ratedCurrent>2500</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
+	<cim:BusbarSection rdf:ID="_13d2fd99-e200-4f43-bd9f-a16dc4959edb">
+		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.description>Arendal 132kV A Busbar Section 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ARENDAL 132A</cim:IdentifiedObject.name>
+		<cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:ID="_47bfbe16-6fa2-4b6c-9b75-7453efebafbe">
+		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.description>Engene 023kV A Busbar Section 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE  023A</cim:IdentifiedObject.name>
+		<cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
+	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_681a2160-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Engene 22kV A Busbar Section 1</cim:IdentifiedObject.description>
@@ -456,9 +470,16 @@ Change log:
 		<cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:BusbarSection>
+	<cim:BusbarSection rdf:ID="_84d18a79-be9c-4b68-be21-36c3d7d40c58">
+		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.description>Engene 132kV A Busbar Section 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE  132A</cim:IdentifiedObject.name>
+		<cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
+	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_681a1eac-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-		<cim:IdentifiedObject.description>Froland 132kV A Busbar Section</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Froland 132kV A Busbar Section 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132A</cim:IdentifiedObject.name>
 		<cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
@@ -1885,6 +1906,13 @@ Change log:
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 		<cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.N"/>
 	</cim:Terminal>
+	<cim:Terminal rdf:ID="_0e748f98-11fe-4783-9501-0e673cab8f0d">
+		<cim:IdentifiedObject.name>T1 ARENDAL 132A</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>T1 ARENDAL 132kV A Busbar Section 1</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_517ac677-7ac0-dd4d-ac94-a191b7c05b13"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_13d2fd99-e200-4f43-bd9f-a16dc4959edb"/>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
 	<cim:Terminal rdf:ID="_e190ae57-ed18-f340-90c2-ddbbfe168ed8">
 		<cim:IdentifiedObject.name>T1 ARENDAL 420 TM EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
@@ -1918,6 +1946,13 @@ Change log:
 		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_ab9b57dd-c5f7-49c1-95a1-56d1f650db21"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e"/>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_297b7aa5-fb24-458f-8680-c1052e42a1f9">
+		<cim:IdentifiedObject.name>T1 ENGENE 023A BS</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_ab9b57dd-c5f7-49c1-95a1-56d1f650db21"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_47bfbe16-6fa2-4b6c-9b75-7453efebafbe"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_4e7dd4ef-600d-4ada-9cf4-115877382adc">
@@ -2286,6 +2321,12 @@ Change log:
 		<cim:IdentifiedObject.name>T2 ENGENE 132 T1 AD_S</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_457c0964-f107-4223-a3c3-92eff4b11f5c"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7"/>
+		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+	<cim:Terminal rdf:ID="_60032c2a-2dc2-41d1-9530-497a7474f22b">
+		<cim:IdentifiedObject.name>T2 ENGENE 132A</cim:IdentifiedObject.name>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_457c0964-f107-4223-a3c3-92eff4b11f5c"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_84d18a79-be9c-4b68-be21-36c3d7d40c58"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_b9bbb321-d34a-c142-a321-b4fa3ac440cb">
