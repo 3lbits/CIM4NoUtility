@@ -2,18 +2,122 @@
 
 = Modeling guide
 
+The DIGIN10 model is based on CGMES 2.4.15 (CIM16).
+version 0.25 will give an example model for a MV grid........
 
 This document contains documentation of all profiles necessary to perform power flow analyses
 The set of profiles consists of Equipment (EQ), Steady State Hypothesis (SSH), Geographical Location (GL), Diagram Layout (DL) and _State Variables (SV )[red]#?#_, together with the Equipment Boundary (EQBP) model for the Nordic44 and DIGIN10 Test model.
 
-The DIGIN10 model is based on CGMES 2.4.15 (CIM16).
+An overview of the respective profiles and classes included can be found in the below <<ModelingGuide.adoc#tab:overview_profiles, Table>>:
 
-...
+[cols="1,1,1"]
+[#tab:overview_profiles] 
+|===
+|*Equipment* |*Steady State Hypothesis*| *Geographical Location* 
+1.5+<.^|   
+    ACLineSegment 
+    Bay
+    Breaker
+    BusbarSection
+    ConformLoad
+    ConformLoadGroup
+    ConnectivityNode
+    ControlArea
+    CurrentLimit
+    Disconnector
+    EquivalentInjection
+    SynchronousMachine
+    GeneratingUnit
+    RegulatingControl
+    Fuse
+    Line
+    LinearShuntCompensator
+    LoadArea
+    LoadBreakSwitch
+    LoadResponseCharacteristic
+    OperationalLimitSet
+    OperationalLimitType
+    PetersenCoil
+    PowerTransformer
+    PowerTransformerEnd
+    RatioTapChanger
+    RegulatingControl
+    SubGeographicalRegion
+    SubLoadArea
+    Substation
+    TapChangerControl
+    Terminal 
+    Voltage level
+// ------------------------------------------------------------
+|   Breaker
+    ConformLoad
+    ControlArea
+    Disconnector
+    EquivalentInjection
+    SynchronousMachine
+    GeneratingUnit
+    RegulatingControl
+    LinearShuntCompensator
+    LoadBreakSwitch
+    RegulatingTapChanger
+    TapChangerControl
+    Terminal
+// ------------------------------------------------------------
+|   CoordinateSystem
+    Location
+    PositionPoint
+// ------------------------------------------------------------ 
+|   *Diagram Layout* | *State Variables*
+|   Diagram
+    DiagramObject
+    DiagramObjectPoint
+    DiagramObjectStyle
+    TextDiagramObject
+|   SvPowerFlow
+    SvShuntCompensatorSections
+    SvStatus
+    SvTapStep
+    TopologicalIsland
+// ------------------------------------------------------------     
+2.1+<.<|*Equipment Boundary profile*
+2.1+<.<|   BasePower
+    BaseVoltage
+    GeographicalRegion
+    SubGeographicalRegion
+    EnergySchedulingType
+    Substation
+    VoltageLevel
+    Bay
+    ConnectivityNode
 
-## Equipment model 
+
+|=== 
+
+
+== Comments to be made
+.Will elaborate on the following subjects:
+* *Boundary file*
+* ConnectivityNodes
+* Equipment containers
+* EquivalentInjection
+* MasterAuthoritySet
+* ConformLoad
+* ConformLoadGroup
+* BusbarSection
+* Terminal
+// * UsagePoint -- Not in MV1_EQ (only LV)
+
+
+
+
+
+
+////
+------------------------------ Should not be included--------------------------------
+== Equipment model 
 
 ### ACLineSegment
-////
+
 cim:IdentifiedObject.aliasName 
 //
 cim:IdentifiedObject.description 
@@ -44,6 +148,10 @@ cim:ACLineSegment.x
 //
 cim:ConductingEquipment.BaseVoltage 
 ////
+
+
+
+//// 
 
 |===
 |MV|LV
@@ -1066,15 +1174,13 @@ cim:UsagePoint.serviceDeliveryRemark
 cim:UsagePoint.servicePriority
 //
 cim:UsagePoint.Equipments 
-//
+
 
 |===
 
 
 
-////
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-////
+
 
 ## Steady State Hypothesis
 
@@ -1466,5 +1572,5 @@ cim:ConnectivityNode.ConnectivityNodeContainer
 cim:IdentifiedObject.description
 [red]#Optional? only included in boundary to HV#
 		
-
+////
 
