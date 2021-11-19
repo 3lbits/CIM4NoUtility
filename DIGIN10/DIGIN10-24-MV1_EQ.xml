@@ -354,7 +354,7 @@ Change log:
 		<cim:IdentifiedObject.description>Arendal 132kV Petersen Coil 1 Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ARENDAL 132 T1SP1E</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_5b498a4e-d2de-7f41-8f17-be255b3489db"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.ratedCurrent>630</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
@@ -628,7 +628,7 @@ Change log:
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>FROLAND 132A CN 005</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0">
 		<cim:IdentifiedObject.name>FROLAND CN 001</cim:IdentifiedObject.name>
