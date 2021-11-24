@@ -1,15 +1,53 @@
 :hardbreaks:
 
-= Modeling guide
+= Modelling guide
+:sectnums:
 
-The DIGIN10 model is based on CGMES 2.4.15 (CIM16).
-version 0.25 will give an example model for a MV grid........
+The purpose of this document is to provide the necessary information to correctly model a network according to the DIGIN10 model. 
 
-This document contains documentation of all profiles necessary to perform power flow analyses
-The set of profiles consists of Equipment (EQ), Steady State Hypothesis (SSH), Geographical Location (GL), Diagram Layout (DL) and _State Variables (SV )[red]#?#_, together with the Equipment Boundary (EQBP) model for the Nordic44 and DIGIN10 Test model.
+The purpose of the DIGIN10 model is to equip the Norwegian power industry with a common tool for modelling the distribution network, in its entirety, in CGMES format.
 
-An overview of the respective profiles and classes included can be found in the below <<ModelingGuide.adoc#tab:overview_profiles, Table>>:
+////
+* Standard on which the document is based
+* How work on the model is done
+* How to navigate this document/Content overview
+////
 
+
+:sectnums!:
+=== Project outline
+Version 0.25 of the DIGIN10 model is based on GGMES 2.4.15 and aims to act as an example model to be used by power flow analysis tools. 
+
+--
+[grid=rows, frame=none]
+|===
+|*Version* |*Coverage* | *Standard* | *Status*
+|v.0.25 | MV grid       | CGMES 2.4.15 | In progress
+|v.0.5  | MV + LV grid  | CGMES 2.4.15 | Planned
+| ??    | MV + LV grid  | CGMES 2.5.?? | Planned
+|===
+--
+
+// ////////////////////////////////////////////////////////////
+:sectnums:
+== General requirements
+DIGIN10 v.0.25 contains the following profiles, all of which must be included to sucessfully run a power flow analysis:
+
+--
+//[no-bullet]
+. Equipment (EQ)
+. Steady State Hypothesis (SSH)
+. Geographical Location (GL)
+. Diagram Layout (DL)
+. _State Variables (SV )[red]#?#_
+. Equipment Boundary (EQBP) model for the Nordic44 and DIGIN10 Test model
+--
+
+
+=== Profile overview
+An overview of the profiles and their respective classes can be found in the below <<ModelingGuide.adoc#tab:overview_profiles, Table>>:
+
+--
 [cols="1,1,1"]
 [#tab:overview_profiles] 
 |===
@@ -92,19 +130,76 @@ An overview of the respective profiles and classes included can be found in the 
 
 
 |=== 
+--
+// ////////////////////////////////////////////////////////////
+=== [red]#Data exchange format#
 
 
-== Comments to be made
-.Will elaborate on the following subjects:
-* *Boundary file*
-* ConnectivityNodes
-* Equipment containers
-* EquivalentInjection
-* MasterAuthoritySet
-* ConformLoad
-* ConformLoadGroup
-* BusbarSection
-* Terminal
+
+== Specific instructions
+In addition to the previously presented profiles, the following sections describe how particular aspects should be modelled.
+
+=== [red]#Equipment Boundary Profile#
+The boundary file is used to connect the DIGIN10 model to the Nordic44 model. In that way, vendors can connect the DIGIN10 model during testing of the Nordic44 model. 
+
+=== ConnectivityNodes
+ConnectivityNodes shall be connected to a Bay through VoltageLevel to a Substation.
+Not connecting ConnectivityNode to VoltageLevel directly provides more flexibility as it enables sorting of all nodes connected to a Bay.
+
+=== Equipment containers
+The DIGIN10 model uses the following Equipent containers:
+
+//_1f4fabd4-8c57-c245-b107-4e64c9007ae3
+
+//_3d51330c-7528-4efb-8edc-e61dcc145ac4
+
+//_681a21b6-5a55-11eb-a658-74e5f963e191
+
+//_681a2179-5a55-11eb-a658-74e5f963e191
+
+//_f1769670-9aeb-11e5-91da-b8763fd99c5f
+. Line
+. Bay
+. VoltageLevel
+. Substation
+. LoadResponseCharacteristic
+. ConformLoadGroup
+
+. [red]#EquivalentInjection#
+.. EquivalentInjection
+.. SynchronousMachine
+.. Generating unit
+
+=== EquivalentInjection
+It is important to note that EquivalentInjection is included in the model, but switched off. SynchronousMachine, its corresponding Terminal and a GeneratingUnit is added to emulate EquivalentInjection for the power flow. 
+
+
+_What about the LV side?_
+
+=== [red]#MasterAuthoritySet#
+
+=== ConformLoad
+ConformLoad shall be connected via a Breaker to a Bay.
+Breaker is used instead of Fuse to ensure CGMES 2.4.15 conformity.
+
+
+=== [red]#ConformLoadGroup#
+ConformLoadGRoup is used as an EquipmentContainer.
+
+=== BusbarSection
+BusbarSection should be connected to a VoltageLevel when possible.
+
+*Reasoning*: -----
+
+
+=== Terminal
+If equipment is updated then the consolidated terminal must also be updated, if not it cannot be used as the mRID of the Terminal is linked to the mRID of the equipment. 
+
+== To be included
+* Something about the different classes adnd HOW we have decided to use them
+
+* Which attributes are optional/ acknowledge all classes where we have attributes that are different from what you would nomally expect. 
+
 // * UsagePoint -- Not in MV1_EQ (only LV)
 
 
