@@ -5,6 +5,7 @@ In the Digin model the following standards are used for cim:IdentifiedObject.nam
 Name of an instance must be unique.
 For each class there is an example of how the a name and description are composed.
 General rule:
+
 - Name string shall be in capital letters
 
 ## Classes
@@ -22,37 +23,37 @@ voltage | component("service-name") | component class | sequence number
 
 ### cim:Bay
 
-| Name           | Description                          |
-| -------------- | :----------------------------------- |
-| FROLAND 132EN1 | Froland 132kV Engene 1 Bay           |
-| ENGENE 22T1    | Engene 22kV Transformer 1 Bay        |
-| NEDENES 04LC1  | Nedenes 400V Low Voltage Cable 1 Bay |
-| ENGENE 023 ZT1 | Engene 230V Netral Transformer 1     |
-| 04 TELEMA 2 Ba1| 400 Volt Telemarkstien 2 Bay 1       |
+| Name            | Description                          |
+| --------------- | :----------------------------------- |
+| FROLAND 132EN1  | Froland 132kV Engene 1 Bay           |
+| ENGENE 22T1     | Engene 22kV Transformer 1 Bay        |
+| NEDENES 04LC1   | Nedenes 400V Low Voltage Cable 1 Bay |
+| ENGENE 023 ZT1  | Engene 230V Netral Transformer 1     |
+| 04 TELEMA 2 Ba1 | 400 Volt Telemarkstien 2 Bay 1       |
 
 ### cim:Breaker
 
-| Name                   | Description                        |
-| ---------------------- | :--------------------------------- |
-| FROLAND 132EN1         | Froland 132kV Engene 1 Bay         |
-| ENGENE 22 T1E          | Engene 22kV T1 Breaker             |
+| Name            | Description                        |
+| --------------- | :--------------------------------- |
+| FROLAND 132EN1  | Froland 132kV Engene 1 Bay         |
+| ENGENE 22 T1E   | Engene 22kV T1 Breaker             |
 | 04 TELEMA 2 Br1 | 400 Volt Telemarkstien 2 Breaker 1 |
 
 ### cim:BusbarSection
 
-| Name                   | Description                               |
-| ---------------------- | :---------------------------------------- |
-| FROLAND 132A           | Froland 132kV A Busbar Section            |
-| ENGENE 22A             | Engene 22kV A Busbar Section 1            |
-| NEDENES 04A            | Nedenes 400V A Busbar Section 1           |
-| 04 TELEMA 2 BS1        | 400 Volt Telemarkstien 2 Busbar Section 1 |
+| Name            | Description                               |
+| --------------- | :---------------------------------------- |
+| FROLAND 132A    | Froland 132kV A Busbar Section            |
+| ENGENE 22A      | Engene 22kV A Busbar Section 1            |
+| NEDENES 04A     | Nedenes 400V A Busbar Section 1           |
+| 04 TELEMA 2 BS1 | 400 Volt Telemarkstien 2 Busbar Section 1 |
 
 ### cim:ConnectivityNode
 
-| Name                   | Description                               |
-| ---------------------- | :---------------------------------------- |
-| ARENDAL CN 007         |                                           |
-| 04 TELEMA 2 CN1        | 400 Volt Telemarkstien 2 Connectivity Node 1|
+| Name            | Description                                  |
+| --------------- | :------------------------------------------- |
+| ARENDAL CN 007  |                                              |
+| 04 TELEMA 2 CN1 | 400 Volt Telemarkstien 2 Connectivity Node 1 |
 
 ### cim:Disconnector
 
@@ -61,17 +62,11 @@ voltage | component("service-name") | component class | sequence number
 | FROLAND 132 EN1 AD_S | Froland 132kV Engene 1 A Disconnector |
 | ENGENE 22 NE1 AD_S   | Engene 22kV Nedenes 1 A Disconnector  |
 
-### cim:Fuse
-
-| Name                    | Description                         |
-| ----------------------- | :---------------------------------- |
-| NEDENES 22 TELEMA 2 FU1 | Nedenes 22kV Telemarkstien 2 Fuse 1 |
-
 ### cim:GeneratingUnit
 
-| Name                    | Description                          |
-| ----------------------- | :----------------------------------- |
-| ARENDAL 420 G1          | Arendal 420kV Transmission Equivalent|
+| Name           | Description                           |
+| -------------- | :------------------------------------ |
+| ARENDAL 420 G1 | Arendal 420kV Transmission Equivalent |
 
 ### cim:Line
 
@@ -129,12 +124,12 @@ voltage | component("service-name") | component class | sequence number
 
 ### cim:Substation
 
-| Name     | Description                 |
-| -------- | :-------------------------- |
-| ENGENE   | Engene Substation           |
-| FROLAND  | Froland Coupling Substation |
-| T_ENGENE | Engene T-junction           |
-| 04 TELEMA 2 CB4| 400 Volt Telemarkstien 2 Cable Box 4|
+| Name            | Description                          |
+| --------------- | :----------------------------------- |
+| ENGENE          | Engene Substation                    |
+| FROLAND         | Froland Coupling Substation          |
+| T_ENGENE        | Engene T-junction                    |
+| 04 TELEMA 2 CB4 | 400 Volt Telemarkstien 2 Cable Box 4 |
 
 ### cim:TapChangerControl
 
@@ -145,14 +140,15 @@ voltage | component("service-name") | component class | sequence number
 
 ### cim:Terminal
 
-| Name                     | Description      |
-| ------------------------ | :--------------- |
-| T1 132ARENDAL-FROLAND1   | Arendal Side     |
-| T1 132 ARENDAL-T1 ACLS 1 | Transformer Side |
-| T1 22 ENGENE-T1 ACLS 1 1 | Engene Side      |
-| 04 TELEMA 2 T1 | 400 Volt Telemarkstien 2 Terminal 1|
+| Name                     | Description                         |
+| ------------------------ | :---------------------------------- |
+| T1 132ARENDAL-FROLAND1   | Arendal Side                        |
+| T1 132 ARENDAL-T1 ACLS 1 | Transformer Side                    |
+| T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                         |
+| 04 TELEMA 2 T1           | 400 Volt Telemarkstien 2 Terminal 1 |
 
 ### cim:UsagePoint
-| Name                     | Description      |
-| ------------------------ | :--------------- |
-| 04 TELEMA 2 UP7 | 400 Volt Telemarkstien 2 UsagePoint 7|
+
+| Name            | Description                           |
+| --------------- | :------------------------------------ |
+| 04 TELEMA 2 UP7 | 400 Volt Telemarkstien 2 UsagePoint 7 |
