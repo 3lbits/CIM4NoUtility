@@ -114,13 +114,13 @@ voltage | component("service-name") | component class | sequence number
 | ---------------- | :--------------------------------- |
 | ARENDAL T1 420 P | Arendal T1 420kV Primary Winding   |
 | ARENDAL T1 132 S | Arendal T1 132kV Secondary Winding |
-|                  |                                    |
 
 ### cim:RegulatingControl
 
-| Name             | Description                                        |
-| ---------------- | :------------------------------------------------- |
-| ENGENE 22 SC1 RC | Engene 22kV Shunt Compensator Regulating Control 1 |
+| Name              | Description                                        |
+| ----------------- | :------------------------------------------------- |
+| ENGENE 22 SC1 RC  | Engene 22kV Shunt Compensator Regulating Control 1 |
+| Arendal 300kV RC1 | Arendal 420kV Transmission Equivalent              |
 
 ### cim:Substation
 
