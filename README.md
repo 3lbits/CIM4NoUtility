@@ -1,27 +1,38 @@
-# Digin10
+# DIGIN10
 
 README.md:
-- Introduction of the project
-- how to install/ use the information
-- How to collaborate
-## Bakgrunn
+- Introduction to the model
+- Content
 
-Integrasjoner, utveksling av modeller og data på tvers av systemer og aktører er og vil bli en viktig og essensiell prosess for energibransjen. Denne prosessen er dag i høy grad preget av en-til-en integrasjoner mellom systemer/applikasjoner og ad hoc-løsninger.
+## Background
 
-Gjennom arbeidspakken «DIGIN CIM grunnprofiler for beregninger og simuleringer i distribusjonsnett» ønsker DIGIN sammen med nettselskap og leverandører å se på muligheten for å utvikle og standardisere en felles profil på tvers av systemer for beregnings- og simuleringsverktøy og kildesystemer som SCADA, DMS, NIS og GIS. På denne måten ønsker vi å øke gjenbruk av grensesnitt, bedre kvaliteten og senke implementeringskostnadene for system/applikasjoner og grensesnittene. Alt dette vil kunne bidra til bedre drift og utvikling av nettet. 
+Integrations, exchange of models and data between systems and businesses and will become an important and essential process for the energy industry. Today this process is often a based on one to one integrations between systems/applications and ad-hoc solutions. 
 
-DIGIN har utviklet en testmodell, DIGIN10 modellen, for distribusjonsnettet som kan knyttes sammen med eksisterende testmodeller for transmisjonsnettet. Modellen vil dekke hele distribusjonsnettet, fra sluttbruker helt opp til sentralnettstilknytningen.
+In the project «DIGIN CIM grunnprofiler for beregninger og simuleringer i distribusjonsnett» DIGIN wants to engage with the DSOs and the vendors to develop and standardice a set of common profiles for analysis and simulation purposes in tools and systems like SCADA, DMS, NIS and GIS. The outcome will be increased reuse of an interface, higher data quality and lower implementation cost for all system applications and interface. This again will contribute to more efficient operations and grid development. 
 
-## Definisjoner 
+DIGIN has developed a test model, the DIGIN10 model for the regional and local distribution grid , that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The DIGIN10 model contains the whole grid from the transmission connection to the local end user. 
 
-## Versjoner
+CIM16 and CGMES 2.4.16 is the basis for the profiles and test model developed and will be available on CIM17 and CGMES 3.0 in the future. The DIGIN10 and NORDIC44 model has a common boundary profile file that contains definitions, classes and attributes that are used across the two adjoining models. 
 
-
-## Spesifikasjoner
-CIM16 for MV regionalt og lokalt distribusjonsnett.
-
-## Hva består DIGIN10 modellen av
-DL, GL, SV, TP, SSH, EQ
+## Definitions 
+CIM = Common Information Model
+CGMES = Common Grid Model Exchange Standard
+MV = Medium Voltage (in this model: regional and local distribution grid)
 
 
- 
+## Versions
+DIGIN10 0.5 - First edition of released model
+
+## Specifications
+CIM16 for MV grid
+
+## Content
+The DIGIN10 model contains the following
+- profiles according to CIM16/CGMES2.4.15: DL, GL, SV, TP, SSH, EQ
+- All files are CIM.XML files for MV grid
+- Boundary profile for interopability with NORDIC44 
+- Validation files from CIMDesk
+- Drawio images of EQ profile
+- png/svg image files of full model from CIMDesk
+- NameStandard
+- Modeling Guide
