@@ -19,7 +19,7 @@ The purpose of the DIGIN10 model is to equip the Norwegian power industry with a
 Version 0.25 of the DIGIN10 model is based on GGMES 2.4.15 and aims to act as an example model to be used by power flow analysis tools. 
 
 --
-[grid=rows, frame=none]
+[grid=rows, frame=none, width=50%]
 |===
 |*Version* |*Coverage* | *Standard* | *Status*
 |v.0.25 | MV grid       | CGMES 2.4.15 | In progress
@@ -31,7 +31,7 @@ Version 0.25 of the DIGIN10 model is based on GGMES 2.4.15 and aims to act as an
 // ////////////////////////////////////////////////////////////
 :sectnums:
 == General requirements
-DIGIN10 v.0.25 contains the following profiles, all of which must be included to sucessfully run a power flow analysis:
+DIGIN10 v.0.25 contains the following profiles, all of which should be included to run a power flow analysis:
 
 --
 //[no-bullet]
@@ -48,7 +48,7 @@ DIGIN10 v.0.25 contains the following profiles, all of which must be included to
 An overview of the profiles and their respective classes can be found in the below <<ModelingGuide.adoc#tab:overview_profiles, Table>>:
 
 --
-[cols="1,1,1"]
+[cols="1,1,1", width=75%]
 [#tab:overview_profiles] 
 |===
 |*Equipment* |*Steady State Hypothesis*| *Geographical Location* 
@@ -66,8 +66,6 @@ An overview of the profiles and their respective classes can be found in the bel
     EquivalentInjection
     SynchronousMachine
     GeneratingUnit
-    RegulatingControl
-    Fuse
     Line
     LinearShuntCompensator
     LoadArea
@@ -133,21 +131,22 @@ An overview of the profiles and their respective classes can be found in the bel
 --
 // ////////////////////////////////////////////////////////////
 === [red]#Data exchange format#
-
+Is this relevant/necessary? do we want to include something on this?
 
 
 == Specific instructions
 In addition to the previously presented profiles, the following sections describe how particular aspects should be modelled.
 
-=== [red]#Equipment Boundary Profile#
+=== Equipment Boundary Profile
 The boundary file is used to connect the DIGIN10 model to the Nordic44 model. In that way, vendors can connect the DIGIN10 model during testing of the Nordic44 model. 
+The boundary profile is of importance in regards of shared equipment between different system operators and specifying information that remains equal on a global scale.
 
 === ConnectivityNodes
 ConnectivityNodes shall be connected to a Bay through VoltageLevel to a Substation.
 Not connecting ConnectivityNode to VoltageLevel directly provides more flexibility as it enables sorting of all nodes connected to a Bay.
 
 === Equipment containers
-The DIGIN10 model uses the following Equipent containers:
+The DIGIN10 model uses the following equipent containers:
 
 //_1f4fabd4-8c57-c245-b107-4e64c9007ae3
 
@@ -162,45 +161,34 @@ The DIGIN10 model uses the following Equipent containers:
 . Bay
 . VoltageLevel
 . Substation
-. LoadResponseCharacteristic
 . ConformLoadGroup
 
-. [red]#EquivalentInjection#
-.. EquivalentInjection
-.. SynchronousMachine
-.. Generating unit
-
 === EquivalentInjection
-It is important to note that EquivalentInjection is included in the model, but switched off. SynchronousMachine, its corresponding Terminal and a GeneratingUnit is added to emulate EquivalentInjection for the power flow. 
+EquivalentInjection is included in the model, but switched off in cases where it is used to model a generator. This is because the tools that have been used to test the power flow does not support this function.
+
+For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUnit is added to emulate EquivalentInjection for the power flow. 
 
 
-_What about the LV side?_
 
 === [red]#MasterAuthoritySet#
 
 === ConformLoad
 ConformLoad shall be connected via a Breaker to a Bay.
+
 Breaker is used instead of Fuse to ensure CGMES 2.4.15 conformity.
 
 
 === [red]#ConformLoadGroup#
-ConformLoadGRoup is used as an EquipmentContainer.
+ConformLoadGRoup is used as a container for loads.
 
 === BusbarSection
-BusbarSection should be connected to a VoltageLevel when possible.
+It was decided that BusbarSection should be connected to a VoltageLevel when possible.
 
-*Reasoning*: -----
 
 
 === Terminal
-If equipment is updated then the consolidated terminal must also be updated, if not it cannot be used as the mRID of the Terminal is linked to the mRID of the equipment. 
+If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
 
-== To be included
-* Something about the different classes adnd HOW we have decided to use them
-
-* Which attributes are optional/ acknowledge all classes where we have attributes that are different from what you would nomally expect. 
-
-// * UsagePoint -- Not in MV1_EQ (only LV)
 
 
 
