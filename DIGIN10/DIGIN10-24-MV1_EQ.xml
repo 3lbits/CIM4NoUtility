@@ -1173,16 +1173,16 @@ Change log:
 		<cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Nedenes 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
-		<cim:EquivalentInjection.maxP>0.005</cim:EquivalentInjection.maxP>
-		<cim:EquivalentInjection.maxQ>0.00056</cim:EquivalentInjection.maxQ>
-		<cim:EquivalentInjection.minP>0.001</cim:EquivalentInjection.minP>
-		<cim:EquivalentInjection.minQ>0.00011</cim:EquivalentInjection.minQ>
-		<cim:EquivalentInjection.r>0.029116565</cim:EquivalentInjection.r>
-		<cim:EquivalentInjection.r0>0.116466259372828</cim:EquivalentInjection.r0>
+		<cim:EquivalentInjection.maxP>0.065</cim:EquivalentInjection.maxP>
+		<cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
+		<cim:EquivalentInjection.minP>0.013</cim:EquivalentInjection.minP>
+		<cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
+		<cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
+		<cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
 		<cim:EquivalentInjection.r2>0</cim:EquivalentInjection.r2>
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
-		<cim:EquivalentInjection.x>0.00686281774505914</cim:EquivalentInjection.x>
-		<cim:EquivalentInjection.x0>0.0274512709802365</cim:EquivalentInjection.x0>
+		<cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
+		<cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
 		<cim:EquivalentInjection.x2>0</cim:EquivalentInjection.x2>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_3d51330c-7528-4efb-8edc-e61dcc145ac4"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
