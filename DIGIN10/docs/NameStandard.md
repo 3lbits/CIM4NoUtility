@@ -97,6 +97,14 @@ substation | voltage | sequence | short class name
 | ----------------- | :-------------------------------------- |
 | NEDENES 22 E1 LBS | Nedenes 22kV Engene 1 Load Break Switch |
 
+### cim:Location
+
+L | Name of component
+
+| Name          | Description                     |
+| ------------- | :------------------------------ |
+| L FROLAND |  (Not used) |
+
 ### cim:PetersenCoil
 
 substation | voltage | transformer | short class name
