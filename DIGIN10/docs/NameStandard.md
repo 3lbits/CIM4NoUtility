@@ -7,6 +7,8 @@ For each class there is an example of how the a name and description are compose
 General rule:
 
 - Name string shall be in capital letters
+- When voltage is used as part of Name it shall be in kV. 
+- For voltage below 1kV: 0 (zero) is used as prefix and means , (comma). Example 400V -> 04, 230V -> 023
 
 ## Classes
 
@@ -17,31 +19,25 @@ voltage | component("service-name") | component class | sequence number
 | Name                       | Description                             |
 | -------------------------- | :-------------------------------------- |
 | 132 ARENDAL-FROLAND ACLS 1 | 132kV Arendal-Froland 1 ACLineSegment 1 |
-| 22 ENGENE-T1 ACLS 1 1      | 22kV Engene Transformer 1 Cable 1       |
-| 04 TELEMA 2 ACLS 3         | 400V Telemarkstien 2 ACLineSegment 3    |
-| 023 ZT1-EFC ACLS 1         | 230V ZT1-EFC ACLineSegment 1            |
+| 04 TELEMA2 ACLS 3         | 400V Telemarkstien 2 ACLineSegment 3    |
 
 ### cim:Bay
 
-substation | voltage | avgang | sequence
+substation | voltage | feeder | sequence
 
 | Name            | Description                          |
 | --------------- | :----------------------------------- |
 | FROLAND 132 EN1 | Froland 132kV Engene 1 Bay           |
-| ENGENE 22 T1    | Engene 22kV Transformer 1 Bay        |
 | NEDENES 04 LC1  | Nedenes 400V Low Voltage Cable 1 Bay |
-| ENGENE 023 ZT1  | Engene 230V Netral Transformer 1     |
-| TELEMA2 04 Ba1  | 400 Volt Telemarkstien 2 Bay 1       |
 
 ### cim:Breaker
 
-substation | voltage | avgang | sequence
+substation | voltage | feeder | sequence
 
 | Name           | Description                        |
 | -------------- | :--------------------------------- |
 | FROLAND 132EN1 | Froland 132kV Engene 1 Bay         |
-| ENGENE 22 T1E  | Engene 22kV T1 Breaker             |
-| TELEMA2 04 BR1 | 400 Volt Telemarkstien 2 Breaker 1 |
+| TELEMA2 04 1E  | Telemarkstien2 400V Breaker 1 |
 
 ### cim:BusbarSection
 
@@ -50,16 +46,16 @@ substation | voltage | busbar
 | Name          | Description                               |
 | ------------- | :---------------------------------------- |
 | FROLAND 132A  | Froland 132kV A Busbar Section            |
-| ENGENE 22A    | Engene 22kV A Busbar Section 1            |
 | NEDENES 04A   | Nedenes 400V A Busbar Section 1           |
-| TELEMA2 04BS1 | 400 Volt Telemarkstien 2 Busbar Section 1 |
 
 ### cim:ConnectivityNode
+
+(Connectivitynode is normally not included in a name standard).   
 
 | Name            | Description                                  |
 | --------------- | :------------------------------------------- |
 | ARENDAL CN 007  |                                              |
-| 04 TELEMA 2 CN1 | 400 Volt Telemarkstien 2 Connectivity Node 1 |
+| TELEMA2 04 CN1 | 400 Volt Telemarkstien 2 Connectivity Node 1 |
 
 ### cim:Disconnector
 
@@ -68,7 +64,6 @@ substation | voltage | avgang | sequence | type
 | Name                | Description                           |
 | ------------------- | :------------------------------------ |
 | FROLAND 132 EN1 ADS | Froland 132kV Engene 1 A Disconnector |
-| ENGENE 22 NE1 ADS   | Engene 22kV Nedenes 1 A Disconnector  |
 
 ### cim:GeneratingUnit
 
@@ -117,7 +112,6 @@ substation | transformer
 | Name       | Description                             |
 | ---------- | :-------------------------------------- |
 | ARENDAL T1 | Arendal 420kV / 132kV Transformer 1     |
-| ENGENE T1  | Engene 132kV / 22kV Transformer 1       |
 | NEDENES T1 | Nedenes 22kV / 400V Power Transformer 1 |
 
 ### cim:PowerTransformerEnd
@@ -128,7 +122,6 @@ substation | transformer | voltage | transformerwinding
 | ---------------- | :--------------------------------- |
 | ARENDAL T1 420 P | Arendal T1 420kV Primary Winding   |
 | ARENDAL T1 132 S | Arendal T1 132kV Secondary Winding |
-| ENGENE ZT1 22 P  | Engene ZT1 22kV Primary Winding    |
 
 ### cim:RatioTapChanger
 
@@ -136,7 +129,6 @@ substation | transformer | voltage | transformerwinding
 
 | Name                 | Description                        |
 | -------------------- | :--------------------------------- |
-| ARENDAL T1 420 P     | Arendal T1 420kV Primary Winding   |
 | ARENDAL T1 132 S RTC | Arendal T1 132kV Secondary Winding |
 
 ### cim:RegulatingControl
@@ -150,14 +142,13 @@ substation | voltage | short class name
 
 ### cim:Substation
 
-substation...?
+substation
 
 | Name            | Description                          |
 | --------------- | :----------------------------------- |
 | ENGENE          | Engene Substation                    |
-| FROLAND         | Froland Coupling Substation          |
 | T_ENGENE        | Engene T-junction                    |
-| 04 TELEMA 2 CB4 | 400 Volt Telemarkstien 2 Cable Box 4 |
+| TELEMA2 04 CB4  | 400 Volt Telemarkstien 2 Cable Box 4 |
 
 ### cim:TapChangerControl
 
@@ -165,17 +156,17 @@ substation | short class name
 
 | Name        | Description       |
 | ----------- | :---------------- |
-| ARENDAL TCC |                   |
 | ENGENE TCC  | Engene Substation |
 
 ### cim:Terminal
 
+(Terminal is normally not included in a name standard). 
+
 | Name                     | Description                         |
 | ------------------------ | :---------------------------------- |
 | T1 132ARENDAL-FROLAND1   | Arendal Side                        |
-| T1 132 ARENDAL-T1 ACLS 1 | Transformer Side                    |
 | T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                         |
-| 04 TELEMA 2 T1           | 400 Volt Telemarkstien 2 Terminal 1 |
+| 04 TELEMA2 T1           | 400 Volt Telemarkstien 2 Terminal 1 |
 
 ### cim:UsagePoint
 
