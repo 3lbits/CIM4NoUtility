@@ -75,11 +75,11 @@ substation | voltage | generator
 
 ### cim:Line
 
-substation a | - | substation b | voltage | sequence
+voltage | substation a | - | substation b | sequence
 
-| Name                   | Description              |
-| ---------------------- | :----------------------- |
-| ARENDAL-FROLAND 132LC1 | Line 132 ARENDAL-FROLAND |
+| Name                    | Description              |
+| ----------------------- | :----------------------- |
+| 132 ARENDAL-FROLAND LC1 | Line 132 ARENDAL-FROLAND |
 
 ### cim:LinearShuntCompensator - SC
 
