@@ -67,7 +67,7 @@ substation | voltage | avgang | sequence | type
 
 ### cim:GeneratingUnit
 
-substation | voltage | generator
+substation | voltage | short class name | sequence
 
 | Name           | Description                           |
 | -------------- | :------------------------------------ |
@@ -75,7 +75,7 @@ substation | voltage | generator
 
 ### cim:Line
 
-voltage | substation a | - | substation b | sequence
+voltage | substation a | - | substation b | short class name | sequence
 
 | Name                    | Description              |
 | ----------------------- | :----------------------- |
@@ -83,7 +83,7 @@ voltage | substation a | - | substation b | sequence
 
 ### cim:LinearShuntCompensator - SC
 
-substation | voltage | sequence
+substation | voltage | short class name | sequence
 
 | Name          | Description                     |
 | ------------- | :------------------------------ |
@@ -99,11 +99,11 @@ substation | voltage | sequence | short class name
 
 ### cim:Location
 
-L | Name of component
+short class name | Name of component
 
-| Name          | Description                     |
-| ------------- | :------------------------------ |
-| L FROLAND |  (Not used) |
+| Name      | Description |
+| --------- | :---------- |
+| L FROLAND | (Not used)  |
 
 ### cim:PetersenCoil
 
@@ -115,7 +115,7 @@ substation | voltage | transformer | short class name
 
 ### cim:PowerTransformer
 
-substation | transformer
+substation | short class name | sequence
 
 | Name       | Description                             |
 | ---------- | :-------------------------------------- |
@@ -124,7 +124,7 @@ substation | transformer
 
 ### cim:PowerTransformerEnd
 
-substation | transformer | voltage | transformerwinding
+substation | transformer short class name | voltage | transformerwinding
 
 | Name             | Description                        |
 | ---------------- | :--------------------------------- |
@@ -133,7 +133,7 @@ substation | transformer | voltage | transformerwinding
 
 ### cim:RatioTapChanger
 
-substation | transformer | voltage | transformerwinding
+substation | transformer short class name | voltage | transformerwinding
 
 | Name                 | Description                        |
 | -------------------- | :--------------------------------- |
