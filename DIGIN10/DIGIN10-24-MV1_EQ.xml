@@ -37,9 +37,9 @@ Change log:
 		<cim:IdentifiedObject.description>230V ZT1-EFC ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>023 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.021</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.025</cim:ACLineSegment.r>		
-		<cim:ACLineSegment.x>0.0017</cim:ACLineSegment.x>
+		<cim:Conductor.length>21</cim:Conductor.length>
+		<cim:ACLineSegment.r>25</cim:ACLineSegment.r>		
+		<cim:ACLineSegment.x>1.7</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
 	</cim:ACLineSegment>
@@ -65,27 +65,27 @@ Change log:
 		<cim:IdentifiedObject.description>132kV Arendal-Froland 1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.59</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.176</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.035</cim:ACLineSegment.x>
+		<cim:Conductor.length>590</cim:Conductor.length>
+		<cim:ACLineSegment.r>176</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>35</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a">	
 		<cim:IdentifiedObject.description>132kV Arendal-T1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.035</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.0059</cim:ACLineSegment.x>
+		<cim:Conductor.length>35</cim:Conductor.length>
+		<cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>5.9</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191">	
 		<cim:IdentifiedObject.description>132kV Froland-T-Engene ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>27.07</cim:Conductor.length>
-		<cim:ACLineSegment.r>1.95</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>10.53</cim:ACLineSegment.x>
+		<cim:Conductor.length>27070</cim:Conductor.length>
+		<cim:ACLineSegment.r>1950</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>10530</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
 	</cim:ACLineSegment>
@@ -93,72 +93,72 @@ Change log:
 		<cim:IdentifiedObject.description>132kV T-Engene Engene 1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>2.68</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.32</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>1.08</cim:ACLineSegment.x>
+		<cim:Conductor.length>2680</cim:Conductor.length>
+		<cim:ACLineSegment.r>320</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>1080</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>132kV T-Engene Engene 1 ACLineSegment 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.86</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.016</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.094</cim:ACLineSegment.x>
+		<cim:Conductor.length>860</cim:Conductor.length>
+		<cim:ACLineSegment.r>16</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>94</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191">	
 		<cim:IdentifiedObject.description>22kV Engene Nedenes ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-NEDENES ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.5</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.026</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.045</cim:ACLineSegment.x>
+		<cim:Conductor.length>500</cim:Conductor.length>
+		<cim:ACLineSegment.r>26</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>45</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a7f-5a55-11eb-a658-74e5f963e191">	
 		<cim:IdentifiedObject.description>22kV Engene Transformer 1 Cable 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.020</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.0034</cim:ACLineSegment.x>
+		<cim:Conductor.length>20</cim:Conductor.length>
+		<cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>3.4</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a13-5a55-11eb-a658-74e5f963e191">	
 		<cim:IdentifiedObject.description>22kV Engene Transformer 1 Cable 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.020</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.0034</cim:ACLineSegment.x>
+		<cim:Conductor.length>20</cim:Conductor.length>
+		<cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>3.4</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191">	
 		<cim:IdentifiedObject.description>22kV Engene-ZT1 ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.028</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.0074</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.0028</cim:ACLineSegment.x>
+		<cim:Conductor.length>28</cim:Conductor.length>
+		<cim:ACLineSegment.r>7.4</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>2.8</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">	
 		<cim:IdentifiedObject.description>22kV Telemarkstien 2 ACLineSegment 4</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.005</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.0031</cim:ACLineSegment.r>	
-		<cim:ACLineSegment.x>0.0007</cim:ACLineSegment.x>
+		<cim:Conductor.length>5</cim:Conductor.length>
+		<cim:ACLineSegment.r>3.1</cim:ACLineSegment.r>	
+		<cim:ACLineSegment.x>0.7</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_b1b4714b-a160-7742-84d5-d6486d776c94">
 		<cim:IdentifiedObject.description>22kV ZT1-EFC ACLineSegment 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>22 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Conductor.length>0.013</cim:Conductor.length>
-		<cim:ACLineSegment.r>0.0019</cim:ACLineSegment.r>
-		<cim:ACLineSegment.x>0.0007</cim:ACLineSegment.x>
+		<cim:Conductor.length>13</cim:Conductor.length>
+		<cim:ACLineSegment.r>1.9</cim:ACLineSegment.r>
+		<cim:ACLineSegment.x>0.7</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:Bay rdf:ID="_5b498a4e-d2de-7f41-8f17-be255b3489db">
@@ -1253,10 +1253,10 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
+		<cim:PowerTransformerEnd.r>0.84</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>87.62</cim:PowerTransformerEnd.x>
+		<cim:PowerTransformerEnd.x>25.41</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
 	</cim:PowerTransformerEnd>
 	<cim:PowerTransformerEnd rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191">
