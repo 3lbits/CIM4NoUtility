@@ -65,6 +65,15 @@ substation | voltage | avgang | sequence | type
 | ------------------- | :------------------------------------ |
 | FROLAND 132 EN1 ADS | Froland 132kV Engene 1 A Disconnector |
 
+### cim:EquivalentInjection
+
+substation | voltage | short class name
+
+| Name                | Description                           |
+| ------------------- | :------------------------------------ |
+| NEDENES 04 LV EQV   | Nedenes 400V Low Voltage Equivalent   |
+
+
 ### cim:GeneratingUnit
 
 substation | voltage | short class name | sequence
