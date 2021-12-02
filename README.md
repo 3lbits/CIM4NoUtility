@@ -15,9 +15,9 @@ DIGIN has developed a test model, the DIGIN10 model for the regional and local d
 CIM16 and CGMES 2.4.16 is the basis for the profiles and test model developed and will be available on CIM17 and CGMES 3.0 in the future. The DIGIN10 and NORDIC44 model has a common boundary profile file that contains definitions, classes and attributes that are used across the two adjoining models. 
 
 ## Definitions 
-CIM = Common Information Model
-CGMES = Common Grid Model Exchange Standard
-MV = Medium Voltage (in this model: regional and local distribution grid)
+- CIM = Common Information Model
+- CGMES = Common Grid Model Exchange Standard
+- MV = Medium Voltage (in this model: regional and local distribution grid)
 
 
 ## Versions
