@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="CIMSpy_Root_Canvas" width="2050.741" height="3477.542" viewBox="0 0 78.37627 132.9065" cimspy:name="unknown" cimspy:diagramType="10" style="background-color: #FFFFFF" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+  <a id="xlink_FreeText_ARENDAL" xlink:href="ARENDAL.svg">
+    <text id="FreeText_ARENDAL" x="1926.991" y="3086.135" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL</text>
+  </a>
   <a id="xlink_FreeText_ENGENE" xlink:href="ENGENE.svg">
     <text id="FreeText_ENGENE" x="1685.229" y="3448.011" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE</text>
-  </a>
-  <a id="xlink_FreeText_NEDENES" xlink:href="NEDENES.svg">
-    <text id="FreeText_NEDENES" x="1709.304" y="3342.974" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES</text>
   </a>
   <a id="xlink_FreeText_FROLAND" xlink:href="FROLAND.svg">
     <text id="FreeText_FROLAND" x="1545.856" y="2837.435" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND</text>
   </a>
-  <a id="xlink_FreeText_ARENDAL" xlink:href="ARENDAL.svg">
-    <text id="FreeText_ARENDAL" x="1926.991" y="3086.135" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL</text>
+  <a id="xlink_FreeText_NEDENES" xlink:href="NEDENES.svg">
+    <text id="FreeText_NEDENES" x="1709.304" y="3342.974" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES</text>
   </a>
   <a id="xlink_FreeText_T_ENGENE" xlink:href="T_ENGENE.svg">
     <text id="FreeText_T_ENGENE" x="1667.637" y="3363.891" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE</text>
   </a>
   <polyline id="ACLineSegment_132 ARENDAL-FROLAND ACLS 1" points="1917.491,3079.915 1536.356,2837.965" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_22 ENGENE-NEDENES ACLS 1" points="1683.979,3426.542 1705.554,3350.004" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
   <polyline id="ACLineSegment_132 FROLAND-T_ENGENE ACLS 1" points="1536.356,2837.965 1658.137,3357.671" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
   <polyline id="ACLineSegment_132 T_ENGENE-ENGENE ACLS 1 2" points="1658.137,3357.671 1683.979,3426.542" rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
-  <polyline id="ACLineSegment_22 ENGENE-NEDENES ACLS 1" points="1683.979,3426.542 1705.554,3350.004" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <a id="xlink_Substation_ARENDAL" xlink:href="ARENDAL.svg">
+    <g id="Substation_ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_ARENDAL_1" cx="1917.491" cy="3079.915" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
   <a id="xlink_Substation_ENGENE" xlink:href="ENGENE.svg">
     <g id="Substation_ENGENE" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191">
       <ellipse id="Substation_ENGENE_1" cx="1683.979" cy="3426.542" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
-    </g>
-  </a>
-  <a id="xlink_Substation_NEDENES" xlink:href="NEDENES.svg">
-    <g id="Substation_NEDENES" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
-      <ellipse id="Substation_NEDENES_1" cx="1705.554" cy="3350.004" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
     </g>
   </a>
   <a id="xlink_Substation_FROLAND" xlink:href="FROLAND.svg">
@@ -34,9 +34,9 @@
       <ellipse id="Substation_FROLAND_1" cx="1536.356" cy="2837.965" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
     </g>
   </a>
-  <a id="xlink_Substation_ARENDAL" xlink:href="ARENDAL.svg">
-    <g id="Substation_ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
-      <ellipse id="Substation_ARENDAL_1" cx="1917.491" cy="3079.915" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+  <a id="xlink_Substation_NEDENES" xlink:href="NEDENES.svg">
+    <g id="Substation_NEDENES" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
+      <ellipse id="Substation_NEDENES_1" cx="1705.554" cy="3350.004" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
     </g>
   </a>
   <a id="xlink_Substation_T_ENGENE" xlink:href="T_ENGENE.svg">
