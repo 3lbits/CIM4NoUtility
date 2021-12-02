@@ -42,8 +42,8 @@ Change log:
 		<cim:ACLineSegment.x>1.7</cim:ACLineSegment.x>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
-	</cim:ACLineSegment>
-		<cim:ACLineSegment rdf:ID="_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
+	
+	<cim:ACLineSegment rdf:ID="_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
 		<cim:IdentifiedObject.description>230V ZT1-EFC ACLineSegment 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>023 ZT1-EFC ACLS 2</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
