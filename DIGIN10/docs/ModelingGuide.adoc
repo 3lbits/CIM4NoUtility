@@ -170,7 +170,11 @@ For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUn
 
 
 
-=== [red]#MasterAuthoritySet#
+=== ModelAuthoritySet
+The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
+sets of objects, which in turn allows different parties to take responsibility for different parts of a common grid model. 
+Section 5.2 in IEC 61970-600-1:2021 gives the rules for handling of MAS.
+In DIGIN we are using this to model HV, MV and LV sepretaly, either by the fact that they are sourced by a different utility or application in the same organisation.
 
 === ConformLoad
 ConformLoad shall be connected via a Breaker to a Bay.
