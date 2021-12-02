@@ -17,7 +17,8 @@ CIM16 and CGMES 2.4.16 is the basis for the profiles and test model developed an
 
 
 ## Versions
-DIGIN10 0.5 - First edition of released model
+DIGIN10-24-MV_v0.5 - First edition of released model
+Version v0.5 is for power flow and simulation utilization
 
 ## Specifications
 CIM16 for MV grid
