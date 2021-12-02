@@ -25,5 +25,3 @@ Please provide feedback in the case you are dicsovering any errors, https://gith
 *Current Version*: https://diginenergi.no/nedlastinger/ +
 *Previous version*: https://diginenergi.no/nedlastinger/ +
 
-
-include::KnownIssues.adoc[]
