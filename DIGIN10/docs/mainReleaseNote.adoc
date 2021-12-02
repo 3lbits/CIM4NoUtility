@@ -8,9 +8,9 @@
 :sectlinks:
 :table-stripes: even
 :leveloffset: +1
-:title-logo-image: image:images/DIGIN.png[pdfwidth=30vw]
+:title-logo-image: image:\DIGIN10\diagrams\images\DIGIN.png[pdfwidth=30vw]
 
-image::images/DIGIN.png[width=50%, pdfwidth=30vw]
+image::DIGIN10\diagrams\images\DIGIN.png[width=50%, pdfwidth=30vw]
 
 
 
