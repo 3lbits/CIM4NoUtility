@@ -1,4 +1,4 @@
-# measurmentType naming conventions 
+# measurementType naming conventions 
 
 ## 61970-301:2020
 The table below is taken from 61970-301:2020 Table 6 - measurmentType naming conventions.
