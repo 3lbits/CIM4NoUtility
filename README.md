@@ -1,9 +1,5 @@
 # DIGIN10
 
-README.md:
-- Introduction to the model
-- Content
-
 ## Background
 
 Integrations, exchange of models and data between systems and businesses will become an important and essential process for the energy industry. Today this process is often a based on one to one integrations between systems/applications and ad-hoc solutions. 
