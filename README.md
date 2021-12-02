@@ -8,16 +8,15 @@ In the project «DIGIN CIM grunnprofiler for beregninger og simuleringer i distr
 
 DIGIN has developed a test model, the DIGIN10 model for the regional and local distribution grid, that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The DIGIN10 model contains the whole grid from the transmission connection to the local end user. 
 
-CIM16 and CGMES 2.4.16 is the basis for the profiles and test model developed and will be available on CIM17 and CGMES 3.0 in the future. The DIGIN10 and NORDIC44 model has a common boundary profile file that contains definitions, classes and attributes that are used across the two adjoining models. 
+CIM16 and CGMES 2.4 is the basis for the profiles and test model developed and will be available on CIM17 and CGMES 3.0 in the future. The DIGIN10 and NORDIC44 model has a common boundary profile file that contains definitions, classes and attributes that are used across the two adjoining models. 
 
 ## Definitions 
 - CIM = Common Information Model
 - CGMES = Common Grid Model Exchange Standard
 - MV = Medium Voltage (in this model: regional and local distribution grid)
 
-
 ## Versions
-DIGIN10-24-MV_v0.5 - First edition of released model
+DIGIN10-24-MV1_v0.5 - First edition of released model
 Version v0.5 is for power flow and simulation utilization
 
 ## Specifications
