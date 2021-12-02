@@ -25,7 +25,7 @@ CIM16 for MV grid
 ## Content
 The DIGIN10 model contains the following
 - profiles according to CIM16/CGMES2.4.15: DL, GL, SV, TP, SSH, EQ
-- All files are CIM.XML files for MV grid
+  - All files are CIM.XML files for MV grid
 - Boundary profile for interopability with NORDIC44 
 - Validation files from CIMDesk
 - Drawio images of EQ profile
