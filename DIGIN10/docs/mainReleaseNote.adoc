@@ -19,9 +19,9 @@ Please provide feedback in the case you are dicsovering any errors, https://gith
 
 
 *Status*: Current +
-*Version*: 0.0.1
-*Published*: 2021-08-25 +
-*Updated*: 2021-08-25 +
+*Version*: DIGIN10-24-MV1_v0.5
+*Published*: 2021-12-03 +
+*Updated*: 2021-12-03 +
 *Current Version*: https://diginenergi.no/nedlastinger/ +
 *Previous version*: https://diginenergi.no/nedlastinger/ +
 
