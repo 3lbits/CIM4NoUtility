@@ -57,6 +57,12 @@ Change log:
 	<cim:Breaker rdf:about="#_2fb546e7-9e06-4356-a3ad-7e3756c34f6a">
 		<cim:Switch.open>false</cim:Switch.open>
 	</cim:Breaker>
+  <cim:Breaker rdf:about="#_38cd8874-fb01-462c-8c85-95dac14fee9c">
+		<cim:Switch.open>false</cim:Switch.open>
+	</cim:Breaker>
+  <cim:Breaker rdf:about="#_dd41276d-9ea7-47a8-a0f3-65215c8225a5">
+		<cim:Switch.open>false</cim:Switch.open>
+	</cim:Breaker>
 	<cim:ConformLoad rdf:about="#_eb9b50c9-e363-0940-a177-2b7abd47f398">
 		<cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
 		<cim:EnergyConsumer.q>0.0002</cim:EnergyConsumer.q>

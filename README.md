@@ -1,9 +1,5 @@
 # DIGIN10
 
-README.md:
-- Introduction to the model
-- Content
-
 ## Background
 
 Integrations, exchange of models and data between systems and businesses will become an important and essential process for the energy industry. Today this process is often a based on one to one integrations between systems/applications and ad-hoc solutions. 
@@ -15,9 +11,9 @@ DIGIN has developed a test model, the DIGIN10 model for the regional and local d
 CIM16 and CGMES 2.4.16 is the basis for the profiles and test model developed and will be available on CIM17 and CGMES 3.0 in the future. The DIGIN10 and NORDIC44 model has a common boundary profile file that contains definitions, classes and attributes that are used across the two adjoining models. 
 
 ## Definitions 
-CIM = Common Information Model
-CGMES = Common Grid Model Exchange Standard
-MV = Medium Voltage (in this model: regional and local distribution grid)
+- CIM = Common Information Model
+- CGMES = Common Grid Model Exchange Standard
+- MV = Medium Voltage (in this model: regional and local distribution grid)
 
 
 ## Versions
@@ -29,7 +25,7 @@ CIM16 for MV grid
 ## Content
 The DIGIN10 model contains the following
 - profiles according to CIM16/CGMES2.4.15: DL, GL, SV, TP, SSH, EQ
-- All files are CIM.XML files for MV grid
+  - All files are CIM.XML files for MV grid
 - Boundary profile for interopability with NORDIC44 
 - Validation files from CIMDesk
 - Drawio images of EQ profile
