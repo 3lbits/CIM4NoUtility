@@ -976,6 +976,7 @@ Change log:
 		<cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
 		<cim:SynchronousMachine.r>0.43445</cim:SynchronousMachine.r>
 		<cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+		<cim:RegulatingCondEq.RegulatingControl rdf:resource="#_570e76de-1b18-4a92-a1a2-b6f780f5dcbe"/>
 		<cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
 		<cim:RotatingMachine.GeneratingUnit rdf:resource="#_b7057d99-e21a-4ba1-9cef-15aeeee4232a"/> 
 		<cim:RotatingMachine.ratedS>350</cim:RotatingMachine.ratedS>
@@ -1041,6 +1042,7 @@ Change log:
 		<cim:IdentifiedObject.description>Engene 22kV A Shunt Compensator</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 22 SC1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+		<cim:RegulatingCondEq.RegulatingControl rdf:resource="#_92d33c00-7034-11eb-a65a-74e5f963e191"/>
 		<cim:ShuntCompensator.aVRDelay>1</cim:ShuntCompensator.aVRDelay>
 		<cim:ShuntCompensator.maximumSections>1</cim:ShuntCompensator.maximumSections>
 		<cim:ShuntCompensator.nomU>22</cim:ShuntCompensator.nomU>
@@ -1389,7 +1391,7 @@ Change log:
 		<cim:TapChanger.lowStep>1</cim:TapChanger.lowStep>
 		<cim:TapChanger.ltcFlag>true</cim:TapChanger.ltcFlag>
 		<cim:TapChanger.neutralStep>17</cim:TapChanger.neutralStep>
-		<cim:TapChanger.neutralU>135</cim:TapChanger.neutralU>
+		<cim:TapChanger.neutralU>132</cim:TapChanger.neutralU>
 		<cim:TapChanger.normalStep>17</cim:TapChanger.normalStep>
 		<cim:RatioTapChanger.stepVoltageIncrement>0.625</cim:RatioTapChanger.stepVoltageIncrement>
 		<cim:RatioTapChanger.tculControlMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#TransformerControlMode.volt"/>
