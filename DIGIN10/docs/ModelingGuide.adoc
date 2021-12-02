@@ -20,9 +20,11 @@ The Modeling guide is relevant for the following profiles:
 . Equipment (EQ)
 . Steady State Hypothesis (SSH)
 . Geographical Location (GL)
+. Topology (TP)
 . Diagram Layout (DL)
 . State Variables (SV)
-. Equipment Boundary (EQBP) model for the Nordic44 and DIGIN10 Test model
+. Equipment Boundary (EQBP)
+
 --
 
 
@@ -34,7 +36,7 @@ An overview of the profiles and their respective classes can be found in the bel
 [#tab:overview_profiles] 
 |===
 |*Equipment* |*Steady State Hypothesis*| *Geographical Location* 
-1.5+<.^|   
+1.7+<.^|   
     ACLineSegment 
     Bay
     Breaker
@@ -67,7 +69,7 @@ An overview of the profiles and their respective classes can be found in the bel
     Terminal 
     Voltage level
 // ------------------------------------------------------------
-|   Breaker
+1.3+<.<|   Breaker
     ConformLoad
     ControlArea
     Disconnector
@@ -83,22 +85,18 @@ An overview of the profiles and their respective classes can be found in the bel
 // ------------------------------------------------------------
 |   CoordinateSystem
     Location
-    PositionPoint
+    PositionPoint 
+    pass:q[<br>]
+    pass:q[<br>]
 // ------------------------------------------------------------ 
-|   *Diagram Layout* | *State Variables*
-|   Diagram
-    DiagramObject
-    DiagramObjectPoint
-    DiagramObjectStyle
-    TextDiagramObject
-|   SvPowerFlow
-    SvShuntCompensatorSections
-    SvStatus
-    SvTapStep
-    TopologicalIsland
+|*Topology*
+|   TopologicalNode
+    pass:q[<br>]
+    pass:q[<br>]
+   
 // ------------------------------------------------------------     
-2.1+<.<|*Equipment Boundary profile*
-2.1+<.<|   BasePower
+|*Equipment Boundary* |   *Diagram Layout* 
+1.3+<.<|   BasePower
     BaseVoltage
     GeographicalRegion
     SubGeographicalRegion
@@ -107,10 +105,27 @@ An overview of the profiles and their respective classes can be found in the bel
     VoltageLevel
     Bay
     ConnectivityNode
+// ------------------------------------------------------------ 
+|   Diagram
+    DiagramObject
+    DiagramObjectPoint
+    DiagramObjectStyle
+    TextDiagramObject
+| *State Variables*
+|   SvPowerFlow
+    SvShuntCompensatorSections
+    SvStatus
+    SvTapStep
+    TopologicalIsland
 
 
 |=== 
 --
+
+
+
+
+
 // ////////////////////////////////////////////////////////////
 === Data exchange format
 The interested reader is referred to IEC 61970-600-1 (CGMES).
