@@ -485,4 +485,18 @@ Change log:
   <cim:Terminal rdf:about="#_fc3c9e4a-a573-4f55-ab9e-18f4c0f3a3d2">
     <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
   </cim:Terminal>
+
+  <cim:Terminal rdf:about="#_1089c4dd-7fa5-4b0b-a92c-1680375ae16f">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7ca23509-fcc4-4653-a7db-334e1e113581">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e2dfb756-4b1e-f34b-a0be-880ea3a2ef50">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0a936e9d-6e05-6547-af77-18e442db0913">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
+
 </rdf:RDF>

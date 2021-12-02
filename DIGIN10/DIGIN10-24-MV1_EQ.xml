@@ -40,6 +40,7 @@ Change log:
 		<cim:Conductor.length>21</cim:Conductor.length>
 		<cim:ACLineSegment.r>25</cim:ACLineSegment.r>		
 		<cim:ACLineSegment.x>1.7</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
 	
@@ -50,6 +51,7 @@ Change log:
 		<cim:Conductor.length>10.5</cim:Conductor.length>
 		<cim:ACLineSegment.r>12.5</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>0.85</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
@@ -59,6 +61,7 @@ Change log:
 		<cim:Conductor.length>4</cim:Conductor.length> 
 		<cim:ACLineSegment.r>0.001278</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>0.0003016</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191">
@@ -68,6 +71,7 @@ Change log:
 		<cim:Conductor.length>590</cim:Conductor.length>
 		<cim:ACLineSegment.r>176</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>35</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a">	
@@ -77,6 +81,7 @@ Change log:
 		<cim:Conductor.length>35</cim:Conductor.length>
 		<cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>5.9</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191">	
@@ -86,6 +91,7 @@ Change log:
 		<cim:Conductor.length>27070</cim:Conductor.length>
 		<cim:ACLineSegment.r>1950</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>10530</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
 	</cim:ACLineSegment>
@@ -96,6 +102,7 @@ Change log:
 		<cim:Conductor.length>2680</cim:Conductor.length>
 		<cim:ACLineSegment.r>320</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>1080</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191">
@@ -105,6 +112,7 @@ Change log:
 		<cim:Conductor.length>860</cim:Conductor.length>
 		<cim:ACLineSegment.r>16</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>94</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191">	
@@ -114,6 +122,7 @@ Change log:
 		<cim:Conductor.length>500</cim:Conductor.length>
 		<cim:ACLineSegment.r>26</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>45</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a7f-5a55-11eb-a658-74e5f963e191">	
@@ -123,6 +132,7 @@ Change log:
 		<cim:Conductor.length>20</cim:Conductor.length>
 		<cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>3.4</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2a13-5a55-11eb-a658-74e5f963e191">	
@@ -132,6 +142,7 @@ Change log:
 		<cim:Conductor.length>20</cim:Conductor.length>
 		<cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>3.4</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a26cf-5a55-11eb-a658-74e5f963e191">	
@@ -141,6 +152,7 @@ Change log:
 		<cim:Conductor.length>28</cim:Conductor.length>
 		<cim:ACLineSegment.r>7.4</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>2.8</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">	
@@ -150,6 +162,7 @@ Change log:
 		<cim:Conductor.length>5</cim:Conductor.length>
 		<cim:ACLineSegment.r>3.1</cim:ACLineSegment.r>	
 		<cim:ACLineSegment.x>0.7</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_b1b4714b-a160-7742-84d5-d6486d776c94">
@@ -159,6 +172,7 @@ Change log:
 		<cim:Conductor.length>13</cim:Conductor.length>
 		<cim:ACLineSegment.r>1.9</cim:ACLineSegment.r>
 		<cim:ACLineSegment.x>0.7</cim:ACLineSegment.x>
+		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ACLineSegment>
 	<cim:Bay rdf:ID="_5b498a4e-d2de-7f41-8f17-be255b3489db">
@@ -299,8 +313,7 @@ Change log:
 		<cim:Switch.ratedCurrent>1250</cim:Switch.ratedCurrent>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
-	</cim:Breaker>
-		<cim:Breaker rdf:ID="_dd41276d-9ea7-47a8-a0f3-65215c8225a5">
+	<cim:Breaker rdf:ID="_dd41276d-9ea7-47a8-a0f3-65215c8225a5">
 		<cim:IdentifiedObject.description>Engene 023kV NT1 Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 023 NT1BR</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
@@ -951,7 +964,6 @@ Change log:
 		<cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 	</cim:EquivalentInjection>
 
@@ -963,6 +975,7 @@ Change log:
 		<cim:SynchronousMachine.minU>0</cim:SynchronousMachine.minU>
 		<cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
 		<cim:SynchronousMachine.r>0.43445</cim:SynchronousMachine.r>
+		<cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
 		<cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
 		<cim:RotatingMachine.GeneratingUnit rdf:resource="#_b7057d99-e21a-4ba1-9cef-15aeeee4232a"/> 
 		<cim:RotatingMachine.ratedS>350</cim:RotatingMachine.ratedS>
@@ -989,7 +1002,7 @@ Change log:
 		<cim:GeneratingUnit.nominalP>200</cim:GeneratingUnit.nominalP>
 		<cim:GeneratingUnit.ratedGrossMaxP>380</cim:GeneratingUnit.ratedGrossMaxP>
 		<cim:GeneratingUnit.ratedNetMaxP>350</cim:GeneratingUnit.ratedNetMaxP>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
@@ -1016,7 +1029,6 @@ Change log:
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
 		<cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_3d51330c-7528-4efb-8edc-e61dcc145ac4"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 	</cim:EquivalentInjection>
 	
@@ -1034,6 +1046,7 @@ Change log:
 		<cim:ShuntCompensator.nomU>22</cim:ShuntCompensator.nomU>
 		<cim:ShuntCompensator.normalSections>1</cim:ShuntCompensator.normalSections>
 		<cim:LinearShuntCompensator.bPerSection>0.01983500085771084</cim:LinearShuntCompensator.bPerSection>
+		<cim:LinearShuntCompensator.gPerSection>0</cim:LinearShuntCompensator.gPerSection>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_5b299df4-d232-4348-9d1e-096f6d10fb5a"/>
 	</cim:LinearShuntCompensator>
 	<cim:LoadArea rdf:ID="_92d33b39-7034-11eb-a65a-74e5f963e191">
@@ -1057,7 +1070,11 @@ Change log:
 	</cim:LoadBreakSwitch>
 	<cim:LoadResponseCharacteristic rdf:ID="_6963e27e-9aaa-df42-a71c-1268f02e472f">
 		<cim:LoadResponseCharacteristic.pConstantPower>1</cim:LoadResponseCharacteristic.pConstantPower>
+		<cim:LoadResponseCharacteristic.pConstantCurrent>0</cim:LoadResponseCharacteristic.pConstantCurrent>
+		<cim:LoadResponseCharacteristic.pConstantImpedance>0</cim:LoadResponseCharacteristic.pConstantImpedance>
 		<cim:LoadResponseCharacteristic.qConstantPower>1</cim:LoadResponseCharacteristic.qConstantPower>
+		<cim:LoadResponseCharacteristic.qConstantCurrent>0</cim:LoadResponseCharacteristic.qConstantCurrent>
+		<cim:LoadResponseCharacteristic.qConstantImpedance>0</cim:LoadResponseCharacteristic.qConstantImpedance>
 		<cim:LoadResponseCharacteristic.exponentModel>false</cim:LoadResponseCharacteristic.exponentModel>
 		<cim:IdentifiedObject.name>CONST_P_Q LRC</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Constant q and q power load response characteristic</cim:IdentifiedObject.description>
@@ -1253,6 +1270,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>0.84</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
@@ -1267,6 +1285,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf7-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
@@ -1281,6 +1300,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_05548bc6-70a0-44b7-8bac-20f745974e43"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>2.37</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
@@ -1295,6 +1315,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
@@ -1309,6 +1330,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>1.52</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
@@ -1323,6 +1345,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf3-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Zn"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>3.1</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>0.23</cim:PowerTransformerEnd.ratedU>
@@ -1337,6 +1360,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfd-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>5.081</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
@@ -1351,6 +1375,7 @@ Change log:
 		<cim:TransformerEnd.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bff-7034-11eb-a65a-74e5f963e191"/>
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
+		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
 		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>0.400</cim:PowerTransformerEnd.ratedU>
