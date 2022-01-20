@@ -1,10 +1,8 @@
-#Using Neo4J for importing DIGIN Grunnprofil
+# Using Neo4J for importing DIGIN Grunnprofil
 
 This is madde for sharing what Digin Grunnprofil have made for importing .xml files into Neo4J with cypher. The reason for making this is to have visual method to check quality errors in conductivity. DIGIN can not take any responsibillity for errors in using this code.
 
-[[_TOC_]]
-
-##Classes
+## Classes
 - ACLineSegment
 - (BaseVoltage)
 - Bay
@@ -33,10 +31,10 @@ This is madde for sharing what Digin Grunnprofil have made for importing .xml fi
 - Terminal
 - VoltageLevel
 
-##Cypher Code
+## Cypher Code
 
-###Conducting
-####ACLineSegment
+### Conducting
+#### ACLineSegment
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -72,7 +70,7 @@ m.shortCircuitEndTemperature = shortCircuitEndTemperature._text
 ;
 ```
 
-####BusbarSection
+#### BusbarSection
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -92,7 +90,7 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-####ConformLoad
+#### ConformLoad
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -112,7 +110,7 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-####ConnectivityNode
+#### ConnectivityNode
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -130,7 +128,7 @@ m.ConnectivityNodeContainer = substring(ConnectivityNodeContainer.`rdf:resource`
 ;
 ```
 
-####EquivalentInjection
+#### EquivalentInjection
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -150,7 +148,7 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ;
 ```
 
-####ExternalNetworkInjection
+#### ExternalNetworkInjection
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -176,7 +174,7 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ;
 ```
 
-####PowerTransformer
+#### PowerTransformer
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -194,9 +192,9 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-####Switch
+#### Switch
 
-####Breaker
+#### Breaker
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -216,7 +214,7 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-#####Disconnector
+##### Disconnector
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -236,7 +234,7 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-#####Fuse
+##### Fuse
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -256,7 +254,7 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-#####LoadBreakSwitch
+##### LoadBreakSwitch
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -276,7 +274,7 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-####Terminal
+#### Terminal
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -298,7 +296,7 @@ m.ConductingEquipment = substring(ConductingEquipment.`rdf:resource`, 1)
 ;
 ```
 
-####StationSupply
+#### StationSupply
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -318,8 +316,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 ```
 
-###Non Conducting
-####BaseVoltage
+### Non Conducting
+#### BaseVoltage
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -337,7 +335,7 @@ m.nominalVoltage = nominalVoltage._text
 ;
 ```
 
-####Bay
+#### Bay
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -357,7 +355,7 @@ m.Substation = substring(Substation.`rdf:resource`, 1)
 ;
 ```
 
-####PowerTransformerEnd
+#### PowerTransformerEnd
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -395,7 +393,7 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ;
 ```
 
-####PSRType
+#### PSRType
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -411,7 +409,7 @@ m.name = name._text
 ;
 ```
 
-####RatioTapChanger
+#### RatioTapChanger
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -445,7 +443,7 @@ m.TransformerEnd = substring(TransformerEnd.`rdf:resource`, 1)
 ;
 ```
 
-####SubGeographicalRegion
+#### SubGeographicalRegion
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -463,7 +461,7 @@ m.description = description._text
 ;
 ```
 
-####Substation
+#### Substation
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -485,7 +483,7 @@ m.SubGeographicalRegion = substring(SubGeographicalRegion.`rdf:resource`, 1)
 ;
 ```
 
-####VoltageLevel
+#### VoltageLevel
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -505,7 +503,7 @@ m.Substation = substring(Substation.`rdf:resource`, 1)
 ;
 ```
 
-####UsagePoint
+#### UsagePoint
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -523,7 +521,7 @@ m.Equipments = 	substring(Equipments.`rdf:resource`, 1)
 ;
 ```
 
-####CurrentLimit
+#### CurrentLimit
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -545,7 +543,7 @@ m.OperationalLimitType = substring(OperationalLimitType.`rdf:resource`, 1)
 ;
 ```
 
-####OperationalLimitSet
+#### OperationalLimitSet
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -565,7 +563,7 @@ m.Terminal = substring(Terminal.`rdf:resource`, 1)
 ;
 ```
 
-####OperationalLimitType
+#### OperationalLimitType
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -583,7 +581,7 @@ m.acceptableDuration = acceptableDuration._text
 ;
 ```
 
-###Define Relations
+### Define Relations
 ```
 MATCH (n), (b) WHERE n.PSRType = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
 
@@ -616,7 +614,7 @@ MATCH (n), (b) WHERE n.OperationalLimitType = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
 MATCH (n), (b) WHERE n.ConnectivityNodeContainer = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
 ```
 
-###Total Script
+### Total Script
 ```
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
@@ -1153,7 +1151,7 @@ MATCH (n), (b) WHERE n.OperationalLimitType = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
 MATCH (n), (b) WHERE n.ConnectivityNodeContainer = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
 ```
 
-###Only conductivity
+### Only conductivity
 ```cypher
 //Input files: DIGIN10-24-MV1_EQ.xml and/or Nordic44Boundary_24_EQBP.xml
 
