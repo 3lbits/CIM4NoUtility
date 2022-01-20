@@ -21,6 +21,7 @@ The Modeling guide is relevant for the following profiles:
 . Steady State Hypothesis (SSH)
 . Geographical Location (GL)
 . Topology (TP)
+. Customer (CU)
 . Diagram Layout (DL)
 . State Variables (SV)
 . Equipment Boundary (EQBP)
@@ -36,7 +37,13 @@ An overview of the profiles and their respective classes can be found in the bel
 [#tab:overview_profiles] 
 |===
 |*Equipment* |*Steady State Hypothesis*| *Geographical Location* 
-1.7+<.^|   
+1.9+<.<|  *LV:*
+    Name
+    NameType
+    NameType Authority
+    UsagePoint
+
+    *LV+MV:*
     ACLineSegment 
     Bay
     Breaker
@@ -44,33 +51,43 @@ An overview of the profiles and their respective classes can be found in the bel
     ConformLoad
     ConformLoadGroup
     ConnectivityNode
-    ControlArea
     CurrentLimit
-    Disconnector
     EquivalentInjection
+    LoadArea
+    OperationalLimitSet
+    OperationalLimitType
+    SubGeographicalRegion
+    SubLoadArea
+    Substation
+    Terminal 
+    Voltage level
+
+    *MV:*
+    ControlArea
+    Disconnector
     SynchronousMachine
     GeneratingUnit
     Line
     LinearShuntCompensator
-    LoadArea
     LoadBreakSwitch
     LoadResponseCharacteristic
-    OperationalLimitSet
-    OperationalLimitType
     PetersenCoil
     PowerTransformer
     PowerTransformerEnd
     RatioTapChanger
     RegulatingControl
-    SubGeographicalRegion
-    SubLoadArea
-    Substation
     TapChangerControl
-    Terminal 
-    Voltage level
 // ------------------------------------------------------------
-1.3+<.<|   Breaker
+1.5+<.<|   *LV:*
+    ACLineSegment
+    BusbarSection
+
+    *LV+MV:*
+    Breaker
     ConformLoad
+    Terminal
+
+    *MV:*
     ControlArea
     Disconnector
     EquivalentInjection
@@ -81,21 +98,42 @@ An overview of the profiles and their respective classes can be found in the bel
     LoadBreakSwitch
     RegulatingTapChanger
     TapChangerControl
-    Terminal
+    
 // ------------------------------------------------------------
-|   CoordinateSystem
+|   *LV+MV:*
+    CoordinateSystem
     Location
     PositionPoint 
     pass:q[<br>]
-    pass:q[<br>]
+    
 // ------------------------------------------------------------ 
 |*Topology*
-|   TopologicalNode
+|   *MV:*
+    TopologicalNode
     pass:q[<br>]
+    
+
+// ------------------------------------------------------------ 
+|*Customer*
+|   *LV:*
+    UsagePoint  
     pass:q[<br>]
-   
+    
+
 // ------------------------------------------------------------     
-|*Equipment Boundary* |   *Diagram Layout* 
+// ------------------------------------------------------------     
+|*Diagram Layout*  |   *Equipment Boundary*
+
+// ------------------------------------------------------------ 
+|   *LV+MV:*
+    Diagram
+
+    *MV:*
+    DiagramObject
+    DiagramObjectPoint
+    DiagramObjectStyle
+    TextDiagramObject
+
 1.3+<.<|   BasePower
     BaseVoltage
     GeographicalRegion
@@ -105,14 +143,10 @@ An overview of the profiles and their respective classes can be found in the bel
     VoltageLevel
     Bay
     ConnectivityNode
-// ------------------------------------------------------------ 
-|   Diagram
-    DiagramObject
-    DiagramObjectPoint
-    DiagramObjectStyle
-    TextDiagramObject
+
 | *State Variables*
-|   SvPowerFlow
+|   *MV:*
+    SvPowerFlow
     SvShuntCompensatorSections
     SvStatus
     SvTapStep
@@ -132,22 +166,16 @@ The interested reader is referred to IEC 61970-600-1 (CGMES).
 
 
 === Units
-The following units have been used for the DIGIN10 model:
+CGMES 2.4.15 currently only supports fixed units for any given attribute. The following units have been used for the DIGIN10 model:
 --
 [grid=none, frame=none, width=30em]
 |===
 ||
-|Length
-Power
-Reactive Power
-Voltage
-Current
-//
-|m
-MW
-MVAr
-kV
-A
+|Length|m
+|Power|MW
+|Reactive Power |MVAr
+|Voltage |kV
+|Current |A
 
 |===
 --
