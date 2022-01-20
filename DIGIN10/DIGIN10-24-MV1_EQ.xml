@@ -268,7 +268,6 @@ Change log:
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c">
-		<cim:IdentifiedObject.aliasName>Nedenes 22 Telema 2 Br1</cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Nedenes 22kV Telemarkstien 2 Breaker 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>NEDENES 22 TELEMA 2 BR1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
