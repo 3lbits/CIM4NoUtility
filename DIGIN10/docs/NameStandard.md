@@ -3,7 +3,7 @@
 In the Digin model the following standards are used for cim:IdentifiedObject.name and cim:IdentifiedObject.Description.
 
 Name of an instance must be unique.
-For each class there is an example of how the a name and description are composed.
+For each class there is an example of how the name and description are composed.
 General rule:
 
 - Name string shall be in capital letters
@@ -48,6 +48,14 @@ substation | voltage | busbar
 | FROLAND 132A | Froland 132kV A Busbar Section  |
 | NEDENES 04A  | Nedenes 400V A Busbar Section 1 |
 
+### cim:ConformLoad
+substation | voltage | feeder | short class name | sequence
+
+| Name               | Description                            |
+| ------------------ | :------------------------------------- |
+| FROLAND 132 BA1 CL | Froland 132 Bamle 1 Conform Load       |
+| TELEMA2 04 CL1     | Telemarkstien2 400 Volt Conform Load 1 |
+
 ### cim:ConnectivityNode
 
 (Connectivitynode is normally not included in a name standard).
@@ -55,7 +63,7 @@ substation | voltage | busbar
 | Name           | Description                                  |
 | -------------- | :------------------------------------------- |
 | ARENDAL CN 007 |                                              |
-| TELEMA2 04 CN1 | 400 Volt Telemarkstien 2 Connectivity Node 1 |
+| TELEMA2 04 CN1 | Telemarkstien2 400 Volt Connectivity Node 1 |
 
 ### cim:Disconnector
 
@@ -165,7 +173,14 @@ substation
 | -------------- | :----------------------------------- |
 | ENGENE         | Engene Substation                    |
 | T_ENGENE       | Engene T-junction                    |
-| TELEMA2 04 CB4 | 400 Volt Telemarkstien 2 Cable Box 4 |
+| TELEMA2 04 CB4 | Telemarkstien2 400 Volt Cable Box 4  |
+
+### cim:SynchronousMachine
+substation | voltage | short class name
+
+| Name           | Description                           |
+| -------------- | :------------------------------------ |
+| ARENDAL 420 M1 | Arendal 420kV Transmission Equivalent |
 
 ### cim:TapChangerControl
 
@@ -183,7 +198,7 @@ substation | short class name
 | ------------------------ | :---------------------------------- |
 | T1 132ARENDAL-FROLAND1   | Arendal Side                        |
 | T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                         |
-| 04 TELEMA2 T1            | 400 Volt Telemarkstien 2 Terminal 1 |
+| 04 TELEMA2 T1            | Telemarkstien2 400 Volt  Terminal 1 |
 
 ### cim:UsagePoint
 
@@ -191,4 +206,4 @@ substation | voltage | short class name | sequence
 
 | Name             | Description                           |
 | ---------------- | :------------------------------------ |
-| TELEMA2 04 UP007 | 400 Volt Telemarkstien 2 UsagePoint 7 |
+| TELEMA2 04 UP007 | Telemarkstien2 400 Volt UsagePoint 7 |
