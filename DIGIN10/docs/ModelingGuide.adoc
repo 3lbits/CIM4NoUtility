@@ -236,7 +236,7 @@ Breaker is used instead of Fuse to ensure CGMES 2.4.15 conformity.
 
 
 === ConformLoadGroup
-ConformLoadGroup is used as a container for loads.
+ConformLoadGroup is used as a container for loads. We have decided to use ConformLoadGroup for all ConformLoads below the same low voltage PowerTransformer.
 
 === BusbarSection
 It was decided that BusbarSection should be connected to a VoltageLevel when possible.
