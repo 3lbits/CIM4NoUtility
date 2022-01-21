@@ -14,18 +14,21 @@ CIM16 and CGMES 2.4 is the basis for the profiles and test model developed and w
 - CIM = Common Information Model
 - CGMES = Common Grid Model Exchange Standard
 - MV = Medium Voltage (in this model: regional and local distribution grid)
+- LV = Low Voltage (in this model: low voltage local distribution grid)
+- CU = Customer profile
 
 ## Versions
-DIGIN10-24-MV1_v0.5 - First edition of released model
-Version v0.5 is for power flow and simulation utilization
+DIGIN10-24-MV1_v0.5 - First edition of released model - Power flow and simulation utilization using CIM16
+DIGIN10-24-v1.0 - Updated model with MV and LV - Power flow and simulation utilization using CIM16
 
 ## Specifications
-CIM16 for MV grid
+CIM16 for MV and LV grid
 
 ## Content
 The DIGIN10 model contains the following
 - profiles according to CIM16/CGMES2.4.15: DL, GL, SV, TP, SSH, EQ
-  - All files are CIM.XML files for MV grid
+  - All files are CIM.XML files
+- Customer profiles for both MV and LV
 - Boundary profile for interopability with NORDIC44 
 - Validation files from CIMDesk
 - Drawio images of EQ profile
