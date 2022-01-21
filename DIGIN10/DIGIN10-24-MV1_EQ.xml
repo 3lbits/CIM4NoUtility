@@ -43,7 +43,6 @@ Change log:
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 	</cim:ACLineSegment>
-	
 	<cim:ACLineSegment rdf:ID="_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
 		<cim:IdentifiedObject.description>230V ZT1-EFC ACLineSegment 2</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>023 ZT1-EFC ACLS 2</cim:IdentifiedObject.name>
@@ -182,31 +181,31 @@ Change log:
 	</cim:Bay>
 	<cim:Bay rdf:ID="_9b11eb79-4938-451f-84cd-8d2be79a03e9">
 		<cim:IdentifiedObject.description>Engene 22kV Nedenes 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE   22NE1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22NE1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_29ace056-c4e8-46ea-8935-38f32ddbee49">
 		<cim:IdentifiedObject.description>Engene 22kV Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE   22T1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22T1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_9441fd8e-3941-4e4f-844d-223701649f52">
 		<cim:IdentifiedObject.description>Engene 132kV T-junction Engene 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE  132T_E1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 132T_E1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_5b299df4-d232-4348-9d1e-096f6d10fb5a">
 		<cim:IdentifiedObject.description>Engene 22kV Shunt Compensator 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE  22SC1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22SC1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_4ef626b9-586b-4845-80eb-6a008766c8f5">
 		<cim:IdentifiedObject.description>Engene 22kV Neutral Connection Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE  22ZT1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22ZT1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_7544cd75-be72-9644-b333-a932ff3ba603">
-		<cim:IdentifiedObject.description>Engene 230V Netral Transformer 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.description>Engene 230V Neutral Transformer 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 023 ZT1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
 	</cim:Bay>
@@ -227,7 +226,7 @@ Change log:
 	</cim:Bay>
 	<cim:Bay rdf:ID="_47f5ebe7-1d03-4d20-b599-9b6068319987">
 		<cim:IdentifiedObject.description>Nedenes 22kV Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES  22T1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>NEDENES 22T1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_2d80e032-6152-0a44-8206-45b04656dc85">
@@ -268,7 +267,6 @@ Change log:
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:Breaker>
 	<cim:Breaker rdf:ID="_38cd8874-fb01-462c-8c85-95dac14fee9c">
-		<cim:IdentifiedObject.aliasName>Nedenes 22 Telema 2 Br1</cim:IdentifiedObject.aliasName>
 		<cim:IdentifiedObject.description>Nedenes 22kV Telemarkstien 2 Breaker 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>NEDENES 22 TELEMA 2 BR1</cim:IdentifiedObject.name>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
@@ -356,17 +354,17 @@ Change log:
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_47bfbe16-6fa2-4b6c-9b75-7453efebafbe">
 		<cim:IdentifiedObject.description>Engene 023kV A Busbar Section 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE  023A</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 023A</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_681a2160-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Engene 22kV A Busbar Section 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE  22A</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22A</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_84d18a79-be9c-4b68-be21-36c3d7d40c58">
 		<cim:IdentifiedObject.description>Engene 132kV A Busbar Section 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE  132A</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 132A</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_681a1eac-5a55-11eb-a658-74e5f963e191">
@@ -1665,14 +1663,14 @@ Change log:
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_fa0a4d49-abad-4371-a75e-3051034a834a">
-		<cim:IdentifiedObject.name>T1 ENGENE 22  NT1 AD_S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T1 ENGENE 22 NT1 AD_S</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Bus Side</cim:IdentifiedObject.description>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_681a2162-5a55-11eb-a658-74e5f963e191"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_57b1462c-259c-426b-86f9-f6f6f2af9c5c"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_54d22a2e-c361-45e2-94cd-08a2573b3c4e">
-		<cim:IdentifiedObject.name>T1 ENGENE 22  NT10E</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T1 ENGENE 22 NT10E</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_4e8ec3b0-386c-43d4-8311-e98d8a8f565a"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_808643b7-4e47-4faa-b906-999d0f1fe32b"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
@@ -1856,7 +1854,7 @@ Change log:
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_d1b627f7-1429-4a78-845a-17e9a7068a4f">
-		<cim:IdentifiedObject.name>T2  ENGENE 22 NT1 AD_S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T2 ENGENE 22 NT1 AD_S</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_4e8ec3b0-386c-43d4-8311-e98d8a8f565a"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_57b1462c-259c-426b-86f9-f6f6f2af9c5c"/>
 		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
@@ -2194,13 +2192,13 @@ Change log:
 		<cim:IdentifiedObject.description>Arendal 132kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e4e-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>ENGENE   22</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Engene 22kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e17-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>ENGENE  132</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 132</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Engene 132kV Voltage Level</cim:IdentifiedObject.description>
@@ -2224,7 +2222,7 @@ Change log:
 		<cim:IdentifiedObject.description>Nedenes 22kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e3e-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>T_ENGENE132</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T_ENGENE 132</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e3c-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>T-junction Engene 132kV Voltage Level</cim:IdentifiedObject.description>
