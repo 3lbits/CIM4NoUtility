@@ -19,6 +19,7 @@ CIM16 and CGMES 2.4 is the basis for the profiles and test model developed and w
 
 ## Versions
 DIGIN10-24-MV1_v0.5 - First edition of released model - Power flow and simulation utilization using CIM16
+
 DIGIN10-24-v1.0 - Updated model with MV and LV - Power flow and simulation utilization using CIM16
 
 ## Specifications
