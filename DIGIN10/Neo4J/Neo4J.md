@@ -1,6 +1,6 @@
 # Using Neo4J for importing DIGIN Grunnprofil
 
-This is madde for sharing what Digin Grunnprofil have made for importing .xml files into Neo4J with cypher. The reason for making this is to have visual method to check quality errors in conductivity. DIGIN can not take any responsibillity for errors in using this code.
+This is made for sharing what Digin Grunnprofil have made for importing .xml files into Neo4J with cypher. The reason for making this is to have visual method to check quality errors in conductivity. DIGIN can not take any responsibillity for errors in using this code.
 
 ## Classes
 - ACLineSegment
