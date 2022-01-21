@@ -63,7 +63,7 @@ substation | voltage | feeder | short class name | sequence
 | Name           | Description                                  |
 | -------------- | :------------------------------------------- |
 | ARENDAL CN 007 |                                              |
-| TELEMA2 04 CN1 | 400 Volt Telemarkstien 2 Connectivity Node 1 |
+| TELEMA2 04 CN1 | Telemarkstien2 400 Volt Connectivity Node 1 |
 
 ### cim:Disconnector
 
@@ -173,7 +173,7 @@ substation
 | -------------- | :----------------------------------- |
 | ENGENE         | Engene Substation                    |
 | T_ENGENE       | Engene T-junction                    |
-| TELEMA2 04 CB4 | 400 Volt Telemarkstien 2 Cable Box 4 |
+| TELEMA2 04 CB4 | Telemarkstien2 400 Volt Cable Box 4  |
 
 ### cim:SynchronousMachine
 substation | voltage | short class name
@@ -198,7 +198,7 @@ substation | short class name
 | ------------------------ | :---------------------------------- |
 | T1 132ARENDAL-FROLAND1   | Arendal Side                        |
 | T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                         |
-| 04 TELEMA2 T1            | 400 Volt Telemarkstien 2 Terminal 1 |
+| 04 TELEMA2 T1            | Telemarkstien2 400 Volt  Terminal 1 |
 
 ### cim:UsagePoint
 
