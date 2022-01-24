@@ -17,8 +17,8 @@
     </md:FullModel>
 
     <cim:ACLineSegment rdf:ID="_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -37,8 +37,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_46bce40c-71c2-4d19-b63f-78a69c460b0e">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -57,8 +57,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_84329e8e-2efe-4870-82db-a0bf9a768bd2">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -77,8 +77,8 @@
     </cim:ACLineSegment>
 	
     <cim:ACLineSegment rdf:ID="_ead7f7fd-d132-43b5-b561-1b0e65b0a562">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -97,8 +97,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_3f90847f-9450-47aa-a2fa-714cc5353867">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 6</cim:IdentifiedObject.name> 
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 6</cim:IdentifiedObject.name> 
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -117,8 +117,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_6f519536-eefe-452e-8294-c115bf21581d">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -137,8 +137,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_446700b3-38fb-4cfe-aa71-11fdf6118a49">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 8</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 8</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 8</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -157,8 +157,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_320b9701-cae3-478e-a70b-03d1736ed4e3">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 9</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 9</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 9</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -177,8 +177,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_8dcf0a96-206b-4da2-814d-4030ac0dfaec">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 10</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 10</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 10</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -197,8 +197,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_797fe5ce-1857-4bea-8a0f-728a4b4c30ed">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 11</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 11</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 11</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 11</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -217,8 +217,8 @@
     </cim:ACLineSegment>
 	
     <cim:ACLineSegment rdf:ID="_f2ed5944-a394-4802-8ec9-936bc60e5bc4">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 12</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 12</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 12</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 12</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -237,8 +237,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_81567f71-8233-4e19-8357-e75d35e89470">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 13</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 13</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 13</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 13</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -257,8 +257,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_fe0a5228-5eb4-4008-9ee6-d22389f798e9">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 14</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 14</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 14</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 14</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -277,8 +277,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_93efed67-8a75-487c-8e1d-0d31ee4a2fc3">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 15</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 15</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 15</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 15</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -297,8 +297,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_b6bbea56-f530-4f7b-9a94-9b7fdeb58779">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 16</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 16</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 16</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 16</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -317,8 +317,8 @@
     </cim:ACLineSegment>
 	
     <cim:ACLineSegment rdf:ID="_e0e00668-9e76-461f-b310-8c84afb9ffe6">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 17</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 17</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 17</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 17</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -337,8 +337,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_50e4056a-92e6-4bc2-b6e1-4d66f1624c38">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 18</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 18</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 18</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 18</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -357,8 +357,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_70b19e4c-edb9-4957-885c-59b7a515724f">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 19</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 19</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 19</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 19</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -377,8 +377,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_43dbe66c-a342-44b0-b9cf-058c784cef1d">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 20</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 20</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 20</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 20</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -397,8 +397,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_0103615e-f6cc-4cb8-a338-a7fb714cdfa2">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 21</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 21</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 21</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 21</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -417,8 +417,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_919be6f3-be6b-449d-af3d-4d0a7a221ff5">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 22</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 22</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 22</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 22</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -437,8 +437,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_30d15518-d0ac-4800-a5c1-da8593c790ed">
-        <cim:IdentifiedObject.description>Telemarkstien 2 400V ACLineSegment 23</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS 23</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 23</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS 23</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
