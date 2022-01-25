@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mr:MeterReadings xmlns:mr = "http://iec.ch/TC57/2011/MeterReadings#">
+    <mr:MeterReading>
+    
+    <!--Meter Reading ("Målerstand")-->
+        <mr:Readings>
+            <mr:value>3</mr:value>
+            <mr:timeStamp>2022-01-17T08:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T08:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:ReadingType rdf:resource="#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_25408122-2e2d-4064-b64a-d7520fc65ae0"/>
+            </mr:ReadingQualities>
+        </mr:Readings>
+
+        <mr:Readings>
+            <mr:value>6</mr:value>
+            <mr:timeStamp>2022-01-17T09:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T09:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:ReadingType rdf:resource="#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_25408122-2e2d-4064-b64a-d7520fc65ae0"/>
+            </mr:ReadingQualities>
+        </mr:Readings>
+
+        <mr:Readings>
+            <mr:value>11.6</mr:value>
+            <mr:timeStamp>2022-01-17T10:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T10:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:ReadingType rdf:resource="#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_25408122-2e2d-4064-b64a-d7520fc65ae0"/>
+        </mr:Readings>
+        
+        <mr:Readings>
+            <mr:value>14</mr:value>
+            <mr:timeStamp>2022-01-17T11:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T11:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:ReadingType rdf:resource="#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_25408122-2e2d-4064-b64a-d7520fc65ae0"/>
+            </mr:ReadingQualities>
+        </mr:Readings>
+
+    <!--Hourly Consumption ("Volum pr time")-->
+        <mr:Readings>
+            <mr:value>3</mr:value>
+            <mr:timeStamp>2022-01-17T09:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T09:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:timePeriod>
+                <mr:start>2022-01-17T08:00:00Z</mr:start>
+                <mr:end>2022-01-17T09:00:00Z</mr:end>
+            </mr:timePeriod>
+            <mr:ReadingType rdf:resource="#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_15c8e1c0-6fc3-43f0-b4e5-97a07a323f2e"/>
+            </mr:ReadingQualities>
+        </mr:Readings>
+
+        <mr:Readings>
+            <mr:value>5.6</mr:value>
+            <mr:timeStamp>2022-01-17T10:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T10:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:timePeriod>
+                <mr:start>2022-01-17T09:00:00Z</mr:start>
+                <mr:end>2022-01-17T10:00:00Z</mr:end>
+            </mr:timePeriod>
+            <mr:ReadingType rdf:resource="#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_dfc3f840-d759-4ca7-a075-76183932dba8"/>
+        </mr:Readings>
+        
+        <mr:Readings>
+            <mr:value>2.4</mr:value>
+            <mr:timeStamp>2022-01-17T11:00:00Z</mr:timeStamp>
+            <mr:reportedDateTime>2022-01-17T11:10:16.1652703Z</mr:reportedDateTime>
+            <mr:source>Test System</mr:source>
+            <mr:timePeriod>
+                <mr:start>2022-01-17T10:00:00Z</mr:start>
+                <mr:end>2022-01-17T09:11:00Z</mr:end>
+            </mr:timePeriod>
+            <mr:ReadingType rdf:resource="#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"/>
+            <mr:ReadingQualities>
+                <mr:ReadingQualityType rdf:resource="#_b6f62fdf-83ca-43ea-8b6b-a3e8a66cfa29"/>
+            </mr:ReadingQualities>
+        </mr:Readings>
+
+        <mr:UsagePoint rdf:resource="#_6bebeaee-e4f3-5ee7-afcb-e21b56a4e174"/>
+        <mr:Meter rdf:resource="#_608fc1f5-79a1-5030-a1d6-f9e0a9b92032"/>
+
+    </mr:MeterReading>
+</mr:MeterReadings>
