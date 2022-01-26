@@ -12,7 +12,7 @@
         <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>
-        <md:Model.version>01v09</md:Model.version>
+        <md:Model.version>1</md:Model.version>
         <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
     </md:FullModel>
 
@@ -33,7 +33,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -54,7 +53,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -75,7 +73,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 	
@@ -96,7 +93,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -117,7 +113,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -138,7 +133,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -159,7 +153,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -180,7 +173,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -201,7 +193,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -222,7 +213,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 	
@@ -243,7 +233,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -264,7 +253,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -285,7 +273,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -306,7 +293,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -327,7 +313,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 	
@@ -343,12 +328,11 @@
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0,076799999740563</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0,019199999935141</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.076799999740563</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.019199999935141</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0,018095573861056</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0,004523893465264</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
+        <cim:ACLineSegment.x0>0.018095573861056</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.004523893465264</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -369,7 +353,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -390,7 +373,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -411,7 +393,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -432,7 +413,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -453,7 +433,6 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -469,12 +448,11 @@
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0,076799999740563</cim:ACLineSegment.r0>
-        <cim:ACLineSegment.r>0,019199999935141</cim:ACLineSegment.r>
+        <cim:ACLineSegment.r0>0.076799999740563</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.r>0.019199999935141</cim:ACLineSegment.r>
         <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
-        <cim:ACLineSegment.x0>0,018095573861056</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.x>0,004523893465264</cim:ACLineSegment.x>
-        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14"/>
+        <cim:ACLineSegment.x0>0.018095573861056</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.x>0.004523893465264</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
     </cim:ACLineSegment>
 
@@ -489,14 +467,14 @@
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba2</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_719ee1dd-0516-4873-be5e-8e9da1507818">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba3</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_93e2b374-b3b5-40d7-8723-285903e47a05">
@@ -580,14 +558,14 @@
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 15</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba15</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_1cf342d4-9dfe-4cd8-ab14-b11c48e59b84">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 16</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba16</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_8cae3059-9886-40db-befa-ddfa56ba94cd">
@@ -642,14 +620,14 @@
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 24</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba24</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_14c73969-0d0b-436e-be34-8e8f5593c351">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Bay 25</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 Ba25</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
-        <cim:Bay.VoltageLevel rdf:resource="#_6a779c50-8ec1-48e6-8c9d-b36c379b08f4"/>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_76cfe1e0-43f8-4783-8110-a93ee808d6d6">
@@ -1288,7 +1266,6 @@
         <cim:EnergyConsumer.phaseConnection rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseShuntConnectionKind.Yn"/>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
         <cim:EnergyConsumer.qfixedPct>0</cim:EnergyConsumer.qfixedPct>
-        <cim:PowerSystemResource.Location rdf:resource="#_2c995837-a494-4d8e-b5b3-c256c6ed031d"/>
         <cim:Equipment.EquipmentContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
         <cim:ConformLoad.LoadGroup rdf:resource="#_4e3219d0-02d8-4535-a53b-a47d1e134add"/>
@@ -1866,11 +1843,9 @@
 		<cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
 		<cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
 		<cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
-		<cim:EquivalentInjection.r2></cim:EquivalentInjection.r2>
 		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
 		<cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
-		<cim:EquivalentInjection.x2></cim:EquivalentInjection.x2>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
 	</cim:EquivalentInjection>
@@ -1985,27 +1960,26 @@
         <cim:IdentifiedObject.name>04 TELEMA 2 CB1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB1</cim:IdentifiedObject.aliasName>
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
-        <cim:PowerSystemResource.Location rdf:resource="#_990df1b7-bd8c-4989-808f-15b73ae0b1f4"/>
     </cim:Substation>
 
     <cim:Substation rdf:ID="_4bb21420-ef4f-4af1-979e-863c3f484c51">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Cable Box 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CB2</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB1</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB2</cim:IdentifiedObject.aliasName>
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
     </cim:Substation>
 	
 	<cim:Substation rdf:ID="_ccffa748-19de-412a-9946-1fc846d98b71">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Cable Box 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CB3</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB1</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB3</cim:IdentifiedObject.aliasName>
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
     </cim:Substation>
 	
 	<cim:Substation rdf:ID="_37a3bd2c-7817-48de-aa01-13a324a6d6bd">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Cable Box 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CB4</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB1</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 CB4</cim:IdentifiedObject.aliasName>
         <cim:Substation.Region rdf:resource="#_d9b89685-1fed-4233-8f85-70fd9e6cfd23"/>
     </cim:Substation>
 	

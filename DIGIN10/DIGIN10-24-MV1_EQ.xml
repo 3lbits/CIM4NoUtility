@@ -4,34 +4,17 @@
 	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-  <!-- 
-Change log:
-2021-03-12: Inital Version
-2021-03-24: Updated to alighen with boundary model and removed item that is located in Nordic44.
-			Did some renaming.
-2021-04-28: Updated version and line. Some clean up (Svein Olsen)
-2021-04-28: Updated naming (Geir Abusdal)
-2021-05-12: Review of various classes and attributes (Helge Lund)
-2021-06-01: Export from CIMdesk and added the header and FullModel back. Updated version to 01v10. Removed the comments from ShortCircut.
-2021-06-02: Added aliasName. Removed item that is located in boundary file.
-2021-06-02: Removed connectivityNode.
-2021-06-02: Updated based on CIMdesk validation. Added ShortCircut attributes.
-2021-06-10: 01v18. Complete connectivity. Updated baset on review meeting.
-2021-06-16: 01v20. All equipment. (Svein Olsen)
--->
-
-  <md:FullModel rdf:about="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16">
-    <md:Model.created>2021-02-24T20:55:46.000Z</md:Model.created>
-    <md:Model.scenarioTime>2021-02-13T20:54:27Z</md:Model.scenarioTime>
-    <md:Model.description>DIGIN10 Medium Voltage EQ Test model.</md:Model.description>
-    <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
-    <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
-    <md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
-    <md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>
-    <md:Model.version>01v26</md:Model.version>
-    <!-- Dependent reference to Boundary EQ -->
-    <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
-  </md:FullModel>
+	<md:FullModel rdf:about="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16">
+		<md:Model.created>2021-02-24T20:55:46.000Z</md:Model.created>
+		<md:Model.scenarioTime>2021-02-13T20:54:27Z</md:Model.scenarioTime>
+		<md:Model.description>DIGIN10 Medium Voltage EQ Test model.</md:Model.description>
+		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
+		<md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
+		<md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
+		<md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>
+		<md:Model.version>1</md:Model.version>
+		<md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
+	</md:FullModel>
   
 	<cim:ACLineSegment rdf:ID="_681a26db-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>230V ZT1-EFC ACLineSegment 1</cim:IdentifiedObject.description>

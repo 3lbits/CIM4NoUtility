@@ -4,30 +4,16 @@
 			xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	
-<!-- 
-Change log:
-2021-03-12: Inital Version
-2021-03-29: Version 7. Clean up. 
-2021-04-28: 01v08. Updated version and line. Some clean up (Svein Olsen)
 
--->	
- <md:FullModel rdf:about="urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48">
-  <md:Model.created>2021-04-28T14:55:52.000Z</md:Model.created>
-  <md:Model.scenarioTime>2021-02-14T14:55:52Z</md:Model.scenarioTime>
-  <md:Model.description></md:Model.description>
-  <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV</md:Model.modelingAuthoritySet>
-  <md:Model.profile>http://entsoe.eu/CIM/StateVariables/4/1</md:Model.profile>
-  <md:Model.version>01v26</md:Model.version>
-  		<!-- Depending on EQ file -->
+  <md:FullModel rdf:about="urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48">
+    <md:Model.created>2021-04-28T14:55:52.000Z</md:Model.created>
+    <md:Model.scenarioTime>2021-02-14T14:55:52Z</md:Model.scenarioTime>
+    <md:Model.description></md:Model.description>
+    <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://entsoe.eu/CIM/StateVariables/4/1</md:Model.profile>
+    <md:Model.version>1</md:Model.version>
     <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16" />
-	<!-- Depending on SSH file 
-    <md:Model.DependentOn rdf:resource="_f19668c6-e0a1-4db7-bfee-7645392d0021" />
-	-->
-	<!-- Depending on TP file 
-  <md:Model.DependentOn rdf:resource="urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5"/>
-  -->
- </md:FullModel>
+  </md:FullModel>
  
  <cim:SvPowerFlow rdf:ID="_e8fa5d52-05f3-11ec-a66b-74e5f963e191">
     <cim:SvPowerFlow.Terminal rdf:resource="#_7d09271d-7826-442e-bc57-d1fa1955495e" />

@@ -4,12 +4,6 @@
 			xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	
-<!-- 
-Change log:
-2021-04-28: Inital Version (Svein Olsen)
-2021-04-28: Added Breakers (Thomas R Eriksen)
--->	
 
 	<md:FullModel rdf:about="_a529556e-aa95-4b28-b729-e9114f90880a">
 		<md:Model.created>2021-04-28T13:00:37.958Z</md:Model.created>
@@ -17,8 +11,7 @@ Change log:
 		<md:Model.description>DIGIN10 Low Voltage MAS1</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</md:Model.profile>
-		<md:Model.version>01v09</md:Model.version>
-		<!-- Depending on EQ file -->
+		<md:Model.version>1</md:Model.version>
 		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
 	</md:FullModel>
 
@@ -370,6 +363,13 @@ Change log:
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
 	</cim:ConformLoad>
+
+	<cim:EquivalentInjection rdf:about="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a">
+		<cim:EquivalentInjection.p>0.065</cim:EquivalentInjection.p>
+		<cim:EquivalentInjection.q>0.00728</cim:EquivalentInjection.q>
+		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
+		<cim:EquivalentInjection.regulationTarget>0.4</cim:EquivalentInjection.regulationTarget>
+	</cim:EquivalentInjection>
 
 	<cim:Terminal rdf:about="#_a9b61cc1-6066-49e5-bfbc-8ab93df5378f">
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
