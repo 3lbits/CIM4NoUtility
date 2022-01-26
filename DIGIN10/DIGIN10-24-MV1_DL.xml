@@ -6,24 +6,16 @@
 			xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" 
 			xmlns:pid="http://powerinfo.us/CIM/Diagram/1#" 			
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	
-<!-- 
-Change log:
-2021-04-28: Inital Version (Svein Olsen)
 
--->	
-
- <md:FullModel rdf:about="urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073">
-  <md:Model.created>2021-04-28T13:00:37.958Z</md:Model.created>
-  <md:Model.scenarioTime>2021-04-28T20:11:59Z</md:Model.scenarioTime>
-  <md:Model.description>Diagram DIGIN10 Medium Voltage MAS1</md:Model.description>
-  <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
-  <md:Model.profile>http://entsoe.eu/CIM/DiagramLayout/3/1</md:Model.profile>
-  <md:Model.version>01v08</md:Model.version>
-	<!-- Depending on EQ file -->
-    <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"/>
- </md:FullModel>
-
+	<md:FullModel rdf:about="urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073">
+		<md:Model.created>2021-04-28T13:00:37.958Z</md:Model.created>
+		<md:Model.scenarioTime>2021-04-28T20:11:59Z</md:Model.scenarioTime>
+		<md:Model.description>Diagram DIGIN10 Medium Voltage MAS1</md:Model.description>
+		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
+		<md:Model.profile>http://entsoe.eu/CIM/DiagramLayout/3/1</md:Model.profile>
+		<md:Model.version>1</md:Model.version>
+		<md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"/>
+	</md:FullModel>
 
 	<cim:Diagram rdf:ID="_7340e79a-9cff-4bb5-bddc-389e3358f71b">
 		<cim:IdentifiedObject.name>NEDENES</cim:IdentifiedObject.name>

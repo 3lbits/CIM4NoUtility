@@ -11,7 +11,7 @@
         <md:Model.description>Diagram DIGIN10 Low Voltage MAS</md:Model.description>
         <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
-        <md:Model.version>01v08</md:Model.version>
+        <md:Model.version>1</md:Model.version>
         <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
     </md:FullModel>
 
@@ -25,7 +25,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -52,7 +52,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</im:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -79,7 +79,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -106,7 +106,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -133,7 +133,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -160,7 +160,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -187,7 +187,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -214,7 +214,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -241,7 +241,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -268,7 +268,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -295,7 +295,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -322,7 +322,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
@@ -349,7 +349,7 @@
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
         <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
-        <cim:UsagePoint.grounded>true</cim:UsagePoint.groundedZ>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
         <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>

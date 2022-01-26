@@ -5,25 +5,13 @@
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-  <!-- 
-Change log:
-2021-03-12: Inital Version
-2021-03-24: Version 7. Updated by removing GeneratingUnit and SynchronousMachine to match EQ.
-2021-03-29: Version 7c. Removed dangling terminals.
-2021-04-28: 01v08. Updated version and line. Some clean up (Svein Olsen)
-2021-06-02: 01v10. Updated based on validation in CIMdesk (Svein Olsen)
-2021-06-10: 01v18. Updated on todays call. Full connectivity (Svein Olsen)
-2021-06-13: 01v20. Full model. (Svein Olsen)
--->
-
   <md:FullModel rdf:about="_f19668c6-e0a1-4db7-bfee-7645392d0021">
     <md:Model.created>2021-04-28T20:55:46.000Z</md:Model.created>
     <md:Model.scenarioTime>2021-04-28T20:54:27Z</md:Model.scenarioTime>
     <md:Model.description>DIGIN10 Medium Voltage MAS1</md:Model.description>
     <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
     <md:Model.profile>http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</md:Model.profile>
-    <md:Model.version>01v18</md:Model.version>
-    <!-- Depending on EQ file -->
+    <md:Model.version>1</md:Model.version>
     <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"/>
   </md:FullModel>
 
@@ -146,8 +134,8 @@ Change log:
 	</cim:RegulatingControl>
 
 	<cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
-		<cim:EquivalentInjection.p>0.0006</cim:EquivalentInjection.p>
-    <cim:EquivalentInjection.q>0</cim:EquivalentInjection.q>
+		<cim:EquivalentInjection.p>0.065</cim:EquivalentInjection.p>
+		<cim:EquivalentInjection.q>0.00728</cim:EquivalentInjection.q>
 		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
 		<cim:EquivalentInjection.regulationTarget>0.4</cim:EquivalentInjection.regulationTarget>
 	</cim:EquivalentInjection>
