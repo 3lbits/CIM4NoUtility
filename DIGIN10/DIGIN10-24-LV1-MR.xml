@@ -8,9 +8,18 @@
 		<md:Model.description>Diagram DIGIN10 Low Voltage Measurement</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1Measurement</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
-		<md:Model.version>01v08</md:Model.version>
+		<md:Model.version>2</md:Model.version>
 		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
 	</md:FullModel>
+
+	<cim:EndDeviceEventType rdf:ID="_aefb767d-8ed1-4b42-98d2-7a15dce4c512">
+		<cim:IdentifiedObject.description>ElectricMeter Power PhaseAVoltage MinLimitReached</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>3.26.131.150</cim:IdentifiedObject.name>
+		<cim:EndDeviceEventType.type>ElectricMeter</cim:EndDeviceEventType.Type>
+		<cim:EndDeviceEventType.domain>Power</cim:EndDeviceEventType.domain>
+		<cim:EndDeviceEventType.subDomain>PhaseAVoltage</cim:EndDeviceEventType.subDomain>
+		<cim:EndDeviceEventType.eventOrAction>MinLimitReached</cim:EndDeviceEventType.eventOrAction>
+	</cim:EndDeviceEventType>
 
 	<cim:MeterReading rdf:ID="_8b15e860-0f8e-4aeb-a2ac-9d939d7eb221">
 		<cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Meter Reading 1</cim:IdentifiedObject.description>
@@ -23,13 +32,10 @@
 	<cim:Reading rdf:ID="_39c01e70-cd71-4e0e-9bb7-ea7e41417225">
 		<cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Meter Reading 1 Register A+</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>04 TELEMA 2 Re1</cim:IdentifiedObject.name>
-<!--	<cim:MeasurementValue.sensorAccuracy></cim:MeasurementValue.sensorAccuracy> -->
 		<cim:MeasurementValue.timeStamp>2022-01-17T11:00:00Z</cim:MeasurementValue.timeStamp>
 		<cim:BaseReading.reportedDateTime>2022-01-17T11:10:16.1652703Z</cim:BaseReading.reportedDateTime>
 		<cim:BaseReading.source>Test System</cim:BaseReading.source>
 		<cim:BaseReading.value>14</cim:BaseReading.value>
-<!--	<cim:Reading.position></cim:Reading.position> -->
-<!--	<cim:Reading.reason></cim:Reading.reason> -->
 		<cim:Reading.valueMissing>false</cim:Reading.valueMissing>
 		<cim:Reading.MeterReadings rdf:resource="#_8b15e860-0f8e-4aeb-a2ac-9d939d7eb221"/>
 		<cim:Reading.ReadingType rdf:resource="#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"/>
@@ -38,24 +44,11 @@
 	<cim:ReadingType rdf:ID="_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d">
 		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
-<!--	<cim:ReadingType.macroPeriod></cim:ReadingType.macroPeriod> -->
-<!--	<cim:ReadingType.aggregate></cim:ReadingType.aggregate> -->
 		<cim:ReadingType.measuringPeriod rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MacroPeriodKind.sixtyMinute"/>
 		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.deltaData"/>
 		<cim:ReadingType.flowDirection rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#FlowDirectionKind.forward"/>
-<!--	<cim:ReadingType.commodity></cim:ReadingType.commodity> -->
-<!--	<cim:ReadingType.measurementKind></cim:ReadingType.measurementKind> -->
-<!--	<entsoe:ReadingType.interharmonicNumerator></cim:ReadingType.interharmonicNumerator> -->
-<!--	<entsoe:ReadingType.interharmonicDenominator></cim:ReadingType.interharmonicDenominator> -->
-<!--	<entsoe:ReadingType.argumentNumerator></cim:ReadingType.argumentNumerator> -->
-<!--	<entsoe:ReadingType.argumentDenominator></cim:ReadingType.argumentDenominator> -->
-<!--	<cim:ReadingType.tou></cim:ReadingType.tou> -->
-<!--	<cim:ReadingType.cpp></cim:ReadingType.cpp> -->
-<!--	<cim:ReadingType.consumptionTier></cim:ReadingType.consumptionTier> -->
-<!--	<cim:ReadingType.phases></cim:ReadingType.phases> -->
 		<cim:ReadingType.multiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
 		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh"/>
-<!--	<cim:ReadingType.currency></cim:ReadingType.currency> -->
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_c6c6865e-cd6a-4446-98c3-6e88cf39c999">
@@ -65,6 +58,38 @@
 		<cim:ReadingType.multiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
 		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh"/>
 		<cim:ReadingType.currency></cim:ReadingType.currency>
+	</cim:ReadingType>
+
+	<cim:ReadingType rdf:ID="_9d3ea4fc-f147-4914-96b8-57002612bb5f">
+		<cim:IdentifiedObject.description>average tenMinute summation electricitySecondaryMetered voltage phaseA (V)</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
+		<cim:ReadingType.aggregate rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AggregateKind.average"/>
+		<cim:ReadingType.measuringPeriod rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.tenMinute"/>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.summation"/>
+		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CommodityKind.electricitySecondaryMetered"/>
+		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.voltage"/>
+		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.phaseA"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V"/>
+	</cim:ReadingType>
+
+	<cim:ReadingType rdf:ID="_a7f2e17b-7720-44e5-b2c4-ab346a7a3828">
+		<cim:IdentifiedObject.description>indicating electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.indicating"/>
+		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CommodityKind.electricitySecondaryMetered"/>
+		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.current"/>
+		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.phaseA"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A"/>
+	</cim:ReadingType>
+
+	<cim:ReadingType rdf:ID="_1566e6e3-c69c-461a-8cca-492b5187f8dd">
+		<cim:IdentifiedObject.description>indicating electricitySecondaryMetered voltage phaseA (V)</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.indicating"/>
+		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CommodityKind.electricitySecondaryMetered"/>
+		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.voltage"/>
+		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.phaseA"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V"/>
 	</cim:ReadingType>
 
 	<cim:ReadingQualityType rdf:ID="_15c8e1c0-6fc3-43f0-b4e5-97a07a323f2e">

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mr:MeterReadings xmlns:mr = "http://iec.ch/TC57/2011/MeterReadings#">
     <mr:MeterReading>
-    
-    <!--Meter Reading ("Målerstand")-->
+
         <mr:Readings>
             <mr:value>3</mr:value>
             <mr:timeStamp>2022-01-17T08:00:00Z</mr:timeStamp>
@@ -46,7 +45,6 @@
             </mr:ReadingQualities>
         </mr:Readings>
 
-    <!--Hourly Consumption ("Volum pr time")-->
         <mr:Readings>
             <mr:value>3</mr:value>
             <mr:timeStamp>2022-01-17T09:00:00Z</mr:timeStamp>

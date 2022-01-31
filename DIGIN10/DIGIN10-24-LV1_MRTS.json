@@ -9,12 +9,12 @@
                         "reportedDateTime": "2022-01-17T08:10:16.1652703Z",
                         "source": "Test System",
                         "ReadingType": {
-                            "ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
+                            "@ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
+                                    "@ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
                                 }
                             }
                         ]
@@ -25,12 +25,12 @@
                         "reportedDateTime": "2022-01-17T09:10:16.1652703Z",
                         "source": "Test System",
                         "ReadingType": {
-                            "ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
+                            "@ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
+                                    "@ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
                                 }
                             }
                         ]
@@ -41,12 +41,12 @@
                         "reportedDateTime": "2022-01-17T10:10:16.1652703Z",
                         "source": "Test System",
                         "ReadingType": {
-                            "ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
+                            "@ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
+                                    "@ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
                                 }
                             }
                         ]
@@ -57,12 +57,12 @@
                         "reportedDateTime": "2022-01-17T11:10:16.1652703Z",
                         "source": "Test System",
                         "ReadingType": {
-                            "ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
+                            "@ref": "#_b3bbe5d9-5d46-4456-8f06-86d87a5aad8d"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
+                                    "@ref": "#_25408122-2e2d-4064-b64a-d7520fc65ae0"
                                 }
                             }
                         ]
@@ -77,12 +77,12 @@
                             "end": "2022-01-17T09:00:00Z"
                         },
                         "ReadingType": {
-                            "ref": "#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"
+                            "@ref": "#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_15c8e1c0-6fc3-43f0-b4e5-97a07a323f2e"
+                                    "@ref": "#_15c8e1c0-6fc3-43f0-b4e5-97a07a323f2e"
                                 }
                             }
                         ]
@@ -97,12 +97,12 @@
                             "end": "2022-01-17T10:00:00Z"
                         },
                         "ReadingType": {
-                            "ref": "#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"
+                            "@ref": "#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_dfc3f840-d759-4ca7-a075-76183932dba8"
+                                    "@ref": "#_dfc3f840-d759-4ca7-a075-76183932dba8"
                                 }
                             }
                         ]
@@ -117,12 +117,12 @@
                             "end": "2022-01-17T09:11:00Z"
                         },
                         "ReadingType": {
-                            "ref": "#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"
+                            "@ref": "#_c6c6865e-cd6a-4446-98c3-6e88cf39c999"
                         },
                         "ReadingQualities": [
                             {
                                 "ReadingQualityType": {
-                                    "ref": "#_b6f62fdf-83ca-43ea-8b6b-a3e8a66cfa29"
+                                    "@ref": "#_b6f62fdf-83ca-43ea-8b6b-a3e8a66cfa29"
                                 }
                             }
                         ]
@@ -132,9 +132,9 @@
         ]
     },
     "UsagePoint": {
-        "ref": "#_6bebeaee-e4f3-5ee7-afcb-e21b56a4e174"
+        "@ref": "#_6bebeaee-e4f3-5ee7-afcb-e21b56a4e174"
     },
     "Meter": {
-        "ref": "#_608fc1f5-79a1-5030-a1d6-f9e0a9b92032"
+        "@ref": "#_608fc1f5-79a1-5030-a1d6-f9e0a9b92032"
     }
 }
