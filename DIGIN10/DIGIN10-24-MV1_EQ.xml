@@ -1039,7 +1039,8 @@
 	<cim:LoadBreakSwitch rdf:ID="_55de4e32-8cb0-4602-9901-ec91e104b300">
 		<cim:IdentifiedObject.description>Nedenes 22kV Engene 1 Load Break Switch</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>NEDENES 22 E1 LB_S</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_3d51330c-7528-4efb-8edc-e61dcc145ac4"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
+		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
 		<cim:Switch.retained>false</cim:Switch.retained>
 	</cim:LoadBreakSwitch>
