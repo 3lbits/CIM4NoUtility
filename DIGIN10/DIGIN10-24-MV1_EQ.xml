@@ -554,7 +554,6 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_9bf03de1-7f35-4dfe-86aa-29dff75a6962">
 		<cim:IdentifiedObject.name>NEDENES CN 005</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2">
 		<cim:IdentifiedObject.name>T_ENGENE CN 003</cim:IdentifiedObject.name>
