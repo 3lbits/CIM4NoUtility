@@ -168,15 +168,15 @@
 	<cim:RegulatingControl rdf:about="#_92d33c00-7034-11eb-a65a-74e5f963e191">
 		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
 		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
-		<cim:RegulatingControl.targetDeadband>4</cim:RegulatingControl.targetDeadband>
+		<cim:RegulatingControl.targetDeadband>2</cim:RegulatingControl.targetDeadband>
 		<cim:RegulatingControl.targetValue>22</cim:RegulatingControl.targetValue>
 		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
 	</cim:RegulatingControl>
 	<cim:TapChangerControl rdf:about="#_681a30a4-5a55-11eb-a658-74e5f963e191">
 		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
 		<cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
-		<cim:RegulatingControl.targetDeadband>22</cim:RegulatingControl.targetDeadband>
-		<cim:RegulatingControl.targetValue>11</cim:RegulatingControl.targetValue>
+		<cim:RegulatingControl.targetDeadband>0.04</cim:RegulatingControl.targetDeadband>
+		<cim:RegulatingControl.targetValue>0.4</cim:RegulatingControl.targetValue>
 		<cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
 	</cim:TapChangerControl>
  <cim:Terminal rdf:about="#_0523e10e-4e02-48c6-94dd-ef1938932497">
