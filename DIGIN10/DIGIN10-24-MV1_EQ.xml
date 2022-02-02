@@ -791,7 +791,7 @@
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_1d069b92-4138-454e-9db4-c05f38f767ca">
-		<cim:IdentifiedObject.name>TALT T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>TATL T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
 		<cim:CurrentLimit.normalValue>412</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_17264ab0-1492-6243-8e2d-44d85d0841fc"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
@@ -803,7 +803,7 @@
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_a3dceeba-ffb3-4349-9c4f-efb8c5c05923">
-		<cim:IdentifiedObject.name>TALT T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>TATL T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
 		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f681a7bd-f378-4c49-89b9-2fb70ec52c6a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
