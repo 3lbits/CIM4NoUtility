@@ -15,14 +15,15 @@
 		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
 	</md:FullModel>
 
-  <cim:CoordinateSystem rdf:ID="_2be52cd7-b707-4dda-9e14-4a1966e22ff9">
-  	<cim:IdentifiedObject.name>EPSG 4326</cim:IdentifiedObject.name>
-    <cim:CoordinateSystem.crsUrn>urn:ogc:def:crs:EPSG::4326</cim:CoordinateSystem.crsUrn>
-  </cim:CoordinateSystem>
+	<cim:CoordinateSystem rdf:ID="_2be52cd7-b707-4dda-9e14-4a1966e22ff9">
+		<cim:IdentifiedObject.name>EPSG 4326</cim:IdentifiedObject.name>
+		<cim:CoordinateSystem.crsUrn>urn:ogc:def:crs:EPSG::4326</cim:CoordinateSystem.crsUrn>
+	</cim:CoordinateSystem>
 
 	<cim:Location rdf:ID="_990df1b7-bd8c-4989-808f-15b73ae0b1f4">
 		<cim:Location.CoordinateSystem rdf:resource="#_2be52cd7-b707-4dda-9e14-4a1966e22ff9"/>
 		<cim:IdentifiedObject.name>04 Telemarkstien 2 CB1</cim:IdentifiedObject.name>
+		<cim:Location.PowerSystemResources rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44"/>
 	</cim:Location>
 
 	<cim:PositionPoint rdf:ID="_4c6c0cb6-44d9-4323-a0c9-4f533b524a1c">
@@ -30,18 +31,6 @@
 		<cim:PositionPoint.xPosition>8.7007293714585</cim:PositionPoint.xPosition>
 		<cim:PositionPoint.yPosition>58.41467201058505</cim:PositionPoint.yPosition>
 		<cim:PositionPoint.Location rdf:resource="#_990df1b7-bd8c-4989-808f-15b73ae0b1f4"/>
-	</cim:PositionPoint>
-
-	<cim:Location rdf:ID="_2c995837-a494-4d8e-b5b3-c256c6ed031d">
-		<cim:Location.CoordinateSystem rdf:resource="#_2be52cd7-b707-4dda-9e14-4a1966e22ff9"/>
-		<cim:IdentifiedObject.name>04 Telemarkstien 2 CL1</cim:IdentifiedObject.name>
-	</cim:Location>
-
-	<cim:PositionPoint rdf:ID="_48808284-458d-46aa-a0c4-dfcb43640f05">
-		<cim:PositionPoint.sequenceNumber>1</cim:PositionPoint.sequenceNumber>
-		<cim:PositionPoint.xPosition>8.7003108</cim:PositionPoint.xPosition>
-		<cim:PositionPoint.yPosition>58.4145097</cim:PositionPoint.yPosition>
-		<cim:PositionPoint.Location rdf:resource="#_2c995837-a494-4d8e-b5b3-c256c6ed031d"/>
 	</cim:PositionPoint>
 
 </rdf:RDF>

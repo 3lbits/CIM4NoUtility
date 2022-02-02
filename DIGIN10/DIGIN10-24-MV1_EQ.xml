@@ -576,241 +576,241 @@
 	</cim:ControlArea>
 	<cim:CurrentLimit rdf:ID="_681a26d8-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26d7-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a1c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>590</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a1b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a84-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>590</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a83-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a88-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>590</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a87-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2698-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>623</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269c-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>623</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd5-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>727</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a26e0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 NEDENES T1 22 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a26df-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33be9-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-NEDENES ACLS1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>745</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>745</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33be8-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2a18-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>590</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>590</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2a17-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bed-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 22 ENGENE-NEDENES ACLS1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>745</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>745</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bec-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33b9e-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a3096-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T2 ENGENE T1 22 S</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>656</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>656</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a3095-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2fd0-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>PATL T1 ENGENE NT1 22 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>83</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>83</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2fcf-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33bd6-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>727</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33bd4-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a269d-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T2 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>623</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a269b-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_681a2699-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T1 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>623</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>623</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_681a2697-5a55-11eb-a658-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_92d33b9f-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>TATL T1 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_92d33b9d-7034-11eb-a65a-74e5f963e191"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_0f183ae8-bf40-4c42-ba28-aff0684ec683">
 		<cim:IdentifiedObject.name>PATL T1 22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_ee06cf5c-6eeb-1141-bf78-24098e198fc0"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_245cd84e-872f-d141-b6ae-c791424d0237">
 		<cim:IdentifiedObject.name>PATL T2 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f4e2587e-c4f9-e34c-a20e-d724f9e89af1"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_10d3dc6c-c98a-df45-b1ce-c043dbfeef25">
 		<cim:IdentifiedObject.name>PATL T1 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_8c9343e1-3296-3241-baf6-1e33351236a3"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_f822f3a2-4516-9048-913a-b808866ec168">
 		<cim:IdentifiedObject.name>PATL T2 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_e7c2e720-4e7c-bc4d-a38b-e5b7fafe09b0"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_bd381b90-7f6e-8a45-bff0-1370214c234c">
 		<cim:IdentifiedObject.name>PATL T1 ENGENE T1 132 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5a7908d7-612b-2346-918a-b7b6d458475a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_c8231145-5610-4245-b1a1-572fecb643d8">
 		<cim:IdentifiedObject.name>PATL T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_105b264a-2ab7-2441-bb32-aae12a3cfa51"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_df8139f5-361f-9846-b6ff-aaa351935dbb">
 		<cim:IdentifiedObject.name>TATL T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_105b264a-2ab7-2441-bb32-aae12a3cfa51"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_c3594d55-896e-7447-a90b-6b3c087b788e">
 		<cim:IdentifiedObject.name>PATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>727</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5227cc47-799d-3b4f-bf79-c0fee6d63e4a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_87f5ed47-2758-514e-9a13-ef692d942321">
 		<cim:IdentifiedObject.name>TATL T2 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>727</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>727</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5227cc47-799d-3b4f-bf79-c0fee6d63e4a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_e5e585f8-423e-c049-8e8e-58bda1ec78e8">
 		<cim:IdentifiedObject.name>PATL T1 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_2b69675e-dd3b-0e47-9039-845c5b5095f4"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_859d05d5-cdac-f849-81a2-4f0593c6c824">
 		<cim:IdentifiedObject.name>TATL T1 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_2b69675e-dd3b-0e47-9039-845c5b5095f4"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_7b025cfa-4526-6f49-a420-ea211e8eceba">
 		<cim:IdentifiedObject.name>TATL T2 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_d975d3c6-4aa8-e143-9188-a86cee4db583"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_1ab33989-6134-7f4f-876d-9fcd150fd081">
 		<cim:IdentifiedObject.name>PATL T2 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_d975d3c6-4aa8-e143-9188-a86cee4db583"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_a982d4f5-7307-3942-ab95-b3cac858d733">
 		<cim:IdentifiedObject.name>TATL T1 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_940fdf54-1e42-9840-a37f-7806a54f9e4b"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_11e9226e-e3cf-0f48-b691-8dfa2d25ae7b">
 		<cim:IdentifiedObject.name>PATL T1 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_940fdf54-1e42-9840-a37f-7806a54f9e4b"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_57661de3-c67c-b74b-8729-912a82eeec22">
 		<cim:IdentifiedObject.name>PATL T2 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_4219ab33-927a-bb43-9506-b9b1b3487afd"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_de98fb60-241a-5e47-a390-ac62f1d20079">
 		<cim:IdentifiedObject.name>TATL T2 132 ARENDAL-FROLAND ACLS 1</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>1020</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_4219ab33-927a-bb43-9506-b9b1b3487afd"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_3401221c-3b67-7144-981f-94a1d57a77a1">
 		<cim:IdentifiedObject.name>PATL T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>412</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>412</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_17264ab0-1492-6243-8e2d-44d85d0841fc"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_1d069b92-4138-454e-9db4-c05f38f767ca">
-		<cim:IdentifiedObject.name>TALT T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>412</cim:CurrentLimit.value>
+		<cim:IdentifiedObject.name>TATL T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.normalValue>412</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_17264ab0-1492-6243-8e2d-44d85d0841fc"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_3817162d-5e9d-d243-be82-10c2eca33b5b">
 		<cim:IdentifiedObject.name>PATL T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f681a7bd-f378-4c49-89b9-2fb70ec52c6a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a2679-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_a3dceeba-ffb3-4349-9c4f-efb8c5c05923">
-		<cim:IdentifiedObject.name>TALT T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:IdentifiedObject.name>TATL T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f681a7bd-f378-4c49-89b9-2fb70ec52c6a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
 	<cim:CurrentLimit rdf:ID="_b0e72714-9f93-c444-913f-a2437efb1d7e">
 		<cim:IdentifiedObject.name>TATL T1 ENGENE T1 132 P</cim:IdentifiedObject.name>
-		<cim:CurrentLimit.value>275</cim:CurrentLimit.value>
+		<cim:CurrentLimit.normalValue>275</cim:CurrentLimit.normalValue>
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5a7908d7-612b-2346-918a-b7b6d458475a"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_681a267a-5a55-11eb-a658-74e5f963e191"/>
 	</cim:CurrentLimit>
