@@ -875,4 +875,9 @@
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
 
+	<cim:Terminal rdf:about="#_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1">
+		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+	</cim:Terminal>
+
+
 </rdf:RDF>

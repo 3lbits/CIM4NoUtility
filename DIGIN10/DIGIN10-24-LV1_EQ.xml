@@ -1801,34 +1801,156 @@
     </cim:ConnectivityNode>
 
     <cim:CurrentLimit rdf:ID="_9ff945ef-e893-4c68-b514-ff8940c01f17">
-        <cim:IdentifiedObject.name>04 TELEMA 2 CL1 PATL</cim:IdentifiedObject.name>
-        <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
-        <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
-        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_13c61cd0-00fc-4017-ad7d-c22a26466ea9"/>
-        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
-    </cim:CurrentLimit>
-
-    <cim:CurrentLimit rdf:ID="_595ef45a-78f4-4366-aebb-f565c1a1f6c5">
-        <cim:IdentifiedObject.name>04 TELEMA 2 CL2 PATL</cim:IdentifiedObject.name>
-        <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
-        <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
-        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_e829e80c-9d1e-4716-b129-70a7485b4822"/>
-        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
-    </cim:CurrentLimit>
-
-    <cim:CurrentLimit rdf:ID="_6422ea71-1ec4-431e-812f-1ac05f25b6fe">
-        <cim:IdentifiedObject.name>04 TELEMA 2 CL3 PATL</cim:IdentifiedObject.name>
-        <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
-        <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS1</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
         <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_af33e871-8764-4203-af6c-1d4a1108a28a"/>
         <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
     </cim:CurrentLimit>
 
-    <cim:CurrentLimit rdf:ID="_a83ab804-572f-41d9-9b8b-248875b2815a">
-        <cim:IdentifiedObject.name>04 TELEMA 2 CL4 PATL</cim:IdentifiedObject.name>
-        <cim:CurrentLimit.normalValue>1000</cim:CurrentLimit.normalValue>
-        <cim:CurrentLimit.value>999</cim:CurrentLimit.value>
-        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5e677227-8a2c-44c4-ab11-0cb99f5b2a32"/>
+    <cim:CurrentLimit rdf:ID="_927aa241-7249-4362-83de-e2ff3da337da">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS2</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_13c61cd0-00fc-4017-ad7d-c22a26466ea9"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_0fdd0101-d830-4751-8500-158d70bfeed6">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS4</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_ab611771-ae03-4703-962e-fcaf59fe63c3"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_ca7b66d4-f320-4d41-a7d7-81e178fad8fa">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS5</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f78dbcfb-2e3e-489a-a610-a32367c9aa97"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_d0cad0ac-ccd0-4fa1-ad9d-042a953f267e">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS6</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_abefc574-304a-4e40-845f-95923b8f314f"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_c7a834b4-a64f-4e17-a09a-d922527cd824">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS7</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_c4e10d80-3494-4cec-b836-8b8abe738892"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_1a367f73-c961-4f37-937f-9ee7d7a812a5">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS8</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_33886096-f017-47ba-8cc6-ff1279c662ed"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_d600cd39-c90d-41d4-94c2-6899a02507c9">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS9</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_1216b9d8-8945-4ec3-91d8-b8d5203315fa"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_e34ca4c2-8bd7-4d41-b407-bfde09878fe2">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS10</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_7babf53a-ab6f-4416-a520-8f51fd9500a9"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_9b95046e-3a0b-4bf4-9ac8-b16ae30dd99f">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS11</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_0c6efae5-ca1c-4102-bee9-018a254c9d94"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_2fe2f098-bef7-46ce-a283-4a533a07dbfc">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS12</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_63ca2c35-2b11-4268-842f-6e96831d6746"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_af9b16b2-d918-445c-a2aa-5b116efe6ced">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS13</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_4e8d57cc-1a5f-4062-a671-32827a18ec3b"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_71d437d2-b5dc-48d7-9250-e558e8811ff3">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS14</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f03c9323-a46f-4ee0-949e-9b55090e1a17"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_b964f2e5-1c68-4b5f-abb7-11a4f84650bd">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS15</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_032ea6c0-6443-4275-9f83-cdab10df7c1c"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_11f01e0a-8233-458f-b427-666f0fb53736">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS16</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_536252a1-0f38-4450-a57b-15e60ad67f82"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_5457ebb3-1f51-483e-b49a-4424ec03840e">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS17</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_d9189c94-291e-4dc4-8fb3-1939bcca5395"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_b059c518-fa8e-484a-a426-8766c56275ad">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS18</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_5fb918e2-f25c-4c99-b218-8faf5fcd1a8f"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_9bff3a3c-5a06-4538-b04c-6cdeaa4e709c">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS19</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_42de2d1b-146a-4d63-889f-b748a145dda9"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_aaed6c4c-abfb-49d0-bf54-a29398344a0f">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS20</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_ab525b0a-b602-4b30-ae4b-807304f44dea"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_94686647-b1d0-4214-ace2-4ec6879fffda">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS21</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_cb1f5118-e3de-49cb-b13c-1adc0a6fa7b4"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_e50656d8-81e1-49b6-8960-120cdf90d351">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS22</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_9b7b67c2-a328-4833-a578-e55bc683f411"/>
+        <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:ID="_d2124105-10f2-42c0-a16a-6c47b5edb485">
+        <cim:IdentifiedObject.name>PATL 04 TELEMA 2 ACLS23</cim:IdentifiedObject.name>
+        <cim:CurrentLimit.normalValue>400</cim:CurrentLimit.normalValue>
+        <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_3d59fc57-038c-4289-b6ef-354bc9fdc97d"/>
         <cim:OperationalLimit.OperationalLimitType rdf:resource="#_a7d9b42e-0f87-4882-903d-1cf454f85df4"/>
     </cim:CurrentLimit>
 
@@ -1907,28 +2029,154 @@
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 1 for AC Line Segment 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 OLS1 ACLS1</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS1 ACLS1</cim:IdentifiedObject.aliasName>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_e1a6c356-813b-4311-8986-898231fa1aa1"/>
-    </cim:OperationalLimitSet>
-
-    <cim:OperationalLimitSet rdf:ID="_5e677227-8a2c-44c4-ab11-0cb99f5b2a32">
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 2 for AC Line Segment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 OLS2 ACLS1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS2 ACLS1</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_1f6d65dc-0498-4e9f-beda-0e36a667bb43"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_13c61cd0-00fc-4017-ad7d-c22a26466ea9">
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 3 for AC Line Segment 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 OLS3 ACLS2</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS3 ACLS2</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 2 for AC Line Segment 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS2 ACLS2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS2 ACLS2</cim:IdentifiedObject.aliasName>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_54a2bbab-bf15-4b63-afc6-ecfbd135d058"/>
     </cim:OperationalLimitSet>
 
-    <cim:OperationalLimitSet rdf:ID="_e829e80c-9d1e-4716-b129-70a7485b4822">
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 4 for AC Line Segment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 OLS4 ACLS1</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS4 ACLS1</cim:IdentifiedObject.aliasName>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_d4141353-a4b9-4b70-8aad-a9206b76b35c"/>
+    <cim:OperationalLimitSet rdf:ID="_ab611771-ae03-4703-962e-fcaf59fe63c3">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 4 for AC Line Segment 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS4 ACLS4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS4 ACLS4</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_0da1c730-0958-4dac-9a8c-c8d7ba4b43ce"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_f78dbcfb-2e3e-489a-a610-a32367c9aa97">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 5 for AC Line Segment 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS5 ACLS5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS5 ACLS5</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_81cdadda-ee8c-4dfd-946a-0635624ec15b"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_abefc574-304a-4e40-845f-95923b8f314f">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 6 for AC Line Segment 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS6 ACLS6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS6 ACLS6</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_63008f90-ffd1-437c-8325-dba7f0f6d0e0"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_c4e10d80-3494-4cec-b836-8b8abe738892">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 7 for AC Line Segment 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS7 ACLS7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS7 ACLS7</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_683d152b-dcf1-4366-80fd-76f2b6cd9ee3"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_33886096-f017-47ba-8cc6-ff1279c662ed">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 8 for AC Line Segment 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS8 ACLS8</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS8 ACLS8</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_f31b5fec-4481-49d9-8848-fe49584f5ffe"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_1216b9d8-8945-4ec3-91d8-b8d5203315fa">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 9 for AC Line Segment 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS9 ACLS9</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS9 ACLS9</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_bf2c7b69-3bea-4fcc-958d-7b3c48a7a857"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_7babf53a-ab6f-4416-a520-8f51fd9500a9">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 10 for AC Line Segment 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS10 ACLS10</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS10 ACLS10</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_01ec3391-39cc-44e6-805e-ac0f0edae6c0"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_0c6efae5-ca1c-4102-bee9-018a254c9d94">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 11 for AC Line Segment 11</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS11 ACLS11</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS11 ACLS11</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_0a678342-9812-43a4-96f3-5854378d5d78"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_63ca2c35-2b11-4268-842f-6e96831d6746">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 12 for AC Line Segment 12</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS12 ACLS12</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS12 ACLS12</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_3511146a-8295-4ff1-a93f-c55041b56074"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_4e8d57cc-1a5f-4062-a671-32827a18ec3b">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 13 for AC Line Segment 13</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS13 ACLS13</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS13 ACLS13</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_a08c75e1-e729-43d9-8f8a-f3aef1c64328"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_f03c9323-a46f-4ee0-949e-9b55090e1a17">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 14 for AC Line Segment 14</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS14 ACLS14</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS14 ACLS14</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_62eb6150-d16f-456a-9288-178f36391480"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_032ea6c0-6443-4275-9f83-cdab10df7c1c">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 15 for AC Line Segment 15</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS15 ACLS15</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS15 ACLS15</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_53075a70-fdf6-4201-ab30-a5622568f240"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_536252a1-0f38-4450-a57b-15e60ad67f82">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 16 for AC Line Segment 16</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS16 ACLS16</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS16 ACLS16</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_db6aa9ff-9de6-4356-89be-b8e889ad6c76"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_d9189c94-291e-4dc4-8fb3-1939bcca5395">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 17 for AC Line Segment 17</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS17 ACLS17</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS17 ACLS17</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_57b5a4b0-ef47-49cf-bd43-4b3b91fcf621"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_5fb918e2-f25c-4c99-b218-8faf5fcd1a8f">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 18 for AC Line Segment 18</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS18 ACLS18</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS18 ACLS18</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_d406735a-4c44-45ef-a189-e050216e1183"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_42de2d1b-146a-4d63-889f-b748a145dda9">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 19 for AC Line Segment 19</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS19 ACLS19</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS19 ACLS19</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_649f6e2d-c92a-48ef-bae8-db3e945ce62e"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_ab525b0a-b602-4b30-ae4b-807304f44dea">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 20 for AC Line Segment 20</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS20 ACLS20</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS20 ACLS20</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_aa779c1e-3231-4a30-9c97-2e454df8fd2e"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_cb1f5118-e3de-49cb-b13c-1adc0a6fa7b4">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 21 for AC Line Segment 21</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS21 ACLS21</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS21 ACLS21</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_3a69b15f-29f9-45a1-b1e5-abd6e87679ca"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_9b7b67c2-a328-4833-a578-e55bc683f411">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 22 for AC Line Segment 22</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS22 ACLS22</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS22 ACLS22</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_bd42c91e-8867-4d92-ba9d-491240b602af"/>
+    </cim:OperationalLimitSet>
+
+    <cim:OperationalLimitSet rdf:ID="_3d59fc57-038c-4289-b6ef-354bc9fdc97d">
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Operational Limit Set 23 for AC Line Segment 23</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 OLS23 ACLS23</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 OLS23 ACLS23</cim:IdentifiedObject.aliasName>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_c1de217c-a40b-4079-9fde-3d7bd30a934b"/>
     </cim:OperationalLimitSet>
 
     <cim:OperationalLimitType rdf:ID="_a7d9b42e-0f87-4882-903d-1cf454f85df4">
@@ -3178,7 +3426,7 @@
     <cim:Terminal rdf:ID="_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 118</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 T118</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T15</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T118</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a"/>
@@ -3259,7 +3507,7 @@
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 126</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 T126</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T126</cim:IdentifiedObject.aliasName>
-        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38"/>
         <cim:Terminal.ConnectivityNode rdf:resource="#_e00c3050-afa4-47e7-8a4a-c061051ce9d4"/>

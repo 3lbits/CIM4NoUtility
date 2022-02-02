@@ -51,7 +51,7 @@
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:recource="http://iec.ch/TC57/2013/CIM-schema-cim16#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
-        <cim:UsagePoint.estimatedLoad>19.5</im:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.estimatedLoad>19.5</cim:UsagePoint.estimatedLoad>
         <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
         <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
         <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
