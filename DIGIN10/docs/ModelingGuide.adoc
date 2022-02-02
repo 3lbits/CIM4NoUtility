@@ -198,7 +198,7 @@ Breaker is used instead of Fuse to ensure CGMES 2.4.15 conformity.
 
 
 === ConformLoadGroup
-ConformLoadGroup is a collection of ConformLoads with the same patterns used for the same schedules.
+ConformLoadGroup is used as a container for loads. We have decided to use ConformLoadGroup for all ConformLoads below the same low voltage PowerTransformer.
 
 
 === ConnectivityNodes
@@ -231,21 +231,12 @@ sets of objects, which in turn allows different parties to take responsibility f
 Section 5.2 in IEC 61970-600-1:2021 gives the rules for handling of MAS.
 In DIGIN we are using this to model HV, MV and LV sepretaly, either by the fact that they are sourced by a different utility or application in the same organisation.
 
-=== ConformLoad
-ConformLoad shall be connected via a Breaker to a Bay.
-
-Breaker is used instead of Fuse to ensure CGMES 2.4.15 conformity.
-
-
-=== ConformLoadGroup
-ConformLoadGroup is used as a container for loads. We have decided to use ConformLoadGroup for all ConformLoads below the same low voltage PowerTransformer.
-
-=== BusbarSection
-It was decided that BusbarSection should be connected to a VoltageLevel when possible.
-
 
 === PowerTransformerEnd
 PowerTransformerEnd.r and PowerTransformerEnd.x are defined on the primary winding of double wound transformers.
+
+=== PATL and TATL
+It was decided that this would be modelled in the EQ files by CurrentLimit.normalValue. 
 
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
