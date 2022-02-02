@@ -49,6 +49,7 @@ substation | voltage | busbar
 | NEDENES 04A  | Nedenes 400V A Busbar Section 1 |
 
 ### cim:ConformLoad
+
 substation | voltage | feeder | short class name | sequence
 
 | Name               | Description                            |
@@ -60,10 +61,20 @@ substation | voltage | feeder | short class name | sequence
 
 (Connectivitynode is normally not included in a name standard).
 
-| Name           | Description                                  |
-| -------------- | :------------------------------------------- |
-| ARENDAL CN 007 |                                              |
+| Name           | Description                                 |
+| -------------- | :------------------------------------------ |
+| ARENDAL CN 007 |                                             |
 | TELEMA2 04 CN1 | Telemarkstien2 400 Volt Connectivity Node 1 |
+
+### cim:CurrentLimit
+
+CurrentLimit shortname is "CuL"
+PATL or TATL | Voltage | Substation | Related entity
+
+| Name                     | Description |
+| ------------------------ | :---------- |
+| PATL T1 ARENDAL T1 420 P |             |
+| PATL 04 TELEMA 2 ACLS13  |             |
 
 ### cim:Disconnector
 
@@ -77,10 +88,9 @@ substation | voltage | avgang | sequence | type
 
 substation | voltage | short class name
 
-| Name                | Description                           |
-| ------------------- | :------------------------------------ |
-| NEDENES 04 LV EQV   | Nedenes 400V Low Voltage Equivalent   |
-
+| Name              | Description                         |
+| ----------------- | :---------------------------------- |
+| NEDENES 04 LV EQV | Nedenes 400V Low Voltage Equivalent |
 
 ### cim:GeneratingUnit
 
@@ -169,13 +179,14 @@ substation | voltage | short class name
 
 substation
 
-| Name           | Description                          |
-| -------------- | :----------------------------------- |
-| ENGENE         | Engene Substation                    |
-| T_ENGENE       | Engene T-junction                    |
-| TELEMA2 04 CB4 | Telemarkstien2 400 Volt Cable Box 4  |
+| Name           | Description                         |
+| -------------- | :---------------------------------- |
+| ENGENE         | Engene Substation                   |
+| T_ENGENE       | Engene T-junction                   |
+| TELEMA2 04 CB4 | Telemarkstien2 400 Volt Cable Box 4 |
 
 ### cim:SynchronousMachine
+
 substation | voltage | short class name
 
 | Name           | Description                           |
@@ -194,16 +205,16 @@ substation | short class name
 
 (Terminal is normally not included in a name standard).
 
-| Name                     | Description                         |
-| ------------------------ | :---------------------------------- |
-| T1 132ARENDAL-FROLAND1   | Arendal Side                        |
-| T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                         |
-| 04 TELEMA2 T1            | Telemarkstien2 400 Volt  Terminal 1 |
+| Name                     | Description                        |
+| ------------------------ | :--------------------------------- |
+| T1 132ARENDAL-FROLAND1   | Arendal Side                       |
+| T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                        |
+| 04 TELEMA2 T1            | Telemarkstien2 400 Volt Terminal 1 |
 
 ### cim:UsagePoint
 
 substation | voltage | short class name | sequence
 
-| Name             | Description                           |
-| ---------------- | :------------------------------------ |
+| Name             | Description                          |
+| ---------------- | :----------------------------------- |
 | TELEMA2 04 UP007 | Telemarkstien2 400 Volt UsagePoint 7 |
