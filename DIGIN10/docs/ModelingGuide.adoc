@@ -185,9 +185,11 @@ CGMES 2.4.15 currently only supports fixed units for any given attribute. The fo
 == Specific instructions
 In addition to the previously presented profiles, the following sections describe how particular aspects should be modelled.
 
-
 === BusbarSection
 It was decided that BusbarSection should be connected to a VoltageLevel when possible.
+
+=== Breaker
+All Breakers that are connected to the same ConnectivityNode must be connected to the same VoltageLevel.
 
 === ConformLoad
 ConformLoad shall be connected via a Breaker to a Bay.
