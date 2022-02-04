@@ -12,7 +12,7 @@ The purpose of this document is a to be a simple help for developers
 The following steps are when the task is to do a change in any of the code. 
 
 *Step 1 - place yourself in the correct develop branch before*
-_git develop_
+_git checkout develop_
 
 *Step 2 - Download latest content from remote repo and update local content*
 _git pull_
@@ -24,6 +24,6 @@ _git add ._
 _git commit -m "your message"_
 
 *Step 5 - Push content from local repo to remote repo*
-_git push_
+_git push --set-upstream origin "branch"_
 
 
