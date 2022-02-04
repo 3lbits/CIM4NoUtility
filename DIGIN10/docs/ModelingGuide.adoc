@@ -20,10 +20,10 @@ The Modeling guide is relevant for the following profiles:
 . Equipment (EQ)
 . Steady State Hypothesis (SSH)
 . Geographical Location (GL)
-. Topology (TP)
+. Topology (TP) - Note: only included header information with dependency in both LV and MV files.
 . Customer (CU)
 . Diagram Layout (DL)
-. State Variables (SV)
+. State Variables (SV) - Note: only included header information with dependency in both LV and MV files.
 . Equipment Boundary (EQBP)
 
 --
