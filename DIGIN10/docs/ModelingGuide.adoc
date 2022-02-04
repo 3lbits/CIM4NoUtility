@@ -231,12 +231,17 @@ sets of objects, which in turn allows different parties to take responsibility f
 Section 5.2 in IEC 61970-600-1:2021 gives the rules for handling of MAS.
 In DIGIN we are using this to model HV, MV and LV sepretaly, either by the fact that they are sourced by a different utility or application in the same organisation.
 
+=== OperationalLimit
+Only CurrentLimit is currently used and included as normalValue in the EQ files and value in the SSH files.
 
 === PowerTransformerEnd
 PowerTransformerEnd.r and PowerTransformerEnd.x are defined on the primary winding of double wound transformers.
 
 === PATL and TATL
 It was decided that this would be modelled in the EQ files by CurrentLimit.normalValue. 
+
+=== Substation
+Substation is used to model cable cabinets in the LV files in CIM16, this is subject to change in CIM17.
 
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
