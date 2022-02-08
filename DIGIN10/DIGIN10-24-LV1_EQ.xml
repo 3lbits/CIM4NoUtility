@@ -1503,7 +1503,7 @@
 	<cim:ConnectivityNode rdf:ID="_87ec01a7-bbb3-497f-a497-6f3a9627cfe8">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN2</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:ConnectivityNode>
     
     <cim:ConnectivityNode rdf:ID="_1447d25c-5977-43ec-8878-8ac210edda8f">
@@ -1623,7 +1623,7 @@
 	<cim:ConnectivityNode rdf:ID="_f8449f3f-e37e-4392-9cb0-366f378593c7">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 22</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN22</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_8cae3059-9886-40db-befa-ddfa56ba94cd"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
     </cim:ConnectivityNode>
 
 	<cim:ConnectivityNode rdf:ID="_176d0737-9e72-456d-bb64-c430987bb331">
@@ -1785,7 +1785,7 @@
 	<cim:ConnectivityNode rdf:ID="_6461597d-bdcf-428e-aa69-221cd2760fa5">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Connectivity Node 49</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 CN49</cim:IdentifiedObject.name>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_0acd4d2c-1cc2-4b9b-8277-f3763b0ed6ab"/>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_b1626403-9c0c-4f0c-a072-b7d5d86cdb58"/>
     </cim:ConnectivityNode>
 	
 	<cim:ConnectivityNode rdf:ID="_e00c3050-afa4-47e7-8a4a-c061051ce9d4">
@@ -2451,7 +2451,7 @@
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_764a7252-9aae-4da4-a23b-6c770d8b16c1"/>
-        <cim:Terminal.ConnectivityNode rdf:resource="#_261ac434-edce-4b15-a8d2-a18d03c3cee3"/>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_486f219e-c4dc-498d-ba6a-3c8c8c46cdcf"/>
     </cim:Terminal>
 		
 	<cim:Terminal rdf:ID="_536ea11f-ef95-4aed-9ed3-38e25507a31e">
@@ -2656,7 +2656,7 @@
 			
 	<cim:Terminal rdf:ID="_e8b1f571-0501-4698-ad19-640b1185dc7d">
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Terminal 41</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 T42</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>04 TELEMA 2 T41</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName>04 Telemarkstien 2 T41</cim:IdentifiedObject.aliasName>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
