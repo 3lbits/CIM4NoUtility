@@ -1,0 +1,83 @@
+{
+    "EndDeviceEvents": [
+        {
+            "createdDateTime": "2022-01-17T09:15:31Z",
+            "EndDeviceEventDetails": [
+                {
+                    "name": "Spontaneous",
+                    "value": "true"
+                },
+                {
+                    "name": "DetectionActive",
+                    "value": "true"
+                },
+                {
+                    "name": "SpontanAverageVoltageDetectioneous",
+                    "value": "FoL"
+                }
+            ],
+            "MeterReadings": [
+                {
+                    "Readings": [
+                        {
+                            "value": 205.4,
+                            "source": "Test System",
+                            "ReadingType": {
+                                "@ref": "0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+                            }
+                        },
+                        {
+                            "value": 38.8,
+                            "source": "Test System",
+                            "ReadingType": {
+                                "@ref": "0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0"
+                            }
+                        },
+                        {
+                            "value": 206.3,
+                            "source": "Test System",
+                            "ReadingType": {
+                                "@ref": "0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "EndDeviceEventType": {
+                "@ref": "3.26.131.150"
+            },
+            "UsagePoint": {
+                "@ref": "ab9eba1c-28e2-41e6-9d90-97b484581582",
+                "Names": [
+                    {
+                        "name": "707057500088442351",
+                        "NameType": {
+                            "description": "Unique identifier for UsagePoint in on-prem systems",
+                            "name": "usagePointId",
+                            "NameTypeAuthority": {
+                                "description": "Unique identifier standard ean",
+                                "name": "ean"
+                            }
+                        }
+                    }
+                ]
+            },
+            "EndDevice": {
+                "@ref": "608fc1f5-79a1-5030-a1d6-f9e0a9b92032",
+                "Names": [
+                    {
+                        "name": "7359992901614271",
+                        "NameType": {
+                            "description": "Unique identifier for Meter in on-prem systems",
+                            "name": "meterId",
+                            "NameTypeAuthority": {
+                                "description": "Unique identifier standard ean",
+                                "name": "ean"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

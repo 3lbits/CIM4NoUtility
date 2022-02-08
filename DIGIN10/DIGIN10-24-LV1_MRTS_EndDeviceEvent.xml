@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ede:EndDeviceEvents xmlns:ede = "http://iec.ch/TC57/2011/EndDeviceEvents#">
+
+    <ede:EndDeviceEvent>
+        <ede:createdDateTime>2022-01-17T09:15:31Z</createdDateTime>
+
+        <ede:EndDeviceEventDetails>
+
+            <ede:EndDeviceEventDetail>
+                <ede:name>Spontaneous</ede:name>
+                <ede:value>true</ede:value>
+            </ede:EndDeviceEventDetail>
+
+            <ede:EndDeviceEventDetail>
+                <ede:name>DetectionActive</ede:name>
+                <ede:value>true</ede:value>
+            </ede:EndDeviceEventDetail>
+
+            <ede:EndDeviceEventDetail>
+                <ede:name>SpontanAverageVoltageDetectioneous</ede:name>
+                <ede:value>FoL</ede:value>
+            </ede:EndDeviceEventDetail>
+
+        </ede:EndDeviceEventDetails>
+
+        <ede:MeterReadings>
+            <ede:MeterReading>
+
+                <ede:Readings>
+
+                    <ede:Reading>
+                        <ede:value>205.4</ede:value>
+                        <ede:source>Test System</ede:source>
+                        <ede:ReadingType rdf:resource="#_0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0"/>
+                    </ede:Reading>
+
+                    <ede:Reading>
+                        <ede:value>38.8</ede:value>
+                        <ede:source>Test System</ede:source>
+                        <ede:ReadingType rdf:resource="#_0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0"/>
+                    </ede:Reading>
+
+                    <ede:Reading>
+                        <ede:value>206.3</ede:value>
+                        <ede:source>Test System</ede:source>
+                        <ede:ReadingType rdf:resource="#_0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"/>
+                    </ede:Reading>
+
+                </ede:Readings>
+
+            </ede:MeterReading>
+        </ede:MeterReadings>
+
+        <ede:EndDeviceEventType rdf:resource="#_3.26.131.150"/>
+
+        <ede:UsagePoint rdf:resource="#_ab9eba1c-28e2-41e6-9d90-97b484581582">
+            <ede:Names>
+                <ede:Name>
+                    <ede:name>707057500088442351</ede:name>
+                    <ede:NameType>
+                        <ede:description>Unique identifier for UsagePoint in on-prem systems</ede:description>
+                        <ede:name>usagePointId</ede:name>
+                        <ede:NameTypeAuthority>
+                            <ede:description>Unique identifier standard ean</ede:description>
+                            <ede:name>ean</ede:name>
+                        </ede:NameTypeAuthority>
+                    </ede:NameType>
+                </ede:Name>
+            </ede:Names>
+        </ede:UsagePoint>
+
+        <ede:EndDevice rdf:resource="#_608fc1f5-79a1-5030-a1d6-f9e0a9b92032">
+            <ede:Names>
+                <ede:Name>
+                    <ede:name>7359992901614271</ede:name>
+                    <ede:NameType>
+                        <ede:description>Unique identifier for Meter in on-prem systems</ede:description>
+                        <ede:name>meterId</ede:name>
+                        <ede:NameTypeAuthority>
+                            <ede:description>Unique identifier standard ean</ede:description>
+                            <ede:name>ean</ede:name>
+                        </ede:NameTypeAuthority>
+                    </ede:NameType>
+                </ede:Name>
+            </ede:Names>
+        </ede:EndDevice>
+
+    </ede:EndDeviceEvent>
+</ede:EndDeviceEvents>

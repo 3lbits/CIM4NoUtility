@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mr:MeterReadings xmlns:mr = "http://iec.ch/TC57/2011/MeterReadings#">
+    <mr:MeterReading>
+        <mr:IntervalBlocks>
+            <mr:IntervalReadings>
+
+                <mr:IntervalReading>
+                    <mr:value>3</mr:value>
+                    <mr:timeStamp>2022-01-17T09:00:00Z</mr:timeStamp>
+                    <mr:reportedDateTime>2022-01-17T09:10:16.1652703Z</mr:reportedDateTime>
+                    <mr:source>Test System</mr:source>
+                    <mr:ReadingQualities>
+                        <mr:ReadingQualityType rdf:resource="#_3.8.1"/>
+                    </mr:ReadingQualities>
+                </mr:IntervalReading>
+
+                <mr:IntervalReading>
+                    <mr:value>5.6</mr:value>
+                    <mr:timeStamp>2022-01-17T10:00:00Z</mr:timeStamp>
+                    <mr:reportedDateTime>2022-01-17T10:10:16.1652703Z</mr:reportedDateTime>
+                    <mr:source>Test System</mr:source>
+                    <mr:ReadingQualities>
+                        <mr:ReadingQualityType rdf:resource="#_3.7.1"/>
+                    </mr:ReadingQualities>
+                </mr:IntervalReading>
+
+                <mr:IntervalReading>
+                    <mr:value>2.4</mr:value>
+                    <mr:timeStamp>2022-01-17T10:00:00Z</mr:timeStamp>
+                    <mr:reportedDateTime>2022-01-17T11:10:16.1652703Z</mr:reportedDateTime>
+                    <mr:source>Test System</mr:source>
+                    <mr:ReadingQualities>
+                        <mr:ReadingQualityType rdf:resource="#_3.0.1"/>
+                    </mr:ReadingQualities>
+                </mr:IntervalReading>
+
+            </mr:IntervalReadings>
+
+            <mr:ReadingType rdf:resource="#_0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
+
+        </mr:IntervalBlocks>
+
+        <mr:UsagePoint rdf:resource="#_ab9eba1c-28e2-41e6-9d90-97b484581582">
+            <mr:Names>
+                <mr:Name>
+                    <mr:name>707057500088442351</mr:name>
+                    <mr:NameType>
+                        <mr:description>Unique identifier for UsagePoint in on-prem systems</mr:description>
+                        <mr:name>usagePointId</mr:name>
+                        <mr:NameTypeAuthority>
+                            <mr:description>Unique identifier standard ean</mr:description>
+                            <mr:name>ean</mr:name>
+                        </mr:NameTypeAuthority>
+                    </mr:NameType>
+                </mr:Name>
+            </mr:Names>
+        </mr:UsagePoint>
+
+        <mr:Meter rdf:resource="#_608fc1f5-79a1-5030-a1d6-f9e0a9b92032">
+            <mr:Names>
+                <mr:Name>
+                    <mr:name>7359992901614271</mr:name>
+                    <mr:NameType>
+                        <mr:description>Unique identifier for Meter in on-prem systems</mr:description>
+                        <mr:name>meterId</mr:name>
+                        <mr:NameTypeAuthority>
+                            <mr:description>Unique identifier standard ean</mr:description>
+                            <mr:name>ean</mr:name>
+                        </mr:NameTypeAuthority>
+                    </mr:NameType>
+                </mr:Name>
+            </mr:Names>
+        </mr:Meter>
+
+    </mr:MeterReading>
+</mr:MeterReadings>

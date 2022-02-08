@@ -1917,15 +1917,40 @@
         <cim:Name.NameType>companyNisId</cim:Name.NameType>
     </cim:Name>
 
+    <cim:Name>
+        <cim:Name.name>707057500088442351</cim:Name.name>
+        <cim:Name.IdentifiedObject rdf:resource="#_ab9eba1c-28e2-41e6-9d90-97b484581582"/>
+        <cim:Name.NameType>usagePointId</cim:Name.NameType>
+    </cim:Name>
+
+<!--Need to add the asset Meter and Name for meterId 7359992901614271-->
+
     <cim:NameType>
         <cim:NameType.description>Unique identifier in Company NIS</cim:NameType.description>
         <cim:NameType.name>companyNisId</cim:NameType.name>
         <cim:NameType.NameTypeAthority>companyNis</cim:NameType.NameTypeAthority>
     </cim:NameType>
 
+    <cim:NameType>
+        <cim:NameType.description>Unique identifier for UsagePoint in on-prem systems</cim:NameType.description>
+        <cim:NameType.name>usagePointId</cim:NameType.name>
+        <cim:NameType.NameTypeAthority>ean</cim:NameType.NameTypeAthority>
+    </cim:NameType>
+
+    <cim:NameType>
+        <cim:NameType.description>Unique identifier for Meter in on-prem systems</cim:NameType.description>
+        <cim:NameType.name>meterId</cim:NameType.name>
+        <cim:NameType.NameTypeAthority>ean</cim:NameType.NameTypeAthority>
+    </cim:NameType>
+
     <cim:NameTypeAuthority>
         <cim:NameTypeAuthority.description>Network Information System made by Company</cim:NameTypeAuthority.description>
         <cim:NameTypeAuthority.name>companyNis</cim:NameTypeAuthority.name>
+    </cim:NameTypeAuthority>
+
+    <cim:NameTypeAuthority>
+        <cim:NameTypeAuthority.description>Unique identifier standard ean</cim:NameTypeAuthority.description>
+        <cim:NameTypeAuthority.name>ean</cim:NameTypeAuthority.name>
     </cim:NameTypeAuthority>
 
     <cim:OperationalLimitSet rdf:ID="_af33e871-8764-4203-af6c-1d4a1108a28a">

@@ -1,0 +1,104 @@
+{
+    "MeterReadings": [
+        {
+            "Readings": [
+                {
+                    "value": 3,
+                    "timeStamp": "2022-01-17T08:00:00Z",
+                    "reportedDateTime": "2022-01-17T08:10:16.1652703Z",
+                    "source": "Test system",
+                    "ReadingType": {
+                        "@ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "@ref": "2.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": 6,
+                    "timeStamp": "2022-01-17T09:00:00Z",
+                    "reportedDateTime": "2022-01-17T09:10:16.1652703Z",
+                    "source": "Test system",
+                    "ReadingType": {
+                        "@ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "@ref": "2.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": 11.6,
+                    "timeStamp": "2022-01-17T10:00:00Z",
+                    "reportedDateTime": "2022-01-17T10:10:16.1652703Z",
+                    "source": "Test system",
+                    "ReadingType": {
+                        "@ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "@ref": "2.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": 14,
+                    "timeStamp": "2022-01-17T11:00:00Z",
+                    "reportedDateTime": "2022-01-17T11:10:16.1652703Z",
+                    "source": "Test system",
+                    "ReadingType": {
+                        "@ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "@ref": "2.0.0"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "UsagePoint": {
+                "@ref": "ab9eba1c-28e2-41e6-9d90-97b484581582",
+                "Names": [
+                    {
+                        "name": "707057500088442351",
+                        "NameType": {
+                            "description": "Unique identifier for UsagePoint in on-prem systems",
+                            "name": "usagePointId",
+                            "NameTypeAuthority": {
+                                "description": "Unique identifier standard ean",
+                                "name": "ean"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Meter": {
+                "@ref": "608fc1f5-79a1-5030-a1d6-f9e0a9b92032",
+                "Names": [
+                    {
+                        "name": "7359992901614271",
+                        "NameType": {
+                            "description": "Unique identifier for Meter in on-prem systems",
+                            "name": "meterId",
+                            "NameTypeAuthority": {
+                                "description": "Unique identifier standard ean",
+                                "name": "ean"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
