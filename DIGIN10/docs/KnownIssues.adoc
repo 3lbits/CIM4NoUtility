@@ -3,7 +3,7 @@
 The combination of DIGN10 files (excluding LV1_SV, LV1_TP, MV1_SV, MV1_TP) gave the following error report. 
 
 ,===
-include::C:\MyGit\Grunnprofil\DIGIN10\Validation\CIMdeskValidation.csv[]
+include::..\Validation\CIMdeskValidation.csv[]
 ,===
 
 The last coloum is DING response.
