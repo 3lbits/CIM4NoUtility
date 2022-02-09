@@ -7,3 +7,4 @@ The last coloum is DING response.
 ## Power Flow solution
 The DIGIN10 v1.0 does not include the topologogy (TP) nor the State Variable (SV) solution. The file are include with the header to see the dependency. This will be updated in upcoming versions.
 
+681a1e65-5a55-11eb-a658-74e5f963e191
