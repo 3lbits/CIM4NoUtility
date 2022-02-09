@@ -1,8 +1,14 @@
 # Known Issues
 
-The combination of DIGN10 files (excluding LV1_SV, LV1_TP, MV1_SV, MV1_TP) gave the following error report encodeURI('https://github.com/digin-energi/Grunnprofil/blob/develop/DIGIN10/Validation/CIMdeskValidation.csv:"CIMDeskValidation"') [https://github.com/digin-energi/Grunnprofil/blob/develop/DIGIN10/Validation/CIMdeskValidation.csv]
-https://github.com/digin-energi/Grunnprofil/blob/develop/DIGIN10/Validation/CIMdeskValidation.csv[CIMDeskValidation]
+The combination of DIGN10 files (excluding LV1_SV, LV1_TP, MV1_SV, MV1_TP) gave the following error report. 
+
+,===
+include::C:\MyGit\Grunnprofil\DIGIN10\Validation\CIMdeskValidation.csv[]
+,===
+
 The last coloum is DING response.
+
+
 
 ## Power Flow solution
 The DIGIN10 v1.0 does not include the topologogy (TP) nor the State Variable (SV) solution. The file are include with the header to see the dependency. This will be updated in upcoming versions.
