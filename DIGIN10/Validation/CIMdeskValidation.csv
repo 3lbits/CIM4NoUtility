@@ -1,27 +1,16 @@
-Type;Class;Recurrence;Description;Comments DIGIN
-Warning;;N/A;Topology related incidents are detected. Check 'Topology' incidents for details.;Topology and State Variable is not consistent.
-Warning;;N/A;Undeclared or unrecognized classes/properties are detected. Check 'Undeclared' incidents for details.;Processing issue
-Warning;;N/A;Unable to perform boundary connection validation. Please set the Model Authority for the EQ model to enable further validation.;Processing issue
-Error;Substation;1/5;The Substation contains an invalid value for Association pti:Substation.EnergySchedulingArea. The referenced object doesn't exist.;Included to support common boundary with Nordic44
-Error;CurrentLimit;16/40;The string length of Attribute IdentifiedObject.name exceeds the maximum length: 32.;Lenght restrictuion is removed in CGMES 3.0
-Error;OperationalLimitSet;6/27;The string length of Attribute IdentifiedObject.name exceeds the maximum length: 32.;Lenght restrictuion is removed in CGMES 3.0
-Error;Terminal;44/109;Missing associated TopologicalNode in the Topology, required for Terminal of the ConductingEquipment used for power flow study.;Topology and State Variable is not consistent.
-Error;EquivalentInjection;1/2;SvPowerFlow is not specified for the EquivalentInjection.;Topology and State Variable is not consistent.
-Error;TopologicalNode;18/18;SvVoltage is not specified for all of the TopologicalNodes.;Topology and State Variable is not consistent.
-Error;ConnectivityNode;2/47;The boundary ConnectivityNode must be contained by a Line.;Requirement removed in CGMES 3.0
-Error;ACLineSegment;3/14;OperationalLimits of PATL type are not defined for any of the connected Terminals for the ACLineSegment. [Rule: PATL1];Will be fixed in next release.
-Error;ControlArea;1/1;No TieFlows are associated with the ControlArea, required if ControlArea.type is ControlAreaTypeKind.Interchange. [Rule: CATieFlow];Control Area is not fully configured, not normally used for Power Flow.
-Warning;ControlArea;1/1;The ControlArea doesn't contain any child instances (or is not referenced by other instances).;Control Area is not fully configured, not normally used for Power Flow.
-Warning;SubGeographicalRegion;9/10;No Substations are associated with SubGeographicalRegion via Association Substation.Region, expecting at least 1.;Included to support common boundary with Nordic44
-Warning;TopologicalNode;18/18;No Terminals are associated with TopologicalNode via Association Terminal.TopologicalNode, expecting at least 2.;Topology and State Variable is not consistent.
-Warning;ACLineSegment;1/14;The value of Attribute ACLineSegment.x is less than lower limit: 0.01.;Will be fixed in next release.
-Warning;RegulatingControl;1/2;The voltage range exceeds 10% of the target value.;Will be fixed in next release.
-Warning;TapChangerControl;1/1;The voltage range exceeds 10% of the target value.;Will be fixed in next release.
-Warning;TapChangerControl;1/1;The target voltage specified in the RegulatingControl is significantly different (more than 20%) from the nominal voltage of the regulated ConnectivityNode.;Will be fixed in next release.
-Warning;LoadBreakSwitch;1/2;The base voltage of the VoltageLevel that contains LoadBreakSwitch is not the same as the base voltage of the connected ConnectivityNode.;Will be fixed in next release.
-Warning;ACLineSegment;10/14;No Locations are associated with ACLineSegment.;Will be fixed in next release.
-Warning;SynchronousMachine;1/1;RotatingMachine.p deviates from the corresponding SvPowerFlow.p by more than 10 MW. [Rule: GenActivePowerInfeed2];Will be fixed in next release.
-Warning;TapChangerControl;1/1;The target voltage is beyond the TapChanger capability. RegulatingControl.targetValue is greater than the limit specified by TapChanger.highStep. [Rule: TargetVoltage];Will be fixed in next release.
-Warning;ConnectivityNode;2/47;Attribute fromEndNameTso of the boundary ConnectivityNode is not a recognized Model Authority.;Will be address as part of new boundary for CGMEG 3.0
-Warning;ConnectivityNode;2/47;Attribute toEndNameTso of the boundary ConnectivityNode is not a recorgnized Model Authority.;Will be address as part of new boundary for CGMEG 3.0
-;;;;
+Type,"Class","Recurrence","Description","DIGIN Comment"
+Warning,"","N/A","Undeclared or unrecognized classes/properties are detected. Check 'Undeclared' incidents for details.","There are attributes that is not part of CGMES v2.4 in the example. Some of them are part of CGMES v3.0."
+Warning,"","N/A","Unable to perform boundary connection validation. Please set the Model Authority for the EQ model to enable further validation.","Will be address in upcoming versions."
+Error,"CurrentLimit","16/62","The string length of Attribute IdentifiedObject.name exceeds the maximum length: 32.","CGMES v3.0 have extended the length allowed"
+Error,"OperationalLimitSet","6/49","The string length of Attribute IdentifiedObject.name exceeds the maximum length: 32.","CGMES v3.0 have extended the length allowed"
+Error,"ConnectivityNode","2/98","The boundary ConnectivityNode must be contained by a Line.","CGMES v3.0 have relevant changes to the containment."
+Error,"ACLineSegment","22/36","OperationalLimits of PATL type are defined for some but not all of the connected Terminals. They should be defined for all of the connected Terminals for the ACLineSegment. [Rule: PATL1]","CGMES v3.0 have changes to the OperationalLimitSet."
+Error,"ACLineSegment","3/36","OperationalLimits of PATL type are not defined for any of the connected Terminals for the ACLineSegment. [Rule: PATL1]","This will be updated in upcoming versions"
+Error,"ControlArea","1/1","No TieFlows are associated with the ControlArea, required if ControlArea.type is ControlAreaTypeKind.Interchange. [Rule: CATieFlow]","This will be updated in upcoming versions"
+Warning,"ControlArea","1/1","The ControlArea doesn't contain any child instances (or is not referenced by other instances).","This will be updated in upcoming versions"
+Warning,"Diagram","1/2","The Diagram doesn't contain any child instances (or is not referenced by other instances).","This will be updated in upcoming versions"
+Warning,"SubGeographicalRegion","9/11","No Substations are associated with SubGeographicalRegion via Association Substation.Region, expecting at least 1.","All the SubGeographicalRegion were included to match Nordic44"
+Warning,"ACLineSegment","23/36","The value of Attribute ACLineSegment.x is less than lower limit: 0.01.","This is an incorrect validation rule in CIMdesk"
+Warning,"ACLineSegment","32/36","No Locations are associated with ACLineSegment.","This will be updated in upcoming versions"
+Warning,"ConnectivityNode","2/98","Attribute fromEndNameTso of the boundary ConnectivityNode is not a recognized Model Authority.","CGMES v3.0 have changes to the boundary set"
+Warning,"ConnectivityNode","2/98","Attribute toEndNameTso of the boundary ConnectivityNode is not a recorgnized Model Authority.","CGMES v3.0 have changes to the boundary set"
