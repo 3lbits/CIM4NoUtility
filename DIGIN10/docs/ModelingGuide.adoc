@@ -200,8 +200,8 @@ ConformLoadGroup is a collection of ConformLoads with the same patterns used for
 
 
 === ConnectivityNodes
-ConnectivityNodes shall be connected to a Bay through VoltageLevel to a Substation.
-Not connecting ConnectivityNode to VoltageLevel directly provides more flexibility as it enables sorting of all nodes connected to a Bay.
+ConnectiviyNodes belonging to BusbarSection would need to be contained by the VoltageLevel. All ConnectivityNode connected to a Switch (excpet if one of the ends are connected to a BusbarSection) shall be contained in the same Bay as the Switch.
+Remaining ConnectivityNodes in a Substation should be connected to a VoltageLevel. All ConnectivityNode must be connected to a ConnectivityNodeContainer (Substation, VoltageLevel, Bay or Line).
 
 === Equipment Boundary Profile
 The boundary file is used to connect the DIGIN10 model to the Nordic44 model. In that way, vendors can connect the DIGIN10 model during testing of the Nordic44 model. 
