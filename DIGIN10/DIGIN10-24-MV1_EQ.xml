@@ -368,7 +368,7 @@
 	<cim:ConformLoad rdf:ID="_eb9b50c9-e363-0940-a177-2b7abd47f398">
 		<cim:IdentifiedObject.name>ENGENE 023 ZT1 CL</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Engene 230V Netrual Transformer 1 Conform Load</cim:IdentifiedObject.description>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_7544cd75-be72-9644-b333-a932ff3ba603"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
 		<cim:ConformLoad.LoadGroup rdf:resource="#_0b8f03ae-b704-664c-8665-49300c9c1fff"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
@@ -377,7 +377,7 @@
 	<cim:ConformLoad rdf:ID="_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f">
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 CL</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Froland 132 Bamle 1 Conform Load</cim:IdentifiedObject.description>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_f2b5acf1-6067-4d18-9d75-ea1611013a3d"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 		<cim:ConformLoad.LoadGroup rdf:resource="#_0b8f03ae-b704-664c-8665-49300c9c1fff"/>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
@@ -402,7 +402,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_517ac677-7ac0-dd4d-ac94-a191b7c05b13">
 		<cim:IdentifiedObject.name>ARENDAL CN 010</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_5b498a4e-d2de-7f41-8f17-be255b3489db"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_8f69bfc5-3f5a-7f49-aeab-7df584878465">
 		<cim:IdentifiedObject.name>ARENDAL CN 011</cim:IdentifiedObject.name>
@@ -414,7 +414,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2162-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE 22A CN 013</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_9b11eb79-4938-451f-84cd-8d2be79a03e9"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2169-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>ENGENE CN 001</cim:IdentifiedObject.name>
@@ -434,7 +434,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_457c0964-f107-4223-a3c3-92eff4b11f5c">
 		<cim:IdentifiedObject.name>ENGENE CN 005</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_9441fd8e-3941-4e4f-844d-223701649f52"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_15748f64-9c04-48c4-be7c-3f8b628f9520">
 		<cim:IdentifiedObject.name>ENGENE CN 006</cim:IdentifiedObject.name>
@@ -486,11 +486,11 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_ab9b57dd-c5f7-49c1-95a1-56d1f650db21">
 		<cim:IdentifiedObject.name>ENGENE CN 020</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_7544cd75-be72-9644-b333-a932ff3ba603"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
 	</cim:ConnectivityNode>
 		<cim:ConnectivityNode rdf:ID="_ecd42e0b-67a4-4ebe-911b-c3f3146e6bed">
 		<cim:IdentifiedObject.name>ENGENE CN 021</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_7544cd75-be72-9644-b333-a932ff3ba603"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_ff2e9331-31f5-0247-ac4c-77a2bc179624">
 		<cim:IdentifiedObject.name>FROLAND 132 BA1 CN 001</cim:IdentifiedObject.name>
@@ -498,7 +498,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>FROLAND 132A CN 005</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_12c2570d-d7d8-445b-865d-eb981c7603de"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0">
 		<cim:IdentifiedObject.name>FROLAND CN 001</cim:IdentifiedObject.name>
@@ -534,7 +534,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a2178-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>NEDENES 22A CN 002</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_47f5ebe7-1d03-4d20-b599-9b6068319987"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_92d33b34-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>NEDENES CN 001</cim:IdentifiedObject.name>
@@ -554,6 +554,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_9bf03de1-7f35-4dfe-86aa-29dff75a6962">
 		<cim:IdentifiedObject.name>NEDENES CN 005</cim:IdentifiedObject.name>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2">
 		<cim:IdentifiedObject.name>T_ENGENE CN 003</cim:IdentifiedObject.name>
@@ -2167,43 +2168,43 @@
 		<cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.N"/>
 	</cim:Terminal>
 	<cim:VoltageLevel rdf:ID="_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c">
-		<cim:IdentifiedObject.name>ARENDAL 132</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ARENDAL 132 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.description>Arendal 132kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e4e-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>ENGENE 22</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Engene 22kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e17-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>ENGENE 132</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 132 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Engene 132kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_d4addb12-e956-e44b-9a9d-f118fdbe49f8">
-		<cim:IdentifiedObject.name>ENGENE 023</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 023 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Engene 230V Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e65-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>FROLAND 132</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>FROLAND 132 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e63-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Froland 132kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_92d33b37-7034-11eb-a65a-74e5f963e191">
-		<cim:IdentifiedObject.name>NEDENES 22</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>NEDENES 22 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>Nedenes 22kV Voltage Level</cim:IdentifiedObject.description>
 	</cim:VoltageLevel>
 	<cim:VoltageLevel rdf:ID="_681a1e3e-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.name>T_ENGENE 132</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T_ENGENE 132 VL1</cim:IdentifiedObject.name>
 		<cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:VoltageLevel.Substation rdf:resource="#_681a1e3c-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>T-junction Engene 132kV Voltage Level</cim:IdentifiedObject.description>
