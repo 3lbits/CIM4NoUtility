@@ -1850,8 +1850,8 @@
     </cim:CurrentLimit>
 
 	<cim:EquivalentInjection rdf:ID="_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a">
-		<cim:IdentifiedObject.name>Telemarkstien2 04 LV EQV</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Telemarkstien2 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>Telemarkstien2 04 LV EI1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Telemarkstien2 400V Low Voltage EquivalentInjection 1</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
 		<cim:EquivalentInjection.maxP>0.065</cim:EquivalentInjection.maxP>
 		<cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
