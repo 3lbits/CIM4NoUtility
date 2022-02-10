@@ -55,6 +55,7 @@
 		<cim:ACLineSegment.x>35</cim:ACLineSegment.x>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_1f19556f-4604-8545-b930-0d96b163c57a">	
 		<cim:IdentifiedObject.description>132kV Arendal-T1 ACLineSegment 1</cim:IdentifiedObject.description>
@@ -75,7 +76,6 @@
 		<cim:ACLineSegment.x>10530</cim:ACLineSegment.x>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191">	
 		<cim:IdentifiedObject.description>132kV T-Engene Engene 1 ACLineSegment 1</cim:IdentifiedObject.description>
@@ -86,6 +86,7 @@
 		<cim:ACLineSegment.x>1080</cim:ACLineSegment.x>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_f677795c-3419-4623-9e5d-4a0287903492"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_681a2693-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>132kV T-Engene Engene 1 ACLineSegment 2</cim:IdentifiedObject.description>
@@ -96,6 +97,7 @@
 		<cim:ACLineSegment.x>94</cim:ACLineSegment.x>
 		<cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
 		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_f677795c-3419-4623-9e5d-4a0287903492"/>
 	</cim:ACLineSegment>
 	<cim:ACLineSegment rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191">	
 		<cim:IdentifiedObject.description>22kV Engene Nedenes ACLineSegment 1</cim:IdentifiedObject.description>
@@ -365,6 +367,13 @@
 		<cim:IdentifiedObject.name>ENGENE 132A</cim:IdentifiedObject.name>
 		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:BusbarSection>
+
+	<cim:BusbarSection rdf:ID="_abbab805-9b44-4c2d-93c2-45a691f71cd1">
+		<cim:IdentifiedObject.description>T-Junction Engene 132kV A Busbar Section 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>T_ENGENE 132A</cim:IdentifiedObject.name>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
+	</cim:BusbarSection>
+
 	<cim:BusbarSection rdf:ID="_681a1eac-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.description>Froland 132kV A Busbar Section 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FROLAND 132A</cim:IdentifiedObject.name>
@@ -573,7 +582,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2">
 		<cim:IdentifiedObject.name>T_ENGENE CN 003</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_2d80e032-6152-0a44-8206-45b04656dc85"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191">
 		<cim:IdentifiedObject.name>T_ENGENE CN 001</cim:IdentifiedObject.name>
@@ -1494,12 +1503,21 @@
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
 	<cim:Terminal rdf:ID="_f6e8c471-b1eb-467b-af68-78c6aa25771b">
-		<cim:IdentifiedObject.name>T1 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>T_Engene Side</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>T1 132 T_ENGENE BS 1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>T_Engene BS</cim:IdentifiedObject.description>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_4fbbd35b-85d2-4136-8ce4-287f14831764"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_92d33bcc-7034-11eb-a65a-74e5f963e191"/>
 		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 	</cim:Terminal>
+
+	<cim:Terminal rdf:ID="_ffb2f7d9-b099-4ecb-be93-9071b755ceab">
+		<cim:IdentifiedObject.name>T1 132 T_ENGENE-ENGENE ACLS 1 1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>T_Engene Side</cim:IdentifiedObject.description>
+		<cim:Terminal.ConnectivityNode rdf:resource="#_b20e4b70-f546-48b1-82e8-66b138fd7ae2"/>
+		<cim:Terminal.ConductingEquipment rdf:resource="#_abbab805-9b44-4c2d-93c2-45a691f71cd1"/>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+	</cim:Terminal>
+
 	<cim:Terminal rdf:ID="_92d33b78-7034-11eb-a65a-74e5f963e191">
 		<cim:IdentifiedObject.name>T1 132 T_ENGENE-ENGENE ACLS 1 2</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>T_Engene Side</cim:IdentifiedObject.description>
