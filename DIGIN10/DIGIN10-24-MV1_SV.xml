@@ -9,7 +9,7 @@
     <md:Model.created>2021-04-28T14:55:52.000Z</md:Model.created>
     <md:Model.scenarioTime>2021-02-14T14:55:52Z</md:Model.scenarioTime>
     <md:Model.description></md:Model.description>
-    <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV</md:Model.modelingAuthoritySet>
+    <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
     <md:Model.profile>http://entsoe.eu/CIM/StateVariables/4/1</md:Model.profile>
     <md:Model.version>1</md:Model.version>
     <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16" />

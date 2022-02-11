@@ -56,7 +56,7 @@
 	</cim:Location>
 	<cim:Location rdf:ID="_c3b960e2-fb92-478b-880d-13768894c467">
 		<cim:Location.CoordinateSystem rdf:resource="#_a5417df7-4f3c-4661-8701-aa5ee6991834"/>
-		<cim:Location.PowerSystemResources rdf:resource="#_681a2693-5a55-11eb-a658-74e5f963e191"/>
+		<cim:Location.PowerSystemResources rdf:resource="#_92d33bcc-7034-11eb-a65a-74e5f963e191"/>
 		<cim:IdentifiedObject.name>L T_ENGENE-ENGENE</cim:IdentifiedObject.name>
 	</cim:Location>
 	<cim:Location rdf:ID="_87870813-fff0-45eb-a9e0-dc28a12223b1">

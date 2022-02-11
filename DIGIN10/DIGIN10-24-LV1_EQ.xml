@@ -3193,7 +3193,7 @@
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN"/>
         <cim:Terminal.ConductingEquipment rdf:resource="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562"/>
-        <cim:Terminal.ConnectivityNode rdf:resource="#_261ac434-edce-4b15-a8d2-a18d03c3cee3"/>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_486f219e-c4dc-498d-ba6a-3c8c8c46cdcf"/>
     </cim:Terminal>
 	
 	<cim:Terminal rdf:ID="_532b1ea0-074d-4ab0-b582-b583b3289f03">
