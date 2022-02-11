@@ -2,7 +2,6 @@
 <rdf:RDF  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
 			xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#"
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
-			xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" 
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
 	<md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
@@ -218,7 +217,6 @@
 	<cim:Substation rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ARENDAL</cim:IdentifiedObject.name>
-		<pti:Substation.EnergySchedulingArea rdf:resource="#_d398cead-6dfb-4ce3-80a0-93f23d46bd7b"/>
 	</cim:Substation>
 
 	<cim:VoltageLevel rdf:ID="_1f4fabd4-8c57-c245-b107-4e64c9007ae3">

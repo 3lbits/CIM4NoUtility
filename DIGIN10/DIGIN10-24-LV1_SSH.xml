@@ -879,5 +879,92 @@
 		<cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
 	</cim:Terminal>
 
+    <cim:CurrentLimit rdf:about="_9ff945ef-e893-4c68-b514-ff8940c01f17">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_927aa241-7249-4362-83de-e2ff3da337da">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_0fdd0101-d830-4751-8500-158d70bfeed6">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_ca7b66d4-f320-4d41-a7d7-81e178fad8fa">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_d0cad0ac-ccd0-4fa1-ad9d-042a953f267e">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_c7a834b4-a64f-4e17-a09a-d922527cd824">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_1a367f73-c961-4f37-937f-9ee7d7a812a5">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_d600cd39-c90d-41d4-94c2-6899a02507c9">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_e34ca4c2-8bd7-4d41-b407-bfde09878fe2">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_9b95046e-3a0b-4bf4-9ac8-b16ae30dd99f">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_2fe2f098-bef7-46ce-a283-4a533a07dbfc">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_af9b16b2-d918-445c-a2aa-5b116efe6ced">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_71d437d2-b5dc-48d7-9250-e558e8811ff3">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_b964f2e5-1c68-4b5f-abb7-11a4f84650bd">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_11f01e0a-8233-458f-b427-666f0fb53736">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_5457ebb3-1f51-483e-b49a-4424ec03840e">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_b059c518-fa8e-484a-a426-8766c56275ad">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_9bff3a3c-5a06-4538-b04c-6cdeaa4e709c">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_aaed6c4c-abfb-49d0-bf54-a29398344a0f">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_94686647-b1d0-4214-ace2-4ec6879fffda">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_e50656d8-81e1-49b6-8960-120cdf90d351">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
+
+    <cim:CurrentLimit rdf:about="_d2124105-10f2-42c0-a16a-6c47b5edb485">
+        <cim:CurrentLimit.value>400</cim:CurrentLimit.value>
+    </cim:CurrentLimit>
 
 </rdf:RDF>
