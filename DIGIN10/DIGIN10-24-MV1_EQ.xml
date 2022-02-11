@@ -195,11 +195,6 @@
 		<cim:IdentifiedObject.name>ENGENE 22SC1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
-	<cim:Bay rdf:ID="_4ef626b9-586b-4845-80eb-6a008766c8f5">
-		<cim:IdentifiedObject.description>Engene 22kV Neutral Connection Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22ZT1</cim:IdentifiedObject.name>
-		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:Bay>
 	<cim:Bay rdf:ID="_7544cd75-be72-9644-b333-a932ff3ba603">
 		<cim:IdentifiedObject.description>Engene 230V Neutral Transformer 1</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ENGENE 023 ZT1</cim:IdentifiedObject.name>
@@ -507,7 +502,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_39082cb0-8808-b047-893c-ba0503a458d6">
 		<cim:IdentifiedObject.name>ENGENE CN 019</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_ab9b57dd-c5f7-49c1-95a1-56d1f650db21">
 		<cim:IdentifiedObject.name>ENGENE CN 020</cim:IdentifiedObject.name>
@@ -1255,7 +1250,7 @@
 	</cim:PetersenCoil>
 	<cim:PetersenCoil rdf:ID="_c9d5445c-9ad6-3849-9e02-08762805826b">
 		<cim:IdentifiedObject.name>22 ZT1-EFC PC</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
+		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 		<cim:IdentifiedObject.description>22kV ZT1-EFC Petersen Coil</cim:IdentifiedObject.description>
 	</cim:PetersenCoil>
 	<cim:PowerTransformer rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191">
