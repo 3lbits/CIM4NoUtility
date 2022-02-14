@@ -205,7 +205,7 @@ substation | short class name
 
 ### cim:Terminal
 
-(Terminal is normally not included in a name standard).
+Terminal is normally not included in a name standard and therefore the below table only contains **examples**.
 
 | Name                     | Description                        |
 | ------------------------ | :--------------------------------- |
