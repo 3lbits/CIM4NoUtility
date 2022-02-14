@@ -23,21 +23,23 @@ voltage | component("service-name") | component class | sequence number
 
 ### cim:Bay
 
-substation | voltage | feeder | sequence
+substation | voltage | short class name | sequence
+short class name is "Ba".
 
 | Name            | Description                          |
 | --------------- | :----------------------------------- |
-| FROLAND 132 EN1 | Froland 132kV Engene 1 Bay           |
-| NEDENES 04 LC1  | Nedenes 400V Low Voltage Cable 1 Bay |
+| FROLAND 132 Ba1 | Froland 132kV Engene 1 Bay           |
+| NEDENES 04 Ba1  | Nedenes 400V Low Voltage Cable 1 Bay |
 
 ### cim:Breaker
 
-substation | voltage | feeder | sequence
+substation | voltage | feeder (if applicable) | short class name | sequence
+short class name is "Br".
 
-| Name           | Description                   |
-| -------------- | :---------------------------- |
-| FROLAND 132EN1 | Froland 132kV Engene 1 Bay    |
-| TELEMA2 04 1E  | Telemarkstien2 400V Breaker 1 |
+| Name               | Description                      |
+| ------------------ | :------------------------------- |
+| FROLAND 132 EN Br1 | Froland 132kV Engene 1 Breaker L |
+| TELEMA2 04 Br1     | Telemarkstien2 400V Breaker 1    |
 
 ### cim:BusbarSection
 
