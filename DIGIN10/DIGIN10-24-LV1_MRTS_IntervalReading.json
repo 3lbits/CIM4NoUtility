@@ -45,7 +45,7 @@
                             "source": "Test system",
                             "timePeriod": {
                                 "start": "2022-01-17T10:00:00Z",
-                                "end": "2022-01-17T09:11:00Z"
+                                "end": "2022-01-17T11:00:00Z"
                             },
                             "ReadingQualities": [
                                 {

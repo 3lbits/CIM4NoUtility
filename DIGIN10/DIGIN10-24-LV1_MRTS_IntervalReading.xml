@@ -9,6 +9,10 @@
                     <mr:timeStamp>2022-01-17T09:00:00Z</mr:timeStamp>
                     <mr:reportedDateTime>2022-01-17T09:10:16.1652703Z</mr:reportedDateTime>
                     <mr:source>Test System</mr:source>
+                    <mr:timePeriod>
+                        <mr:start>2022-01-17T08:00:00Z<mr:start>
+                        <mr:end>2022-01-17T09:00:00Z<mr:end>
+                    </mr:timePeriod>
                     <mr:ReadingQualities>
                         <mr:ReadingQualityType rdf:resource="#_3.8.1"/>
                     </mr:ReadingQualities>
@@ -19,6 +23,10 @@
                     <mr:timeStamp>2022-01-17T10:00:00Z</mr:timeStamp>
                     <mr:reportedDateTime>2022-01-17T10:10:16.1652703Z</mr:reportedDateTime>
                     <mr:source>Test System</mr:source>
+                    <mr:timePeriod>
+                        <mr:start>2022-01-17T09:00:00Z<mr:start>
+                        <mr:end>2022-01-17T10:00:00Z<mr:end>
+                    </mr:timePeriod>
                     <mr:ReadingQualities>
                         <mr:ReadingQualityType rdf:resource="#_3.7.1"/>
                     </mr:ReadingQualities>
@@ -29,6 +37,10 @@
                     <mr:timeStamp>2022-01-17T10:00:00Z</mr:timeStamp>
                     <mr:reportedDateTime>2022-01-17T11:10:16.1652703Z</mr:reportedDateTime>
                     <mr:source>Test System</mr:source>
+                    <mr:timePeriod>
+                        <mr:start>2022-01-17T10:00:00Z<mr:start>
+                        <mr:end>2022-01-17T11:00:00Z<mr:end>
+                    </mr:timePeriod>
                     <mr:ReadingQualities>
                         <mr:ReadingQualityType rdf:resource="#_3.0.1"/>
                     </mr:ReadingQualities>
