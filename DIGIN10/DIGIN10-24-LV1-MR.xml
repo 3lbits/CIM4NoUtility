@@ -51,7 +51,7 @@
 			<cim:BaseReading.ReadingQualities rdf:resource="#_3.8.1"/> <!--Why is this a many to one?-->
 		</cim:IntervalReading>
 		<cim:IntervalBlocks.ReadingType rdf:resource="#_0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
-		<cim:IntervalBlocks.MeterReadings rdf:resource="#_8b15e860-0f8e-4aeb-a2ac-9d939d7eb221"/>
+		<cim:IntervalBlocks.MeterReading rdf:resource="#_8b15e860-0f8e-4aeb-a2ac-9d939d7eb221"/>
 	</mr:IntervalBlocks>
 
 </rdf:RDF>
