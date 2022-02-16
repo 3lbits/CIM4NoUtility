@@ -45,8 +45,8 @@
 			<cim:BaseReading.source>Test System</cim:BaseReading.source>
 			<cim:BaseReading.value>3</cim:BaseReading.value>
 			<cim:BaseReading.timePeriod> <!--This one is confusing-->
-				<cim:DateTimeInterval.start>2022-01-17T08:00:00Z<mr:start>
-				<cim:DateTimeInterval.end>2022-01-17T09:00:00Z<mr:end>
+				<cim:DateTimeInterval.start>2022-01-17T08:00:00Z<DateTimeInterval:start>
+				<cim:DateTimeInterval.end>2022-01-17T09:00:00Z<DateTimeInterval:end>
 			</cim:BaseReading.timePeriod>
 			<cim:BaseReading.ReadingQualities rdf:resource="#_3.8.1"/> <!--Why is this a many to one?-->
 		</cim:IntervalReading>
