@@ -151,77 +151,77 @@
 	</cim:ACLineSegment>
 	<cim:Bay rdf:ID="_5b498a4e-d2de-7f41-8f17-be255b3489db">
 		<cim:IdentifiedObject.description>Arendal 132kV Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL 132 T1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ARENDAL 132 T Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_bec6d236-5e89-403b-b7d5-5799eaeea1ce">
 		<cim:IdentifiedObject.description>Arendal 132kV PetersenCoil 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL 132 PC1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ARENDAL 132 PC Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_9b11eb79-4938-451f-84cd-8d2be79a03e9">
 		<cim:IdentifiedObject.description>Engene 22kV Nedenes 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22NE1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22 NE Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_29ace056-c4e8-46ea-8935-38f32ddbee49">
 		<cim:IdentifiedObject.description>Engene 22kV Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22T1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22 T Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_9441fd8e-3941-4e4f-844d-223701649f52">
 		<cim:IdentifiedObject.description>Engene 132kV Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 132 T1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 132 T Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_b2fe839d-37f8-42f6-a52c-5cea12165e60">
 		<cim:IdentifiedObject.description>Engene 132kV T-junction Engene 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 132 T_E1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 132 T_E Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_5b299df4-d232-4348-9d1e-096f6d10fb5a">
 		<cim:IdentifiedObject.description>Engene 22kV Shunt Compensator 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22SC1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22 SC Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_7544cd75-be72-9644-b333-a932ff3ba603">
 		<cim:IdentifiedObject.description>Engene 230V Neutral Transformer 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 023 ZT1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 023 ZT Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b">
 		<cim:IdentifiedObject.description>Froland 132kV Arendal 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>FROLAND 132AR1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>FROLAND 132 AR Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_f2b5acf1-6067-4d18-9d75-ea1611013a3d">
 		<cim:IdentifiedObject.description>Froland 132kV Bamble 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>FROLAND 132BA1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>FROLAND 132 BA Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_12c2570d-d7d8-445b-865d-eb981c7603de">
 		<cim:IdentifiedObject.description>Froland 132kV Engene 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>FROLAND 132EN1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>FROLAND 132 EN Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_47f5ebe7-1d03-4d20-b599-9b6068319987">
 		<cim:IdentifiedObject.description>Nedenes 22kV Transformer 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES 22T1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>NEDENES 22 T Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_e3a5b7c5-fa48-42f9-9b13-2ceb5b540bd6">
 		<cim:IdentifiedObject.description>Nedenes 22kV Engene 1 Bay</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES 22E1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>NEDENES 22 E Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_92d33b37-7034-11eb-a65a-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_2d80e032-6152-0a44-8206-45b04656dc85">
 		<cim:IdentifiedObject.description>T-junction Engene 132kV Engene 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>T_ENGENE 132 EN1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>T_ENGENE 132 EN Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Bay rdf:ID="_7aff3ae4-1afa-b046-af50-4e8222f094ef">
 		<cim:IdentifiedObject.description>Engene 22kV NT 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22 NT1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.name>ENGENE 22 NT Ba1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:Bay>
 	<cim:Breaker rdf:ID="_48668646-105a-490d-aaad-3259b852aa23">
