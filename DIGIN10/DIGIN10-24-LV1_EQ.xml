@@ -17,8 +17,8 @@
     </md:FullModel>
 
     <cim:ACLineSegment rdf:ID="_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -36,8 +36,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_46bce40c-71c2-4d19-b63f-78a69c460b0e">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -55,8 +55,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_84329e8e-2efe-4870-82db-a0bf9a768bd2">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -74,8 +74,8 @@
     </cim:ACLineSegment>
 	
     <cim:ACLineSegment rdf:ID="_ead7f7fd-d132-43b5-b561-1b0e65b0a562">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -93,8 +93,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_3f90847f-9450-47aa-a2fa-714cc5353867">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -112,8 +112,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_6f519536-eefe-452e-8294-c115bf21581d">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -131,8 +131,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_446700b3-38fb-4cfe-aa71-11fdf6118a49">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 8</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS8</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS8</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -150,8 +150,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_320b9701-cae3-478e-a70b-03d1736ed4e3">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 9</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS9</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS9</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -169,8 +169,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_8dcf0a96-206b-4da2-814d-4030ac0dfaec">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 10</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS10</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS10</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -188,8 +188,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_797fe5ce-1857-4bea-8a0f-728a4b4c30ed">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 11</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS11</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 11</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS11</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -207,8 +207,8 @@
     </cim:ACLineSegment>
 	
     <cim:ACLineSegment rdf:ID="_f2ed5944-a394-4802-8ec9-936bc60e5bc4">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 12</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS12</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 12</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS12</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -226,8 +226,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_81567f71-8233-4e19-8357-e75d35e89470">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 13</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS13</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 13</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS13</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -245,8 +245,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_fe0a5228-5eb4-4008-9ee6-d22389f798e9">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 14</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS14</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 14</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS14</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -264,8 +264,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_93efed67-8a75-487c-8e1d-0d31ee4a2fc3">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 15</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS15</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 15</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS15</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -283,8 +283,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_b6bbea56-f530-4f7b-9a94-9b7fdeb58779">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 16</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS16</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 16</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS16</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -302,8 +302,8 @@
     </cim:ACLineSegment>
 	
     <cim:ACLineSegment rdf:ID="_e0e00668-9e76-461f-b310-8c84afb9ffe6">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 17</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS17</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 17</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS17</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -321,8 +321,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_50e4056a-92e6-4bc2-b6e1-4d66f1624c38">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 18</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS18</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 18</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS18</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -340,8 +340,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_70b19e4c-edb9-4957-885c-59b7a515724f">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 19</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS19</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 19</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS19</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -359,8 +359,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_43dbe66c-a342-44b0-b9cf-058c784cef1d">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 20</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS20</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 20</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS20</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -378,8 +378,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_0103615e-f6cc-4cb8-a338-a7fb714cdfa2">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 21</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS21</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 21</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS21</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -397,8 +397,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_919be6f3-be6b-449d-af3d-4d0a7a221ff5">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 22</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS22</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 22</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS22</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -416,8 +416,8 @@
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:ID="_30d15518-d0ac-4800-a5c1-da8593c790ed">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt ACLineSegment 23</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 ACLS23</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 23</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 ACLS23</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -436,186 +436,186 @@
 
     <cim:Bay rdf:ID="_de4c9f33-bceb-4355-afc6-c725bda819e3">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba1</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_d4067150-d743-4e1d-a48d-7a8d20de4c06">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba2</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_719ee1dd-0516-4873-be5e-8e9da1507818">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 3</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC3</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba3</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_93e2b374-b3b5-40d7-8723-285903e47a05">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba4</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 	
 	<cim:Bay rdf:ID="_4e192fee-c90d-4e29-80b6-3e71dc353a79">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba5</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba"/>
     </cim:Bay>
 	
 	<cim:Bay rdf:ID="_2fc9b615-5925-4e2a-baaa-165ee4f51910">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba6</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_1358279b-5a65-4b15-b277-a9bd5ca011e4">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba7</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_0d6af688-1749-4a34-93ca-ae6c87989cd2">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 8</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC8</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba8</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_1a7ff7f1-a631-4d72-84cd-c35000acda8d">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 9</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC9</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba9</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_91b33a38-c99c-4bc1-a05c-bc0852aca841">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 10</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC10</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba10</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_6bda8694-d83f-467f-ba31-a3a155a1b803">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 11</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC11</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba11</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_c15f3cd9-580d-44e1-92db-10bd41d87bad">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 12</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC12</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba12</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_61ad7a21-f7bd-40c0-8f86-2d1f07bbef3b">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 13</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC13</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba13</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_eeded44f-071c-471f-952f-4be5134b40bc">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 14</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC14</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba14</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_ce116534-d9bd-4929-be64-4d43ea0f1803">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 15</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC15</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba15</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_1cf342d4-9dfe-4cd8-ab14-b11c48e59b84">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 16</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC16</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba16</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_8cae3059-9886-40db-befa-ddfa56ba94cd">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 17</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC17</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba17</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_0acd4d2c-1cc2-4b9b-8277-f3763b0ed6ab">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 18</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC18</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba18</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_b1626403-9c0c-4f0c-a072-b7d5d86cdb58">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 19</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC19</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba19</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_c5571223-50fe-4a26-a24f-7f1cabf61137">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 20</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC20</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba20</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_321f4b75-4cc7-4e4c-874e-cf20693886cf">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 21</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC21</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba21</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
 	</cim:Bay>
 
     <cim:Bay rdf:ID="_876f7fb1-8568-4024-bbd2-664b9503adeb">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 22</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC22</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba22</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
 	</cim:Bay>
     <cim:Bay rdf:ID="_a9ceb50c-8ed0-47a0-9738-e556cf09a0f0">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 23</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC23</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba23</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_32bc8225-a8b7-45eb-a1ad-9adb4648f1dc">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 24</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC24</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba24</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_14c73969-0d0b-436e-be34-8e8f5593c351">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 25</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC25</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba25</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
     </cim:Bay>
 	
     <cim:Bay rdf:ID="_76cfe1e0-43f8-4783-8110-a93ee808d6d6">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 26</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC26</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba26</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_d01ae8b2-c93b-4147-bc81-f593dda56773">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 27</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC27</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba27</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_6ef007de-6d2c-4ab9-ab5b-b2571b714d8d">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 28</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC28</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba28</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"/>
     </cim:Bay>
 
     <cim:Bay rdf:ID="_c0fe3dc4-dcc1-43b9-afe8-c5d4e76a2470">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 29</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC29</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba29</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
     </cim:Bay>	
 
     <cim:Bay rdf:ID="_1231dfc8-411f-4de0-88fe-cdfa58ed470e">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 30</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC30</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba30</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
     </cim:Bay>
 	
 	<cim:Bay rdf:ID="_c937c7d7-777e-45dd-a01d-d792ba4efec4">
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Low Voltage Cable Bay 31</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 LC31</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 Ba31</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624"/>
     </cim:Bay>
 
@@ -1086,8 +1086,8 @@
     </cim:Breaker>
 
     <cim:BusbarSection rdf:ID="_b8a334a5-2bcb-40e6-b6c2-db906441552d">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1097,8 +1097,8 @@
     </cim:BusbarSection>
 
     <cim:BusbarSection rdf:ID="_e18cbee0-1a4f-4315-9108-39f317c67fd5">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS2</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1108,8 +1108,8 @@
     </cim:BusbarSection>
 	
 	<cim:BusbarSection rdf:ID="_8cc7031f-def2-49b7-97a9-43d3c3c15789">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 3</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS3</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1119,8 +1119,8 @@
     </cim:BusbarSection>
 	
 	<cim:BusbarSection rdf:ID="_13e2ba8c-0046-447a-a99f-4c7ec3b051b9">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1130,8 +1130,8 @@
     </cim:BusbarSection>
 	
 	<cim:BusbarSection rdf:ID="_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1141,8 +1141,8 @@
     </cim:BusbarSection>
 	
 	<cim:BusbarSection rdf:ID="_46c1c4fb-6a7a-4912-bd2e-4851b6276345">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1152,8 +1152,8 @@
     </cim:BusbarSection>
 	
 	<cim:BusbarSection rdf:ID="_c060399a-96a1-4765-9ef8-c936ca08f8fe">
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Busbar Section 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 BS7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1850,8 +1850,8 @@
     </cim:CurrentLimit>
 
 	<cim:EquivalentInjection rdf:ID="_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a">
-		<cim:IdentifiedObject.name>Telemarkstien2 04 LV EI1</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Telemarkstien2 400V Low Voltage EquivalentInjection 1</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>Telemarkstien2 04 LV EQV</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Telemarkstien2 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
 		<cim:EquivalentInjection.maxP>0.065</cim:EquivalentInjection.maxP>
 		<cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
