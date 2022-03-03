@@ -1087,7 +1087,7 @@
 
     <cim:BusbarSection rdf:ID="_b8a334a5-2bcb-40e6-b6c2-db906441552d">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1098,7 +1098,7 @@
 
     <cim:BusbarSection rdf:ID="_e18cbee0-1a4f-4315-9108-39f317c67fd5">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1109,7 +1109,7 @@
 	
 	<cim:BusbarSection rdf:ID="_8cc7031f-def2-49b7-97a9-43d3c3c15789">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 3</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB3</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1120,7 +1120,7 @@
 	
 	<cim:BusbarSection rdf:ID="_13e2ba8c-0046-447a-a99f-4c7ec3b051b9">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1131,7 +1131,7 @@
 	
 	<cim:BusbarSection rdf:ID="_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1142,7 +1142,7 @@
 	
 	<cim:BusbarSection rdf:ID="_46c1c4fb-6a7a-4912-bd2e-4851b6276345">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
@@ -1153,7 +1153,7 @@
 	
 	<cim:BusbarSection rdf:ID="_c060399a-96a1-4765-9ef8-c936ca08f8fe">
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04A</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>TELEMA2 04 BSA CB7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
