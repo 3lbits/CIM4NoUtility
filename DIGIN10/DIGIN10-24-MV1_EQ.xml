@@ -491,7 +491,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_39082cb0-8808-b047-893c-ba0503a458d6">
 		<cim:IdentifiedObject.name>ENGENE CN 019</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_ab9b57dd-c5f7-49c1-95a1-56d1f650db21">
 		<cim:IdentifiedObject.name>ENGENE CN 020</cim:IdentifiedObject.name>
