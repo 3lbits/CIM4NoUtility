@@ -10,6 +10,7 @@
 		<md:Model.description>Boundary Model for Nordic44 and DIGIN10 Test model.</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/TopologyBoundary/3/1</md:Model.profile>
+    <!-- Ref Equipment Boundary Set -->
 		<md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
 	</md:FullModel>
 	

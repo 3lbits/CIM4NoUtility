@@ -10,9 +10,12 @@
 		<md:Model.description>DIGIN10 Medium Voltage EQ Test model.</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
+		<!-- The current model does not support Operation and Short-Circuit.
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>
+		-->
 		<md:Model.version>1</md:Model.version>
+		<!-- Ref Equipment Boundary Set -->
 		<md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
 	</md:FullModel>
   
