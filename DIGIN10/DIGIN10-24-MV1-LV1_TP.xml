@@ -39,7 +39,6 @@
     <cim:TopologicalNode.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c" />
     <cim:IdentifiedObject.name>ARENDAL 132A</cim:IdentifiedObject.name>
-    <pti:Resources.PSSEID>13</pti:Resources.PSSEID>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_734aa238-9549-11ec-b226-48ba4eadba68">
     <cim:TopologicalNode.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -305,9 +304,11 @@
   <cim:ConnectivityNode rdf:about="#_4e8ec3b0-386c-43d4-8311-e98d8a8f565a">
     <cim:ConnectivityNode.TopologicalNode rdf:resource="#_734aa239-9549-11ec-b226-48ba4eadba68" />
   </cim:ConnectivityNode>
+  <!--
   <cim:ConnectivityNode rdf:about="#_4fbbd35b-85d2-4136-8ce4-287f14831764">
     <cim:ConnectivityNode.TopologicalNode rdf:resource="#_734aa241-9549-11ec-b226-48ba4eadba68" />
   </cim:ConnectivityNode>
+  -->
   <cim:ConnectivityNode rdf:about="#_517ac677-7ac0-dd4d-ac94-a191b7c05b13">
     <cim:ConnectivityNode.TopologicalNode rdf:resource="#_734aa237-9549-11ec-b226-48ba4eadba68" />
   </cim:ConnectivityNode>
@@ -912,12 +913,16 @@
   <cim:Terminal rdf:about="#_92d33b5a-7034-11eb-a65a-74e5f963e191">
     <cim:Terminal.TopologicalNode rdf:resource="#_734aa243-9549-11ec-b226-48ba4eadba68" />
   </cim:Terminal>
+ <!--  
   <cim:Terminal rdf:about="#_92d33b78-7034-11eb-a65a-74e5f963e191">
+
     <cim:Terminal.TopologicalNode rdf:resource="#_734aa241-9549-11ec-b226-48ba4eadba68" />
   </cim:Terminal>
   <cim:Terminal rdf:about="#_92d33b79-7034-11eb-a65a-74e5f963e191">
     <cim:Terminal.TopologicalNode rdf:resource="#_734aa23c-9549-11ec-b226-48ba4eadba68" />
   </cim:Terminal>
+  -->
+
   <cim:Terminal rdf:about="#_92d33b7f-7034-11eb-a65a-74e5f963e191">
     <cim:Terminal.TopologicalNode rdf:resource="#_734aa23a-9549-11ec-b226-48ba4eadba68" />
   </cim:Terminal>

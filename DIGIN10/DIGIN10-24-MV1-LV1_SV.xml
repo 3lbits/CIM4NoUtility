@@ -333,11 +333,13 @@
     <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
     <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
+  <!--
   <cim:SvPowerFlow rdf:ID="_76cd62c7-8a51-11ec-a677-74e5f963e191">
     <cim:SvPowerFlow.Terminal rdf:resource="#_92d33b78-7034-11eb-a65a-74e5f963e191" />
     <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
     <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
+  -->
   <cim:SvPowerFlow rdf:ID="_76cd62c8-8a51-11ec-a677-74e5f963e191">
     <cim:SvPowerFlow.Terminal rdf:resource="#_25581747-6599-46ae-a8ac-62a0161045aa" />
     <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
@@ -448,11 +450,13 @@
     <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
     <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
+  <!--
   <cim:SvPowerFlow rdf:ID="_76cd62de-8a51-11ec-a677-74e5f963e191">
     <cim:SvPowerFlow.Terminal rdf:resource="#_92d33b79-7034-11eb-a65a-74e5f963e191" />
     <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
     <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
+  -->
   <cim:SvPowerFlow rdf:ID="_76cd62df-8a51-11ec-a677-74e5f963e191">
     <cim:SvPowerFlow.Terminal rdf:resource="#_db529221-814c-4f40-ab73-a7084d6308b7" />
     <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
