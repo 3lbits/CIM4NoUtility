@@ -10,9 +10,12 @@
 		<md:Model.description>DIGIN10 Medium Voltage EQ Test model.</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
+		<!-- The current model does not support Operation and Short-Circuit.
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentOperation/3/1</md:Model.profile>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentShortCircuit/3/1</md:Model.profile>
+		-->
 		<md:Model.version>1</md:Model.version>
+		<!-- Ref Equipment Boundary Set -->
 		<md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
 	</md:FullModel>
   
@@ -491,7 +494,7 @@
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_39082cb0-8808-b047-893c-ba0503a458d6">
 		<cim:IdentifiedObject.name>ENGENE CN 019</cim:IdentifiedObject.name>
-		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_4ef626b9-586b-4845-80eb-6a008766c8f5"/>
+		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>
 	<cim:ConnectivityNode rdf:ID="_ab9b57dd-c5f7-49c1-95a1-56d1f650db21">
 		<cim:IdentifiedObject.name>ENGENE CN 020</cim:IdentifiedObject.name>

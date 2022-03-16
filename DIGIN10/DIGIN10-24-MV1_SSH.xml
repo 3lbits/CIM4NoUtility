@@ -5,7 +5,7 @@
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-  <md:FullModel rdf:about="_f19668c6-e0a1-4db7-bfee-7645392d0021">
+  <md:FullModel rdf:about="urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021">
     <md:Model.created>2021-04-28T20:55:46.000Z</md:Model.created>
     <md:Model.scenarioTime>2021-04-28T20:54:27Z</md:Model.scenarioTime>
     <md:Model.description>DIGIN10 Medium Voltage MAS1</md:Model.description>
