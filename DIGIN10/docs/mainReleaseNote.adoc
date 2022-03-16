@@ -10,6 +10,7 @@
 :leveloffset: +1
 :title-logo-image: image:\DIGIN10\diagrams\images\DIGIN.png[pdfwidth=30vw]
 
+
 image::DIGIN10\diagrams\images\DIGIN.png[width=50%, pdfwidth=30vw]
 
 
@@ -19,9 +20,9 @@ Please provide feedback in the case you are dicsovering any errors, https://gith
 
 
 *Status*: Current +
-*Version*: DIGIN10-24-MV1_v0.5
-*Published*: 2021-12-03 +
-*Updated*: 2021-12-03 +
+*Version*: DIGIN10-24-v.1.0
+*Published*: 2022-03-18 +
+*Updated*: 2022-03-18 +
 *Current Version*: https://diginenergi.no/nedlastinger/ +
 *Previous version*: https://diginenergi.no/nedlastinger/ +
 
