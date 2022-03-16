@@ -1,8 +1,12 @@
 # Using Neo4J for importing DIGIN Grunnprofil
 
-This is made for sharing what Digin Grunnprofil have made for importing .xml files into Neo4J with cypher. The reason for making this is to have a visual method to check quality errors in conductivity. DIGIN can not take any responsibillity for errors in using this code.
+This is made for sharing what Digin Grunnprofil have made for importing .xml files into Neo4J with cypher. The reason for making this is to have a visual method to check quality errors in conductivity.
+
+**DIGIN can not take any responsibillity for errors in using this code.**
+**This document does not include setup of Neo4J or apoc**
 
 ## Classes
+
 - ACLineSegment
 - (BaseVoltage)
 - Bay
@@ -33,9 +37,18 @@ This is made for sharing what Digin Grunnprofil have made for importing .xml fil
 
 ## Cypher Code
 
+CALL apoc.load.xml("your chosen file")
+
+Example:
+
+- DIGIN10-24-LV1_EQ.xml
+- DIGIN10-24-MV1_EQ.xml
+
 ### Conducting
+
 #### ACLineSegment
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ACLineSegment"] AS ACLineSegments
@@ -71,7 +84,8 @@ m.shortCircuitEndTemperature = shortCircuitEndTemperature._text
 ```
 
 #### BusbarSection
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "BusbarSection"] AS BusbarSections
@@ -91,7 +105,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 #### ConformLoad
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ConformLoad"] AS ConformLoads
@@ -111,7 +126,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 #### ConnectivityNode
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ConnectivityNode"] AS ConnectivityNodes
@@ -129,7 +145,8 @@ m.ConnectivityNodeContainer = substring(ConnectivityNodeContainer.`rdf:resource`
 ```
 
 #### EquivalentInjection
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "EquivalentInjection"] AS EquivalentInjections
@@ -149,7 +166,8 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ```
 
 #### ExternalNetworkInjection
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ExternalNetworkInjection"] AS ExternalNetworkInjections
@@ -175,7 +193,8 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ```
 
 #### PowerTransformer
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PowerTransformer"] AS PowerTransformers
@@ -195,7 +214,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 #### Switch
 
 #### Breaker
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Breaker"] AS Breakers
@@ -215,7 +235,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 ##### Disconnector
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Disconnector"] AS Disconnectors
@@ -235,7 +256,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 ##### Fuse
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Fuse"] AS Fuses
@@ -255,7 +277,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 ##### LoadBreakSwitch
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "LoadBreakSwitch"] AS LoadBreakSwitchs
@@ -275,7 +298,8 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 #### Terminal
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Terminal"] AS Terminals
@@ -297,7 +321,8 @@ m.ConductingEquipment = substring(ConductingEquipment.`rdf:resource`, 1)
 ```
 
 #### StationSupply
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "StationSupply"] AS StationSupplys
@@ -317,8 +342,10 @@ m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ```
 
 ### Non Conducting
+
 #### BaseVoltage
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "BaseVoltage"] AS BaseVoltages
@@ -336,7 +363,8 @@ m.nominalVoltage = nominalVoltage._text
 ```
 
 #### Bay
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Bay"] AS Bays
@@ -356,7 +384,8 @@ m.Substation = substring(Substation.`rdf:resource`, 1)
 ```
 
 #### PowerTransformerEnd
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PowerTransformerEnd"] AS PowerTransformerEnds
@@ -394,7 +423,8 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ```
 
 #### PSRType
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PSRType"] AS PSRTypes
@@ -410,7 +440,8 @@ m.name = name._text
 ```
 
 #### RatioTapChanger
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "RatioTapChanger"] AS RatioTapChangers
@@ -444,7 +475,8 @@ m.TransformerEnd = substring(TransformerEnd.`rdf:resource`, 1)
 ```
 
 #### SubGeographicalRegion
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "SubGeographicalRegion"] AS SubGeographicalRegions
@@ -462,7 +494,8 @@ m.description = description._text
 ```
 
 #### Substation
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Substation"] AS Substations
@@ -484,7 +517,8 @@ m.SubGeographicalRegion = substring(SubGeographicalRegion.`rdf:resource`, 1)
 ```
 
 #### VoltageLevel
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "VoltageLevel"] AS VoltageLevels
@@ -504,7 +538,8 @@ m.Substation = substring(Substation.`rdf:resource`, 1)
 ```
 
 #### UsagePoint
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "UsagePoint"] AS UsagePoints
@@ -522,7 +557,8 @@ m.Equipments = 	substring(Equipments.`rdf:resource`, 1)
 ```
 
 #### CurrentLimit
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "CurrentLimit"] AS CurrentLimits
@@ -544,7 +580,8 @@ m.OperationalLimitType = substring(OperationalLimitType.`rdf:resource`, 1)
 ```
 
 #### OperationalLimitSet
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "OperationalLimitSet"] AS OperationalLimitSets
@@ -564,7 +601,8 @@ m.Terminal = substring(Terminal.`rdf:resource`, 1)
 ```
 
 #### OperationalLimitType
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "OperationalLimitType"] AS OperationalLimitTypes
@@ -582,7 +620,8 @@ m.acceptableDuration = acceptableDuration._text
 ```
 
 ### Define Relations
-```
+
+```cypher
 MATCH (n), (b) WHERE n.PSRType = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
 
 MATCH (n), (b) WHERE n.BaseVoltage = b.`rdf:ID` MERGE (n)-[r:ref]->(b);
@@ -615,7 +654,8 @@ MATCH (n), (b) WHERE n.ConnectivityNodeContainer = b.`rdf:ID` MERGE (n)-[r:ref]-
 ```
 
 ### Total Script
-```
+
+```cypher
 CALL apoc.load.xml("file:///20210121_DP_CIM_LS_Test1_400V.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ACLineSegment"] AS ACLineSegments
@@ -1152,6 +1192,7 @@ MATCH (n), (b) WHERE n.ConnectivityNodeContainer = b.`rdf:ID` MERGE (n)-[r:ref]-
 ```
 
 ### Only conductivity
+
 ```cypher
 //Input files: DIGIN10-24-MV1_EQ.xml and/or Nordic44Boundary_24_EQBP.xml
 
