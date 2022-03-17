@@ -28,6 +28,4 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 = Related Documents
 Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v.1.0]
 
-Name Standard: https://github.com/DIGINenergi/Grunnprofil/blob/e0c9e130483998854e50c695adadfece3e5426c1/DIGIN10/docs/NameStandard.md[Name Standard v.1.0]
-
 include::..\docs\KnownIssues.adoc[]

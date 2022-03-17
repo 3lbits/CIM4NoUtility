@@ -254,7 +254,7 @@ Substation is used to model cable cabinets in the LV files in CIM16, this is sub
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
 
-
+include::..\docs\NameStandard.adoc[]
 
 
 
