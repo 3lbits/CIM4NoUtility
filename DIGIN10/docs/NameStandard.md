@@ -1,5 +1,7 @@
 # Standards used for naming
 
+**Version:** 1.0
+
 In the Digin model the following standards are used for cim:IdentifiedObject.name and cim:IdentifiedObject.Description.
 
 Name of an instance must be unique.

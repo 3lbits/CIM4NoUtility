@@ -1,9 +1,9 @@
 "Type","Class","Recurrence","Description","DIGIN Comment"
 "Warning","","N/A","Mismatch of actve power between generation and consumption (caused by loss) is -0.0 MW (-0.04%). Check the power flow report for details.", "The solution is not very good. It shows the concept. Will be improved."
-"Error","md:FullModel","1/1","Unrecognized Model.profile: http://iec.ch/TC57/CIM/Customers/2/0. [Rule: ProfileSpecification]", , "Customer belong to CDPSM that is not supported by CIMdesk"
+"Error","md:FullModel","1/1","Unrecognized Model.profile: http://iec.ch/TC57/CIM/Customers/2/0. [Rule: ProfileSpecification]", "Customer belong to CDPSM that is not supported by CIMdesk"
 "Warning","","N/A","Topology related incidents are detected. Check 'Topology' incidents for details.","The issues are related to the grounding network and boundary."
 "Warning","","N/A","Undeclared or unrecognized classes/properties are detected. Check 'Undeclared' incidents for details.", "There are attributes that is not part of CGMES v2.4 in the example. Some of them are part of CGMES v3.0."
-"Warning","","N/A","Unable to perform boundary connection validation. Please set the Model Authority for the EQ model to enable further validation.", "The boundary functionaly is focused on boundary being on cim:Line. This will be adress as part of CGMES v3.0.", 
+"Warning","","N/A","Unable to perform boundary connection validation. Please set the Model Authority for the EQ model to enable further validation.", "The boundary functionaly is focused on boundary being on cim:Line. This will be adress as part of CGMES v3.0." 
 "Error","CurrentLimit","12/58","The string length of Attribute IdentifiedObject.name exceeds the maximum length: 32.", "CGMES v3.0 have extended the length allowed"
 "Error","OperationalLimitSet","4/47","The string length of Attribute IdentifiedObject.name exceeds the maximum length: 32.", "CGMES v3.0 have extended the length allowed"
 "Error","Terminal","1/235","Missing associated TopologicalNode in the Topology, required for Terminal of the ConductingEquipment used for power flow study.", "Related to ground network."
