@@ -1,27 +1,33 @@
 = Release Note DIGIN10
 :doctype: book
-:docinfo:
 :icons: font
 :toc: left
 :toc-title: Content
 :toclevels: 4
-:sectlinks:
 :table-stripes: even
 :leveloffset: +1
-:title-logo-image: image:\DIGIN10\diagrams\images\DIGIN.png[pdfwidth=30vw]
+:sectlinks:
+:docinfo:
 
-image::DIGIN10\diagrams\images\DIGIN.png[width=50%, pdfwidth=30vw]
+
+image::..\diagrams\images\DIGIN.png[width=50%, pdfwidth=30vw]
 
 
 
 NOTE: *Report Error:* +
-Please provide feedback in the case you are dicsovering any errors, https://github.com/DIGINenergi/Grunnprofil/issues[Github Issues].
+Please provide feedback in the case you are dicsovering any errors at, https://github.com/DIGINenergi/Grunnprofil/issues[Github Issues].
 
 
 *Status*: Current +
-*Version*: DIGIN10-24-MV1_v0.5
-*Published*: 2021-12-03 +
-*Updated*: 2021-12-03 +
+*Version*: DIGIN10-24-v.1.0
+*Published*: 2022-03-18 +
+*Updated*: 2022-03-18 +
 *Current Version*: https://diginenergi.no/nedlastinger/ +
 *Previous version*: https://diginenergi.no/nedlastinger/ +
 
+= Related Documents
+Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v.1.0]
+
+Name Standard: https://github.com/DIGINenergi/Grunnprofil/blob/e0c9e130483998854e50c695adadfece3e5426c1/DIGIN10/docs/NameStandard.md[Name Standard v.1.0]
+
+include::..\docs\KnownIssues.adoc[]
