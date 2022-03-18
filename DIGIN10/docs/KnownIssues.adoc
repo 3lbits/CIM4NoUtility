@@ -1,3 +1,12 @@
 # Known Issues
 
-Please refer to Grunnprofil/DIGIN10/Validation/CIMdeskValidation.csv
+The combination of DIGN10 files (excluding LV1_SV, LV1_TP, MV1_SV, MV1_TP) gave the following error report. 
+
+,===
+include::..\Validation\CIMdeskValidation.csv[]
+,===
+
+The last coloumn is DING response.
+
+
+

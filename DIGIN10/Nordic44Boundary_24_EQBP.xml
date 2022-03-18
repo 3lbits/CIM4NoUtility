@@ -2,21 +2,11 @@
 <rdf:RDF  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
 			xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#"
 			xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
-			xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" 
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-<!-- 
-Change log:
-2021-03-11: Release 1 Version 6. This inital verstion was created based on Nordic44_CGM_37a_EQ.xml
-			where BaseVoltage, GeographicalRegion, SubGeographicalRegion were copied. 
-			EnergySchedulingType that is needed for CGMES 3.0 is added.
-			BaseVoltage from MV and LV are added.
-2021-04-28: 01v08. Updated base voltage reference on VoltageLevel (Svein Olsen)			
-
--->
 	<md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
 		<md:Model.created>2021-04-28T08:55:55</md:Model.created>
-		<md:Model.version>01v08</md:Model.version>
+		<md:Model.version>1</md:Model.version>
 		<md:Model.description>Boundary Model for Nordic44 and DIGIN10 Test model.</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10</md:Model.modelingAuthoritySet>
 		<md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundary/3/1</md:Model.profile>
@@ -201,7 +191,7 @@ Change log:
 		<cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
 	</cim:VoltageLevel>
 
-		<cim:Bay rdf:ID="_3d51330c-7528-4efb-8edc-e61dcc145ac4">
+	<cim:Bay rdf:ID="_3d51330c-7528-4efb-8edc-e61dcc145ac4">
 		<cim:IdentifiedObject.description>Nedenes 400V Low Voltage Cable 1 Bay</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>NEDENES  04LC1</cim:IdentifiedObject.name>
 		<cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
@@ -227,7 +217,6 @@ Change log:
 	<cim:Substation rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ARENDAL</cim:IdentifiedObject.name>
-		<pti:Substation.EnergySchedulingArea rdf:resource="#_d398cead-6dfb-4ce3-80a0-93f23d46bd7b"/>
 	</cim:Substation>
 
 	<cim:VoltageLevel rdf:ID="_1f4fabd4-8c57-c245-b107-4e64c9007ae3">
