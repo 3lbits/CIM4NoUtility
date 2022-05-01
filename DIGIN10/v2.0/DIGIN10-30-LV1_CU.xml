@@ -17,6 +17,7 @@
     </md:FullModel>
 
     <cim:UsagePoint rdf:ID="_ab9eba1c-28e2-41e6-9d90-97b484581582">
+		<cim:IdentifiedObject.mRID>ab9eba1c-28e2-41e6-9d90-97b484581582</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP001</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -43,6 +44,7 @@
     </cim:UsagePoint>
     
     <cim:UsagePoint rdf:ID="_0b88dcec-5657-4e00-9957-41c42dda9e90">
+    	<cim:IdentifiedObject.mRID>0b88dcec-5657-4e00-9957-41c42dda9e90</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP002</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -69,6 +71,7 @@
     </cim:UsagePoint>
     
     <cim:UsagePoint rdf:ID="_aa75e2ad-ac2b-476f-a20c-f7b75dec97d9">
+    	<cim:IdentifiedObject.mRID>aa75e2ad-ac2b-476f-a20c-f7b75dec97d9</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP003</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -95,6 +98,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_4111f640-e2d3-49e1-a3b2-bca045db3e5b">
+    	<cim:IdentifiedObject.mRID>4111f640-e2d3-49e1-a3b2-bca045db3e5b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP004</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -121,6 +125,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_c07ae94f-63ac-4d65-ba38-02db925c2623">
+    	<cim:IdentifiedObject.mRID>c07ae94f-63ac-4d65-ba38-02db925c2623</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP005</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -147,6 +152,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_4b7cce2d-a55f-45a3-89ef-c0fcaec6660e">
+    	<cim:IdentifiedObject.mRID>4b7cce2d-a55f-45a3-89ef-c0fcaec6660e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP006</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -173,6 +179,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_e56eef37-2b37-4eb6-bfbe-d1a693d54f48">
+    	<cim:IdentifiedObject.mRID>e56eef37-2b37-4eb6-bfbe-d1a693d54f48</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP007</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -199,6 +206,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_c49577df-41d9-4ce5-bf39-401980a173ba">
+    	<cim:IdentifiedObject.mRID>c49577df-41d9-4ce5-bf39-401980a173ba</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP008</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -225,6 +233,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_7b416d80-631d-47ff-b9c1-da3ccf35be97">
+    	<cim:IdentifiedObject.mRID>7b416d80-631d-47ff-b9c1-da3ccf35be97</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP009</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -251,6 +260,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_959cdda7-ac98-44e1-ab61-2f739702eded">
+    	<cim:IdentifiedObject.mRID>959cdda7-ac98-44e1-ab61-2f739702eded</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP010</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -277,6 +287,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_e3f14479-7342-4a7d-8cc5-47f14438e41e">
+    	<cim:IdentifiedObject.mRID>e3f14479-7342-4a7d-8cc5-47f14438e41e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP011</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -303,6 +314,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_f1e8abd7-524d-483c-b20d-d895e2923a22">
+    	<cim:IdentifiedObject.mRID>f1e8abd7-524d-483c-b20d-d895e2923a22</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP012</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
@@ -329,6 +341,7 @@
     </cim:UsagePoint>
       
     <cim:UsagePoint rdf:ID="_a62be726-c257-42d6-82cc-33fdf9b826c8">
+    	<cim:IdentifiedObject.mRID>a62be726-c257-42d6-82cc-33fdf9b826c8</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP013</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:recource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>

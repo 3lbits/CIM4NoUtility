@@ -43,6 +43,7 @@
 
 
 	<cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
+		<cim:IdentifiedObject.mRID>45fed034-857e-48df-b6ad-45d82eec564d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
 		<cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
 	</cim:ConnectivityNode>

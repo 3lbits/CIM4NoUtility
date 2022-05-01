@@ -19,9 +19,9 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 
 
 *Status*: Current +
-*Version*: DIGIN10-24-v.1.0
-*Published*: 2022-03-18 +
-*Updated*: 2022-03-18 +
+*Version*: DIGIN10-30-v.1.0
+*Published*: 2022-05-18 +
+*Updated*: 2022-05-02 +
 *Current Version*: https://diginenergi.no/nedlastinger/ +
 *Previous version*: https://diginenergi.no/nedlastinger/ +
 

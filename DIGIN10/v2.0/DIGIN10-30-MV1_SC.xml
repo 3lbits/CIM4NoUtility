@@ -137,252 +137,93 @@
 		<cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
 	</cim:ACLineSegment>
 
-	<cim:EquivalentInjection rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802">
-		<cim:IdentifiedObject.name>ARENDAL 420 TM EQV</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
-		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
-		<cim:EquivalentInjection.maxP>300</cim:EquivalentInjection.maxP>
-		<cim:EquivalentInjection.maxQ>100</cim:EquivalentInjection.maxQ>
-		<cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
-		<cim:EquivalentInjection.minQ>-100</cim:EquivalentInjection.minQ>
+	<cim:EquivalentInjection rdf:about="#_ed8865cf-8b36-42ce-acdc-0627b5f55802">
 		<cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
-		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.mRID>ed8865cf-8b36-42ce-acdc-0627b5f55802</cim:IdentifiedObject.mRID>	
 	</cim:EquivalentInjection>
 
 	<!-- Add SynchrousMachine to emulate EI for the power flow-->
-	<cim:SynchronousMachine rdf:ID="_33666962-c2f9-4f6b-af5a-2ef1982ac282">
-		<cim:SynchronousMachine.maxQ>300</cim:SynchronousMachine.maxQ>
-		<cim:SynchronousMachine.maxU>100</cim:SynchronousMachine.maxU>
-		<cim:SynchronousMachine.minQ>-100</cim:SynchronousMachine.minQ>
-		<cim:SynchronousMachine.minU>0</cim:SynchronousMachine.minU>
-		<cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
+	<cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
 		<cim:SynchronousMachine.r>0.43445</cim:SynchronousMachine.r>
-		<cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
-		<cim:RegulatingCondEq.RegulatingControl rdf:resource="#_570e76de-1b18-4a92-a1a2-b6f780f5dcbe"/>
-		<cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineKind.generator"/>
-		<cim:RotatingMachine.GeneratingUnit rdf:resource="#_b7057d99-e21a-4ba1-9cef-15aeeee4232a"/> 
-		<cim:RotatingMachine.ratedS>350</cim:RotatingMachine.ratedS>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
-		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL 420 M1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>33666962-c2f9-4f6b-af5a-2ef1982ac282</cim:IdentifiedObject.mRID>	
 	</cim:SynchronousMachine>
 
-
-	<cim:GeneratingUnit rdf:ID="_b7057d99-e21a-4ba1-9cef-15aeeee4232a">
-		<cim:GeneratingUnit.highControlLimit>380</cim:GeneratingUnit.highControlLimit>
-		<cim:GeneratingUnit.initialP>178</cim:GeneratingUnit.initialP>
-		<cim:GeneratingUnit.lowControlLimit>0</cim:GeneratingUnit.lowControlLimit>
-		<cim:GeneratingUnit.maxEconomicP>280</cim:GeneratingUnit.maxEconomicP>
-		<cim:GeneratingUnit.maxOperatingP>300</cim:GeneratingUnit.maxOperatingP>
-		<cim:GeneratingUnit.minEconomicP>0</cim:GeneratingUnit.minEconomicP>
-		<cim:GeneratingUnit.minOperatingP>0</cim:GeneratingUnit.minOperatingP>
-		<cim:GeneratingUnit.nominalP>200</cim:GeneratingUnit.nominalP>
-		<cim:GeneratingUnit.ratedGrossMaxP>380</cim:GeneratingUnit.ratedGrossMaxP>
-		<cim:GeneratingUnit.ratedNetMaxP>350</cim:GeneratingUnit.ratedNetMaxP>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL 420  G1</cim:IdentifiedObject.name>
-	</cim:GeneratingUnit>
-
-	<cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
-		<cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Nedenes 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
-		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
-		<cim:EquivalentInjection.maxP>0.065</cim:EquivalentInjection.maxP>
-		<cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
-		<cim:EquivalentInjection.minP>0.013</cim:EquivalentInjection.minP>
-		<cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
+	<cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
 		<cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
 		<cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
-		<cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
 		<cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
 		<cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
+		<cim:IdentifiedObject.mRID>c70c1ea0-c58b-624b-ab6a-0072ad2eea25</cim:IdentifiedObject.mRID>	
 	</cim:EquivalentInjection>
-	
 
-	<cim:LinearShuntCompensator rdf:ID="_681a323d-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene 22kV A Shunt Compensator</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE 22 SC1</cim:IdentifiedObject.name>
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-		<cim:RegulatingCondEq.RegulatingControl rdf:resource="#_92d33c00-7034-11eb-a65a-74e5f963e191"/>
-		<cim:ShuntCompensator.aVRDelay>1</cim:ShuntCompensator.aVRDelay>
-		<cim:ShuntCompensator.maximumSections>1</cim:ShuntCompensator.maximumSections>
-		<cim:ShuntCompensator.nomU>22</cim:ShuntCompensator.nomU>
-		<cim:ShuntCompensator.normalSections>1</cim:ShuntCompensator.normalSections>
-		<cim:LinearShuntCompensator.bPerSection>0.01983500085771084</cim:LinearShuntCompensator.bPerSection>
-		<cim:LinearShuntCompensator.gPerSection>0</cim:LinearShuntCompensator.gPerSection>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
-	</cim:LinearShuntCompensator>
-	<cim:LoadResponseCharacteristic rdf:ID="_6963e27e-9aaa-df42-a71c-1268f02e472f">
-		<cim:LoadResponseCharacteristic.pConstantPower>1</cim:LoadResponseCharacteristic.pConstantPower>
-		<cim:LoadResponseCharacteristic.pConstantCurrent>0</cim:LoadResponseCharacteristic.pConstantCurrent>
-		<cim:LoadResponseCharacteristic.pConstantImpedance>0</cim:LoadResponseCharacteristic.pConstantImpedance>
-		<cim:LoadResponseCharacteristic.qConstantPower>1</cim:LoadResponseCharacteristic.qConstantPower>
-		<cim:LoadResponseCharacteristic.qConstantCurrent>0</cim:LoadResponseCharacteristic.qConstantCurrent>
-		<cim:LoadResponseCharacteristic.qConstantImpedance>0</cim:LoadResponseCharacteristic.qConstantImpedance>
-		<cim:LoadResponseCharacteristic.exponentModel>false</cim:LoadResponseCharacteristic.exponentModel>
-		<cim:IdentifiedObject.name>CONST_P_Q LRC</cim:IdentifiedObject.name>
-		<cim:IdentifiedObject.description>Constant q and q power load response characteristic</cim:IdentifiedObject.description>
-	</cim:LoadResponseCharacteristic>
-	<cim:PetersenCoil rdf:ID="_62585c75-b020-614c-89a1-fec7c118c3fa">
-		<cim:IdentifiedObject.name>ARENDAL 132 T1 PC</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
-		<cim:IdentifiedObject.description>Arendal 132kV T1 PetersenCoil</cim:IdentifiedObject.description>
-		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+	<cim:PetersenCoil rdf:about="#_c9d5445c-9ad6-3849-9e02-08762805826b">
+		<cim:IdentifiedObject.mRID>c9d5445c-9ad6-3849-9e02-08762805826b</cim:IdentifiedObject.mRID>
 	</cim:PetersenCoil>
-	<cim:PetersenCoil rdf:ID="_c9d5445c-9ad6-3849-9e02-08762805826b">
-		<cim:IdentifiedObject.name>22 ZT1-EFC PC</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e4e-5a55-11eb-a658-74e5f963e191"/>
-		<cim:IdentifiedObject.description>22kV ZT1-EFC Petersen Coil</cim:IdentifiedObject.description>
+
+	<cim:PetersenCoil rdf:about="#_62585c75-b020-614c-89a1-fec7c118c3fa">
+		<cim:IdentifiedObject.mRID>62585c75-b020-614c-89a1-fec7c118c3fa</cim:IdentifiedObject.mRID>
 	</cim:PetersenCoil>
-	<cim:PowerTransformer rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Arendal 420kV / 132kV Transformer 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL T1</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
+
+	<cim:PowerTransformer rdf:about="#_681a2fdd-5a55-11eb-a658-74e5f963e191">
 		<cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+		<cim:IdentifiedObject.mRID>681a2fdd-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformer>
-	<cim:PowerTransformer rdf:ID="_681a2fcb-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene 22 Neutral transformer 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE NT1</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
+
+	<cim:PowerTransformer rdf:about="#_681a2fcb-5a55-11eb-a658-74e5f963e191">
 		<cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+		<cim:IdentifiedObject.mRID>681a2fcb-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformer>
-	<cim:PowerTransformer rdf:ID="_681a3087-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene 132kV / 22kV Transformer 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE T1</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a1e15-5a55-11eb-a658-74e5f963e191"/>
+
+	<cim:PowerTransformer rdf:about="#_681a3087-5a55-11eb-a658-74e5f963e191">
 		<cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+		<cim:IdentifiedObject.mRID>681a3087-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformer>
-	<cim:PowerTransformer rdf:ID="_681a309b-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Nedenes 22kV / 400V Power Transformer 1</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES T1</cim:IdentifiedObject.name>
-		<cim:Equipment.EquipmentContainer rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
+
+	<cim:PowerTransformer rdf:about="#_681a309b-5a55-11eb-a658-74e5f963e191">
 		<cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+		<cim:IdentifiedObject.mRID>681a309b-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformer>
-	<cim:PowerTransformerEnd rdf:ID="_681a2fe0-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Arendal T1 420kV Primary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL T1 420 P</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a2fe0-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>0.84</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>25.41</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a2fe0-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Arendal T1  132kV Secondary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ARENDAL T1 132 S</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a2fea-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf7-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a2fea-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a308a-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene T1 132kV Primary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE T1 132 P</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a308a-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_05548bc6-70a0-44b7-8bac-20f745974e43"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>2.37</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>82.28</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a308a-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a3094-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene T1 22kV Secondary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE T1 22 S</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a3094-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a3094-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a2fce-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene ZT1 22kV Primary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE ZT1 22 P</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a2fce-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>1.52</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>7.62</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a2fce-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a2fd8-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Engene ZT1 Secondary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>ENGENE ZT1 023 S</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a2fd8-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bf3-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Zn"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>3.1</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>0.23</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a2fd8-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a309e-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Nedenes T1 22kV Primary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES T1 22 P</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a309e-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bfd-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>5.081</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>35.45</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a309b-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a309e-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
-	<cim:PowerTransformerEnd rdf:ID="_681a30a8-5a55-11eb-a658-74e5f963e191">
-		<cim:IdentifiedObject.description>Nedenes T1 400V Secondary Winding</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>NEDENES T1 04 S</cim:IdentifiedObject.name>
-		<cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
+
+	<cim:PowerTransformerEnd rdf:about="#_681a30a8-5a55-11eb-a658-74e5f963e191">
 		<cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
-		<cim:TransformerEnd.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
-		<cim:TransformerEnd.Terminal rdf:resource="#_92d33bff-7034-11eb-a65a-74e5f963e191"/>
-		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#WindingConnection.Y"/>
-		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
-		<cim:PowerTransformerEnd.ratedU>0.400</cim:PowerTransformerEnd.ratedU>
-		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a309b-5a55-11eb-a658-74e5f963e191"/>
+		<cim:IdentifiedObject.mRID>681a30a8-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
 	</cim:PowerTransformerEnd>
+
 
 </rdf:RDF>
