@@ -11,7 +11,7 @@
 "Error","ConnectivityNode","2/97","The boundary ConnectivityNode must be contained by a Line.", "Limitation in CGMES v2.4 but solved in CGMES v3.0"
 "Error","TopologicalNode","2/42","The boundary TopologicalNode must be contained by a Line.", "Limitation in CGMES v2.4 but solved in CGMES v3.0"
 "Error","ACLineSegment","22/35","OperationalLimits of PATL type are defined for some but not all of the connected Terminals. They should be defined for all of the connected Terminals for the ACLineSegment. [Rule: PATL1]","CGMES v3.0 have changes to the OperationalLimitSet."
-"Error","ACLineSegment","3/35","OperationalLimits of PATL type are not defined for any of the connected Terminals for the ACLineSegment. [Rule: PATL1]" ,"CGMES v3.0 have changes to the OperationalLimitSet."
+"Error","ACLineSegment","3/35","OperationalLimits of PATL type are not defined for any of the connected Terminals for the ACLineSegment. [Rule: PATL1]", "CGMES v3.0 have changes to the OperationalLimitSet."
 "Error","ControlArea","1/1","No TieFlows are associated with the ControlArea, required if ControlArea.type is ControlAreaTypeKind.Interchange. [Rule: CATieFlow]", "This will be updated in upcoming versions"
 "Warning","ControlArea","1/1","The ControlArea doesn't contain any child instances (or is not referenced by other instances).","This will be updated in upcoming versions"
 "Warning","Diagram","1/2","The Diagram doesn't contain any child instances (or is not referenced by other instances).","Full diagram example will be provided in upcoming versions."
