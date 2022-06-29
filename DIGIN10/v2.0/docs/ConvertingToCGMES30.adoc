@@ -32,7 +32,7 @@ Splitt: _Nordic44Boundary_24_EQBP.xml_
 into:
 
 - DIGIN10-30-BaseVoltage_RD.xml
-- DIGIN10-30-EnergySchedulingType_RD.xml
+- DIGIN10-30-EnergySchedulingType_RD.xml (with the NC is there no longer need for this Reference data)
 - DIGIN10-30-GeographicalRegion_RD.xml
 - DIGIN10-30-HV1-MV1_BM.xml
 - DIGIN10-30-MV1-LV1_BM.xml
