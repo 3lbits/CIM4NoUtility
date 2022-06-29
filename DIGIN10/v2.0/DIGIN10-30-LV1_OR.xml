@@ -4,7 +4,7 @@
 	xmlns:cim="http://iec.ch/TC57/CIM100#"
 	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 	xmlns:eu="http://iec.ch/TC57/CIM100-European#"
-    xmlns:nc="http://iec.ch/TC57/CIM100-European#" ToDo
+    xmlns:nc="http://entsoe.eu/ns/nc#" 
 	>
 
     <md:FullModel rdf:about="urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd">
