@@ -20,7 +20,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -35,7 +34,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -50,7 +48,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -65,7 +62,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -80,7 +76,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -95,7 +90,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -110,7 +104,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS8</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -125,7 +118,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS9</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -140,7 +132,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS10</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -155,7 +146,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS11</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -170,7 +160,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS12</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -185,7 +174,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS13</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -200,7 +188,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS14</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -215,7 +202,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 15</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS15</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -230,7 +216,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 16</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS16</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -245,7 +230,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 17</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS17</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>60</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -260,7 +244,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 18</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS18</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -275,7 +258,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 19</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS19</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -290,7 +272,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 20</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS20</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -305,7 +286,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 21</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS21</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -320,7 +300,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 22</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS22</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -335,7 +314,6 @@
         <cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 23</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS23</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Conductor.length>60</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
@@ -567,7 +545,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -581,7 +558,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
@@ -596,7 +572,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br3</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -610,7 +585,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -624,7 +598,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -638,7 +611,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -652,7 +624,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -666,7 +637,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br8</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -680,7 +650,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br9</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -694,7 +663,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br10</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -708,7 +676,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br11</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -722,7 +689,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br12</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>true</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -736,7 +702,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br13</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -750,7 +715,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br14</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -764,7 +728,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 15</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br15</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -778,7 +741,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 16</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br16</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -792,7 +754,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 17</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br17</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -806,7 +767,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 18</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br18</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -820,7 +780,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 19</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br19</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -834,7 +793,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 20</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br20</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>true</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -848,7 +806,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 21</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br21</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -862,7 +819,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 22</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br22</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -876,7 +832,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 23</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br23</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -890,7 +845,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 24</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br24</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -904,7 +858,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 25</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br25</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -918,7 +871,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 26</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br26</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -932,7 +884,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 27</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br27</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -946,7 +897,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 28</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br28</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -960,7 +910,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 29</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br29</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -974,7 +923,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 30</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br30</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -988,7 +936,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 31</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 Br31</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
         <cim:Switch.ratedCurrent>0</cim:Switch.ratedCurrent>
@@ -1002,7 +949,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_91ef68b3-8878-47a4-b24f-66f42bb459ba" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1013,7 +959,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1024,7 +969,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB3</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_791059a4-3f6e-4242-a478-1fbbf1abc328" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1035,7 +979,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_277ce47c-fa5b-438d-9f82-346c887b57fd" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1046,7 +989,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_8da6d670-4607-4432-abce-49614b85fd8e" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1057,7 +999,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_d82114b7-09c0-4cb4-b9c8-19a5fdaf991a" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1068,7 +1009,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400V A Busbar Section 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 BSA CB7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
         <cim:Equipment.EquipmentContainer rdf:resource="#_bb017e3b-c1e1-463c-b719-fe73df802624" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -1079,7 +1019,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1094,7 +1033,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1109,7 +1047,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL3</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1124,7 +1061,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1139,7 +1075,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1154,7 +1089,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1169,7 +1103,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1184,7 +1117,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL8</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1199,7 +1131,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL9</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1214,7 +1145,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL10</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1229,7 +1159,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL11</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1244,7 +1173,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL12</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -1259,7 +1187,6 @@
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Conform Load 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 CL13</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
         <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
         <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
         <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
@@ -2099,6 +2026,7 @@
         <cim:OperationalLimitType.acceptableDuration>3600</cim:OperationalLimitType.acceptableDuration>
         <cim:OperationalLimitType.isInfiniteDuration>false</cim:OperationalLimitType.isInfiniteDuration>
         <cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#OperationalLimitDirectionKind.absoluteValue" />
+        <eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl"/>
     </cim:OperationalLimitType>
  
     <cim:SubGeographicalRegion rdf:ID="_d9b89685-1fed-4233-8f85-70fd9e6cfd23">
