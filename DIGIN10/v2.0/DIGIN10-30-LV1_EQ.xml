@@ -25,7 +25,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -41,7 +40,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -57,7 +55,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -73,7 +70,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -89,7 +85,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -105,7 +100,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -121,7 +115,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -137,7 +130,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -153,7 +145,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -169,7 +160,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -185,7 +175,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -201,7 +190,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -217,7 +205,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -233,7 +220,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -249,7 +235,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -265,7 +250,6 @@
         <cim:Conductor.length>60</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.076799999740563</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.019199999935141</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.004523893465264</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -281,7 +265,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -297,7 +280,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -313,7 +295,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -329,7 +310,6 @@
         <cim:Conductor.length>50</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -345,7 +325,6 @@
         <cim:Conductor.length>40</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003015928976843</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -361,7 +340,6 @@
         <cim:Conductor.length>60</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
-        <cim:ACLineSegment.r0>0.076799999740563</cim:ACLineSegment.r0>
         <cim:ACLineSegment.r>0.019199999935141</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.004523893465264</cim:ACLineSegment.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
@@ -2190,6 +2168,7 @@
         <cim:IdentifiedObject.mRID>a9b61cc1-6066-49e5-bfbc-8ab93df5378f</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T1</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_131a14f6-7032-499d-b691-f65bc52cc635" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_1447d25c-5977-43ec-8878-8ac210edda8f" />
@@ -2199,6 +2178,7 @@
         <cim:IdentifiedObject.mRID>31333403-d015-4f06-964e-9e17a61c5a8b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T2</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_2a906e57-0892-4de8-89b2-56c273f8c09c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_1447d25c-5977-43ec-8878-8ac210edda8f" />
@@ -2208,6 +2188,7 @@
         <cim:IdentifiedObject.mRID>1f6d65dc-0498-4e9f-beda-0e36a667bb43</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T3</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_12dc1e8c-e50d-4029-9aeb-8b664db702e6" />
@@ -2217,6 +2198,7 @@
         <cim:IdentifiedObject.mRID>e1a6c356-813b-4311-8986-898231fa1aa1</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T4</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_131a14f6-7032-499d-b691-f65bc52cc635" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_d64b7ace-fb94-4968-b976-d213b803c698" />
@@ -2226,6 +2208,7 @@
         <cim:IdentifiedObject.mRID>aea98b32-d6db-4a7e-a95a-ada4f44c8198</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T5</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_b8a334a5-2bcb-40e6-b6c2-db906441552d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_1447d25c-5977-43ec-8878-8ac210edda8f" />
@@ -2235,6 +2218,7 @@
         <cim:IdentifiedObject.mRID>8096380f-f98c-4e4e-aa15-1866edf2a519</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T6</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_1447d25c-5977-43ec-8878-8ac210edda8f" />
@@ -2244,6 +2228,7 @@
         <cim:IdentifiedObject.mRID>a9b32dfb-6dfe-4d4c-b563-2e29614b4319</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T7</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_8e754ae4-3b0b-5415-a552-e3e776e43ff4" />
@@ -2253,6 +2238,7 @@
         <cim:IdentifiedObject.mRID>54a2bbab-bf15-4b63-afc6-ecfbd135d058</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T8</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_8e754ae4-3b0b-5415-a552-e3e776e43ff4" />
@@ -2262,6 +2248,7 @@
         <cim:IdentifiedObject.mRID>d4141353-a4b9-4b70-8aad-a9206b76b35c</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T9</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7a0a4af1-bfe3-4177-9ffc-4b7537fbd4e4" />
@@ -2271,6 +2258,7 @@
         <cim:IdentifiedObject.mRID>be24dc11-bfeb-4879-b0ff-18a490500393</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T10</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7a0a4af1-bfe3-4177-9ffc-4b7537fbd4e4" />
@@ -2280,6 +2268,7 @@
         <cim:IdentifiedObject.mRID>6888a1d9-6f42-419f-b2df-7b6f0e031db4</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T11</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_2a906e57-0892-4de8-89b2-56c273f8c09c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_a1d394c6-fe4a-4a1a-ba12-7148f80af5ca" />
@@ -2289,6 +2278,7 @@
         <cim:IdentifiedObject.mRID>0da1c730-0958-4dac-9a8c-c8d7ba4b43ce</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T12</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_84329e8e-2efe-4870-82db-a0bf9a768bd2" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_a1d394c6-fe4a-4a1a-ba12-7148f80af5ca" />
@@ -2298,6 +2288,7 @@
         <cim:IdentifiedObject.mRID>bfe5eea8-b897-49ec-afc9-bbec308f93be</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T13</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d" />
@@ -2307,6 +2298,7 @@
         <cim:IdentifiedObject.mRID>1e4f0009-85b7-4087-85a8-bf7c21f01e47</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T14</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_12dc1e8c-e50d-4029-9aeb-8b664db702e6" />
@@ -2316,6 +2308,7 @@
         <cim:IdentifiedObject.mRID>fc57ebb1-8059-4dd7-9811-2129b912dd45</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 15</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T15</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_84329e8e-2efe-4870-82db-a0bf9a768bd2" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_87ec01a7-bbb3-497f-a497-6f3a9627cfe8" />
@@ -2325,6 +2318,7 @@
         <cim:IdentifiedObject.mRID>2c0a6657-c218-4e53-8b4f-97eca6cabf5d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 16</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T16</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_dda0993b-140e-41f4-ab0e-9690859afef3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_87ec01a7-bbb3-497f-a497-6f3a9627cfe8" />
@@ -2334,6 +2328,7 @@
         <cim:IdentifiedObject.mRID>7fe6afe8-8c76-4da5-93ff-ef18a1ea5a05</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 17</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T17</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_a498f1fd-65f0-41df-83ee-29c92d075514" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_1447d25c-5977-43ec-8878-8ac210edda8f" />
@@ -2343,6 +2338,7 @@
         <cim:IdentifiedObject.mRID>0802b6e1-d0ec-4763-8ef3-3daa8491db3d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 18</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T18</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_a498f1fd-65f0-41df-83ee-29c92d075514" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_25aa69e7-0916-427f-9d87-d8690d39358b" />
@@ -2352,6 +2348,7 @@
         <cim:IdentifiedObject.mRID>81cdadda-ee8c-4dfd-946a-0635624ec15b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 19</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T19</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_25aa69e7-0916-427f-9d87-d8690d39358b" />
@@ -2361,6 +2358,7 @@
         <cim:IdentifiedObject.mRID>143382f7-7fd8-4191-bc72-2637805f2232</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 20</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T20</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_764a7252-9aae-4da4-a23b-6c770d8b16c1" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_486f219e-c4dc-498d-ba6a-3c8c8c46cdcf" />
@@ -2370,6 +2368,7 @@
         <cim:IdentifiedObject.mRID>536ea11f-ef95-4aed-9ed3-38e25507a31e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 21</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T21</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_764a7252-9aae-4da4-a23b-6c770d8b16c1" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_832d8fe2-00f4-4f0b-a948-883088e0f5f2" />
@@ -2379,6 +2378,7 @@
         <cim:IdentifiedObject.mRID>229bbca7-85c5-4477-a17a-a740a659f4ba</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 22</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T22</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e18cbee0-1a4f-4315-9108-39f317c67fd5" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_832d8fe2-00f4-4f0b-a948-883088e0f5f2" />
@@ -2388,6 +2388,7 @@
         <cim:IdentifiedObject.mRID>597e3d22-006a-42fd-98ab-2d770c3de3c3</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 23</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T23</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_832d8fe2-00f4-4f0b-a948-883088e0f5f2" />
@@ -2397,6 +2398,7 @@
         <cim:IdentifiedObject.mRID>4b48981e-04b8-497d-bd12-aebaa0711e51</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 24</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T24</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_c9f68b3b-2f5a-459b-8de2-c87ebeffa4ef" />
@@ -2406,6 +2408,7 @@
         <cim:IdentifiedObject.mRID>63008f90-ffd1-437c-8325-dba7f0f6d0e0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 25</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T25</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_3f90847f-9450-47aa-a2fa-714cc5353867" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_c9f68b3b-2f5a-459b-8de2-c87ebeffa4ef" />
@@ -2415,6 +2418,7 @@
         <cim:IdentifiedObject.mRID>75cd9cd7-b796-4f22-b6e3-8b6f7c5e37af</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 26</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T26</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_3f90847f-9450-47aa-a2fa-714cc5353867" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_bbe326ff-1c66-452d-85d1-80204f25efff" />
@@ -2424,6 +2428,7 @@
         <cim:IdentifiedObject.mRID>9f6c9ac5-f891-479b-b127-d032bd91e130</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 27</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T27</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_ed384e6d-b8d1-45bf-9778-fb2e1b5142fa" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_bbe326ff-1c66-452d-85d1-80204f25efff" />
@@ -2433,6 +2438,7 @@
         <cim:IdentifiedObject.mRID>8a265428-9d34-49fb-8c38-925857746227</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 28</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T28</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_bf819ffc-270d-4025-bef8-db10ffb5b196" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_832d8fe2-00f4-4f0b-a948-883088e0f5f2" />
@@ -2442,6 +2448,7 @@
         <cim:IdentifiedObject.mRID>7f48263a-770e-40c7-ad21-c71627cdab40</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 29</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T29</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_bf819ffc-270d-4025-bef8-db10ffb5b196" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_570e408d-5441-4c27-8480-5ef76e636e89" />
@@ -2451,6 +2458,7 @@
         <cim:IdentifiedObject.mRID>683d152b-dcf1-4366-80fd-76f2b6cd9ee3</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 30</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T30</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_6f519536-eefe-452e-8294-c115bf21581d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_570e408d-5441-4c27-8480-5ef76e636e89" />
@@ -2460,6 +2468,7 @@
         <cim:IdentifiedObject.mRID>fbf03686-b993-49c2-93c9-65104176a8f2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 31</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T31</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_6f519536-eefe-452e-8294-c115bf21581d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_76b4a441-e593-4da5-a3b0-b586eaa4e223" />
@@ -2469,6 +2478,7 @@
         <cim:IdentifiedObject.mRID>3319d991-dcb5-46ce-947c-a99d45f63aab</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 32</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T32</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_7d2f35f7-82ef-42f9-bc10-6f62fe96d116" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_76b4a441-e593-4da5-a3b0-b586eaa4e223" />
@@ -2478,6 +2488,7 @@
         <cim:IdentifiedObject.mRID>0215c1f8-fc1e-445f-a558-92bf98969e41</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 33</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T33</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e832d4e7-1335-4773-b203-bf7035d29bc3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_832d8fe2-00f4-4f0b-a948-883088e0f5f2" />
@@ -2487,6 +2498,7 @@
         <cim:IdentifiedObject.mRID>ed91b195-2039-4900-a268-a8755d30cf30</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 34</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T34</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e832d4e7-1335-4773-b203-bf7035d29bc3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_ec7523f4-1a9e-472b-a95d-a1d435f61388" />
@@ -2496,6 +2508,7 @@
         <cim:IdentifiedObject.mRID>f31b5fec-4481-49d9-8848-fe49584f5ffe</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 35</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T35</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_446700b3-38fb-4cfe-aa71-11fdf6118a49" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_ec7523f4-1a9e-472b-a95d-a1d435f61388" />
@@ -2505,6 +2518,7 @@
         <cim:IdentifiedObject.mRID>3d6ea092-8ae6-42e3-babf-44a147bcb208</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 36</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T36</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_446700b3-38fb-4cfe-aa71-11fdf6118a49" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_75e87fc0-107d-4555-8f1d-ec8f88211a11" />
@@ -2514,6 +2528,7 @@
         <cim:IdentifiedObject.mRID>aa1b0b87-0d63-46e2-8111-9fbb6ea816a2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 37</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T37</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_a6d32ac1-e894-4d28-a44b-41635a6c8b6f" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_75e87fc0-107d-4555-8f1d-ec8f88211a11" />
@@ -2523,6 +2538,7 @@
         <cim:IdentifiedObject.mRID>bf39bb12-27ee-4d10-8b12-e5cf9df9b716</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 38</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T38</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_ba0be174-8971-4820-a42b-db2c5a781e87" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_832d8fe2-00f4-4f0b-a948-883088e0f5f2" />
@@ -2532,6 +2548,7 @@
         <cim:IdentifiedObject.mRID>e2be31ec-d1e5-406b-9599-86aa02207bed</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 39</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T39</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_ba0be174-8971-4820-a42b-db2c5a781e87" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_2504ac3f-4c17-4720-a21d-e9f225b510d4" />
@@ -2541,6 +2558,7 @@
         <cim:IdentifiedObject.mRID>bf2c7b69-3bea-4fcc-958d-7b3c48a7a857</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 40</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T40</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_320b9701-cae3-478e-a70b-03d1736ed4e3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_2504ac3f-4c17-4720-a21d-e9f225b510d4" />
@@ -2550,6 +2568,7 @@
         <cim:IdentifiedObject.mRID>e8b1f571-0501-4698-ad19-640b1185dc7d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 41</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T41</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_800c36a9-07be-45bd-9106-260cbd66ce4c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_261ac434-edce-4b15-a8d2-a18d03c3cee3" />
@@ -2559,6 +2578,7 @@
         <cim:IdentifiedObject.mRID>52ed6ec4-be0a-408c-ad0a-7bd5373a146c</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 42</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T42</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_800c36a9-07be-45bd-9106-260cbd66ce4c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4aad58b1-6d97-4e4f-ba3c-1251700966e4" />
@@ -2568,6 +2588,7 @@
         <cim:IdentifiedObject.mRID>68157d46-4a7e-418f-bafe-66e20711a4a9</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 43</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T43</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_8cc7031f-def2-49b7-97a9-43d3c3c15789" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4aad58b1-6d97-4e4f-ba3c-1251700966e4" />
@@ -2577,6 +2598,7 @@
         <cim:IdentifiedObject.mRID>b2c87180-cc2e-495b-b118-f136e5bccf1d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 44</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T44</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_81f3131f-baed-442d-bf7a-3606832fc3e0" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4aad58b1-6d97-4e4f-ba3c-1251700966e4" />
@@ -2586,6 +2608,7 @@
         <cim:IdentifiedObject.mRID>62523238-53d4-4711-8a2a-b41035630898</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 45</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T45</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_81f3131f-baed-442d-bf7a-3606832fc3e0" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_396f6446-4d2c-45dc-8a81-5ddfb22bedb5" />
@@ -2595,6 +2618,7 @@
         <cim:IdentifiedObject.mRID>55e2a0a4-56bf-40c1-83b2-d325f5189991</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 46</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T46</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_7e432a85-77b4-44f2-ae98-07134a1a5087" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4aad58b1-6d97-4e4f-ba3c-1251700966e4" />
@@ -2604,6 +2628,7 @@
         <cim:IdentifiedObject.mRID>283fd7fb-6e9d-412a-a4f5-fdabbca1a570</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 47</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T47</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_7e432a85-77b4-44f2-ae98-07134a1a5087" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_ef273823-732b-426a-951f-d0173813d4d2" />
@@ -2613,6 +2638,7 @@
         <cim:IdentifiedObject.mRID>01ec3391-39cc-44e6-805e-ac0f0edae6c0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 48</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T48</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_ef273823-732b-426a-951f-d0173813d4d2" />
@@ -2622,6 +2648,7 @@
         <cim:IdentifiedObject.mRID>48e064d1-57cf-4fbe-bc6b-1aa924545e7a</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 49</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T49</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_e0556fab-2c55-4a3c-a68e-7b1c97221a74" />
@@ -2631,6 +2658,7 @@
         <cim:IdentifiedObject.mRID>2bc1cd52-2a39-4aab-ade9-aa288026e247</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 50</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T50</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_46ae56a9-435f-4fad-aa91-015ef1dca930" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4aad58b1-6d97-4e4f-ba3c-1251700966e4" />
@@ -2640,6 +2668,7 @@
         <cim:IdentifiedObject.mRID>98004ef5-e5ce-4265-ab1f-61f09e071cfa</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 51</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T51</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_46ae56a9-435f-4fad-aa91-015ef1dca930" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_2c05c827-3cc9-476e-9211-01ec54bcdeb9" />
@@ -2649,6 +2678,7 @@
         <cim:IdentifiedObject.mRID>0a678342-9812-43a4-96f3-5854378d5d78</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 52</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T52</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_2c05c827-3cc9-476e-9211-01ec54bcdeb9" />
@@ -2658,6 +2688,7 @@
         <cim:IdentifiedObject.mRID>eb318191-ad86-4557-bda4-ec5bb2a8bf6c</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 53</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T53</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_9b327c9f-86c3-41ee-b833-7150048a0c15" />
@@ -2667,6 +2698,7 @@
         <cim:IdentifiedObject.mRID>8e8a13c4-ae71-48d8-84b7-dceb0d7672cb</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 54</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T54</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_296e7555-8ef5-4ad4-a85b-3111ae892a65" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d" />
@@ -2676,6 +2708,7 @@
         <cim:IdentifiedObject.mRID>c5bc4e4d-bac4-4345-910f-15a6790278d2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 55</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T55</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_296e7555-8ef5-4ad4-a85b-3111ae892a65" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7b6e3bae-60cb-4a0d-afba-ba25fe060c34" />
@@ -2685,6 +2718,7 @@
         <cim:IdentifiedObject.mRID>3511146a-8295-4ff1-a93f-c55041b56074</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 56</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T56</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7b6e3bae-60cb-4a0d-afba-ba25fe060c34" />
@@ -2694,6 +2728,7 @@
         <cim:IdentifiedObject.mRID>dac94d79-480e-4e2c-80be-38d1cd71ba4d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 57</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T57</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_725505f7-df2a-41da-9428-0a9b7984817a" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_72550aa6-89f4-40cc-b3f9-8d2b0699fd32" />
@@ -2703,6 +2738,7 @@
         <cim:IdentifiedObject.mRID>7b16f278-456f-4dc8-a3e5-3187f673f7c3</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 58</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T58</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_725505f7-df2a-41da-9428-0a9b7984817a" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7516eaac-9a58-4e11-b680-5c51172bc397" />
@@ -2712,6 +2748,7 @@
         <cim:IdentifiedObject.mRID>147daae5-324b-400e-bae3-2834a755d490</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 59</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T59</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_13e2ba8c-0046-447a-a99f-4c7ec3b051b9" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7516eaac-9a58-4e11-b680-5c51172bc397" />
@@ -2721,6 +2758,7 @@
         <cim:IdentifiedObject.mRID>bb5f83d8-1fea-4335-8377-e2551ad64ee8</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 60</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T60</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_04355e33-02e4-42ed-8d88-96b0be7044a8" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7516eaac-9a58-4e11-b680-5c51172bc397" />
@@ -2730,6 +2768,7 @@
         <cim:IdentifiedObject.mRID>27b62e2b-b8aa-4df1-b740-8edbfbf1bc8e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 61</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T61</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_04355e33-02e4-42ed-8d88-96b0be7044a8" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_272725c5-c7cf-4f72-88fb-fea5b73fad97" />
@@ -2739,6 +2778,7 @@
         <cim:IdentifiedObject.mRID>a08c75e1-e729-43d9-8f8a-f3aef1c64328</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 62</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T62</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_81567f71-8233-4e19-8357-e75d35e89470" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_272725c5-c7cf-4f72-88fb-fea5b73fad97" />
@@ -2748,6 +2788,7 @@
         <cim:IdentifiedObject.mRID>4ae7f58f-6292-4b46-967f-3220caf4bcfb</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 63</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T63</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_81567f71-8233-4e19-8357-e75d35e89470" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f8449f3f-e37e-4392-9cb0-366f378593c7" />
@@ -2757,6 +2798,7 @@
         <cim:IdentifiedObject.mRID>1eab6fb9-bcaf-43ac-9d4e-59d5e6c584c9</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 64</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T63</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_aae86260-d615-473f-9622-5817da962df1" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f8449f3f-e37e-4392-9cb0-366f378593c7" />
@@ -2766,6 +2808,7 @@
         <cim:IdentifiedObject.mRID>10b9392c-2705-442f-9caa-92befb7f2a59</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 65</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T65</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9b24ac8f-043c-4087-ac3b-a695c464f93d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_7516eaac-9a58-4e11-b680-5c51172bc397" />
@@ -2775,6 +2818,7 @@
         <cim:IdentifiedObject.mRID>e4308159-eace-4525-ab88-9165ffcc4c56</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 66</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T66</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9b24ac8f-043c-4087-ac3b-a695c464f93d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_176d0737-9e72-456d-bb64-c430987bb331" />
@@ -2784,6 +2828,7 @@
         <cim:IdentifiedObject.mRID>62eb6150-d16f-456a-9288-178f36391480</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 67</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T67</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_176d0737-9e72-456d-bb64-c430987bb331" />
@@ -2793,6 +2838,7 @@
         <cim:IdentifiedObject.mRID>2d89f58a-8b63-4926-afab-43dd40806497</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 68</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T68</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_5bd4c12d-99d5-49d7-87fb-a346067c697e" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_6461597d-bdcf-428e-aa69-221cd2760fa5" />
@@ -2802,6 +2848,7 @@
         <cim:IdentifiedObject.mRID>907ec852-2025-45ba-8c23-74844b7181f1</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 69</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T69</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_5bd4c12d-99d5-49d7-87fb-a346067c697e" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a" />
@@ -2811,6 +2858,7 @@
         <cim:IdentifiedObject.mRID>5212d1df-9427-4202-9564-8aac1111fbc5</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 70</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T70</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a" />
@@ -2820,6 +2868,7 @@
         <cim:IdentifiedObject.mRID>8d1b7879-ba70-459c-a9ab-f5cc16245e92</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 71</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T71</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_b63024f5-df5f-4d21-ba9d-97288bdabe97" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a" />
@@ -2829,6 +2878,7 @@
         <cim:IdentifiedObject.mRID>dbd260b8-a9a6-4e57-b3c4-4e37faf970ad</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 72</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T72</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_b63024f5-df5f-4d21-ba9d-97288bdabe97" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_ba789e86-4cb4-4e17-aef9-e39d95e1721d" />
@@ -2838,6 +2888,7 @@
         <cim:IdentifiedObject.mRID>7d68dda0-34ab-4d1f-adbe-59833a2e2d89</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 73</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T73</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a" />
@@ -2847,6 +2898,7 @@
         <cim:IdentifiedObject.mRID>a1efb1ed-3ba9-4461-a9f4-0b80b8298bbe</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 74</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T74</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_bed5bfb9-b344-4590-9139-f9786847a70b" />
@@ -2856,6 +2908,7 @@
         <cim:IdentifiedObject.mRID>53075a70-fdf6-4201-ab30-a5622568f240</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 75</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T75</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_bed5bfb9-b344-4590-9139-f9786847a70b" />
@@ -2865,6 +2918,7 @@
         <cim:IdentifiedObject.mRID>9e92ebe1-8891-4d33-b03d-8a87bb1fb68a</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 76</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T76</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_3c2a2de4-9c8f-4ca7-b0b7-7ecb97e0538f" />
@@ -2874,6 +2928,7 @@
         <cim:IdentifiedObject.mRID>ec4561fc-115e-4fc0-903b-362c076c245e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 77</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T77</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_2a850d95-6c2e-4a20-a9c6-0f97158473d6" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_3c2a2de4-9c8f-4ca7-b0b7-7ecb97e0538f" />
@@ -2883,6 +2938,7 @@
         <cim:IdentifiedObject.mRID>0a57245c-827a-447d-b68a-18cbbd2b7d7b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 78</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T78</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a" />
@@ -2892,6 +2948,7 @@
         <cim:IdentifiedObject.mRID>d4af13ff-7321-4031-9d3a-5d609e7a716f</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 79</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T79</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_2e1efef0-2493-41a1-9347-a7b82b533699" />
@@ -2901,6 +2958,7 @@
         <cim:IdentifiedObject.mRID>db6aa9ff-9de6-4356-89be-b8e889ad6c76</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 80</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T80</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_2e1efef0-2493-41a1-9347-a7b82b533699" />
@@ -2910,6 +2968,7 @@
         <cim:IdentifiedObject.mRID>cf300299-c004-43c6-88bf-213eef453fbb</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 81</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T81</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f0b614f9-38c1-4850-b1a5-2759b8cf6353" />
@@ -2919,6 +2978,7 @@
         <cim:IdentifiedObject.mRID>1a49c2a1-157b-48d8-b9bc-c730e1bc4f0c</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 82</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T82</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_3a7461ed-8e5d-427a-8b48-af3a46c042f5" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f0b614f9-38c1-4850-b1a5-2759b8cf6353" />
@@ -2928,6 +2988,7 @@
         <cim:IdentifiedObject.mRID>eda5e7ec-946f-46db-8ba3-5b7dcf8ab677</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 83</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T83</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9a717362-88c3-4b20-85a7-9adfb67c63ca" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a" />
@@ -2937,6 +2998,7 @@
         <cim:IdentifiedObject.mRID>87f29ed1-815c-41f4-b6ea-1d379f3b4b79</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 84</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T84</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9a717362-88c3-4b20-85a7-9adfb67c63ca" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_39b43067-3131-4502-a17d-bd207081cbca" />
@@ -2946,6 +3008,7 @@
         <cim:IdentifiedObject.mRID>57b5a4b0-ef47-49cf-bd43-4b3b91fcf621</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 85</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T85</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e0e00668-9e76-461f-b310-8c84afb9ffe6" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_39b43067-3131-4502-a17d-bd207081cbca" />
@@ -2955,6 +3018,7 @@
         <cim:IdentifiedObject.mRID>762fe0b5-b721-4b03-be6a-4cf2ebb68c28</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 86</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T86</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e0e00668-9e76-461f-b310-8c84afb9ffe6" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_396f6446-4d2c-45dc-8a81-5ddfb22bedb5" />
@@ -2964,6 +3028,7 @@
         <cim:IdentifiedObject.mRID>6cd14a4d-28a7-43b2-aab8-47f19a4ff074</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 87</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T87</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_39a90500-8c87-4576-b912-32abf18a8d12" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d" />
@@ -2973,6 +3038,7 @@
         <cim:IdentifiedObject.mRID>4ff08b75-a1c0-4efb-a6cf-e6007d46fbac</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 88</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T88</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_39a90500-8c87-4576-b912-32abf18a8d12" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_5ba4f34d-39c7-4713-b421-8cb74672d90e" />
@@ -2982,6 +3048,7 @@
         <cim:IdentifiedObject.mRID>d406735a-4c44-45ef-a189-e050216e1183</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 89</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T89</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_5ba4f34d-39c7-4713-b421-8cb74672d90e" />
@@ -2991,6 +3058,7 @@
         <cim:IdentifiedObject.mRID>9e6f9c70-b0ad-48c6-9622-8956105b03a6</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 90</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T90</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9f3753d2-3a46-454b-8d14-f4f00743d48a" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_e00c3050-afa4-47e7-8a4a-c061051ce9d4" />
@@ -3000,6 +3068,7 @@
         <cim:IdentifiedObject.mRID>f2c474df-1fdf-4d28-bfde-7a64bf08fac2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 91</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T91</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9f3753d2-3a46-454b-8d14-f4f00743d48a" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_b58e75c8-e79f-4aa3-b10b-871db40c0f09" />
@@ -3009,6 +3078,7 @@
         <cim:IdentifiedObject.mRID>95c67764-d60f-4cda-87bb-3844490986e4</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 92</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T92</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_46c1c4fb-6a7a-4912-bd2e-4851b6276345" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_b58e75c8-e79f-4aa3-b10b-871db40c0f09" />
@@ -3018,6 +3088,7 @@
         <cim:IdentifiedObject.mRID>79da072a-4f5a-4985-b4e0-9e9d6fe36de0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 93</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T93</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_b58e75c8-e79f-4aa3-b10b-871db40c0f09" />
@@ -3027,6 +3098,7 @@
         <cim:IdentifiedObject.mRID>7a3181a7-9e88-457f-b242-8042d802cc5f</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 94</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T94</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_03af34d5-0687-4ac9-b531-f6acedd3ce1f" />
@@ -3036,6 +3108,7 @@
         <cim:IdentifiedObject.mRID>649f6e2d-c92a-48ef-bae8-db3e945ce62e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 95</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T95</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_70b19e4c-edb9-4957-885c-59b7a515724f" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_03af34d5-0687-4ac9-b531-f6acedd3ce1f" />
@@ -3045,6 +3118,7 @@
         <cim:IdentifiedObject.mRID>15e427b1-b3c8-4599-a093-eef5ddda81c2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 96</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T96</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_70b19e4c-edb9-4957-885c-59b7a515724f" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_0070949a-32c4-460d-8e40-c6b2cb0f62d8" />
@@ -3054,6 +3128,7 @@
         <cim:IdentifiedObject.mRID>7be4341d-b51c-41f9-a174-0166467e4e56</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 97</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T97</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_67334cb3-902b-4d55-9207-50c75357458c" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_0070949a-32c4-460d-8e40-c6b2cb0f62d8" />
@@ -3063,6 +3138,7 @@
         <cim:IdentifiedObject.mRID>cd2d0841-1edd-4eab-a4dd-3261bc5f7e34</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 98</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T98</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_86b80fe6-e846-415c-a74d-30abad315741" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_b58e75c8-e79f-4aa3-b10b-871db40c0f09" />
@@ -3072,6 +3148,7 @@
         <cim:IdentifiedObject.mRID>661cab41-0d32-4b9f-b33e-f707c4904c39</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 99</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T99</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_86b80fe6-e846-415c-a74d-30abad315741" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f0c8dea3-a433-4fd8-9fb2-f69c6f1d8f5a" />
@@ -3081,6 +3158,7 @@
         <cim:IdentifiedObject.mRID>aa779c1e-3231-4a30-9c97-2e454df8fd2e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 100</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T100</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_43dbe66c-a342-44b0-b9cf-058c784cef1d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f0c8dea3-a433-4fd8-9fb2-f69c6f1d8f5a" />
@@ -3090,6 +3168,7 @@
         <cim:IdentifiedObject.mRID>c09dcf2f-1c42-4327-b781-a60f03da1bdf</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 101</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T101</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_43dbe66c-a342-44b0-b9cf-058c784cef1d" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_acd3ba85-71e9-43d1-8a81-093dc2fda8b5" />
@@ -3099,6 +3178,7 @@
         <cim:IdentifiedObject.mRID>9b9eb222-f178-41bd-b982-1a6bbc962633</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 102</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T102</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_1bb434df-1410-4b79-b57b-1af90387e355" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_acd3ba85-71e9-43d1-8a81-093dc2fda8b5" />
@@ -3108,6 +3188,7 @@
         <cim:IdentifiedObject.mRID>01e61a02-6a5c-4870-8908-0993f903e993</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 103</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T103</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_063fd50f-9b15-4b24-a59c-be21be7fd845" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_b58e75c8-e79f-4aa3-b10b-871db40c0f09" />
@@ -3117,6 +3198,7 @@
         <cim:IdentifiedObject.mRID>aedd4519-26d5-49a7-afdc-4429e9fa792b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 104</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T104</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_063fd50f-9b15-4b24-a59c-be21be7fd845" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_49583330-a500-44ed-96b8-9970119ec8b2" />
@@ -3126,6 +3208,7 @@
         <cim:IdentifiedObject.mRID>3a69b15f-29f9-45a1-b1e5-abd6e87679ca</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 105</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T105</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_49583330-a500-44ed-96b8-9970119ec8b2" />
@@ -3135,6 +3218,7 @@
         <cim:IdentifiedObject.mRID>f9c541fc-963c-4261-b7be-635e26aab390</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 106</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T106</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_85024669-7147-4a77-9a30-b773d8b10f58" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_df241dc7-8ae0-4a0c-aadb-69d2fea29d4c" />
@@ -3144,6 +3228,7 @@
         <cim:IdentifiedObject.mRID>7a27297f-5740-4fad-b0f5-70615a91b8c2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 107</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T107</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_85024669-7147-4a77-9a30-b773d8b10f58" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f7f48e0d-74ee-4a53-80a7-dbb02e8dfe2b" />
@@ -3153,6 +3238,7 @@
         <cim:IdentifiedObject.mRID>36f15195-4403-4b23-889f-ef5f31ea0bb7</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 108</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T108</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_c060399a-96a1-4765-9ef8-c936ca08f8fe" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f7f48e0d-74ee-4a53-80a7-dbb02e8dfe2b" />
@@ -3162,6 +3248,7 @@
         <cim:IdentifiedObject.mRID>c6c5b1ac-8cc3-46a5-9b10-66097a1ef1c8</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 109</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T109</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_117beb83-cb8e-444f-a054-e98d1ca477e7" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f7f48e0d-74ee-4a53-80a7-dbb02e8dfe2b" />
@@ -3171,6 +3258,7 @@
         <cim:IdentifiedObject.mRID>5df405a4-3126-4ea8-a022-32d7756bd141</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 110</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T110</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_117beb83-cb8e-444f-a054-e98d1ca477e7" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4501c2ef-d566-4004-9008-cc42b9b4a687" />
@@ -3180,6 +3268,7 @@
         <cim:IdentifiedObject.mRID>bd42c91e-8867-4d92-ba9d-491240b602af</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 111</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T111</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_4501c2ef-d566-4004-9008-cc42b9b4a687" />
@@ -3189,6 +3278,7 @@
         <cim:IdentifiedObject.mRID>7a1e79c9-c114-4868-a557-1dccf242477d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 112</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T112</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94872c96-676c-453d-8231-a0b4064ac5a8" />
@@ -3198,6 +3288,7 @@
         <cim:IdentifiedObject.mRID>1c7f30d2-4876-4033-9637-90ce25ea2fe7</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 113</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T113</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e2b45f87-e399-47b4-86f9-0e68fb374a65" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_94872c96-676c-453d-8231-a0b4064ac5a8" />
@@ -3207,6 +3298,7 @@
         <cim:IdentifiedObject.mRID>6a3d76f7-276c-44d5-b883-89240b3b2b2f</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 114</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T114</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e286272e-827c-4b12-83cb-6b3e91170e3e" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_f7f48e0d-74ee-4a53-80a7-dbb02e8dfe2b" />
@@ -3216,6 +3308,7 @@
         <cim:IdentifiedObject.mRID>50abb33d-e94f-4e74-b775-d252f82d1310</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 115</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T115</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e286272e-827c-4b12-83cb-6b3e91170e3e" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_cdb1d670-77ff-4b70-9335-f1a5b6c2ce69" />
@@ -3225,6 +3318,7 @@
         <cim:IdentifiedObject.mRID>c1de217c-a40b-4079-9fde-3d7bd30a934b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 116</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T116</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_30d15518-d0ac-4800-a5c1-da8593c790ed" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_cdb1d670-77ff-4b70-9335-f1a5b6c2ce69" />
@@ -3234,6 +3328,7 @@
         <cim:IdentifiedObject.mRID>06ac43a8-dee2-4c3c-bf96-4d87defe94db</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 117</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T117</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_30d15518-d0ac-4800-a5c1-da8593c790ed" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_ba789e86-4cb4-4e17-aef9-e39d95e1721d" />
@@ -3243,6 +3338,7 @@
         <cim:IdentifiedObject.mRID>86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 118</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T118</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d" />
@@ -3252,6 +3348,7 @@
         <cim:IdentifiedObject.mRID>b4049b1a-ac26-43bc-a59f-bd3b4bbd666e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 119</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T119</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_d64b7ace-fb94-4968-b976-d213b803c698" />
@@ -3261,6 +3358,7 @@
         <cim:IdentifiedObject.mRID>b6fde3bb-8fb7-4b19-9e15-32597c864385</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 120</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T120</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_486f219e-c4dc-498d-ba6a-3c8c8c46cdcf" />
@@ -3270,6 +3368,7 @@
         <cim:IdentifiedObject.mRID>532b1ea0-074d-4ab0-b582-b583b3289f03</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 121</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T121</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_320b9701-cae3-478e-a70b-03d1736ed4e3" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_261ac434-edce-4b15-a8d2-a18d03c3cee3" />
@@ -3279,6 +3378,7 @@
         <cim:IdentifiedObject.mRID>38e1c640-0a06-4538-b521-953f48cefea8</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 122</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T122</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_1ab052d3-e055-4dfe-9e47-8af771bd652a" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_e0556fab-2c55-4a3c-a68e-7b1c97221a74" />
@@ -3288,6 +3388,7 @@
         <cim:IdentifiedObject.mRID>7ab75f17-adf9-4e46-b2c2-8c361e647e21</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 123</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T123</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_5394fd91-851b-406a-ab9c-ecbe7a411c17" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_9b327c9f-86c3-41ee-b833-7150048a0c15" />
@@ -3297,6 +3398,7 @@
         <cim:IdentifiedObject.mRID>ca7d345e-cf27-4f24-941d-c0ac34b2fdb3</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 124</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T124</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_72550aa6-89f4-40cc-b3f9-8d2b0699fd32" />
@@ -3306,6 +3408,7 @@
         <cim:IdentifiedObject.mRID>02d082db-3c6d-458a-93d2-0d7ace7d4ec8</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 125</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T125</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_6461597d-bdcf-428e-aa69-221cd2760fa5" />
@@ -3315,6 +3418,7 @@
         <cim:IdentifiedObject.mRID>40381c35-9d93-41dc-b504-9f7fa07d36fa</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 126</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T126</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_e00c3050-afa4-47e7-8a4a-c061051ce9d4" />
@@ -3324,6 +3428,7 @@
         <cim:IdentifiedObject.mRID>e1048b55-b799-45b5-aa60-e452c0784a5d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 127</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 T127</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_df241dc7-8ae0-4a0c-aadb-69d2fea29d4c" />
