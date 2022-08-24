@@ -1,0 +1,44 @@
+Upgrade all profile reference to CGMES v.3.0 (CIM17).
+
+Rename all file from DIGIN10-24-* to DIGIN10-30-*, meaning it will not support CGMES v3.0.
+
+Update namespace:
+Change from:
+```
+  xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#"
+  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#"
+```
+to
+```
+xmlns:cim="http://iec.ch/TC57/CIM100#"
+xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+```
+Update all profile reference. Included both IEC 61970-600 series (EU) and IEC 61970-4xx series (when they exist), e.g. 
+From:
+```
+   <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
+```
+to
+```
+<md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
+<md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0</md:Model.profile>
+```
+Splitt EQ into EQ (Core), OP (Equipment Operation) and SC (Equipment Short-Circuit).
+
+Retired: _Nordic44Boundary_24_TPBP.xml_
+This can be done since ConnectivityNodes are required also for bus-branch model.
+
+Splitt: _Nordic44Boundary_24_EQBP.xml_
+into:
+
+- DIGIN10-30-BaseVoltage_RD.xml
+- DIGIN10-30-EnergySchedulingType_RD.xml (with the NC is there no longer need for this Reference data)
+- DIGIN10-30-GeographicalRegion_RD.xml
+- DIGIN10-30-HV1-MV1_BM.xml
+- DIGIN10-30-MV1-LV1_BM.xml
+
+Added <cim:IdentifiedObject.mRID> to all objects.
+
+Split out the Name structure from LV1_EQ to LV1_OR.
+
+Add cim:Line for all cim:ACLineSegmenet that is not contained. Later version will replace this with cim:Feeder
