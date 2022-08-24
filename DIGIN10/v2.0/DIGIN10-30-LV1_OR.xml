@@ -1,76 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rdf:RDF  
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:cim="http://iec.ch/TC57/CIM100#"
-	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
-	xmlns:eu="http://iec.ch/TC57/CIM100-European#"
-    xmlns:nc="http://entsoe.eu/ns/nc#" 
-	>
-
-    <md:FullModel rdf:about="urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd">
-        <md:Model.created>2022-04-11T15:38:37.958Z</md:Model.created>
-        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
-        <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Object Reference (OR) Model</md:Model.description>
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    xmlns:nc="http://entsoe.eu/ns/nc#">
+ 
+    <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
+        <md:Model.created>2021-03-29T20:40:37.958Z</md:Model.created>
+        <md:Model.scenarioTime>2021-01-17T20:11:59Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 Low Voltage MAS</md:Model.description>
         <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
-        <md:Model.profile>http://entsoe.eu/ns/CIM/ObjectRegistry-EU/2.0</md:Model.profile>
+        <md:Model.profile>http://entsoe.eu/CIM/EquipmentCore/3/1</md:Model.profile>
         <md:Model.version>1</md:Model.version>
-        <!-- Ref Equipment Boundary Set -->
-        <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
+        <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4" />
     </md:FullModel>
-
-    <cim:Name rdf:ID="_12ba87f6-d635-41a8-add4-c917db73953d">
+ 
+    <cim:Name rdf:ID="_0ca601aa-fc0a-46bb-92d1-d1b94172572a">
+        <nc:IdentifiedObject.mRID>0ca601aa-fc0a-46bb-92d1-d1b94172572a</nc:IdentifiedObject.mRID>
         <cim:Name.name>6573456</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
-        <nc:Name.NameType rdf:resource="#_d56ca01d-7801-4e1b-ac69-c2059143475f"/>
-    	<nc:Name.mRID>12ba87f6-d635-41a8-add4-c917db73953d</nc:Name.mRID>	
-	</cim:Name>
-
-    <cim:Name rdf:ID="_c229b6a8-03ef-499b-9b3d-f661a92b8d6a">
+        <cim:Name.IdentifiedObject rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
+        <nc:Name.NameType rdf:resource="#_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d" />
+    </cim:Name>
+ 
+    <cim:Name rdf:ID="_16eb0335-01a1-42ed-8694-121be123c814">
+        <nc:IdentifiedObject.mRID>16eb0335-01a1-42ed-8694-121be123c814</nc:IdentifiedObject.mRID>
         <cim:Name.name>653497324</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e"/>
-        <nc:Name.NameType rdf:resource="#_d56ca01d-7801-4e1b-ac69-c2059143475f"/>
-    	<nc:Name.mRID>c229b6a8-03ef-499b-9b3d-f661a92b8d6a</nc:Name.mRID>	
-	</cim:Name>
-
-    <cim:Name rdf:ID="_e08e14be-3cb2-4f79-a54a-62b54085aa06">
+        <cim:Name.IdentifiedObject rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e" />
+        <nc:Name.NameType rdf:resource="#_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d" />
+    </cim:Name>
+ 
+    <cim:Name rdf:ID="_776fc8b2-188e-4d97-b985-fd885af34eac">
+        <nc:IdentifiedObject.mRID>776fc8b2-188e-4d97-b985-fd885af34eac</nc:IdentifiedObject.mRID>
         <cim:Name.name>27785734</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145"/>
-        <nc:Name.NameType rdf:resource="#_d56ca01d-7801-4e1b-ac69-c2059143475f"/>
-    	<nc:Name.mRID>e08e14be-3cb2-4f79-a54a-62b54085aa06</nc:Name.mRID>	
-	</cim:Name>
-
-    <cim:Name rdf:ID="_a5cd373a-70b5-4c49-baa1-5bd21a2816b2">
+        <cim:Name.IdentifiedObject rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145" />
+        <nc:Name.NameType rdf:resource="#_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d" />
+    </cim:Name>
+ 
+    <cim:Name rdf:ID="_4f9c8145-bbc6-47fd-a2d1-5046d610e496">
+        <nc:IdentifiedObject.mRID>4f9c8145-bbc6-47fd-a2d1-5046d610e496</nc:IdentifiedObject.mRID>
         <cim:Name.name>6534512</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4"/>
-        <nc:Name.NameType rdf:resource="#_d56ca01d-7801-4e1b-ac69-c2059143475f"/>
-    	<nc:Name.mRID>a5cd373a-70b5-4c49-baa1-5bd21a2816b2</nc:Name.mRID>	
-	</cim:Name>
-
-    <cim:Name rdf:ID="_cd0ec51f-f672-48e0-b1fd-5a0c65be4aee">
+        <cim:Name.IdentifiedObject rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4" />
+        <nc:Name.NameType rdf:resource="#_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d" />
+    </cim:Name>
+ 
+    <cim:Name rdf:ID="_eb4f98b6-f9df-46a0-9d68-6eaf3a80085f">
+        <nc:IdentifiedObject.mRID>eb4f98b6-f9df-46a0-9d68-6eaf3a80085f</nc:IdentifiedObject.mRID>
         <cim:Name.name>65767234</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9"/>
-        <nc:Name.NameType rdf:resource="#_d56ca01d-7801-4e1b-ac69-c2059143475f"/>
-    	<nc:Name.mRID>cd0ec51f-f672-48e0-b1fd-5a0c65be4aee</nc:Name.mRID>	
-	</cim:Name>
-
-    <cim:Name rdf:ID="_ba68a6ec-a706-465b-8c36-7a875de5d3c9">
+        <cim:Name.IdentifiedObject rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9" />
+        <nc:Name.NameType rdf:resource="#_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d" />
+    </cim:Name>
+ 
+    <cim:Name rdf:ID="_e23e2227-e9a2-4213-a0c2-669584380223">
+        <nc:IdentifiedObject.mRID>e23e2227-e9a2-4213-a0c2-669584380223</nc:IdentifiedObject.mRID>
         <cim:Name.name>8345723</cim:Name.name>
-        <cim:Name.IdentifiedObject rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44"/>
-        <nc:Name.NameType rdf:resource="#_d56ca01d-7801-4e1b-ac69-c2059143475f"/>
-    	<nc:Name.mRID>ba68a6ec-a706-465b-8c36-7a875de5d3c9</nc:Name.mRID>	
-	</cim:Name>
-
-    <cim:NameType rdf:ID="_d56ca01d-7801-4e1b-ac69-c2059143475f">
+        <cim:Name.IdentifiedObject rdf:resource="#_e322d64a-0413-4703-b31c-b8e0c5c32f44" />
+        <nc:Name.NameType rdf:resource="#_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d" />
+    </cim:Name>
+ 
+    <cim:NameType rdf:ID="_7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d">
+        <nc:IdentifiedObject.mRID>7e6812a6-85fe-4eb3-bd85-2e0fbb2e129d</nc:IdentifiedObject.mRID>
         <cim:NameType.description>Unique identifier in Company NIS</cim:NameType.description>
         <cim:NameType.name>companyNisId</cim:NameType.name>
-        <nc:NameType.NameTypeAthority rdf:resource="#_3868b80f-7e64-4fc0-a851-ce6835676a6e"/>
-    	<nc:NameType.mRID>d56ca01d-7801-4e1b-ac69-c2059143475f</nc:NameType.mRID>	
-	</cim:NameType>
-
-    <cim:NameTypeAuthority rdf:ID="_3868b80f-7e64-4fc0-a851-ce6835676a6e">
+        <nc:NameType.NameTypeAuthority rdf:resource="#_0ff73d06-0fc2-48e0-8fb4-fd28d23181ca" />
+    </cim:NameType>
+ 
+    <cim:NameTypeAuthority rdf:ID="_0ff73d06-0fc2-48e0-8fb4-fd28d23181ca">
+        <nc:IdentifiedObject.mRID>0ff73d06-0fc2-48e0-8fb4-fd28d23181ca</nc:IdentifiedObject.mRID>
         <cim:NameTypeAuthority.description>Network Information System made by Company</cim:NameTypeAuthority.description>
         <cim:NameTypeAuthority.name>companyNis</cim:NameTypeAuthority.name>
-    	<nc:NameTypeAuthority.mRID>3868b80f-7e64-4fc0-a851-ce6835676a6e</nc:NameTypeAuthority.mRID>	
-	</cim:NameTypeAuthority>
+    </cim:NameTypeAuthority>
 
-</rdf:RDF>
+ </rdf:RDF>
