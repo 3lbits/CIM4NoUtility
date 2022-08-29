@@ -59,4 +59,3 @@
 "","","Warning","SubGeographicalRegion","9/11","No Substations are associated with non-boundary SubGeographicalRegion via Association Substation.Region, expecting at least 1.",""
 "C:456:SSH:EquivalentInjection:regulation","600-2","Warning","EquivalentInjection","3/3","EquivalentInjection.regulationStatus is unexpected in SSH when EquivalentInjection.regulationCapability in EQ is false.",""
 "C:456:SSH:EquivalentInjection:regulation","600-2","Warning","EquivalentInjection","3/3","EquivalentInjection.regulationTarget is unexpected in SSH when EquivalentInjection.regulationCapability in EQ is false.",""
-"","","","","","",""

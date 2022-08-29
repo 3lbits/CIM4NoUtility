@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pid="http://powerinfo.us/CIM/Diagram/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2022-08-24T18:38:30Z. -->
-	<md:FullModel rdf:about="urn:uuid:688a4658-f726-f343-9514-112687437ee2">
-		<md:Model.created>2022-08-24T18:38:30Z</md:Model.created>
-		<md:Model.description>Partitioned by CIMdesk/CIMSpy from Transformed from Assembled_from_Nordic44Boundary_24_EQBP</md:Model.description>
-		<md:Model.profile>http://iec.ch/TC57/ns/CIM/Topology-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:479c1dd4-2d04-8d44-b44f-58382c6c10e3"/>		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10--#--https://diginenergi.no/DIGIN10/LV1--#--https://diginenergi.no/DIGIN10/MV1--#--https://diginenergi.no/DIGIN10/MV1-LV1</md:Model.modelingAuthoritySet>		<md:Model.scenarioTime>2021-02-14T14:55:52Z</md:Model.scenarioTime>		<md:Model.version>1</md:Model.version>	</md:FullModel>
+<rdf:RDF  
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cim="http://iec.ch/TC57/CIM100#"
+	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+	xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+	>
+  
+  <md:FullModel rdf:about="urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5">
+    <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
+    <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.description>DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) and Low Voltage 1 (LV1) Topology (TP) Model</md:Model.description>
+    <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1-LV1</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/Topology-EU/3.0</md:Model.profile>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/Topology/5.0</md:Model.profile>
+    <md:Model.version>1</md:Model.version>
+    <!-- Reference to TPDB-->
+    <md:Model.DependentOn rdf:resource="urn:uuid:8f77923b-6e1e-4f47-a9c5-e95edaa0a3e9"/>
+    <!-- Reference to MV1_SSH-->
+    <md:Model.DependentOn rdf:resource="urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021"/>
+    <!-- Reference to LV1_SSH-->
+    <md:Model.DependentOn rdf:resource="urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a"/>
+  </md:FullModel>
+
 	<cim:ConnectivityNode rdf:about="#_681a1e80-5a55-11eb-a658-74e5f963e191">
 		<cim:ConnectivityNode.TopologicalNode rdf:resource="#_734aa236-9549-11ec-b226-48ba4eadba68"/>
 	</cim:ConnectivityNode>

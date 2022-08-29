@@ -1,11 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2022-08-24T23:33:22Z. -->
-	<md:FullModel rdf:about="urn:uuid:c1fdc194-f367-d54e-9ce9-c71622b77f18">
-		<md:Model.created>2022-08-24T23:33:22Z</md:Model.created>
-		<md:Model.description>Partitioned by CIMdesk/CIMSpy from Transformed from Assembled_from_Nordic44Boundary_24_EQBP</md:Model.description>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF  
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cim="http://iec.ch/TC57/CIM100#"
+	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+	xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+	>
+
+	<md:FullModel rdf:about="urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a">
+        <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
+        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+		<md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Steady State Hypothesis (SSH) Model</md:Model.description>
+		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+		<md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis/2.0</md:Model.profile>
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:9acfab60-2ad3-4642-a1f0-f02302ada72e"/>		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10--#--https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>		<md:Model.scenarioTime>2021-04-28T20:11:59Z</md:Model.scenarioTime>		<md:Model.version>1</md:Model.version>	</md:FullModel>
+		<md:Model.version>1</md:Model.version>
+		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
+	</md:FullModel>
+	
 	<cim:Equipment rdf:about="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
 		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>

@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2022-08-24T23:33:22Z. -->
-	<md:FullModel rdf:about="urn:uuid:9acfab60-2ad3-4642-a1f0-f02302ada72e">
-		<md:Model.created>2022-08-24T23:33:22Z</md:Model.created>
-		<md:Model.description>Partitioned by CIMdesk/CIMSpy from Transformed from Assembled_from_Nordic44Boundary_24_EQBP</md:Model.description>
-		<md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:2b68628f-bbdc-a248-b502-c194f057c846"/>		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10--#--https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>		<md:Model.scenarioTime>2021-04-28T20:11:59Z</md:Model.scenarioTime>		<md:Model.version>1</md:Model.version>	</md:FullModel>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF  
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cim="http://iec.ch/TC57/CIM100#"
+	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+	xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+	>
+
+    <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
+        <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
+        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Core Equipment (EQ) Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+        <!-- Ref Equipment Boundary Set -->
+        <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
+    </md:FullModel>
+	
 	<cim:ACLineSegment rdf:ID="_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_64e21d95-8b55-b941-a923-b74087410a66"/>
 		<cim:IdentifiedObject.description>400V Telemarkstien 2 ACLineSegment 1</cim:IdentifiedObject.description>
