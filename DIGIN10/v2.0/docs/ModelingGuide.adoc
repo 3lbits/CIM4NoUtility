@@ -3,7 +3,7 @@
 = Modeling guide
 :sectnums:
 
-*Version:* 1.0
+*Version:* 2.0
 
 The purpose of this document is to provide the necessary information to model a network according to the DIGIN10 model. 
 
