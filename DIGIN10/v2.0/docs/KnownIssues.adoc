@@ -1,5 +1,7 @@
 # Known Issues
 
+Breaker was used instead of Fuse to ensure CGMES 2.4.15 conformity. As of version 2.0, Fuse and Feeder has yet to be implemented in the model.
+
 The combination of DIGN10 files (excluding LV1_SV, LV1_TP, MV1_SV, MV1_TP) gave the following error report. 
 
 ,===
