@@ -18,383 +18,310 @@
 	</md:FullModel>
 	
 	<cim:Equipment rdf:about="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_81567f71-8233-4e19-8357-e75d35e89470">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_e0e00668-9e76-461f-b310-8c84afb9ffe6">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_70b19e4c-edb9-4957-885c-59b7a515724f">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_46bce40c-71c2-4d19-b63f-78a69c460b0e">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_43dbe66c-a342-44b0-b9cf-058c784cef1d">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_30d15518-d0ac-4800-a5c1-da8593c790ed">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_84329e8e-2efe-4870-82db-a0bf9a768bd2">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_3f90847f-9450-47aa-a2fa-714cc5353867">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_6f519536-eefe-452e-8294-c115bf21581d">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_446700b3-38fb-4cfe-aa71-11fdf6118a49">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_320b9701-cae3-478e-a70b-03d1736ed4e3">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Breaker rdf:about="#_8aad5c29-6039-4321-8f8a-ad1c186dd145">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_ba0be174-8971-4820-a42b-db2c5a781e87">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_800c36a9-07be-45bd-9106-260cbd66ce4c">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_81f3131f-baed-442d-bf7a-3606832fc3e0">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_7e432a85-77b4-44f2-ae98-07134a1a5087">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_46ae56a9-435f-4fad-aa91-015ef1dca930">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_296e7555-8ef5-4ad4-a85b-3111ae892a65">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_725505f7-df2a-41da-9428-0a9b7984817a">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_04355e33-02e4-42ed-8d88-96b0be7044a8">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_9b24ac8f-043c-4087-ac3b-a695c464f93d">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_5bd4c12d-99d5-49d7-87fb-a346067c697e">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_76335f11-64c3-474d-92fd-7ab11ed607e4">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_b63024f5-df5f-4d21-ba9d-97288bdabe97">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_9a717362-88c3-4b20-85a7-9adfb67c63ca">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_39a90500-8c87-4576-b912-32abf18a8d12">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_9f3753d2-3a46-454b-8d14-f4f00743d48a">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_063fd50f-9b15-4b24-a59c-be21be7fd845">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_86b80fe6-e846-415c-a74d-30abad315741">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_85024669-7147-4a77-9a30-b773d8b10f58">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_131a14f6-7032-499d-b691-f65bc52cc635">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_117beb83-cb8e-444f-a054-e98d1ca477e7">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_e286272e-827c-4b12-83cb-6b3e91170e3e">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_2a906e57-0892-4de8-89b2-56c273f8c09c">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_a498f1fd-65f0-41df-83ee-29c92d075514">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_764a7252-9aae-4da4-a23b-6c770d8b16c1">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_bf819ffc-270d-4025-bef8-db10ffb5b196">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_e832d4e7-1335-4773-b203-bf7035d29bc3">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 	</cim:Breaker>
 	<cim:Equipment rdf:about="#_b8a334a5-2bcb-40e6-b6c2-db906441552d">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_e18cbee0-1a4f-4315-9108-39f317c67fd5">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_8cc7031f-def2-49b7-97a9-43d3c3c15789">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_13e2ba8c-0046-447a-a99f-4c7ec3b051b9">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_46c1c4fb-6a7a-4912-bd2e-4851b6276345">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:Equipment rdf:about="#_c060399a-96a1-4765-9ef8-c936ca08f8fe">
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
 	<cim:ConformLoad rdf:about="#_eba80fde-c5f8-49fc-8465-0329fdeefda9">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_3a7461ed-8e5d-427a-8b48-af3a46c042f5">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_67334cb3-902b-4d55-9207-50c75357458c">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_1bb434df-1410-4b79-b57b-1af90387e355">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_e2b45f87-e399-47b4-86f9-0e68fb374a65">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_dda0993b-140e-41f4-ab0e-9690859afef3">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_ed384e6d-b8d1-45bf-9778-fb2e1b5142fa">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_7d2f35f7-82ef-42f9-bc10-6f62fe96d116">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_a6d32ac1-e894-4d28-a44b-41635a6c8b6f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_1ab052d3-e055-4dfe-9e47-8af771bd652a">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_5394fd91-851b-406a-ab9c-ecbe7a411c17">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_aae86260-d615-473f-9622-5817da962df1">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_2a850d95-6c2e-4a20-a9c6-0f97158473d6">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
-		<eu:Equipment.inService>true</eu:Equipment.inService>
 		<cim:EnergyConsumer.p>0.005</cim:EnergyConsumer.p>
 	</cim:ConformLoad>
 	<cim:ControlArea rdf:about="#_9df7b716-0395-d14c-889e-15be72031d4a">
