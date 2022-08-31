@@ -1840,10 +1840,9 @@
 	</cim:OperationalLimitSet>
 	<cim:OperationalLimitType rdf:ID="_a7d9b42e-0f87-4882-903d-1cf454f85df4">
 		<eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl"/>
-		<cim:OperationalLimitType.isInfiniteDuration>false</cim:OperationalLimitType.isInfiniteDuration>
+		<cim:OperationalLimitType.isInfiniteDuration>true</cim:OperationalLimitType.isInfiniteDuration>
 		<cim:IdentifiedObject.description>Temporarily Admissible Transmission Loading</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>PATL</cim:IdentifiedObject.name>
-		<cim:OperationalLimitType.acceptableDuration>3600</cim:OperationalLimitType.acceptableDuration>
 		<cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue"/>
 		<cim:IdentifiedObject.mRID>a7d9b42e-0f87-4882-903d-1cf454f85df4</cim:IdentifiedObject.mRID>
 	</cim:OperationalLimitType>
