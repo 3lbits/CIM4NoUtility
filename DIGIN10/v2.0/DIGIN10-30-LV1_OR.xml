@@ -12,7 +12,7 @@
         <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
         <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Object Reference (OR) Model</md:Model.description>
         <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
-        <md:Model.profile>http://entsoe.eu/ns/CIM/ObjectRegistry-EU/2.0</md:Model.profile>
+        <md:Model.profile>http://entsoe.eu/ns/CIM/ObjectRegistry-EU/2.1</md:Model.profile>
         <md:Model.version>1</md:Model.version>
         <!-- Ref Equipment Boundary Set -->
         <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
