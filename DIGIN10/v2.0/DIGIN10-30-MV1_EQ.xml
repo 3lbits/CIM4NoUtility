@@ -2639,7 +2639,7 @@
 		<cim:IdentifiedObject.name>T2 ENGENE 132A</cim:IdentifiedObject.name>
 		<cim:Terminal.ConnectivityNode rdf:resource="#_457c0964-f107-4223-a3c3-92eff4b11f5c"/>
 		<cim:Terminal.ConductingEquipment rdf:resource="#_84d18a79-be9c-4b68-be21-36c3d7d40c58"/>
-		<cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+		<cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
 		<cim:IdentifiedObject.mRID>60032c2a-2dc2-41d1-9530-497a7474f22b</cim:IdentifiedObject.mRID>
 	</cim:Terminal>
 
