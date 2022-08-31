@@ -1222,7 +1222,9 @@
 	<cim:EquivalentInjection rdf:ID="_ed8865cf-8b36-42ce-acdc-0627b5f55802">
 		<cim:IdentifiedObject.name>ARENDAL 420 TM EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Arendal 420kV Transmission Equivalent</cim:IdentifiedObject.description>
+		<!-- 2022-08-31 Removed due to CIMdesk validation 
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		-->
 		<cim:EquivalentInjection.maxP>300</cim:EquivalentInjection.maxP>
 		<cim:EquivalentInjection.maxQ>100</cim:EquivalentInjection.maxQ>
 		<cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
@@ -1291,7 +1293,9 @@
 	<cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
 		<cim:IdentifiedObject.name>NEDENES 04 LV EQV</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>Nedenes 400V Low Voltage Equivalent</cim:IdentifiedObject.description>
+		<!-- 2022-08-31 Removed due to CIMdesk validation
 		<cim:Equipment.aggregate>true</cim:Equipment.aggregate>
+		-->
 		<cim:EquivalentInjection.maxP>0.065</cim:EquivalentInjection.maxP>
 		<cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
 		<cim:EquivalentInjection.minP>0.013</cim:EquivalentInjection.minP>
