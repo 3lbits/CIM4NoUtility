@@ -1607,7 +1607,7 @@
         <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
         <cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
         <cim:PowerTransformerEnd.r>1.52</cim:PowerTransformerEnd.r>
-        <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
+        <cim:PowerTransformerEnd.ratedS>3.175</cim:PowerTransformerEnd.ratedS>
         <cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
         <cim:PowerTransformerEnd.x>7.62</cim:PowerTransformerEnd.x>
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
@@ -1624,8 +1624,8 @@
         <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
         <cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
         <cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-        <cim:PowerTransformerEnd.ratedS>3.1</cim:PowerTransformerEnd.ratedS>
-        <cim:PowerTransformerEnd.ratedU>0.23</cim:PowerTransformerEnd.ratedU>
+        <cim:PowerTransformerEnd.ratedS>3.175</cim:PowerTransformerEnd.ratedS>
+        <cim:PowerTransformerEnd.ratedU>0.24</cim:PowerTransformerEnd.ratedU>
         <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4" />
         <cim:TransformerEnd.Terminal rdf:resource="#_92d33bf3-7034-11eb-a65a-74e5f963e191" />
