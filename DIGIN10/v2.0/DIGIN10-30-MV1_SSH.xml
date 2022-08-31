@@ -113,8 +113,10 @@
 	<cim:EquivalentInjection rdf:about="#_ed8865cf-8b36-42ce-acdc-0627b5f55802">
 		<cim:EquivalentInjection.p>161.2559967041</cim:EquivalentInjection.p>
     <cim:EquivalentInjection.q>0</cim:EquivalentInjection.q>
+    <!-- 2022-08-31 Remove the regulation capabilities 
 		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
 		<cim:EquivalentInjection.regulationTarget>420</cim:EquivalentInjection.regulationTarget>
+    -->
 	</cim:EquivalentInjection>
 
 	<cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
@@ -138,8 +140,10 @@
 	<cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
 		<cim:EquivalentInjection.p>0.065</cim:EquivalentInjection.p>
 		<cim:EquivalentInjection.q>0.00728</cim:EquivalentInjection.q>
+    <!-- 2022-08-31 2022-08-31 Remove the regulation capabilities 
 		<cim:EquivalentInjection.regulationStatus>true</cim:EquivalentInjection.regulationStatus>
 		<cim:EquivalentInjection.regulationTarget>0.4</cim:EquivalentInjection.regulationTarget>
+    -->
 	</cim:EquivalentInjection>
 	<cim:LinearShuntCompensator rdf:about="#_681a323d-5a55-11eb-a658-74e5f963e191">
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
