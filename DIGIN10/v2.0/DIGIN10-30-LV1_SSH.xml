@@ -17,72 +17,72 @@
 		<md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
 	</md:FullModel>
 	
-	<cim:Equipment rdf:about="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
+	<cim:ACLineSegment rdf:about="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_81567f71-8233-4e19-8357-e75d35e89470">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_81567f71-8233-4e19-8357-e75d35e89470">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_e0e00668-9e76-461f-b310-8c84afb9ffe6">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_e0e00668-9e76-461f-b310-8c84afb9ffe6">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_70b19e4c-edb9-4957-885c-59b7a515724f">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_70b19e4c-edb9-4957-885c-59b7a515724f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_46bce40c-71c2-4d19-b63f-78a69c460b0e">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_46bce40c-71c2-4d19-b63f-78a69c460b0e">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_43dbe66c-a342-44b0-b9cf-058c784cef1d">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_43dbe66c-a342-44b0-b9cf-058c784cef1d">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_30d15518-d0ac-4800-a5c1-da8593c790ed">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_30d15518-d0ac-4800-a5c1-da8593c790ed">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_84329e8e-2efe-4870-82db-a0bf9a768bd2">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_84329e8e-2efe-4870-82db-a0bf9a768bd2">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_3f90847f-9450-47aa-a2fa-714cc5353867">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_3f90847f-9450-47aa-a2fa-714cc5353867">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_6f519536-eefe-452e-8294-c115bf21581d">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_6f519536-eefe-452e-8294-c115bf21581d">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_446700b3-38fb-4cfe-aa71-11fdf6118a49">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_446700b3-38fb-4cfe-aa71-11fdf6118a49">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_320b9701-cae3-478e-a70b-03d1736ed4e3">
+	</cim:ACLineSegment>
+	<cim:ACLineSegment rdf:about="#_320b9701-cae3-478e-a70b-03d1736ed4e3">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
+	</cim:ACLineSegment>
 	<cim:Breaker rdf:about="#_8aad5c29-6039-4321-8f8a-ad1c186dd145">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -238,27 +238,27 @@
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
 	</cim:Breaker>
-	<cim:Equipment rdf:about="#_b8a334a5-2bcb-40e6-b6c2-db906441552d">
+	<cim:BusbarSection rdf:about="#_b8a334a5-2bcb-40e6-b6c2-db906441552d">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_e18cbee0-1a4f-4315-9108-39f317c67fd5">
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:about="#_e18cbee0-1a4f-4315-9108-39f317c67fd5">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_8cc7031f-def2-49b7-97a9-43d3c3c15789">
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:about="#_8cc7031f-def2-49b7-97a9-43d3c3c15789">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_13e2ba8c-0046-447a-a99f-4c7ec3b051b9">
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:about="#_13e2ba8c-0046-447a-a99f-4c7ec3b051b9">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4">
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:about="#_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_46c1c4fb-6a7a-4912-bd2e-4851b6276345">
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:about="#_46c1c4fb-6a7a-4912-bd2e-4851b6276345">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
-	<cim:Equipment rdf:about="#_c060399a-96a1-4765-9ef8-c936ca08f8fe">
+	</cim:BusbarSection>
+	<cim:BusbarSection rdf:about="#_c060399a-96a1-4765-9ef8-c936ca08f8fe">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
-	</cim:Equipment>
+	</cim:BusbarSection>
 	<cim:ConformLoad rdf:about="#_eba80fde-c5f8-49fc-8465-0329fdeefda9">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.00056</cim:EnergyConsumer.q>
