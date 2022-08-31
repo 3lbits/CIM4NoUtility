@@ -1773,7 +1773,7 @@
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y"/>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>1.52</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
+		<cim:PowerTransformerEnd.ratedS>3.175</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>7.62</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
@@ -1790,7 +1790,7 @@
 		<cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Zn"/>
 		<cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
 		<cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-		<cim:PowerTransformerEnd.ratedS>3.1</cim:PowerTransformerEnd.ratedS>
+		<cim:PowerTransformerEnd.ratedS>3.175</cim:PowerTransformerEnd.ratedS>
 		<cim:PowerTransformerEnd.ratedU>0.23</cim:PowerTransformerEnd.ratedU>
 		<cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
 		<cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191"/>
