@@ -2,13 +2,15 @@
 
 Breaker was used instead of Fuse to ensure CGMES 2.4.15 conformity. As of version 2.0, Fuse and Feeder has yet to be implemented in the model.
 
+The Equipment Operation (OP) files are included with the header to see the dependency. These will be updated in upcoming versions.
+
 The combination of DIGN10 files (excluding LV1_SV, LV1_TP, MV1_SV, MV1_TP) gave the following error report. 
 
 ,===
 include::..\Validation\CIMdeskValidation.csv[]
 ,===
 
-The last coloumn is DING response.
+
 
 
 

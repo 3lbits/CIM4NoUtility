@@ -22,7 +22,7 @@ The Modeling guide is relevant for the following profiles:
 . Equipment Core (EQ)
 . Equipment Operation (OP)
 . Equipment Short Circuit (SC)
-. Object [red]#Reference/Registry# (OR)
+. Object Registry (OR)
 . Steady State Hypothesis (SSH)
 . Geographical Location (GL)
 . Topology (TP) 
@@ -44,12 +44,9 @@ An overview of the profiles and their respective classes can be found in the bel
 [cols="1,1,1", width=75%]
 [#tab:overview_profiles] 
 |===
-|*Equipment* |*Steady State Hypothesis*| *Geographical Location* 
-1.9+<.<|  *LV1:*
-    Name
-    NameType
-    NameType Authority
-    UsagePoint
+|*Equipment Core* |*Steady State Hypothesis*| *Geographical Location* 
+1.7+<.<|  *LV1:*
+    SubGeographicalRegion
 
     *LV1 and MV1:*
     ACLineSegment 
@@ -61,10 +58,10 @@ An overview of the profiles and their respective classes can be found in the bel
     ConnectivityNode
     CurrentLimit
     EquivalentInjection
+    Line
     LoadArea
     OperationalLimitSet
     OperationalLimitType
-    SubGeographicalRegion
     SubLoadArea
     Substation
     Terminal 
@@ -75,7 +72,6 @@ An overview of the profiles and their respective classes can be found in the bel
     Disconnector
     SynchronousMachine
     GeneratingUnit
-    Line
     LinearShuntCompensator
     LoadBreakSwitch
     LoadResponseCharacteristic
@@ -93,49 +89,27 @@ An overview of the profiles and their respective classes can be found in the bel
     *LV1 and MV1:*
     Breaker
     ConformLoad
+    CurrentLimit
+    EquivalentInjection
     Terminal
 
     *MV1:*
     ControlArea
     Disconnector
-    EquivalentInjection
     SynchronousMachine
     GeneratingUnit
     RegulatingControl
     LinearShuntCompensator
     LoadBreakSwitch
-    RegulatingTapChanger
-    TapChangerControl
-    
+    RatioTapChanger
+    RegulatingControl
 // ------------------------------------------------------------
 |   *LV1 and MV1:*
     CoordinateSystem
     Location
-    PositionPoint 
-    pass:q[<br>]
-    
+    PositionPoint   
 // ------------------------------------------------------------ 
-|*Topology*
-|   *MV1-LV1:*
-    TopologicalIsland
-    TopologicalNode
-    ConnectivityNode
-    Terminal
-    pass:q[<br>]
-    
-
-// ------------------------------------------------------------ 
-|*Customer*
-|   *LV1:*
-    UsagePoint  
-    pass:q[<br>]
-    
-
-// ------------------------------------------------------------     
-// ------------------------------------------------------------     
-|*Diagram Layout*  |   *Equipment Boundary*
-
-// ------------------------------------------------------------ 
+|   *Diagram Layout*
 |   *LV1 and MV1:*
     Diagram
 
@@ -143,19 +117,16 @@ An overview of the profiles and their respective classes can be found in the bel
     DiagramObject
     DiagramObjectPoint
     DiagramObjectStyle
-    TextDiagramObject
+    TextDiagramObject 
+// ------------------------------------------------------------ 
+|*Customer*
+|   *LV1:*
+    UsagePoint  
+// ------------------------------------------------------------     
+// ------------------------------------------------------------     
+|*State Variables*  |   *Topology*
 
-|   BasePower
-    BaseVoltage
-    GeographicalRegion
-    SubGeographicalRegion
-    EnergySchedulingType
-    Substation
-    VoltageLevel
-    Bay
-    ConnectivityNode
-
-| *State Variables* | *Topology Boundary*
+// ------------------------------------------------------------ 
 |   *MV1-LV1:*
     SvVoltage
     SvPowerFlow
@@ -163,8 +134,39 @@ An overview of the profiles and their respective classes can be found in the bel
     SvTapStep
     SvShuntCompensatorSections
 
-|   ConnectivityNode
+|   *MV1-LV1:*
+    TopologicalIsland
     TopologicalNode
+    ConnectivityNode
+    Terminal
+    pass:q[<br>]
+// ------------------------------------------------------------ 
+| *Equipment Operation* | *Equiment Short Circuit*| *Object Registry* 
+|   -
+|   -
+|   *LV1:*
+    Name
+    NameType
+    NameTypeAuthority 
+
+| *Base Voltage Reference Data* | *Geographical Region Reference Data*| *Boundary Model* 
+|   BasePower
+    BaseVoltage
+
+|   GeographicalRegion
+    SubGeographicalRegion
+|   *MV1-LV1:*
+    Bay
+    BoundaryPoint
+    ConnectivityNode
+    Substation
+    VoltageLevel
+
+    *HV1-MV1:*
+    BoundaryPoint
+    ConnectivityNode
+    Substation
+    VoltageLevel
 
 |=== 
 --
@@ -235,10 +237,10 @@ EquivalentInjection is included in the model, but switched off in cases where it
 
 For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUnit is added to emulate EquivalentInjection for the power flow. 
 
-=== [red]#Feeder#
+=== Feeder
 Will be included in a later version of the DIGIN10 model.
 
-=== [red]#Fuse#
+=== Fuse
 Will be included in a later version of the DIGIN10 model.
 
 === ModelAuthoritySet
@@ -248,7 +250,7 @@ Section 5.2 in IEC 61970-600-1:2021 gives the rules for handling of MAS.
 In DIGIN we are using this to model HV, MV and LV sepretaly, either by the fact that they are sourced by a different utility or application in the same organisation.
 
 
-=== [red]#Object Reference/Registry#
+=== [red]#Object Registry#
 
 === OperationalLimit
 Only CurrentLimit is currently used and included as normalValue in the EQ files and value in the SSH files.
@@ -267,8 +269,8 @@ It was decided that this would be modelled in the EQ files by CurrentLimit.norma
 Substation is used to model cable cabinets in the LV files in CIM16, this is subject to change in CIM17.
 
 
-=== [red]#Switch#
-Switch.locked is mandatory for [red]#CGMES 3.0/CIM100# compliance. It is currently not included in the DIGIN10 model and will be implemented in a later version.
+=== Switch
+Switch.locked is mandatory for CGMES 3.0 compliance and was added due to DisconnectingCircuitBreaker(DCB). In the DIGIN10 model the property is added for all switch types. However, the DCB breaker is not included in the current DIGIN10 model.
 
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 

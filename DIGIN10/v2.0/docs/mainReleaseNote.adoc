@@ -26,7 +26,7 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 *Previous Version*: https://diginenergi.no/nedlastinger/ +
 
 = Related Documents
-Changelog from CGMES 2.4 to CGMES 3.0 conversion : https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Converting to CGMES 3.0]
+Changelog from CGMES 2.4 to CGMES 3.0 conversion: https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Converting to CGMES 3.0]
 
 Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v.2.0]
 
