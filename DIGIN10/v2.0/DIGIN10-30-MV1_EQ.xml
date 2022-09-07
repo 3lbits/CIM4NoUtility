@@ -1377,7 +1377,7 @@
  
     <cim:LoadResponseCharacteristic rdf:ID="_6963e27e-9aaa-df42-a71c-1268f02e472f">
         <cim:IdentifiedObject.mRID>6963e27e-9aaa-df42-a71c-1268f02e472f</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Constant q and q power load response characteristic</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.description>Constant p and q power load response characteristic</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>CONST_P_Q LRC</cim:IdentifiedObject.name>
         <cim:LoadResponseCharacteristic.pConstantPower>1</cim:LoadResponseCharacteristic.pConstantPower>
         <cim:LoadResponseCharacteristic.pConstantCurrent>0</cim:LoadResponseCharacteristic.pConstantCurrent>
