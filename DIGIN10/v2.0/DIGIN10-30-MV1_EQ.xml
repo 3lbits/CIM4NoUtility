@@ -484,6 +484,7 @@
         <cim:IdentifiedObject.name>ENGENE 023 ZT1 CL</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>true</cim:Equipment.aggregate>
         <cim:Equipment.EquipmentContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8" />
+        <cim:EnergyConsumer.LoadResponse rdf:resource="#_6963e27e-9aaa-df42-a71c-1268f02e472f" />
         <cim:ConformLoad.LoadGroup rdf:resource="#_0b8f03ae-b704-664c-8665-49300c9c1fff" />
     </cim:ConformLoad>
  
@@ -493,6 +494,7 @@
         <cim:IdentifiedObject.name>FROLAND 132 BA1 CL</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>true</cim:Equipment.aggregate>
         <cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191" />
+        <cim:EnergyConsumer.LoadResponse rdf:resource="#_6963e27e-9aaa-df42-a71c-1268f02e472f" />
         <cim:ConformLoad.LoadGroup rdf:resource="#_0b8f03ae-b704-664c-8665-49300c9c1fff" />
     </cim:ConformLoad>
  
