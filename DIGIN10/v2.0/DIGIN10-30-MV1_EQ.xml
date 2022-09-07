@@ -1223,7 +1223,9 @@
         <cim:EquivalentInjection.maxQ>100</cim:EquivalentInjection.maxQ>
         <cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
         <cim:EquivalentInjection.minQ>-100</cim:EquivalentInjection.minQ>
+        <cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+        <cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4" />
     </cim:EquivalentInjection>
  
@@ -1235,7 +1237,11 @@
         <cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
         <cim:EquivalentInjection.minP>0.013</cim:EquivalentInjection.minP>
         <cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
+        <cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
+        <cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+        <cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
+        <cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
     </cim:EquivalentInjection>
  
