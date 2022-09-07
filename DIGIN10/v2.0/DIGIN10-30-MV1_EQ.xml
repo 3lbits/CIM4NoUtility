@@ -484,6 +484,7 @@
         <cim:IdentifiedObject.name>ENGENE 023 ZT1 CL</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>true</cim:Equipment.aggregate>
         <cim:Equipment.EquipmentContainer rdf:resource="#_d4addb12-e956-e44b-9a9d-f118fdbe49f8" />
+        <cim:EnergyConsumer.LoadResponse rdf:resource="#_6963e27e-9aaa-df42-a71c-1268f02e472f" />
         <cim:ConformLoad.LoadGroup rdf:resource="#_0b8f03ae-b704-664c-8665-49300c9c1fff" />
     </cim:ConformLoad>
  
@@ -493,6 +494,7 @@
         <cim:IdentifiedObject.name>FROLAND 132 BA1 CL</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>true</cim:Equipment.aggregate>
         <cim:Equipment.EquipmentContainer rdf:resource="#_681a1e65-5a55-11eb-a658-74e5f963e191" />
+        <cim:EnergyConsumer.LoadResponse rdf:resource="#_6963e27e-9aaa-df42-a71c-1268f02e472f" />
         <cim:ConformLoad.LoadGroup rdf:resource="#_0b8f03ae-b704-664c-8665-49300c9c1fff" />
     </cim:ConformLoad>
  
@@ -1221,7 +1223,9 @@
         <cim:EquivalentInjection.maxQ>100</cim:EquivalentInjection.maxQ>
         <cim:EquivalentInjection.minP>0</cim:EquivalentInjection.minP>
         <cim:EquivalentInjection.minQ>-100</cim:EquivalentInjection.minQ>
+        <cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+        <cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4" />
     </cim:EquivalentInjection>
  
@@ -1233,7 +1237,11 @@
         <cim:EquivalentInjection.maxQ>0.00728</cim:EquivalentInjection.maxQ>
         <cim:EquivalentInjection.minP>0.013</cim:EquivalentInjection.minP>
         <cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
+        <cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
+        <cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+        <cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
+        <cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
     </cim:EquivalentInjection>
  
@@ -1260,78 +1268,91 @@
         <cim:IdentifiedObject.mRID>cdc8afca-5a57-ad4a-84ef-f6a236e20463</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 023 ZT1-EFC ACLS 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 023 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_cb57417c-d86a-4a42-a6a6-e0f53d9331c0">
         <cim:IdentifiedObject.mRID>cb57417c-d86a-4a42-a6a6-e0f53d9331c0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 023 ZT1-EFC ACLS 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 023 ZT1-EFC ACLS 2</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_7a0c868b-eaa1-814b-97a8-c7e112c7a027">
         <cim:IdentifiedObject.mRID>7a0c868b-eaa1-814b-97a8-c7e112c7a027</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 04 TELEMA 2 ACLS 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 04 TELEMA 2 ACLS 3</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_28412ba6-8a1b-e548-8b8e-d76b1b083afb">
         <cim:IdentifiedObject.mRID>28412ba6-8a1b-e548-8b8e-d76b1b083afb</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line ARENDAL-T1 ACLS 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_c7ef29bd-8a14-e343-a03f-9b1b6d343e44">
         <cim:IdentifiedObject.mRID>c7ef29bd-8a14-e343-a03f-9b1b6d343e44</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line ENGENE-NEDENES ACLS 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 22 ENGENE-NEDENES ACLS 1</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_e07eda57-aafe-384d-9f7b-3ed4ed8e1da0">
         <cim:IdentifiedObject.mRID>e07eda57-aafe-384d-9f7b-3ed4ed8e1da0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 22 ENGENE-T1 ACLS 1 1</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_58f1a6ec-bb18-e84b-b50f-864f0eb7100d">
         <cim:IdentifiedObject.mRID>58f1a6ec-bb18-e84b-b50f-864f0eb7100d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 22 ENGENE-T1 ACLS 1 2</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_1622b4fa-9e46-784e-b160-1c47e1133d7e">
         <cim:IdentifiedObject.mRID>1622b4fa-9e46-784e-b160-1c47e1133d7e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 22 ENGENE-ZT1 ACLS 1</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_2dc165a0-39fb-6541-81d8-4daee82b2932">
         <cim:IdentifiedObject.mRID>2dc165a0-39fb-6541-81d8-4daee82b2932</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 22 TELEMA 2 ACLS 4</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_d4f4ebe8-2eed-f04f-9000-676f6778a959">
         <cim:IdentifiedObject.mRID>d4f4ebe8-2eed-f04f-9000-676f6778a959</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 22 ZT1-EFC ACLS 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 22 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_8e0075c4-ea93-4669-b57c-3f6b229bb6d3">
         <cim:IdentifiedObject.mRID>8e0075c4-ea93-4669-b57c-3f6b229bb6d3</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 132 ARENDAL-FROLAND</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 132ARENDAL-FROLAND</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_81e0db9e-aa30-474d-b017-def591771422">
         <cim:IdentifiedObject.mRID>81e0db9e-aa30-474d-b017-def591771422</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 132 FROLAND-T_ENGENE</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 132FROLAND-T_ENGENE</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:Line rdf:ID="_f677795c-3419-4623-9e5d-4a0287903492">
         <cim:IdentifiedObject.mRID>f677795c-3419-4623-9e5d-4a0287903492</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Line 132 T_ENGENE-ENGENE</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>LC 132T_ENGENE-ENGENE</cim:IdentifiedObject.name>
+        <cim:Line.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:Line>
  
     <cim:LinearShuntCompensator rdf:ID="_681a323d-5a55-11eb-a658-74e5f963e191">
@@ -1375,7 +1396,7 @@
  
     <cim:LoadResponseCharacteristic rdf:ID="_6963e27e-9aaa-df42-a71c-1268f02e472f">
         <cim:IdentifiedObject.mRID>6963e27e-9aaa-df42-a71c-1268f02e472f</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Constant q and q power load response characteristic</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.description>Constant p and q power load response characteristic</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>CONST_P_Q LRC</cim:IdentifiedObject.name>
         <cim:LoadResponseCharacteristic.pConstantPower>1</cim:LoadResponseCharacteristic.pConstantPower>
         <cim:LoadResponseCharacteristic.pConstantCurrent>0</cim:LoadResponseCharacteristic.pConstantCurrent>
