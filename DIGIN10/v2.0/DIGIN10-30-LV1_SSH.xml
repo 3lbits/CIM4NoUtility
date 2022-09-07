@@ -489,6 +489,7 @@
     </cim:CurrentLimit>
  
     <cim:EquivalentInjection rdf:about="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:EquivalentInjection.p>0.065</cim:EquivalentInjection.p>
         <cim:EquivalentInjection.q>0.00728</cim:EquivalentInjection.q>
     </cim:EquivalentInjection>
