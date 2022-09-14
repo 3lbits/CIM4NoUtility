@@ -1538,11 +1538,13 @@
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1358279b-5a65-4b15-b277-a9bd5ca011e4" />
     </cim:ConnectivityNode>
  
+ <!-- Currently we only have one Control Area in DSO1 MV 
     <cim:ControlArea rdf:ID="_9df7b716-0395-d14c-889e-15be72031d4a">
         <cim:IdentifiedObject.mRID>9df7b716-0395-d14c-889e-15be72031d4a</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>CTRL_AREA</cim:IdentifiedObject.name>
         <cim:ControlArea.type rdf:resource="http://iec.ch/TC57/CIM100#ControlAreaTypeKind.Interchange" />
     </cim:ControlArea>
+ -->
  
     <cim:CurrentLimit rdf:ID="_9ff945ef-e893-4c68-b514-ff8940c01f17">
         <cim:IdentifiedObject.mRID>9ff945ef-e893-4c68-b514-ff8940c01f17</cim:IdentifiedObject.mRID>
