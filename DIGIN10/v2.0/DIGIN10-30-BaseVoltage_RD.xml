@@ -11,7 +11,7 @@
 		<md:Model.created>2022-04-01T08:55:55</md:Model.created>
 		<md:Model.version>1</md:Model.version>
 		<md:Model.description>DIGIN10 CGMES v3.0 Base Voltage Reference model</md:Model.description>
-		<md:Model.modelingAuthoritySet>"http://data.europe.eu/energy/CGMES"</md:Model.modelingAuthoritySet>
+		<md:Model.modelingAuthoritySet>"http://energy.referencedata.eu/CGMES"</md:Model.modelingAuthoritySet>
 		<dcat:keyword>RD</dcat:keyword>
 		<!-- We do not want to create a profile for each reference data, but we should in principle refer to the vocabulary, e.g. 
 		<dcterms:conformsTo>http//iec.ch/TC57/CIM/Core<dcterms:conformsTo>

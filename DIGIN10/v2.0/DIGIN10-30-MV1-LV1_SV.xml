@@ -10,8 +10,8 @@
     <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
     <md:Model.description>DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) and Low Voltage 1 (LV1) State Variable (SV) Model</md:Model.description>
     <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
-    <md:Model.profile>http://iec.ch/TC57/ns/CIM/StateVariable-EU/3.0</md:Model.profile>
-    <md:Model.profile>http://iec.ch/TC57/ns/CIM/StateVariable/5.0</md:Model.profile>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0</md:Model.profile>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/StateVariables/5.0</md:Model.profile>
     <md:Model.version>1</md:Model.version>
   
         <!-- Reference to MV1-LV1_TP-->
@@ -1517,5 +1517,45 @@
 		<cim:IdentifiedObject.description>diverged</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>XARE1_XARE2 CN</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>734aa25e-9549-11ec-b226-48ba4eadba68</cim:IdentifiedObject.mRID>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa237-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa236-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa23d-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa23a-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa23b-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa23e-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa239-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa23c-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa23f-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa240-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa242-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa245-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa244-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa246-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa24c-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa24d-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa24e-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa249-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa254-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa256-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa257-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa250-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa243-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa25a-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa25b-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa238-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa258-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa248-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa24b-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa24f-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa251-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa252-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa253-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa255-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa24a-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa259-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa25c-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa247-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa241-9549-11ec-b226-48ba4eadba68"/>
+		<cim:TopologicalIsland.TopologicalNodes rdf:resource="#_734aa235-9549-11ec-b226-48ba4eadba68"/>
 	</cim:TopologicalIsland>
 </rdf:RDF>

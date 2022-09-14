@@ -1249,10 +1249,4 @@
 		<cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
 		<cim:IdentifiedObject.mRID>734aa235-9549-11ec-b226-48ba4eadba68</cim:IdentifiedObject.mRID>
 	</cim:TopologicalNode>
-	<cim:TopologicalNode rdf:ID="_124a0983-c46c-6c4a-ac36-9f45bb847950">
-		<cim:IdentifiedObject.mRID>124a0983-c46c-6c4a-ac36-9f45bb847950</cim:IdentifiedObject.mRID>
-	</cim:TopologicalNode>
-	<cim:TopologicalNode rdf:ID="_94f96db9-b16e-2942-a988-bc7a1c5267f7">
-		<cim:IdentifiedObject.mRID>94f96db9-b16e-2942-a988-bc7a1c5267f7</cim:IdentifiedObject.mRID>
-	</cim:TopologicalNode>
 </rdf:RDF>

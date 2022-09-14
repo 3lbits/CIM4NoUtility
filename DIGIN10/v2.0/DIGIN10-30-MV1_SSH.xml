@@ -15,61 +15,171 @@
         <md:Model.version>1</md:Model.version>
         <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16" />
     </md:FullModel>
+
+    <cim:ACLineSegment rdf:about="#_681a26db-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
  
+    <cim:ACLineSegment rdf:about="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_681a26f3-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_1f19556f-4604-8545-b930-0d96b163c57a">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_92d33b99-7034-11eb-a65a-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_92d33bcc-7034-11eb-a65a-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_92d33be4-7034-11eb-a65a-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_681a2a7f-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_681a2a13-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_681a26cf-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+ 
+    <cim:ACLineSegment rdf:about="#_b1b4714b-a160-7742-84d5-d6486d776c94">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:ACLineSegment>
+
     <cim:Breaker rdf:about="#_48668646-105a-490d-aaad-3259b852aa23">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_d4afd20b-a007-43f0-9736-4a868c4cc65a">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_808643b7-4e47-4faa-b906-999d0f1fe32b">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_f7d8e580-296d-4c2a-b989-1eb4db7af387">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_b16294fe-269c-4f3d-b6af-4bc473c663d6">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_a2a20c81-78b5-40bc-81d1-14ed8ea03e12">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_2714d85d-92e7-4f88-a488-f39e782a6298">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_2fb546e7-9e06-4356-a3ad-7e3756c34f6a">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_38cd8874-fb01-462c-8c85-95dac14fee9c">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
  
     <cim:Breaker rdf:about="#_dd41276d-9ea7-47a8-a0f3-65215c8225a5">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
+
+    <cim:BusbarSection rdf:about="#_13d2fd99-e200-4f43-bd9f-a16dc4959edb">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
  
+    <cim:BusbarSection rdf:about="#_47bfbe16-6fa2-4b6c-9b75-7453efebafbe">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a2160-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_84d18a79-be9c-4b68-be21-36c3d7d40c58">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_abbab805-9b44-4c2d-93c2-45a691f71cd1">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a1eac-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a21b1-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a2176-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+
     <cim:ConformLoad rdf:about="#_eb9b50c9-e363-0940-a177-2b7abd47f398">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
         <cim:EnergyConsumer.q>0.0002</cim:EnergyConsumer.q>
     </cim:ConformLoad>
  
     <cim:ConformLoad rdf:about="#_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:EnergyConsumer.p>10.50</cim:EnergyConsumer.p>
         <cim:EnergyConsumer.q>2.077</cim:EnergyConsumer.q>
     </cim:ConformLoad>
@@ -224,92 +334,154 @@
     </cim:CurrentLimit>
  
     <cim:Disconnector rdf:about="#_a8afc199-8a20-41d8-8ada-5261202610eb">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_ce365fed-87da-da4c-b646-6d39ba7eb406">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_a450fac1-80a9-cd4d-aa26-0223af980b17">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_57b1462c-259c-426b-86f9-f6f6f2af9c5c">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_b8b9b131-6eb7-41c7-899e-7003960b1a5f">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_842aed4c-0828-4e7a-babc-ce724633a43d">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_fd338915-3831-4cc5-8c55-af2b4c1c2bb8">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_41e0788e-9dc5-4bf0-862b-f2a99e421602">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_e63a5023-05b9-4adf-bafd-a372b751a6ed">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_411847e0-02b3-49df-951a-f1cf780f4738">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_1ac100c3-7a71-4b22-b32c-47fd73c3d01a">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_75f12fd9-2057-4b79-9f19-73736a0f2a6d">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:Disconnector rdf:about="#_652e1c63-50b0-4f5a-b88d-8f814a0cda4d">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Disconnector>
  
     <cim:EquivalentInjection rdf:about="#_ed8865cf-8b36-42ce-acdc-0627b5f55802">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:EquivalentInjection.p>161.2559967041</cim:EquivalentInjection.p>
         <cim:EquivalentInjection.q>0</cim:EquivalentInjection.q>
     </cim:EquivalentInjection>
  
     <cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:EquivalentInjection.p>0.065</cim:EquivalentInjection.p>
         <cim:EquivalentInjection.q>0.00728</cim:EquivalentInjection.q>
     </cim:EquivalentInjection>
  
     <cim:GeneratingUnit rdf:about="#_b7057d99-e21a-4ba1-9cef-15aeeee4232a">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
     </cim:GeneratingUnit>
  
     <cim:LinearShuntCompensator rdf:about="#_681a323d-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
         <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
     </cim:LinearShuntCompensator>
  
     <cim:LoadBreakSwitch rdf:about="#_55de4e32-8cb0-4602-9901-ec91e104b300">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:LoadBreakSwitch>
  
     <cim:LoadBreakSwitch rdf:about="#_20605037-a626-4691-8601-89666564ff87">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:LoadBreakSwitch>
+
+    <cim:PetersenCoil rdf:about="#_c9d5445c-9ad6-3849-9e02-08762805826b">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PetersenCoil>
  
+    <cim:PetersenCoil rdf:about="#_62585c75-b020-614c-89a1-fec7c118c3fa">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PetersenCoil>
+ 
+    <cim:PowerTransformer rdf:about="#_681a2fdd-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+ 
+    <cim:PowerTransformer rdf:about="#_681a2fcb-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+ 
+    <cim:PowerTransformer rdf:about="#_681a3087-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+ 
+    <cim:PowerTransformer rdf:about="#_681a309b-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+
     <cim:RatioTapChanger rdf:about="#_681a2fe7-5a55-11eb-a658-74e5f963e191">
         <cim:TapChanger.step>17</cim:TapChanger.step>
         <cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
@@ -346,6 +518,7 @@
     </cim:RegulatingControl>
  
     <cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:RotatingMachine.p>-178</cim:RotatingMachine.p>
         <cim:RotatingMachine.q>0</cim:RotatingMachine.q>
         <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>

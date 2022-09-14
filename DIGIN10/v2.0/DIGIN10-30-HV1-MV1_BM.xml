@@ -47,7 +47,6 @@
 		<eu:BoundaryPoint.toEndIsoCode>NO</eu:BoundaryPoint.toEndIsoCode>
 		<eu:BoundaryPoint.toEndName>ARENDAL</eu:BoundaryPoint.toEndName>
 		<eu:BoundaryPoint.toEndNameTso>DSO1</eu:BoundaryPoint.toEndNameTso>
-		<eu:IdentifiedObject.energyIdentCodeEic></eu:IdentifiedObject.energyIdentCodeEic>
 		<cim:IdentifiedObject.description>Boundary Point Arendal 420 Bus</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>XARE1_XARE2 BP</cim:IdentifiedObject.name>
 		<eu:BoundaryPoint.isExcludedFromAreaInterchange>true</eu:BoundaryPoint.isExcludedFromAreaInterchange>

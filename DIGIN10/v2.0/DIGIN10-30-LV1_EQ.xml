@@ -1538,11 +1538,13 @@
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1358279b-5a65-4b15-b277-a9bd5ca011e4" />
     </cim:ConnectivityNode>
  
+ <!-- Currently we only have one Control Area in DSO1 MV 
     <cim:ControlArea rdf:ID="_9df7b716-0395-d14c-889e-15be72031d4a">
         <cim:IdentifiedObject.mRID>9df7b716-0395-d14c-889e-15be72031d4a</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>CTRL_AREA</cim:IdentifiedObject.name>
         <cim:ControlArea.type rdf:resource="http://iec.ch/TC57/CIM100#ControlAreaTypeKind.Interchange" />
     </cim:ControlArea>
+ -->
  
     <cim:CurrentLimit rdf:ID="_9ff945ef-e893-4c68-b514-ff8940c01f17">
         <cim:IdentifiedObject.mRID>9ff945ef-e893-4c68-b514-ff8940c01f17</cim:IdentifiedObject.mRID>
@@ -1729,7 +1731,7 @@
         <cim:EquivalentInjection.minP>0.0013</cim:EquivalentInjection.minP>
         <cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
-        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
+        <cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191" />
     </cim:EquivalentInjection>
  
     <cim:Line rdf:ID="_64e21d95-8b55-b941-a923-b74087410a66">

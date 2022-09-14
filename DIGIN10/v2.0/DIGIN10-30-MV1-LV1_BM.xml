@@ -58,7 +58,6 @@
 		<eu:BoundaryPoint.toEndIsoCode>NO</eu:BoundaryPoint.toEndIsoCode>
 		<eu:BoundaryPoint.toEndName>Nedenes</eu:BoundaryPoint.toEndName>
 		<eu:BoundaryPoint.toEndNameTso>DSO1</eu:BoundaryPoint.toEndNameTso>
-		<eu:IdentifiedObject.energyIdentCodeEic></eu:IdentifiedObject.energyIdentCodeEic>
 		<cim:IdentifiedObject.description>Boundary Point Nedenes 0.400</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>XNED1_XNED2 BP</cim:IdentifiedObject.name>
 		<eu:BoundaryPoint.isExcludedFromAreaInterchange>true</eu:BoundaryPoint.isExcludedFromAreaInterchange>
