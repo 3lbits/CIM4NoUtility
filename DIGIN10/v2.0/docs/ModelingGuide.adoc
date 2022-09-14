@@ -41,13 +41,11 @@ The Modeling guide is relevant for the following profiles:
 An overview of the profiles and their respective classes can be found in the below Table:
 
 --
-[cols="1,1,1", width=75%]
+[cols="1,1,1", width=100%]
 [#tab:overview_profiles] 
 |===
 |*Equipment Core* |*Steady State Hypothesis*| *Geographical Location* 
-1.7+<.<|  *LV1:*
-    SubGeographicalRegion
-
+1.7+<.<|  
     *LV1 and MV1:*
     ACLineSegment 
     Bay
@@ -200,9 +198,8 @@ CGMES 2.4.15 currently only supports fixed units for any given attribute. The fo
 == Specific instructions
 In addition to the previously presented profiles, the following sections describe how particular aspects should be modelled.
 
-=== [red]#Boundary Models#
-The boundary file is used to connect the DIGIN10 model to the Nordic44 model. In that way, vendors can connect the DIGIN10 model during testing of the Nordic44 model. 
-The boundary profile is of importance in regards of shared equipment between different system operators and specifying information that remains equal on a global scale.
+=== Boundary model
+To support TSO-DSO-DSO-SGU model exchange there is a need to create the boundary models as bilateral boundary. In DIGIN10 we have created bilateral boundary models between HV1-MV1 and MV1-LV1. 
 
 === BusbarSection
 It was decided that BusbarSection should be connected to a VoltageLevel when possible.
@@ -222,6 +219,9 @@ ConformLoadGroup is used as a container for loads. We have decided to use Confor
 ConnectiviyNodes belonging to BusbarSection would need to be contained by the VoltageLevel. All ConnectivityNode connected to a Switch (excpet if one of the ends are connected to a BusbarSection) shall be contained in the same Bay as the Switch.
 Remaining ConnectivityNodes in a Substation should be connected to a VoltageLevel. All ConnectivityNode must be connected to a ConnectivityNodeContainer (Substation, VoltageLevel, Bay or Line).
 
+
+=== ControlArea
+The DIGIN10 model currently contains only one control area on the MV side. ControlArea will be adressed in coming releases.
 
 === Equipment containers
 The DIGIN10 model uses the following equipent containers:
@@ -243,27 +243,35 @@ Will be included in a later version of the DIGIN10 model.
 === Fuse
 Will be included in a later version of the DIGIN10 model.
 
+=== Line
+Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
+
+=== LoadResponseCharacteristic
+LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
+
+
 === ModelAuthoritySet
 The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
 sets of objects, which in turn allows different parties to take responsibility for different parts of a common grid model. 
 Section 5.2 in IEC 61970-600-1:2021 gives the rules for handling of MAS.
-In DIGIN we are using this to model HV, MV and LV sepretaly, either by the fact that they are sourced by a different utility or application in the same organisation.
+In DIGIN we are using this to model HV, MV and LV separately, either by the fact that they are sourced by a different utility or application in the same organisation.
 
 
-=== [red]#Object Registry#
+=== Object Registry
+The Object Registry profile (part of ENTSO-E Network Code (NC) CGMES extensions (extension is also included in IEC 61968-100:2022) give the possibility to have multiple names for the same identifiable resource.
 
 === OperationalLimit
 Only CurrentLimit is currently used and included as normalValue in the EQ files and value in the SSH files.
 
 === PowerTransformerEnd
-PowerTransformerEnd.r and PowerTransformerEnd.x are defined on the primary winding of double wound transformers.
+PowerTransformerEnd.r and PowerTransformerEnd.x are defined on the primary winding of double winded transformers.
 
 === PATL and TATL
 It was decided that this would be modelled in the EQ files by CurrentLimit.normalValue. 
 
 
-=== [red]#Reference Data#
-
+=== Reference Data
+Common data for all MAS is now included in Reference data files, BaseVoltage and GeograpicalRegion.
 
 === Substation
 Substation is used to model cable cabinets in the LV files in CIM16, this is subject to change in CIM17.

@@ -31,7 +31,7 @@ CGMES v3.0 using CIM17 for MV and LV grid.
 
 ## Content
 The DIGIN10 model contains the following
-- Profiles according to CIM17/CGMES v3.0: DL, GL, SV, TP, SSH, EQ, OP
+- Profiles according to CGMES v3.0 using CIM17: DL, GL, SV, TP, SSH, EQ, OP
   - All files are CIM.XML files
 - Customer profiles for both MV and LV according to CDPSM
 - Object regestry profiles for LV
