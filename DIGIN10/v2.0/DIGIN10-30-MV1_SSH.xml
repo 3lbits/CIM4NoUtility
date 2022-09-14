@@ -139,7 +139,39 @@
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Breaker>
+
+    <cim:BusbarSection rdf:about="#_13d2fd99-e200-4f43-bd9f-a16dc4959edb">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
  
+    <cim:BusbarSection rdf:about="#_47bfbe16-6fa2-4b6c-9b75-7453efebafbe">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a2160-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_84d18a79-be9c-4b68-be21-36c3d7d40c58">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_abbab805-9b44-4c2d-93c2-45a691f71cd1">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a1eac-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a21b1-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+ 
+    <cim:BusbarSection rdf:about="#_681a2176-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:BusbarSection>
+
     <cim:ConformLoad rdf:about="#_eb9b50c9-e363-0940-a177-2b7abd47f398">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
@@ -486,6 +518,7 @@
     </cim:RegulatingControl>
  
     <cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:RotatingMachine.p>-178</cim:RotatingMachine.p>
         <cim:RotatingMachine.q>0</cim:RotatingMachine.q>
         <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
