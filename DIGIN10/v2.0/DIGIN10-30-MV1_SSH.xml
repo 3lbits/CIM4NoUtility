@@ -425,7 +425,31 @@
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
     </cim:LoadBreakSwitch>
+
+    <cim:PetersenCoil rdf:about="#_c9d5445c-9ad6-3849-9e02-08762805826b">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PetersenCoil>
  
+    <cim:PetersenCoil rdf:about="#_62585c75-b020-614c-89a1-fec7c118c3fa">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PetersenCoil>
+ 
+    <cim:PowerTransformer rdf:about="#_681a2fdd-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+ 
+    <cim:PowerTransformer rdf:about="#_681a2fcb-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+ 
+    <cim:PowerTransformer rdf:about="#_681a3087-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+ 
+    <cim:PowerTransformer rdf:about="#_681a309b-5a55-11eb-a658-74e5f963e191">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+    </cim:PowerTransformer>
+
     <cim:RatioTapChanger rdf:about="#_681a2fe7-5a55-11eb-a658-74e5f963e191">
         <cim:TapChanger.step>17</cim:TapChanger.step>
         <cim:TapChanger.controlEnabled>true</cim:TapChanger.controlEnabled>
