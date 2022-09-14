@@ -1895,6 +1895,7 @@
         <cim:IdentifiedObject.mRID>7d09271d-7826-442e-bc57-d1fa1955495e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Single</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>T1 ARENDAL 420 TM M1</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_33666962-c2f9-4f6b-af5a-2ef1982ac282" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_cb837454-5c66-d341-be63-d0c044e5fd3c" />
     </cim:Terminal>
