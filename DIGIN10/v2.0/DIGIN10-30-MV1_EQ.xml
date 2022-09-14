@@ -1226,7 +1226,7 @@
         <cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
         <cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
-        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4" />
+        <cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3" />
     </cim:EquivalentInjection>
  
     <cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
@@ -1242,7 +1242,7 @@
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
         <cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
         <cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
-        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
+        <cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191" />
     </cim:EquivalentInjection>
  
     <cim:GeneratingUnit rdf:ID="_b7057d99-e21a-4ba1-9cef-15aeeee4232a">

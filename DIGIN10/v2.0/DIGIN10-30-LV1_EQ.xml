@@ -1729,7 +1729,7 @@
         <cim:EquivalentInjection.minP>0.0013</cim:EquivalentInjection.minP>
         <cim:EquivalentInjection.minQ>0.00143</cim:EquivalentInjection.minQ>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
-        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
+        <cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191" />
     </cim:EquivalentInjection>
  
     <cim:Line rdf:ID="_64e21d95-8b55-b941-a923-b74087410a66">
