@@ -8,7 +8,7 @@ In the project «DIGIN CIM grunnprofiler for beregninger og simuleringer i distr
 
 DIGIN has developed a test model, the DIGIN10 model for the regional and local distribution grid, that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The DIGIN10 model contains the whole grid from the transmission connection to the local end user. 
 
- CGMES v3.0 using CIM17 is the basis for the profiles. The DIGIN10 model contains two boundary model profiles, one between each model authority sets (MAS).
+ CGMES v3.0 using CIM17 is the basis for the profiles. The DIGIN10 model contains two boundary model profiles, one between each model authority set (MAS).
 
 ## Definitions 
 - CIM = Common Information Model
