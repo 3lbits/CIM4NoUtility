@@ -5,7 +5,7 @@
 
 *Version:* 2.0
 
-The purpose of this document is to provide the necessary information to model a network according to the DIGIN10 model. 
+The purpose of this document is to provide the necessary information to model an electrical power grid according to the DIGIN10 model. 
 
 The purpose of the DIGIN10 model is to equip the Norwegian power industry with a common tool for modeling the distribution network, in its entirety, in CGMES format.
 
@@ -241,7 +241,7 @@ For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUn
 Will be included in a later version of the DIGIN10 model.
 
 === Fuse
-Will be included in a later version of the DIGIN10 model. In this version it is model as Breaker.
+Will be included in a later version of the DIGIN10 model. In this version it is modelled as Breaker.
 
 === Line
 Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
@@ -267,14 +267,14 @@ Only CurrentLimit is currently used and included as normalValue in the EQ files 
 PowerTransformerEnd.r and PowerTransformerEnd.x are defined on the primary winding of double winded transformers.
 
 === PATL and TATL
-LV only include Permanent Admissible Transmission Loading (PATL). The default limits are included in the EQ as e.g. CurrentLimit.normalValue. The result of the dynamic line rating is included in the SSH as e.g. CurrentLimit.value
+LV only includes Permanent Admissible Transmission Loading (PATL). The default limits are included in the EQ as e.g. CurrentLimit.normalValue. The result of the dynamic line rating is included in the SSH as e.g. CurrentLimit.value.
 
 
 === Reference Data
 Common data for all MAS is included in Reference data files, BaseVoltage and GeograpicalRegion.
 
 === Substation
-Substation is used to model cable cabinets in the LV files. This is an issues and might be changed in upcoming version.
+Substation is used to model cable cabinets in the LV files. This is an issue and might be changed in upcoming version.
 
 
 === Switch
