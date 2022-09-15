@@ -17,22 +17,23 @@ DIGIN has developed a test model, the DIGIN10 model for the regional and local d
 - HV = High Voltage (in this model: transmission grid)
 - MV = Medium Voltage (in this model: regional and local distribution grid)
 - LV = Low Voltage (in this model: low voltage local distribution grid)
-
+PATL = Permanent Admissible Transmission Loading
+TATL = Temporarily Admissible Transmission Loading
 
 ## Versions
 DIGIN10-24-v1.0 - Power flow and simulation utilization using CGMES v2.4 (CIM16). 
 
-DIGIN10-30-v2.0 - Conversion of DIGIN10-24-v1.0 to CGMES v3.0 (CIM17).
+DIGIN10-30-v2.0 - A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). A release to show the transformation from CGMES v2.4 to CGMES v3.0. 
 
 
 ## Specifications
 
-CGMES v3.0 using CIM17 for MV and LV grid.
+ A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Set (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1).
 
 ## Content
 The DIGIN10 model contains the following
 - Profiles according to CGMES v3.0 using CIM17: DL, GL, SV, TP, SSH, EQ, OP
-  - All files are CIM.XML files
+  - All instance files are according to CIMXML format (IEC 61970-552) which is based on RDF XML.
 - Customer profiles for both MV and LV according to CDPSM
 - Object regestry profiles for LV
 - Boundary profiles for interopability with NORDIC44 and between each MAS
