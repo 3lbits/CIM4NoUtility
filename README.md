@@ -8,31 +8,39 @@ In the project «DIGIN CIM grunnprofiler for beregninger og simuleringer i distr
 
 DIGIN has developed a test model, the DIGIN10 model for the regional and local distribution grid, that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The DIGIN10 model contains the whole grid from the transmission connection to the local end user. 
 
-CIM16 and CGMES 2.4 is the basis for the profiles and test model developed and will be available on CIM17 and CGMES 3.0 in the future. The DIGIN10 and NORDIC44 model has a common boundary profile file that contains definitions, classes and attributes that are used across the two adjoining models. 
+ CGMES v3.0 using CIM17 is the basis for the profiles. The DIGIN10 model contains two boundary model profiles, one between each model authority sets (MAS).
 
 ## Definitions 
 - CIM = Common Information Model
 - CGMES = Common Grid Model Exchange Standard
+- MAS = Model Authority Set
+- HV = High Voltage (in this model: transmission grid)
 - MV = Medium Voltage (in this model: regional and local distribution grid)
 - LV = Low Voltage (in this model: low voltage local distribution grid)
-- CU = Customer profile
+- PATL = Permanent Admissible Transmission Loading
+- TATL = Temporarily Admissible Transmission Loading
 
 ## Versions
-DIGIN10-24-MV1_v0.5 - First edition of released model - Power flow and simulation utilization using CIM16
+DIGIN10-24-v1.0 - A 40 bus power flow case for MV and LV according to CGMES v2.4 (CIM16). Kept in v2.0 release to show the transition. 
 
-DIGIN10-24-v1.0 - Updated model with MV and LV - Power flow and simulation utilization using CIM16
+DIGIN10-30-v2.0 - A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). A release to show the transformation from CGMES v2.4 to CGMES v3.0. 
+
 
 ## Specifications
-CIM16 for MV and LV grid
+
+ A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1).
 
 ## Content
 The DIGIN10 model contains the following
-- profiles according to CIM16/CGMES2.4.15: DL, GL, SV, TP, SSH, EQ
-  - All files are CIM.XML files
-- Customer profiles for both MV and LV
-- Boundary profile for interopability with NORDIC44 
-- Validation files from CIMDesk
+- Profiles according to CGMES v3.0 using CIM17: DL, GL, SV, TP, SSH, EQ, OP
+  - All instance files are according to CIMXML format (IEC 61970-552) which is based on RDF XML.
+- Customer profiles for both MV and LV according to CDPSM
+- Object regestry profiles for LV
+- Boundary profiles for interopability with NORDIC44 and between each MAS
+- Validation files from CIMdesk
 - Drawio images of EQ profile
-- png/svg image files of full model from CIMDesk
-- NameStandard
+- png/svg image files of full model from CIMdesk
+- Name Standard
 - Modeling Guide
+- Changelog for Converting to CGMES 3.0 
+- Known Issues for current version
