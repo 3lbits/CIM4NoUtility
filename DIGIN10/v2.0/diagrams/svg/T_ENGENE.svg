@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="T_ENGENE" width="666.6667" height="452.5" viewBox="0 0 666.6667 452.5" cimspy:name="T_ENGENE" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" cimspy:diagramType="7" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <rect id="T_ENGENE_5" x="637.9167" y="224.25" width="0" height="0" stroke="#808080" fill="none" stroke-width="2" stroke-dasharray="4 2" />
+  <text id="FreeText_T_ENGENE CN 001" x="365.6667" y="390.97" rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_T_ENGENE CN 001" x="496.9167" y="401.22" rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE CN 001</text>
+  <text id="FreeText_T_ENGENE CN 001" x="272.9167" y="411.47" rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">68.1 KV</text>
+  <text id="FreeText_T_ENGENE 132 EN1 LD_S" x="213.3333" y="358.72" rdf:ID="_652e1c63-50b0-4f5a-b88d-8f814a0cda4d" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE 132 EN1 LD_S</text>
+  <text id="FreeText_T_ENGENE CN 003" x="339.5833" y="314.97" rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_T_ENGENE CN 003" x="363.5833" y="325.22" rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE CN 003</text>
+  <text id="FreeText_T_ENGENE CN 003" x="255.8333" y="325.22" rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE 132A</text>
+  <text id="FreeText_T_ENGENE CN 003" x="339.4583" y="335.47" rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">68.1 KV</text>
+  <text id="FreeText_132 T_ENGENE-ENGENE ACLS 1 1" x="352.0833" y="279.22" rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 T_ENGENE-ENGENE ACLS 1 1</text>
+  <a id="xlink_FreeText_ENGENE" xlink:href="ENGENE.svg">
+    <text id="FreeText_ENGENE" x="330.8333" y="239.47" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE</text>
+  </a>
+  <text id="FreeText_132 T_ENGENE-ENGENE ACLS 1 1" x="352.0833" y="290.72" rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">[0.1MW, 0.3MVAr]</text>
+  <text id="FreeText_132 T_ENGENE-ENGENE ACLS 1 1" x="352.0833" y="302.22" rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">2.6/727 Amp</text>
+  <text id="FreeText_132 FROLAND-T_ENGENE ACLS 1" x="418.75" y="369.72" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 FROLAND-T_ENGENE ACLS 1</text>
+  <a id="xlink_FreeText_FROLAND" xlink:href="FROLAND.svg">
+    <text id="FreeText_FROLAND" x="394.375" y="324.47" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND</text>
+  </a>
+  <text id="FreeText_132 FROLAND-T_ENGENE ACLS 1" x="418.75" y="381.22" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">[0.1MW, 0.3MVAr]</text>
+  <text id="FreeText_132 FROLAND-T_ENGENE ACLS 1" x="418.75" y="392.72" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">2.6/1020 Amp</text>
+  <polyline id="ACLineSegment_132 T_ENGENE-ENGENE ACLS 1 1" points="349.5833,270 349.5833,319" rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 T_ENGENE 132 EN1 LD_S" points="349.5833,320 349.5833,319" rdf:ID="_78c5385c-be34-4f4f-a81a-225decba8227" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_132 FROLAND-T_ENGENE ACLS 1" points="416.25,355 416.25,395" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 T_ENGENE 132 EN1 LD_S" points="349.5833,385 349.5833,395" rdf:ID="_1a4d9840-26f0-452a-afe4-d74ba8829451" stroke="#601F40" fill="none" stroke-width="1" />
+  <g id="Disconnector_T_ENGENE 132 EN1 LD_S" rdf:ID="_652e1c63-50b0-4f5a-b88d-8f814a0cda4d">
+    <line id="Disconnector_T_ENGENE 132 EN1 LD_S_1" x1="349.5833" y1="340" x2="349.5833" y2="365" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_T_ENGENE 132 EN1 LD_S_2" x1="357.0833" y1="340" x2="342.0833" y2="365" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_T_ENGENE 132 EN1 LD_S_3" x1="349.5833" y1="320" x2="349.5833" y2="340" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_T_ENGENE 132 EN1 LD_S_4" x1="349.5833" y1="365" x2="349.5833" y2="385" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_ENGENE" xlink:href="ENGENE.svg">
+    <g id="NeighborSubstation_ENGENE" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 349.583343505859, 254.5)">
+      <polyline id="NeighborSubstation_ENGENE_1" points="344.0833,260 349.5833,270 355.0833,260" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_ENGENE_2" x1="349.5833" y1="260" x2="349.5833" y2="269.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_ENGENE_3" x1="349.5833" y1="239" x2="349.5833" y2="260" stroke="#601F40" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <a id="xlink_NeighborSubstation_FROLAND" xlink:href="FROLAND.svg">
+    <g id="NeighborSubstation_FROLAND" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 416.25, 339.5)">
+      <polyline id="NeighborSubstation_FROLAND_1" points="410.75,345 416.25,355 421.75,345" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_FROLAND_2" x1="416.25" y1="345" x2="416.25" y2="354.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_FROLAND_3" x1="416.25" y1="324" x2="416.25" y2="345" stroke="#601F40" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <line id="Bus_T_ENGENE CN 001" x1="272.9167" y1="395" x2="492.9167" y2="395" rdf:ID="_681a1e2b-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_T_ENGENE CN 003" x1="339.5833" y1="319" x2="359.5833" y2="319" rdf:ID="_b20e4b70-f546-48b1-82e8-66b138fd7ae2" stroke="#601F40" fill="none" stroke-width="5" />
+  <polygon id="T_ENGENE_35" points="344.3333,304.5702 354.8333,304.5702 349.5833,324.5702" fill="#FF0000" stroke-width="1" transform="rotate(180, 349.583343505859, 314.570159912109)" />
+  <polygon id="T_ENGENE_36" points="411,366.0887 421.5,366.0887 416.25,386.0887" fill="#FF0000" stroke-width="1" transform="rotate(0, 416.25, 376.088684082031)" />
+</svg>
