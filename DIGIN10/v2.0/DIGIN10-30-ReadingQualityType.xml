@@ -8,7 +8,7 @@
 	xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#">
 
-	<md:FullModel rdf:about="urn:uuid:30cd2048-a3c4-4f81-aaed-70c53fc392f7">
+	<md:FullModel rdf:about="urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2">
 		<md:Model.modelingAuthoritySet>http://data.europe.eu/energy/ReadingQualityType</md:Model.modelingAuthoritySet>
 		<md:Model.description>Meter Reading Quality Types Reference data (RD)</md:Model.description>
 		<dcat:keyword>RD</dcat:keyword>
@@ -16,7 +16,7 @@
 		<md:Model.created>2022-02-18T00:21:43Z</md:Model.created>
 	</md:FullModel>
 
-	<cim:ReadingQualityType rdf:ID="_15c8e1c0-6fc3-43f0-b4e5-97a07a323f2e">
+	<cim:ReadingQualityType rdf:ID="_e59a5865-21c8-462a-9496-9d072bb73137">
 		<cim:IdentifiedObject.description>Meter Data Management System Valid Validated</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingQualityType/3.0.1/>
 		<cim:IdentifiedObject.name>3.0.1</cim:IdentifiedObject.name>
@@ -25,7 +25,7 @@
 		<cim:ReadingQualityType.subCategory>Validated</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
 
-	<cim:ReadingQualityType rdf:ID="_b6f62fdf-83ca-43ea-8b6b-a3e8a66cfa29">
+	<cim:ReadingQualityType rdf:ID="_eac5bde7-2fc6-48c2-9bea-17c22c0809e0">
 		<cim:IdentifiedObject.description>Meter Data Management System Estimated Validated</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingQualityType/3.8.1/>
 		<cim:IdentifiedObject.name>3.8.1</cim:IdentifiedObject.name>
@@ -34,7 +34,7 @@
 		<cim:ReadingQualityType.subCategory>Validated</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
 
-	<cim:ReadingQualityType rdf:ID="_dfc3f840-d759-4ca7-a075-76183932dba8">
+	<cim:ReadingQualityType rdf:ID="_deeabf1b-deba-4385-9474-25c89ce4003c">
 		<cim:IdentifiedObject.description>Meter Data Management System Edited Validated</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingQualityType/3.7.1/>
 		<cim:IdentifiedObject.name>3.7.1</cim:IdentifiedObject.name>
@@ -43,7 +43,7 @@
 		<cim:ReadingQualityType.subCategory>Validated</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
 
-	<cim:ReadingQualityType rdf:ID="_25408122-2e2d-4064-b64a-d7520fc65ae0">
+	<cim:ReadingQualityType rdf:ID="_66c3b271-327b-42d6-8899-5e04475a07b1">
 		<cim:IdentifiedObject.description>Metering system (data collection) network Valid Data Valid</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingQualityType/2.0.0/>
 		<cim:IdentifiedObject.name>2.0.0</cim:IdentifiedObject.name>
