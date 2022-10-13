@@ -17,6 +17,7 @@
 	</md:FullModel>
 
 	<cim:ReadingType rdf:ID="_c6554d99-d8d3-49db-abc6-694cec37ae10">
+        <cim:IdentifiedObject.mRID>c6554d99-d8d3-49db-abc6-694cec37ae10</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0/>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
@@ -28,6 +29,7 @@
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_f89aee25-0a13-4dbd-afc7-8584c66b6317">
+        <cim:IdentifiedObject.mRID>f89aee25-0a13-4dbd-afc7-8584c66b6317</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0/>
 		<cim:IdentifiedObject.name>0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
@@ -38,6 +40,7 @@
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_a0f5330e-1fcf-4df3-a001-ef9578ae318a">
+        <cim:IdentifiedObject.mRID>a0f5330e-1fcf-4df3-a001-ef9578ae318a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>average tenMinute summation electricitySecondaryMetered voltage phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0/>
 		<cim:IdentifiedObject.name>0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
@@ -51,6 +54,7 @@
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_86bb43dd-add2-4a44-b5aa-59b0a02b9297">
+        <cim:IdentifiedObject.mRID>86bb43dd-add2-4a44-b5aa-59b0a02b9297</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>indicating electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0/>
 		<cim:IdentifiedObject.name>0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
@@ -62,6 +66,7 @@
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_de1cd5ff-6810-42c1-af36-5b519e09042c">
+        <cim:IdentifiedObject.mRID>de1cd5ff-6810-42c1-af36-5b519e09042c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>indicating electricitySecondaryMetered voltage phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0/>
 		<cim:IdentifiedObject.name>0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
