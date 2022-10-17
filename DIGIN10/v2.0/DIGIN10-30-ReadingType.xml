@@ -21,11 +21,11 @@
 		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0/>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
-		<cim:ReadingType.measuringPeriod rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MacroPeriodKind.sixtyMinute"/>
-		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.deltaData"/>
-		<cim:ReadingType.flowDirection rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#FlowDirectionKind.forward"/>
-		<cim:ReadingType.multiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
-		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh"/>
+		<cim:ReadingType.measuringPeriod rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##MacroPeriodKind.sixtyMinute"/>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##AccumulationKind.deltaData"/>
+		<cim:ReadingType.flowDirection rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##FlowDirectionKind.forward"/>
+		<cim:ReadingType.multiplier rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitMultiplier.k"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitSymbol.Wh"/>
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_f89aee25-0a13-4dbd-afc7-8584c66b6317">
@@ -33,9 +33,9 @@
 		<cim:IdentifiedObject.description>forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0/>
 		<cim:IdentifiedObject.name>0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
-		<cim:ReadingType.flowDirection rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#FlowDirectionKind.forward"/>
-		<cim:ReadingType.multiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
-		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.Wh"/>
+		<cim:ReadingType.flowDirection rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##FlowDirectionKind.forward"/>
+		<cim:ReadingType.multiplier rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitMultiplier.k"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitSymbol.Wh"/>
 		<cim:ReadingType.currency></cim:ReadingType.currency>
 	</cim:ReadingType>
 
@@ -44,13 +44,13 @@
 		<cim:IdentifiedObject.description>average tenMinute summation electricitySecondaryMetered voltage phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0/>
 		<cim:IdentifiedObject.name>0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
-		<cim:ReadingType.aggregate rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AggregateKind.average"/>
-		<cim:ReadingType.measuringPeriod rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.tenMinute"/>
-		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.summation"/>
-		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CommodityKind.electricitySecondaryMetered"/>
-		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.voltage"/>
-		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.phaseA"/>
-		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V"/>
+		<cim:ReadingType.aggregate rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##AggregateKind.average"/>
+		<cim:ReadingType.measuringPeriod rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##MeasurementKind.tenMinute"/>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##AccumulationKind.summation"/>
+		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##CommodityKind.electricitySecondaryMetered"/>
+		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##MeasurementKind.voltage"/>
+		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##PhaseCode.phaseA"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitSymbol.V"/>
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_86bb43dd-add2-4a44-b5aa-59b0a02b9297">
@@ -58,11 +58,11 @@
 		<cim:IdentifiedObject.description>indicating electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0/>
 		<cim:IdentifiedObject.name>0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
-		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.indicating"/>
-		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CommodityKind.electricitySecondaryMetered"/>
-		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.current"/>
-		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.phaseA"/>
-		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.A"/>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##AccumulationKind.indicating"/>
+		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##CommodityKind.electricitySecondaryMetered"/>
+		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##MeasurementKind.current"/>
+		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##PhaseCode.phaseA"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitSymbol.A"/>
 	</cim:ReadingType>
 
 	<cim:ReadingType rdf:ID="_de1cd5ff-6810-42c1-af36-5b519e09042c">
@@ -70,11 +70,11 @@
 		<cim:IdentifiedObject.description>indicating electricitySecondaryMetered voltage phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0/>
 		<cim:IdentifiedObject.name>0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
-		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#AccumulationKind.indicating"/>
-		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#CommodityKind.electricitySecondaryMetered"/>
-		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#MeasurementKind.voltage"/>
-		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#PhaseCode.phaseA"/>
-		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitSymbol.V"/>
+		<cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##AccumulationKind.indicating"/>
+		<cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##CommodityKind.electricitySecondaryMetered"/>
+		<cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##MeasurementKind.voltage"/>
+		<cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##PhaseCode.phaseA"/>
+		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/2016/CIM-schema-cim17##UnitSymbol.V"/>
 	</cim:ReadingType>
 
 </rdf:RDF>
