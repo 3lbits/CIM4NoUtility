@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#">
+ 
+    <md:FullModel rdf:about="urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2">
+        <md:Model.created>2022-10-24T21:00:00.000Z</md:Model.created>
+        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 Asset Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/Asset</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+    </md:FullModel>
+
+    <cim:Asset rdf:ID="_6270b5e8-b307-427d-82c2-5605950145e3">
+        <cim:IdentifiedObject.mRID>6270b5e8-b307-427d-82c2-5605950145e3</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 Asset 1 ACLineSegment 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 Asset1 ACLS1</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>true</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01580609</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>400</cim:Asset.purchasePrice>
+        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
+        <cim:Asset.serialNumber>8DuSTPRv</cim:Asset.serialNumber>
+        <cim:Asset.type>UnderGroundCable</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000001</cim:Asset.utcNumber>
+        <cim:Asset.AssetInfo rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14" />
+        <cim:Asset.PowerSystemResources rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_c03f6706-21e6-4034-ab48-781c438af5a2">
+        <cim:IdentifiedObject.mRID>c03f6706-21e6-4034-ab48-781c438af5a2</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Disruptive Technologies temperature sensor 1 Asset 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTechTempSensor1 Asset2</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01580608</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>10</cim:Asset.purchasePrice>
+        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
+        <cim:Asset.serialNumber>8DuSTPRs</cim:Asset.serialNumber>
+        <cim:Asset.type>DisrTechTemperatrueSensor</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000002</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_3344a693-6818-4703-93ac-510baac566d5">
+        <cim:IdentifiedObject.mRID>3344a693-6818-4703-93ac-510baac566d5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Current Transformer Asset 3</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>11 VESTFO 2 CT Asset3</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01580601</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000</cim:Asset.purchasePrice>
+        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
+        <cim:Asset.serialNumber>8DuSTPRi</cim:Asset.serialNumber>
+        <cim:Asset.type>CurrentTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000003</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_26d2f8aa-b651-46c5-a54d-05948f35f3d2" />
+        <cim:Asset.PowerSystemResources rdf:resource="#_0f3b6200-684d-4365-8d55-45baae73bffb" />
+        <cim:Asset.PowerSystemResources rdf:resource="#_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_ff20c614-4797-471e-98c6-c08f7ed97ce6">
+        <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Potential Transformer Asset 4</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>11 VESTFO 2 PoT Asset3</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01580602</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000</cim:Asset.purchasePrice>
+        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
+        <cim:Asset.serialNumber>8DuSTPRy</cim:Asset.serialNumber>
+        <cim:Asset.type>PotentialTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000004</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_fd11bf7f-138b-4a1b-802c-25262b7b8672" />
+        <cim:Asset.PowerSystemResources rdf:resource="#_03f7a245-aeca-48ba-af07-58419fb9b77c" />
+        <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+    </cim:Asset>
+
+</rdf:RDF>

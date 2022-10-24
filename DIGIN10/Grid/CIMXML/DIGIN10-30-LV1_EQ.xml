@@ -27,6 +27,7 @@
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
         <cim:ACLineSegment.x>0.003769911221053</cim:ACLineSegment.x>
+        <cim:PowerSystemResource.AssetDatasheet rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14" />
         <cim:Equipment.EquipmentContainer rdf:resource="#_64e21d95-8b55-b941-a923-b74087410a66" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
     </cim:ACLineSegment>
