@@ -121,7 +121,7 @@
     </cim:Analog>
 
     <cim:AnalogValue rdf:ID="_c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6">
-		<cim:IdentifiedObject.mRID>c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 AnalogValue 1 Current</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>11 VESTFO 2 ANALOGVALUE1CURR</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
@@ -132,7 +132,7 @@
     </cim:AnalogValue>
 
     <cim:AnalogValue rdf:ID="_a446a44a-2eef-448c-8890-29b9d4f40b5f">
-		<cim:IdentifiedObject.mRID>a446a44a-2eef-448c-8890-29b9d4f40b5f</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>a446a44a-2eef-448c-8890-29b9d4f40b5f</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 AnalogValue 2 Current 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>11 VESTFO 2 ANALOGVALUE2CURR2</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
@@ -143,7 +143,7 @@
     </cim:AnalogValue>
 
     <cim:AnalogValue rdf:ID="_6068978b-1a52-4cc6-bd3d-b17d7a239ad0">
-		<cim:IdentifiedObject.mRID>6068978b-1a52-4cc6-bd3d-b17d7a239ad0</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>6068978b-1a52-4cc6-bd3d-b17d7a239ad0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 AnalogValue 3 Current 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>11 VESTFO 2 ANALOGVALUE3CURR3</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
@@ -154,7 +154,7 @@
     </cim:AnalogValue>
 
     <cim:AnalogValue rdf:ID="_3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a">
-		<cim:IdentifiedObject.mRID>3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 AnalogValue 4 Voltage AB</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>11 VESTFO 2 ANALOGVALUE4VOLTAB</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
@@ -165,7 +165,7 @@
     </cim:AnalogValue>
 
     <cim:AnalogValue rdf:ID="_4e707066-d551-4f75-ae9c-c8fba5e6242d">
-		<cim:IdentifiedObject.mRID>4e707066-d551-4f75-ae9c-c8fba5e6242d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>4e707066-d551-4f75-ae9c-c8fba5e6242d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 AnalogValue 5 Voltage AC</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>11 VESTFO 2 ANALOGVALUE5VOLTAC</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
@@ -176,7 +176,7 @@
     </cim:AnalogValue>
 
     <cim:AnalogValue rdf:ID="_108f2b7f-dd63-4c41-b996-439c68275490">
-		<cim:IdentifiedObject.mRID>108f2b7f-dd63-4c41-b996-439c68275490</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>108f2b7f-dd63-4c41-b996-439c68275490</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 AnalogValue 6 Voltage BC</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>11 VESTFO 2 ANALOGVALUE6VOLTBC</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
