@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="CIMSpy_Root_Canvas" width="14913.18" height="27253.33" viewBox="0 0 71.24494 130.1977" cimspy:name="unknown" cimspy:diagramType="10" style="background-color: #FFFFFF" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+  <a id="xlink_FreeText_ARENDAL" xlink:href="ARENDAL.svg">
+    <text id="FreeText_ARENDAL" x="14789.43" y="24435.54" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL</text>
+  </a>
+  <a id="xlink_FreeText_ENGENE" xlink:href="ENGENE.svg">
+    <text id="FreeText_ENGENE" x="12913.08" y="27223.8" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ENGENE</text>
+  </a>
+  <a id="xlink_FreeText_FROLAND" xlink:href="FROLAND.svg">
+    <text id="FreeText_FROLAND" x="11740.34" y="22493.19" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND</text>
+  </a>
+  <a id="xlink_FreeText_NEDENES" xlink:href="NEDENES.svg">
+    <text id="FreeText_NEDENES" x="13093.93" y="26589.5" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">NEDENES</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB1" xlink:href="TELEMA2 04 CB1.svg">
+    <text id="FreeText_TELEMA2 04 CB1" x="13101.88" y="26632.45" rdf:ID="_e322d64a-0413-4703-b31c-b8e0c5c32f44" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB1</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB2" xlink:href="TELEMA2 04 CB2.svg">
+    <text id="FreeText_TELEMA2 04 CB2" x="13147.79" y="26631.2" rdf:ID="_4bb21420-ef4f-4af1-979e-863c3f484c51" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB2</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB3" xlink:href="TELEMA2 04 CB3.svg">
+    <text id="FreeText_TELEMA2 04 CB3" x="13171.1" y="26626.75" rdf:ID="_ccffa748-19de-412a-9946-1fc846d98b71" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB3</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB4" xlink:href="TELEMA2 04 CB4.svg">
+    <text id="FreeText_TELEMA2 04 CB4" x="13194.4" y="26622.3" rdf:ID="_37a3bd2c-7817-48de-aa01-13a324a6d6bd" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB4</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB5" xlink:href="TELEMA2 04 CB5.svg">
+    <text id="FreeText_TELEMA2 04 CB5" x="13217.7" y="26617.85" rdf:ID="_27a21834-5457-4f1b-ad5c-1c69ff88fbd4" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB5</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB6" xlink:href="TELEMA2 04 CB6.svg">
+    <text id="FreeText_TELEMA2 04 CB6" x="13241" y="26613.4" rdf:ID="_811613d5-c44f-4daa-9dc1-03005740a4e5" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB6</text>
+  </a>
+  <a id="xlink_FreeText_TELEMA2 04 CB7" xlink:href="TELEMA2 04 CB7.svg">
+    <text id="FreeText_TELEMA2 04 CB7" x="13242.55" y="26488.93" rdf:ID="_99a5ca36-e724-49a7-8e7f-247357b6f336" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">TELEMA2 04 CB7</text>
+  </a>
+  <a id="xlink_FreeText_T_ENGENE" xlink:href="T_ENGENE.svg">
+    <text id="FreeText_T_ENGENE" x="12714.6" y="26657.59" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE</text>
+  </a>
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS1" points="13092.38,26626.22 13084.43,26590.03" rdf:ID="_9d58e5bb-834c-4faa-928c-7da0bb1497d9" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS12" points="13184.9,26616.08 13084.43,26590.03" rdf:ID="_f2ed5944-a394-4802-8ec9-936bc60e5bc4" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS14" points="13208.2,26611.63 13184.9,26616.08" rdf:ID="_fe0a5228-5eb4-4008-9ee6-d22389f798e9" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS17" points="13208.2,26611.63 13161.6,26620.53" rdf:ID="_e0e00668-9e76-461f-b310-8c84afb9ffe6" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS18" points="13231.5,26607.18 13084.43,26590.03" rdf:ID="_50e4056a-92e6-4bc2-b6e1-4d66f1624c38" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS21" points="13231.5,26607.18 13254.8,26495.96" rdf:ID="_0103615e-f6cc-4cb8-a338-a7fb714cdfa2" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS23" points="13254.8,26495.96 13208.2,26611.63" rdf:ID="_30d15518-d0ac-4800-a5c1-da8593c790ed" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS5" points="13138.29,26624.98 13092.38,26626.22" rdf:ID="_ead7f7fd-d132-43b5-b561-1b0e65b0a562" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_TELEMA2 04 ACLS9" points="13161.6,26620.53 13138.29,26624.98" rdf:ID="_320b9701-cae3-478e-a70b-03d1736ed4e3" stroke="#CC6600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_132 ARENDAL-FROLAND ACLS 1" points="14779.93,24429.32 11730.84,22493.72" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_22 ENGENE-NEDENES ACLS 1" points="12911.83,27202.33 13084.43,26590.03" rdf:ID="_92d33be4-7034-11eb-a65a-74e5f963e191" stroke="#996600" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_132 FROLAND-T_ENGENE ACLS 1" points="11730.84,22493.72 12705.1,26651.37" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_132 T_ENGENE-ENGENE ACLS 1 1" points="12911.83,27202.33 12705.1,26651.37" rdf:ID="_92d33bcc-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polygon id="CIMSpy_Root_Canvas_39" points="12901.14,23229.97 12911.64,23229.97 12906.39,23249.97" fill="#FF0000" stroke-width="1" transform="rotate(122.407985737987, 12906.388671875, 23239.970703125)" />
+  <polygon id="CIMSpy_Root_Canvas_40" points="13078.23,26600.66 13081.8,26600.66 13080.02,26610.75" fill="#FF0000" stroke-width="1" transform="rotate(195.742498025303, 13080.015625, 26605.705078125)" />
+  <polygon id="CIMSpy_Root_Canvas_41" points="11884.06,23150.51 11887.89,23150.51 11885.98,23160.98" fill="#FF0000" stroke-width="1" transform="rotate(-13.1880860847066, 11885.9765625, 23155.74609375)" />
+  <polygon id="CIMSpy_Root_Canvas_42" points="12725.42,26705.3 12729.12,26705.3 12727.27,26715.59" fill="#FF0000" stroke-width="1" transform="rotate(-20.5671451141875, 12727.2666015625, 26710.443359375)" />
+  <a id="xlink_Substation_ARENDAL" xlink:href="ARENDAL.svg">
+    <g id="Substation_ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_ARENDAL_1" cx="14779.93" cy="24429.32" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_ENGENE" xlink:href="ENGENE.svg">
+    <g id="Substation_ENGENE" rdf:ID="_681a1e15-5a55-11eb-a658-74e5f963e191">
+      <ellipse id="Substation_ENGENE_1" cx="12911.83" cy="27202.33" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_FROLAND" xlink:href="FROLAND.svg">
+    <g id="Substation_FROLAND" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191">
+      <ellipse id="Substation_FROLAND_1" cx="11730.84" cy="22493.72" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_NEDENES" xlink:href="NEDENES.svg">
+    <g id="Substation_NEDENES" rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
+      <ellipse id="Substation_NEDENES_1" cx="13084.43" cy="26590.03" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB1" xlink:href="TELEMA2 04 CB1.svg">
+    <g id="Substation_TELEMA2 04 CB1" rdf:ID="_e322d64a-0413-4703-b31c-b8e0c5c32f44">
+      <ellipse id="Substation_TELEMA2 04 CB1_1" cx="13092.38" cy="26626.22" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB2" xlink:href="TELEMA2 04 CB2.svg">
+    <g id="Substation_TELEMA2 04 CB2" rdf:ID="_4bb21420-ef4f-4af1-979e-863c3f484c51">
+      <ellipse id="Substation_TELEMA2 04 CB2_1" cx="13138.29" cy="26624.98" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB3" xlink:href="TELEMA2 04 CB3.svg">
+    <g id="Substation_TELEMA2 04 CB3" rdf:ID="_ccffa748-19de-412a-9946-1fc846d98b71">
+      <ellipse id="Substation_TELEMA2 04 CB3_1" cx="13161.6" cy="26620.53" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB4" xlink:href="TELEMA2 04 CB4.svg">
+    <g id="Substation_TELEMA2 04 CB4" rdf:ID="_37a3bd2c-7817-48de-aa01-13a324a6d6bd">
+      <ellipse id="Substation_TELEMA2 04 CB4_1" cx="13184.9" cy="26616.08" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB5" xlink:href="TELEMA2 04 CB5.svg">
+    <g id="Substation_TELEMA2 04 CB5" rdf:ID="_27a21834-5457-4f1b-ad5c-1c69ff88fbd4">
+      <ellipse id="Substation_TELEMA2 04 CB5_1" cx="13208.2" cy="26611.63" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB6" xlink:href="TELEMA2 04 CB6.svg">
+    <g id="Substation_TELEMA2 04 CB6" rdf:ID="_811613d5-c44f-4daa-9dc1-03005740a4e5">
+      <ellipse id="Substation_TELEMA2 04 CB6_1" cx="13231.5" cy="26607.18" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_TELEMA2 04 CB7" xlink:href="TELEMA2 04 CB7.svg">
+    <g id="Substation_TELEMA2 04 CB7" rdf:ID="_99a5ca36-e724-49a7-8e7f-247357b6f336">
+      <ellipse id="Substation_TELEMA2 04 CB7_1" cx="13254.8" cy="26495.96" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_T_ENGENE" xlink:href="T_ENGENE.svg">
+    <g id="Substation_T_ENGENE" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191">
+      <ellipse id="Substation_T_ENGENE_1" cx="12705.1" cy="26651.37" rx="7.5" ry="7.5" stroke="#000033" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+</svg>
