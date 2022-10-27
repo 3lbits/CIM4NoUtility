@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF
-    xmlns:cim="http://iec.ch/TC57/2016/CIM-schema-cim17#"
-    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#">
 
     <md:FullModel rdf:about="urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504">
-        <md:Model.modelingAuthoritySet>http://data.europe.eu/energy/AssetInfo</md:Model.modelingAuthoritySet>
-        <md:Model.description>Asset Info Reference data (RD)</md:Model.description>
-        <dcat:keyword>RD</dcat:keyword>
-        <md:Model.version>1</md:Model.version>
         <md:Model.created>2022-10-24T21:00:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 Manufactor 1 (M1) Asset Info Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>http://data.europe.eu/energy/AssetInfo</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
     </md:FullModel>
 
     <cim:CableInfo rdf:ID="_d25f35ca-69fb-4c06-905b-67ec532e5f14">
