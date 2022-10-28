@@ -16,8 +16,8 @@
 
     <cim:Asset rdf:ID="_3344a693-6818-4703-93ac-510baac566d5">
         <cim:IdentifiedObject.mRID>3344a693-6818-4703-93ac-510baac566d5</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Current Transformer 1 Asset 3</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>11 VESTFO 2 CT1 Asset3</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Engene Current Transformer 1 Asset 3</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE CT1 A3</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
         <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
         <cim:Asset.critical>false</cim:Asset.critical>
@@ -35,8 +35,8 @@
 
     <cim:Asset rdf:ID="_9e9d30f5-fdb3-4d0e-9309-ad41c97f3df5">
         <cim:IdentifiedObject.mRID>9e9d30f5-fdb3-4d0e-9309-ad41c97f3df5</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Current Transformer 2 Asset 4</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>11 VESTFO 2 CT2 Asset4</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Engene Current Transformer 2 Asset 4</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE CT2 A4</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
         <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
         <cim:Asset.critical>false</cim:Asset.critical>
@@ -54,8 +54,8 @@
 
     <cim:Asset rdf:ID="_addaff9d-8a88-4f0b-8213-1a15498083a2">
         <cim:IdentifiedObject.mRID>addaff9d-8a88-4f0b-8213-1a15498083a2</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Current Transformer 3 Asset 5</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>11 VESTFO 2 CT3 Asset5</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Engene Current Transformer 3 Asset 5</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE CT3 A5</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
         <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
         <cim:Asset.critical>false</cim:Asset.critical>
@@ -73,8 +73,8 @@
 
     <cim:Asset rdf:ID="_ff20c614-4797-471e-98c6-c08f7ed97ce6">
         <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Potential Transformer 1 Asset 6</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>11 VESTFO 2 PoT1 Asset6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 1 Asset 6</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE VT1 A6</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
         <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
         <cim:Asset.critical>false</cim:Asset.critical>
@@ -92,8 +92,8 @@
 
     <cim:Asset rdf:ID="_0507d6c7-b845-4171-ad56-d531e2e52401">
         <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Potential Transformer 2 Asset 7</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>11 VESTFO 2 PoT2 Asset7</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 2 Asset 7</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE VT2 A7</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
         <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
         <cim:Asset.critical>false</cim:Asset.critical>
@@ -111,8 +111,8 @@
 
     <cim:Asset rdf:ID="_1104d9f6-95d3-463a-b8ad-6f64eb3a730b">
         <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Potential Transformer 3 Asset 8</cim:IdentifiedObject.description>
-		<cim:IdentifiedObject.name>11 VESTFO 2 PoT3 Asset8</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 3 Asset 8</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE VT3 A8</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
         <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
         <cim:Asset.critical>false</cim:Asset.critical>
