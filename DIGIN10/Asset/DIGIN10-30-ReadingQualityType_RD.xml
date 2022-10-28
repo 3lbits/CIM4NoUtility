@@ -171,7 +171,7 @@
 		<cim:IdentifiedObject.description>Metering system (data collection) network Valid Data Valid</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://energy.referencedata.eu/ReadingQualityType/2.0.0/>
 		<cim:IdentifiedObject.name>2.0.0</cim:IdentifiedObject.name>
-		<cim:ReadingQualityType.systemId>Meter Data Management System</cim:ReadingQualityType.systemId>
+		<cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
 		<cim:ReadingQualityType.category>Valid</cim:ReadingQualityType.category>
 		<cim:ReadingQualityType.subCategory>Data Valid</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
@@ -181,7 +181,7 @@
 		<cim:IdentifiedObject.description>Metering system (data collection) network Data collection related DstInEffect</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://energy.referencedata.eu/ReadingQualityType/2.4.16/>
 		<cim:IdentifiedObject.name>2.4.16</cim:IdentifiedObject.name>
-		<cim:ReadingQualityType.systemId>Meter Data Management System</cim:ReadingQualityType.systemId>
+		<cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
 		<cim:ReadingQualityType.category>Data collection related</cim:ReadingQualityType.category>
 		<cim:ReadingQualityType.subCategory>DstInEffect</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
@@ -241,7 +241,7 @@
 		<cim:IdentifiedObject.description>Metering system (data collection) network Failed reasonability testing Suspect</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://energy.referencedata.eu/ReadingQualityType/2.5.258/>
 		<cim:IdentifiedObject.name>2.5.258</cim:IdentifiedObject.name>
-		<cim:ReadingQualityType.systemId>Meter Data Management System</cim:ReadingQualityType.systemId>
+		<cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
 		<cim:ReadingQualityType.category>Failed reasonability testing</cim:ReadingQualityType.category>
 		<cim:ReadingQualityType.subCategory>Suspect</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
@@ -261,7 +261,7 @@
 		<cim:IdentifiedObject.description>Metering system (data collection) network Failed reasonability testing DataOutsideExpectedRange</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://energy.referencedata.eu/ReadingQualityType/2.5.256/>
 		<cim:IdentifiedObject.name>2.5.256</cim:IdentifiedObject.name>
-		<cim:ReadingQualityType.systemId>Meter Data Management System</cim:ReadingQualityType.systemId>
+		<cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
 		<cim:ReadingQualityType.category>Failed reasonability testing</cim:ReadingQualityType.category>
 		<cim:ReadingQualityType.subCategory>DataOutsideExpectedRange</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
@@ -281,7 +281,7 @@
 		<cim:IdentifiedObject.description>Metering system (data collection) network Data collection related OverflowConditionDetected</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://energy.referencedata.eu/ReadingQualityType/2.4.1/>
 		<cim:IdentifiedObject.name>2.4.1</cim:IdentifiedObject.name>
-		<cim:ReadingQualityType.systemId>Meter Data Management System</cim:ReadingQualityType.systemId>
+		<cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
 		<cim:ReadingQualityType.category>Data collection related</cim:ReadingQualityType.category>
 		<cim:ReadingQualityType.subCategory>OverflowConditionDetected</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
@@ -291,7 +291,7 @@
 		<cim:IdentifiedObject.description>Metering system (data collection) network Failed reasonability testing KnownMissingRead</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource=http://energy.referencedata.eu/ReadingQualityType/2.5.259/>
 		<cim:IdentifiedObject.name>2.5.259</cim:IdentifiedObject.name>
-		<cim:ReadingQualityType.systemId>Meter Data Management System</cim:ReadingQualityType.systemId>
+		<cim:ReadingQualityType.systemId>Metering system (data collection) network</cim:ReadingQualityType.systemId>
 		<cim:ReadingQualityType.category>Failed reasonability testing</cim:ReadingQualityType.category>
 		<cim:ReadingQualityType.subCategory>KnownMissingRead</cim:ReadingQualityType.subCategory>
 	</cim:ReadingQualityType>
