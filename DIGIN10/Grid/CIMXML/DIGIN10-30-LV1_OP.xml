@@ -19,8 +19,8 @@
 
     <cim:Analog rdf:ID="_173ce5e1-d16b-4015-9793-b12913c9f428">
         <cim:IdentifiedObject.mRID>173ce5e1-d16b-4015-9793-b12913c9f428</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Analog 1 Temperature Sensor</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 ANALOG1TEMPSENS</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 AC Line Segment 1 Analog 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 ACLS1 AN7</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>Temperature</cim:Measurement.measurementType>
         <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.ABCN" />
         <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
@@ -36,8 +36,8 @@
 
     <cim:AnalogValue rdf:ID="_ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f">
         <cim:IdentifiedObject.mRID>ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 AnalogValue 1 Temperature</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>04 TELEMA 2 ANALOGVALUE1TEMP</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Analog 7 Analog Value 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 AN7 AV7</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>24.37</cim:AnalogValue.value>
@@ -62,8 +62,8 @@
 
     <cim:RemoteSource rdf:ID="_055d5259-8401-4206-a483-f7fd13a87299">
         <cim:IdentifiedObject.mRID>055d5259-8401-4206-a483-f7fd13a87299</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>SensorPoint 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>SensorPoint1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Remote Source 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 RS1</cim:IdentifiedObject.name>
         <cim:RemoteSource.deadband>0</cim:RemoteSource.deadband>
         <cim:RemoteSource.scanInterval>1</cim:RemoteSource.scanInterval>
         <cim:RemoteSource.sensorMaximum>120</cim:RemoteSource.sensorMaximum>
@@ -73,8 +73,8 @@
 
     <cim:RemoteUnit rdf:ID="_00160296-775f-407a-8d67-c9a5d610715a">
         <cim:IdentifiedObject.mRID>00160296-775f-407a-8d67-c9a5d610715a</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Disruptive Technologies temperature sensor 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>DisrTechTempSensor1</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Remote Unit 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 RU1</cim:IdentifiedObject.name>
         <cim:RemoteUnit.remoteUnitType rdf:recource="http://iec.ch/TC57/CIM100#RemoteUnitType.IED" />
     </cim:RemoteUnit>
 
