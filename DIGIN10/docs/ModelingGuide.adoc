@@ -15,7 +15,7 @@ The purpose of the DIGIN10 model is to equip the Norwegian power industry with a
 // ////////////////////////////////////////////////////////////
 :sectnums:
 == General requirements
-The DIGIN10 model contains the following profiles for each MAS:
+The DIGIN10 model contains the following profiles for each MAS or sourceActor:
 [red]#AC, AS,# BM, CU, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
 
 === Profile overview
@@ -232,6 +232,9 @@ LoadResponseCharacteristic is included in the EQ profile for the MV grid to mode
 
 === Measurement 
 [red]#Measurement should be modelled as shown in the example shown in the following figure DIGIN10\diagrams\images\..#
+
+=== MeasurementValue
+[red]#How is this related to AssetInfo#
 
 === [red]#MeterReading#
 

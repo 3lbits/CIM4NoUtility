@@ -4,6 +4,31 @@
 The initial model use the following mask: 
 DIGIN10-<CGMES version>-<MAS>_<profile>
 
+=== Profiles
+--
+[cols="1,1", width=100%]
+[#tab:profile_abbreviations] 
+|===
+|EQ |Equipment Core Profile
+|OP |Equipment Operation Profile
+|SC |Equipment Short Circuit Profile
+|OR |Object Registry Profile
+|SSH |Steady State Hypothesis Profile
+|GL |Geographical Location Profile
+|TP |Topology Profile
+|CU |Customer Profile
+|DL |Diagram Layout Profile
+|SV |State Variables Profile
+|MV1-LV1_BM |Medium Voltage 1 Low Voltage 1 Boundary Model
+|HV1-MV1_BM |High Voltage 1 Medium Voltage 1 Boundary Model
+|BaseVoltage_RD |Base Voltage Reference Data
+|GeographicalRegion_RD |Geographical Region Reference Data 
+|AC |Asset Catalog Profile
+|AS | Assets Profile
+|===
+--
+
+
 == Reference models
 DIGIN10-<CGMES version>-<Class name>_RD. RD = Reference data.
 
@@ -71,30 +96,4 @@ The businessProcess field has the following options:
 +
 20180118T0930Z_1D_LV1_SSH.xml
 
-== Profiles
-=== Abbreviations
-
-[cols="1,1", width=100%]
-[#tab:profile_abbreviations] 
-|===
-|EQ |Equipment Core Profile
-|OP |Equipment Operation Profile
-|SC |Equipment Short Circuit Profile
-|OR |Object Registry Profile
-|SSH |Steady State Hypothesis Profile
-|GL |Geographical Location Profile
-|TP |Topology Profile
-|CU |Customer Profile
-|DL |Diagram Layout Profile
-|SV |State Variables Profile
-|BM |Boundary Model Profile
-|BaseVoltage_RD |Base Voltage Reference DataProfile
-|GeographicalRegion_RD |Geographical Region Reference Data Profile
-|AC |Asset Catalog Profile
-|AS | Assets Profile
-|===
---
-
-. Medium Voltage 1 Low Voltage 1 Boundary Model (MV1-LV1_BM)
-. High Voltage 1 Medium Voltage 1 Boundary Model (HV1-MV1_BM)
 
