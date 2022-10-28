@@ -6,8 +6,8 @@
     xmlns:eu="http://iec.ch/TC57/CIM100-European#">
  
     <md:FullModel rdf:about="urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2">
-        <md:Model.created>2022-10-24T21:00:00.000Z</md:Model.created>
-        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
         <md:Model.description>DIGIN10 Low Voltage 1 (LV1) Asset Model</md:Model.description>
         <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/Asset</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>

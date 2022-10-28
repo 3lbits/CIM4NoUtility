@@ -13,8 +13,7 @@
         <md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis/2.0</md:Model.profile>
         <md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</md:Model.profile>
         <md:Model.version>1</md:Model.version>
-        <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16" /> <!--EQ-->
-        <md:Model.DependentOn rdf:resource="urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731" /> <!--OP-->
+        <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16" />
     </md:FullModel>
 
     <cim:ACLineSegment rdf:about="#_681a26db-5a55-11eb-a658-74e5f963e191">
@@ -333,18 +332,6 @@
     <cim:CurrentLimit rdf:about="_b0e72714-9f93-c444-913f-a2437efb1d7e">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
-
-    <cim:CurrentTransformer rdf:about="_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
-        <cim:Equipment.inService>true</cim:Equipment.inService>
-    </cim:CurrentTransformer>
-
-    <cim:CurrentTransformer rdf:about="_0f3b6200-684d-4365-8d55-45baae73bffb">
-        <cim:Equipment.inService>true</cim:Equipment.inService>
-    </cim:CurrentTransformer>
-
-    <cim:CurrentTransformer rdf:about="_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541">
-        <cim:Equipment.inService>true</cim:Equipment.inService>
-    </cim:CurrentTransformer>
  
     <cim:Disconnector rdf:about="#_a8afc199-8a20-41d8-8ada-5261202610eb">
         <cim:Equipment.inService>true</cim:Equipment.inService>
@@ -476,18 +463,6 @@
     </cim:PetersenCoil>
  
     <cim:PetersenCoil rdf:about="#_62585c75-b020-614c-89a1-fec7c118c3fa">
-        <cim:Equipment.inService>true</cim:Equipment.inService>
-    </cim:PetersenCoil>
- 
-    <cim:PotentialTransformer rdf:about="#_fd11bf7f-138b-4a1b-802c-25262b7b8672">
-        <cim:Equipment.inService>true</cim:Equipment.inService>
-    </cim:PetersenCoil>
-
-    <cim:PotentialTransformer rdf:about="#_03f7a245-aeca-48ba-af07-58419fb9b77c">
-        <cim:Equipment.inService>true</cim:Equipment.inService>
-    </cim:PetersenCoil>
-
-    <cim:PotentialTransformer rdf:about="#_74936f6f-296e-44db-b772-1d522f317069">
         <cim:Equipment.inService>true</cim:Equipment.inService>
     </cim:PetersenCoil>
 
