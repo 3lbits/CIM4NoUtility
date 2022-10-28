@@ -56,7 +56,7 @@
 
     <cim:CommunicationLink rdf:ID="_2bf1f9fc-263d-4995-80da-9802dc087fe5">
         <cim:IdentifiedObject.mRID>2bf1f9fc-263d-4995-80da-9802dc087fe5</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.description>Disruptive Technolgies 4G</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>DisrTech4G</cim:IdentifiedObject.name>
         <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
     </cim:CommunicationLink>
