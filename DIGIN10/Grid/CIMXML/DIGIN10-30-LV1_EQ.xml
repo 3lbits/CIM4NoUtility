@@ -2007,7 +2007,7 @@
  
     <cim:OperationalLimitType rdf:ID="_a7d9b42e-0f87-4882-903d-1cf454f85df4">
         <cim:IdentifiedObject.mRID>a7d9b42e-0f87-4882-903d-1cf454f85df4</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Temporarily Admissible Transmission Loading</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.description>Permanent Admissible Transmission Loading</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>PATL</cim:IdentifiedObject.name>
         <cim:OperationalLimitType.isInfiniteDuration>true</cim:OperationalLimitType.isInfiniteDuration>
         <cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue" />

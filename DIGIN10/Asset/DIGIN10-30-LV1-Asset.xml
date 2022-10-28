@@ -10,7 +10,7 @@
         <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
         <md:Model.description>DIGIN10 Low Voltage 1 (LV1) Asset Model</md:Model.description>
         <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/Asset</md:Model.modelingAuthoritySet>
-        <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
+        <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>
         <md:Model.version>1</md:Model.version>
     </md:FullModel>
 
