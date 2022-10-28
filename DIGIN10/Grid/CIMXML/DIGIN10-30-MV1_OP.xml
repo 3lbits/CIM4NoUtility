@@ -22,9 +22,9 @@
         <cim:IdentifiedObject.description>Engene Current Transformer 1 Analog 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE CT1 AN1</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>PhaseCurrent</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.A" />
-        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
-        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.A" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
         <cim:Analog.maxValue>450</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>270</cim:Analog.normalValue>
@@ -39,9 +39,9 @@
         <cim:IdentifiedObject.description>Engene Current Transformer 2 Analog 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE CT2 AN2</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>PhaseCurrent</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.B" />
-        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
-        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.B" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
         <cim:Analog.maxValue>450</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>270</cim:Analog.normalValue>
@@ -56,9 +56,9 @@
         <cim:IdentifiedObject.description>Engene Current Transformer 3 Analog 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE CT3 AN3</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>PhaseCurrent</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.C" />
-        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
-        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.C" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
         <cim:Analog.maxValue>450</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>270</cim:Analog.normalValue>
@@ -73,9 +73,9 @@
         <cim:IdentifiedObject.description>Engene Voltage Transformer 1 Analog 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE VT1 AN4</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>PhaseVoltage</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.AB" />
-        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
-        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.AB" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
         <cim:Analog.maxValue>12</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
@@ -90,9 +90,9 @@
         <cim:IdentifiedObject.description>Engene Voltage Transformer 2 Analog 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE VT2 AN5</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>PhaseVoltage</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.AC" />
-        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
-        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.AC" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
         <cim:Analog.maxValue>12</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
@@ -107,9 +107,9 @@
         <cim:IdentifiedObject.description>Engene Voltage Transformer 3 Analog 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE VT3 AN6</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>PhaseVoltage</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.BC" />
-        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
-        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.BC" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
         <cim:Analog.maxValue>12</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
