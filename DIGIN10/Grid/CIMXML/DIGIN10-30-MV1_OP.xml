@@ -7,37 +7,265 @@
 	>
 
 	<md:FullModel rdf:about="urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731">
-        <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
-        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
 		<md:Model.description>DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Equipment Operationa (OP) Model</md:Model.description>
 		<md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://iec.ch/TC57/ns/CIM/Operation-EU/3.0</md:Model.profile>
         <md:Model.profile>http://iec.ch/TC57/ns/CIM/Operation/4.0</md:Model.profile>
 		<md:Model.version>1</md:Model.version>
-		<!-- Ref Core Equipment -->
 		<md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"/>
 	</md:FullModel>
-  
-<!-- Classes that should be included in this model are:
-cim:AccumulatorLimit
-cim:StringMeasurement
-cim:Command
-cim:AnalogValue
-cim:MeasurementValueSource (might be made as Reference data)
-cim:Discrete
-cim:AccumulatorLimitSet
-cim:AccumulatorReset
-cim:Accumulator
-cim:AnalogValue
-cim:SetPoint
-cim:AccumulatorValue
-cim:MeasurementValueQuality
-cim:StringMeasurementValue
-cim:AnalogLimit
-cim:ValueAliasSet
-cim:Analog
-cim:RaiseLowerCommand
-cim:DiscreteValue
-cim:ValueToAlias
--->
+
+    <cim:Analog rdf:ID="_b64c1205-d433-425f-9861-17e67fd8dd92">
+        <cim:IdentifiedObject.mRID>b64c1205-d433-425f-9861-17e67fd8dd92</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 1 Analog 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT1 AN1</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>PhaseCurrent</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.A" />
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
+        <cim:Analog.maxValue>450</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>270</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_3344a693-6818-4703-93ac-510baac566d5" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_26d2f8aa-b651-46c5-a54d-05948f35f3d2" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_d92eb31b-7af4-44d3-9d35-cc39ec96463a">
+        <cim:IdentifiedObject.mRID>d92eb31b-7af4-44d3-9d35-cc39ec96463a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 2 Analog 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT2 AN2</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>PhaseCurrent</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.B" />
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
+        <cim:Analog.maxValue>450</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>270</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_3344a693-6818-4703-93ac-510baac566d5" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_0f3b6200-684d-4365-8d55-45baae73bffb" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" /> 
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_421acdf3-c623-47fa-9de1-3029ca7db837">
+        <cim:IdentifiedObject.mRID>421acdf3-c623-47fa-9de1-3029ca7db837</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 3 Analog 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT3 AN3</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>PhaseCurrent</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.C" />
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.A" />
+        <cim:Analog.maxValue>450</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>270</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_3344a693-6818-4703-93ac-510baac566d5" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7">
+        <cim:IdentifiedObject.mRID>2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 1 Analog 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT1 AN4</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>PhaseVoltage</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.AB" />
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
+        <cim:Analog.maxValue>12</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_fd11bf7f-138b-4a1b-802c-25262b7b8672" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_25498d39-29b5-45aa-8dae-ccfa497353db">
+        <cim:IdentifiedObject.mRID>25498d39-29b5-45aa-8dae-ccfa497353db</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 2 Analog 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT2 AN5</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>PhaseVoltage</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.AC" />
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
+        <cim:Analog.maxValue>12</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_03f7a245-aeca-48ba-af07-58419fb9b77c" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_e11a4842-898f-43fc-9d09-1a7f4e6a694a">
+        <cim:IdentifiedObject.mRID>e11a4842-898f-43fc-9d09-1a7f4e6a694a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 3 Analog 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT3 AN6</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>PhaseVoltage</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:recource="http://iec.ch/TC57/CIM100#PhaseCode.BC" />
+        <cim:Measurement.unitMultiplier rdf:recource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:recource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
+        <cim:Analog.maxValue>12</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:AnalogValue rdf:ID="_c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6">
+        <cim:IdentifiedObject.mRID>c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 1 Analog Value 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN1 AV1</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>265.8</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_b64c1205-d433-425f-9861-17e67fd8dd92" />
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_a446a44a-2eef-448c-8890-29b9d4f40b5f">
+        <cim:IdentifiedObject.mRID>a446a44a-2eef-448c-8890-29b9d4f40b5f</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 2 Analog Value 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN2 AV2</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>270.3</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_d92eb31b-7af4-44d3-9d35-cc39ec96463a" />
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_6068978b-1a52-4cc6-bd3d-b17d7a239ad0">
+        <cim:IdentifiedObject.mRID>6068978b-1a52-4cc6-bd3d-b17d7a239ad0</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 3 Analog Value 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN3 AV3</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>268.9</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_421acdf3-c623-47fa-9de1-3029ca7db837" />
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a">
+        <cim:IdentifiedObject.mRID>3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 4 Analog Value 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN4 AV4</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>11.2</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7" />
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_4e707066-d551-4f75-ae9c-c8fba5e6242d">
+        <cim:IdentifiedObject.mRID>4e707066-d551-4f75-ae9c-c8fba5e6242d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 5 Analog Value 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN5 AV5</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>10.6</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_25498d39-29b5-45aa-8dae-ccfa497353db" />
+    </cim:AnalogValue>
+
+    <cim:AnalogValue rdf:ID="_108f2b7f-dd63-4c41-b996-439c68275490">
+        <cim:IdentifiedObject.mRID>108f2b7f-dd63-4c41-b996-439c68275490</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 6 Analog Value 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN6 AV6</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>10.3</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_e11a4842-898f-43fc-9d09-1a7f4e6a694a" />
+    </cim:AnalogValue>
+
+    <cim:CurrentTransformer rdf:ID="_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
+        <cim:IdentifiedObject.mRID>26d2f8aa-b651-46c5-a54d-05948f35f3d2</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT1</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:CurrentTransformer.accuracyClass>5P</cim:CurrentTransformer.accuracyClass>
+        <cim:CurrentTransformer.accuracyLimit>5</cim:CurrentTransformer.accuracyLimit>
+        <cim:CurrentTransformer.coreBurden>20</cim:CurrentTransformer.coreBurden>
+        <cim:CurrentTransformer.ctClass>P30</cim:CurrentTransformer.ctClass>
+        <cim:CurrentTransformer.usage>protection</cim:CurrentTransformer.usage>
+        <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:CurrentTransformer>
+
+    <cim:CurrentTransformer rdf:ID="_0f3b6200-684d-4365-8d55-45baae73bffb">
+        <cim:IdentifiedObject.mRID>0f3b6200-684d-4365-8d55-45baae73bffb</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT2</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:CurrentTransformer.accuracyClass>5P</cim:CurrentTransformer.accuracyClass>
+        <cim:CurrentTransformer.accuracyLimit>5</cim:CurrentTransformer.accuracyLimit>
+        <cim:CurrentTransformer.coreBurden>20</cim:CurrentTransformer.coreBurden>
+        <cim:CurrentTransformer.ctClass>P30</cim:CurrentTransformer.ctClass>
+        <cim:CurrentTransformer.usage>protection</cim:CurrentTransformer.usage>
+        <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:CurrentTransformer>
+
+    <cim:CurrentTransformer rdf:ID="_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541">
+        <cim:IdentifiedObject.mRID>cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT3</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:CurrentTransformer.accuracyClass>5P</cim:CurrentTransformer.accuracyClass>
+        <cim:CurrentTransformer.accuracyLimit>5</cim:CurrentTransformer.accuracyLimit>
+        <cim:CurrentTransformer.coreBurden>20</cim:CurrentTransformer.coreBurden>
+        <cim:CurrentTransformer.ctClass>P30</cim:CurrentTransformer.ctClass>
+        <cim:CurrentTransformer.usage>protection</cim:CurrentTransformer.usage>
+        <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:CurrentTransformer>
+
+    <cim:PotentialTransformer rdf:ID="_fd11bf7f-138b-4a1b-802c-25262b7b8672">
+        <cim:IdentifiedObject.mRID>fd11bf7f-138b-4a1b-802c-25262b7b8672</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT1</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:PotentialTransformer.accuracyClass>0.2</cim:PotentialTransformer.accuracyClass>
+        <cim:PotentialTransformer.nominalRatio>200</cim:PotentialTransformer.nominalRatio>
+        <cim:PotentialTransformer.ptClass>0.2</cim:PotentialTransformer.ptClass> <!--Need to check this-->
+        <cim:PotentialTransformer.type rdf:resource="http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling" />
+        <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:PotentialTransformer>
+
+    <cim:PotentialTransformer rdf:ID="_03f7a245-aeca-48ba-af07-58419fb9b77c">
+        <cim:IdentifiedObject.mRID>03f7a245-aeca-48ba-af07-58419fb9b77c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT2</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:PotentialTransformer.accuracyClass>0.2</cim:PotentialTransformer.accuracyClass>
+        <cim:PotentialTransformer.nominalRatio>200</cim:PotentialTransformer.nominalRatio>
+        <cim:PotentialTransformer.ptClass>0.2</cim:PotentialTransformer.ptClass> <!--Need to check this-->
+        <cim:PotentialTransformer.type rdf:resource="http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling" />
+        <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:PotentialTransformer>
+
+    <cim:PotentialTransformer rdf:ID="_74936f6f-296e-44db-b772-1d522f317069">
+        <cim:IdentifiedObject.mRID>74936f6f-296e-44db-b772-1d522f317069</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT3</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.networkAnalysisEnabled>true</cim:Equipment.networkAnalysisEnabled>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:PotentialTransformer.accuracyClass>0.2</cim:PotentialTransformer.accuracyClass>
+        <cim:PotentialTransformer.nominalRatio>200</cim:PotentialTransformer.nominalRatio>
+        <cim:PotentialTransformer.ptClass>0.2</cim:PotentialTransformer.ptClass> <!--Need to check this-->
+        <cim:PotentialTransformer.type rdf:resource="http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling" />
+        <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:PotentialTransformer>
+
 </rdf:RDF>

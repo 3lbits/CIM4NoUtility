@@ -465,7 +465,7 @@
     <cim:PetersenCoil rdf:about="#_62585c75-b020-614c-89a1-fec7c118c3fa">
         <cim:Equipment.inService>true</cim:Equipment.inService>
     </cim:PetersenCoil>
- 
+
     <cim:PowerTransformer rdf:about="#_681a2fdd-5a55-11eb-a658-74e5f963e191">
         <cim:Equipment.inService>true</cim:Equipment.inService>
     </cim:PowerTransformer>
