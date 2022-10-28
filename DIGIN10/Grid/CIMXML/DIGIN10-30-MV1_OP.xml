@@ -186,7 +186,6 @@
         <cim:AnalogValue.Analog rdf:resource="#_e11a4842-898f-43fc-9d09-1a7f4e6a694a" />
     </cim:AnalogValue>
 
-    <!--These should probably be in EQ?-->
     <cim:CurrentTransformer rdf:ID="_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
         <cim:IdentifiedObject.mRID>26d2f8aa-b651-46c5-a54d-05948f35f3d2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>11 kilo Volt Vestfoldstien 2 Current Transformer 1</cim:IdentifiedObject.description>
@@ -280,27 +279,4 @@
         <cim:AuxiliaryEquipment.Terminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" /> <!--Need to check this-->
     </cim:PotentialTransformer>
 
-<!--
-    Classes that should be included in this model are:
-        cim:AccumulatorLimit
-        cim:StringMeasurement
-        cim:Command
-        cim:AnalogValue
-        cim:MeasurementValueSource (might be made as Reference data)
-        cim:Discrete
-        cim:AccumulatorLimitSet
-        cim:AccumulatorReset
-        cim:Accumulator
-        cim:AnalogValue
-        cim:SetPoint
-        cim:AccumulatorValue
-        cim:MeasurementValueQuality
-        cim:StringMeasurementValue
-        cim:AnalogLimit
-        cim:ValueAliasSet
-        cim:Analog
-        cim:RaiseLowerCommand
-        cim:DiscreteValue
-        cim:ValueToAlias
--->
 </rdf:RDF>

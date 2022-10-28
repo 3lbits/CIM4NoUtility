@@ -79,27 +79,4 @@
         <cim:RemoteUnit.remoteUnitType rdf:recource="http://iec.ch/TC57/CIM100#RemoteUnitType.IED" />
     </cim:RemoteUnit>
 
-<!--
-    Classes that should be included in this model are:
-        cim:AccumulatorLimit
-        cim:StringMeasurement
-        cim:Command
-        cim:AnalogValue
-        cim:MeasurementValueSource (might be made as Reference data)
-        cim:Discrete
-        cim:AccumulatorLimitSet
-        cim:AccumulatorReset
-        cim:Accumulator
-        cim:AnalogValue
-        cim:SetPoint
-        cim:AccumulatorValue
-        cim:MeasurementValueQuality
-        cim:StringMeasurementValue
-        cim:AnalogLimit
-        cim:ValueAliasSet
-        cim:Analog
-        cim:RaiseLowerCommand
-        cim:DiscreteValue
-        cim:ValueToAlias
--->
 </rdf:RDF>

@@ -27,7 +27,6 @@
         <cim:Asset.lotNumber>LOT # B-01580609</cim:Asset.lotNumber>
         <cim:Asset.position>inGround</cim:Asset.position>
         <cim:Asset.purchasePrice>400</cim:Asset.purchasePrice>
-        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
         <cim:Asset.serialNumber>8DuSTPRv</cim:Asset.serialNumber>
         <cim:Asset.type>UnderGroundCable</cim:Asset.type>
         <cim:Asset.utcNumber>10000000000001</cim:Asset.utcNumber>
@@ -48,7 +47,6 @@
         <cim:Asset.lotNumber>LOT # B-01580608</cim:Asset.lotNumber>
         <cim:Asset.position>inGround</cim:Asset.position>
         <cim:Asset.purchasePrice>10</cim:Asset.purchasePrice>
-        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
         <cim:Asset.serialNumber>8DuSTPRs</cim:Asset.serialNumber>
         <cim:Asset.type>DisrTechTemperatrueSensor</cim:Asset.type>
         <cim:Asset.utcNumber>10000000000002</cim:Asset.utcNumber>

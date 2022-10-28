@@ -570,43 +570,7 @@
         <cim:IdentifiedObject.name>TELEMA2 04 Ba9</cim:IdentifiedObject.name>
         <cim:Bay.VoltageLevel rdf:resource="#_d87764a9-3363-4342-908f-d96f8e7ef71d" />
     </cim:Bay>
- 
-    <cim:Breaker rdf:ID="_8aad5c29-6039-4321-8f8a-ad1c186dd145">
-        <cim:IdentifiedObject.mRID>8aad5c29-6039-4321-8f8a-ad1c186dd145</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 1</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br1</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_d4067150-d743-4e1d-a48d-7a8d20de4c06" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_ba0be174-8971-4820-a42b-db2c5a781e87">
-        <cim:IdentifiedObject.mRID>ba0be174-8971-4820-a42b-db2c5a781e87</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 10</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br10</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_91b33a38-c99c-4bc1-a05c-bc0852aca841" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_800c36a9-07be-45bd-9106-260cbd66ce4c">
-        <cim:IdentifiedObject.mRID>800c36a9-07be-45bd-9106-260cbd66ce4c</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 11</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br11</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_6bda8694-d83f-467f-ba31-a3a155a1b803" />
-    </cim:Breaker>
- 
+  
     <cim:Breaker rdf:ID="_81f3131f-baed-442d-bf7a-3606832fc3e0">
         <cim:IdentifiedObject.mRID>81f3131f-baed-442d-bf7a-3606832fc3e0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 12</cim:IdentifiedObject.description>
@@ -618,103 +582,7 @@
         <cim:Switch.retained>false</cim:Switch.retained>
         <cim:Equipment.EquipmentContainer rdf:resource="#_c15f3cd9-580d-44e1-92db-10bd41d87bad" />
     </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_7e432a85-77b4-44f2-ae98-07134a1a5087">
-        <cim:IdentifiedObject.mRID>7e432a85-77b4-44f2-ae98-07134a1a5087</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 13</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br13</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_61ad7a21-f7bd-40c0-8f86-2d1f07bbef3b" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_46ae56a9-435f-4fad-aa91-015ef1dca930">
-        <cim:IdentifiedObject.mRID>46ae56a9-435f-4fad-aa91-015ef1dca930</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 14</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br14</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_eeded44f-071c-471f-952f-4be5134b40bc" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_296e7555-8ef5-4ad4-a85b-3111ae892a65">
-        <cim:IdentifiedObject.mRID>296e7555-8ef5-4ad4-a85b-3111ae892a65</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 15</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br15</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_ce116534-d9bd-4929-be64-4d43ea0f1803" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_725505f7-df2a-41da-9428-0a9b7984817a">
-        <cim:IdentifiedObject.mRID>725505f7-df2a-41da-9428-0a9b7984817a</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 16</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br16</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_1cf342d4-9dfe-4cd8-ab14-b11c48e59b84" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_04355e33-02e4-42ed-8d88-96b0be7044a8">
-        <cim:IdentifiedObject.mRID>04355e33-02e4-42ed-8d88-96b0be7044a8</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 17</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br17</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_8cae3059-9886-40db-befa-ddfa56ba94cd" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_9b24ac8f-043c-4087-ac3b-a695c464f93d">
-        <cim:IdentifiedObject.mRID>9b24ac8f-043c-4087-ac3b-a695c464f93d</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 18</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br18</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_0acd4d2c-1cc2-4b9b-8277-f3763b0ed6ab" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_5bd4c12d-99d5-49d7-87fb-a346067c697e">
-        <cim:IdentifiedObject.mRID>5bd4c12d-99d5-49d7-87fb-a346067c697e</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 19</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br19</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_b1626403-9c0c-4f0c-a072-b7d5d86cdb58" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_76335f11-64c3-474d-92fd-7ab11ed607e4">
-        <cim:IdentifiedObject.mRID>76335f11-64c3-474d-92fd-7ab11ed607e4</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 2</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br2</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_de4c9f33-bceb-4355-afc6-c725bda819e3" />
-    </cim:Breaker>
- 
+  
     <cim:Breaker rdf:ID="_b63024f5-df5f-4d21-ba9d-97288bdabe97">
         <cim:IdentifiedObject.mRID>b63024f5-df5f-4d21-ba9d-97288bdabe97</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 20</cim:IdentifiedObject.description>
@@ -725,222 +593,6 @@
         <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
         <cim:Switch.retained>false</cim:Switch.retained>
         <cim:Equipment.EquipmentContainer rdf:resource="#_c5571223-50fe-4a26-a24f-7f1cabf61137" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_f64ec489-a926-4f4f-877b-102d4cd7fd2b">
-        <cim:IdentifiedObject.mRID>f64ec489-a926-4f4f-877b-102d4cd7fd2b</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 21</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br21</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_321f4b75-4cc7-4e4c-874e-cf20693886cf" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_7c60d1fd-fe74-4094-89f7-2d3949deaa3c">
-        <cim:IdentifiedObject.mRID>7c60d1fd-fe74-4094-89f7-2d3949deaa3c</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 22</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br22</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_876f7fb1-8568-4024-bbd2-664b9503adeb" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_9a717362-88c3-4b20-85a7-9adfb67c63ca">
-        <cim:IdentifiedObject.mRID>9a717362-88c3-4b20-85a7-9adfb67c63ca</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 23</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br23</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_a9ceb50c-8ed0-47a0-9738-e556cf09a0f0" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_39a90500-8c87-4576-b912-32abf18a8d12">
-        <cim:IdentifiedObject.mRID>39a90500-8c87-4576-b912-32abf18a8d12</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 24</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br24</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_32bc8225-a8b7-45eb-a1ad-9adb4648f1dc" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_9f3753d2-3a46-454b-8d14-f4f00743d48a">
-        <cim:IdentifiedObject.mRID>9f3753d2-3a46-454b-8d14-f4f00743d48a</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 25</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br25</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_14c73969-0d0b-436e-be34-8e8f5593c351" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_063fd50f-9b15-4b24-a59c-be21be7fd845">
-        <cim:IdentifiedObject.mRID>063fd50f-9b15-4b24-a59c-be21be7fd845</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 26</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br26</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_76cfe1e0-43f8-4783-8110-a93ee808d6d6" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_1404c232-d6aa-4ed9-855c-8c7ac383a8f5">
-        <cim:IdentifiedObject.mRID>1404c232-d6aa-4ed9-855c-8c7ac383a8f5</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 27</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br27</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_d01ae8b2-c93b-4147-bc81-f593dda56773" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_86b80fe6-e846-415c-a74d-30abad315741">
-        <cim:IdentifiedObject.mRID>86b80fe6-e846-415c-a74d-30abad315741</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 28</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br28</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_6ef007de-6d2c-4ab9-ab5b-b2571b714d8d" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_85024669-7147-4a77-9a30-b773d8b10f58">
-        <cim:IdentifiedObject.mRID>85024669-7147-4a77-9a30-b773d8b10f58</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 29</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br29</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_c0fe3dc4-dcc1-43b9-afe8-c5d4e76a2470" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_131a14f6-7032-499d-b691-f65bc52cc635">
-        <cim:IdentifiedObject.mRID>131a14f6-7032-499d-b691-f65bc52cc635</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 3</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br3</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_719ee1dd-0516-4873-be5e-8e9da1507818" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_117beb83-cb8e-444f-a054-e98d1ca477e7">
-        <cim:IdentifiedObject.mRID>117beb83-cb8e-444f-a054-e98d1ca477e7</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 30</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br30</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_1231dfc8-411f-4de0-88fe-cdfa58ed470e" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_e286272e-827c-4b12-83cb-6b3e91170e3e">
-        <cim:IdentifiedObject.mRID>e286272e-827c-4b12-83cb-6b3e91170e3e</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 31</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br31</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_c937c7d7-777e-45dd-a01d-d792ba4efec4" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_2a906e57-0892-4de8-89b2-56c273f8c09c">
-        <cim:IdentifiedObject.mRID>2a906e57-0892-4de8-89b2-56c273f8c09c</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 4</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br4</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_93e2b374-b3b5-40d7-8723-285903e47a05" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_a498f1fd-65f0-41df-83ee-29c92d075514">
-        <cim:IdentifiedObject.mRID>a498f1fd-65f0-41df-83ee-29c92d075514</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 5</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br5</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_4e192fee-c90d-4e29-80b6-3e71dc353a79" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_764a7252-9aae-4da4-a23b-6c770d8b16c1">
-        <cim:IdentifiedObject.mRID>764a7252-9aae-4da4-a23b-6c770d8b16c1</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 6</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br6</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_2fc9b615-5925-4e2a-baaa-165ee4f51910" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31">
-        <cim:IdentifiedObject.mRID>2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 7</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br7</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_1358279b-5a65-4b15-b277-a9bd5ca011e4" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_bf819ffc-270d-4025-bef8-db10ffb5b196">
-        <cim:IdentifiedObject.mRID>bf819ffc-270d-4025-bef8-db10ffb5b196</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 8</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br8</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_0d6af688-1749-4a34-93ca-ae6c87989cd2" />
-    </cim:Breaker>
- 
-    <cim:Breaker rdf:ID="_e832d4e7-1335-4773-b203-bf7035d29bc3">
-        <cim:IdentifiedObject.mRID>e832d4e7-1335-4773-b203-bf7035d29bc3</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Breaker 9</cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>TELEMA2 04 Br9</cim:IdentifiedObject.name>
-        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
-        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
-        <cim:Switch.retained>false</cim:Switch.retained>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_1a7ff7f1-a631-4d72-84cd-c35000acda8d" />
     </cim:Breaker>
  
     <cim:BusbarSection rdf:ID="_b8a334a5-2bcb-40e6-b6c2-db906441552d">
@@ -1735,6 +1387,354 @@
         <cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191" />
     </cim:EquivalentInjection>
  
+    <cim:Fuse rdf:ID="_8aad5c29-6039-4321-8f8a-ad1c186dd145">
+        <cim:IdentifiedObject.mRID>8aad5c29-6039-4321-8f8a-ad1c186dd145</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu1</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_d4067150-d743-4e1d-a48d-7a8d20de4c06" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_ba0be174-8971-4820-a42b-db2c5a781e87">
+        <cim:IdentifiedObject.mRID>ba0be174-8971-4820-a42b-db2c5a781e87</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu10</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_91b33a38-c99c-4bc1-a05c-bc0852aca841" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_800c36a9-07be-45bd-9106-260cbd66ce4c">
+        <cim:IdentifiedObject.mRID>800c36a9-07be-45bd-9106-260cbd66ce4c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 11</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu11</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_6bda8694-d83f-467f-ba31-a3a155a1b803" />
+    </cim:Fuse>
+
+    <cim:Fuse rdf:ID="_7e432a85-77b4-44f2-ae98-07134a1a5087">
+        <cim:IdentifiedObject.mRID>7e432a85-77b4-44f2-ae98-07134a1a5087</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 13</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu13</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_61ad7a21-f7bd-40c0-8f86-2d1f07bbef3b" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_46ae56a9-435f-4fad-aa91-015ef1dca930">
+        <cim:IdentifiedObject.mRID>46ae56a9-435f-4fad-aa91-015ef1dca930</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 14</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu14</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_eeded44f-071c-471f-952f-4be5134b40bc" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_296e7555-8ef5-4ad4-a85b-3111ae892a65">
+        <cim:IdentifiedObject.mRID>296e7555-8ef5-4ad4-a85b-3111ae892a65</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 15</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu15</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_ce116534-d9bd-4929-be64-4d43ea0f1803" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_725505f7-df2a-41da-9428-0a9b7984817a">
+        <cim:IdentifiedObject.mRID>725505f7-df2a-41da-9428-0a9b7984817a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 16</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu16</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_1cf342d4-9dfe-4cd8-ab14-b11c48e59b84" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_04355e33-02e4-42ed-8d88-96b0be7044a8">
+        <cim:IdentifiedObject.mRID>04355e33-02e4-42ed-8d88-96b0be7044a8</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 17</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu17</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_8cae3059-9886-40db-befa-ddfa56ba94cd" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_9b24ac8f-043c-4087-ac3b-a695c464f93d">
+        <cim:IdentifiedObject.mRID>9b24ac8f-043c-4087-ac3b-a695c464f93d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 18</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu18</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_0acd4d2c-1cc2-4b9b-8277-f3763b0ed6ab" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_5bd4c12d-99d5-49d7-87fb-a346067c697e">
+        <cim:IdentifiedObject.mRID>5bd4c12d-99d5-49d7-87fb-a346067c697e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 19</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu19</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_b1626403-9c0c-4f0c-a072-b7d5d86cdb58" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_76335f11-64c3-474d-92fd-7ab11ed607e4">
+        <cim:IdentifiedObject.mRID>76335f11-64c3-474d-92fd-7ab11ed607e4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu2</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_de4c9f33-bceb-4355-afc6-c725bda819e3" />
+    </cim:Fuse>
+
+    <cim:Fuse rdf:ID="_f64ec489-a926-4f4f-877b-102d4cd7fd2b">
+        <cim:IdentifiedObject.mRID>f64ec489-a926-4f4f-877b-102d4cd7fd2b</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 21</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu21</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_321f4b75-4cc7-4e4c-874e-cf20693886cf" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_7c60d1fd-fe74-4094-89f7-2d3949deaa3c">
+        <cim:IdentifiedObject.mRID>7c60d1fd-fe74-4094-89f7-2d3949deaa3c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 22</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu22</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_876f7fb1-8568-4024-bbd2-664b9503adeb" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_9a717362-88c3-4b20-85a7-9adfb67c63ca">
+        <cim:IdentifiedObject.mRID>9a717362-88c3-4b20-85a7-9adfb67c63ca</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 23</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu23</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_a9ceb50c-8ed0-47a0-9738-e556cf09a0f0" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_39a90500-8c87-4576-b912-32abf18a8d12">
+        <cim:IdentifiedObject.mRID>39a90500-8c87-4576-b912-32abf18a8d12</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 24</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu24</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_32bc8225-a8b7-45eb-a1ad-9adb4648f1dc" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_9f3753d2-3a46-454b-8d14-f4f00743d48a">
+        <cim:IdentifiedObject.mRID>9f3753d2-3a46-454b-8d14-f4f00743d48a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 25</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu25</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_14c73969-0d0b-436e-be34-8e8f5593c351" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_063fd50f-9b15-4b24-a59c-be21be7fd845">
+        <cim:IdentifiedObject.mRID>063fd50f-9b15-4b24-a59c-be21be7fd845</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 26</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu26</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_76cfe1e0-43f8-4783-8110-a93ee808d6d6" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_1404c232-d6aa-4ed9-855c-8c7ac383a8f5">
+        <cim:IdentifiedObject.mRID>1404c232-d6aa-4ed9-855c-8c7ac383a8f5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 27</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu27</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_d01ae8b2-c93b-4147-bc81-f593dda56773" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_86b80fe6-e846-415c-a74d-30abad315741">
+        <cim:IdentifiedObject.mRID>86b80fe6-e846-415c-a74d-30abad315741</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 28</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu28</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_6ef007de-6d2c-4ab9-ab5b-b2571b714d8d" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_85024669-7147-4a77-9a30-b773d8b10f58">
+        <cim:IdentifiedObject.mRID>85024669-7147-4a77-9a30-b773d8b10f58</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 29</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu29</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_c0fe3dc4-dcc1-43b9-afe8-c5d4e76a2470" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_131a14f6-7032-499d-b691-f65bc52cc635">
+        <cim:IdentifiedObject.mRID>131a14f6-7032-499d-b691-f65bc52cc635</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu3</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_719ee1dd-0516-4873-be5e-8e9da1507818" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_117beb83-cb8e-444f-a054-e98d1ca477e7">
+        <cim:IdentifiedObject.mRID>117beb83-cb8e-444f-a054-e98d1ca477e7</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 30</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu30</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_1231dfc8-411f-4de0-88fe-cdfa58ed470e" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_e286272e-827c-4b12-83cb-6b3e91170e3e">
+        <cim:IdentifiedObject.mRID>e286272e-827c-4b12-83cb-6b3e91170e3e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 31</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu31</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_c937c7d7-777e-45dd-a01d-d792ba4efec4" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_2a906e57-0892-4de8-89b2-56c273f8c09c">
+        <cim:IdentifiedObject.mRID>2a906e57-0892-4de8-89b2-56c273f8c09c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu4</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_93e2b374-b3b5-40d7-8723-285903e47a05" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_a498f1fd-65f0-41df-83ee-29c92d075514">
+        <cim:IdentifiedObject.mRID>a498f1fd-65f0-41df-83ee-29c92d075514</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu5</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_4e192fee-c90d-4e29-80b6-3e71dc353a79" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_764a7252-9aae-4da4-a23b-6c770d8b16c1">
+        <cim:IdentifiedObject.mRID>764a7252-9aae-4da4-a23b-6c770d8b16c1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu6</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_2fc9b615-5925-4e2a-baaa-165ee4f51910" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31">
+        <cim:IdentifiedObject.mRID>2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu7</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_1358279b-5a65-4b15-b277-a9bd5ca011e4" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_bf819ffc-270d-4025-bef8-db10ffb5b196">
+        <cim:IdentifiedObject.mRID>bf819ffc-270d-4025-bef8-db10ffb5b196</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu8</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_0d6af688-1749-4a34-93ca-ae6c87989cd2" />
+    </cim:Fuse>
+ 
+    <cim:Fuse rdf:ID="_e832d4e7-1335-4773-b203-bf7035d29bc3">
+        <cim:IdentifiedObject.mRID>e832d4e7-1335-4773-b203-bf7035d29bc3</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Fuse 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 Fu9</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>400</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_1a7ff7f1-a631-4d72-84cd-c35000acda8d" />
+    </cim:Fuse>
+
     <cim:Line rdf:ID="_64e21d95-8b55-b941-a923-b74087410a66">
         <cim:IdentifiedObject.mRID>64e21d95-8b55-b941-a923-b74087410a66</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS1</cim:IdentifiedObject.name>

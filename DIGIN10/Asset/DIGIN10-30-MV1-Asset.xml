@@ -27,7 +27,6 @@
         <cim:Asset.lotNumber>LOT # B-01580601</cim:Asset.lotNumber>
         <cim:Asset.position>inGround</cim:Asset.position>
         <cim:Asset.purchasePrice>100000</cim:Asset.purchasePrice>
-        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
         <cim:Asset.serialNumber>8DuSTPRi</cim:Asset.serialNumber>
         <cim:Asset.type>CurrentTransformer</cim:Asset.type>
         <cim:Asset.utcNumber>10000000000003</cim:Asset.utcNumber>
@@ -49,7 +48,6 @@
         <cim:Asset.lotNumber>LOT # B-01580602</cim:Asset.lotNumber>
         <cim:Asset.position>inGround</cim:Asset.position>
         <cim:Asset.purchasePrice>100000</cim:Asset.purchasePrice>
-        <!--<cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.other" />-->
         <cim:Asset.serialNumber>8DuSTPRy</cim:Asset.serialNumber>
         <cim:Asset.type>PotentialTransformer</cim:Asset.type>
         <cim:Asset.utcNumber>10000000000004</cim:Asset.utcNumber>
