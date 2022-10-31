@@ -9,7 +9,7 @@
 
     <md:FullModel rdf:about="urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9">
         <md:Model.modelingAuthoritySet>http://data.europe.eu/energy/MeasurementValueSource</md:Model.modelingAuthoritySet>
-        <md:Model.description>Measurement Value Source Reference data (RD)</md:Model.description>
+        <md:Model.description>Measurement Value Source Reference data (RD) based on IEC 61970-301:2020+AMD1:2022</md:Model.description>
         <dcat:keyword>RD</dcat:keyword>
         <md:Model.version>1</md:Model.version>
         <md:Model.created>2022-10-24T21:00:00Z</md:Model.created>
