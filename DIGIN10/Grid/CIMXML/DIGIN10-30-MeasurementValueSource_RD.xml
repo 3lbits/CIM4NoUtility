@@ -35,7 +35,7 @@
 
     <cim:MeasurementValueSource rdf:ID="_4a6b2a0e-ebfc-44c5-96a0-f318278bd03a">
         <cim:IdentifiedObject.mRID>4a6b2a0e-ebfc-44c5-96a0-f318278bd03a</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>	Value updated by a state estimator</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.description>Value updated by a state estimator</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>Estimated</cim:IdentifiedObject.name>
     </cim:MeasurementValueSource>
 
