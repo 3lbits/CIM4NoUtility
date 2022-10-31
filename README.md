@@ -39,8 +39,9 @@ DIGIN10-30-v2.0 - A 40 bus power flow case for MV and LV according to CGMES v3.0
 
 ### Branches
 
-v1.0 can be found in branch..
-v2.0 can be found in cbranch..
+v1.0 can be found in the branch release/digin10-v1.0
+
+v2.0 can be found in the branch release/digin10-v2.0
 
 ### Folder structure
 
@@ -48,7 +49,7 @@ v2.0 can be found in cbranch..
 
   Example files for using CDPSM 2.0 (IEC 61968-13:2021)
   
-  -  Example of individual asset component
+  - Example of individual asset component
   - Catalog data from manufacturers
   - MeterReading 
   - ReadingQuality
@@ -88,3 +89,6 @@ Split into year, month and day.
 - Modeling Guide
 - Changelog for Converting to CGMES 3.0 
 - Known Issues for current version
+
+## Contribution
+Please provide feedback in the case you are dicsovering any errors as Issues in the digin-energi/Grunnprofil repository. Suggested changes and updates needs to be merged to the "develop" branch and not "main". The order of information in files should follow the instructions in Issue #217.

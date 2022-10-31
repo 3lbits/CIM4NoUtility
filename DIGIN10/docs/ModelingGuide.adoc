@@ -16,7 +16,7 @@ The purpose of the DIGIN10 model is to equip the Norwegian power industry with a
 :sectnums:
 == General requirements
 The DIGIN10 model contains the following profiles for each MAS or sourceActor:
-[red]#AC, AS,# BM, CU, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
+AC, AS, BM, CU, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
 
 === Profile overview
 An overview of the classes currently included in each profile can be found in the below Table:
@@ -27,6 +27,9 @@ An overview of the classes currently included in each profile can be found in th
 |===
 |*Equipment Core* |*Steady State Hypothesis*| *Geographical Location* 
 1.7+<.<|  
+    *LV1:*
+    Fuse
+
     *LV1 and MV1:*
     ACLineSegment 
     Bay
@@ -222,7 +225,7 @@ For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUn
 Will be included in a later version of the DIGIN10 model.
 
 === Fuse
-Will be included in a later version of the DIGIN10 model. In this version it is modelled as Breaker.
+Fuse has been added to the DIGIN10 model. Please refer to xref:ChangeManagement.adoc[ChangeManagement.adoc] for details.
 
 === Line
 Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
@@ -231,12 +234,10 @@ Line.Region is optional. For the EQ profiles it is included in the MV files but 
 LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
 
 === Measurement 
-[red]#Measurement should be modelled as shown in the example shown in the following figure DIGIN10\diagrams\images\..#
+Please refer to xref:MeasurementAndMeterReading.adoc[MeasurementAndMeterReading.adoc] for details.
 
-=== MeasurementValue
-[red]#How is this related to AssetInfo#
-
-=== [red]#MeterReading#
+=== MeterReading
+Please refer to xref:MeasurementAndMeterReading.adoc[MeasurementAndMeterReading.adoc] for details.
 
 === ModelAuthoritySet
 The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
