@@ -119,6 +119,108 @@
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
 
+    <cim:Analog rdf:ID="_56f7f828-73d8-405a-a725-4dfbe88c371d">
+        <cim:IdentifiedObject.mRID>56f7f828-73d8-405a-a725-4dfbe88c371d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Active Power Analog 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE TotW AN7</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W" />
+        <cim:Analog.maxValue>8000</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>4000</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>true</cim:Analog.positiveFlowIn>
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+    
+    <cim:Analog rdf:ID="_ca370fd8-debb-4fb3-9595-952932ceea7f">
+        <cim:IdentifiedObject.mRID>ca370fd8-debb-4fb3-9595-952932ceea7f</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Reactive Power Analog 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE TotVAr AN8</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>ThreePhaseReactivePower</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.VAR" />
+        <cim:Analog.maxValue>5000</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>2500</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>true</cim:Analog.positiveFlowIn>
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+    
+    <cim:Analog rdf:ID="_2791272a-9ba0-49eb-ae5a-272c3437b59a">
+        <cim:IdentifiedObject.mRID>2791272a-9ba0-49eb-ae5a-272c3437b59a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Tap Postition Analog 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE TapPos AN9</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>TapPosition</cim:Measurement.measurementType>
+        <cim:Analog.maxValue>6</cim:Analog.maxValue>
+        <cim:Analog.minValue>0</cim:Analog.minValue>
+        <cim:Analog.normalValue>3</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.PowerSystemResources rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" /> <!--Engene 22 Neutral transformer 1-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:Analog rdf:ID="_03f01d8e-c6ca-4815-a0a5-0a4a57abbb02">
+        <cim:IdentifiedObject.mRID>03f01d8e-c6ca-4815-a0a5-0a4a57abbb02</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene OilTemperature Analog 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE OilTemp AN10</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>OilTemperature</cim:Measurement.measurementType>
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.Deg" />
+        <cim:Analog.maxValue>140</cim:Analog.maxValue>
+        <cim:Analog.minValue>-40</cim:Analog.minValue>
+        <cim:Analog.normalValue>50</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_" /><!--sensor asset?-->
+        <cim:Measurement.PowerSystemResources rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" /> <!--Engene 22 Neutral transformer 1-->
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Analog>
+
+    <cim:AnalogValue rdf:ID="_b7962aac-9280-46ce-92a2-459880fcb6c8">
+        <cim:IdentifiedObject.mRID>b7962aac-9280-46ce-92a2-459880fcb6c8</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 7 Analog Value 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN7 AV7</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>4134</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_56f7f828-73d8-405a-a725-4dfbe88c371d" />
+    </cim:AnalogValue> 
+
+    <cim:AnalogValue rdf:ID="_49d96826-fad5-41f7-b5b8-c05dc0c166ed">
+        <cim:IdentifiedObject.mRID>49d96826-fad5-41f7-b5b8-c05dc0c166ed</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 8 Analog Value 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN8 AV8</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>2563</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_ca370fd8-debb-4fb3-9595-952932ceea7f" />
+    </cim:AnalogValue> 
+
+    <cim:AnalogValue rdf:ID="_6e22219e-ef75-450a-8269-e440f49b04a7">
+        <cim:IdentifiedObject.mRID>6e22219e-ef75-450a-8269-e440f49b04a7</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 9 Analog Value 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN9 AV9</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>5</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_2791272a-9ba0-49eb-ae5a-272c3437b59a" />
+    </cim:AnalogValue> 
+
+    <cim:AnalogValue rdf:ID="_fc9fdcc1-71d0-41a7-b138-2d7592a9db4e">
+        <cim:IdentifiedObject.mRID>fc9fdcc1-71d0-41a7-b138-2d7592a9db4e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Analog 10 Analog Value 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE AN10 AV10</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>45</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:AnalogValue.Analog rdf:resource="#_03f01d8e-c6ca-4815-a0a5-0a4a57abbb02" />
+    </cim:AnalogValue> 
+
     <cim:AnalogValue rdf:ID="_c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6">
         <cim:IdentifiedObject.mRID>c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Engene Analog 1 Analog Value 1</cim:IdentifiedObject.description>
@@ -126,7 +228,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>265.8</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" /><!--Check this - cant find it-->
         <cim:AnalogValue.Analog rdf:resource="#_b64c1205-d433-425f-9861-17e67fd8dd92" />
     </cim:AnalogValue>
 
