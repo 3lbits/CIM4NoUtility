@@ -154,6 +154,9 @@
         <cim:IdentifiedObject.description>Engene Tap Postition Analog 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE TapPos AN9</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>TapPosition</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.none" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.none" />
         <cim:Analog.maxValue>6</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>3</cim:Analog.normalValue>
@@ -167,6 +170,8 @@
         <cim:IdentifiedObject.description>Engene OilTemperature Analog 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE OilTemp AN10</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>OilTemperature</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.none" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.Deg" />
         <cim:Analog.maxValue>140</cim:Analog.maxValue>
         <cim:Analog.minValue>-40</cim:Analog.minValue>
