@@ -1,0 +1,19 @@
+= Change Management
+
+:sectnums:
+== Fuse
+[#sec:FuseChanges2.1] 
+As of v2.1 of the DIGIN10 model, relevant Breakers have been changed to Fuse in the DIGIN10-30-LV1_EQ file. 
+
+Ref: IEC 61970-600-1:2021 MAS_7: "A new mRID is generated in case there is a need to change the class (e.g. GeneratingUnit is
+changed to ThermalGeneratingUnit in a sequence of exchanges in a process). If a physical
+unit given by mRID in the asset part of the CIM needs to be represented simultaneously as
+GeneratingUnit and ThermalGeneratingUnit (a given specialisation) it must have different
+mRIDs for GeneratingUnit and ThermalGeneratingUnit. If different business processes are
+required to support both types (GeneratingUnit and ThermalGeneratingUnit), the applications
+should maintain two mRIDs and in both cases support difference file exchange."
+
+In general it is considered OK to keep the mRID when the model is changed from one CIM version to another. However, in our case Fuse exists in CIM16, but not in the profile CGMES v2.4. We have therefore changed the mRID both for Breaker/Fuse and the associated Terminal. Other assosiated classes do not need to be changed, e.g. OperationalLimit, Measruement etc.
+
+== Reference data
+

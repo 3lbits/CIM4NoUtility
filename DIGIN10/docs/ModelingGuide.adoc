@@ -15,30 +15,11 @@ The purpose of the DIGIN10 model is to equip the Norwegian power industry with a
 // ////////////////////////////////////////////////////////////
 :sectnums:
 == General requirements
-The Modeling guide is relevant for the following profiles:
-
---
-//[no-bullet]
-. Equipment Core (EQ)
-. Equipment Operation (OP)
-. Equipment Short Circuit (SC)
-. Object Registry (OR)
-. Steady State Hypothesis (SSH)
-. Geographical Location (GL)
-. Topology (TP) 
-. Customer (CU)
-. Diagram Layout (DL)
-. State Variables (SV) 
-. Medium Voltage 1 Low Voltage 1 Boundary Model (MV1-LV1_BM)
-. High Voltage 1 Medium Voltage 1 Boundary Model (HV1-MV1_BM)
-. Base Voltage Reference Data (BaseVoltage_RD)
-. Geographical Region Reference Data (GeographicalRegion_RD)
-
---
-
+The DIGIN10 model contains the following profiles for each MAS or sourceActor:
+AC, AS, BM, CU, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
 
 === Profile overview
-An overview of the profiles and their respective classes can be found in the below Table:
+An overview of the classes currently included in each profile can be found in the below Table:
 
 --
 [cols="1,1,1", width=100%]
@@ -46,6 +27,9 @@ An overview of the profiles and their respective classes can be found in the bel
 |===
 |*Equipment Core* |*Steady State Hypothesis*| *Geographical Location* 
 1.7+<.<|  
+    *LV1:*
+    Fuse
+
     *LV1 and MV1:*
     ACLineSegment 
     Bay
@@ -241,7 +225,7 @@ For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUn
 Will be included in a later version of the DIGIN10 model.
 
 === Fuse
-Will be included in a later version of the DIGIN10 model. In this version it is modelled as Breaker.
+Fuse has been added to the DIGIN10 model. Please refer to xref:ChangeManagement.adoc[ChangeManagement.adoc] for details.
 
 === Line
 Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
@@ -249,6 +233,11 @@ Line.Region is optional. For the EQ profiles it is included in the MV files but 
 === LoadResponseCharacteristic
 LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
 
+=== Measurement 
+Please refer to xref:MeasurementAndMeterReading.adoc[MeasurementAndMeterReading.adoc] for details.
+
+=== MeterReading
+Please refer to xref:MeasurementAndMeterReading.adoc[MeasurementAndMeterReading.adoc] for details.
 
 === ModelAuthoritySet
 The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
