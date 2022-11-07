@@ -185,6 +185,22 @@
         <cim:AnalogValue.Analog rdf:resource="#_e11a4842-898f-43fc-9d09-1a7f4e6a694a" />
     </cim:AnalogValue>
 
+    <cim:Discrete rdf:ID="_126164c6-805d-4560-ab42-87660401a30c">
+        <cim:IdentifiedObject.mRID>126164c6-805d-4560-ab42-87660401a30c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT3 AN6</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>SwitchPosition</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode." />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.none" />
+        <cim:Discrete.maxValue>3</cim:Discrete.maxValue>
+        <cim:Discrete.minValue>0</cim:Discrete.minValue>
+        <cim:Discrete.normalValue>0</cim:Discrete.normalValue>
+        <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
+        <cim:Measurement.PowerSystemResources rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+    </cim:Discrete>
+
     <cim:CurrentTransformer rdf:ID="_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
         <cim:IdentifiedObject.mRID>26d2f8aa-b651-46c5-a54d-05948f35f3d2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Engene Current Transformer 1</cim:IdentifiedObject.description>
