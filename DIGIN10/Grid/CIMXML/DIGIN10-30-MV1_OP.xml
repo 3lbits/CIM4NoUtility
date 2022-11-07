@@ -187,19 +187,97 @@
 
     <cim:Discrete rdf:ID="_126164c6-805d-4560-ab42-87660401a30c">
         <cim:IdentifiedObject.mRID>126164c6-805d-4560-ab42-87660401a30c</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description></cim:IdentifiedObject.description>
-        <cim:IdentifiedObject.name>ENGENE VT3 AN6</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Arendal 132kV Trafo 1 Breaker Switch Position</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ARENDAL 132 T1E SWITCH POSITION</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>SwitchPosition</cim:Measurement.measurementType>
-        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode." />
+        <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.none" />
         <cim:Discrete.maxValue>3</cim:Discrete.maxValue>
         <cim:Discrete.minValue>0</cim:Discrete.minValue>
         <cim:Discrete.normalValue>0</cim:Discrete.normalValue>
-        <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
-        <cim:Measurement.PowerSystemResources rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23" />
-        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+        <cim:Discrete.ValueAliasSet rdf:resource="#_d007554d-efe2-4f2d-95dd-1439e7a7a228"/>
+        <cim:Measurement.PowerSystemResources rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23"/>
+        <cim:Measurement.ACDCTerminal rdf:resource="#_8266f01c-2b3d-4111-957e-b871f71f0fad" />
     </cim:Discrete>
+
+    <cim:ValueAliasSet rdf:ID="_d007554d-efe2-4f2d-95dd-1439e7a7a228">
+        <cim:IdentifiedObject.mRID>d007554d-efe2-4f2d-95dd-1439e7a7a228</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Breaker Switch Positions</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>BREAKER SWITCH POSITIONS</cim:IdentifiedObject.name>
+    </cim:ValueAliasSet>
+
+    <cim:ValueToAlias rdf:ID="_521dc3af-f840-4e7f-8543-6811cb2e452a">
+        <cim:IdentifiedObject.mRID>521dc3af-f840-4e7f-8543-6811cb2e452a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Breaker switch position open</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>OPEN</cim:IdentifiedObject.name>
+        <cim:ValueToAlias.value>0</cim:ValueToAlias.value>
+        <cim:ValueToAlias.ValueAliasSet rdf:resource="#_d007554d-efe2-4f2d-95dd-1439e7a7a228"/>
+    </cim:ValueToAlias>
+
+    <cim:ValueToAlias rdf:ID="_77e99efc-45c9-4bcd-b1af-8f40237d13e1">
+        <cim:IdentifiedObject.mRID>77e99efc-45c9-4bcd-b1af-8f40237d13e1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Breaker switch position closed</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>CLOSED</cim:IdentifiedObject.name>
+        <cim:ValueToAlias.value>1</cim:ValueToAlias.value>
+        <cim:ValueToAlias.ValueAliasSet rdf:resource="#_d007554d-efe2-4f2d-95dd-1439e7a7a228"/>
+    </cim:ValueToAlias>
+
+    <cim:ValueToAlias rdf:ID="_616bd86c-7791-4fb7-b20b-911a96efb118">
+        <cim:IdentifiedObject.mRID>616bd86c-7791-4fb7-b20b-911a96efb118</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Breaker switch position intermediate</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>INTERMEDIATE</cim:IdentifiedObject.name>
+        <cim:ValueToAlias.value>2</cim:ValueToAlias.value>
+        <cim:ValueToAlias.ValueAliasSet rdf:resource="#_d007554d-efe2-4f2d-95dd-1439e7a7a228"/>
+    </cim:ValueToAlias>
+
+    <cim:ValueToAlias rdf:ID="_9bd40d49-f7d1-436d-af59-7386afee16b3">
+        <cim:IdentifiedObject.mRID>9bd40d49-f7d1-436d-af59-7386afee16b3</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Breaker switch position fault</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>FAULT</cim:IdentifiedObject.name>
+        <cim:ValueToAlias.value>3</cim:ValueToAlias.value>
+        <cim:ValueToAlias.ValueAliasSet rdf:resource="#_d007554d-efe2-4f2d-95dd-1439e7a7a228"/>
+    </cim:ValueToAlias>
+
+    <cim:DiscreteValue rdf:ID="_7520d444-23c4-41ab-bc1d-c972bf328e51">
+        <cim:IdentifiedObject.mRID>7520d444-23c4-41ab-bc1d-c972bf328e51</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Arendal 132kV Trafo 1 Breaker Switch Position 0</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ARENDAL 132 T1E SWITCH POSITION 0</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.timeStamp>2021-08-11T13:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:DiscreteValue.value>0</cim:DiscreteValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
+        <cim:DiscreteValue.Discrete rdf:resource="#_126164c6-805d-4560-ab42-87660401a30c" />
+    </cim:DiscreteValue>
+    
+    <cim:DiscreteValue rdf:ID="_4d7a4e51-39ac-4588-9eb0-624fce41faad">
+        <cim:IdentifiedObject.mRID>4d7a4e51-39ac-4588-9eb0-624fce41faad</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Arendal 132kV Trafo 1 Breaker Switch Position 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ARENDAL 132 T1E SWITCH POSITION 1</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.timeStamp>2021-08-11T14:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:DiscreteValue.value>1</cim:DiscreteValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
+        <cim:DiscreteValue.Discrete rdf:resource="#_126164c6-805d-4560-ab42-87660401a30c" />
+    </cim:DiscreteValue>
+
+    <cim:DiscreteValue rdf:ID="_be832621-c852-4035-a4fe-374e01444509">
+        <cim:IdentifiedObject.mRID>be832621-c852-4035-a4fe-374e01444509</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Arendal 132kV Trafo 1 Breaker Switch Position 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ARENDAL 132 T1E SWITCH POSITION 2</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.timeStamp>2021-08-11T15:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:DiscreteValue.value>2</cim:DiscreteValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_c6d71c1d-73fd-4be1-91a0-d520305498cf" />
+        <cim:DiscreteValue.Discrete rdf:resource="#_126164c6-805d-4560-ab42-87660401a30c" />
+    </cim:DiscreteValue>
+
+    <cim:DiscreteValue rdf:ID="_73e4441c-6972-4695-b229-c62998a39567">
+        <cim:IdentifiedObject.mRID>73e4441c-6972-4695-b229-c62998a39567</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Arendal 132kV Trafo 1 Breaker Switch Position 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ARENDAL 132 T1E SWITCH POSITION 3</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.timeStamp>2021-08-11T16:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:DiscreteValue.value>3</cim:DiscreteValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_c6d71c1d-73fd-4be1-91a0-d520305498cf" />
+        <cim:DiscreteValue.Discrete rdf:resource="#_126164c6-805d-4560-ab42-87660401a30c" />
+    </cim:DiscreteValue>
 
     <cim:CurrentTransformer rdf:ID="_26d2f8aa-b651-46c5-a54d-05948f35f3d2">
         <cim:IdentifiedObject.mRID>26d2f8aa-b651-46c5-a54d-05948f35f3d2</cim:IdentifiedObject.mRID>
