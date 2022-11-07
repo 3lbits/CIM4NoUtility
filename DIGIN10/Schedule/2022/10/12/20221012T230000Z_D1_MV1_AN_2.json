@@ -1,0 +1,33 @@
+{
+    "Analog": [
+        {
+            "AnalogValues": [
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2021-08-11T12:45:39.393725Z",
+                    "value": 2414,
+                    "MeasurementValueSource": {
+                        "mRID": "bb396abd-8537-409b-a983-ac1eb907ac30"
+                    }
+                },
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2021-08-11T13:45:39.393725Z",
+                    "value": 2416,
+                    "MeasurementValueSource": {
+                        "mRID": "bb396abd-8537-409b-a983-ac1eb907ac30"
+                    }
+                }
+            ],
+            "mRID": "56f7f828-73d8-405a-a725-4dfbe88c371d",
+            "name": "ENGENE TotW AN7",
+            "measurementType": "ThreePhaseActivePower",
+            "phases": "http://iec.ch/TC57/CIM100#PhaseCode.ABC",
+            "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.k",
+            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.W",
+            "ACDCTerminal": {
+                "mRID": "83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        }
+    ]
+}
