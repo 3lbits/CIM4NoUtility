@@ -15,8 +15,8 @@
         <md:Model.created>2022-10-24T21:00:00Z</md:Model.created>
     </md:FullModel>
 
-    <cim:MeasurementValueSource rdf:ID="_bb396abd-8537-409b-a983-ac1eb907ac30">
-        <cim:IdentifiedObject.mRID>bb396abd-8537-409b-a983-ac1eb907ac30</cim:IdentifiedObject.mRID>
+    <cim:MeasurementValueSource rdf:ID="_b1a076df-b20d-490d-81a5-6e55efbf403c">
+        <cim:IdentifiedObject.mRID>b1a076df-b20d-490d-81a5-6e55efbf403c</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemetered values received from a local SCADA system</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>SCADA</cim:IdentifiedObject.name>
     </cim:MeasurementValueSource>
