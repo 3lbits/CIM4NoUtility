@@ -76,10 +76,9 @@
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.AB" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
-        <cim:Analog.maxValue>12</cim:Analog.maxValue>
+        <cim:Analog.maxValue>24</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
-        <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
-        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Analog.normalValue>22</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
         <cim:Measurement.PowerSystemResources rdf:resource="#_fd11bf7f-138b-4a1b-802c-25262b7b8672" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
@@ -93,10 +92,9 @@
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.AC" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
-        <cim:Analog.maxValue>12</cim:Analog.maxValue>
+        <cim:Analog.maxValue>24</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
-        <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
-        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Analog.normalValue>22</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
         <cim:Measurement.PowerSystemResources rdf:resource="#_03f7a245-aeca-48ba-af07-58419fb9b77c" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
@@ -110,10 +108,9 @@
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.BC" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V" />
-        <cim:Analog.maxValue>12</cim:Analog.maxValue>
+        <cim:Analog.maxValue>24</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
-        <cim:Analog.normalValue>10.4</cim:Analog.normalValue>
-        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Analog.normalValue>22</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
         <cim:Measurement.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
@@ -125,11 +122,11 @@
         <cim:IdentifiedObject.name>ENGENE TotW AN7</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
-        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W" />
-        <cim:Analog.maxValue>8000</cim:Analog.maxValue>
-        <cim:Analog.minValue>0</cim:Analog.minValue>
-        <cim:Analog.normalValue>4000</cim:Analog.normalValue>
+        <cim:Analog.maxValue>35</cim:Analog.maxValue>
+        <cim:Analog.minValue>-35</cim:Analog.minValue>
+        <cim:Analog.normalValue>20</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>true</cim:Analog.positiveFlowIn>
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
@@ -140,11 +137,11 @@
         <cim:IdentifiedObject.name>ENGENE TotVAr AN8</cim:IdentifiedObject.name>
         <cim:Measurement.measurementType>ThreePhaseReactivePower</cim:Measurement.measurementType>
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
-        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M" />
         <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.VAR" />
-        <cim:Analog.maxValue>5000</cim:Analog.maxValue>
-        <cim:Analog.minValue>0</cim:Analog.minValue>
-        <cim:Analog.normalValue>2500</cim:Analog.normalValue>
+        <cim:Analog.maxValue>30</cim:Analog.maxValue>
+        <cim:Analog.minValue>-30</cim:Analog.minValue>
+        <cim:Analog.normalValue>15</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>true</cim:Analog.positiveFlowIn>
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
@@ -160,7 +157,6 @@
         <cim:Analog.maxValue>7</cim:Analog.maxValue>
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>4</cim:Analog.normalValue>
-        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
         <cim:Measurement.PowerSystemResources rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
@@ -176,7 +172,6 @@
         <cim:Analog.maxValue>140</cim:Analog.maxValue>
         <cim:Analog.minValue>-40</cim:Analog.minValue>
         <cim:Analog.normalValue>50</cim:Analog.normalValue>
-        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
         <cim:Measurement.Asset rdf:resource="#_" /><!--sensor asset?-->
         <cim:Measurement.PowerSystemResources rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
