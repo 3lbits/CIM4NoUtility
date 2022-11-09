@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <rdf:RDF
-	xmlns:cim="http://iec.ch/TC57/2016/CIM-schema-cim17#"
+	xmlns:cim="http://iec.ch/TC57/CIM100#"
 	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
@@ -9,7 +9,7 @@
     xmlns:eu="http://iec.ch/TC57/CIM100-European#">
 
 	<md:FullModel rdf:about="urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2">
-		<md:Model.modelingAuthoritySet>http://data.europe.eu/energy/ReadingQualityType</md:Model.modelingAuthoritySet>
+		<md:Model.modelingAuthoritySet>"http://energy.referencedata.eu/ReadingQualityType"</md:Model.modelingAuthoritySet>
 		<md:Model.description>Meter Reading Quality Types Reference data (RD)</md:Model.description>
 		<dcat:keyword>RD</dcat:keyword>
 		<md:Model.version>1</md:Model.version>
