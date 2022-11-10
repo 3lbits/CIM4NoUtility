@@ -128,4 +128,35 @@
         <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
     </cim:Asset>
 
+    <cim:Asset rdf:ID="_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1">
+        <cim:IdentifiedObject.mRID>6b7f7604-9f3e-479e-889f-f5d3d8ca60a1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Power Transformer</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ENGENE PT</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.transformer" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber></cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice></cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber></cim:Asset.serialNumber>
+        <cim:Asset.type></cim:Asset.type>
+        <cim:Asset.utcNumber></cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+        <cim:Asset.AssetInfo rdf:resource="#_5462d46a-9ee5-4d09-9ac2-9f97933caa4d" />
+
+        <!-- Include any of these?
+        <cim:Asset.electronicAdress rdf:resource="http://iec.ch/TC57/CIM100#ElectronicAdress.??"/>
+        <cim:Asset.lifecycleDate rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleDate.??" />
+        <cim:Asset.inUseDate rdf:resource="http://iec.ch/TC57/CIM100#InUseDate.??" />
+        <cim:Asset.acceptanceTest rdf:resource="http://iec.ch/TC57/CIM100#AcceptanceTest.??"/>
+        <cim:Asset.initialCondition>string<cim:Asset.initialCondition/>
+        <cim:Asset.initialLossOfLife>%<cim:Asset.initialLossOfLife/>
+        <cim:Asset.status rdf:resource="http://iec.ch/TC57/CIM100#Status.??"/>
+        <cim:Asset.retiredReason rdf:resource="http://iec.ch/TC57/CIM100#RetiredReasonKind.??"/>
+        -->
+    </cim:Asset>
+
 </rdf:RDF>
