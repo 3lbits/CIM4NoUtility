@@ -51,4 +51,6 @@
         <cim:IdentifiedObject.description></cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>Engene 132-22 KV PowerTransformerInfo</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+    </cim:PowerTransformerInfo>
+    
 </rdf:RDF>
