@@ -77,9 +77,9 @@
 		<cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V"/>
 	</cim:ReadingType>
 
-	<cim:ReadingType rdf:id="18cd8de4-33a7-4bb0-8467-1c4e79c248f6">
-		<cim:IdentifiedObject.mRID>18cd8de4-33a7-4bb0-8467-1c4e79c248f6</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity forward electricitysecondarymetered energy (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="7d11e2a7-5149-4112-9170-a64d85d34cbb">
+		<cim:IdentifiedObject.mRID>7d11e2a7-5149-4112-9170-a64d85d34cbb</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -90,9 +90,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f3760a27-6557-45d4-9c5d-3c5002eeafaf">
-		<cim:IdentifiedObject.mRID>f3760a27-6557-45d4-9c5d-3c5002eeafaf</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity reverse electricitysecondarymetered energy (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="bf55fb09-e5e8-427b-a989-351a04a81325">
+		<cim:IdentifiedObject.mRID>bf55fb09-e5e8-427b-a989-351a04a81325</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity reverse electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -103,9 +103,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="7135f033-1c38-476c-81d3-1bb653c71ed6">
-		<cim:IdentifiedObject.mRID>7135f033-1c38-476c-81d3-1bb653c71ed6</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity forward electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="7fee985b-aa1b-46fd-b343-debeeb803f16">
+		<cim:IdentifiedObject.mRID>7fee985b-aa1b-46fd-b343-debeeb803f16</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity forward electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -116,9 +116,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="af260be0-452f-446b-a3c6-b7c1f22d150b">
-		<cim:IdentifiedObject.mRID>af260be0-452f-446b-a3c6-b7c1f22d150b</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity reverse electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e3b5a84a-e8f3-4c38-a379-31c942642df2">
+		<cim:IdentifiedObject.mRID>e3b5a84a-e8f3-4c38-a379-31c942642df2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity reverse electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -129,9 +129,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e61e99bd-3629-4dfe-892e-6ed58cb5340d">
-		<cim:IdentifiedObject.mRID>e61e99bd-3629-4dfe-892e-6ed58cb5340d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity forward electricitysecondarymetered energy (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="00e7434f-fde8-472f-b495-4eb3b01aad9e">
+		<cim:IdentifiedObject.mRID>00e7434f-fde8-472f-b495-4eb3b01aad9e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -142,9 +142,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="dd13b40f-ad5d-45d5-b121-ac5136ca0d1e">
-		<cim:IdentifiedObject.mRID>dd13b40f-ad5d-45d5-b121-ac5136ca0d1e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity reverse electricitysecondarymetered energy (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="657970de-551c-4661-8920-cd3c0a1258cc">
+		<cim:IdentifiedObject.mRID>657970de-551c-4661-8920-cd3c0a1258cc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity reverse electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -155,9 +155,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="18cc6878-9659-48ba-be21-0707c3b9ade5">
-		<cim:IdentifiedObject.mRID>18cc6878-9659-48ba-be21-0707c3b9ade5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity forward electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f099b97e-f1f5-4f40-be08-b0ac6dd2fe2e">
+		<cim:IdentifiedObject.mRID>f099b97e-f1f5-4f40-be08-b0ac6dd2fe2e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity forward electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -168,9 +168,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="7b6d1930-fac7-4919-8e5a-b9e62e20a60e">
-		<cim:IdentifiedObject.mRID>7b6d1930-fac7-4919-8e5a-b9e62e20a60e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity reverse electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="27c70108-b50d-4e4c-9cec-ea8eb2eb7d2d">
+		<cim:IdentifiedObject.mRID>27c70108-b50d-4e4c-9cec-ea8eb2eb7d2d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity reverse electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -181,9 +181,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="10abd2ba-7e8f-46c4-a977-280d50dc7ffb">
-		<cim:IdentifiedObject.mRID>10abd2ba-7e8f-46c4-a977-280d50dc7ffb</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum indicating electricitysecondarymetered voltagerms phasea (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="be44e143-4b7b-474c-b714-b4b1065eb9a5">
+		<cim:IdentifiedObject.mRID>be44e143-4b7b-474c-b714-b4b1065eb9a5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum indicating electricitySecondaryMetered voltageRMS phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -193,9 +193,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="6e21c7da-10f6-417c-a85b-396bbc870d96">
-		<cim:IdentifiedObject.mRID>6e21c7da-10f6-417c-a85b-396bbc870d96</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average indicating electricitysecondarymetered voltagerms phasea (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e175a706-ccd1-44e9-942c-7050c28d3fcf">
+		<cim:IdentifiedObject.mRID>e175a706-ccd1-44e9-942c-7050c28d3fcf</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average indicating electricitySecondaryMetered voltageRMS phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -205,9 +205,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3b01685f-6525-4c91-a986-187acf2a5097">
-		<cim:IdentifiedObject.mRID>3b01685f-6525-4c91-a986-187acf2a5097</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum indicating electricitysecondarymetered voltagerms phasea (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="3a66f5a2-f960-4e36-98e8-aacf0dab3528">
+		<cim:IdentifiedObject.mRID>3a66f5a2-f960-4e36-98e8-aacf0dab3528</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum indicating electricitySecondaryMetered voltageRMS phaseA (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -217,9 +217,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="7a5db4c3-e4e3-4298-b5aa-68eaa9464567">
-		<cim:IdentifiedObject.mRID>7a5db4c3-e4e3-4298-b5aa-68eaa9464567</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum indicating electricitysecondarymetered voltagerms phaseb (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="daafac49-6328-4107-b331-668e98c214ba">
+		<cim:IdentifiedObject.mRID>daafac49-6328-4107-b331-668e98c214ba</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum indicating electricitySecondaryMetered voltageRMS phaseB (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -229,9 +229,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="38dbb21a-f496-4652-b415-8414aca723f5">
-		<cim:IdentifiedObject.mRID>38dbb21a-f496-4652-b415-8414aca723f5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average indicating electricitysecondarymetered voltagerms phaseb (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="7595ac48-196d-4a65-9b9e-91604f940327">
+		<cim:IdentifiedObject.mRID>7595ac48-196d-4a65-9b9e-91604f940327</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average indicating electricitySecondaryMetered voltageRMS phaseB (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -241,9 +241,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="b9f1d1c0-ec74-4d81-b94a-1d7f7ff3d015">
-		<cim:IdentifiedObject.mRID>b9f1d1c0-ec74-4d81-b94a-1d7f7ff3d015</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum indicating electricitysecondarymetered voltagerms phaseb (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6542f83b-8944-48ce-8353-a36111fb67ea">
+		<cim:IdentifiedObject.mRID>6542f83b-8944-48ce-8353-a36111fb67ea</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum indicating electricitySecondaryMetered voltageRMS phaseB (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -253,9 +253,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="c762234c-f81c-4c1a-8e8e-ddbecedddfbd">
-		<cim:IdentifiedObject.mRID>c762234c-f81c-4c1a-8e8e-ddbecedddfbd</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum indicating electricitysecondarymetered voltagerms phasec (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="b0ad0f27-ed57-48aa-8f1b-e8abac9d5850">
+		<cim:IdentifiedObject.mRID>b0ad0f27-ed57-48aa-8f1b-e8abac9d5850</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum indicating electricitySecondaryMetered voltageRMS phaseC (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -265,9 +265,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="03eb275c-aa45-4d09-b787-81e380d1c511">
-		<cim:IdentifiedObject.mRID>03eb275c-aa45-4d09-b787-81e380d1c511</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average indicating electricitysecondarymetered voltagerms phasec (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="dee0ee4f-5932-4f9b-a017-635181f412fd">
+		<cim:IdentifiedObject.mRID>dee0ee4f-5932-4f9b-a017-635181f412fd</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average indicating electricitySecondaryMetered voltageRMS phaseC (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -277,9 +277,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="8cf63287-649b-4648-980f-3d066ceeb09f">
-		<cim:IdentifiedObject.mRID>8cf63287-649b-4648-980f-3d066ceeb09f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum indicating electricitysecondarymetered voltagerms phasec (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c10b558a-ec40-4448-9e95-02b46578f0e7">
+		<cim:IdentifiedObject.mRID>c10b558a-ec40-4448-9e95-02b46578f0e7</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum indicating electricitySecondaryMetered voltageRMS phaseC (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -289,9 +289,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="086e4dee-a9ee-464c-ad3e-89bd4c5befb6">
-		<cim:IdentifiedObject.mRID>086e4dee-a9ee-464c-ad3e-89bd4c5befb6</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>indicating forward electricitysecondarymetered current phasea (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="1cc7f6a2-33e6-47e1-91ab-ebae9d2503c0">
+		<cim:IdentifiedObject.mRID>1cc7f6a2-33e6-47e1-91ab-ebae9d2503c0</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>indicating forward electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.128.0.5.0"/>
 		<cim:IdentifiedObject.name>0.0.0.6.1.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
 		<cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
@@ -301,9 +301,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="d0f11e85-15f7-4713-9e2f-4b55d3f90202">
-		<cim:IdentifiedObject.mRID>d0f11e85-15f7-4713-9e2f-4b55d3f90202</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>indicating forward electricitysecondarymetered current phaseb (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="ed48f359-283a-429e-a18e-b1d8cfd13a79">
+		<cim:IdentifiedObject.mRID>ed48f359-283a-429e-a18e-b1d8cfd13a79</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>indicating forward electricitySecondaryMetered current phaseB (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.64.0.5.0"/>
 		<cim:IdentifiedObject.name>0.0.0.6.1.1.4.0.0.0.0.0.0.0.64.0.5.0</cim:IdentifiedObject.name>
 		<cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
@@ -313,9 +313,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="59dd9e9f-e334-4fb3-97ac-e0b179ad6263">
-		<cim:IdentifiedObject.mRID>59dd9e9f-e334-4fb3-97ac-e0b179ad6263</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>indicating forward electricitysecondarymetered current phasec (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="755c2afc-be77-4382-99ab-ec82a252d4db">
+		<cim:IdentifiedObject.mRID>755c2afc-be77-4382-99ab-ec82a252d4db</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>indicating forward electricitySecondaryMetered current phaseC (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.32.0.5.0"/>
 		<cim:IdentifiedObject.name>0.0.0.6.1.1.4.0.0.0.0.0.0.0.32.0.5.0</cim:IdentifiedObject.name>
 		<cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
@@ -325,9 +325,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="cf5b22e2-d3d1-455e-881b-e82b9c080f6a">
-		<cim:IdentifiedObject.mRID>cf5b22e2-d3d1-455e-881b-e82b9c080f6a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>indicating forward electricitysecondarymetered current phasentognd (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6968b00e-e3ae-4d13-9d6c-107f0b94ce47">
+		<cim:IdentifiedObject.mRID>6968b00e-e3ae-4d13-9d6c-107f0b94ce47</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>indicating forward electricitySecondaryMetered current phaseNtoGnd (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.17.0.5.0"/>
 		<cim:IdentifiedObject.name>0.0.0.6.1.1.4.0.0.0.0.0.0.0.17.0.5.0</cim:IdentifiedObject.name>
 		<cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
@@ -337,9 +337,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="27b09861-4faa-4bcf-9383-69df12718055">
-		<cim:IdentifiedObject.mRID>27b09861-4faa-4bcf-9383-69df12718055</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phaseaton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="d35eecdf-d5ad-4ec5-a184-31652759d1b2">
+		<cim:IdentifiedObject.mRID>d35eecdf-d5ad-4ec5-a184-31652759d1b2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -351,9 +351,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="7ed41d64-2451-4b61-99b3-be722e4c5f3c">
-		<cim:IdentifiedObject.mRID>7ed41d64-2451-4b61-99b3-be722e4c5f3c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasebton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="58218512-4130-4f88-88bc-eaac1a93b8a9">
+		<cim:IdentifiedObject.mRID>58218512-4130-4f88-88bc-eaac1a93b8a9</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -365,9 +365,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="8b72ed35-7221-49e5-816e-cec7cd80311d">
-		<cim:IdentifiedObject.mRID>8b72ed35-7221-49e5-816e-cec7cd80311d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasecton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="3fb04138-64aa-401a-b425-c6d8cb0a448b">
+		<cim:IdentifiedObject.mRID>3fb04138-64aa-401a-b425-c6d8cb0a448b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseCtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -379,9 +379,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3bb87772-83b1-490b-a309-12f89847563b">
-		<cim:IdentifiedObject.mRID>3bb87772-83b1-490b-a309-12f89847563b</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered current phasea (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6de0b9cd-1d8e-406f-ac8a-e520e7773d58">
+		<cim:IdentifiedObject.mRID>6de0b9cd-1d8e-406f-ac8a-e520e7773d58</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -393,9 +393,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="12a3bb0f-6597-4e61-9622-e66e402ddfb8">
-		<cim:IdentifiedObject.mRID>12a3bb0f-6597-4e61-9622-e66e402ddfb8</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered current phaseb (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="40a34dbe-be98-4489-8613-8ed35dafe619">
+		<cim:IdentifiedObject.mRID>40a34dbe-be98-4489-8613-8ed35dafe619</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseB (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -407,9 +407,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="0449bfb0-1bb0-42d2-915d-43ffa36c9a62">
-		<cim:IdentifiedObject.mRID>0449bfb0-1bb0-42d2-915d-43ffa36c9a62</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered current phasec (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="8c863d7a-0965-4c4c-80a8-361816150591">
+		<cim:IdentifiedObject.mRID>8c863d7a-0965-4c4c-80a8-361816150591</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseC (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -421,9 +421,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="97495b02-5bff-49aa-8a71-e4d2f8b13fd8">
-		<cim:IdentifiedObject.mRID>97495b02-5bff-49aa-8a71-e4d2f8b13fd8</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasea (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c42e1e8f-baf3-40b3-95a8-68ab564712f0">
+		<cim:IdentifiedObject.mRID>c42e1e8f-baf3-40b3-95a8-68ab564712f0</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -436,9 +436,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="742d9ac6-4dec-4fbb-8306-36cb4fb7d233">
-		<cim:IdentifiedObject.mRID>742d9ac6-4dec-4fbb-8306-36cb4fb7d233</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="53b9855a-73b0-4d88-aa23-967487dd5ada">
+		<cim:IdentifiedObject.mRID>53b9855a-73b0-4d88-aa23-967487dd5ada</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -451,9 +451,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="fa730e8b-a8fe-4740-b720-ec7439736c98">
-		<cim:IdentifiedObject.mRID>fa730e8b-a8fe-4740-b720-ec7439736c98</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasec (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="264df871-b90f-4283-b5db-7ba81a9f3435">
+		<cim:IdentifiedObject.mRID>264df871-b90f-4283-b5db-7ba81a9f3435</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -466,9 +466,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e8877e95-b094-438d-9567-994f6df840ac">
-		<cim:IdentifiedObject.mRID>e8877e95-b094-438d-9567-994f6df840ac</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasea (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="09193042-7465-4928-9bb8-70cdae474e4a">
+		<cim:IdentifiedObject.mRID>09193042-7465-4928-9bb8-70cdae474e4a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -481,9 +481,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="ba8b2c14-6aa8-461c-a9cd-1342db301acb">
-		<cim:IdentifiedObject.mRID>ba8b2c14-6aa8-461c-a9cd-1342db301acb</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="5c276a93-bbaf-4473-819b-2bd751a0d7bc">
+		<cim:IdentifiedObject.mRID>5c276a93-bbaf-4473-819b-2bd751a0d7bc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -496,9 +496,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e19dcccb-d3ae-471e-beef-b9a50cb51f2c">
-		<cim:IdentifiedObject.mRID>e19dcccb-d3ae-471e-beef-b9a50cb51f2c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasec (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="b319c2fd-e165-4cd0-b966-d71fdc5841aa">
+		<cim:IdentifiedObject.mRID>b319c2fd-e165-4cd0-b966-d71fdc5841aa</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -511,9 +511,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4be31114-f941-4d32-bcce-aec6aadfae9a">
-		<cim:IdentifiedObject.mRID>4be31114-f941-4d32-bcce-aec6aadfae9a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="2a851b5c-519f-47a4-a182-716aafcfb3eb">
+		<cim:IdentifiedObject.mRID>2a851b5c-519f-47a4-a182-716aafcfb3eb</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -526,9 +526,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="c652432b-3d80-4e53-be8b-d80ec81b5f23">
-		<cim:IdentifiedObject.mRID>c652432b-3d80-4e53-be8b-d80ec81b5f23</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasesabc (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="429f012e-f0ce-4f25-8640-d2583ec84b94">
+		<cim:IdentifiedObject.mRID>429f012e-f0ce-4f25-8640-d2583ec84b94</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -540,9 +540,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="ee33e9b8-5599-4453-94a1-b7d4a05e551f">
-		<cim:IdentifiedObject.mRID>ee33e9b8-5599-4453-94a1-b7d4a05e551f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered frequency (hz)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="feb86bae-cfa4-4dcf-937b-f3c72dbbb668">
+		<cim:IdentifiedObject.mRID>feb86bae-cfa4-4dcf-937b-f3c72dbbb668</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered frequency (Hz)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -553,9 +553,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="0ff353ce-c532-4cab-89cd-e391775c51a4">
-		<cim:IdentifiedObject.mRID>0ff353ce-c532-4cab-89cd-e391775c51a4</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phaseatob (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="cdcc8ef7-9535-4ab8-bd07-0a3ae721dd7d">
+		<cim:IdentifiedObject.mRID>cdcc8ef7-9535-4ab8-bd07-0a3ae721dd7d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoB (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -567,9 +567,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="59923237-eff5-4925-9e87-eeb255158ff8">
-		<cim:IdentifiedObject.mRID>59923237-eff5-4925-9e87-eeb255158ff8</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasebtoc (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="4a1d2329-f884-4959-b245-7c4c0abb98c9">
+		<cim:IdentifiedObject.mRID>4a1d2329-f884-4959-b245-7c4c0abb98c9</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoC (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -581,9 +581,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f137ed18-77fb-4a4a-9119-ff812334c7de">
-		<cim:IdentifiedObject.mRID>f137ed18-77fb-4a4a-9119-ff812334c7de</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasea (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c3220b33-e16f-4dcb-b4f3-f8ddf79f6c13">
+		<cim:IdentifiedObject.mRID>c3220b33-e16f-4dcb-b4f3-f8ddf79f6c13</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -596,9 +596,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="5f0415a0-d8e1-421e-aa6e-75cb3e88017d">
-		<cim:IdentifiedObject.mRID>5f0415a0-d8e1-421e-aa6e-75cb3e88017d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phaseb (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="bd37f622-6ca6-4a52-9bd2-0eab09ac411a">
+		<cim:IdentifiedObject.mRID>bd37f622-6ca6-4a52-9bd2-0eab09ac411a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -611,9 +611,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4a57d9f5-aa84-4741-9947-2ab1643aae8f">
-		<cim:IdentifiedObject.mRID>4a57d9f5-aa84-4741-9947-2ab1643aae8f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasec (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="19a57243-c4d6-43e4-bdc3-fe5adba6b438">
+		<cim:IdentifiedObject.mRID>19a57243-c4d6-43e4-bdc3-fe5adba6b438</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -626,9 +626,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="d375fbac-093f-4b4c-aa8f-72857ab308f1">
-		<cim:IdentifiedObject.mRID>d375fbac-093f-4b4c-aa8f-72857ab308f1</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasea (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6b5f38c6-2683-4497-ae0a-b9abcf356cb8">
+		<cim:IdentifiedObject.mRID>6b5f38c6-2683-4497-ae0a-b9abcf356cb8</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -641,9 +641,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="fc8f15f6-82aa-4166-9883-4208df58bf82">
-		<cim:IdentifiedObject.mRID>fc8f15f6-82aa-4166-9883-4208df58bf82</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phaseb (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="fe3391e5-a949-4f89-bd07-c2838a9d7be8">
+		<cim:IdentifiedObject.mRID>fe3391e5-a949-4f89-bd07-c2838a9d7be8</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -656,9 +656,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="b9afe6f5-f079-45e4-9360-f0df582cc55e">
-		<cim:IdentifiedObject.mRID>b9afe6f5-f079-45e4-9360-f0df582cc55e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasec (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="d84d535b-6aae-4060-bef3-cd8109bd71f5">
+		<cim:IdentifiedObject.mRID>d84d535b-6aae-4060-bef3-cd8109bd71f5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -671,9 +671,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e14c969f-61c5-4703-ad00-80341dad22b4">
-		<cim:IdentifiedObject.mRID>e14c969f-61c5-4703-ad00-80341dad22b4</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="59a2b750-574c-49a0-ab2b-22bfc10cabda">
+		<cim:IdentifiedObject.mRID>59a2b750-574c-49a0-ab2b-22bfc10cabda</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -686,9 +686,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="25c79de9-19c1-48ce-8e39-434513cf7fe6">
-		<cim:IdentifiedObject.mRID>25c79de9-19c1-48ce-8e39-434513cf7fe6</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="07ee7169-1c9b-417d-a6bc-42d53bedbf88">
+		<cim:IdentifiedObject.mRID>07ee7169-1c9b-417d-a6bc-42d53bedbf88</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -701,9 +701,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="1f6dfc2a-b080-49ba-90d1-ee7a06524b5b">
-		<cim:IdentifiedObject.mRID>1f6dfc2a-b080-49ba-90d1-ee7a06524b5b</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasea (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="758d2dcd-5781-41b2-b963-1045e08770c9">
+		<cim:IdentifiedObject.mRID>758d2dcd-5781-41b2-b963-1045e08770c9</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -716,9 +716,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="6d572524-0c9d-4bdd-9fac-e5efa24f0b3d">
-		<cim:IdentifiedObject.mRID>6d572524-0c9d-4bdd-9fac-e5efa24f0b3d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f114f1df-ce24-4795-a90f-858a27902ec5">
+		<cim:IdentifiedObject.mRID>f114f1df-ce24-4795-a90f-858a27902ec5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -731,9 +731,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4dfc1473-94e2-439e-aad4-8523316e93f7">
-		<cim:IdentifiedObject.mRID>4dfc1473-94e2-439e-aad4-8523316e93f7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered power phasec (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="61687dcb-7acb-4242-96f2-638778f2dec1">
+		<cim:IdentifiedObject.mRID>61687dcb-7acb-4242-96f2-638778f2dec1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -746,9 +746,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="ea2e3b4d-68b5-4654-8e13-3de720e493a4">
-		<cim:IdentifiedObject.mRID>ea2e3b4d-68b5-4654-8e13-3de720e493a4</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasea (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="8c35aa61-14e7-4b83-91de-00ac4af358e0">
+		<cim:IdentifiedObject.mRID>8c35aa61-14e7-4b83-91de-00ac4af358e0</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseA (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -760,9 +760,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="2417eabc-cd2b-47dc-a9a1-aa25272aed69">
-		<cim:IdentifiedObject.mRID>2417eabc-cd2b-47dc-a9a1-aa25272aed69</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phaseb (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="15debb53-b847-46b1-a7f5-1688ca9d3bcd">
+		<cim:IdentifiedObject.mRID>15debb53-b847-46b1-a7f5-1688ca9d3bcd</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseB (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -774,9 +774,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="d186a55f-dbda-4622-8ed7-8bd0442565d0">
-		<cim:IdentifiedObject.mRID>d186a55f-dbda-4622-8ed7-8bd0442565d0</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasec (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="a02fd192-b154-4cf4-ba41-37226d0a36f5">
+		<cim:IdentifiedObject.mRID>a02fd192-b154-4cf4-ba41-37226d0a36f5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseC (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -788,9 +788,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="1b6e51fc-1d6a-4b4c-9211-958fdbd9f561">
-		<cim:IdentifiedObject.mRID>1b6e51fc-1d6a-4b4c-9211-958fdbd9f561</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous q1plusq3 electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="9e7d10e1-3ff3-45b7-b6d1-b2c85bc323d4">
+		<cim:IdentifiedObject.mRID>9e7d10e1-3ff3-45b7-b6d1-b2c85bc323d4</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous q1plusQ3 electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -803,9 +803,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="8c1dd2f4-43df-4909-8f0f-64c41e6401aa">
-		<cim:IdentifiedObject.mRID>8c1dd2f4-43df-4909-8f0f-64c41e6401aa</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous q2plusq4 electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6859bd68-c3c6-4d31-9781-0187af17aa00">
+		<cim:IdentifiedObject.mRID>6859bd68-c3c6-4d31-9781-0187af17aa00</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous q2plusQ4 electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -818,9 +818,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="35cd5d1d-505c-4bd7-9413-41d19a02d62b">
-		<cim:IdentifiedObject.mRID>35cd5d1d-505c-4bd7-9413-41d19a02d62b</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="0ec0183e-05e4-487a-b40f-24d0bea630ab">
+		<cim:IdentifiedObject.mRID>0ec0183e-05e4-487a-b40f-24d0bea630ab</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0"/>
 		<cim:IdentifiedObject.name>0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -833,9 +833,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="9132bf83-62ab-4abe-afc6-b70ba786bfbe">
-		<cim:IdentifiedObject.mRID>9132bf83-62ab-4abe-afc6-b70ba786bfbe</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasesabc (costheta)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c06e2863-7bcb-4e6c-a000-314a15c5fc6a">
+		<cim:IdentifiedObject.mRID>c06e2863-7bcb-4e6c-a000-314a15c5fc6a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (Cosθ)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -847,9 +847,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="5d21a03f-4676-4022-8f7e-40564240515f">
-		<cim:IdentifiedObject.mRID>5d21a03f-4676-4022-8f7e-40564240515f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="718e66f1-69c1-4320-96ae-6a9b5c539183">
+		<cim:IdentifiedObject.mRID>718e66f1-69c1-4320-96ae-6a9b5c539183</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0"/>
 		<cim:IdentifiedObject.name>0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -862,9 +862,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="bcaf0095-e8b3-48f5-a3f7-c8cbf9bed477">
-		<cim:IdentifiedObject.mRID>bcaf0095-e8b3-48f5-a3f7-c8cbf9bed477</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kvah)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="710f1ee4-9962-4722-9a5c-97f908a21d54">
+		<cim:IdentifiedObject.mRID>710f1ee4-9962-4722-9a5c-97f908a21d54</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVAh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0"/>
 		<cim:IdentifiedObject.name>0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -877,9 +877,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="350e9e8e-d255-419d-9195-d0ce8d1841bb">
-		<cim:IdentifiedObject.mRID>350e9e8e-d255-419d-9195-d0ce8d1841bb</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous insulativeoil temperature (degc)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="3eddf2dd-1b47-4244-bdd9-abdd2ac9e37c">
+		<cim:IdentifiedObject.mRID>3eddf2dd-1b47-4244-bdd9-abdd2ac9e37c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous insulativeOil temperature (°C)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -889,9 +889,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3a499a8a-19cc-44fe-ae61-2db5deb6448e">
-		<cim:IdentifiedObject.mRID>3a499a8a-19cc-44fe-ae61-2db5deb6448e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous insulativeoil (hpa)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c96fb3ae-c6f1-4128-ae9b-ea0b9f656a9d">
+		<cim:IdentifiedObject.mRID>c96fb3ae-c6f1-4128-ae9b-ea0b9f656a9d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous insulativeOil (hPa)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -901,9 +901,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="47585e7b-f98c-43e4-8648-8b9cd5495984">
-		<cim:IdentifiedObject.mRID>47585e7b-f98c-43e4-8648-8b9cd5495984</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>minimum fifteenminute instantaneous air temperature (degc)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="1999eaa8-4861-49f8-b6ac-7b2b2ea42c34">
+		<cim:IdentifiedObject.mRID>1999eaa8-4861-49f8-b6ac-7b2b2ea42c34</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>minimum fifteenMinute instantaneous air temperature (°C)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.9.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0"/>
 		<cim:IdentifiedObject.name>0.9.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -913,9 +913,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="45b9e73d-df51-42bc-aed4-014a963fcc3d">
-		<cim:IdentifiedObject.mRID>45b9e73d-df51-42bc-aed4-014a963fcc3d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phaseaton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="af8e6b1c-ac75-489f-9f12-c76edbc6860a">
+		<cim:IdentifiedObject.mRID>af8e6b1c-ac75-489f-9f12-c76edbc6860a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -927,9 +927,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4fabe027-18b1-4e9b-91ea-1ec63135efc1">
-		<cim:IdentifiedObject.mRID>4fabe027-18b1-4e9b-91ea-1ec63135efc1</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasebton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="7c51dcee-e544-4bd2-9ea4-c1acc2310b16">
+		<cim:IdentifiedObject.mRID>7c51dcee-e544-4bd2-9ea4-c1acc2310b16</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -941,9 +941,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e988d6c9-b201-472e-b206-35a9a52e7ad7">
-		<cim:IdentifiedObject.mRID>e988d6c9-b201-472e-b206-35a9a52e7ad7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasecton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="94826ad5-369d-4057-a64d-592299ba4900">
+		<cim:IdentifiedObject.mRID>94826ad5-369d-4057-a64d-592299ba4900</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseCtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -955,9 +955,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f3c75f11-a849-4e7e-a8c7-898fdcc5ea2a">
-		<cim:IdentifiedObject.mRID>f3c75f11-a849-4e7e-a8c7-898fdcc5ea2a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered current phasea (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="844e9698-1e53-43c7-aff2-a0707bd10999">
+		<cim:IdentifiedObject.mRID>844e9698-1e53-43c7-aff2-a0707bd10999</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -969,9 +969,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4be745f0-579f-42a6-8426-55463549665a">
-		<cim:IdentifiedObject.mRID>4be745f0-579f-42a6-8426-55463549665a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered current phaseb (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="75d0bdf6-86e9-4417-b588-6dd908f304ab">
+		<cim:IdentifiedObject.mRID>75d0bdf6-86e9-4417-b588-6dd908f304ab</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseB (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -983,9 +983,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="47c9d197-afad-4d68-b406-ecd37b7d13b7">
-		<cim:IdentifiedObject.mRID>47c9d197-afad-4d68-b406-ecd37b7d13b7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered current phasec (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6be1696a-73af-4990-ad9a-b6103ef7ee7a">
+		<cim:IdentifiedObject.mRID>6be1696a-73af-4990-ad9a-b6103ef7ee7a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseC (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -997,9 +997,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="23e64d5d-8e2b-4272-b34d-03d45c61be8a">
-		<cim:IdentifiedObject.mRID>23e64d5d-8e2b-4272-b34d-03d45c61be8a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasea (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="9b77993f-f6ed-4a80-8cd9-5ec075a8e1dc">
+		<cim:IdentifiedObject.mRID>9b77993f-f6ed-4a80-8cd9-5ec075a8e1dc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1012,9 +1012,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="edca2374-cfc4-4cc3-86b8-a158238c0cb9">
-		<cim:IdentifiedObject.mRID>edca2374-cfc4-4cc3-86b8-a158238c0cb9</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="a72f13e9-5695-4e11-b154-03a765915616">
+		<cim:IdentifiedObject.mRID>a72f13e9-5695-4e11-b154-03a765915616</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1027,9 +1027,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="86bb6865-007e-41fd-9783-6284453641d8">
-		<cim:IdentifiedObject.mRID>86bb6865-007e-41fd-9783-6284453641d8</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasec (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="941359b6-1cc1-4152-a43d-8b54d4e7e0c1">
+		<cim:IdentifiedObject.mRID>941359b6-1cc1-4152-a43d-8b54d4e7e0c1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1042,9 +1042,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="db3d98de-1275-463e-861f-5dac3dd293c8">
-		<cim:IdentifiedObject.mRID>db3d98de-1275-463e-861f-5dac3dd293c8</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasea (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="235d8000-650f-4b5b-9ea4-33a9a2cf6609">
+		<cim:IdentifiedObject.mRID>235d8000-650f-4b5b-9ea4-33a9a2cf6609</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1057,9 +1057,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="9073e4f3-3877-4437-bf4b-72457f2c4122">
-		<cim:IdentifiedObject.mRID>9073e4f3-3877-4437-bf4b-72457f2c4122</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="ba1bbe98-b9bf-4fcd-93e0-143adea91e18">
+		<cim:IdentifiedObject.mRID>ba1bbe98-b9bf-4fcd-93e0-143adea91e18</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1072,9 +1072,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a00800d7-a795-4c87-b564-8236652f965f">
-		<cim:IdentifiedObject.mRID>a00800d7-a795-4c87-b564-8236652f965f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasec (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f0fdadb4-1264-49a2-a89c-e9a413320512">
+		<cim:IdentifiedObject.mRID>f0fdadb4-1264-49a2-a89c-e9a413320512</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1087,9 +1087,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="c90cf084-5d64-47bb-be9a-91dd7d7977b7">
-		<cim:IdentifiedObject.mRID>c90cf084-5d64-47bb-be9a-91dd7d7977b7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="8044755a-e54c-428f-a5a6-0a1fc3dd402c">
+		<cim:IdentifiedObject.mRID>8044755a-e54c-428f-a5a6-0a1fc3dd402c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1102,9 +1102,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="63847c9a-5bba-40aa-9f55-cf856156e451">
-		<cim:IdentifiedObject.mRID>63847c9a-5bba-40aa-9f55-cf856156e451</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasesabc (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6ec6bc62-2ba2-4f6a-8d0b-240fe8c5e661">
+		<cim:IdentifiedObject.mRID>6ec6bc62-2ba2-4f6a-8d0b-240fe8c5e661</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1116,9 +1116,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="8f66de54-eb8f-421c-85d2-3f7aa2acbada">
-		<cim:IdentifiedObject.mRID>8f66de54-eb8f-421c-85d2-3f7aa2acbada</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered frequency (hz)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="7d19db2a-a48b-42ed-9892-320d517d9a39">
+		<cim:IdentifiedObject.mRID>7d19db2a-a48b-42ed-9892-320d517d9a39</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered frequency (Hz)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1129,9 +1129,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="17246a6a-eea2-48ee-8ae4-2a74a9f9f7b4">
-		<cim:IdentifiedObject.mRID>17246a6a-eea2-48ee-8ae4-2a74a9f9f7b4</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phaseatob (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="2041139a-43ac-43a8-975d-8f49c459d07a">
+		<cim:IdentifiedObject.mRID>2041139a-43ac-43a8-975d-8f49c459d07a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoB (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1143,9 +1143,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="ba42c4ab-1ad9-415e-b276-465cb4507320">
-		<cim:IdentifiedObject.mRID>ba42c4ab-1ad9-415e-b276-465cb4507320</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasebtoc (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="3f48da16-8765-481c-9d62-8a07e3f8b7c2">
+		<cim:IdentifiedObject.mRID>3f48da16-8765-481c-9d62-8a07e3f8b7c2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoC (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1157,9 +1157,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="0c93a13a-d1e6-4c7a-bb7c-243c188f16bb">
-		<cim:IdentifiedObject.mRID>0c93a13a-d1e6-4c7a-bb7c-243c188f16bb</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasea (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="af61424d-799f-40eb-b332-34ca5e24b0e7">
+		<cim:IdentifiedObject.mRID>af61424d-799f-40eb-b332-34ca5e24b0e7</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1172,9 +1172,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="dbc34e31-9912-4706-b713-0b2956afc21a">
-		<cim:IdentifiedObject.mRID>dbc34e31-9912-4706-b713-0b2956afc21a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phaseb (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="62f31f57-5a8a-40f7-8d3c-0591eaadf248">
+		<cim:IdentifiedObject.mRID>62f31f57-5a8a-40f7-8d3c-0591eaadf248</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1187,9 +1187,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a59832d5-1aaa-4ab1-b48f-db9a84c2583f">
-		<cim:IdentifiedObject.mRID>a59832d5-1aaa-4ab1-b48f-db9a84c2583f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasec (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="905ff604-501f-4a75-be71-0f450a61721e">
+		<cim:IdentifiedObject.mRID>905ff604-501f-4a75-be71-0f450a61721e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1202,9 +1202,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="27812e07-f427-4bc5-a1bc-6fef9fa26ea7">
-		<cim:IdentifiedObject.mRID>27812e07-f427-4bc5-a1bc-6fef9fa26ea7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasea (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="15e6ea27-f9df-43cd-a42a-7fc827d4378f">
+		<cim:IdentifiedObject.mRID>15e6ea27-f9df-43cd-a42a-7fc827d4378f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1217,9 +1217,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="818e8f5e-df20-4c88-b4ae-40c329ae82c5">
-		<cim:IdentifiedObject.mRID>818e8f5e-df20-4c88-b4ae-40c329ae82c5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phaseb (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="849a6786-6bae-4d62-b7fc-2b9be70b5ce2">
+		<cim:IdentifiedObject.mRID>849a6786-6bae-4d62-b7fc-2b9be70b5ce2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1232,9 +1232,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="99197402-73c4-470a-ac96-8a640d43e19c">
-		<cim:IdentifiedObject.mRID>99197402-73c4-470a-ac96-8a640d43e19c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasec (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="11ec7da7-07c9-4d5d-bf8e-846340b5c1b1">
+		<cim:IdentifiedObject.mRID>11ec7da7-07c9-4d5d-bf8e-846340b5c1b1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1247,9 +1247,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="07057d20-a4ca-47fd-98fe-041fde918784">
-		<cim:IdentifiedObject.mRID>07057d20-a4ca-47fd-98fe-041fde918784</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c8945301-414c-49c1-9efd-beef940a4a97">
+		<cim:IdentifiedObject.mRID>c8945301-414c-49c1-9efd-beef940a4a97</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1262,9 +1262,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4d661843-4b8d-43a7-96c3-2e06625910c9">
-		<cim:IdentifiedObject.mRID>4d661843-4b8d-43a7-96c3-2e06625910c9</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="95887bb0-bb7b-43fc-9352-9a364e72b17b">
+		<cim:IdentifiedObject.mRID>95887bb0-bb7b-43fc-9352-9a364e72b17b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1277,9 +1277,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="6282e1b0-2a32-442a-b9f1-55fb35ed79e4">
-		<cim:IdentifiedObject.mRID>6282e1b0-2a32-442a-b9f1-55fb35ed79e4</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasea (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="45cfb58f-5a4a-4d33-a15f-ab7b924e0977">
+		<cim:IdentifiedObject.mRID>45cfb58f-5a4a-4d33-a15f-ab7b924e0977</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1292,9 +1292,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e19431f5-c741-409e-98a6-9bcdac33d1a7">
-		<cim:IdentifiedObject.mRID>e19431f5-c741-409e-98a6-9bcdac33d1a7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="39c33ca4-04c2-4c75-82bc-0f16f949e68f">
+		<cim:IdentifiedObject.mRID>39c33ca4-04c2-4c75-82bc-0f16f949e68f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1307,9 +1307,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a6265a8d-1041-41ed-97b7-4bcc6ab3b276">
-		<cim:IdentifiedObject.mRID>a6265a8d-1041-41ed-97b7-4bcc6ab3b276</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered power phasec (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="abe786cc-7004-4788-9aca-774a03bb9321">
+		<cim:IdentifiedObject.mRID>abe786cc-7004-4788-9aca-774a03bb9321</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1322,9 +1322,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="08012181-83f8-4c8a-9cb2-67dbd0b1cfc7">
-		<cim:IdentifiedObject.mRID>08012181-83f8-4c8a-9cb2-67dbd0b1cfc7</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasea (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c61be936-d0e4-4d00-85b9-9cba383ec40f">
+		<cim:IdentifiedObject.mRID>c61be936-d0e4-4d00-85b9-9cba383ec40f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseA (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1336,9 +1336,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a215bdae-a1e4-432e-ac5b-24b6b716efe4">
-		<cim:IdentifiedObject.mRID>a215bdae-a1e4-432e-ac5b-24b6b716efe4</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phaseb (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="7a727b78-4af0-47bb-8f14-12523c95a8dd">
+		<cim:IdentifiedObject.mRID>7a727b78-4af0-47bb-8f14-12523c95a8dd</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseB (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1350,9 +1350,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="67a61289-4eb7-4d02-8317-1c6c73e32913">
-		<cim:IdentifiedObject.mRID>67a61289-4eb7-4d02-8317-1c6c73e32913</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasec (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6f6b46b1-a5ae-40b3-ad6d-7e345433c23e">
+		<cim:IdentifiedObject.mRID>6f6b46b1-a5ae-40b3-ad6d-7e345433c23e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseC (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1364,9 +1364,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="af2611f2-70ae-41df-8a91-fdf7904cf4b3">
-		<cim:IdentifiedObject.mRID>af2611f2-70ae-41df-8a91-fdf7904cf4b3</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous q1plusq3 electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="3d369940-4f40-4a9e-9f10-ac578c830bbe">
+		<cim:IdentifiedObject.mRID>3d369940-4f40-4a9e-9f10-ac578c830bbe</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous q1plusQ3 electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1379,9 +1379,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="8997fbe1-3b69-48b2-ac5a-219709f0749f">
-		<cim:IdentifiedObject.mRID>8997fbe1-3b69-48b2-ac5a-219709f0749f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous q2plusq4 electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="4c2f3076-63c8-438a-9161-b34e6bf03863">
+		<cim:IdentifiedObject.mRID>4c2f3076-63c8-438a-9161-b34e6bf03863</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous q2plusQ4 electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1394,9 +1394,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f2254d3d-def9-4e0e-8290-268013b55e2f">
-		<cim:IdentifiedObject.mRID>f2254d3d-def9-4e0e-8290-268013b55e2f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="2052b9db-068d-4f33-ae54-2d75edca9cf5">
+		<cim:IdentifiedObject.mRID>2052b9db-068d-4f33-ae54-2d75edca9cf5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0"/>
 		<cim:IdentifiedObject.name>0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1409,9 +1409,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="2ceea53d-c31b-4c5d-9bc2-81d9b984a052">
-		<cim:IdentifiedObject.mRID>2ceea53d-c31b-4c5d-9bc2-81d9b984a052</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasesabc (costheta)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6c556063-d246-4b0e-93d0-7588e9c34d3e">
+		<cim:IdentifiedObject.mRID>6c556063-d246-4b0e-93d0-7588e9c34d3e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (Cosθ)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1423,9 +1423,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a197e6ff-b8d1-4fbc-a126-03ba83870707">
-		<cim:IdentifiedObject.mRID>a197e6ff-b8d1-4fbc-a126-03ba83870707</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c3a88805-c4a6-4387-93f3-55cfaeac3076">
+		<cim:IdentifiedObject.mRID>c3a88805-c4a6-4387-93f3-55cfaeac3076</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0"/>
 		<cim:IdentifiedObject.name>0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1438,9 +1438,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="b2b79e11-684f-4adb-b655-e6eb82077366">
-		<cim:IdentifiedObject.mRID>b2b79e11-684f-4adb-b655-e6eb82077366</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kvah)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="040bd576-249f-4bf0-9ec1-f126cd2c54fd">
+		<cim:IdentifiedObject.mRID>040bd576-249f-4bf0-9ec1-f126cd2c54fd</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVAh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0"/>
 		<cim:IdentifiedObject.name>0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1453,9 +1453,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="004720df-3dd3-470c-8016-a1f582e0231c">
-		<cim:IdentifiedObject.mRID>004720df-3dd3-470c-8016-a1f582e0231c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous insulativeoil temperature (degc)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="1ca5b648-1532-4d43-a7c6-424070d41477">
+		<cim:IdentifiedObject.mRID>1ca5b648-1532-4d43-a7c6-424070d41477</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous insulativeOil temperature (°C)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1465,9 +1465,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="bc4b4313-7411-478a-85fa-08a9963d5983">
-		<cim:IdentifiedObject.mRID>bc4b4313-7411-478a-85fa-08a9963d5983</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous insulativeoil (hpa)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f19a623c-c249-4e40-8b37-595b794b51c0">
+		<cim:IdentifiedObject.mRID>f19a623c-c249-4e40-8b37-595b794b51c0</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous insulativeOil (hPa)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1477,9 +1477,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="200faeb7-2650-473c-b150-8dbff10c61e5">
-		<cim:IdentifiedObject.mRID>200faeb7-2650-473c-b150-8dbff10c61e5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>maximum fifteenminute instantaneous air temperature (degc)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e4e25868-ab76-4f71-990f-367fcde7044e">
+		<cim:IdentifiedObject.mRID>e4e25868-ab76-4f71-990f-367fcde7044e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>maximum fifteenMinute instantaneous air temperature (°C)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0"/>
 		<cim:IdentifiedObject.name>0.8.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1489,9 +1489,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="fc2afc1a-31ee-40b4-90b3-8003f662a400">
-		<cim:IdentifiedObject.mRID>fc2afc1a-31ee-40b4-90b3-8003f662a400</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered voltagerms phaseaton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="018e30a9-d6a7-4682-98a6-071c5554f102">
+		<cim:IdentifiedObject.mRID>018e30a9-d6a7-4682-98a6-071c5554f102</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1503,9 +1503,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="da377928-1ef9-40f9-869d-01a9238f835c">
-		<cim:IdentifiedObject.mRID>da377928-1ef9-40f9-869d-01a9238f835c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasebton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="803b8499-6f8b-4c99-a49c-773957761264">
+		<cim:IdentifiedObject.mRID>803b8499-6f8b-4c99-a49c-773957761264</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1517,9 +1517,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="c8c5b28c-b542-4d75-8493-80fc97d64a40">
-		<cim:IdentifiedObject.mRID>c8c5b28c-b542-4d75-8493-80fc97d64a40</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasecton (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="90797b23-f387-4759-be91-5687795a52b1">
+		<cim:IdentifiedObject.mRID>90797b23-f387-4759-be91-5687795a52b1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseCtoN (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1531,9 +1531,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3c0c52ea-f99d-47e1-b003-9c1a6f6986f3">
-		<cim:IdentifiedObject.mRID>3c0c52ea-f99d-47e1-b003-9c1a6f6986f3</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered current phasea (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="a9318e26-a359-4913-bf5c-a3050f37a6ed">
+		<cim:IdentifiedObject.mRID>a9318e26-a359-4913-bf5c-a3050f37a6ed</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered current phaseA (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1545,9 +1545,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="1a8e44a8-ceec-4bb6-8a60-dd137cd0de11">
-		<cim:IdentifiedObject.mRID>1a8e44a8-ceec-4bb6-8a60-dd137cd0de11</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered current phaseb (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="13e64941-085e-49f5-998d-c90874fad482">
+		<cim:IdentifiedObject.mRID>13e64941-085e-49f5-998d-c90874fad482</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered current phaseB (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1559,9 +1559,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="7f2cf95b-8a98-481a-880e-c27739a4641e">
-		<cim:IdentifiedObject.mRID>7f2cf95b-8a98-481a-880e-c27739a4641e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered current phasec (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="22d69129-4fd6-42d2-b878-b67d6d872db3">
+		<cim:IdentifiedObject.mRID>22d69129-4fd6-42d2-b878-b67d6d872db3</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered current phaseC (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1573,9 +1573,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="0460dbae-14f6-44c0-a7fc-287e223dbf76">
-		<cim:IdentifiedObject.mRID>0460dbae-14f6-44c0-a7fc-287e223dbf76</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasea (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="0a7f80d6-6826-4ea1-a9d2-1d19ade69cca">
+		<cim:IdentifiedObject.mRID>0a7f80d6-6826-4ea1-a9d2-1d19ade69cca</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1588,9 +1588,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="75f002e3-cc7e-4afc-9faa-e09bab82820e">
-		<cim:IdentifiedObject.mRID>75f002e3-cc7e-4afc-9faa-e09bab82820e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="ca14440a-3712-4fce-8386-37c8f5018311">
+		<cim:IdentifiedObject.mRID>ca14440a-3712-4fce-8386-37c8f5018311</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1603,9 +1603,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a1918814-4c6a-4f23-ab57-44aeaa39b810">
-		<cim:IdentifiedObject.mRID>a1918814-4c6a-4f23-ab57-44aeaa39b810</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasec (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="cbe4458d-e71b-487c-b0d1-e7513fe8a1ec">
+		<cim:IdentifiedObject.mRID>cbe4458d-e71b-487c-b0d1-e7513fe8a1ec</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1618,9 +1618,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="99d3530a-ac03-4c0c-8799-0b75462bb336">
-		<cim:IdentifiedObject.mRID>99d3530a-ac03-4c0c-8799-0b75462bb336</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasea (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="a0ecef34-c9e9-4114-9204-cf5155c5e2ea">
+		<cim:IdentifiedObject.mRID>a0ecef34-c9e9-4114-9204-cf5155c5e2ea</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1633,9 +1633,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a5f08403-ddab-4e8f-aca5-19ad21626728">
-		<cim:IdentifiedObject.mRID>a5f08403-ddab-4e8f-aca5-19ad21626728</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="fd5849f1-b8e2-4df9-af8c-a9f14a796b31">
+		<cim:IdentifiedObject.mRID>fd5849f1-b8e2-4df9-af8c-a9f14a796b31</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1648,9 +1648,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a7f76d91-4294-4ab8-8a06-2184bc1915b9">
-		<cim:IdentifiedObject.mRID>a7f76d91-4294-4ab8-8a06-2184bc1915b9</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasec (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="adda8748-bee7-4379-b91f-aa6fcb314e01">
+		<cim:IdentifiedObject.mRID>adda8748-bee7-4379-b91f-aa6fcb314e01</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1663,9 +1663,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="9bd67a07-faf8-409e-8a55-f3a5fb36431d">
-		<cim:IdentifiedObject.mRID>9bd67a07-faf8-409e-8a55-f3a5fb36431d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kw)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="5a503449-5324-4316-a68f-21910a0ade29">
+		<cim:IdentifiedObject.mRID>5a503449-5324-4316-a68f-21910a0ade29</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kW)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1678,9 +1678,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f537231c-94a2-48c2-8bed-e805fea154c0">
-		<cim:IdentifiedObject.mRID>f537231c-94a2-48c2-8bed-e805fea154c0</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasesabc (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e40c37ca-2229-46c8-96de-293f5b92beb0">
+		<cim:IdentifiedObject.mRID>e40c37ca-2229-46c8-96de-293f5b92beb0</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1692,9 +1692,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="436f0a0c-f211-4654-902f-558deeebd18f">
-		<cim:IdentifiedObject.mRID>436f0a0c-f211-4654-902f-558deeebd18f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered frequency (hz)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="706f044b-b259-40dd-b37e-7f595a4c7990">
+		<cim:IdentifiedObject.mRID>706f044b-b259-40dd-b37e-7f595a4c7990</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered frequency (Hz)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1705,9 +1705,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="d79228f3-756f-4e0e-87e6-828ec41f4280">
-		<cim:IdentifiedObject.mRID>d79228f3-756f-4e0e-87e6-828ec41f4280</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered voltagerms phaseatob (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e70082e5-6643-44ce-96b0-507b0ced477c">
+		<cim:IdentifiedObject.mRID>e70082e5-6643-44ce-96b0-507b0ced477c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoB (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1719,9 +1719,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="66626e8d-1925-4776-ad07-4b9089e65c49">
-		<cim:IdentifiedObject.mRID>66626e8d-1925-4776-ad07-4b9089e65c49</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered voltagerms phasebtoc (v)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c69a0092-a9de-4ad3-b0cc-0d019304cdd9">
+		<cim:IdentifiedObject.mRID>c69a0092-a9de-4ad3-b0cc-0d019304cdd9</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoC (V)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1733,9 +1733,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="eacdc781-dbe3-42d0-a7b7-49877b763cea">
-		<cim:IdentifiedObject.mRID>eacdc781-dbe3-42d0-a7b7-49877b763cea</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasea (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="8ddc293f-6144-4e87-b782-a3a6ac87c6fc">
+		<cim:IdentifiedObject.mRID>8ddc293f-6144-4e87-b782-a3a6ac87c6fc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1748,9 +1748,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="6596b7ff-712a-46c1-9493-fac4ab50d7c5">
-		<cim:IdentifiedObject.mRID>6596b7ff-712a-46c1-9493-fac4ab50d7c5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phaseb (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="9fe15728-93a7-4517-ab1e-b43740acc3af">
+		<cim:IdentifiedObject.mRID>9fe15728-93a7-4517-ab1e-b43740acc3af</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1763,9 +1763,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="68e91bac-f294-48f5-bc07-c6451fbab9ee">
-		<cim:IdentifiedObject.mRID>68e91bac-f294-48f5-bc07-c6451fbab9ee</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasec (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e78160a1-3f23-49ce-9970-e3c52d7e000b">
+		<cim:IdentifiedObject.mRID>e78160a1-3f23-49ce-9970-e3c52d7e000b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1778,9 +1778,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="ee68b24e-1881-4d1c-b4b2-f7be5ebc63ae">
-		<cim:IdentifiedObject.mRID>ee68b24e-1881-4d1c-b4b2-f7be5ebc63ae</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasea (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="1ddfda5f-5e0a-4808-9eb8-b032730e458c">
+		<cim:IdentifiedObject.mRID>1ddfda5f-5e0a-4808-9eb8-b032730e458c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1793,9 +1793,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a021c500-e4fa-46a1-953f-38fa6885edb9">
-		<cim:IdentifiedObject.mRID>a021c500-e4fa-46a1-953f-38fa6885edb9</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phaseb (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="125b7a88-d18c-4f45-9029-316924596ce4">
+		<cim:IdentifiedObject.mRID>125b7a88-d18c-4f45-9029-316924596ce4</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1808,9 +1808,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="17fe93e7-12d4-4397-9321-652efb6ad92d">
-		<cim:IdentifiedObject.mRID>17fe93e7-12d4-4397-9321-652efb6ad92d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered totalharmonicdistortion phasec (%)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="4a42f31b-1dbb-417a-9c53-47b6a92b065b">
+		<cim:IdentifiedObject.mRID>4a42f31b-1dbb-417a-9c53-47b6a92b065b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1823,9 +1823,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="60924cc3-0d52-454f-918f-5dc236516862">
-		<cim:IdentifiedObject.mRID>60924cc3-0d52-454f-918f-5dc236516862</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="ef23b107-111d-4d6e-9a5d-5851efb10213">
+		<cim:IdentifiedObject.mRID>ef23b107-111d-4d6e-9a5d-5851efb10213</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1838,9 +1838,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a1720ebc-1f69-4c7f-bf1b-003e9a46cc6a">
-		<cim:IdentifiedObject.mRID>a1720ebc-1f69-4c7f-bf1b-003e9a46cc6a</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="5d8d5934-b073-41e1-be20-07c91dfa21d6">
+		<cim:IdentifiedObject.mRID>5d8d5934-b073-41e1-be20-07c91dfa21d6</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1853,9 +1853,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="95235758-021d-49a3-8f3f-7e61e2fe76cd">
-		<cim:IdentifiedObject.mRID>95235758-021d-49a3-8f3f-7e61e2fe76cd</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered current phasesabc (a)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c27b21ac-81da-46ab-8e7f-5e373677e7df">
+		<cim:IdentifiedObject.mRID>c27b21ac-81da-46ab-8e7f-5e373677e7df</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered current phasesABC (A)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.224.0.5.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.4.0.0.0.0.0.0.0.224.0.5.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1867,9 +1867,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="9f3ef176-bb9c-41d9-b123-c650238dc493">
-		<cim:IdentifiedObject.mRID>9f3ef176-bb9c-41d9-b123-c650238dc493</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasea (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="b054e332-620e-4037-b65f-edd6d5e0ebd3">
+		<cim:IdentifiedObject.mRID>b054e332-620e-4037-b65f-edd6d5e0ebd3</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1882,9 +1882,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="64b54bdd-4ae6-416d-bd21-a83152236619">
-		<cim:IdentifiedObject.mRID>64b54bdd-4ae6-416d-bd21-a83152236619</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phaseb (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="8ef57a0d-793c-47e9-ac62-3f2c602ff2a6">
+		<cim:IdentifiedObject.mRID>8ef57a0d-793c-47e9-ac62-3f2c602ff2a6</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1897,9 +1897,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="71cce860-c89f-4590-9659-939906731348">
-		<cim:IdentifiedObject.mRID>71cce860-c89f-4590-9659-939906731348</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered power phasec (kva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f88cfe34-eaac-4553-8452-4e12f6c96ee4">
+		<cim:IdentifiedObject.mRID>f88cfe34-eaac-4553-8452-4e12f6c96ee4</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1912,9 +1912,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="215ed674-e988-4358-a687-75b22d9b58a3">
-		<cim:IdentifiedObject.mRID>215ed674-e988-4358-a687-75b22d9b58a3</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasea (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="0b68e544-4f57-4327-a86a-06b34bd05544">
+		<cim:IdentifiedObject.mRID>0b68e544-4f57-4327-a86a-06b34bd05544</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseA (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1926,9 +1926,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3424363a-a535-4afa-aaad-a421240f1d63">
-		<cim:IdentifiedObject.mRID>3424363a-a535-4afa-aaad-a421240f1d63</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered powerfactor phaseb (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="5e6dd03c-d638-4ea8-882e-351c29cd2669">
+		<cim:IdentifiedObject.mRID>5e6dd03c-d638-4ea8-882e-351c29cd2669</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseB (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1940,9 +1940,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="d4d16681-5292-4241-a794-f25cc9f4b986">
-		<cim:IdentifiedObject.mRID>d4d16681-5292-4241-a794-f25cc9f4b986</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasec (wperva)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="554c8014-5561-423f-8f5a-3eb0df392373">
+		<cim:IdentifiedObject.mRID>554c8014-5561-423f-8f5a-3eb0df392373</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseC (W/VA)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1954,9 +1954,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="6e56af34-a8d0-4bf5-8c23-16ed5c44b25d">
-		<cim:IdentifiedObject.mRID>6e56af34-a8d0-4bf5-8c23-16ed5c44b25d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous q1plusq3 electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="16c01af9-e599-4c91-9699-292a09f614d5">
+		<cim:IdentifiedObject.mRID>16c01af9-e599-4c91-9699-292a09f614d5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous q1plusQ3 electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1969,9 +1969,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4d9e10ff-31be-41bb-879b-b4cc3b6b5bad">
-		<cim:IdentifiedObject.mRID>4d9e10ff-31be-41bb-879b-b4cc3b6b5bad</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous q2plusq4 electricitysecondarymetered power phasesabc (kvar)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="8ada877e-0b84-4743-96aa-d06ad4d7cb4e">
+		<cim:IdentifiedObject.mRID>8ada877e-0b84-4743-96aa-d06ad4d7cb4e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous q2plusQ4 electricitySecondaryMetered power phasesABC (kVAr)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1984,9 +1984,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="108bd0e2-c753-4dfa-b5bb-9f2a064e8264">
-		<cim:IdentifiedObject.mRID>108bd0e2-c753-4dfa-b5bb-9f2a064e8264</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="62e83a9e-ff0e-4581-a502-bd980e267bca">
+		<cim:IdentifiedObject.mRID>62e83a9e-ff0e-4581-a502-bd980e267bca</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0"/>
 		<cim:IdentifiedObject.name>0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -1999,9 +1999,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="736547d0-7e74-4a8b-8542-569d62cda084">
-		<cim:IdentifiedObject.mRID>736547d0-7e74-4a8b-8542-569d62cda084</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous forward electricitysecondarymetered powerfactor phasesabc (costheta)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f6ba9496-0d48-4f09-8516-73cdbbe06a3b">
+		<cim:IdentifiedObject.mRID>f6ba9496-0d48-4f09-8516-73cdbbe06a3b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (Cosθ)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -2013,9 +2013,9 @@
 		<cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="759c3a70-e5c5-42d0-945b-880ba9047bc3">
-		<cim:IdentifiedObject.mRID>759c3a70-e5c5-42d0-945b-880ba9047bc3</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e468752e-631d-4a13-b65b-0c20fcea8898">
+		<cim:IdentifiedObject.mRID>e468752e-631d-4a13-b65b-0c20fcea8898</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0"/>
 		<cim:IdentifiedObject.name>0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -2028,9 +2028,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3c6b9c48-9305-445c-830a-cbeb22d422f2">
-		<cim:IdentifiedObject.mRID>3c6b9c48-9305-445c-830a-cbeb22d422f2</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute bulkquantity forward electricitysecondarymetered energy phasesabc (kvah)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="02f409d1-5a4e-4140-95a9-ef5cf621363a">
+		<cim:IdentifiedObject.mRID>02f409d1-5a4e-4140-95a9-ef5cf621363a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVAh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0"/>
 		<cim:IdentifiedObject.name>0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -2043,9 +2043,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a878c767-9944-48eb-aac7-fb2080fa259e">
-		<cim:IdentifiedObject.mRID>a878c767-9944-48eb-aac7-fb2080fa259e</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous insulativeoil temperature (degc)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="299958a2-5418-457a-8d5f-fba982607511">
+		<cim:IdentifiedObject.mRID>299958a2-5418-457a-8d5f-fba982607511</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous insulativeOil temperature (°C)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -2055,9 +2055,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="254f70be-cdf8-4e2f-bc3b-288b9c501a3b">
-		<cim:IdentifiedObject.mRID>254f70be-cdf8-4e2f-bc3b-288b9c501a3b</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous insulativeoil (hpa)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f8cb460d-0a89-4aac-b7cd-04ea51de4b4e">
+		<cim:IdentifiedObject.mRID>f8cb460d-0a89-4aac-b7cd-04ea51de4b4e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous insulativeOil (hPa)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -2067,9 +2067,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3f136ce8-769f-48cc-8bd5-9560592998f5">
-		<cim:IdentifiedObject.mRID>3f136ce8-769f-48cc-8bd5-9560592998f5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>average fifteenminute instantaneous air temperature (degc)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="22403b75-d4ac-4f56-b129-6cc2ae90be4b">
+		<cim:IdentifiedObject.mRID>22403b75-d4ac-4f56-b129-6cc2ae90be4b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>average fifteenMinute instantaneous air temperature (°C)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0"/>
 		<cim:IdentifiedObject.name>0.2.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0</cim:IdentifiedObject.name>
 		<cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
@@ -2079,9 +2079,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4120e4e6-adde-4712-8555-c667dbc572da">
-		<cim:IdentifiedObject.mRID>4120e4e6-adde-4712-8555-c667dbc572da</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity quadrant1 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="9c0117de-273a-4227-9a91-ba0117e4d7cc">
+		<cim:IdentifiedObject.mRID>9c0117de-273a-4227-9a91-ba0117e4d7cc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity quadrant1 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2092,9 +2092,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="e00459e0-5b3f-4b35-b8b8-defbbefc41ee">
-		<cim:IdentifiedObject.mRID>e00459e0-5b3f-4b35-b8b8-defbbefc41ee</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity quadrant4 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="59d44d6e-ee14-4e99-b511-47bc784270e2">
+		<cim:IdentifiedObject.mRID>59d44d6e-ee14-4e99-b511-47bc784270e2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity quadrant4 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2105,9 +2105,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="bad7f738-2724-41b8-a080-ebd2ab4e4a58">
-		<cim:IdentifiedObject.mRID>bad7f738-2724-41b8-a080-ebd2ab4e4a58</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity quadrant2 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="2270c649-919f-4a25-a595-48bafe360dde">
+		<cim:IdentifiedObject.mRID>2270c649-919f-4a25-a595-48bafe360dde</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity quadrant2 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2118,9 +2118,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="8b756a29-ed18-472e-a6f3-c5e6821014af">
-		<cim:IdentifiedObject.mRID>8b756a29-ed18-472e-a6f3-c5e6821014af</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute bulkquantity quadrant3 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="30ad79ab-724e-4195-8634-f17ed3f65c1f">
+		<cim:IdentifiedObject.mRID>30ad79ab-724e-4195-8634-f17ed3f65c1f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute bulkQuantity quadrant3 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2131,9 +2131,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="42fddd40-7368-4700-a8af-d884790d55a0">
-		<cim:IdentifiedObject.mRID>42fddd40-7368-4700-a8af-d884790d55a0</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata forward electricitysecondarymetered energy (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="66e8afc6-7339-44fc-b77f-401ef1e4d9bf">
+		<cim:IdentifiedObject.mRID>66e8afc6-7339-44fc-b77f-401ef1e4d9bf</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2144,9 +2144,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="4bb4f781-4aed-4764-a906-122bd675ab67">
-		<cim:IdentifiedObject.mRID>4bb4f781-4aed-4764-a906-122bd675ab67</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata forward electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="bdfe5fa5-0bf4-45cf-8f58-b35a3fd36bee">
+		<cim:IdentifiedObject.mRID>bdfe5fa5-0bf4-45cf-8f58-b35a3fd36bee</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2157,9 +2157,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="925b4e04-eb62-4d55-96a3-13c776b5c418">
-		<cim:IdentifiedObject.mRID>925b4e04-eb62-4d55-96a3-13c776b5c418</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata reverse electricitysecondarymetered energy (kwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6127360a-c81a-46a4-8be4-c45034df0ea5">
+		<cim:IdentifiedObject.mRID>6127360a-c81a-46a4-8be4-c45034df0ea5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData reverse electricitySecondaryMetered energy (kWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2170,9 +2170,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="26206a92-39d9-4fcf-a9b0-72d580a7e823">
-		<cim:IdentifiedObject.mRID>26206a92-39d9-4fcf-a9b0-72d580a7e823</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata reverse electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="b72913f6-528f-48c6-93ae-415e63ae2e22">
+		<cim:IdentifiedObject.mRID>b72913f6-528f-48c6-93ae-415e63ae2e22</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData reverse electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2183,9 +2183,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f656386b-ab0c-4348-b3c7-72d530e9b697">
-		<cim:IdentifiedObject.mRID>f656386b-ab0c-4348-b3c7-72d530e9b697</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant1 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="106961ee-4636-4960-8838-460e4fce97d2">
+		<cim:IdentifiedObject.mRID>106961ee-4636-4960-8838-460e4fce97d2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant1 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2196,9 +2196,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="9c857a2f-a9f1-43a9-aca0-926549244b4c">
-		<cim:IdentifiedObject.mRID>9c857a2f-a9f1-43a9-aca0-926549244b4c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant4 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="82153f3d-b692-470b-aa91-f20c596d55d8">
+		<cim:IdentifiedObject.mRID>82153f3d-b692-470b-aa91-f20c596d55d8</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant4 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2209,9 +2209,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="f541fb10-b967-4b8b-8cfb-e410bc27da48">
-		<cim:IdentifiedObject.mRID>f541fb10-b967-4b8b-8cfb-e410bc27da48</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant2 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="a598f2c9-8a2a-41b4-aca9-7f62e1b415af">
+		<cim:IdentifiedObject.mRID>a598f2c9-8a2a-41b4-aca9-7f62e1b415af</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant2 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2222,9 +2222,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="11c02ccd-5825-45fc-bbd5-de3ea36b88ec">
-		<cim:IdentifiedObject.mRID>11c02ccd-5825-45fc-bbd5-de3ea36b88ec</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant3 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="842b1679-15ba-49bd-877d-b627083b2e71">
+		<cim:IdentifiedObject.mRID>842b1679-15ba-49bd-877d-b627083b2e71</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant3 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2235,9 +2235,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="324c6f73-3593-4fc7-9327-838f45963923">
-		<cim:IdentifiedObject.mRID>324c6f73-3593-4fc7-9327-838f45963923</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata forward electricitysecondarymetered energy (wh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="c970d8d8-fbb6-4dc4-852b-062d97923ca1">
+		<cim:IdentifiedObject.mRID>c970d8d8-fbb6-4dc4-852b-062d97923ca1</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (Wh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.72.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2247,9 +2247,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="324fec6c-c60d-469f-8082-95f614c95c4c">
-		<cim:IdentifiedObject.mRID>324fec6c-c60d-469f-8082-95f614c95c4c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata forward electricitysecondarymetered energy (varh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="78dbcdb1-3d3a-4997-8743-af21181dcc68">
+		<cim:IdentifiedObject.mRID>78dbcdb1-3d3a-4997-8743-af21181dcc68</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData forward electricitySecondaryMetered energy (VArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2259,9 +2259,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="eb064b58-cb40-4c5c-859b-d5d93c536f42">
-		<cim:IdentifiedObject.mRID>eb064b58-cb40-4c5c-859b-d5d93c536f42</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata reverse electricitysecondarymetered energy (wh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="6c858bac-ec15-456b-a5ce-56fdd93c384a">
+		<cim:IdentifiedObject.mRID>6c858bac-ec15-456b-a5ce-56fdd93c384a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData reverse electricitySecondaryMetered energy (Wh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.72.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2271,9 +2271,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="fe8a5f93-61ae-40d2-989e-2403c2969fd2">
-		<cim:IdentifiedObject.mRID>fe8a5f93-61ae-40d2-989e-2403c2969fd2</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata reverse electricitysecondarymetered energy (varh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="67dee17a-b137-42c8-80ad-90b4532c1862">
+		<cim:IdentifiedObject.mRID>67dee17a-b137-42c8-80ad-90b4532c1862</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData reverse electricitySecondaryMetered energy (VArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2283,9 +2283,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="0d5da02b-1581-48fc-9597-143dab2c9673">
-		<cim:IdentifiedObject.mRID>0d5da02b-1581-48fc-9597-143dab2c9673</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant1 electricitysecondarymetered energy (varh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="acc55f80-01c9-4a55-9244-b3c28e900ec5">
+		<cim:IdentifiedObject.mRID>acc55f80-01c9-4a55-9244-b3c28e900ec5</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant1 electricitySecondaryMetered energy (VArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.0.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.0.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2295,9 +2295,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="439b331f-3a67-49fb-8a47-7892e98b268c">
-		<cim:IdentifiedObject.mRID>439b331f-3a67-49fb-8a47-7892e98b268c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant4 electricitysecondarymetered energy (varh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e422a4b1-1177-4669-95da-a41ce237d76d">
+		<cim:IdentifiedObject.mRID>e422a4b1-1177-4669-95da-a41ce237d76d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant4 electricitySecondaryMetered energy (VArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.0.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.0.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2307,9 +2307,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="fbe41336-d45d-4b11-a78f-d8a1fce6a207">
-		<cim:IdentifiedObject.mRID>fbe41336-d45d-4b11-a78f-d8a1fce6a207</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant2 electricitysecondarymetered energy (varh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="524af4c7-ea84-4289-af30-3bbcac7ed86a">
+		<cim:IdentifiedObject.mRID>524af4c7-ea84-4289-af30-3bbcac7ed86a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant2 electricitySecondaryMetered energy (VArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.0.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.0.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2319,9 +2319,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="585aab46-5522-4728-87fc-dfbacc7f64d5">
-		<cim:IdentifiedObject.mRID>585aab46-5522-4728-87fc-dfbacc7f64d5</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute deltadata quadrant3 electricitysecondarymetered energy (varh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="12b34e3f-8c20-4ad8-9c4c-7cf3b2811bbd">
+		<cim:IdentifiedObject.mRID>12b34e3f-8c20-4ad8-9c4c-7cf3b2811bbd</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute deltaData quadrant3 electricitySecondaryMetered energy (VArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.0.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.0.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2331,9 +2331,9 @@
 		<cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="ada35560-7c66-4dfd-a88c-d2ffb99aeb99">
-		<cim:IdentifiedObject.mRID>ada35560-7c66-4dfd-a88c-d2ffb99aeb99</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata forward electricitysecondarymetered energy (mwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="51824e7e-0421-426e-a7c6-ae9ddcec7e30">
+		<cim:IdentifiedObject.mRID>51824e7e-0421-426e-a7c6-ae9ddcec7e30</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData forward electricitySecondaryMetered energy (MWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.72.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2344,9 +2344,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="3fa16e8c-3daf-46ef-b13f-0b8c74534e0f">
-		<cim:IdentifiedObject.mRID>3fa16e8c-3daf-46ef-b13f-0b8c74534e0f</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata forward electricitysecondarymetered energy (mvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="ae51dfa8-f99b-44f1-9d07-a4dbc0900d40">
+		<cim:IdentifiedObject.mRID>ae51dfa8-f99b-44f1-9d07-a4dbc0900d40</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData forward electricitySecondaryMetered energy (MVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2357,9 +2357,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="77de9f2d-6e09-4e11-a746-979f9852abc1">
-		<cim:IdentifiedObject.mRID>77de9f2d-6e09-4e11-a746-979f9852abc1</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata reverse electricitysecondarymetered energy (mwh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="506b0d07-15a6-410f-8a11-ee3e25d1b34c">
+		<cim:IdentifiedObject.mRID>506b0d07-15a6-410f-8a11-ee3e25d1b34c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData reverse electricitySecondaryMetered energy (MWh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.72.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.72.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2370,9 +2370,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="bc4e9904-99c2-47ca-9901-e34baf9cc2f0">
-		<cim:IdentifiedObject.mRID>bc4e9904-99c2-47ca-9901-e34baf9cc2f0</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata reverse electricitysecondarymetered energy (mvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="f83403c8-018f-467c-8522-7548a5a6609b">
+		<cim:IdentifiedObject.mRID>f83403c8-018f-467c-8522-7548a5a6609b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData reverse electricitySecondaryMetered energy (MVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2383,9 +2383,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="653d35c9-4c97-45ff-81ae-03a77b214a2c">
-		<cim:IdentifiedObject.mRID>653d35c9-4c97-45ff-81ae-03a77b214a2c</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata quadrant1 electricitysecondarymetered energy (mvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="3d189cb7-c826-456a-84e5-3c7355964ecd">
+		<cim:IdentifiedObject.mRID>3d189cb7-c826-456a-84e5-3c7355964ecd</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData quadrant1 electricitySecondaryMetered energy (MVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.15.1.12.0.0.0.0.0.0.0.0.6.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.15.1.12.0.0.0.0.0.0.0.0.6.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2396,9 +2396,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="a9b06d9c-d3c7-448d-80f5-237a5dddd76d">
-		<cim:IdentifiedObject.mRID>a9b06d9c-d3c7-448d-80f5-237a5dddd76d</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata quadrant4 electricitysecondarymetered energy (mvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="a5d2cafe-6f87-4cb1-a8b2-7b858e042611">
+		<cim:IdentifiedObject.mRID>a5d2cafe-6f87-4cb1-a8b2-7b858e042611</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData quadrant4 electricitySecondaryMetered energy (MVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.18.1.12.0.0.0.0.0.0.0.0.6.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.18.1.12.0.0.0.0.0.0.0.0.6.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2409,9 +2409,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="bddbddc4-8835-43a2-92bb-48c3d6f3f779">
-		<cim:IdentifiedObject.mRID>bddbddc4-8835-43a2-92bb-48c3d6f3f779</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata quadrant2 electricitysecondarymetered energy (mvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="efda8767-5b3a-48c6-a9f4-fff401df085d">
+		<cim:IdentifiedObject.mRID>efda8767-5b3a-48c6-a9f4-fff401df085d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData quadrant2 electricitySecondaryMetered energy (MVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.16.1.12.0.0.0.0.0.0.0.0.6.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.16.1.12.0.0.0.0.0.0.0.0.6.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2422,9 +2422,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="cc6ca0c4-669c-430c-ae91-14d907722659">
-		<cim:IdentifiedObject.mRID>cc6ca0c4-669c-430c-ae91-14d907722659</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>fifteenminute deltadata quadrant3 electricitysecondarymetered energy (mvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="e9b288df-4e94-42a8-a147-d4f99c539c15">
+		<cim:IdentifiedObject.mRID>e9b288df-4e94-42a8-a147-d4f99c539c15</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>fifteenMinute deltaData quadrant3 electricitySecondaryMetered energy (MVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.2.4.17.1.12.0.0.0.0.0.0.0.0.6.73.0"/>
 		<cim:IdentifiedObject.name>0.0.2.4.17.1.12.0.0.0.0.0.0.0.0.6.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2435,9 +2435,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="fb64da21-d3f0-42d2-8f32-bbf17ffd0c64">
-		<cim:IdentifiedObject.mRID>fb64da21-d3f0-42d2-8f32-bbf17ffd0c64</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity quadrant1 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="d315218d-dfad-44c2-8dc7-19021cfd4a19">
+		<cim:IdentifiedObject.mRID>d315218d-dfad-44c2-8dc7-19021cfd4a19</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity quadrant1 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2448,9 +2448,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="57df2496-7de4-4879-a040-0744038878ad">
-		<cim:IdentifiedObject.mRID>57df2496-7de4-4879-a040-0744038878ad</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity quadrant4 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="45ac96d5-0fb5-4795-a91f-e987f9dd90f4">
+		<cim:IdentifiedObject.mRID>45ac96d5-0fb5-4795-a91f-e987f9dd90f4</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity quadrant4 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2461,9 +2461,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="6d2c291c-e373-4b16-bb74-22a7aa2d1926">
-		<cim:IdentifiedObject.mRID>6d2c291c-e373-4b16-bb74-22a7aa2d1926</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity quadrant2 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="ddc3c373-ea95-47e9-a5c2-292d38f52084">
+		<cim:IdentifiedObject.mRID>ddc3c373-ea95-47e9-a5c2-292d38f52084</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity quadrant2 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
@@ -2474,9 +2474,9 @@
 		<cim:multiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.multiplier"/>
 		<cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
 	</cim:ReadingType>
-	<cim:ReadingType rdf:id="07335c25-a1e2-4488-9e59-b00b2c8f76fc">
-		<cim:IdentifiedObject.mRID>07335c25-a1e2-4488-9e59-b00b2c8f76fc</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.description>sixtyminute bulkquantity quadrant3 electricitysecondarymetered energy (kvarh)</cim:IdentifiedObject.description>
+	<cim:ReadingType rdf:id="d8305e9d-89a0-4d34-b881-633b6be4df39">
+		<cim:IdentifiedObject.mRID>d8305e9d-89a0-4d34-b881-633b6be4df39</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>sixtyMinute bulkQuantity quadrant3 electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
 		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.7.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.7.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
