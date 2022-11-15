@@ -3,11 +3,11 @@
 = Modeling guide
 :sectnums:
 
-*Version:* 2.0
+*Version:* 2.1
 
 The purpose of this document is to provide the necessary information to model an electrical power grid according to the DIGIN10 model. 
 
-The purpose of the DIGIN10 model is to equip the Norwegian power industry with a common tool for modeling the distribution network, in its entirety, in CGMES format.
+The purpose of the DIGIN10 model is to equip the Norwegian power industry with a common tool for modeling the distribution network, in its entirety, in CGMES format. The DIGIN10 model also includes examples for how the network model can be combined with MeterReading and Measurement data as well as the CDPSM v2.0.
 
 
 
@@ -15,144 +15,6 @@ The purpose of the DIGIN10 model is to equip the Norwegian power industry with a
 // ////////////////////////////////////////////////////////////
 :sectnums:
 == General requirements
-The DIGIN10 model contains the following profiles for each MAS or sourceActor:
-AC, AS, BM, CU, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
-
-=== Profile overview
-An overview of the classes currently included in each profile can be found in the below Table:
-
---
-[cols="1,1,1", width=100%]
-[#tab:overview_profiles] 
-|===
-|*Equipment Core* |*Steady State Hypothesis*| *Geographical Location* 
-1.7+<.<|  
-    *LV1:*
-    Fuse
-
-    *LV1 and MV1:*
-    ACLineSegment 
-    Bay
-    Breaker
-    BusbarSection
-    ConformLoad
-    ConformLoadGroup
-    ConnectivityNode
-    CurrentLimit
-    EquivalentInjection
-    Line
-    LoadArea
-    OperationalLimitSet
-    OperationalLimitType
-    SubLoadArea
-    Substation
-    Terminal 
-    Voltage level
-
-    *MV1:*
-    ControlArea
-    Disconnector
-    SynchronousMachine
-    GeneratingUnit
-    LinearShuntCompensator
-    LoadBreakSwitch
-    LoadResponseCharacteristic
-    PetersenCoil
-    PowerTransformer
-    PowerTransformerEnd
-    RatioTapChanger
-    RegulatingControl
-    TapChangerControl
-// ------------------------------------------------------------
-1.5+<.<|   *LV1:*
-    ACLineSegment
-    BusbarSection
-
-    *LV1 and MV1:*
-    Breaker
-    ConformLoad
-    CurrentLimit
-    EquivalentInjection
-    Terminal
-
-    *MV1:*
-    ControlArea
-    Disconnector
-    SynchronousMachine
-    GeneratingUnit
-    RegulatingControl
-    LinearShuntCompensator
-    LoadBreakSwitch
-    RatioTapChanger
-    RegulatingControl
-// ------------------------------------------------------------
-|   *LV1 and MV1:*
-    CoordinateSystem
-    Location
-    PositionPoint   
-// ------------------------------------------------------------ 
-|   *Diagram Layout*
-|   *LV1 and MV1:*
-    Diagram
-
-    *MV1:*
-    DiagramObject
-    DiagramObjectPoint
-    DiagramObjectStyle
-    TextDiagramObject 
-// ------------------------------------------------------------ 
-|*Customer*
-|   *LV1:*
-    UsagePoint  
-// ------------------------------------------------------------     
-// ------------------------------------------------------------     
-|*State Variables*  |   *Topology*
-
-// ------------------------------------------------------------ 
-|   *MV1-LV1:*
-    SvVoltage
-    SvPowerFlow
-    SvStatus
-    SvTapStep
-    SvShuntCompensatorSections
-
-|   *MV1-LV1:*
-    TopologicalIsland
-    TopologicalNode
-    ConnectivityNode
-    Terminal
-    pass:q[<br>]
-// ------------------------------------------------------------ 
-| *Equipment Operation* | *Equiment Short Circuit*| *Object Registry* 
-|   -
-|   -
-|   *LV1:*
-    Name
-    NameType
-    NameTypeAuthority 
-
-| *Base Voltage Reference Data* | *Geographical Region Reference Data*| *Boundary Model* 
-|   BasePower
-    BaseVoltage
-
-|   GeographicalRegion
-    SubGeographicalRegion
-|   *MV1-LV1:*
-    Bay
-    BoundaryPoint
-    ConnectivityNode
-    Substation
-    VoltageLevel
-
-    *HV1-MV1:*
-    BoundaryPoint
-    ConnectivityNode
-    Substation
-    VoltageLevel
-
-|=== 
---
-
 
 
 
@@ -163,7 +25,7 @@ The interested reader is referred to IEC 61970-600-1 (CGMES).
 
 
 === Units
-CGMES 2.4.15 currently only supports fixed units for any given attribute. The following units have been used for the DIGIN10 model:
+CGMES v3.0 currently only supports fixed units for any given attribute. The following units have been used for the DIGIN10 model:
 --
 [grid=none, frame=none, width=30em]
 |===
@@ -234,10 +96,10 @@ Line.Region is optional. For the EQ profiles it is included in the MV files but 
 LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
 
 === Measurement 
-Please refer to xref:MeasurementAndMeterReading.adoc[MeasurementAndMeterReading.adoc] for details.
+Please refer to xref:MeasurementAndMeterReading.adoc[ModelingGuide_Measurement.adoc] for details.
 
 === MeterReading
-Please refer to xref:MeasurementAndMeterReading.adoc[MeasurementAndMeterReading.adoc] for details.
+Please refer to xref:MeasurementAndMeterReading.adoc[ModelingGuide_MeterReading.adoc] for details.
 
 === ModelAuthoritySet
 The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed

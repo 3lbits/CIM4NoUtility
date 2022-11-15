@@ -1,0 +1,30 @@
+= Measurement and MeterReading specifications
+
+*Version:* 2.1
+
+[red]#When to use Measurement#
+
+== Measurement 
+The specialised classes Analog and AnalogValue are used to model measurements and measurement values. 
+
+* [red]#Issue 76#
+
+[red]#Scenarios for measurements of the following components are included in the DIGIN10 model:#
+ 
+ * PowerTransformer 
+ ** PowerTransformerEnd
+ * CurrentTransformer (CT)
+ * VoltageTransformer (VT)
+
+[red]#ref issue 158/159#
+
+ * Switching 
+ * PotentialTransformer 
+ * Consumption
+
+[red]#Describe how to use measurement#
+
+image::../diagrams/images/Measurement-modeling-example-AssetInfo.png[width=50%, pdfwidth=30vw]
+image::../diagrams/images/Measurement-modeling-example.png[width=50%, pdfwidth=30vw]
+
+include::..\docs\MeasurementType.adoc[]

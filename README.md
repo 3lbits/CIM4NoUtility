@@ -8,7 +8,7 @@ In the project «DIGIN CIM grunnprofiler for beregninger og simuleringer i distr
 
 DIGIN has developed a test model, the DIGIN10 model for the regional and local distribution grid, that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The DIGIN10 model contains the whole grid from the transmission connection to the local end user. 
 
- CGMES v3.0 using CIM17 is the basis for the profiles. The DIGIN10 model contains two boundary model profiles, one between each model authority set (MAS).
+ CGMES v3.0 using CIM17 is the basis for the profiles. CDPSM v2.0 is used as basis for the profiles that are not included in the CGMES v3.0. The DIGIN10 model contains two boundary model profiles, one between each model authority set (MAS). 
 
 ## Definitions 
 - CIM = Common Information Model
@@ -32,7 +32,11 @@ DIGIN10-30-v2.0 - A 40 bus power flow case for MV and LV according to CGMES v3.0
 
 ## Specifications
 
- A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1).
+ A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1). **CDPSM**
+ 
+ This version does not include any extensions of the CGMES v3.0 or the **CDPSM v2.0. (?)**. The model only shows how the profiles are connected.
+ 
+ Please refer to [ENTSO-E CIM100](https://www.entsoe.eu/Documents/CIM_documents/Grid_Model_CIM/CIM100_CGMES31v01_501-20v02_NC21v52_MM10v01.zip) for the CGMES v3.0 profile.
 
 ## Content
 
@@ -47,7 +51,7 @@ v2.0 can be found in the branch release/digin10-v2.0
 
 **Asset:**
 
-  Example files for using CDPSM 2.0 (IEC 61968-13:2021)
+  Example files for using CDPSM v2.0 (IEC 61968-13:2021)
   
   - Example of individual asset component
   - Catalog data from manufacturers
@@ -85,10 +89,11 @@ Split into year, month and day.
 
 **docs**
 
-- Name Standard
-- Modeling Guide
+- Name Standards
+- Modeling Guides
 - Changelog for Converting to CGMES 3.0 
 - Known Issues for current version
+- Release note
 
 ## Contribution
 Please provide feedback in the case you are dicsovering any errors as Issues in the digin-energi/Grunnprofil repository. Suggested changes and updates needs to be merged to the "develop" branch and not "main". The order of information in files should follow the instructions in Issue #217.

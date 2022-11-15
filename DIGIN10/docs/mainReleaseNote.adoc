@@ -20,17 +20,20 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 
 
 *Status*: Current +
-*Version*: DIGIN10-30-v.2.0
-*Published*: 2022-09-15 +
-*Updated*: 2022-09-15 +
+*Version*: DIGIN10-30-v.2.1
+*Published*: 2022-11-xx +
+*Updated*: 2022-11-xx +
 *Current Version*: https://github.com/digin-energi/Grunnprofil/tree/main +
-*Previous Version*: link:..\..\v1.0[DIGIN10-24-v1.0 ] +
+*Previous Version*: DIGIN10-30-v2.0 +
 
-The v2.0 does not include any modelling changes compared to v1.0. This is done so that it shall be easier to identify the relevant changes from CGMES v2.4 to CGMES v3.0.
 
 = Related Documents
-Changelog from CGMES 2.4 to CGMES 3.0 conversion: https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Converting to CGMES 3.0]
+Changelog from previous versions: https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Change Management]
 
-Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v.2.0]
+Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v.2.1]
+
+Modeling Guide for the use of Measurement: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Modeling Guide Measurement v.2.1]
+
+Modeling Guide for the use of MeterReading: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Modeling Guide MeterReading v.2.1]
 
 include::..\docs\KnownIssues.adoc[]

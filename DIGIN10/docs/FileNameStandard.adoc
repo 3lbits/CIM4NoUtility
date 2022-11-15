@@ -23,6 +23,7 @@ DIGIN10-<CGMES version>-<MAS>_<profile>
 |HV1-MV1_BM |High Voltage 1 Medium Voltage 1 Boundary Model
 |BaseVoltage_RD |Base Voltage Reference Data
 |GeographicalRegion_RD |Geographical Region Reference Data 
+|MeasurementValueSource_RD |Measurement Value Source Reference Data
 |AC |Asset Catalog Profile
 |AS | Assets Profile
 |===

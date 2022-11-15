@@ -1,7 +1,7 @@
 :hardbreaks:
-= MeasurementType naming conventions
+== MeasurementType naming conventions
 
-== 61970-301:2020
+=== 61970-301:2020
 The table below is taken from 61970-301:2020 Table 6 - measurementType naming conventions.
 --
 [cols="1,1,1", width=100%]
@@ -37,7 +37,7 @@ The table below is taken from 61970-301:2020 Table 6 - measurementType naming co
 | Voltage                 | Vol        | Voltage (rms) not allocated to a phase  
 |===
 --
-== Potential DIGIN extenstions
+=== Potential DIGIN extenstions
 The table below describes DIGIN extenstion and usage of measurmentType.
 --
 [cols="1,1,1,1", width=100%]
