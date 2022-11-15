@@ -4,6 +4,11 @@
 
 [red]#When to use MeterReading#
 
+[red]#Describe how to use MeterReading#
+
+image::../diagrams/images/MeterReading-modeling-example.png[width=50%, pdfwidth=30vw]
+
+
 [red]#The following scenarios for the use of MeterReading are included in the DIGIN10 model:#
 
  * Reference data
@@ -21,6 +26,3 @@ The following classes will be included in later versions of the DIGIN10 model:
 * EndDeviceEvent
 * EndDeviceEventType
 
-[red]#Describe how to use MeterReading#
-
-image::../diagrams/images/MeterReading-modeling-example.png[width=50%, pdfwidth=30vw]
