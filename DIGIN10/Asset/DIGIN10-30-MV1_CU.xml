@@ -17,7 +17,7 @@
     </md:FullModel>
 
     <cim:UsagePoint rdf:ID="_106944d1-3139-41a8-a972-5bf8be1a1c5b">
-		<cim:IdentifiedObject.mRID>106944d1-3139-41a8-a972-5bf8be1a1c5b</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>106944d1-3139-41a8-a972-5bf8be1a1c5b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt PowerTransformerLoad UsagePoint 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2 04 SS1 UP014</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.operable"/>
