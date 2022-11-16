@@ -49,6 +49,9 @@
       "phases": "http://iec.ch/TC57/CIM100#PhaseCode.ABC",
       "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
       "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.none",
+      "maxValue": 3,
+      "minValue": 0,
+      "normalValue": 0,
       "PowerSystemResources": {
         "mRID": "48668646-105a-490d-aaad-3259b852aa23"
       },
