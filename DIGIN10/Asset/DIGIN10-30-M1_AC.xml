@@ -46,4 +46,11 @@
         <cim:CableInfo.shieldMaterial rdf:resource="http://iec.ch/TC57/CIM100#CableShieldMaterialKind.aluminum" />
     </cim:CableInfo>
 
+    <cim:PowerTransformerInfo rdf:ID ="_5462d46a-9ee5-4d09-9ac2-9f97933caa4d">
+        <cim:IdentifiedObject.mRID>5462d46a-9ee5-4d09-9ac2-9f97933caa4d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>Engene 132-22 KV PowerTransformerInfo</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+    </cim:PowerTransformerInfo>
+    
 </rdf:RDF>
