@@ -148,4 +148,68 @@
         <cim:Asset.AssetInfo rdf:resource="#_5462d46a-9ee5-4d09-9ac2-9f97933caa4d" />
     </cim:Asset>
 
+    <cim:Asset rdf:ID="_4cb51263-a59e-4df2-972c-869f43a3aeaa">
+        <cim:IdentifiedObject.mRID>4cb51263-a59e-4df2-972c-869f43a3aeaa</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Current Transformer 4 Asset 9</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>Telemarkstien2 400 CT4 A9</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01563601</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100200</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSTNRi</cim:Asset.serialNumber>
+        <cim:Asset.type>CurrentTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000001000005</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_686be1a3-4215-4ee3-b9fa-701b3c76ec04" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_2147932e-ba94-4cee-a9ad-a22c9c87dab5">
+        <cim:IdentifiedObject.mRID>2147932e-ba94-4cee-a9ad-a22c9c87dab5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Voltage Transformer 4 Asset 10</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>Telemarkstien2 400 VT4 A10</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01370602</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8JuPTPRy</cim:Asset.serialNumber>
+        <cim:Asset.type>PotentialTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000009</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+    </cim:Asset>
+
+    <cim:Meter rdf:ID="_c06392cf-393b-4a4f-8e58-63af4a84380a">
+        <cim:IdentifiedObject.mRID>c06392cf-393b-4a4f-8e58-63af4a84380a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 Meter 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 M1</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>true</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01280609</cim:Asset.lotNumber>
+        <cim:Asset.position>inSubstation</cim:Asset.position>
+        <cim:Asset.purchasePrice>500</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>7359990000000001</cim:Asset.serialNumber>
+        <cim:Asset.type>SmartMeter</cim:Asset.type>
+        <cim:Asset.utcNumber>10000001000001</cim:Asset.utcNumber>
+        <cim:EndDevice.amrSystem>AMI</cim:EndDevice.amrSystem>
+        <cim:EndDevice.installCode>7359990000000001</cim:EndDevice.installCode>
+        <cim:EndDevice.isPan>false</cim:EndDevice.isPan>
+        <cim:EndDevice.isSmartInverter>true</cim:EndDevice.isSmartInverter>
+        <cim:EndDevice.isVirtual>false</cim:EndDevice.isVirtual>
+        <cim:EndDevice.timeZoneOffset>1</cim:EndDevice.timeZoneOffset>
+        <cim:Meter.connectionCategory></cim:Meter.connectionCategory>
+        <cim:Meter.formNumber></cim:Meter.formNumber>
+    </cim:Meter>
+
 </rdf:RDF>

@@ -16,4 +16,33 @@
         <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
     </md:FullModel>
 
+    <cim:UsagePoint rdf:ID="_106944d1-3139-41a8-a972-5bf8be1a1c5b">
+		<cim:IdentifiedObject.mRID>106944d1-3139-41a8-a972-5bf8be1a1c5b</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt PowerTransformerLoad UsagePoint 14</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 SS1 UP014</cim:IdentifiedObject.name>
+        <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.operable"/>
+        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
+        <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
+        <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
+        <cim:UsagePoint.estimatedLoad></cim:UsagePoint.estimatedLoad>
+        <cim:UsagePoint.grounded>true</cim:UsagePoint.grounded>
+        <cim:UsagePoint.isSdq>false</cim:UsagePoint.isSdq>
+        <cim:UsagePoint.isVirtual>false</cim:UsagePoint.isVirtual>
+        <cim:UsagePoint.minimalUsageExpected>false</cim:UsagePoint.minimalUsageExpected>
+        <cim:UsagePoint.nominalServiceVoltage>0.4</cim:UsagePoint.nominalServiceVoltage>
+        <cim:UsagePoint.outageRegion>Telemarkstien</cim:UsagePoint.outageRegion>
+        <cim:UsagePoint.phaseCode rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABCN"/>
+        <cim:UsagePoint.phaseCount>3</cim:UsagePoint.phaseCount>
+        <cim:UsagePoint.ratedCurrent>400</cim:UsagePoint.ratedCurrent>
+        <cim:UsagePoint.ratedPower>1</cim:UsagePoint.ratedPower>
+        <cim:UsagePoint.readCycle>Hourly</cim:UsagePoint.readCycle>
+        <cim:UsagePoint.readRoute></cim:UsagePoint.readRoute>
+        <cim:UsagePoint.serviceDeliveryRemark>PowerTransformerMeter</cim:UsagePoint.serviceDeliveryRemark>
+        <cim:UsagePoint.servicePriority>High</cim:UsagePoint.servicePriority>
+        <cim:UsagePoint.Equipments rdf:resource="#_0506353c-8adf-4f48-999f-bb1975c03467" /> <!--StationSupply-->
+        <cim:UsagePoint.Equipments rdf:resource="#_d9358e9b-1dc4-40fe-9c5f-b3cb40b236a5" /> <!--PotentialTransformer-->
+        <cim:UsagePoint.Equipments rdf:resource="#_686be1a3-4215-4ee3-b9fa-701b3c76ec04" /> <!--CurrentTransformer-->
+    </cim:UsagePoint>
+
 </rdf:RDF>

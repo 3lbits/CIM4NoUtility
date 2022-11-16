@@ -1855,6 +1855,18 @@
         <cim:RegulatingControl.Terminal rdf:resource="#_92d33b55-7034-11eb-a65a-74e5f963e191" />
     </cim:RegulatingControl>
  
+    <cim:StationSupply rdf:ID="_0506353c-8adf-4f48-999f-bb1975c03467">
+        <cim:IdentifiedObject.mRID>0506353c-8adf-4f48-999f-bb1975c03467</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Station Supply 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 SS1</cim:IdentifiedObject.name>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:EnergyConsumer.pfixed>0</cim:EnergyConsumer.pfixed>
+        <cim:EnergyConsumer.pfixedPct>0</cim:EnergyConsumer.pfixedPct>
+        <cim:EnergyConsumer.qfixed>0</cim:EnergyConsumer.qfixed>
+        <cim:EnergyConsumer.qfixedPct>0</cim:EnergyConsumer.qfixedPct>
+        <cim:Equipment.EquipmentContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191" />
+    </cim:StationSupply>
+
     <cim:SubLoadArea rdf:ID="_92d33b3a-7034-11eb-a65a-74e5f963e191">
         <cim:IdentifiedObject.mRID>92d33b3a-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>DSP1 Subload Area 1</cim:IdentifiedObject.description>
@@ -2841,6 +2853,16 @@
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.N" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_c9d5445c-9ad6-3849-9e02-08762805826b" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_39082cb0-8808-b047-893c-ba0503a458d6" />
+    </cim:Terminal>
+
+    <cim:Terminal rdf:ID="_313f9413-16a2-4037-8546-2df5c62767be">
+        <cim:IdentifiedObject.mRID>313f9413-16a2-4037-8546-2df5c62767be</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemarkstien2 400 Volt Terminal 128 Station Supply 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>TELEMA2 04 T128 SS1</cim:IdentifiedObject.name>
+        <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+        <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABCN" />
+        <cim:Terminal.ConductingEquipment rdf:resource="#_0506353c-8adf-4f48-999f-bb1975c03467" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d" />
     </cim:Terminal>
  
     <cim:VoltageLevel rdf:ID="_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c">
