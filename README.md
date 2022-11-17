@@ -28,15 +28,17 @@ DIGIN10-24-v1.0 - A 40 bus power flow case for MV and LV according to CGMES v2.4
 
 DIGIN10-30-v2.0 - A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). A release to show the transformation from CGMES v2.4 to CGMES v3.0. 
 
-**DIGIN10-30-v2.1 -  A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). The release includes ..** 
+DIGIN10-30-v2.1 -  A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including measurement value time series, meter reading time series and necessary asset references.
 
 ## Specifications
 
- A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1). **CDPSM**
+ A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1). This version includes measurement values and meter readings to allow power flow calculations based on real time data. The inclusion of measurements will also allow better estimation of future scenarios (steady state values are also based on the real time series).
  
- This version does not include any extensions of the CGMES v3.0 or the **CDPSM v2.0. (?)**. The model only shows how the profiles are connected.
+ This version does not include any extensions of the CGMES v3.0 or the **CDPSM v2.0. (?)**. The model only shows how the profiles are connected. The Equipment Operations(OP) profile has been updated.
  
- Please refer to [ENTSO-E CIM100](https://www.entsoe.eu/Documents/CIM_documents/Grid_Model_CIM/CIM100_CGMES31v01_501-20v02_NC21v52_MM10v01.zip) for the CGMES v3.0 profile.
+ Please refer to the following test files for ... .
+
+
 
 ## Content
 

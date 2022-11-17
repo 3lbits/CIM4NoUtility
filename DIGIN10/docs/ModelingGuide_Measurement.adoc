@@ -1,3 +1,4 @@
+[#MG_MR]
 = Measurement and MeterReading specifications
 
 *Version:* 2.1
@@ -7,23 +8,48 @@
 == Measurement 
 [red]#Describe how to use measurement#
 
-The specialised classes Analog and AnalogValue are used to model measurements and measurement values. 
+The specialised classes Analog and AnalogValue are used to model measurements and measurement values. Currently all values are represented in MW and MVAr.
 
-* [red]#Issue 76#
+Analog (Measurement) should reference the relevant PowerSystemResource(PSR), Terminal and Asset. +
+Asset should reference the relevant AssetInfo and PSR. + 
+PSR should also reference AssetInfo when relevant +
+AnalogValue should reference the relevant measurement and value sources. +
+Remote sources should reference the relevant remote unit. +
+Communication links should also reference relevant remote units.
+
+
+
+
+[red]#Scenarios for measurements of the following components are included in the DIGIN10 model:#
+ 
+ * CurrentTransformer (CT)
+ * VoltageTransformer (VT)
+ * PotentialTransformer (ref issue 158/159)
+ * Switching (ref issue 158/159)
+ * PowerTransformer 
+ ** PowerTransformerEnd
+ * Consumption (ref issue 158/159)
+
+=== Modeling examples
+See modeling examples in the figures below:
 
 image::../diagrams/images/Measurement-modeling-example-AssetInfo.png[width=50%, pdfwidth=30vw]
 image::../diagrams/images/Measurement-modeling-example.png[width=50%, pdfwidth=30vw]
 
-[red]#Scenarios for measurements of the following components are included in the DIGIN10 model:#
- 
- * PowerTransformer 
- ** PowerTransformerEnd
- * CurrentTransformer (CT)
- * VoltageTransformer (VT)
- * Switching (ref issue 158/159)
- * PotentialTransformer (ref issue 158/159)
- * Consumption (ref issue 158/159)
+When measuring per phase there should be 1 CurrentTransformer(PSR) per phase and 1 Asset per phase.
 
-
+==== Figure abbreviations:
+--
+[cols="1,1", width=100%]
+[#tab:abbr_measurementFigure] 
+|===
+|*Abbreviation*    |*Description*
+|CN |ConnectivityNode
+|CT | CurrentTransformer
+|PT | PotentialTransformer
+|S |Switch
+|T |Terminal
+|===
+--
 
 include::..\docs\MeasurementType.adoc[]

@@ -3,9 +3,16 @@
 Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version will include the Feeder and Fuse with the recommended way to model it. 
 
 
+## Issue list from GitHub issues
+* https://github.com/digin-energi/Grunnprofil/issues/76[Issue 76 - Calculated Measurement]
+* https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - ValueAliasSet reference data for switch positions]
+* https://github.com/digin-energi/Grunnprofil/issues/239[Issue 239 - ICCP Use Case Support]
+* Issue CurrentTransformer
+* https://github.com/digin-energi/Grunnprofil/issues/79[Issue 79 - Modelling PMU]
 
 
 
+## Validation
 The following files are added as placeholders and are not included in validation:
 
 - DIGIN10-30-LV1_DL

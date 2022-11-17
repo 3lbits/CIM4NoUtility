@@ -38,6 +38,7 @@ CGMES v3.0 currently only supports fixed units for any given attribute. The foll
 
 |===
 --
+This is related to one of the open issues related to the use of JSON-LD.
 
 // ////////////////////////////////////////////////////////////
 
@@ -96,10 +97,10 @@ Line.Region is optional. For the EQ profiles it is included in the MV files but 
 LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
 
 === Measurement 
-Please refer to xref:MeasurementAndMeterReading.adoc[ModelingGuide_Measurement.adoc] for details.
+Please refer to xref:ModelingGuide_Measurement.adoc#MG_Me[ModelingGuide_Measurement.adoc] for details.
 
 === MeterReading
-Please refer to xref:MeasurementAndMeterReading.adoc[ModelingGuide_MeterReading.adoc] for details.
+Please refer to xref:ModelingGuide_MeterReading.adoc#MG_MR[ModelingGuide_MeterReading.adoc] for details.
 
 === ModelAuthoritySet
 The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
@@ -134,8 +135,7 @@ Switch.locked is mandatory for CGMES 3.0 compliance and was added due to Disconn
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
 
-include::..\docs\NameStandard.adoc[]
-
+include::..\docs\DIGIN10ModelingNamingStandard.adoc[]
 
 
 

@@ -16,5 +16,5 @@ should maintain two mRIDs and in both cases support difference file exchange."
 In general it is considered OK to keep the mRID when the model is changed from one CIM version to another. Fuse does not exist in the profile CGMES v2.4 but does exist in CGMES v.3.0, all Breakers that were changed to Fuse are therefore considered as a version update and not as a change in the model. The mRID will therefore not be changed for the Breaker/Fuse or the associated Terminal. 
 // As the model was upHowever, in our case Fuse exists in CIM16, but not in the profile CGMES v2.4. We have therefore changed the mRID both for Breaker/Fuse and the associated Terminal. Other assosiated classes do not need to be changed, e.g. OperationalLimit, Measruement etc.
 
-== Reference data
+
 

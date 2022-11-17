@@ -4,13 +4,13 @@
 :sectnums:
 
 *Version:* 2.1
-Please refer to xref:FChangeManagement.adoc[ChangeManagemend.adoc] for details about changes in the way of modelling.
+Please refer to xref:ChangeManagement.adoc[ChangeManagement.adoc] for details about changes in the way of modelling.
 
 The DIGIN10 model contains the following profiles for each MAS or sourceActor:
 _CGMES v3.0:_
     BM, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
 _CDPSM v2.0:_
-    AC, AS, CU
+    AC, AS, CU, RD
 
 Please refer to the xref:FileNameStandard.adoc[FileNameStandard.adoc] for decriptions of the abbreviations.
 
