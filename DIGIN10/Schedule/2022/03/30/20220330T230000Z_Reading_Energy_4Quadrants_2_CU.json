@@ -3,12 +3,12 @@
         {
             "Readings": [
                 {
-                    "value": "0.0",
-                    "timeStamp": "2022-03-30T23:00:00Z",
-                    "reportedDateTime": "2022-03-30T23:00:00Z",
+                    "value": "24998.662",
+                    "timeStamp": "2022-03-30T22:00:00Z",
+                    "reportedDateTime": "2022-03-30T22:00:00Z",
                     "source": "Test System",
                     "ReadingType": {
-                        "ref": "0.2.4.0.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
+                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
                     },
                     "ReadingQualities": [
                         {
@@ -19,12 +19,60 @@
                     ]
                 },
                 {
-                    "value": "0.0090",
-                    "timeStamp": "2022-03-30T09:00:00Z",
+                    "value": "25000.0",
+                    "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
                     "source": "Test System",
                     "ReadingType": {
-                        "ref": "0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
+                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "ref": "1.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "0.0",
+                    "timeStamp": "2022-03-30T23:00:00Z",
+                    "reportedDateTime": "2022-03-30T23:00:00Z",
+                    "source": "Test System",
+                    "ReadingType": {
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "ref": "1.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "0.0",
+                    "timeStamp": "2022-03-30T23:00:00Z",
+                    "reportedDateTime": "2022-03-30T23:00:00Z",
+                    "source": "Test System",
+                    "ReadingType": {
+                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "ref": "1.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "0.0",
+                    "timeStamp": "2022-03-30T23:00:00Z",
+                    "reportedDateTime": "2022-03-30T23:00:00Z",
+                    "source": "Test System",
+                    "ReadingType": {
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
                     },
                     "ReadingQualities": [
                         {
