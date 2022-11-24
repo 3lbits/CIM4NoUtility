@@ -73,8 +73,7 @@
         <cim:modelVersion>2.3</cim:modelVersion>
         <cim:drawingNumber>EQ-15987-104</cim:drawingNumber>
         <cim:instructionMnaual>RS5970P Operation Manual</cim:instructionMnaual>
-        <cim:overallWeight>105</cim:overallWeight>
-        <cim:weightTotal>115</cim:weightTotal>
+        <cim:weightTotal>115 kg</cim:weightTotal>
         <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
     </cim:ProductAssetModel>
     
