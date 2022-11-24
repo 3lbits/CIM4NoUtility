@@ -89,7 +89,7 @@
         <cim:overallWeight>105</cim:overallWeight>
         <cim:weightTotal>115</cim:weightTotal>
         <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
-        <cim:Manufacturer.ProductAssetModel rdf:ID= "#_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec "/>      
+        <cim:Manufacturer.Organisation.OrganisationRole rdf:ID= "#_03536e8b-6683-47e3-bf27-f7c0a3cf6196"/>      
     </cim:ProductAssetModel>
     
 </rdf:RDF>
