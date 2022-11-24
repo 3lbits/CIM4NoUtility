@@ -3,10 +3,10 @@
         {
             "Readings": [
                 {
-                    "value": "24998.662",
+                    "value": "1922.974",
                     "timeStamp": "2022-03-30T22:00:00Z",
                     "reportedDateTime": "2022-03-30T22:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
                         "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
                     },
@@ -19,10 +19,10 @@
                     ]
                 },
                 {
-                    "value": "25000.0",
+                    "value": "1923.07",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
                         "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
                     },
@@ -38,9 +38,9 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0" //no readingtype for this in ReadingType_RD
                     },
                     "ReadingQualities": [
                         {
@@ -54,9 +54,9 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0" //no readingtype for this in ReadingType_RD
                     },
                     "ReadingQualities": [
                         {
@@ -70,9 +70,9 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0" //no readingtype for this in ReadingType_RD
                     },
                     "ReadingQualities": [
                         {

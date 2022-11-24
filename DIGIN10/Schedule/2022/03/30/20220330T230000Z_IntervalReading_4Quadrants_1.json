@@ -5,7 +5,7 @@
                 {
                     "IntervalReadings": [
                         {
-                            "value": "2.008",
+                            "value": "26.104",
                             "timeStamp": "2022-03-29T23:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -22,7 +22,7 @@
                             ]
                         },
                         {
-                            "value": "1.513",
+                            "value": "19.669",
                             "timeStamp": "2022-03-30T00:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -39,7 +39,7 @@
                             ]
                         },
                         {
-                            "value": "1.628",
+                            "value": "21.164",
                             "timeStamp": "2022-03-30T01:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -56,7 +56,7 @@
                             ]
                         },
                         {
-                            "value": "1.728",
+                            "value": "22.464",
                             "timeStamp": "2022-03-30T02:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -73,7 +73,7 @@
                             ]
                         },
                         {
-                            "value": "1.458",
+                            "value": "18.954",
                             "timeStamp": "2022-03-30T03:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -90,7 +90,7 @@
                             ]
                         },
                         {
-                            "value": "2.449",
+                            "value": "31.837",
                             "timeStamp": "2022-03-30T04:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -107,7 +107,7 @@
                             ]
                         },
                         {
-                            "value": "2.78",
+                            "value": "36.14",
                             "timeStamp": "2022-03-30T05:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -124,7 +124,7 @@
                             ]
                         },
                         {
-                            "value": "3.407",
+                            "value": "44.291",
                             "timeStamp": "2022-03-30T06:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -141,7 +141,7 @@
                             ]
                         },
                         {
-                            "value": "0.946",
+                            "value": "12.298",
                             "timeStamp": "2022-03-30T07:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -158,7 +158,7 @@
                             ]
                         },
                         {
-                            "value": "2.012",
+                            "value": "26.156",
                             "timeStamp": "2022-03-30T08:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -175,7 +175,7 @@
                             ]
                         },
                         {
-                            "value": "0.805",
+                            "value": "10.465",
                             "timeStamp": "2022-03-30T09:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -192,7 +192,7 @@
                             ]
                         },
                         {
-                            "value": "2.581",
+                            "value": "33.553",
                             "timeStamp": "2022-03-30T10:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -209,7 +209,7 @@
                             ]
                         },
                         {
-                            "value": "0.528",
+                            "value": "6.864",
                             "timeStamp": "2022-03-30T11:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -226,7 +226,7 @@
                             ]
                         },
                         {
-                            "value": "1.937",
+                            "value": "25.181",
                             "timeStamp": "2022-03-30T12:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -243,7 +243,7 @@
                             ]
                         },
                         {
-                            "value": "0.814",
+                            "value": "10.582",
                             "timeStamp": "2022-03-30T13:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -260,7 +260,7 @@
                             ]
                         },
                         {
-                            "value": "1.987",
+                            "value": "25.831",
                             "timeStamp": "2022-03-30T14:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -277,7 +277,7 @@
                             ]
                         },
                         {
-                            "value": "2.366",
+                            "value": "30.758",
                             "timeStamp": "2022-03-30T15:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -294,7 +294,7 @@
                             ]
                         },
                         {
-                            "value": "2.232",
+                            "value": "29.016",
                             "timeStamp": "2022-03-30T16:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -311,7 +311,7 @@
                             ]
                         },
                         {
-                            "value": "0.991",
+                            "value": "12.883",
                             "timeStamp": "2022-03-30T17:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -328,7 +328,7 @@
                             ]
                         },
                         {
-                            "value": "1.803",
+                            "value": "23.439",
                             "timeStamp": "2022-03-30T18:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -345,7 +345,7 @@
                             ]
                         },
                         {
-                            "value": "2.125",
+                            "value": "27.625",
                             "timeStamp": "2022-03-30T19:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -362,7 +362,7 @@
                             ]
                         },
                         {
-                            "value": "1.873",
+                            "value": "24.349",
                             "timeStamp": "2022-03-30T20:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -379,7 +379,7 @@
                             ]
                         },
                         {
-                            "value": "1.709",
+                            "value": "22.217",
                             "timeStamp": "2022-03-30T21:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:38.247006Z",
                             "source": "Test System",
@@ -396,7 +396,7 @@
                             ]
                         },
                         {
-                            "value": "1.338",
+                            "value": "17.394",
                             "timeStamp": "2022-03-30T22:00:00.000000Z",
                             "reportedDateTime": "2022-03-31T23:05:40.364113Z",
                             "source": "Test System",
@@ -420,7 +420,7 @@
                 {
                     "IntervalReadings": [
                         {
-                            "value": "0.011",
+                            "value": "0.143",
                             "timeStamp": "2022-03-29T23:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -437,7 +437,7 @@
                             ]
                         },
                         {
-                            "value": "0.018",
+                            "value": "0.2184",
                             "timeStamp": "2022-03-30T00:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -454,7 +454,7 @@
                             ]
                         },
                         {
-                            "value": "0.018",
+                            "value": "0.234",
                             "timeStamp": "2022-03-30T01:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -471,7 +471,7 @@
                             ]
                         },
                         {
-                            "value": "0.013",
+                            "value": "0.169",
                             "timeStamp": "2022-03-30T02:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -488,7 +488,7 @@
                             ]
                         },
                         {
-                            "value": "0.035",
+                            "value": "0.455",
                             "timeStamp": "2022-03-30T03:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -505,7 +505,7 @@
                             ]
                         },
                         {
-                            "value": "0.028",
+                            "value": "0.364",
                             "timeStamp": "2022-03-30T04:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -522,7 +522,7 @@
                             ]
                         },
                         {
-                            "value": "0.028",
+                            "value": "0.364",
                             "timeStamp": "2022-03-30T05:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -539,7 +539,7 @@
                             ]
                         },
                         {
-                            "value": "0.057",
+                            "value": "0.741",
                             "timeStamp": "2022-03-30T06:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -556,7 +556,7 @@
                             ]
                         },
                         {
-                            "value": "0.057",
+                            "value": "0.741",
                             "timeStamp": "2022-03-30T07:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -573,7 +573,7 @@
                             ]
                         },
                         {
-                            "value": "0.025",
+                            "value": "0.325",
                             "timeStamp": "2022-03-30T08:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -590,7 +590,7 @@
                             ]
                         },
                         {
-                            "value": "0.014",
+                            "value": "0.182",
                             "timeStamp": "2022-03-30T09:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -607,7 +607,7 @@
                             ]
                         },
                         {
-                            "value": "0.007",
+                            "value": "0.0091",
                             "timeStamp": "2022-03-30T10:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -624,7 +624,7 @@
                             ]
                         },
                         {
-                            "value": "0.001",
+                            "value": "0.013",
                             "timeStamp": "2022-03-30T11:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -641,7 +641,7 @@
                             ]
                         },
                         {
-                            "value": "0.013",
+                            "value": "0.169",
                             "timeStamp": "2022-03-30T12:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -658,7 +658,7 @@
                             ]
                         },
                         {
-                            "value": "0.014",
+                            "value": "0.182",
                             "timeStamp": "2022-03-30T13:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -675,7 +675,7 @@
                             ]
                         },
                         {
-                            "value": "0.005",
+                            "value": "0.065",
                             "timeStamp": "2022-03-30T14:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -692,7 +692,7 @@
                             ]
                         },
                         {
-                            "value": "0.02",
+                            "value": "0.26",
                             "timeStamp": "2022-03-30T15:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -709,7 +709,7 @@
                             ]
                         },
                         {
-                            "value": "0.003",
+                            "value": "0.039",
                             "timeStamp": "2022-03-30T16:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -726,7 +726,7 @@
                             ]
                         },
                         {
-                            "value": "0.001",
+                            "value": "0.013",
                             "timeStamp": "2022-03-30T17:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -743,7 +743,7 @@
                             ]
                         },
                         {
-                            "value": "0.015",
+                            "value": "0.195",
                             "timeStamp": "2022-03-30T18:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -760,7 +760,7 @@
                             ]
                         },
                         {
-                            "value": "0.019",
+                            "value": "0.247",
                             "timeStamp": "2022-03-30T19:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -777,7 +777,7 @@
                             ]
                         },
                         {
-                            "value": "0.021",
+                            "value": "0.273",
                             "timeStamp": "2022-03-30T20:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -794,7 +794,7 @@
                             ]
                         },
                         {
-                            "value": "0.014",
+                            "value": "0.182",
                             "timeStamp": "2022-03-30T21:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:04:34.526957Z",
                             "source": "Test System",
@@ -811,7 +811,7 @@
                             ]
                         },
                         {
-                            "value": "0.029",
+                            "value": "0.377",
                             "timeStamp": "2022-03-30T22:00:00.000000Z",
                             "reportedDateTime": "2022-03-31T23:05:40.865411Z",
                             "source": "Test System",
@@ -1250,7 +1250,7 @@
                 {
                     "IntervalReadings": [
                         {
-                            "value": "0.3",
+                            "value": "3.9",
                             "timeStamp": "2022-03-29T23:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1267,7 +1267,7 @@
                             ]
                         },
                         {
-                            "value": "0.217",
+                            "value": "2.821",
                             "timeStamp": "2022-03-30T00:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1284,7 +1284,7 @@
                             ]
                         },
                         {
-                            "value": "0.249",
+                            "value": "3.237",
                             "timeStamp": "2022-03-30T01:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1301,7 +1301,7 @@
                             ]
                         },
                         {
-                            "value": "0.196",
+                            "value": "2.548",
                             "timeStamp": "2022-03-30T02:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1318,7 +1318,7 @@
                             ]
                         },
                         {
-                            "value": "0.219",
+                            "value": "2.847",
                             "timeStamp": "2022-03-30T03:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1335,7 +1335,7 @@
                             ]
                         },
                         {
-                            "value": "0.174",
+                            "value": "2.262",
                             "timeStamp": "2022-03-30T04:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1352,7 +1352,7 @@
                             ]
                         },
                         {
-                            "value": "0.183",
+                            "value": "2.379",
                             "timeStamp": "2022-03-30T05:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1369,7 +1369,7 @@
                             ]
                         },
                         {
-                            "value": "0.133",
+                            "value": "1.729",
                             "timeStamp": "2022-03-30T06:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1386,7 +1386,7 @@
                             ]
                         },
                         {
-                            "value": "0.121",
+                            "value": "1.573",
                             "timeStamp": "2022-03-30T07:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1403,7 +1403,7 @@
                             ]
                         },
                         {
-                            "value": "0.174",
+                            "value": "2.264",
                             "timeStamp": "2022-03-30T08:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1420,7 +1420,7 @@
                             ]
                         },
                         {
-                            "value": "0.221",
+                            "value": "2.873",
                             "timeStamp": "2022-03-30T09:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1437,7 +1437,7 @@
                             ]
                         },
                         {
-                            "value": "0.223",
+                            "value": "2.899",
                             "timeStamp": "2022-03-30T10:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1454,7 +1454,7 @@
                             ]
                         },
                         {
-                            "value": "0.201",
+                            "value": "2.613",
                             "timeStamp": "2022-03-30T11:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1471,7 +1471,7 @@
                             ]
                         },
                         {
-                            "value": "0.234",
+                            "value": "3.042",
                             "timeStamp": "2022-03-30T12:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1488,7 +1488,7 @@
                             ]
                         },
                         {
-                            "value": "0.187",
+                            "value": "2.431",
                             "timeStamp": "2022-03-30T13:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1505,7 +1505,7 @@
                             ]
                         },
                         {
-                            "value": "0.189",
+                            "value": "2.457",
                             "timeStamp": "2022-03-30T14:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1522,7 +1522,7 @@
                             ]
                         },
                         {
-                            "value": "0.242",
+                            "value": "3.146",
                             "timeStamp": "2022-03-30T15:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1539,7 +1539,7 @@
                             ]
                         },
                         {
-                            "value": "0.274",
+                            "value": "3.562",
                             "timeStamp": "2022-03-30T16:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1556,7 +1556,7 @@
                             ]
                         },
                         {
-                            "value": "0.294",
+                            "value": "3.822",
                             "timeStamp": "2022-03-30T17:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1573,7 +1573,7 @@
                             ]
                         },
                         {
-                            "value": "0.228",
+                            "value": "2.964",
                             "timeStamp": "2022-03-30T18:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1590,7 +1590,7 @@
                             ]
                         },
                         {
-                            "value": "0.25",
+                            "value": "3.25",
                             "timeStamp": "2022-03-30T19:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1607,7 +1607,7 @@
                             ]
                         },
                         {
-                            "value": "0.271",
+                            "value": "3.523",
                             "timeStamp": "2022-03-30T20:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1624,7 +1624,7 @@
                             ]
                         },
                         {
-                            "value": "0.227",
+                            "value": "2.951",
                             "timeStamp": "2022-03-30T21:00:00.000000Z",
                             "reportedDateTime": "2022-03-30T23:03:29.118750Z",
                             "source": "Test System",
@@ -1641,7 +1641,7 @@
                             ]
                         },
                         {
-                            "value": "0.177",
+                            "value": "2.301",
                             "timeStamp": "2022-03-30T22:00:00.000000Z",
                             "reportedDateTime": "2022-03-31T23:08:18.690517Z",
                             "source": "Test System",
