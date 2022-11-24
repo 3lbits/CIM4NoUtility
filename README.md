@@ -34,11 +34,7 @@ DIGIN10-30-v2.1 -  A 40 bus power flow case for MV and LV according to CGMES v3.
 
  A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1). This version includes measurement values and meter readings to allow power flow calculations based on real time data. The inclusion of measurements will also allow better estimation of future scenarios (steady state values are also based on the real time series).
  
- This version does not include any extensions of the CGMES v3.0 or the **CDPSM v2.0. (?)**. The model only shows how the profiles are connected. The Equipment Operations(OP) profile has been updated.
- 
- Please refer to the following test files for ... .
-
-
+This version does not include any extensions of the [CGMES v3.0](DIGIN10\docs\StandardReferences.adoc). In [CDPSM v2.0](DIGIN10\docs\StandardReferences.adoc) we have added cim:UsagePoint so that we can model the customer installation. In this version the instance file supporting CDPSM is only added to support cim:UsagePoint and to show how cim:Asset and cim:AssetInfo is connected to the cim:PowerSystemResource. The plan is to show how CGMES + CDPSM can support the Autofos project in upcoming versions. Significant updates have been made to the Equipment Operation (OP) to address cim:Measurement.
 
 ## Content
 

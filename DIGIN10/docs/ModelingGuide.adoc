@@ -88,7 +88,7 @@ For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUn
 Will be included in a later version of the DIGIN10 model.
 
 === Fuse
-Fuse has been added to the DIGIN10 model. Please refer to xref:ChangeManagement.adoc[ChangeManagement.adoc] for details.
+Fuse has been added to the DIGIN10 model. Please refer to xref:ChangeManagement.adoc#ref-Change_Fuse[ChangeManagement.adoc] for details.
 
 === Line
 Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
@@ -97,10 +97,11 @@ Line.Region is optional. For the EQ profiles it is included in the MV files but 
 LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
 
 === Measurement 
-Please refer to xref:ModelingGuide_Measurement.adoc#MG_Me[ModelingGuide_Measurement.adoc] for details.
+Please refer to xref:MeasurementAndMeterReadingSpecification.adoc#ref-MeasurementValue[MeasurementAndMeterReadingSpecification.adoc] for details.
 
 === MeterReading
-Please refer to xref:ModelingGuide_MeterReading.adoc#MG_MR[ModelingGuide_MeterReading.adoc] for details.
+Please refer to xref:MeasurementAndMeterReadingSpecification.adoc#ref-MeterReading[MeasurementAndMeterReadingSpecification.adoc] for details.
+
 
 === ModelAuthoritySet
 The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
@@ -123,7 +124,7 @@ LV only includes Permanent Admissible Transmission Loading (PATL). The default l
 
 
 === Reference Data
-Common data for all MAS is included in Reference data files, BaseVoltage and GeograpicalRegion.
+Common data for all MAS is included in Reference data files, BaseVoltage and GeograpicalRegion. Reference data files should be created for data that is common accross more than just one organisation.
 
 === Substation
 Substation is used to model cable cabinets in the LV files. This is an issue and might be changed in upcoming version.
