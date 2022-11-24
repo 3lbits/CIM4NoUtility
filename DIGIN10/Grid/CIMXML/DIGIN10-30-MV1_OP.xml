@@ -172,7 +172,7 @@
         <cim:Analog.maxValue>140</cim:Analog.maxValue>
         <cim:Analog.minValue>-40</cim:Analog.minValue>
         <cim:Analog.normalValue>50</cim:Analog.normalValue>
-        <cim:Measurement.Asset rdf:resource="#_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1" /><
+        <cim:Measurement.Asset rdf:resource="#_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1" />
         <cim:Measurement.PowerSystemResources rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
