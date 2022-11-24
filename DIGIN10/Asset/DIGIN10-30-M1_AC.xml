@@ -53,29 +53,16 @@
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
     </cim:PowerTransformerInfo>
 
-    <cim:Organisation rdf:ID ="_b0c1754b-187c-49fa-8159-6fd2f4f918ad" >
+    <cim:Manufacturer rdf:about ="_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec">
         <cim:IdentifiedObject.mRID>b0c1754b-187c-49fa-8159-6fd2f4f918ad</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.Description></cim:IdentifiedObject.Description>
-        <cim:IdentifiedObject.name>Reuters Boring B</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.aliasName>RBB</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.Description>Power utility production company</cim:IdentifiedObject.Description>
+        <cim:IdentifiedObject.name>Reuters Borg</cim:IdentifiedObject.name>
         <cim:StreetAddress.poBox>9856</cim:StreetAddress.poBox>
         <cim:StreetAddress.postalCode>9800</cim:StreetAddress.postalCode>
-        <cim:Oranisation.streetAdress ></cim:Oranisation.streetAdress>
+        <cim:Oranisation.streetAdress>Bergheimveien 46</cim:Oranisation.streetAdress>
         <cim:Oranisation.postalAddres>9800</cim:Oranisation.postalAddres>
         <cim:Oranisation.phone1>3811005522</cim:Oranisation.phone1>
-        <cim:OrganisationRole rdf:resource ="#_03536e8b-6683-47e3-bf27-f7c0a3cf6196"/>
-    </cim:Organisation>
-
-    <cim:OrganisationRole rdf:ID ="_03536e8b-6683-47e3-bf27-f7c0a3cf6196">
-        <cim:identifiedObject.mRID>03536e8b-6683-47e3-bf27-f7c0a3cf6196</cim:identifiedObject.mRID>
-        <cim:IdentifiedObject.Description></cim:IdentifiedObject.Description>
-        <cim:IdentifiedObject.name></cim:IdentifiedObject.name>
-        <cim:Organisation rdf:ID="#_b0c1754b-187c-49fa-8159-6fd2f4f918ad"/>
-    </cim:OrganisationRole>
-
-    <cim:Manufacturer rdf:about ="_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec">
-        <cim:Organisation.OrganisationalRole rdf:ID="#_03536e8b-6683-47e3-bf27-f7c0a3cf6196"/>
-        <cim:ProductAssetModel rdf:ID="#_df774997-6a8e-47ca-9cd5-30ce2a85abf0"/>
+        <cim:Manufacturer.ProductAssetModel rdf:ID="#_df774997-6a8e-47ca-9cd5-30ce2a85abf0"/>
     </cim:Manufacturer>
 
     <cim:ProductAssetModel rdf:ID ="_df774997-6a8e-47ca-9cd5-30ce2a85abf0">
@@ -89,7 +76,6 @@
         <cim:overallWeight>105</cim:overallWeight>
         <cim:weightTotal>115</cim:weightTotal>
         <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
-        <cim:Manufacturer.Organisation.OrganisationRole rdf:ID= "#_03536e8b-6683-47e3-bf27-f7c0a3cf6196"/>      
     </cim:ProductAssetModel>
     
 </rdf:RDF>
