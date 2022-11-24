@@ -53,10 +53,11 @@
         <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
     </cim:PowerTransformerInfo>
 
-    <cim:Manufacturer rdf:about ="_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec">
+    <cim:Manufacturer rdf:ID ="_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec">
         <cim:IdentifiedObject.mRID>b0c1754b-187c-49fa-8159-6fd2f4f918ad</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.Description>Power utility production company</cim:IdentifiedObject.Description>
-        <cim:IdentifiedObject.name>Reuters Borg</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.Description>Power and grid utility production company</cim:IdentifiedObject.Description>
+        <cim:IdentifiedObject.name>Reuters Borg Elektro</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.alias>RBE</cim:IdentifiedObject.alias>
         <cim:StreetAddress.poBox>9856</cim:StreetAddress.poBox>
         <cim:StreetAddress.postalCode>9800</cim:StreetAddress.postalCode>
         <cim:Oranisation.streetAdress>Bergheimveien 46</cim:Oranisation.streetAdress>
