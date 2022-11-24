@@ -40,7 +40,7 @@
                     "reportedDateTime": "2022-03-30T23:00:00Z",
                     "source": "Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0" //no readingtype for this in ReadingType_RD
                     },
                     "ReadingQualities": [
                         {
@@ -56,7 +56,7 @@
                     "reportedDateTime": "2022-03-30T23:00:00Z",
                     "source": "Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0" //no readingtype for this in ReadingType_RD
                     },
                     "ReadingQualities": [
                         {
@@ -72,7 +72,7 @@
                     "reportedDateTime": "2022-03-30T23:00:00Z",
                     "source": "Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0" //no readingtype for this in ReadingType_RD
                     },
                     "ReadingQualities": [
                         {

@@ -6,7 +6,7 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
                         "ref": "0.2.4.0.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
                     },
@@ -22,7 +22,7 @@
                     "value": "0.0090",
                     "timeStamp": "2022-03-30T09:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
                         "ref": "0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
                     },
