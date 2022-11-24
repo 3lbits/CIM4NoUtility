@@ -76,6 +76,7 @@
         <cim:instructionMnaual>RS5970P Operation Manual</cim:instructionMnaual>
         <cim:weightTotal>115 kg</cim:weightTotal>
         <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
+        <cim:ProducAssetModel.Manufacturer rdf:ID="#_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec"/>
     </cim:ProductAssetModel>
     
 </rdf:RDF>
