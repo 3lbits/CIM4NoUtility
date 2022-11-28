@@ -64,6 +64,7 @@
     ],
     "dcterms:rights": "© 2022 Copyright",
     "dcterms:rightHolder": "DIGIN",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
     "dcat:isVersionOf": "",
     "dcat:keyword": "GL",
