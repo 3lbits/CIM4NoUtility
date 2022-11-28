@@ -4,7 +4,7 @@
             "AnalogValues": [
                 {
                     "sensorAccuracy": 97.2,
-                    "timeStamp": "2021-08-11T11:45:39.393725Z",
+                    "timeStamp": "2022-03-30T11:45:39.393725Z",
                     "value": 265.8,
                     "MeasurementValueSource": {
                         "mRID": "bb396abd-8537-409b-a983-ac1eb907ac30"
@@ -12,7 +12,7 @@
                 },
                 {
                     "sensorAccuracy": 97.2,
-                    "timeStamp": "2021-08-11T12:45:39.393725Z",
+                    "timeStamp": "2022-03-30T12:45:39.393725Z",
                     "value": 269.8,
                     "MeasurementValueSource": {
                         "mRID": "bb396abd-8537-409b-a983-ac1eb907ac30"
