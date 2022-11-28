@@ -21,6 +21,12 @@
         <cim:IdentifiedObject.name>SCADA</cim:IdentifiedObject.name>
     </cim:MeasurementValueSource>
 
+    <cim:MeasurementValueSource rdf:ID="_c6d71c1d-73fd-4be1-91a0-d520305498cf">
+        <cim:IdentifiedObject.mRID>c6d71c1d-73fd-4be1-91a0-d520305498cf</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Telemetered values received from a local DMS system</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DMS</cim:IdentifiedObject.name>
+    </cim:MeasurementValueSource>
+
     <cim:MeasurementValueSource rdf:ID="_e44bdf48-20f6-4ee2-941e-57f966d7d937">
         <cim:IdentifiedObject.mRID>e44bdf48-20f6-4ee2-941e-57f966d7d937</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Value received from a remote control centre via TASE.2 or other control centre protocol</cim:IdentifiedObject.description>

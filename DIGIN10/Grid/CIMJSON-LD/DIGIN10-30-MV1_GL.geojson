@@ -81,7 +81,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191",
-                    "cim:name": "L ENGENE"
+                    "cim:IdentifiedObject.name": "L ENGENE"
                 }
             },
             "geometry": {
@@ -98,7 +98,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191",
-                    "cim:name": "L NEDENES"
+                    "cim:IdentifiedObject.name": "L NEDENES"
                 }
             },
             "geometry": {
@@ -115,7 +115,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191",
-                    "cim:name": "L FROLAND"
+                    "cim:IdentifiedObject.name": "L FROLAND"
                 }
             },
             "geometry": {
@@ -132,7 +132,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f",
-                    "cim:name": "L ARENDAL"
+                    "cim:IdentifiedObject.name": "L ARENDAL"
                 }
             },
             "geometry": {
@@ -149,7 +149,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191",
-                    "cim:name": "L T_ENGENE"
+                    "cim:IdentifiedObject.name": "L T_ENGENE"
                 }
             },
             "geometry": {
@@ -166,7 +166,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191",
-                    "cim:name": "L ARENDAL-FROLAND"
+                    "cim:IdentifiedObject.name": "L ARENDAL-FROLAND"
                 }
             },
             "geometry": {
@@ -183,7 +183,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191",
-                    "cim:name": "L ARENDAL-FROLAND"
+                    "cim:IdentifiedObject.name": "L ARENDAL-FROLAND"
                 }
             },
             "geometry": {
@@ -200,7 +200,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191",
-                    "cim:name": "L FROLAND-T_ENGENE"
+                    "cim:IdentifiedObject.name": "L FROLAND-T_ENGENE"
                 }
             },
             "geometry": {
@@ -217,7 +217,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191",
-                    "cim:name": "L FROLAND-T_ENGENE"
+                    "cim:IdentifiedObject.name": "L FROLAND-T_ENGENE"
                 }
             },
             "geometry": {
@@ -234,7 +234,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191",
-                    "cim:name": "L T_ENGENE-ENGENE"
+                    "cim:IdentifiedObject.name": "L T_ENGENE-ENGENE"
                 }
             },
             "geometry": {
@@ -251,7 +251,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191",
-                    "cim:name": "L T_ENGENE-ENGENE"
+                    "cim:IdentifiedObject.name": "L T_ENGENE-ENGENE"
                 }
             },
             "geometry": {
@@ -268,7 +268,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191",
-                    "cim:name": "L ENGENE-NEDENES"
+                    "cim:IdentifiedObject.name": "L ENGENE-NEDENES"
                 }
             },
             "geometry": {
@@ -285,7 +285,7 @@
             "properties": {
                 "cim:Substation": {
                     "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191",
-                    "cim:name": "L ENGENE-NEDENES"
+                    "cim:IdentifiedObject.name": "L ENGENE-NEDENES"
                 }
             },
             "geometry": {
