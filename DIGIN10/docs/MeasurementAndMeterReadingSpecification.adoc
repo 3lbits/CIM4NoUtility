@@ -68,8 +68,11 @@ image::../diagrams/images/MeterReading-modeling-example.png[title= Modeling DIGI
 - link:..\Schedule\2022\10\12\20221012T230000Z_Analog_Current_1.json[DIGIN-Meas-1]: Analog and AnalogValue for Phase Current for a PowerTransformer in a Substation. We measure this at the Breakers Terminal. This is related to a CurrentTransformer (JSON timeseries)
 - link:..\Asset\DIGIN10-30-MV1_AS.xml[DIGIN-Meas-1]: Asset for CurrentTransformer and PotentialTransformer to have an example for relating Measurement to an Asset (CIM/XML)
 - DIGIN-Meas-2: Analog and AnalogValue for IoT temperature sensor data
+- DIGIN-Meas-3: Discrete and DiscreteValue for switch position data
 - Analog (CIM/XML)
 - AnalogValue (CIM/XML)
+- Discrete (CIM/XML)
+- DiscreteValue (CIM/XML)
 - MeasurementValueSource as reference data (CIM/XML)
 - CurrentTransformer and PotentialTransformer (CIM/XML)
 

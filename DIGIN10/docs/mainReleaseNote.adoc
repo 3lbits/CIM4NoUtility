@@ -32,10 +32,9 @@ This version includes measurement values and meter readings to allow power flow 
 = Related Documents
 Changelog from previous versions: https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Change Management]
 
-Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v.2.1]
+Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v2.1]
 
-Modeling Guide for the use of Measurement: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Modeling Guide Measurement v.2.1]
+Specification for the use of Measurement and MeterReading: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Measurement and MeterReading specification v2.1]
 
-Modeling Guide for the use of MeterReading: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Modeling Guide MeterReading v.2.1]
 
 include::..\docs\KnownIssues.adoc[]

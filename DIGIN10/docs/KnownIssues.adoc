@@ -7,9 +7,9 @@ Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version
 * https://github.com/digin-energi/Grunnprofil/issues/76[Issue 76 - Calculated Measurement]
 * https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - ValueAliasSet reference data for switch positions]
 * https://github.com/digin-energi/Grunnprofil/issues/239[Issue 239 - ICCP Use Case Support]
-* Issue CurrentTransformer
 * https://github.com/digin-energi/Grunnprofil/issues/79[Issue 79 - Modelling PMU]
 * https://github.com/digin-energi/Grunnprofil/issues/255[Issue 255 - Add meter related data]
+* https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - DiscreteValue]
 
 
 

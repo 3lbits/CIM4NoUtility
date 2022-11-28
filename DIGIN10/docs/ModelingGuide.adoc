@@ -134,31 +134,32 @@ Switch.locked is mandatory for CGMES 3.0 compliance and was added due to Disconn
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
 
-== GeoJSON
+== GeoJSON(-LD)
 
 GeoJSON was requested as a geographical format from actors as a better alternative to XML for sharing geospatial data.
 GeoJSON is an open standard based on JSON. The DIGIN10 model utilizes the linked data (LD) version of GeoJSON to include context.
 
-The DIGIN10 model includes examples for converting the GL.xml files to GeoJSON-LD.
-The official GeoJSON-LD context has been used as a base for the example files. The example files include the context required for our needs (cim, nc, rdf, dcterms, dct, prov).
+The DIGIN10 model includes alternative versions of the GL.xml files to GeoJSON(-LD). Tagged as GeoJSON so that GitHub can display it and GeoJSON validation can be enabled in the developing tool. However, the files also support https://json-ld.org/playground/[JSON-LD validation]. 
 
-[red]#We use prov, dct and dcterms for a replacement for the FullModel information.#
+The official  https://www.w3.org/TR/json-ld11/[GeoJSON-LD] context, v1.1, has been used as a base for the example files. 
+
+The example files include header information from https://www.w3.org/TR/vocab-dcat-3/[(DCAT) - Version 3], in addition to namespaces from cim.
 
 The GeoJSON example files represent a feature collection with with features, meaning the example files contain a collecion of CIM entity locations. +
-One feature mainly consists of properties and geometry. +
+One feature mainly consists of properties and geometry.
+
+Export of GeoJSON features relevant for CIM with cim tags. 
 
 Properties supports a hierarchical structure, each property starts with a CIM entity that contains its desired attributes.
-For properties DIGIN recommends using the @id with id type(urn:uuid) for mRID. Otherwise the only other attribute included for each CIM entity is the cim:IdentifiedObject.name.
+For properties DIGIN recommends using the @id with id type(urn:uuid) for mRID. Otherwise the only other attribute included for each CIM entity is the cim:IdentifiedObject.name. Additional attributes can be included, but a cim importer is only adding the geospatial information to the feature. None of the cim attributes will be updated based on this profile, only the geospatial information.
 
-PositionPoint is included as geometry. Each coordinate object includes xPosition, yPosition and zPosition. The coordinate system is WGS 84. The @id of the geometry features corresponds to the mRID of Location in the XML files.
+PositionPoint is included as geometry. Each coordinate object includes xPosition, yPosition and zPosition. The coordinate system is WGS 84. The @id of the geometry features correspond to the mRID of Location in the XML files.
 
 GeoJSON supports several geometry types: LineString, MultiLineString, MultiPoint, MultiPolygon, Point and Polygon.
 Substation is an example of Point, whereas ACLineSegment is an example of LineString.
 Currently the DIGIN10 model only includes examples for the Points, later versions will include at least LineString.
 If you use LineString you need a list of coordinates, GeoJSON suports an infinite number of list items. The order of the listed item must correspond to the sequenceNumber of the list.
 
-
-Contrary to the XML files, we include the equipment in the GeoJSON files as properties [red]#Why allowing this now?#.
 
 include::..\docs\DIGIN10ModelingNamingStandard.adoc[]
 
