@@ -52,5 +52,31 @@
         <cim:Asset.utcNumber>10000000000002</cim:Asset.utcNumber>
         <cim:Asset.PowerSystemResources rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a" />
     </cim:Asset>
+    
+    <cim:Meter rdf:ID="_58236274-f2dc-467b-90df-466007786b49">
+        <cim:IdentifiedObject.mRID>58236274-f2dc-467b-90df-466007786b49</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400 Volt Meter 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04 M2</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>true</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01280609</cim:Asset.lotNumber>
+        <cim:Asset.position>inHouse</cim:Asset.position>
+        <cim:Asset.purchasePrice>500</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>7359990000000001</cim:Asset.serialNumber>
+        <cim:Asset.type>SmartMeter</cim:Asset.type>
+        <cim:Asset.utcNumber>10000001000001</cim:Asset.utcNumber>
+        <cim:EndDevice.amrSystem>AMI</cim:EndDevice.amrSystem>
+        <cim:EndDevice.installCode>7359990000000001</cim:EndDevice.installCode>
+        <cim:EndDevice.isPan>false</cim:EndDevice.isPan>
+        <cim:EndDevice.isSmartInverter>true</cim:EndDevice.isSmartInverter>
+        <cim:EndDevice.isVirtual>false</cim:EndDevice.isVirtual>
+        <cim:EndDevice.timeZoneOffset>1</cim:EndDevice.timeZoneOffset>
+        <cim:Meter.connectionCategory></cim:Meter.connectionCategory>
+        <cim:Meter.formNumber></cim:Meter.formNumber>
+    </cim:Meter>
 
 </rdf:RDF>

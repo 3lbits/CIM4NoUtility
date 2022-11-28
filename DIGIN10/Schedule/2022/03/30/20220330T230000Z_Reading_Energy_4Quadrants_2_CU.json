@@ -3,10 +3,10 @@
         {
             "Readings": [
                 {
-                    "value": "24998.662",
+                    "value": "1922.974",
                     "timeStamp": "2022-03-30T22:00:00Z",
                     "reportedDateTime": "2022-03-30T22:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
                         "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
                     },
@@ -19,10 +19,10 @@
                     ]
                 },
                 {
-                    "value": "25000.0",
+                    "value": "1923.07",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
                         "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
                     },
@@ -38,9 +38,9 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0" //no readingtype for this in ReadingType_RD
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
                     },
                     "ReadingQualities": [
                         {
@@ -54,9 +54,9 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0" //no readingtype for this in ReadingType_RD
+                        "ref": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
                     },
                     "ReadingQualities": [
                         {
@@ -70,9 +70,9 @@
                     "value": "0.0",
                     "timeStamp": "2022-03-30T23:00:00Z",
                     "reportedDateTime": "2022-03-30T23:00:00Z",
-                    "source": "Test System",
+                    "source": "Customer Test System",
                     "ReadingType": {
-                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0" //no readingtype for this in ReadingType_RD
+                        "ref": "0.0.0.0.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
                     },
                     "ReadingQualities": [
                         {
@@ -86,10 +86,10 @@
         }
     ],
     "UsagePoint": {
-        "mRID": "106944d1-3139-41a8-a972-5bf8be1a1c5b",
+        "mRID": "ab9eba1c-28e2-41e6-9d90-97b484581582",
         "Names": [
             {
-                "name": "707057500000000001",
+                "name": "707057500000000002",
                 "NameType": {
                     "description": "Unique identifier for UsagePoint in on-prem systems",
                     "name": "usagePointId",
@@ -102,10 +102,10 @@
         ]
     },
     "Meter": {
-        "mRID": "c06392cf-393b-4a4f-8e58-63af4a84380a",
+        "mRID": "58236274-f2dc-467b-90df-466007786b49",
         "Names": [
             {
-                "name": "7359990000000001",
+                "name": "7359990000000002",
                 "NameType": {
                     "description": "Unique identifier for Meter in on-prem systems",
                     "name": "meterId",
