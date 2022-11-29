@@ -58,11 +58,6 @@
         <cim:IdentifiedObject.Description>Power and grid utility production company</cim:IdentifiedObject.Description>
         <cim:IdentifiedObject.name>Reuters Borg Elektro</cim:IdentifiedObject.name>
         <cim:IdentifiedObject.alias>RBE</cim:IdentifiedObject.alias>
-        <cim:StreetAddress.poBox>9856</cim:StreetAddress.poBox>
-        <cim:StreetAddress.postalCode>9800</cim:StreetAddress.postalCode>
-        <cim:Oranisation.streetAdress>Bergheimveien 46</cim:Oranisation.streetAdress>
-        <cim:Oranisation.postalAddres>9800</cim:Oranisation.postalAddres>
-        <cim:Oranisation.phone1>3811005522</cim:Oranisation.phone1>
         <cim:Manufacturer.ProductAssetModel rdf:ID="#_df774997-6a8e-47ca-9cd5-30ce2a85abf0"/>
     </cim:Manufacturer>
 
