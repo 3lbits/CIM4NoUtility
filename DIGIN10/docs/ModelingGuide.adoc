@@ -145,10 +145,8 @@ The official  https://www.w3.org/TR/json-ld11/[GeoJSON-LD] context, v1.1, has be
 
 The example files include header information from https://www.w3.org/TR/vocab-dcat-3/[(DCAT) - Version 3], in addition to namespaces from cim.
 
-The GeoJSON example files represent a feature collection with with features, meaning the example files contain a collecion of CIM entity locations. +
+The GeoJSON example files represent a feature collection with export of GeoJSON features relevant for CIM with cim tags.  +
 One feature mainly consists of properties and geometry.
-
-Export of GeoJSON features relevant for CIM with cim tags. 
 
 Properties supports a hierarchical structure, each property starts with a CIM entity that contains its desired attributes.
 For properties DIGIN recommends using the @id with id type(urn:uuid) for mRID. Otherwise the only other attribute included for each CIM entity is the cim:IdentifiedObject.name. Additional attributes can be included, but a cim importer is only adding the geospatial information to the feature. None of the cim attributes will be updated based on this profile, only the geospatial information.
