@@ -27,7 +27,6 @@
         "properties": "geojson:properties",
         "type": "@type",
         "cim": "http://iec.ch/TC57/CIM100#",
-        "nc": "http://entsoe.eu/ns/nc#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "dcterms": "http://purl.org/dc/terms/",
         "dct": "http://www.w3.org/ns/dcat#",
