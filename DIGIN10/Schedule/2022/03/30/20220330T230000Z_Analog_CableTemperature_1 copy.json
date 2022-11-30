@@ -8,6 +8,9 @@
                     "value": 24.37,
                     "MeasurementValueSource": {
                         "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    },
+                    "RemoteSource": {
+                        "mRID": "055d5259-8401-4206-a483-f7fd13a87299"
                     }
                 },
                 {
@@ -16,6 +19,9 @@
                     "value": 25.66,
                     "MeasurementValueSource": {
                         "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    },
+                    "RemoteSource": {
+                        "mRID": "055d5259-8401-4206-a483-f7fd13a87299"
                     }
                 }
             ],
@@ -31,8 +37,8 @@
             "PowerSystemResources": {
                 "mRID": "9d58e5bb-834c-4faa-928c-7da0bb1497d9"
             },
-			"ACDCTerminal": {
-				"mRID": "1f6d65dc-0498-4e9f-beda-0e36a667bb43"
+            "ACDCTerminal": {
+                "mRID": "1f6d65dc-0498-4e9f-beda-0e36a667bb43"
 			}
         }
     ]
