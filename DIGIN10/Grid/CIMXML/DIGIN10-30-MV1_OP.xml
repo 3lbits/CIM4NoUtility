@@ -172,7 +172,7 @@
         <cim:Analog.maxValue>140</cim:Analog.maxValue>
         <cim:Analog.minValue>-40</cim:Analog.minValue>
         <cim:Analog.normalValue>50</cim:Analog.normalValue>
-        <cim:Measurement.Asset rdf:resource="#_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1" /><
+        <cim:Measurement.Asset rdf:resource="#_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1" />
         <cim:Measurement.PowerSystemResources rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
@@ -184,7 +184,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>4134</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_56f7f828-73d8-405a-a725-4dfbe88c371d" />
     </cim:AnalogValue> 
 
@@ -195,7 +195,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>2563</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_ca370fd8-debb-4fb3-9595-952932ceea7f" />
     </cim:AnalogValue> 
 
@@ -206,7 +206,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>5</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_2791272a-9ba0-49eb-ae5a-272c3437b59a" />
     </cim:AnalogValue> 
 
@@ -217,7 +217,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>45</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_03f01d8e-c6ca-4815-a0a5-0a4a57abbb02" />
     </cim:AnalogValue> 
 
@@ -228,7 +228,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>265.8</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_b64c1205-d433-425f-9861-17e67fd8dd92" />
     </cim:AnalogValue>
 
@@ -239,7 +239,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>270.3</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_d92eb31b-7af4-44d3-9d35-cc39ec96463a" />
     </cim:AnalogValue>
 
@@ -250,7 +250,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>268.9</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_421acdf3-c623-47fa-9de1-3029ca7db837" />
     </cim:AnalogValue>
 
@@ -261,7 +261,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>11.2</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7" />
     </cim:AnalogValue>
 
@@ -272,7 +272,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>10.6</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_25498d39-29b5-45aa-8dae-ccfa497353db" />
     </cim:AnalogValue>
 
@@ -283,7 +283,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>10.3</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30" />
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c" />
         <cim:AnalogValue.Analog rdf:resource="#_e11a4842-898f-43fc-9d09-1a7f4e6a694a" />
     </cim:AnalogValue>
 

@@ -41,7 +41,7 @@
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
         <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>24.37</cim:AnalogValue.value>
-        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c"/>
         <cim:MeasurementValue.RemoteSource rdf:resource="#_055d5259-8401-4206-a483-f7fd13a87299"/>
         <cim:AnalogValue.Analog rdf:resource="#_173ce5e1-d16b-4015-9793-b12913c9f428"/>
     </cim:AnalogValue>

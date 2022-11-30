@@ -91,7 +91,7 @@
     </cim:Asset>
 
     <cim:Asset rdf:ID="_0507d6c7-b845-4171-ad56-d531e2e52401">
-        <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>0507d6c7-b845-4171-ad56-d531e2e52401</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Engene Voltage Transformer 2 Asset 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE VT2 A7</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
@@ -110,7 +110,7 @@
     </cim:Asset>
 
     <cim:Asset rdf:ID="_1104d9f6-95d3-463a-b8ad-6f64eb3a730b">
-        <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>1104d9f6-95d3-463a-b8ad-6f64eb3a730b</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Engene Voltage Transformer 3 Asset 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ENGENE VT3 A8</cim:IdentifiedObject.name>
         <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
