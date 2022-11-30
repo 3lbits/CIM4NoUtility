@@ -94,7 +94,7 @@ Split into year, month and day.
 - Release note
 
 ## Contribution
-Please provide feedback in the case you are dicsovering any errors as Issues in the digin-energi/Grunnprofil repository. Suggested changes and updates needs to be merged to the "develop" branch and not "main". The order of information in files should follow the instructions in Issue #217.
+Please provide feedback in the case you are dicsovering any errors as Issues in the digin-energi/Grunnprofil repository. Suggested changes and updates needs to be merged to the "develop" branch and not "main". The order of information in files should follow the instructions in [Issue #217](https://github.com/digin-energi/Grunnprofil/issues/217).
 
 ## Resources
 
