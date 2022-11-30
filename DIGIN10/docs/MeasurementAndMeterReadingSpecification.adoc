@@ -24,9 +24,9 @@ JSON is also requested by vendors and seems more modern and popular. DIGIN also 
 - ReadingQuality as reference data (CIM/XML)
 - UsagePoint in current version is only for connecting meter data to ConductingEquipment (CIM/XML)
 - Meter as Asset for including the Meter data and Meter related data (Will be complemented in later versions. An example is MeterMultiplier) (CIM/XML)
-- DIGIN-AMI-1: The use of MeterReading for retail customer. Then we use UsagePoint and ConformLoad (CIM/XML)
-- DIGIN-AMI-2: The use of MeterReading in a Substation when you have not modelled CurrentTransformer and/or PotentialTransformer. Then we use UsagePoint and StationSupply (CIM/XML)
-- DIGIN-AMI-2: The use of MeterReading in a Substation when you have modelled CurrentTransformer and PotentialTransformer. Then we use UsagePoint and CurrentTransformer and/or PotentialTransformer (CIM/XML)
+- DIGIN-AMI-1: The use of MeterReading for retail customer. Then we use UsagePoint and ConformLoad (CIM/XML). Examples are shown in link:../Schedule/2022/03/30/20220330T230000Z_IntervalReading_4Quadrants_2_CU.json[DIGIN-AMI-1-1], link:..Schedule/2022/03/30/20220330T230000Z_Reading_Energy_4Quadrants_2_CU.json[DIGIN-AMI-1-2] and link:../Schedule/2022/03/30/20220330T230000Z_Reading_EarthFault_2.json[DIGIN-AMI-1-3]
+- link:../Asset/DIGIN10-30-MV1_CU.xml[DIGIN-AMI-2]: The use of MeterReading in a Substation when you have not modelled CurrentTransformer and/or PotentialTransformer. Then we use UsagePoint and StationSupply (CIM/XML)
+- link:../Asset/DIGIN10-30-MV1_CU.xml[DIGIN-AMI-2]: The use of MeterReading in a Substation when you have modelled CurrentTransformer and PotentialTransformer. Then we use UsagePoint and CurrentTransformer and/or PotentialTransformer (CIM/XML)
 
 ==== Modeling of the DIGIN-AMI-x examples is shown in the figure below:
 
@@ -64,11 +64,12 @@ image::../diagrams/images/MeterReading-modeling-example.png[title= Modeling DIGI
 [#ref-MeasurementValue]
 === We have examples for: 
 
-- link:..\Schedule\2022\10\12\20221012T230000Z_Analog_ActivePower_2.json[DIGIN-Meas-1]: Analog and AnalogValue for Three Phase Active Power for a PowerTransformer in a Substation. We measure this at the Breakers Terminal (JSON timeseries)
-- link:..\Schedule\2022\10\12\20221012T230000Z_Analog_Current_1.json[DIGIN-Meas-1]: Analog and AnalogValue for Phase Current for a PowerTransformer in a Substation. We measure this at the Breakers Terminal. This is related to a CurrentTransformer (JSON timeseries)
-- link:..\Asset\DIGIN10-30-MV1_AS.xml[DIGIN-Meas-1]: Asset for CurrentTransformer and PotentialTransformer to have an example for relating Measurement to an Asset (CIM/XML)
-- DIGIN-Meas-2: Analog and AnalogValue for IoT temperature sensor data
-- DIGIN-Meas-3: Discrete and DiscreteValue for switch position data
+- link:..\Schedule\2022\03\30\20220330T230000Z_Analog_ActivePower_2.json[DIGIN-Meas-1]: Analog and AnalogValue for Three Phase Active Power for a PowerTransformer in a Substation. We measure this at the Breakers Terminal (JSON timeseries)
+- link:..\Schedule\2022\03\30\20220330T230000Z_Analog_Current_1.json[DIGIN-Meas-1]: Analog and AnalogValue for Phase Current for a PowerTransformer in a Substation. We measure this at the Breakers Terminal. This is related to a CurrentTransformer (JSON timeseries)
+- link:../Schedule/2022/03/30/20220330T230000Z_Analog_CableTemperature_1.json[DIGIN-Meas-2]: Analog and AnalogValue for IoT temperature sensor data
+- link:../Schedule/2022/03/30/20220330T230000Z_Discrete_SwitchPosition_1.json[DIGIN-Meas-3]: Discrete and DiscreteValue for switch position data
+- link:../Schedule/2022/03/30/20220330T230000Z_Analog_OilTemperature_1.json[DIGIN-Meas-4]: AnalogValue for PowerTransformer oil temperature
+- Asset for CurrentTransformer and PotentialTransformer to have an example for relating Measurement to an Asset (CIM/XML). Several of the examples show this.
 - Analog (CIM/XML)
 - AnalogValue (CIM/XML)
 - Discrete (CIM/XML)

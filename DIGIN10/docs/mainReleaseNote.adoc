@@ -21,13 +21,14 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 
 *Status*: Current +
 *Version*: DIGIN10-30-v.2.1 +
-*Published*: 2022-11-xx +
-*Updated*: 2022-11-xx +
+*Published*: 2022-11-30 +
+*Updated*: 2022-11-30 +
 *Current Version*: https://github.com/digin-energi/Grunnprofil/tree/main +
 *Previous Version*: DIGIN10-30-v2.0 +
 
 Issue 50 has been adressed. +
 This version includes measurement values and meter readings to allow power flow calculations based on real time data. The inclusion of measurements will also allow better estimation of future scenarios (steady state values are also based on the real time series).
+Fuse has been included in this model version.
 
 = Related Documents
 Changelog from previous versions: https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Change Management]

@@ -1,6 +1,6 @@
 # Known Issues
 
-Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version will include the Feeder and Fuse with the recommended way to model it. 
+Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version will include the Feeder with the recommended way to model it. 
 
 
 ## Issue list from GitHub issues
@@ -10,6 +10,7 @@ Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version
 * https://github.com/digin-energi/Grunnprofil/issues/79[Issue 79 - Modelling PMU]
 * https://github.com/digin-energi/Grunnprofil/issues/255[Issue 255 - Add meter related data]
 * https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - DiscreteValue]
+* https://github.com/digin-energi/Grunnprofil/issues/262[Issue 262 - MeterReading enhancement]
 
 
 
