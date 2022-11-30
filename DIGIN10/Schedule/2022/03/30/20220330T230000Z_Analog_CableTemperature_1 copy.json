@@ -1,0 +1,45 @@
+{
+    "Analog": [
+        {
+            "AnalogValues": [
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2022-03-30T13:45:39.393725Z",
+                    "value": 24.37,
+                    "MeasurementValueSource": {
+                        "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    },
+                    "RemoteSource": {
+                        "mRID": "055d5259-8401-4206-a483-f7fd13a87299"
+                    }
+                },
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2022-03-30T14:45:39.393725Z",
+                    "value": 25.66,
+                    "MeasurementValueSource": {
+                        "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    },
+                    "RemoteSource": {
+                        "mRID": "055d5259-8401-4206-a483-f7fd13a87299"
+                    }
+                }
+            ],
+            "mRID": "173ce5e1-d16b-4015-9793-b12913c9f428",
+            "name": "04 TELEMA 2 ACLS1 AN7",
+            "measurementType": "Temperature",
+            "phases": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN",
+            "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
+            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.Deg",
+            "Asset": {
+                "mRID": "6270b5e8-b307-427d-82c2-5605950145e3"
+            },
+            "PowerSystemResources": {
+                "mRID": "9d58e5bb-834c-4faa-928c-7da0bb1497d9"
+            },
+            "ACDCTerminal": {
+                "mRID": "1f6d65dc-0498-4e9f-beda-0e36a667bb43"
+			}
+        }
+    ]
+}
