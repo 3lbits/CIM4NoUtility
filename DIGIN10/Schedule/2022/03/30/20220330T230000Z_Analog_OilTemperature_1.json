@@ -1,0 +1,36 @@
+{
+    "Analog": [
+        {
+            "AnalogValues": [
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2022-03-30T13:45:39.393725Z",
+                    "value": 51.3,
+                    "MeasurementValueSource": {
+                        "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    }
+                },
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2022-03-30T14:45:39.393725Z",
+                    "value": 51.7,
+                    "MeasurementValueSource": {
+                        "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    }
+                }
+            ],
+            "mRID": "03f01d8e-c6ca-4815-a0a5-0a4a57abbb02",
+            "name": "ENGENE OilTemp AN10",
+            "measurementType": "OilTemperature",
+            "phases": "http://iec.ch/TC57/CIM100#PhaseCode.none",
+            "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
+            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.Deg",
+            "Asset": {
+                "mRID": "6b7f7604-9f3e-479e-889f-f5d3d8ca60a1"
+            },
+            "PowerSystemResources": {
+                "mRID": "681a2fcb-5a55-11eb-a658-74e5f963e191"
+            }
+        }
+    ]
+}
