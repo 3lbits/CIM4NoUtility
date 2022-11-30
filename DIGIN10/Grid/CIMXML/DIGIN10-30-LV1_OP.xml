@@ -39,7 +39,7 @@
         <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Analog 7 Analog Value 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>04 TELEMA 2 AN7 AV7</cim:IdentifiedObject.name>
         <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
-        <cim:MeasurementValue.timeStamp>2021-08-11T11:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:MeasurementValue.timeStamp>2022-03-30T13:45:39.393725Z</cim:MeasurementValue.timeStamp>
         <cim:AnalogValue.value>24.37</cim:AnalogValue.value>
         <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_bb396abd-8537-409b-a983-ac1eb907ac30"/>
         <cim:MeasurementValue.RemoteSource rdf:resource="#_055d5259-8401-4206-a483-f7fd13a87299"/>
