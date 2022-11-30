@@ -95,3 +95,8 @@ Split into year, month and day.
 
 ## Contribution
 Please provide feedback in the case you are dicsovering any errors as Issues in the digin-energi/Grunnprofil repository. Suggested changes and updates needs to be merged to the "develop" branch and not "main". The order of information in files should follow the instructions in Issue #217.
+
+## Resources
+
+[grunnprofil-scripts](https://github.com/digin-energi/grunnprofil-scripts/)
+: This is a digin-energi repository that will be used to publish relevant code that is used in the DIGIN Grunnprofil project. As of DIGIN10 v2.1 the Neo4J folder and its content has been moved to this repository.

@@ -21,8 +21,8 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 
 *Status*: Current +
 *Version*: DIGIN10-30-v.2.1 +
-*Published*: 2022-11-30 +
-*Updated*: 2022-11-30 +
+*Published*: 2022-12-01 +
+*Updated*: 2022-12-01 +
 *Current Version*: https://github.com/digin-energi/Grunnprofil/tree/main +
 *Previous Version*: DIGIN10-30-v2.0 +
 
