@@ -144,7 +144,7 @@
 	<cim:ReadingType rdf:id="_3a4cda70-cf94-4290-a35f-058176555109">
 		<cim:IdentifiedObject.mRID>3a4cda70-cf94-4290-a35f-058176555109</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>bulkQuantity forward electricitySecondaryMetered energy (kVArh)</cim:IdentifiedObject.description>
-		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
+		<skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0"/>
 		<cim:IdentifiedObject.name>0.0.0.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0</cim:IdentifiedObject.name>
 		<cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
 		<cim:flowDirection rdf:resource="http://iec.ch/TC57/CIM100#FlowDirectionKind.flowDirection"/>
