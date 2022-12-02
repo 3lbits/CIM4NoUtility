@@ -63,7 +63,7 @@
     <cim:NameType rdf:ID="_d56ca01d-7801-4e1b-ac69-c2059143475f">
         <cim:NameType.description>Unique identifier in Company NIS</cim:NameType.description>
         <cim:NameType.name>companyNisId</cim:NameType.name>
-        <nc:NameType.NameTypeAthority rdf:resource="#_3868b80f-7e64-4fc0-a851-ce6835676a6e"/>
+        <nc:NameType.NameTypeAuthority rdf:resource="#_3868b80f-7e64-4fc0-a851-ce6835676a6e"/>
     	<nc:NameType.mRID>d56ca01d-7801-4e1b-ac69-c2059143475f</nc:NameType.mRID>	
 	</cim:NameType>
 
