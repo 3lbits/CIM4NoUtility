@@ -1,11 +1,20 @@
 # Known Issues
 
-Breaker was used instead of Fuse to ensure CGMES v2.4 conformity. CGMES v3.0 do support Fuse, but to highlight the difference between CGMES v3.0 and v2.4 they were left out in version 2.0. Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version will include the Feeder and Fuse with the recommended way to model it. 
+Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version will include the Feeder with the recommended way to model it. 
+
+
+## Issue list from GitHub issues
+* https://github.com/digin-energi/Grunnprofil/issues/76[Issue 76 - Calculated Measurement]
+* https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - ValueAliasSet reference data for switch positions]
+* https://github.com/digin-energi/Grunnprofil/issues/239[Issue 239 - ICCP Use Case Support]
+* https://github.com/digin-energi/Grunnprofil/issues/79[Issue 79 - Modelling PMU]
+* https://github.com/digin-energi/Grunnprofil/issues/255[Issue 255 - Add meter related data]
+* https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - DiscreteValue]
+* https://github.com/digin-energi/Grunnprofil/issues/262[Issue 262 - MeterReading enhancement]
 
 
 
-
-
+## Validation
 The following files are added as placeholders and are not included in validation:
 
 - DIGIN10-30-LV1_DL

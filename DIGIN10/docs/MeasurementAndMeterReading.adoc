@@ -1,9 +1,0 @@
-= Measurement and MeterReading specifications
-
-== Measurement 
-[red]#Measurement should be modelled as shown in the example shown in the following figure DIGIN10\diagrams\images\..#
-
-=== MeasurementValue
-[red]#How is this related to AssetInfo#
-
-== MeterReading
