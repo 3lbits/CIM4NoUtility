@@ -1,0 +1,39 @@
+{
+    "Analog": [
+        {
+            "AnalogValues": [
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2022-03-30T11:45:39.393725Z",
+                    "value": 265.8,
+                    "MeasurementValueSource": {
+                        "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    }
+                },
+                {
+                    "sensorAccuracy": 97.2,
+                    "timeStamp": "2022-03-30T12:45:39.393725Z",
+                    "value": 269.8,
+                    "MeasurementValueSource": {
+                        "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+                    }
+                }
+            ],
+            "mRID": "b64c1205-d433-425f-9861-17e67fd8dd92",
+            "name": "ENGENE CT1 AN1",
+            "measurementType": "PhaseCurrent",
+            "phases": "http://iec.ch/TC57/CIM100#PhaseCode.A",
+            "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
+            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.A",
+            "Asset": {
+                "mRID": "3344a693-6818-4703-93ac-510baac566d5"
+            },
+            "PowerSystemResources": {
+                "mRID": "26d2f8aa-b651-46c5-a54d-05948f35f3d2"
+            },
+            "ACDCTerminal": {
+                "mRID": "83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        }
+    ]
+}

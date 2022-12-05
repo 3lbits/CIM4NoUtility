@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#">
+ 
+    <md:FullModel rdf:about="urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2">
+        <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 Low Voltage 1 (LV1) Asset Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/Asset</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+    </md:FullModel>
+
+    <cim:Asset rdf:ID="_6270b5e8-b307-427d-82c2-5605950145e3">
+        <cim:IdentifiedObject.mRID>6270b5e8-b307-427d-82c2-5605950145e3</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400V Telemarkstien 2 Asset 1 ACLineSegment 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA2 Asset1 ACLS1</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>true</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01580609</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>400</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSTPRv</cim:Asset.serialNumber>
+        <cim:Asset.type>UnderGroundCable</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000001</cim:Asset.utcNumber>
+        <cim:Asset.AssetInfo rdf:resource="#_d25f35ca-69fb-4c06-905b-67ec532e5f14" />
+        <cim:Asset.PowerSystemResources rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_c03f6706-21e6-4034-ab48-781c438af5a2">
+        <cim:IdentifiedObject.mRID>c03f6706-21e6-4034-ab48-781c438af5a2</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Disruptive Technologies temperature sensor 1 Asset 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTechTempSensor1 Asset2</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01580608</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>10</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSTPRs</cim:Asset.serialNumber>
+        <cim:Asset.type>DisrTechTemperatrueSensor</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000002</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a" />
+    </cim:Asset>
+    
+    <cim:Meter rdf:ID="_58236274-f2dc-467b-90df-466007786b49">
+        <cim:IdentifiedObject.mRID>58236274-f2dc-467b-90df-466007786b49</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400 Volt Meter 2</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04 M2</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>true</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01280609</cim:Asset.lotNumber>
+        <cim:Asset.position>inHouse</cim:Asset.position>
+        <cim:Asset.purchasePrice>500</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>7359990000000001</cim:Asset.serialNumber>
+        <cim:Asset.type>SmartMeter</cim:Asset.type>
+        <cim:Asset.utcNumber>10000001000001</cim:Asset.utcNumber>
+        <cim:EndDevice.amrSystem>AMI</cim:EndDevice.amrSystem>
+        <cim:EndDevice.installCode>7359990000000001</cim:EndDevice.installCode>
+        <cim:EndDevice.isPan>false</cim:EndDevice.isPan>
+        <cim:EndDevice.isSmartInverter>true</cim:EndDevice.isSmartInverter>
+        <cim:EndDevice.isVirtual>false</cim:EndDevice.isVirtual>
+        <cim:EndDevice.timeZoneOffset>1</cim:EndDevice.timeZoneOffset>
+        <cim:Meter.connectionCategory></cim:Meter.connectionCategory>
+        <cim:Meter.formNumber></cim:Meter.formNumber>
+    </cim:Meter>
+
+</rdf:RDF>

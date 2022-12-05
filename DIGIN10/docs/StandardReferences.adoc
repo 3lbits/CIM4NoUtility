@@ -1,0 +1,31 @@
+# Standard references
+
+## CGMES v3.0
+International Electrotechnical Commission (IEC) Common Grid Model Exchange Standard (CGMES) is based on IEC Common Information Model (CIM) standards defined in IEC 61970-series, IEC 61968-series and IEC 62325-series. IEC CGMES defines relevant data exchange profiles to support European legislation requirement for EU Common Grid Model methodologies (CGMm), but are not limited to business processes derived from European legislation.
+The CGMES applies to applications dealing with power system data management, as well as applications supporting the following:
+
+* Static Power Flow
+* Remedial Action and Contingency Analysis
+* Short-Circuit Analysis
+* Capacity Calculation Analysis
+* Transient Dynamic Stability Analysis
+
+The data exchange can be between internal applications or between applications at System Operators (SO) and Reginal Coordination Centre (RCC). This covers DSO-DSO, DSO-TSO, TSO-TSO, TSO-RCC/ISO/RTO and RCC-RCC interfaces, but not limited to these.
+
+CGMES v3.0 is described in: +
+https://standard.no/no/Nettbutikk/produktkatalogen/Produktpresentasjon/?ProductID=1367904[IEC 61970-600-1:2021] +
+_Structure and rules. This part defines the structure of the series of standard and the rules that needs to be applied on the assembled and merged models that are defined by the different profile standards_ +
+https://standard.no/no/Nettbutikk/produktkatalogen/Produktpresentasjon/?ProductID=1367900[IEC 61970-600-2:2021] +
+_Exchange profiles specification. This part defines the IEC 61970-450-series and IEC 61968-13 related profiles that are included in CGMES. It includes the references to published standards and additional constraints defined to the relevant standard. If the relevant edition of a standard is not published, it also includes the profile definition and the standard’s constraints._
+
+The profile describing CGMES v3.0 in RDFS and SHACL can be downloaded here: https://www.entsoe.eu/Documents/CIM_documents/Grid_Model_CIM/IEC61970-600-2_CGMES_3_0_1_ApplicationProfiles.zip[Application Profiles v3.0.1] +
+More information and download related to the Conformity Assessment Scheme v3.0 (application conformity to CGMES v3.0) can be found: https://www.entsoe.eu/data/cim/cim-conformity-and-interoperability/[CIM Conformity and Interoperability (entsoe.eu)]
+
+## CDPSM v2.0
+International Electrotechnical Commission (IEC) Common Distribution Power System Model (CDPSM) is based on IEC Common Information Model (CIM) standards defined in IEC 61970-series, IEC 61968-series and IEC 62325-series. IEC CDPSM complement IEC 61970-45x based profiles, including CGMES, to exchange relevant data for supporting power flow calculation of unbalanced distribution network. In addition, it includes structure data to support exchange of asset and asset catalogue data.
+
+CDPSM v2.0 is described in: +
+https://standard.no/no/Nettbutikk/produktkatalogen/Produktpresentasjon/?ProductID=1355614[IEC 61968-13:2021]
+
+CDPSM v2.0 plus Norwegian extensions is used as the bases for the Autofos profile. Description of the project can be found: https://www.statnett.no/for-aktorer-i-kraftbransjen/systemansvaret/fosweb/kraftsystemdata/autofos/[Autofos | Statnett] (Norwegian) https://www-statnett-no.translate.goog/for-aktorer-i-kraftbransjen/systemansvaret/fosweb/kraftsystemdata/autofos/?_x_tr_sl=no&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp[Autofos | Statnett (www-statnett-no.translate.goog)]
+

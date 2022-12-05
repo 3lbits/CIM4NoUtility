@@ -1,0 +1,167 @@
+:hardbreaks:
+
+= Modeling guide
+:sectnums:
+
+*Version:* 2.1
+
+The purpose of this document is to provide the necessary information to model an electrical power grid according to the DIGIN10 model. 
+
+The purpose of the DIGIN10 model is to equip the Norwegian power industry with a common tool for modeling the distribution network, in its entirety, in CGMES format. The DIGIN10 model also includes examples for how the network model can be combined with MeterReading and Measurement data as well as the CDPSM v2.0.
+
+
+// ////////////////////////////////////////////////////////////
+:sectnums:
+== General requirements
+
+
+
+
+// ////////////////////////////////////////////////////////////
+=== Data exchange format
+The interested reader is referred to IEC 61970-600-1 (CGMES).
+
+
+=== Units
+CGMES v3.0 currently only supports fixed units for any given attribute. The following units have been used for the DIGIN10 model:
+--
+[grid=none, frame=none, width=30em]
+|===
+||
+|Length|m
+|Power|MW
+|Reactive Power |MVAr
+|Voltage |kV
+|Current |A
+
+|===
+--
+This is related to one of the open issues related to the use of JSON-LD.
+
+// ////////////////////////////////////////////////////////////
+
+== Specific instructions
+In addition to the previously presented profiles, the following sections describe how particular aspects should be modelled.
+
+=== Boundary model
+To support TSO-DSO-DSO-SGU model exchange there is a need to create the boundary models as bilateral boundary. In DIGIN10 we have created bilateral boundary models between HV1-MV1 and MV1-LV1. 
+
+=== BusbarSection
+It was decided that BusbarSection should be connected to a VoltageLevel when possible.
+
+=== Breaker
+All Breakers that are connected to the same ConnectivityNode must be connected to the same VoltageLevel.
+
+=== ConformLoad
+ConformLoad shall be connected via a Breaker to a Bay.
+
+
+=== ConformLoadGroup
+ConformLoadGroup is used as a container for loads. We have decided to use ConformLoadGroup for all ConformLoads below the same low voltage PowerTransformer.
+
+
+=== ConnectivityNodes
+ConnectiviyNodes belonging to BusbarSection would need to be contained by the VoltageLevel. All ConnectivityNode connected to a Switch (excpet if one of the ends are connected to a BusbarSection) shall be contained in the same Bay as the Switch.
+Remaining ConnectivityNodes in a Substation should be connected to a VoltageLevel. All ConnectivityNode must be connected to a ConnectivityNodeContainer (Substation, VoltageLevel, Bay or Line).
+
+
+=== ControlArea
+The DIGIN10 model currently contains only one control area on the MV side. ControlArea will be adressed in coming releases.
+
+=== Equipment containers
+The DIGIN10 model uses the following equipent containers:
+
+. Line
+. Bay
+. VoltageLevel
+. Substation
+
+
+=== EquivalentInjection
+EquivalentInjection is included in the model, but switched off in cases where it is used to model a generator. This is because the tools that have been used to test the power flow does not support this function.
+
+For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUnit is added to emulate EquivalentInjection for the power flow. 
+
+=== Feeder
+Will be included in a later version of the DIGIN10 model.
+
+=== Fuse
+Fuse has been added to the DIGIN10 model. Please refer to xref:ChangeManagement.adoc#ref-Change_Fuse[ChangeManagement.adoc] for details.
+
+=== Line
+Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
+
+=== LoadResponseCharacteristic
+LoadResponseCharacteristic is included in the EQ profile for the MV grid to model large loads such as industrial loads.
+
+=== Measurement 
+Please refer to xref:MeasurementAndMeterReadingSpecification.adoc#ref-MeasurementValue[MeasurementAndMeterReadingSpecification.adoc] for details.
+
+=== MeterReading
+Please refer to xref:MeasurementAndMeterReadingSpecification.adoc#ref-MeterReading[MeasurementAndMeterReadingSpecification.adoc] for details.
+
+
+=== ModelAuthoritySet
+The CIM concept of Model Authority Sets is applied to enable the assembly and merging of model. It can also identify the source MAS when the merged model is referring to the original input model. Model Authority Sets allow an interconnection model to be divided into disjointed
+sets of objects, which in turn allows different parties to take responsibility for different parts of a common grid model. 
+Section 5.2 in IEC 61970-600-1:2021 gives the rules for handling of MAS.
+In DIGIN we are using this to model HV, MV and LV separately, either by the fact that they are sourced by a different utility or application in the same organisation.
+
+
+=== Object Registry
+The Object Registry profile (part of ENTSO-E Network Code (NC) CGMES extensions (extension is also included in IEC 61968-100:2022) give the possibility to have multiple names for the same identifiable resource.
+
+=== OperationalLimit
+Only CurrentLimit is currently used and included as normalValue in the EQ files and value in the SSH files.
+
+=== PowerTransformerEnd
+PowerTransformerEnd.r and PowerTransformerEnd.x are defined on the primary winding of double winded transformers.
+
+=== PATL and TATL
+LV only includes Permanent Admissible Transmission Loading (PATL). The default limits are included in the EQ as e.g. CurrentLimit.normalValue. The result of the dynamic line rating is included in the SSH as e.g. CurrentLimit.value.
+
+
+=== Reference Data
+Common data for all MAS is included in Reference data files, BaseVoltage and GeograpicalRegion. Reference data files should be created for data that is common accross more than just one organisation.
+
+=== Substation
+Substation is used to model cable cabinets in the LV files. This is an issue and might be changed in upcoming version.
+
+
+=== Switch
+Switch.locked is mandatory for CGMES 3.0 compliance and was added due to DisconnectingCircuitBreaker(DCB). In the DIGIN10 model the property is added for all switch types. However, the DCB breaker is not included in the current DIGIN10 model.
+
+=== Terminal
+If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
+
+== GeoJSON(-LD)
+
+GeoJSON was requested as a geographical format from actors as a better alternative to XML for sharing geospatial data.
+GeoJSON is an open standard based on JSON. The DIGIN10 model utilizes the linked data (LD) version of GeoJSON to include context.
+
+The DIGIN10 model includes alternative versions of the GL.xml files to GeoJSON(-LD). Tagged as GeoJSON so that GitHub can display it and GeoJSON validation can be enabled in the developing tool. However, the files also support https://json-ld.org/playground/[JSON-LD validation]. 
+
+The official  https://www.w3.org/TR/json-ld11/[GeoJSON-LD] context, v1.1, has been used as a base for the example files. 
+
+The example files include header information from https://www.w3.org/TR/vocab-dcat-3/[(DCAT) - Version 3], in addition to namespaces from cim.
+
+The GeoJSON example files represent a feature collection with export of GeoJSON features relevant for CIM with cim tags.  +
+One feature mainly consists of properties and geometry.
+
+Properties supports a hierarchical structure, each property starts with a CIM entity that contains its desired attributes.
+For properties DIGIN recommends using the @id with id type(urn:uuid) for mRID. Otherwise the only other attribute included for each CIM entity is the cim:IdentifiedObject.name. Additional attributes can be included, but a cim importer is only adding the geospatial information to the feature. None of the cim attributes will be updated based on this profile, only the geospatial information.
+
+PositionPoint is included as geometry. Each coordinate object includes xPosition, yPosition and zPosition. The coordinate system is WGS 84. The @id of the geometry features correspond to the mRID of Location in the XML files.
+
+GeoJSON supports several geometry types: LineString, MultiLineString, MultiPoint, MultiPolygon, Point and Polygon.
+Substation is an example of Point, whereas ACLineSegment is an example of LineString.
+Currently the DIGIN10 model only includes examples for the Points, later versions will include at least LineString.
+If you use LineString you need a list of coordinates, GeoJSON suports an infinite number of list items. The order of the listed item must correspond to the sequenceNumber of the list.
+
+
+include::..\docs\DIGIN10ModelingNamingStandard.adoc[]
+
+
+
+
+

@@ -1,0 +1,42 @@
+# Known Issues
+
+Feeder is not part of CGMES v3.0, but added to CIM17 and CDPSM. Upcoming version will include the Feeder with the recommended way to model it. 
+
+
+## Issue list from GitHub issues
+* https://github.com/digin-energi/Grunnprofil/issues/76[Issue 76 - Calculated Measurement]
+* https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - ValueAliasSet reference data for switch positions]
+* https://github.com/digin-energi/Grunnprofil/issues/239[Issue 239 - ICCP Use Case Support]
+* https://github.com/digin-energi/Grunnprofil/issues/79[Issue 79 - Modelling PMU]
+* https://github.com/digin-energi/Grunnprofil/issues/255[Issue 255 - Add meter related data]
+* https://github.com/digin-energi/Grunnprofil/issues/252[Issue 252 - DiscreteValue]
+* https://github.com/digin-energi/Grunnprofil/issues/262[Issue 262 - MeterReading enhancement]
+
+
+
+## Validation
+The following files are added as placeholders and are not included in validation:
+
+- DIGIN10-30-LV1_DL
+- DIGIN10-30-LV1_OP
+- DIGIN10-30-MV1_CU
+- DIGIN10-30-MV1_OP
+
+The following files have not been included in the validation:
+
+- DIGIN10-30-LV1_CU (part of CDPSM)
+- DIGIN10-30-LV1_GL
+- DIGIN10-30-LV1_OR (part of ENTSO-E NC)
+- DIGIN10-30-LV1_SC (not supporting Short-circuit calculation in this version)
+- DIGIN10-30-MV1_DL
+- DIGIN10-30-MV1_GL
+- DIGIN10-30-MV1_SC (not supporting Short-circuit calculation in this version)
+
+,===
+include::..\Validation\CIMdeskValidation.csv[]
+,===
+
+
+
+
+

@@ -1,0 +1,63 @@
+{
+  "Discrete": [
+    {
+      "DiscreteValues": [
+        {
+          "timeStamp": "2022-03-30T11:45:39.393725Z",
+          "value": 0,
+          "MeasurementValueSource": {
+            "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+          },
+          "MeasurementValueQuality": {
+            "mRID": "7dd043c0-364a-488b-9ca0-afe19704f97d"
+          }
+        },
+        {
+          "timeStamp": "2022-03-30T12:45:39.393725Z",
+          "value": 1,
+          "MeasurementValueSource": {
+            "mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c"
+          },
+          "MeasurementValueQuality": {
+            "mRID": "7dd043c0-364a-488b-9ca0-afe19704f97d"
+          }
+        },
+        {
+          "timeStamp": "2022-03-30T13:45:39.393725Z",
+          "value": 2,
+          "MeasurementValueSource": {
+            "mRID": "c6d71c1d-73fd-4be1-91a0-d520305498cf"
+          },
+          "MeasurementValueQuality": {
+            "mRID": "7dd043c0-364a-488b-9ca0-afe19704f97d"
+          }
+        },
+        {
+          "timeStamp": "2022-03-30T14:45:39.393725Z",
+          "value": 3,
+          "MeasurementValueSource": {
+            "mRID": "c6d71c1d-73fd-4be1-91a0-d520305498cf"
+          },
+          "MeasurementValueQuality": {
+            "mRID": "7dd043c0-364a-488b-9ca0-afe19704f97d"
+          }
+        }
+      ],
+      "mRID": "126164c6-805d-4560-ab42-87660401a30c",
+      "name": "ARENDAL 132 T1E SWITCH POSITION",
+      "measurementType": "SwitchPosition",
+      "phases": "http://iec.ch/TC57/CIM100#PhaseCode.ABC",
+      "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
+      "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.none",
+      "maxValue": 3,
+      "minValue": 0,
+      "normalValue": 0,
+      "PowerSystemResources": {
+        "mRID": "48668646-105a-490d-aaad-3259b852aa23"
+      },
+      "ACDCTerminal": {
+        "mRID": "8266f01c-2b3d-4111-957e-b871f71f0fad"
+      }
+    }
+  ]
+}

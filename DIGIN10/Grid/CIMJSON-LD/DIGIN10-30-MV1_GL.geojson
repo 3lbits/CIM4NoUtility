@@ -1,0 +1,300 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "geojson": "https://purl.org/geojson/vocab#",
+        "Feature": "geojson:Feature",
+        "FeatureCollection": "geojson:FeatureCollection",
+        "GeometryCollection": "geojson:GeometryCollection",
+        "LineString": "geojson:LineString",
+        "MultiLineString": "geojson:MultiLineString",
+        "MultiPoint": "geojson:MultiPoint",
+        "MultiPolygon": "geojson:MultiPolygon",
+        "Point": "geojson:Point",
+        "Polygon": "geojson:Polygon",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
+        "features": {
+            "@container": "@set",
+            "@id": "geojson:features"
+        },
+        "geometry": "geojson:geometry",
+        "properties": "geojson:properties",
+        "type": "@type",
+        "cim": "http://iec.ch/TC57/CIM100#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [{
+            "@value": "2022-10-18T12:00:00.000Z",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+    ],
+    "_comment2": "The time the destribution (instance file) was generated.",
+    "dcterm:created": [{
+            "@value": "2022-10-18T12:00:00.000Z",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-MV1_GL-TestFile",
+    "dcterms:description": [{
+            "@value": "",
+            "@language": "en"
+        }, {
+            "@value": "",
+            "@language": "no"
+        }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [{
+            "@id": "urn:uuid:",
+            "dcterms:title": "DIGIN"
+        }
+    ],
+    "dcterms:rights": "© 2022 Copyright",
+    "dcterms:rightHolder": "DIGIN",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "",
+    "dcat:keyword": "GL",
+    "dcterms:LocationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [{
+            "@id": "urn:uuid:2dad0398-5bb2-4c82-9fd4-289ca262d312",
+            "dcterms:title": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Geographical layout (GL) Model"
+        }
+    ],
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L ENGENE"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c",
+                "type": "Point",
+                "coordinates": [
+                    8.6929813714585,
+                    58.4017201058505
+                ]
+            }
+        }, 
+        {
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L NEDENES"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a",
+                "type": "Point",
+                "coordinates": [
+                    8.70038854077893,
+                    58.4154855281921
+                ]
+            }
+        },  
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L FROLAND"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57",
+                "type": "Point",
+                "coordinates": [
+                    8.64229880452226,
+                    58.5074387827182
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f",
+                    "cim:IdentifiedObject.name": "L ARENDAL"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b",
+                "type": "Point",
+                "coordinates": [
+                    8.77315129409427,
+                    58.4640187084885
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L T_ENGENE"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b",
+                "type": "Point",
+                "coordinates": [
+                    8.68410932019787,
+                    58.4141069023377
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L ARENDAL-FROLAND"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95",
+                "type": "Point",
+                "coordinates": [
+                    8.77315129409427,
+                    58.4640187084885
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L ARENDAL-FROLAND"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95",
+                "type": "Point",
+                "coordinates": [
+                    8.64229880452226,
+                    58.5074387827182
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L FROLAND-T_ENGENE"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1",
+                "type": "Point",
+                "coordinates": [
+                    8.68410932019787,
+                    58.4141069023377
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L FROLAND-T_ENGENE"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1",
+                "type": "Point",
+                "coordinates": [
+                    8.64229880452226,
+                    58.5074387827182
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L T_ENGENE-ENGENE"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:c3b960e2-fb92-478b-880d-13768894c467",
+                "type": "Point",
+                "coordinates": [
+                    8.68410932019787,
+                    58.4141069023377
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L T_ENGENE-ENGENE"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:c3b960e2-fb92-478b-880d-13768894c467",
+                "type": "Point",
+                "coordinates": [
+                    8.6929813714585,
+                    58.4017201058505
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L ENGENE-NEDENES"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1",
+                "type": "Point",
+                "coordinates": [
+                    8.6929813714585,
+                    58.4017201058505
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191",
+                    "cim:IdentifiedObject.name": "L ENGENE-NEDENES"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1",
+                "type": "Point",
+                "coordinates": [
+                    8.70038854077893,
+                    58.4154855281921
+                ]
+            }
+        }
+    ]
+}

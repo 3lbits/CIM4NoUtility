@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#">
+
+    <md:FullModel rdf:about="urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504">
+        <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 Manufacture 1 (M1) Asset Catalogue Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/AssetCatalogue</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/CIM/AssetCatalogue/2/0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+    </md:FullModel>
+
+    <cim:CableInfo rdf:ID="_d25f35ca-69fb-4c06-905b-67ec532e5f14">
+        <cim:IdentifiedObject.mRID>d25f35ca-69fb-4c06-905b-67ec532e5f14</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>PFXP underground cable with dimension 1x4x95 and aluminum conductor for low voltage grid</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>PFXP_1x4x95_Al 1 kV</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName>PFXP1x4x95Al1kV</cim:IdentifiedObject.aliasName>
+        <cim:WireInfo.coreRadius></cim:WireInfo.coreRadius>
+        <cim:WireInfo.coreStrandCount></cim:WireInfo.coreStrandCount>
+        <cim:WireInfo.gmr></cim:WireInfo.gmr>
+        <cim:WireInfo.insulated>true</cim:WireInfo.insulated>
+        <cim:WireInfo.insulationMaterial rdf:resource="http://iec.ch/TC57/CIM100#WireInsulationKind.other" />
+        <cim:WireInfo.insulationThickness></cim:WireInfo.insulationThickness>
+        <cim:WireInfo.material rdf:resource="http://iec.ch/TC57/CIM100#WireMaterialKind.aluminum" />
+        <cim:WireInfo.rAC25>320</cim:WireInfo.rAC25>
+        <cim:WireInfo.rAC50></cim:WireInfo.rAC50>
+        <cim:WireInfo.rAC75></cim:WireInfo.rAC75>
+        <cim:WireInfo.rDC20></cim:WireInfo.rDC20>
+        <cim:WireInfo.radius>95</cim:WireInfo.radius>
+        <cim:WireInfo.ratedCurrent>220</cim:WireInfo.ratedCurrent>
+        <cim:WireInfo.sizeDescription></cim:WireInfo.sizeDescription>
+        <cim:WireInfo.strandCount></cim:WireInfo.strandCount>
+        <cim:CableInfo.constructionKind rdf:resource="http://iec.ch/TC57/CIM100#CableConstructionKind.stranded" /> <!--No idea-->
+        <cim:CableInfo.diameterOverCore></cim:CableInfo.diameterOverCore>
+        <cim:CableInfo.diameterOverInsulation></cim:CableInfo.diameterOverInsulation>
+        <cim:CableInfo.diameterOverJacket></cim:CableInfo.diameterOverJacket>
+        <cim:CableInfo.diameterOverScreen></cim:CableInfo.diameterOverScreen>
+        <cim:CableInfo.isStrandFill></cim:CableInfo.isStrandFill>
+        <cim:CableInfo.nominalTemperature></cim:CableInfo.nominalTemperature>
+        <cim:CableInfo.outerJacketKind rdf:resource="http://iec.ch/TC57/CIM100#CableOuterJacketKind.pvc" />
+        <cim:CableInfo.sheathAsNeutral></cim:CableInfo.sheathAsNeutral>
+        <cim:CableInfo.shieldMaterial rdf:resource="http://iec.ch/TC57/CIM100#CableShieldMaterialKind.aluminum" />
+    </cim:CableInfo>
+
+    <cim:PowerTransformerInfo rdf:ID ="_5462d46a-9ee5-4d09-9ac2-9f97933caa4d">
+        <cim:IdentifiedObject.mRID>5462d46a-9ee5-4d09-9ac2-9f97933caa4d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description></cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>Engene 132-22 KV PowerTransformerInfo</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.aliasName></cim:IdentifiedObject.aliasName>
+    </cim:PowerTransformerInfo>
+
+    <cim:Manufacturer rdf:ID ="_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec">
+        <cim:IdentifiedObject.mRID>b0c1754b-187c-49fa-8159-6fd2f4f918ad</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.Description>Power and grid utility production company</cim:IdentifiedObject.Description>
+        <cim:IdentifiedObject.name>Reuters Borg Elektro</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.alias>RBE</cim:IdentifiedObject.alias>
+        <cim:Manufacturer.ProductAssetModel rdf:ID="#_df774997-6a8e-47ca-9cd5-30ce2a85abf0"/>
+    </cim:Manufacturer>
+
+    <cim:ProductAssetModel rdf:ID ="_df774997-6a8e-47ca-9cd5-30ce2a85abf0">
+        <cim:IdentifiedObject.mRID>df774997-6a8e-47ca-9cd5-30ce2a85abf0</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>RTU skap for småkraftverk</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>RS5970P</cim:IdentifiedObject.name>    
+        <cim:modelNumber>28597</cim:modelNumber>
+        <cim:modelVersion>2.3</cim:modelVersion>
+        <cim:drawingNumber>EQ-15987-104</cim:drawingNumber>
+        <cim:instructionMnaual>RS5970P Operation Manual</cim:instructionMnaual>
+        <cim:weightTotal>115 kg</cim:weightTotal>
+        <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
+        <cim:ProducAssetModel.Manufacturer rdf:ID="#_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec"/>
+    </cim:ProductAssetModel>
+    
+</rdf:RDF>

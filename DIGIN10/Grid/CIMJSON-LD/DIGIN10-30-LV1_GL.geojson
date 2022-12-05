@@ -1,0 +1,205 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "geojson": "https://purl.org/geojson/vocab#",
+        "Feature": "geojson:Feature",
+        "FeatureCollection": "geojson:FeatureCollection",
+        "GeometryCollection": "geojson:GeometryCollection",
+        "LineString": "geojson:LineString",
+        "MultiLineString": "geojson:MultiLineString",
+        "MultiPoint": "geojson:MultiPoint",
+        "MultiPolygon": "geojson:MultiPolygon",
+        "Point": "geojson:Point",
+        "Polygon": "geojson:Polygon",
+        "bbox": {
+            "@container": "@list",
+            "@id": "geojson:bbox"
+        },
+        "coordinates": {
+            "@container": "@list",
+            "@id": "geojson:coordinates"
+        },
+        "features": {
+            "@container": "@set",
+            "@id": "geojson:features"
+        },
+        "geometry": "geojson:geometry",
+        "properties": "geojson:properties",
+        "type": "@type",
+        "cim": "http://iec.ch/TC57/CIM100#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#"
+    },
+    "type": "FeatureCollection",
+    "@id": "urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74",
+    "_comment": "The identifier above referes to md:FullModel rdf:about",
+    "prov:generatedAt": [{
+            "@value": "2022-10-18T12:00:00.000Z",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+    ],
+    "_comment2": "The time the destribution (instance file) was generated.",
+    "dcterm:created": [{
+            "@value": "2022-10-18T12:00:00.000Z",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        }
+    ],
+    "_comment3": "The time the dataset was issued/created.",
+    "dcterms:title": "DIGIN10-30-GridCapacity-LV1_GL-TestFile",
+    "dcterms:description": [{
+            "@value": "",
+            "@language": "en"
+        }, {
+            "@value": "",
+            "@language": "no"
+        }
+    ],
+    "dcat:version": "1",
+    "dcterms:publisher": [{
+            "@id": "urn:uuid:",
+            "dcterms:title": "DIGIN"
+        }
+    ],
+    "dcterms:rights": "© 2022 Copyright",
+    "dcterms:rightHolder": "DIGIN",
+    "dcterms:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcat:isVersionOf": "",
+    "dcat:keyword": "GL",
+    "dcterms:LocationPeriodOrJurisdiction": "http://energy.referencedata.eu/ElectricPowerTransmissionSystem/Norway",
+    "dcterms:conformsTo": "http://entsoe.eu/CIM/GeographicalLocation/3/0",
+    "dcterms:references": [{
+            "@id": "urn:uuid:ae5d9146-4ce5-4cfe-a169-daa7da367718",
+            "dcterms:title": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Geograpical Location (GL) Model"
+        }
+    ],
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:e322d64a-0413-4703-b31c-b8e0c5c32f44",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB1"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:990df1b7-bd8c-4989-808f-15b73ae0b1f4",
+                "type": "Point",
+                "coordinates": [
+                    8.70052,
+                    58.41470,
+                    22
+                ]
+            }
+        }, 
+        {
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:4bb21420-ef4f-4af1-979e-863c3f484c51",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB2"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:a46f1252-f9a1-4469-99b7-a70f1f40a0c5",
+                "type": "Point",
+                "coordinates": [
+                    8.702344000339508,
+                    58.41464573815412,
+                    24
+                ]
+            }
+        },  
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:ccffa748-19de-412a-9946-1fc846d98b71",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB3"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:ce8c258e-0d2d-4485-ba6c-6e0cac041454",
+                "type": "Point",
+                "coordinates": [
+                    8.70345,
+                    58.41477,
+                    28
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:37a3bd2c-7817-48de-aa01-13a324a6d6bd",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB4"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:d978a4dc-7d22-4b69-b148-e595558aadd5",
+                "type": "Point",
+                "coordinates": [
+                    8.69775,
+                    58.41545,
+                    17
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:27a21834-5457-4f1b-ad5c-1c69ff88fbd4",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB5"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9",
+                "type": "Point",
+                "coordinates": [
+                    8.69978,
+                    58.41612,
+                    22
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:811613d5-c44f-4daa-9dc1-03005740a4e5",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB6"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:36e1bc0b-c616-48f5-9a64-95c6d8beaa94",
+                "type": "Point",
+                "coordinates": [
+                    8.69826,
+                    58.41637,
+                    17
+                ]
+            }
+        },
+        { 
+            "type": "Feature",
+            "properties": {
+                "cim:Substation": {
+                    "@id": "urn:uuid:99a5ca36-e724-49a7-8e7f-247357b6f336",
+                    "cim:IdentifiedObject.name": "TELEMA2 04 CB7"
+                }
+            },
+            "geometry": {
+                "@id": "urn:uuid:d78bbdd4-b936-4c9f-bc78-13a9258e7b84",
+                "type": "Point",
+                "coordinates": [
+                    8.69898,
+                    58.41681,
+                    18
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+:hardbreaks:
+
+= DIGIN10 model overview
+:sectnums:
+
+*Version:* 2.1
+Please refer to xref:ChangeManagement.adoc[ChangeManagement.adoc] for details about changes in the way of modelling.
+
+The DIGIN10 model contains the following profiles for each MAS or sourceActor:
+_CGMES v3.0:_
+    BM, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
+_CDPSM v2.0:_
+    AC, AS, CU, RD
+
+Please refer to the xref:FileNameStandard.adoc[FileNameStandard.adoc] for decriptions of the abbreviations.
+
+== Profile overview
+An overview of the DIGIN10 model profiles and the classes currently included in each profile can be found in the below tables.
+
+=== CGMES v3.0
+--
+[cols="1,1,1", width=100%]
+[#tab:overview_profiles] 
+|===
+|*Equipment Core* | *Equipment Operation* | *Equiment Short Circuit*
+1.5+<.<|  
+    *LV1:*
+    Fuse
+
+    *LV1 and MV1:*
+    ACLineSegment 
+    Bay
+    Breaker
+    BusbarSection
+    ConformLoad
+    ConformLoadGroup
+    ConnectivityNode
+    CurrentLimit
+    EquivalentInjection
+    Line
+    LoadArea
+    OperationalLimitSet
+    OperationalLimitType
+    SubLoadArea
+    Substation
+    Terminal 
+    Voltage level
+
+    *MV1:*
+    ControlArea
+    Disconnector
+    SynchronousMachine
+    GeneratingUnit
+    LinearShuntCompensator
+    LoadBreakSwitch
+    LoadResponseCharacteristic
+    PetersenCoil
+    PowerTransformer
+    PowerTransformerEnd
+    RatioTapChanger
+    RegulatingControl
+    TapChangerControl
+// ------------------------------------------------------------
+
+|   *LV1:*
+    CommunicationLink
+    RemoteSource
+    RemoteUnit
+
+    *LV1 and MV1:*
+    Analog
+    AnalogValue
+    
+    *MV1:*
+    CurrentTransformer
+    PotentialTransformer
+|   *LV1:*
+    BusbarSection
+
+    *LV1 and MV1:*
+    ACLineSegment
+    EquivalentInjection
+
+    *MV1:*
+    SynchronousMachine
+    PetersenCoil
+    PowerTransformer
+    PowerTransformerEnd
+
+// ------------------------------------------------------------
+|*Steady State Hypothesis*| *Geographical Location* 
+1.3+<.<|   *LV1:*
+    ACLineSegment
+    BusbarSection
+
+    *LV1 and MV1:*
+    Breaker
+    ConformLoad
+    CurrentLimit
+    EquivalentInjection
+    Terminal
+
+    *MV1:*
+    ControlArea
+    Disconnector
+    SynchronousMachine
+    GeneratingUnit
+    RegulatingControl
+    LinearShuntCompensator
+    LoadBreakSwitch
+    RatioTapChanger
+    RegulatingControl
+// ------------------------------------------------------------
+|   *LV1 and MV1:*
+    CoordinateSystem
+    Location
+    PositionPoint   
+// ------------------------------------------------------------ 
+|   *Diagram Layout*
+|   *LV1 and MV1:*
+    Diagram
+
+    *MV1:*
+    DiagramObject
+    DiagramObjectPoint
+    DiagramObjectStyle
+    TextDiagramObject 
+// ------------------------------------------------------------     
+// ------------------------------------------------------------     
+|*State Variables*  |   *Topology* | *Object Registry*
+
+// ------------------------------------------------------------ 
+|   *MV1-LV1:*
+    SvVoltage
+    SvPowerFlow
+    SvStatus
+    SvTapStep
+    SvShuntCompensatorSections
+
+|   *MV1-LV1:*
+    TopologicalIsland
+    TopologicalNode
+    ConnectivityNode
+    Terminal
+//    pass:q[<br>]
+
+|   *LV1:*
+    Name
+    NameType
+    NameTypeAuthority 
+// ------------------------------------------------------------ 
+
+
+ | *Base Voltage Reference Data* | *Geographical Region Reference Data* |  *Measurement Value Source Reference data* 
+
+|   BasePower
+    BaseVoltage
+
+|   GeographicalRegion
+    SubGeographicalRegion
+
+|   MeasurementValueSource 
+
+// ------------------------------------------------------------ 
+
+3.1+<.<| *Boundary Model* 
+3.1+<.<|   *MV1-LV1:*
+    Bay
+    BoundaryPoint
+    ConnectivityNode
+    Substation
+    VoltageLevel
+
+    *HV1-MV1:*
+    BoundaryPoint
+    ConnectivityNode
+    Substation
+    VoltageLevel
+|=== 
+--
+
+=== CDPSM v2.0
+--
+[cols="1,1,1", width=100%]
+[#tab:overview_profiles] 
+|===
+|  *Customer* | *Asset* | *AssetCatalogue* 
+|   *LV1:*
+    UsagePoint  
+
+|   *LV1 and MV1:*
+    Asset
+    
+|   *MV1:*
+    CableInfo
+
+|*Reading Quality Type Reference Data* 2.1+<.<|*Reading Type Reference Data* 
+|   ReadingQualityType
+2.1+<.<|   ReadingType 
+
+
+|=== 
+--

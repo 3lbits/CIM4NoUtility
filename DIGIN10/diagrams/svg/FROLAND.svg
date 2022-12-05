@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="http://powerinfo.us/CIMSpy" id="FROLAND" width="659.5417" height="743" viewBox="0 0 659.5417 743" cimspy:name="FROLAND" rdf:ID="_681a1e63-5a55-11eb-a658-74e5f963e191" cimspy:diagramType="7" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <rect id="FROLAND_21" x="642.125" y="317.5" width="0" height="0" stroke="#808080" fill="none" stroke-width="2" stroke-dasharray="4 2" />
+  <text id="FreeText_FROLAND 132A CN 005" x="338.125" y="404.47" rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND 132A CN 005" x="462.125" y="414.72" rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132A CN 005</text>
+  <text id="FreeText_FROLAND 132A CN 005" x="260.125" y="414.72" rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132A</text>
+  <text id="FreeText_FROLAND 132A CN 005" x="338.125" y="424.97" rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_FROLAND 132 BA1 AD_S" x="407.625" y="457.22" rdf:ID="_e63a5023-05b9-4adf-bafd-a372b751a6ed" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 BA1 AD_S</text>
+  <text id="FreeText_FROLAND 132 AR1 AD_S" x="250.9583" y="372.22" rdf:ID="_fd338915-3831-4cc5-8c55-af2b4c1c2bb8" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 AR1 AD_S</text>
+  <text id="FreeText_FROLAND 132 EN1 AD_S" x="424.2917" y="372.22" rdf:ID="_1ac100c3-7a71-4b22-b32c-47fd73c3d01a" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 EN1 AD_S</text>
+  <text id="FreeText_FROLAND 132 AR1 LD_S" x="250.9583" y="211.22" rdf:ID="_41e0788e-9dc5-4bf0-862b-f2a99e421602" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 AR1 LD_S</text>
+  <text id="FreeText_FROLAND 132 AR1E" x="277.4583" y="301.72" rdf:ID="_a2a20c81-78b5-40bc-81d1-14ed8ea03e12" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 AR1E</text>
+  <text id="FreeText_FROLAND 132 BA1 CL" x="344.625" y="713.47" rdf:ID="_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 BA1 CL</text>
+  <text id="FreeText_FROLAND 132 BA1 LD_S" x="407.625" y="618.22" rdf:ID="_411847e0-02b3-49df-951a-f1cf780f4738" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 BA1 LD_S</text>
+  <text id="FreeText_FROLAND 132 BA1E" x="405.125" y="547.72" rdf:ID="_2714d85d-92e7-4f88-a488-f39e782a6298" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 BA1E</text>
+  <text id="FreeText_FROLAND 132 EN1E" x="421.7917" y="301.72" rdf:ID="_2fb546e7-9e06-4356-a3ad-7e3756c34f6a" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 EN1E</text>
+  <text id="FreeText_FROLAND 132 EN1 LD_S" x="424.2917" y="211.22" rdf:ID="_75f12fd9-2057-4b79-9f19-73736a0f2a6d" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 EN1 LD_S</text>
+  <text id="FreeText_FROLAND CN 001" x="330.9583" y="177.72" rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 001" x="395.4583" y="177.72" rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 001</text>
+  <text id="FreeText_FROLAND CN 001" x="368.9583" y="187.97" rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_132 ARENDAL-FROLAND ACLS 1" x="220.4583" y="141.72" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 ARENDAL-FROLAND ACLS 1</text>
+  <a id="xlink_FreeText_ARENDAL" xlink:href="ARENDAL.svg">
+    <text id="FreeText_ARENDAL" x="339.5833" y="91.97" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL</text>
+  </a>
+  <text id="FreeText_132 ARENDAL-FROLAND ACLS 1" x="279.4583" y="153.22" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">[9.5MW, 2.3MVAr]</text>
+  <text id="FreeText_132 ARENDAL-FROLAND ACLS 1" x="300.7083" y="164.72" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">48.2/1020 Amp</text>
+  <text id="FreeText_FROLAND CN 011" x="404.7917" y="167.47" rdf:ID="_7a91b6ba-ac49-4486-99c9-027e2130059f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 011" x="428.7917" y="177.72" rdf:ID="_7a91b6ba-ac49-4486-99c9-027e2130059f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 011</text>
+  <text id="FreeText_FROLAND CN 011" x="402.2917" y="187.97" rdf:ID="_7a91b6ba-ac49-4486-99c9-027e2130059f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_132 FROLAND-T_ENGENE ACLS 1" x="417.2917" y="131.72" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 FROLAND-T_ENGENE ACLS 1</text>
+  <a id="xlink_FreeText_T_ENGENE" xlink:href="T_ENGENE.svg">
+    <text id="FreeText_T_ENGENE" x="390.0417" y="91.97" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">T_ENGENE</text>
+  </a>
+  <text id="FreeText_132 FROLAND-T_ENGENE ACLS 1" x="417.2917" y="143.22" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">[0.1MW, 0.5MVAr]</text>
+  <text id="FreeText_132 FROLAND-T_ENGENE ACLS 1" x="417.2917" y="154.72" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">2.6/1020 Amp</text>
+  <text id="FreeText_FROLAND 132 BA1 CN 001" x="347.625" y="679.72" rdf:ID="_ff2e9331-31f5-0247-ac4c-77a2bc179624" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND 132 BA1 CN 001" x="412.125" y="679.72" rdf:ID="_ff2e9331-31f5-0247-ac4c-77a2bc179624" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND 132 BA1 CN 001</text>
+  <text id="FreeText_FROLAND 132 BA1 CN 001" x="385.625" y="689.97" rdf:ID="_ff2e9331-31f5-0247-ac4c-77a2bc179624" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_T1 FROLAND 132 BA1 CL" x="294.375" y="668.72" rdf:ID="_9fa38ed3-62bd-a842-9af7-9e51bbe67b89" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">[10.5MW, 2.1MVAr]</text>
+  <text id="FreeText_T1 FROLAND 132 BA1 CL" x="350.875" y="680.22" rdf:ID="_9fa38ed3-62bd-a842-9af7-9e51bbe67b89" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">52.9Amp</text>
+  <text id="FreeText_FROLAND CN 006" x="347.625" y="508.72" rdf:ID="_71f76f1e-c868-44c9-bcff-86f2e5eb3202" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 006" x="412.125" y="508.72" rdf:ID="_71f76f1e-c868-44c9-bcff-86f2e5eb3202" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 006</text>
+  <text id="FreeText_FROLAND CN 006" x="385.625" y="518.97" rdf:ID="_71f76f1e-c868-44c9-bcff-86f2e5eb3202" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_FROLAND CN 004" x="330.9583" y="338.72" rdf:ID="_cc0fef15-9e1b-4b59-8ca2-0b002c6556e1" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 004" x="395.4583" y="338.72" rdf:ID="_cc0fef15-9e1b-4b59-8ca2-0b002c6556e1" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 004</text>
+  <text id="FreeText_FROLAND CN 004" x="368.9583" y="348.97" rdf:ID="_cc0fef15-9e1b-4b59-8ca2-0b002c6556e1" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_FROLAND CN 009" x="404.7917" y="328.47" rdf:ID="_2a616b39-67cc-4a1a-abaf-2bf4b527e95f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 009" x="428.7917" y="338.72" rdf:ID="_2a616b39-67cc-4a1a-abaf-2bf4b527e95f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 009</text>
+  <text id="FreeText_FROLAND CN 009" x="402.2917" y="348.97" rdf:ID="_2a616b39-67cc-4a1a-abaf-2bf4b527e95f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_FROLAND CN 002" x="330.9583" y="262.72" rdf:ID="_5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 002" x="395.4583" y="262.72" rdf:ID="_5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 002</text>
+  <text id="FreeText_FROLAND CN 002" x="368.9583" y="272.97" rdf:ID="_5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_FROLAND CN 008" x="347.625" y="584.72" rdf:ID="_8a6562a6-8eb8-49e3-92a1-155587726e3f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 008" x="412.125" y="584.72" rdf:ID="_8a6562a6-8eb8-49e3-92a1-155587726e3f" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 008</text>
+  <text id="FreeText_FROLAND CN 008" x="385.625" y="594.97" rdf:ID="_8a6562a6-8eb8-49e3-92a1-155587726e3f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <text id="FreeText_FROLAND CN 010" x="404.7917" y="252.47" rdf:ID="_f48c2263-2375-446c-8ee5-6fa8ef2825d9" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">132 KV</text>
+  <text id="FreeText_FROLAND CN 010" x="428.7917" y="262.72" rdf:ID="_f48c2263-2375-446c-8ee5-6fa8ef2825d9" fill="#601F40" font-family="Segoe UI" font-size="9" font-weight="normal">FROLAND CN 010</text>
+  <text id="FreeText_FROLAND CN 010" x="402.2917" y="272.97" rdf:ID="_f48c2263-2375-446c-8ee5-6fa8ef2825d9" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">116.7 KV</text>
+  <polyline id="ACLineSegment_132 ARENDAL-FROLAND ACLS 1" points="381.4583,122.5 381.4583,171.5" rdf:ID="_681a26f3-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 AR1 LD_S" points="381.4583,172.5 381.4583,171.5" rdf:ID="_d87b4358-2aaf-46a0-bf1e-e63edc2352a8" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="ACLineSegment_132 FROLAND-T_ENGENE ACLS 1" points="414.7917,122.5 414.7917,171.5" rdf:ID="_92d33b99-7034-11eb-a65a-74e5f963e191" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 EN1 LD_S" points="414.7917,172.5 414.7917,171.5" rdf:ID="_d2a2232a-024f-467c-b698-2b16ddf2547a" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 BA1 CL" points="398.125,674.5 398.125,673.5" rdf:ID="_9fa38ed3-62bd-a842-9af7-9e51bbe67b89" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 BA1 LD_S" points="398.125,644.5 398.125,673.5" rdf:ID="_9077e7e3-9b90-9e46-a24c-30c28317e7e4" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 BA1 AD_S" points="398.125,418.5 398.125,408.5" rdf:ID="_352223e5-366d-4556-92dc-2ad6ab9b0c7f" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 BA1 AD_S" points="398.125,483.5 398.125,502.5" rdf:ID="_e72f44bf-2c81-4329-a902-233eec3a9a8b" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 BA1E" points="398.125,503.5 398.125,502.5" rdf:ID="_8aaadbaa-c554-403b-87ff-0a788ab24c82" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 AR1 AD_S" points="381.4583,398.5 381.4583,408.5" rdf:ID="_a42ffc08-46b4-4e3d-910c-248ca5d3a382" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 AR1 AD_S" points="381.4583,333.5 381.4583,332.5" rdf:ID="_2ce9db0d-914a-4beb-96ae-76dbb1d47a49" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 AR1E" points="381.4583,313.5 381.4583,332.5" rdf:ID="_3641e5de-84eb-4f21-9947-e1bef550a7bc" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 EN1 AD_S" points="414.7917,398.5 414.7917,408.5" rdf:ID="_b581556c-f18b-4120-bc90-a89ef37448e9" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 EN1 AD_S" points="414.7917,333.5 414.7917,332.5" rdf:ID="_3be9726b-a9cf-430e-ba62-96ad7c43a73f" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 EN1E" points="414.7917,313.5 414.7917,332.5" rdf:ID="_95b7ad7d-6b88-4dce-b726-feb157304bd8" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 AR1 LD_S" points="381.4583,237.5 381.4583,256.5" rdf:ID="_1c9ff3c5-59c8-4277-8c0a-80babe98e3c3" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 AR1E" points="381.4583,257.5 381.4583,256.5" rdf:ID="_3bbcc64f-d1ea-42d9-827a-77f46787ea95" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 BA1 LD_S" points="398.125,579.5 398.125,578.5" rdf:ID="_323cb814-3159-4112-9290-3dfe87439ee1" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 BA1E" points="398.125,559.5 398.125,578.5" rdf:ID="_fc3c9e4a-a573-4f55-ab9e-18f4c0f3a3d2" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T2 FROLAND 132 EN1E" points="414.7917,257.5 414.7917,256.5" rdf:ID="_d6d1a951-08c8-468b-b9b3-011774b9a769" stroke="#601F40" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1 FROLAND 132 EN1 LD_S" points="414.7917,237.5 414.7917,256.5" rdf:ID="_a56293ef-1f47-4837-a124-4ce3f3b75c9f" stroke="#601F40" fill="none" stroke-width="1" />
+  <g id="Disconnector_FROLAND 132 BA1 AD_S" rdf:ID="_e63a5023-05b9-4adf-bafd-a372b751a6ed">
+    <line id="Disconnector_FROLAND 132 BA1 AD_S_1" x1="398.125" y1="438.5" x2="398.125" y2="463.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 BA1 AD_S_2" x1="405.625" y1="438.5" x2="390.625" y2="463.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 BA1 AD_S_3" x1="398.125" y1="418.5" x2="398.125" y2="438.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_FROLAND 132 BA1 AD_S_4" x1="398.125" y1="463.5" x2="398.125" y2="483.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_FROLAND 132 AR1 AD_S" rdf:ID="_fd338915-3831-4cc5-8c55-af2b4c1c2bb8">
+    <line id="Disconnector_FROLAND 132 AR1 AD_S_1" x1="381.4583" y1="353.5" x2="381.4583" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 AR1 AD_S_2" x1="388.9583" y1="353.5" x2="373.9583" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 AR1 AD_S_3" x1="381.4583" y1="333.5" x2="381.4583" y2="353.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_FROLAND 132 AR1 AD_S_4" x1="381.4583" y1="378.5" x2="381.4583" y2="398.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_FROLAND 132 EN1 AD_S" rdf:ID="_1ac100c3-7a71-4b22-b32c-47fd73c3d01a">
+    <line id="Disconnector_FROLAND 132 EN1 AD_S_1" x1="414.7917" y1="353.5" x2="414.7917" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 EN1 AD_S_2" x1="422.2917" y1="353.5" x2="407.2917" y2="378.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 EN1 AD_S_3" x1="414.7917" y1="333.5" x2="414.7917" y2="353.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_FROLAND 132 EN1 AD_S_4" x1="414.7917" y1="378.5" x2="414.7917" y2="398.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_FROLAND 132 AR1 LD_S" rdf:ID="_41e0788e-9dc5-4bf0-862b-f2a99e421602">
+    <line id="Disconnector_FROLAND 132 AR1 LD_S_1" x1="381.4583" y1="192.5" x2="381.4583" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 AR1 LD_S_2" x1="388.9583" y1="192.5" x2="373.9583" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 AR1 LD_S_3" x1="381.4583" y1="172.5" x2="381.4583" y2="192.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_FROLAND 132 AR1 LD_S_4" x1="381.4583" y1="217.5" x2="381.4583" y2="237.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_FROLAND 132 AR1E" rdf:ID="_a2a20c81-78b5-40bc-81d1-14ed8ea03e12">
+    <rect id="Breaker_FROLAND 132 AR1E_1" x="376.4583" y="274.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_FROLAND 132 AR1E_2" x1="381.4583" y1="257.5" x2="381.4583" y2="274.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_FROLAND 132 AR1E_3" x1="381.4583" y1="296.5" x2="381.4583" y2="313.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Load_FROLAND 132 BA1 CL" rdf:ID="_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f">
+    <polygon id="Load_FROLAND 132 BA1 CL_1" points="393.125,689.5 403.125,689.5 398.125,699.5" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Load_FROLAND 132 BA1 CL_2" x1="398.125" y1="674.5" x2="398.125" y2="689.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_FROLAND 132 BA1 LD_S" rdf:ID="_411847e0-02b3-49df-951a-f1cf780f4738">
+    <line id="Disconnector_FROLAND 132 BA1 LD_S_1" x1="398.125" y1="599.5" x2="398.125" y2="624.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 BA1 LD_S_2" x1="405.625" y1="599.5" x2="390.625" y2="624.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 BA1 LD_S_3" x1="398.125" y1="579.5" x2="398.125" y2="599.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_FROLAND 132 BA1 LD_S_4" x1="398.125" y1="624.5" x2="398.125" y2="644.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_FROLAND 132 BA1E" rdf:ID="_2714d85d-92e7-4f88-a488-f39e782a6298">
+    <rect id="Breaker_FROLAND 132 BA1E_1" x="393.125" y="520.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_FROLAND 132 BA1E_2" x1="398.125" y1="503.5" x2="398.125" y2="520.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_FROLAND 132 BA1E_3" x1="398.125" y1="542.5" x2="398.125" y2="559.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_FROLAND 132 EN1E" rdf:ID="_2fb546e7-9e06-4356-a3ad-7e3756c34f6a">
+    <rect id="Breaker_FROLAND 132 EN1E_1" x="409.7917" y="274.5" width="10" height="22" stroke="#601F40" fill="#601F40" stroke-width="1" />
+    <line id="Breaker_FROLAND 132 EN1E_2" x1="414.7917" y1="257.5" x2="414.7917" y2="274.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Breaker_FROLAND 132 EN1E_3" x1="414.7917" y1="296.5" x2="414.7917" y2="313.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_FROLAND 132 EN1 LD_S" rdf:ID="_75f12fd9-2057-4b79-9f19-73736a0f2a6d">
+    <line id="Disconnector_FROLAND 132 EN1 LD_S_1" x1="414.7917" y1="192.5" x2="414.7917" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 EN1 LD_S_2" x1="422.2917" y1="192.5" x2="407.2917" y2="217.5" stroke="#601F40" fill="none" stroke-width="2" />
+    <line id="Disconnector_FROLAND 132 EN1 LD_S_3" x1="414.7917" y1="172.5" x2="414.7917" y2="192.5" stroke="#601F40" fill="none" stroke-width="1" />
+    <line id="Disconnector_FROLAND 132 EN1 LD_S_4" x1="414.7917" y1="217.5" x2="414.7917" y2="237.5" stroke="#601F40" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_ARENDAL" xlink:href="ARENDAL.svg">
+    <g id="NeighborSubstation_ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 381.458343505859, 107)">
+      <polyline id="NeighborSubstation_ARENDAL_1" points="375.9583,112.5 381.4583,122.5 386.9583,112.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_ARENDAL_2" x1="381.4583" y1="112.5" x2="381.4583" y2="122" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_ARENDAL_3" x1="381.4583" y1="91.5" x2="381.4583" y2="112.5" stroke="#601F40" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <a id="xlink_NeighborSubstation_T_ENGENE" xlink:href="T_ENGENE.svg">
+    <g id="NeighborSubstation_T_ENGENE" rdf:ID="_681a1e3c-5a55-11eb-a658-74e5f963e191" transform="rotate(180, 414.791656494141, 107)">
+      <polyline id="NeighborSubstation_T_ENGENE_1" points="409.2917,112.5 414.7917,122.5 420.2917,112.5" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_T_ENGENE_2" x1="414.7917" y1="112.5" x2="414.7917" y2="122" stroke="#601F40" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_T_ENGENE_3" x1="414.7917" y1="91.5" x2="414.7917" y2="112.5" stroke="#601F40" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <line id="Bus_FROLAND 132A CN 005" x1="338.125" y1="408.5" x2="458.125" y2="408.5" rdf:ID="_681a1e62-5a55-11eb-a658-74e5f963e191" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 001" x1="371.4583" y1="171.5" x2="391.4583" y2="171.5" rdf:ID="_c5889457-95dd-408e-ba1b-621d27d606c0" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 011" x1="404.7917" y1="171.5" x2="424.7917" y2="171.5" rdf:ID="_7a91b6ba-ac49-4486-99c9-027e2130059f" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND 132 BA1 CN 001" x1="388.125" y1="673.5" x2="408.125" y2="673.5" rdf:ID="_ff2e9331-31f5-0247-ac4c-77a2bc179624" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 006" x1="388.125" y1="502.5" x2="408.125" y2="502.5" rdf:ID="_71f76f1e-c868-44c9-bcff-86f2e5eb3202" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 004" x1="371.4583" y1="332.5" x2="391.4583" y2="332.5" rdf:ID="_cc0fef15-9e1b-4b59-8ca2-0b002c6556e1" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 009" x1="404.7917" y1="332.5" x2="424.7917" y2="332.5" rdf:ID="_2a616b39-67cc-4a1a-abaf-2bf4b527e95f" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 002" x1="371.4583" y1="256.5" x2="391.4583" y2="256.5" rdf:ID="_5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 008" x1="388.125" y1="578.5" x2="408.125" y2="578.5" rdf:ID="_8a6562a6-8eb8-49e3-92a1-155587726e3f" stroke="#601F40" fill="none" stroke-width="5" />
+  <line id="Bus_FROLAND CN 010" x1="404.7917" y1="256.5" x2="424.7917" y2="256.5" rdf:ID="_f48c2263-2375-446c-8ee5-6fa8ef2825d9" stroke="#601F40" fill="none" stroke-width="5" />
+  <polygon id="FROLAND_136" points="376.5135,119.6985 386.4032,119.6985 381.4583,138.8267" fill="#FF0000" stroke-width="1" transform="rotate(0, 381.458343505859, 129.262619018555)" />
+  <polygon id="FROLAND_137" points="412.875,154.1545 416.7083,154.1545 414.7917,164.6307" fill="#FF0000" stroke-width="1" transform="rotate(180, 414.791656494141, 159.392623901367)" />
+  <polygon id="FROLAND_138" points="392.875,663.625 403.375,663.625 398.125,683.625" fill="#FF0000" stroke-width="1" transform="rotate(0, 398.125, 673.625)" />
+</svg>

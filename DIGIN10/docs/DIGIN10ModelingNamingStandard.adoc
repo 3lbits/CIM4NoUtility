@@ -1,0 +1,270 @@
+= Standards used for naming
+
+In the DIGIN10 model the following standards are used for cim:IdentifiedObject.name and cim:IdentifiedObject.description.
+
+Name of an instance must be unique.
+For each class there is an example of how the name and description are composed.
+General rule:
+
+* Name string shall be in capital letters
+* When voltage is used as part of Name it shall be in kV.
+* For voltage below 1kV: 0 (zero) is used as prefix and means , (comma). Example 400V -> 04, 230V -> 023
+
+== Classes
+
+=== cim:ACLineSegment - ACLS
+
+voltage | component("service-name") | component class | sequence number
+[cols="1,1", width=75%]
+|===
+| Name                       | Description                             
+| 132 ARENDAL-FROLAND ACLS 1 | 132kV Arendal-Froland 1 ACLineSegment 1 
+| 04 TELEMA2 ACLS 3          | 400V Telemarkstien 2 ACLineSegment 3    
+|===
+
+
+
+=== cim:Bay
+
+substation | voltage | feeder | short class name | sequence
+short class name is "Ba".
+
+[cols="1,1", width=75%]
+|===
+| Name               | Description                          
+| FROLAND 132 EN Ba1 | Froland 132kV Engene 1 Bay           
+| NEDENES 04 Ba1     | Nedenes 400V Low Voltage Cable 1 Bay 
+|===
+
+=== cim:Breaker
+
+substation | voltage | feeder (if applicable) | short class name | sequence
+short class name is "Br".
+
+[cols="1,1", width=75%]
+|===
+| Name               | Description                      
+| FROLAND 132 EN Br1 | Froland 132kV Engene 1 Breaker L 
+| TELEMA2 04 Br1     | Telemarkstien2 400V Breaker 1    
+|===
+
+=== cim:BusbarSection
+
+substation | voltage | busbar
+
+[cols="1,1", width=75%]
+|===
+| Name         | Description                     
+| FROLAND 132A | Froland 132kV A Busbar Section  
+| NEDENES 04A  | Nedenes 400V A Busbar Section 1 
+|===
+
+=== cim:ConformLoad
+
+substation | voltage | feeder | short class name | sequence
+
+[cols="1,1", width=75%]
+|===
+| Name               | Description                            
+| FROLAND 132 BA1 CL | Froland 132 Bamle 1 Conform Load       
+| TELEMA2 04 CL1     | Telemarkstien2 400 Volt Conform Load 1 
+|===
+
+=== cim:ConnectivityNode
+
+(Connectivitynode is normally not included in a name standard).
+
+[cols="1,1", width=75%]
+|===
+| Name           | Description                                 
+| ARENDAL CN 007 |                                             
+| TELEMA2 04 CN1 | Telemarkstien2 400 Volt Connectivity Node 1 
+|===
+
+=== cim:CurrentLimit
+
+CurrentLimit shortname is "CuL"
+PATL or TATL | Voltage | Substation | Related entity
+
+[cols="1,1", width=75%]
+|===
+| Name                     | Description 
+| PATL T1 ARENDAL T1 420 P |             
+| PATL 04 TELEMA 2 ACLS13  |             
+|===
+
+=== cim:Disconnector
+
+substation | voltage | avgang | sequence | type
+
+[cols="1,1", width=75%]
+|===
+| Name                | Description                           
+| FROLAND 132 EN1 ADS | Froland 132kV Engene 1 A Disconnector 
+|===
+
+=== cim:EquivalentInjection
+
+substation | voltage | short class name
+
+[cols="1,1", width=75%]
+|===
+| Name              | Description                         
+| NEDENES 04 LV EQV | Nedenes 400V Low Voltage Equivalent 
+|===
+
+=== cim:GeneratingUnit
+
+substation | voltage | short class name | sequence
+
+[cols="1,1", width=75%]
+|===
+| Name           | Description                           
+| ARENDAL 420 G1 | Arendal 420kV Transmission Equivalent 
+|===
+
+=== cim:Line
+
+voltage | substation a | - | substation b | short class name | sequence
+
+[cols="1,1", width=75%]
+|===
+| Name                    | Description              
+| 132 ARENDAL-FROLAND LC1 | Line 132 ARENDAL-FROLAND 
+|===
+
+=== cim:LinearShuntCompensator - SC
+
+substation | voltage | short class name | sequence
+
+[cols="1,1", width=75%]
+|===
+| Name          | Description                     
+| ENGENE 22 SC1 | Engene 22kV A Shunt Compensator 
+|===
+
+=== cim:LoadBreakSwitch
+
+substation | voltage | sequence | short class name
+
+[cols="1,1", width=75%]
+|===
+| Name              | Description                             
+| NEDENES 22 E1 LBS | Nedenes 22kV Engene 1 Load Break Switch 
+|===
+
+=== cim:Location
+
+short class name | Name of component
+
+[cols="1,1", width=75%]
+|===
+| Name      | Description 
+| L FROLAND | (Not used)  
+|===
+
+=== cim:PetersenCoil
+
+substation | voltage | transformer | short class name
+
+[cols="1,1", width=75%]
+|===
+| Name              | Description                  
+| ARENDAL 132 T1 PC | Arendal 132kV T1 PetersenCoil 
+|===
+
+=== cim:PowerTransformer
+
+substation | short class name | sequence
+
+[cols="1,1", width=75%]
+|===
+| Name       | Description                             
+| ARENDAL T1 | Arendal 420kV / 132kV Transformer 1     
+| NEDENES T1 | Nedenes 22kV / 400V Power Transformer 1 
+|===
+
+=== cim:PowerTransformerEnd
+
+substation | transformer short class name | voltage | transformerwinding
+
+[cols="1,1", width=75%]
+|===
+| Name             | Description                        
+| ARENDAL T1 420 P | Arendal T1 420kV Primary Winding   
+| ARENDAL T1 132 S | Arendal T1 132kV Secondary Winding 
+|===
+
+=== cim:RatioTapChanger
+
+substation | transformer short class name | voltage | transformerwinding
+
+[cols="1,1", width=75%]
+|===
+| Name                 | Description                        
+| ARENDAL T1 132 S RTC | Arendal T1 132kV Secondary Winding 
+|===
+
+=== cim:RegulatingControl
+
+substation | voltage | short class name
+
+[cols="1,1", width=75%]
+|===
+| Name             | Description                                        
+| ENGENE 22 SC1 RC | Engene 22kV Shunt Compensator Regulating Control 1 
+| Arendal 300 RC   | Arendal 420kV Transmission Equivalent              
+|===
+
+=== cim:Substation
+
+substation
+
+[cols="1,1", width=75%]
+|===
+| Name           | Description                         
+| ENGENE         | Engene Substation                   
+| T_ENGENE       | Engene T-junction                   
+| TELEMA2 04 CB4 | Telemarkstien2 400 Volt Cable Box 4 
+|===
+
+=== cim:SynchronousMachine
+
+substation | voltage | short class name
+
+[cols="1,1", width=75%]
+|===
+| Name           | Description                           
+| ARENDAL 420 M1 | Arendal 420kV Transmission Equivalent |
+|===
+
+=== cim:TapChangerControl
+
+substation | short class name
+
+[cols="1,1", width=75%]
+|===
+| Name       | Description       
+| ENGENE TCC | Engene Substation |
+|===
+
+=== cim:Terminal
+
+Terminal is normally not included in a name standard and therefore the below table only contains **examples**.
+
+[cols="1,1", width=75%]
+|===
+| Name                     | Description                        
+| T1 132ARENDAL-FROLAND1   | Arendal Side                       
+| T1 22 ENGENE-T1 ACLS 1 1 | Engene Side                        
+| 04 TELEMA2 T1            | Telemarkstien2 400 Volt Terminal 1 
+|===
+
+=== cim:UsagePoint
+
+substation | voltage | short class name | sequence
+[cols="1,1", width=75%]
+|===
+| Name             | Description                          
+| TELEMA2 04 UP007 | Telemarkstien2 400 Volt UsagePoint 7 |
+|===

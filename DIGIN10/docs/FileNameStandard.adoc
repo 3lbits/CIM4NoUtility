@@ -1,0 +1,100 @@
+= Standard for file naming
+
+== Initial model
+The initial model use the following mask: 
+DIGIN10-<CGMES version>-<MAS>_<profile>
+
+=== Profiles
+--
+[cols="1,1", width=100%]
+[#tab:profile_abbreviations] 
+|===
+|EQ |Equipment Core Profile
+|OP |Equipment Operation Profile
+|SC |Equipment Short Circuit Profile
+|OR |Object Registry Profile
+|SSH |Steady State Hypothesis Profile
+|GL |Geographical Location Profile
+|TP |Topology Profile
+|CU |Customer Profile
+|DL |Diagram Layout Profile
+|SV |State Variables Profile
+|MV1-LV1_BM |Medium Voltage 1 Low Voltage 1 Boundary Model
+|HV1-MV1_BM |High Voltage 1 Medium Voltage 1 Boundary Model
+|BaseVoltage_RD |Base Voltage Reference Data
+|GeographicalRegion_RD |Geographical Region Reference Data 
+|MeasurementValueSource_RD |Measurement Value Source Reference Data
+|AC |Asset Catalog Profile
+|AS | Assets Profile
+|===
+--
+
+
+== Reference models
+DIGIN10-<CGMES version>-<Class name>_RD. RD = Reference data.
+
+== Scheduled files
+The DIGIN naming standard for files is inspored by ENTSO-E Quality of CGMES Datasets and Calculations (QoCDC) v3.3 ( https://eepublicdownloads.azureedge.net/clean-documents/digital/QualityOfCGMESdatasetsAndCalculations_v3_3.pdf[QoCDC link]). 
+
+The following mask is to be used to have a valid file name:
+<effectiveDateTime>_<businessProcess>_<sourcingActor>_<modelPart>_<fileVersion>
+
+The initial part of the file name may not follow the name standard, but it is important 
+
+* The parts in the file name are not allowed to contain any underscores "_" or dashes "-". The dashes are reserved for sub parts within the sourcingActor.
+
+* All four underscores shall be present.
+
+* <fileVersion> is optional. If left out the final underscore can be omitted.
+
+* If a file name part is not used it shall be left empty resulting in two consecutive underscores "__".
+
+* For SSH, TP and SV all five parts in the mask shall be present.
+
+* For EQ and EQDIFF they may be absent meaning that the CIMXMLfile can be used with any business process. The mask to use is then:
+** <effectiveDateTime>__<sourcingActor>_<modelPart>_<fileVersion>
+
+The sourcingActor field has the following options:
+
+--
+[cols="1,1", width=50%]
+[#tab:sourcingActor_options] 
+|===
+|*Sourcing Actor* | *Description*
+|LV1 | Model Authority Set
+|MV1 | Model Authority Set
+|M1 | Manufacturer of a product
+|M2 | Manufacturer of a product
+|
+|===
+--
+
+The businessProcess field has the following options:
+--
+[cols="1,1", width=40%]
+[#tab:businessProcess_options] 
+|===
+|*Business process* | *Description*
+|ID | Intraday
+|1D | Day ahead
+|2D | Two days ahead
+|3D | Three days ahead
+|1W | Week ahead
+|D1 | Day after
+|===
+--
+
+=== Examples
+* EQ that is valid for a given day:
++
+20221027T0000Z__MV1_EQ.xml
+
+* EQ that is valid for a given day with versioning:
++
+20221027T0000Z__MV1_EQ_2.xml
+
+* Day ahead SSH:
++
+20180118T0930Z_1D_LV1_SSH.xml
+
+

@@ -1,0 +1,72 @@
+{
+    "MeterReading": [
+        {
+            "Readings": [
+                {
+                    "value": "0.0",
+                    "timeStamp": "2022-03-30T23:00:00Z",
+                    "reportedDateTime": "2022-03-30T23:00:00Z",
+                    "source": "Customer Test System",
+                    "ReadingType": {
+                        "ref": "0.2.4.0.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "ref": "1.0.0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "value": "0.0090",
+                    "timeStamp": "2022-03-30T09:00:00Z",
+                    "reportedDateTime": "2022-03-30T23:00:00Z",
+                    "source": "Customer Test System",
+                    "ReadingType": {
+                        "ref": "0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
+                    },
+                    "ReadingQualities": [
+                        {
+                            "ReadingQualityType": {
+                                "ref": "1.0.0"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "UsagePoint": {
+        "mRID": "ab9eba1c-28e2-41e6-9d90-97b484581582",
+        "Names": [
+            {
+                "name": "707057500000000002",
+                "NameType": {
+                    "description": "Unique identifier for UsagePoint in on-prem systems",
+                    "name": "usagePointId",
+                    "NameTypeAuthority": {
+                        "description": "Unique identifier standard ean",
+                        "name": "ean"
+                    }
+                }
+            }
+        ]
+    },
+    "Meter": {
+        "mRID": "58236274-f2dc-467b-90df-466007786b49",
+        "Names": [
+            {
+                "name": "7359990000000002",
+                "NameType": {
+                    "description": "Unique identifier for Meter in on-prem systems",
+                    "name": "meterId",
+                    "NameTypeAuthority": {
+                        "description": "Unique identifier standard ean",
+                        "name": "ean"
+                    }
+                }
+            }
+        ]
+    }
+}

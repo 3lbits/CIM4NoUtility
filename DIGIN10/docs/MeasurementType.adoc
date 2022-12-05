@@ -1,0 +1,76 @@
+:hardbreaks:
+== MeasurementType naming conventions
+
+=== 61970-301:2020
+The table below is taken from 61970-301:2020 Table 6 - measurementType naming conventions.
+--
+[cols="1,1,1", width=100%]
+[#tab:measurementType_nameConvention] 
+|===
+| *measurementType*         | *61850 Name* | *Description*
+| ActiveEnergy            | TotWh      | Real energy 
+| ActivePower             | Watt       | Real power in a non-three phase circuit 
+| Angle                   | Ang        | Angle between voltage and current 
+| ApparentEnergy          | TotVAh     | Apparent energy  
+| ApparentPower           | VolAmp     | Apparent power in a non-three phase circuit 
+| Automatic               | Auto       | Automatic operation (not manual) 
+| Current                 | Amp        | Current (rms) of a non-three phase circuit 
+| Frequency               | Hz         | Frequency  
+| LineToGroundVoltage     |            | Line to ground voltage  
+| LineToNeutralVoltage    |            | Line to neutral voltage 
+| LocalOperation          | Loc        | Local operation (not remote)  
+| Operation Count         | OperCnt    | Operation count – typically for switches  
+| PhaseCurrent            | A          | Measured phase current  
+| PowerFactor             | PwrFact    | Power factor not allocated to a phase 
+| Pressure                | Pres       | Pressure
+| ReactiveEnergy          | TotVArh    | Reactive energy 
+| ReactivePower           | VolAmpr    | Reactive power in a non-three phase circuit
+| Specialization          |            | Used when a specialization of the Analog class defines the type of measurement rather than the Measurement.measurementType attribute 
+| SwitchPosition          | Pos        | Switch position (2bits= intermediate,open,closed,ignore) 
+| TapPosition             | TapPos     | Tap position of power transformer or phaseshifter  
+| Temperature             | Tmp        | Temperature
+| ThreePhaseActivePower   | TotW       | Total real power in a three phase circuit 
+| ThreePhaseApparentPower | TotVA      | Total apparent power in a three phase circuit 
+| ThreePhaseCurrent       | AvAmps     | Total current (rms) in a three phase circuit 
+| ThreePhasePowerFactor   | TotPF      | Average power factor in a three phase circuit 
+| ThreePhaseReactivePower | TotVAr     | Total reactive power in a three phase circuit 
+| Voltage                 | Vol        | Voltage (rms) not allocated to a phase  
+|===
+--
+=== Potential DIGIN extenstions
+The table below describes DIGIN extenstion and usage of measurmentType.
+--
+[cols="1,1,1,1", width=100%]
+[#tab:measurementType_DIGINextensions] 
+|===
+| *measurmentType*            | *phase [0..1]*  | *unitMultiplier*    | *unitSymbol*    
+| AcetyleneConcentration      |                 | UnitMultiplier.none | UnitSymbol.none
+| AciditiryConcentration      |                 | UnitMultiplier.none | UnitSymbol.none
+| AlarmIndication             |                 | UnitMultiplier.none | UnitSymbol.none
+| AmbientTemperature          |                 | UnitMultiplier.none | UnitSymbol.degC
+| BreakerIndication           |                 | UnitMultiplier.none | UnitSymbol.none 
+| CarbonDioxideConcentration  |                 | UnitMultiplier.none | UnitSymbol.none 
+| CarbonMonozideConcentration |                 | UnitMultiplier.none | UnitSymbol.none 
+| CommunicationIndication     |                 | UnitMultiplier.none | UnitSymbol.none 
+| ControlIndication           |                 | UnitMultiplier.none | UnitSymbol.none
+| ErrorIndication             |                 | UnitMultiplier.none | UnitSymbol.none 
+| EthaneConcentration         |                 | UnitMultiplier.none | UnitSymbol.none 
+| EthyleneConcentration       |                 | UnitMultiplier.none | UnitSymbol.none
+| Frequency                   |                 | UnitMultiplier.none | UnitSymbol.Hz   
+| governorSpeedChangeDroop    |                 | UnitMultiplier.none | UnitSymbol.none 
+| HydrogenConcentration       |                 | UnitMultiplier.none | UnitSymbol.none 
+| Indication                  |                 | UnitMultiplier.none | UnitSymbol.none 
+| LightningIndication         |                 | UnitMultiplier.none | UnitSymbol.none 
+| MethaneConcentration        |                 | UnitMultiplier.none | UnitSymbol.none
+| MoistoureConcentration      |                 | UnitMultiplier.none | UnitSymbol.none 
+| NitrogenConcentration       |                 | UnitMultiplier.none | UnitSymbol.none 
+| OilTemperature              |                 | UnitMultiplier.none | UnitSymbol.degC 
+| OxygenConcentration         |                 | UnitMultiplier.none | UnitSymbol.none 
+| PhaseVoltage                | PhaseCode.A/B/C | UnitMultiplier.k    | UnitSymbol.V    
+| Pressure                    |                 | UnitMultiplier.k    | UnitSymbol.Pa 
+| StrokeLimiter               |                 | UnitMultiplier.M    | UnitSymbol.W  
+| Temperature                 |                 | UnitMultiplier.none | UnitSymbol.degC 
+| WarningIndication           |                 | UnitMultiplier.none | UnitSymbol.none 
+| WindingTemperature          |                 | UnitMultiplier.none | UnitSymbol.degC 
+|===
+--
