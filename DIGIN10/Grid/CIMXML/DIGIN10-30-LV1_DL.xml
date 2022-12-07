@@ -17,7 +17,7 @@
   </md:FullModel>
 
   <cim:Diagram rdf:ID="_6e7d0428-fc30-43dc-a9d6-42aa5c9d6168">
-  	<cim:IdentifiedObject.mRID>6e7d0428-fc30-43dc-a9d6-42aa5c9d6168</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>6e7d0428-fc30-43dc-a9d6-42aa5c9d6168</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DIGIN10 Low Voltage</cim:IdentifiedObject.name>
     <cim:Diagram.orientation rdf:resource="http://iec.ch/TC57/CIM100#OrientationKind.negative"/>
   </cim:Diagram>

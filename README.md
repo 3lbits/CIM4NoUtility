@@ -20,7 +20,6 @@ DIGIN has developed a test model, the DIGIN10 model for the regional and local d
 - MV = Medium Voltage (in this model: regional and local distribution grid)
 - LV = Low Voltage (in this model: low voltage local distribution grid)
 - PATL = Permanent Admissible Transmission Loading
-- **RSC** = 
 - TATL = Temporarily Admissible Transmission Loading
 
 ## Versions
