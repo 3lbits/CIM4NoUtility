@@ -1407,23 +1407,23 @@
         <cim:LoadResponseCharacteristic.exponentModel>false</cim:LoadResponseCharacteristic.exponentModel>
     </cim:LoadResponseCharacteristic>
 
-	<cim:OperationalLimitSet rdf:ID="_105b264a-2ab7-2441-bb32-aae12a3cfa51">
+    <cim:OperationalLimitSet rdf:ID="_105b264a-2ab7-2441-bb32-aae12a3cfa51">
         <cim:IdentifiedObject.mRID>105b264a-2ab7-2441-bb32-aae12a3cfa51</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>LS T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:OperationalLimitSet.Terminal rdf:resource="#_9796f69a-d718-43c7-91b6-980cd96a1c50"/>
-	</cim:OperationalLimitSet>
+        <cim:IdentifiedObject.name>LS T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_9796f69a-d718-43c7-91b6-980cd96a1c50"/>
+    </cim:OperationalLimitSet>
 
-	<cim:OperationalLimitSet rdf:ID="_681a3095-5a55-11eb-a658-74e5f963e191">
+    <cim:OperationalLimitSet rdf:ID="_681a3095-5a55-11eb-a658-74e5f963e191">
         <cim:IdentifiedObject.mRID>681a3095-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>LS T2 ENGENE T1 22 S</cim:IdentifiedObject.name>
-		<cim:OperationalLimitSet.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
-	</cim:OperationalLimitSet>
+        <cim:IdentifiedObject.name>LS T2 ENGENE T1 22 S</cim:IdentifiedObject.name>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_92d33bfb-7034-11eb-a65a-74e5f963e191"/>
+    </cim:OperationalLimitSet>
 
-	<cim:OperationalLimitSet rdf:ID="_105b264a-2ab7-2441-bb32-aae12a3cfa51">
+    <cim:OperationalLimitSet rdf:ID="_105b264a-2ab7-2441-bb32-aae12a3cfa51">
         <cim:IdentifiedObject.mRID>105b264a-2ab7-2441-bb32-aae12a3cfa51</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>LS T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-		<cim:OperationalLimitSet.Terminal rdf:resource="#_9796f69a-d718-43c7-91b6-980cd96a1c50"/>
-	</cim:OperationalLimitSet>
+        <cim:IdentifiedObject.name>LS T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
+        <cim:OperationalLimitSet.Terminal rdf:resource="#_9796f69a-d718-43c7-91b6-980cd96a1c50"/>
+    </cim:OperationalLimitSet>
 
     <cim:OperationalLimitSet rdf:ID="_940fdf54-1e42-9840-a37f-7806a54f9e4b">
         <cim:IdentifiedObject.mRID>940fdf54-1e42-9840-a37f-7806a54f9e4b</cim:IdentifiedObject.mRID>

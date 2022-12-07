@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rdf:RDF 
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:cim="http://iec.ch/TC57/CIM100#"
-	xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
-	xmlns:eu="http://iec.ch/TC57/CIM100-European#"
-	>
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    >
 
     <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
         <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
