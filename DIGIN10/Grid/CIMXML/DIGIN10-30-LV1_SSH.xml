@@ -104,77 +104,77 @@
         <cim:Equipment.inService>true</cim:Equipment.inService>
     </cim:ACLineSegment>
  
-    <cim:Breaker rdf:about="#_8aad5c29-6039-4321-8f8a-ad1c186dd145">
+    <cim:Fuse rdf:about="#_8aad5c29-6039-4321-8f8a-ad1c186dd145">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_ba0be174-8971-4820-a42b-db2c5a781e87">
+    <cim:Fuse rdf:about="#_ba0be174-8971-4820-a42b-db2c5a781e87">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_800c36a9-07be-45bd-9106-260cbd66ce4c">
+    <cim:Fuse rdf:about="#_800c36a9-07be-45bd-9106-260cbd66ce4c">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_81f3131f-baed-442d-bf7a-3606832fc3e0">
+    <cim:Fuse rdf:about="#_81f3131f-baed-442d-bf7a-3606832fc3e0">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>true</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_7e432a85-77b4-44f2-ae98-07134a1a5087">
+    <cim:Fuse rdf:about="#_7e432a85-77b4-44f2-ae98-07134a1a5087">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_46ae56a9-435f-4fad-aa91-015ef1dca930">
+    <cim:Fuse rdf:about="#_46ae56a9-435f-4fad-aa91-015ef1dca930">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_296e7555-8ef5-4ad4-a85b-3111ae892a65">
+    <cim:Fuse rdf:about="#_296e7555-8ef5-4ad4-a85b-3111ae892a65">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_725505f7-df2a-41da-9428-0a9b7984817a">
+    <cim:Fuse rdf:about="#_725505f7-df2a-41da-9428-0a9b7984817a">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_04355e33-02e4-42ed-8d88-96b0be7044a8">
+    <cim:Fuse rdf:about="#_04355e33-02e4-42ed-8d88-96b0be7044a8">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_9b24ac8f-043c-4087-ac3b-a695c464f93d">
+    <cim:Fuse rdf:about="#_9b24ac8f-043c-4087-ac3b-a695c464f93d">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_5bd4c12d-99d5-49d7-87fb-a346067c697e">
+    <cim:Fuse rdf:about="#_5bd4c12d-99d5-49d7-87fb-a346067c697e">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_76335f11-64c3-474d-92fd-7ab11ed607e4">
+    <cim:Fuse rdf:about="#_76335f11-64c3-474d-92fd-7ab11ed607e4">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
     <cim:Breaker rdf:about="#_b63024f5-df5f-4d21-ba9d-97288bdabe97">
         <cim:Equipment.inService>true</cim:Equipment.inService>
@@ -182,113 +182,113 @@
         <cim:Switch.open>true</cim:Switch.open>
     </cim:Breaker>
  
-    <cim:Breaker rdf:about="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b">
+    <cim:Fuse rdf:about="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c">
+    <cim:Fuse rdf:about="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_9a717362-88c3-4b20-85a7-9adfb67c63ca">
+    <cim:Fuse rdf:about="#_9a717362-88c3-4b20-85a7-9adfb67c63ca">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_39a90500-8c87-4576-b912-32abf18a8d12">
+    <cim:Fuse rdf:about="#_39a90500-8c87-4576-b912-32abf18a8d12">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_9f3753d2-3a46-454b-8d14-f4f00743d48a">
+    <cim:Fuse rdf:about="#_9f3753d2-3a46-454b-8d14-f4f00743d48a">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_063fd50f-9b15-4b24-a59c-be21be7fd845">
+    <cim:Fuse rdf:about="#_063fd50f-9b15-4b24-a59c-be21be7fd845">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5">
+    <cim:Fuse rdf:about="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_86b80fe6-e846-415c-a74d-30abad315741">
+    <cim:Fuse rdf:about="#_86b80fe6-e846-415c-a74d-30abad315741">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_85024669-7147-4a77-9a30-b773d8b10f58">
+    <cim:Fuse rdf:about="#_85024669-7147-4a77-9a30-b773d8b10f58">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_131a14f6-7032-499d-b691-f65bc52cc635">
+    <cim:Fuse rdf:about="#_131a14f6-7032-499d-b691-f65bc52cc635">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_117beb83-cb8e-444f-a054-e98d1ca477e7">
+    <cim:Fuse rdf:about="#_117beb83-cb8e-444f-a054-e98d1ca477e7">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_e286272e-827c-4b12-83cb-6b3e91170e3e">
+    <cim:Fuse rdf:about="#_e286272e-827c-4b12-83cb-6b3e91170e3e">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_2a906e57-0892-4de8-89b2-56c273f8c09c">
+    <cim:Fuse rdf:about="#_2a906e57-0892-4de8-89b2-56c273f8c09c">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_a498f1fd-65f0-41df-83ee-29c92d075514">
+    <cim:Fuse rdf:about="#_a498f1fd-65f0-41df-83ee-29c92d075514">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_764a7252-9aae-4da4-a23b-6c770d8b16c1">
+    <cim:Fuse rdf:about="#_764a7252-9aae-4da4-a23b-6c770d8b16c1">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31">
+    <cim:Fuse rdf:about="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_bf819ffc-270d-4025-bef8-db10ffb5b196">
+    <cim:Fuse rdf:about="#_bf819ffc-270d-4025-bef8-db10ffb5b196">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
-    <cim:Breaker rdf:about="#_e832d4e7-1335-4773-b203-bf7035d29bc3">
+    <cim:Fuse rdf:about="#_e832d4e7-1335-4773-b203-bf7035d29bc3">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>false</cim:Switch.open>
-    </cim:Breaker>
+    </cim:Fuse>
  
     <cim:BusbarSection rdf:about="#_b8a334a5-2bcb-40e6-b6c2-db906441552d">
         <cim:Equipment.inService>true</cim:Equipment.inService>
