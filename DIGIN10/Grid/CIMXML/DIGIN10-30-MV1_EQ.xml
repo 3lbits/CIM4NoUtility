@@ -2662,7 +2662,7 @@
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_83bf6035-97b6-4433-b5f9-bb455444a983">
-        <cim:IdentifiedObject.mRID>d1b627f7-1429-4a78-845a-17e9a7068a4f</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>83bf6035-97b6-4433-b5f9-bb455444a983</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>T2 ENGENE 22 N1E</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
