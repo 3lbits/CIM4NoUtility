@@ -1407,12 +1407,6 @@
         <cim:LoadResponseCharacteristic.exponentModel>false</cim:LoadResponseCharacteristic.exponentModel>
     </cim:LoadResponseCharacteristic>
 
-    <cim:OperationalLimitSet rdf:ID="_105b264a-2ab7-2441-bb32-aae12a3cfa51">
-        <cim:IdentifiedObject.mRID>105b264a-2ab7-2441-bb32-aae12a3cfa51</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.name>LS T2 132 FROLAND-T_ENGENE ACLS 1</cim:IdentifiedObject.name>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_9796f69a-d718-43c7-91b6-980cd96a1c50"/>
-    </cim:OperationalLimitSet>
-
     <cim:OperationalLimitSet rdf:ID="_681a3095-5a55-11eb-a658-74e5f963e191">
         <cim:IdentifiedObject.mRID>681a3095-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>LS T2 ENGENE T1 22 S</cim:IdentifiedObject.name>
@@ -1477,18 +1471,6 @@
         <cim:IdentifiedObject.mRID>8c9343e1-3296-3241-baf6-1e33351236a3</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>LS T1 22 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_86c847a4-9732-9844-b480-c53b70f6ceec" />
-    </cim:OperationalLimitSet>
- 
-    <cim:OperationalLimitSet rdf:ID="_17264ab0-1492-6243-8e2d-44d85d0841fc">
-        <cim:IdentifiedObject.mRID>17264ab0-1492-6243-8e2d-44d85d0841fc</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.name>LS T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191" />
-    </cim:OperationalLimitSet>
- 
-    <cim:OperationalLimitSet rdf:ID="_681a2fcf-5a55-11eb-a658-74e5f963e191">
-        <cim:IdentifiedObject.mRID>681a2fcf-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.name>LS T1 ENGENE NT1 22 P</cim:IdentifiedObject.name>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191" />
     </cim:OperationalLimitSet>
  
     <cim:OperationalLimitSet rdf:ID="_5a7908d7-612b-2346-918a-b7b6d458475a">
