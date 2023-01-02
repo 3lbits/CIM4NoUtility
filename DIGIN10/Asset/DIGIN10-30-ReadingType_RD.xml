@@ -373,13 +373,27 @@
         <cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
         <cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
     </cim:ReadingType>
-    <cim:ReadingType rdf:id="_6968b00e-e3ae-4d13-9d6c-107f0b94ce47">
-        <cim:IdentifiedObject.mRID>6968b00e-e3ae-4d13-9d6c-107f0b94ce47</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>indicating forward electricitySecondaryMetered current phaseNtoGnd (A)</cim:IdentifiedObject.description>
-        <skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.17.0.5.0"/>
-        <cim:IdentifiedObject.name>0.0.0.6.1.1.4.0.0.0.0.0.0.0.17.0.5.0</cim:IdentifiedObject.name>
+    <cim:ReadingType rdf:id="3c95e549-d4b4-4a06-b95f-44a42c6d780d">
+        <cim:IdentifiedObject.mRID>3c95e549-d4b4-4a06-b95f-44a42c6d780d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>maximum twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)</cim:IdentifiedObject.description>
+        <skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"/>
+        <cim:IdentifiedObject.name>0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0</cim:IdentifiedObject.name>
+        <cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
+        <cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
         <cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
-        <cim:flowDirection rdf:resource="http://iec.ch/TC57/CIM100#FlowDirectionKind.flowDirection"/>
+        <cim:commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.commodity"/>
+        <cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
+        <cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
+        <cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
+    </cim:ReadingType>
+    <cim:ReadingType rdf:id="658291c0-d210-45e2-9d1c-1eac9d45f56e">
+        <cim:IdentifiedObject.mRID>658291c0-d210-45e2-9d1c-1eac9d45f56e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>average twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)</cim:IdentifiedObject.description>
+        <skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"/>
+        <cim:IdentifiedObject.name>0.2.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0</cim:IdentifiedObject.name>
+        <cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
+        <cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
+        <cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
         <cim:commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.commodity"/>
         <cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
         <cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
