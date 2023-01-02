@@ -1406,7 +1406,6 @@
         <cim:LoadResponseCharacteristic.qConstantImpedance>0</cim:LoadResponseCharacteristic.qConstantImpedance>
         <cim:LoadResponseCharacteristic.exponentModel>false</cim:LoadResponseCharacteristic.exponentModel>
     </cim:LoadResponseCharacteristic>
-    
     <cim:OperationalLimitSet rdf:ID="_681a3095-5a55-11eb-a658-74e5f963e191">
         <cim:IdentifiedObject.mRID>681a3095-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>LS T2 ENGENE T1 22 S</cim:IdentifiedObject.name>
@@ -1472,19 +1471,7 @@
         <cim:IdentifiedObject.name>LS T1 22 ZT1-EFC ACLS 1</cim:IdentifiedObject.name>
         <cim:OperationalLimitSet.Terminal rdf:resource="#_86c847a4-9732-9844-b480-c53b70f6ceec" />
     </cim:OperationalLimitSet>
- 
-    <cim:OperationalLimitSet rdf:ID="_17264ab0-1492-6243-8e2d-44d85d0841fc">
-        <cim:IdentifiedObject.mRID>17264ab0-1492-6243-8e2d-44d85d0841fc</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.name>LS T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191" />
-    </cim:OperationalLimitSet>
- 
-    <cim:OperationalLimitSet rdf:ID="_681a2fcf-5a55-11eb-a658-74e5f963e191">
-        <cim:IdentifiedObject.mRID>681a2fcf-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.name>LS T1 ENGENE NT1 22 P</cim:IdentifiedObject.name>
-        <cim:OperationalLimitSet.Terminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191" />
-    </cim:OperationalLimitSet>
- 
+
     <cim:OperationalLimitSet rdf:ID="_5a7908d7-612b-2346-918a-b7b6d458475a">
         <cim:IdentifiedObject.mRID>5a7908d7-612b-2346-918a-b7b6d458475a</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>LS T1 ENGENE T1 132 P</cim:IdentifiedObject.name>
