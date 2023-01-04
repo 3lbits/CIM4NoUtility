@@ -385,6 +385,32 @@
         <cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
         <cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
     </cim:ReadingType>
+    <cim:ReadingType rdf:id="3c95e549-d4b4-4a06-b95f-44a42c6d780d">
+        <cim:IdentifiedObject.mRID>3c95e549-d4b4-4a06-b95f-44a42c6d780d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>maximum twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)</cim:IdentifiedObject.description>
+        <skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"/>
+        <cim:IdentifiedObject.name>0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0</cim:IdentifiedObject.name>
+        <cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
+        <cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
+        <cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
+        <cim:commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.commodity"/>
+        <cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
+        <cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
+        <cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
+    </cim:ReadingType>
+    <cim:ReadingType rdf:id="658291c0-d210-45e2-9d1c-1eac9d45f56e">
+        <cim:IdentifiedObject.mRID>658291c0-d210-45e2-9d1c-1eac9d45f56e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>average twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)</cim:IdentifiedObject.description>
+        <skos:exactMatch rdf:resource="http://data.europa.eu/energy/ReadingType/0.2.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"/>
+        <cim:IdentifiedObject.name>0.2.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0</cim:IdentifiedObject.name>
+        <cim:aggregate rdf:resource="http://iec.ch/TC57/CIM100#AggregateKind.aggregate"/>
+        <cim:measuringPeriod rdf:resource="http://iec.ch/TC57/CIM100#MeasuringPeriodKind.measuringPeriod"/>
+        <cim:accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.accumulation"/>
+        <cim:commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.commodity"/>
+        <cim:measurement rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.measurement"/>
+        <cim:phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phases"/>
+        <cim:unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.unit"/>
+    </cim:ReadingType>
     <cim:ReadingType rdf:id="_d35eecdf-d5ad-4ec5-a184-31652759d1b2">
         <cim:IdentifiedObject.mRID>d35eecdf-d5ad-4ec5-a184-31652759d1b2</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)</cim:IdentifiedObject.description>
