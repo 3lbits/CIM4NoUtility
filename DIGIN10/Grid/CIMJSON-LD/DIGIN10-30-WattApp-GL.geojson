@@ -135,7 +135,7 @@
       "properties": {
         "@id": "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545",
         "@type": "cim:Feeder",
-        "cim:IdentifiedObject.mRID": "4e51e598-8948-4c85-b151-f44ffddc5545",
+        "cim:IdentifiedObject.mRID": "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545",
         "cim:IdentifiedObject.description": [
           {
             "@value": "Sandefjord business and industry area",
