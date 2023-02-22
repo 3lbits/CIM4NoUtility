@@ -195,14 +195,30 @@
             "nc:CapacitySchedule.CapacityTimePoint": [
               {
                 "nc:CapacityTimePoint.atTime": "2028-01-01T23:00:00.000Z",
-                "nc:CapacityTimePoint.maxP": 40,
-                "nc:CapacityTimePoint.minP": 0,
-                "nc:CapacityTimePoint.maxQ": 0,
-                "nc:CapacityTimePoint.minQ": 0,
-                "nc:CapacityTimePoint.maxAllocatedP": 0,
-                "nc:CapacityTimePoint.minAllocatedP": 0,
-                "nc:CapacityTimePoint.maxAllocatedQ": 0,
-                "nc:CapacityTimePoint.minAllocatedQ": 0
+                "nc:CapacityTimePoint.maxP": {
+                  "cim:ActivePower.value": 40.0
+                },
+                "nc:CapacityTimePoint.minP": {
+                  "cim:ActivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.maxQ": {
+                  "cim:ReactivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.minQ": {
+                  "cim:ReactivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.maxAllocatedP": {
+                  "cim:ActivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.minAllocatedP": {
+                  "cim:ActivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.maxAllocatedQ": {
+                  "cim:ReactivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.minAllocatedQ": {
+                  "cim:ReactivePower.value": 0.0
+                }
               }
             ]
           }
