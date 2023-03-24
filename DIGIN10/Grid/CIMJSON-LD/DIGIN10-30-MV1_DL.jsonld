@@ -1,0 +1,1572 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1_DL",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Diagram Layout (DL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_DL"
+    },
+    "dcat:keyword": "DL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b",
+            "@type": "cim:Diagram",
+            "cim:IdentifiedObject.name": "NEDENES",
+            "cim:Diagram.orientation": {
+                "@id": "cim:OrientationKind.negative"
+            }
+        },
+        {
+            "@id": "urn:uuid:e254be2d-e622-4e68-ab67-d288cee4a197",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Breaker_NEDENES 22 E1 LB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e12ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300"
+            }
+        },
+        {
+            "@id": "urn:uuid:18196020-7867-4366-befa-4518edd3830e",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Disconnector_NEDENES 22 TELEMA 2",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e13ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c"
+            }
+        },
+        {
+            "@id": "urn:uuid:7d4230d8-e195-43d0-8ef6-49f2ab2705c2",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Breaker_NEDENES 22 T1 ALB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e12ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:20605037-a626-4691-8601-89666564ff87"
+            }
+        },
+        {
+            "@id": "urn:uuid:8aec8ef9-be61-4d92-8128-e4bf199dcc9f",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Impedance_22 TELEMA 2 ACLS4",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e33ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322"
+            }
+        },
+        {
+            "@id": "urn:uuid:35c29fe0-0ee9-4304-a917-4f958caec75c",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "NeighborSubstation_ENGENE",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e26ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:5a035e03-d4c0-479c-9578-f9615727af14",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Load_NEDENES 04 LV EQV",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e25ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:c70c1ea0-c58b-624b-ab6a-0072ad2eea25"
+            }
+        },
+        {
+            "@id": "urn:uuid:b99bd3f4-2aed-4ba9-9e52-ae7b3e25f798",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Impedance_04 TELEMA 2 ACLS3",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e33ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9"
+            }
+        },
+        {
+            "@id": "urn:uuid:beeb6643-7ebf-4a2e-8546-f7bbb0fb2a66",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Transformer2W_NEDENES T1",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e1420"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:c0db2e4d-4857-438c-8c12-2b2f85ffe1dd",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_NEDENES CN 001",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:92d33b34-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:03c36c92-f10c-41ac-a6c0-c2965a8a0fd9",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_NEDENES CN 005",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:9bf03de1-7f35-4dfe-86aa-29dff75a6962"
+            }
+        },
+        {
+            "@id": "urn:uuid:b1423ad3-f32f-40fe-a9d0-2e8229fe0030",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_NEDENES CN 003",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:681a21b3-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:80807833-d801-4760-95ac-b75c8e0d4296",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_NEDENES CN 002",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:d5b4c5ad-1762-8e43-9330-6ec8f7d97bce"
+            }
+        },
+        {
+            "@id": "urn:uuid:3b9be0f7-df35-458f-8321-9cd29ff6e71b",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_NEDENES 22A CN 002",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:681a2178-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:e722f0b1-3d71-47c2-99a7-566d857ce038",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_NEDENES CN 004",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:ec60b5b3-1ffc-f940-8ce5-140d04267667"
+            }
+        },
+        {
+            "@id": "urn:uuid:6611d419-ca3a-4e1f-bde1-a9fe077628a0",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "Bus_XNED1_XNED2 CN",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d"
+            }
+        },
+        {
+            "@id": "urn:uuid:cfcf48bc-c198-463c-9f50-50e49018c7e2",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "ACLineSegment_22 ENGENE-NEDENES",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e17ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 NEDENES T1 P",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:92d33bfd-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:76c62fe6-4af2-42be-bb8c-db6501519f86",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 22 TELEMA 2 ACLS4",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:eaa32378-2082-4b76-92df-09fa5f8b8b51"
+            }
+        },
+        {
+            "@id": "urn:uuid:aa392b63-1919-487f-9a0b-9d11ac4d410d",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T2 NEDENES T1 S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:92d33bff-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:23f77f83-8af6-4712-ba9a-5e93e884a305",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 22 TELEMA 2 ACLS4",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:25581747-6599-46ae-a8ac-62a0161045aa"
+            }
+        },
+        {
+            "@id": "urn:uuid:04141a3b-1da3-4d79-b280-19ac0b50ee62",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T2 22 TELEMA 2 ACLS4",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:db529221-814c-4f40-ab73-a7084d6308b7"
+            }
+        },
+        {
+            "@id": "urn:uuid:c0fe4d78-17c6-4a87-9586-188ee9f051d2",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T2 22 TELEMA 2 FU1",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:21699bda-a520-45ea-b011-21a56bf567d7"
+            }
+        },
+        {
+            "@id": "urn:uuid:2045299d-ce21-4c39-a208-1684195fed4c",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 NEDENES 22 E1 LB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:bec25a71-68ca-496f-ad8a-edf43f6e6982"
+            }
+        },
+        {
+            "@id": "urn:uuid:8d29e51c-aa38-4dbf-9871-ef41921c4c7f",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T2 NEDENES 22 E1 LB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:0766474a-94ad-40b5-8bb5-db0b7fcd04ff"
+            }
+        },
+        {
+            "@id": "urn:uuid:d8a812b8-da10-4ad5-a1a6-c57efd179354",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 NEDENES 22 T1 ALB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:fa9b4957-62cd-4146-8483-a9620bf5ba3f"
+            }
+        },
+        {
+            "@id": "urn:uuid:e31d243c-d0b6-4543-ba1c-5c9839579cff",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 22 TELEMA 2 FU1",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:f3b95f0e-d18e-4d14-a61a-79c020ac8c30"
+            }
+        },
+        {
+            "@id": "urn:uuid:c6fc349c-bef7-4923-91eb-a6c6bbefb670",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T2 NEDENES 22 T1 ALB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:802d9d22-8304-5444-ac23-6f071fb84b77"
+            }
+        },
+        {
+            "@id": "urn:uuid:b1e6bd11-7d18-4b2d-aa4d-cc751bf6225d",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T1 NEDENES 04 LV EQV",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:ef17168b-d7ee-7548-9822-e10bbbcec793"
+            }
+        },
+        {
+            "@id": "urn:uuid:61346d77-7e6c-445d-8c96-5b4ec74cf671",
+            "@type": "cim:DiagramObject",
+            "cim:IdentifiedObject.name": "PinLink_T2 A22 TELEMA 2 ACLS4",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee"
+            },
+            "cim:DiagramObject.IdentifiedObject": {
+                "@id": "urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5"
+            }
+        },
+        {
+            "@id": "urn:uuid:6acf7550-ba8f-4025-882c-4a103cee0d50",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 45.1114583333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:e254be2d-e622-4e68-ab67-d288cee4a197"
+            }
+        },
+        {
+            "@id": "urn:uuid:62352272-2a23-4721-a543-155354950515",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 86.51875,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:18196020-7867-4366-befa-4518edd3830e"
+            }
+        },
+        {
+            "@id": "urn:uuid:dd74d686-3a62-441a-8cc6-37efa332a244",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 65.2197916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:7d4230d8-e195-43d0-8ef6-49f2ab2705c2"
+            }
+        },
+        {
+            "@id": "urn:uuid:7e420932-c051-401e-b3fe-ec734c67e0ab",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 109.008333333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:8aec8ef9-be61-4d92-8128-e4bf199dcc9f"
+            }
+        },
+        {
+            "@id": "urn:uuid:192f4312-4212-45ff-8803-aa5fcf0fe0bd",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 20.3729166666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:35c29fe0-0ee9-4304-a917-4f958caec75c"
+            }
+        },
+        {
+            "@id": "urn:uuid:7c12a8ca-f176-4604-ad22-b7fa103fd0a8",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 170.788541666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:5a035e03-d4c0-479c-9578-f9615727af14"
+            }
+        },
+        {
+            "@id": "urn:uuid:618be573-7a76-463e-91a4-ecf746968947",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 150.944791666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b99bd3f4-2aed-4ba9-9e52-ae7b3e25f798"
+            }
+        },
+        {
+            "@id": "urn:uuid:83a4f0ae-f07c-4662-9e27-581e7e42cda6",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 129.9765625,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:beeb6643-7ebf-4a2e-8546-f7bbb0fb2a66"
+            }
+        },
+        {
+            "@id": "urn:uuid:cd9e68f9-4f71-49bb-afef-0d5384bc613f",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 13.2291666666667,
+            "cim:DiagramObjectPoint.yPosition": 35.0572916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:c0db2e4d-4857-438c-8c12-2b2f85ffe1dd"
+            }
+        },
+        {
+            "@id": "urn:uuid:53ed11aa-4cb6-4888-ba0f-14a4ddb17438",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 25.1354166666667,
+            "cim:DiagramObjectPoint.yPosition": 35.0572916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:c0db2e4d-4857-438c-8c12-2b2f85ffe1dd"
+            }
+        },
+        {
+            "@id": "urn:uuid:642719a5-89ff-486a-a665-969378147b6a",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 122.105208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:03c36c92-f10c-41ac-a6c0-c2965a8a0fd9"
+            }
+        },
+        {
+            "@id": "urn:uuid:035b1a74-0975-46aa-826e-8ebbb3b15cee",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 21.828125,
+            "cim:DiagramObjectPoint.yPosition": 122.105208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:03c36c92-f10c-41ac-a6c0-c2965a8a0fd9"
+            }
+        },
+        {
+            "@id": "urn:uuid:6cdd39ae-1641-463d-a84f-0d1ec45cb402",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 142.08125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b1423ad3-f32f-40fe-a9d0-2e8229fe0030"
+            }
+        },
+        {
+            "@id": "urn:uuid:357eb903-c32d-4d2c-8e82-3448d021964b",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 21.828125,
+            "cim:DiagramObjectPoint.yPosition": 142.08125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b1423ad3-f32f-40fe-a9d0-2e8229fe0030"
+            }
+        },
+        {
+            "@id": "urn:uuid:ca9276ac-ef90-423b-bc4b-d393e35734ff",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 100.144791666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:80807833-d801-4760-95ac-b75c8e0d4296"
+            }
+        },
+        {
+            "@id": "urn:uuid:8f75b151-5b6f-450a-98f8-7b0654ad7efe",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 21.828125,
+            "cim:DiagramObjectPoint.yPosition": 100.144791666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:80807833-d801-4760-95ac-b75c8e0d4296"
+            }
+        },
+        {
+            "@id": "urn:uuid:ae33f6f8-b68e-4e14-80ff-2468fa53a915",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 57.546875,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:3b9be0f7-df35-458f-8321-9cd29ff6e71b"
+            }
+        },
+        {
+            "@id": "urn:uuid:d4e3966d-9a5e-4135-950d-a89a86ea8edd",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 21.828125,
+            "cim:DiagramObjectPoint.yPosition": 57.546875,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:3b9be0f7-df35-458f-8321-9cd29ff6e71b"
+            }
+        },
+        {
+            "@id": "urn:uuid:406fcd3a-ec00-4fb1-a4f5-dfc15228cdc2",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 77.6552083333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:e722f0b1-3d71-47c2-99a7-566d857ce038"
+            }
+        },
+        {
+            "@id": "urn:uuid:770ea008-d56f-48af-bb45-164dfc1ae40f",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 21.828125,
+            "cim:DiagramObjectPoint.yPosition": 77.6552083333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:e722f0b1-3d71-47c2-99a7-566d857ce038"
+            }
+        },
+        {
+            "@id": "urn:uuid:816ce2a8-7f50-461a-9540-17a202b85fe3",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 167.216666666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:6611d419-ca3a-4e1f-bde1-a9fe077628a0"
+            }
+        },
+        {
+            "@id": "urn:uuid:74b235f3-e92a-4f85-b0c5-59d38ea06b6f",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 21.828125,
+            "cim:DiagramObjectPoint.yPosition": 167.216666666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:6611d419-ca3a-4e1f-bde1-a9fe077628a0"
+            }
+        },
+        {
+            "@id": "urn:uuid:606abd73-01e1-47cb-9535-eaea15373af4",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 24.4739583333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:cfcf48bc-c198-463c-9f50-50e49018c7e2"
+            }
+        },
+        {
+            "@id": "urn:uuid:e0e0cfc7-a42c-4b35-ad4c-d2d5cb0ae93b",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 35.0572916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:cfcf48bc-c198-463c-9f50-50e49018c7e2"
+            }
+        },
+        {
+            "@id": "urn:uuid:35ec3276-1383-43d0-a1e7-6e087f49b814",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 122.369791666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58"
+            }
+        },
+        {
+            "@id": "urn:uuid:1d48ce76-4111-4c38-81f8-33fa313c7733",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 122.105208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58"
+            }
+        },
+        {
+            "@id": "urn:uuid:bd19b71d-3735-4948-9bf4-cb2d64105cd7",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 117.607291666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:76c62fe6-4af2-42be-bb8c-db6501519f86"
+            }
+        },
+        {
+            "@id": "urn:uuid:4b7cf771-6b39-44c2-b850-7842e7707ff0",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 122.105208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:76c62fe6-4af2-42be-bb8c-db6501519f86"
+            }
+        },
+        {
+            "@id": "urn:uuid:71b6c29f-6221-4ea6-95b3-e355bdc0307e",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 137.583333333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:aa392b63-1919-487f-9a0b-9d11ac4d410d"
+            }
+        },
+        {
+            "@id": "urn:uuid:5a2f5e0a-f598-4725-a92e-42caaad2156b",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 142.08125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:aa392b63-1919-487f-9a0b-9d11ac4d410d"
+            }
+        },
+        {
+            "@id": "urn:uuid:16826247-09a9-46c2-817c-43059593266b",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 142.345833333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:23f77f83-8af6-4712-ba9a-5e93e884a305"
+            }
+        },
+        {
+            "@id": "urn:uuid:1068d10a-e428-49a5-aafd-1ae6b6d3fbb2",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 142.08125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:23f77f83-8af6-4712-ba9a-5e93e884a305"
+            }
+        },
+        {
+            "@id": "urn:uuid:233d56e2-4f2f-497a-b0a9-f9f1ecb9265d",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 100.409375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:04141a3b-1da3-4d79-b280-19ac0b50ee62"
+            }
+        },
+        {
+            "@id": "urn:uuid:d87cbf54-2bd2-445e-ba12-a157dea88872",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 100.144791666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:04141a3b-1da3-4d79-b280-19ac0b50ee62"
+            }
+        },
+        {
+            "@id": "urn:uuid:3e065f0a-f33a-4a99-a6ac-cee771bd20db",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 95.1177083333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:c0fe4d78-17c6-4a87-9586-188ee9f051d2"
+            }
+        },
+        {
+            "@id": "urn:uuid:15556681-e809-4e44-9dee-a3443fe1e48b",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 100.144791666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:c0fe4d78-17c6-4a87-9586-188ee9f051d2"
+            }
+        },
+        {
+            "@id": "urn:uuid:4384dc61-a29e-41d1-aa42-8070b9ae7869",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 37.703125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:2045299d-ce21-4c39-a208-1684195fed4c"
+            }
+        },
+        {
+            "@id": "urn:uuid:c0a108e9-d9eb-47f2-85cf-b8c740bf295c",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 35.0572916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:2045299d-ce21-4c39-a208-1684195fed4c"
+            }
+        },
+        {
+            "@id": "urn:uuid:90bbda13-1fc7-4f9d-a802-83a49f02fd92",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 52.5197916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:8d29e51c-aa38-4dbf-9871-ef41921c4c7f"
+            }
+        },
+        {
+            "@id": "urn:uuid:4d9111e6-d060-4493-b24a-5e5211447257",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 57.546875,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:8d29e51c-aa38-4dbf-9871-ef41921c4c7f"
+            }
+        },
+        {
+            "@id": "urn:uuid:7c80e5b9-7f97-4056-8e86-1618193713a7",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 57.8114583333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:d8a812b8-da10-4ad5-a1a6-c57efd179354"
+            }
+        },
+        {
+            "@id": "urn:uuid:c9c6f216-5bbb-4d24-9f2a-38133e06900c",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 57.546875,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:d8a812b8-da10-4ad5-a1a6-c57efd179354"
+            }
+        },
+        {
+            "@id": "urn:uuid:ea93195e-8976-4b99-8e9b-96dcb1869f93",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 77.9197916666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:e31d243c-d0b6-4543-ba1c-5c9839579cff"
+            }
+        },
+        {
+            "@id": "urn:uuid:a4bec6a0-0a39-43c4-84cc-93b4735228ab",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 77.6552083333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:e31d243c-d0b6-4543-ba1c-5c9839579cff"
+            }
+        },
+        {
+            "@id": "urn:uuid:a3a00a99-67fd-4b0c-bb3e-28e52bf2c417",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 72.628125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:c6fc349c-bef7-4923-91eb-a6c6bbefb670"
+            }
+        },
+        {
+            "@id": "urn:uuid:908fd947-ded6-4e03-ad47-d777bc453d23",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 77.6552083333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:c6fc349c-bef7-4923-91eb-a6c6bbefb670"
+            }
+        },
+        {
+            "@id": "urn:uuid:ba99443c-13a5-4a58-8e73-6023041f2e99",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 167.48125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b1e6bd11-7d18-4b2d-aa4d-cc751bf6225d"
+            }
+        },
+        {
+            "@id": "urn:uuid:a4a4b365-21a5-4c7f-8ff0-faf9123df2c8",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 167.216666666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b1e6bd11-7d18-4b2d-aa4d-cc751bf6225d"
+            }
+        },
+        {
+            "@id": "urn:uuid:3f7c029e-5be8-4e3a-acb3-5a29da7be5a0",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 159.54375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:61346d77-7e6c-445d-8c96-5b4ec74cf671"
+            }
+        },
+        {
+            "@id": "urn:uuid:5f889f94-d897-49f4-91be-3c6f4809e886",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 2,
+            "cim:DiagramObjectPoint.xPosition": 19.1822916666667,
+            "cim:DiagramObjectPoint.yPosition": 167.216666666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:61346d77-7e6c-445d-8c96-5b4ec74cf671"
+            }
+        },
+        {
+            "@id": "urn:uuid:15dd04bb-7e50-4ecd-bbd5-dd1babd3f955",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 3.7703125,
+            "cim:DiagramObjectPoint.yPosition": 33.5359375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:77dfebcf-2cd8-4255-8d1d-696f643bbf44"
+            }
+        },
+        {
+            "@id": "urn:uuid:20a877cb-6859-428e-b4c6-2dc9ce8d332c",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 26.19375,
+            "cim:DiagramObjectPoint.yPosition": 33.5359375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:9f1c383c-fda2-400e-95c9-c1a418693f59"
+            }
+        },
+        {
+            "@id": "urn:uuid:5e275b44-a52d-46ef-912d-525a79486d8f",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 21.034375,
+            "cim:DiagramObjectPoint.yPosition": 43.5901041666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:bd030f75-e804-4514-985d-cab13d662e77"
+            }
+        },
+        {
+            "@id": "urn:uuid:071b4cce-1084-4bf9-937a-7caab9bb8e73",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 21.6958333333333,
+            "cim:DiagramObjectPoint.yPosition": 84.9973958333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:adf1e8c1-ac6a-48c9-8b0a-62a395b5b981"
+            }
+        },
+        {
+            "@id": "urn:uuid:a6410157-0f9f-4256-a0bd-ed74defeb49c",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 21.034375,
+            "cim:DiagramObjectPoint.yPosition": 63.6984375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:2603ff10-0b68-46f0-b0e0-07dced12040c"
+            }
+        },
+        {
+            "@id": "urn:uuid:195db13e-c8ff-429d-8fa1-410c224dcc01",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 21.6958333333333,
+            "cim:DiagramObjectPoint.yPosition": 107.486979166667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:5e8433b1-4c24-4ce0-bae8-336818018937"
+            }
+        },
+        {
+            "@id": "urn:uuid:ac735500-3a70-479e-80cb-537490fae44d",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 5.45703125,
+            "cim:DiagramObjectPoint.yPosition": 174.625,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:3551093f-33a5-43a0-bc1c-adb11c3774a1"
+            }
+        },
+        {
+            "@id": "urn:uuid:34535aa7-f908-414c-bad4-8827ed227063",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 21.6958333333333,
+            "cim:DiagramObjectPoint.yPosition": 149.4234375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:9e017ab6-d74b-4696-af0d-7895edd18c9b"
+            }
+        },
+        {
+            "@id": "urn:uuid:d3583a7d-814e-4c4d-a69f-32d1e7e742a7",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 23.01875,
+            "cim:DiagramObjectPoint.yPosition": 128.455208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b3f25048-f86e-42ef-becf-fee0097426d6"
+            }
+        },
+        {
+            "@id": "urn:uuid:654212f4-c654-462a-93c5-a632a3ec6eac",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 19.84375,
+            "cim:DiagramObjectPoint.yPosition": 28.2442708333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:7a842d2c-f657-4768-b859-644245d70172"
+            }
+        },
+        {
+            "@id": "urn:uuid:70868676-808c-4a9f-b651-6cdd62cce16e",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 14.2213541666667,
+            "cim:DiagramObjectPoint.yPosition": 13.2291666666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:9ee167a8-2199-433e-84c9-982cb0fbad82"
+            }
+        },
+        {
+            "@id": "urn:uuid:717612c8-9751-43f9-ad8a-c44208d0aefc",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 7.07760416666667,
+            "cim:DiagramObjectPoint.yPosition": 120.583854166667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:94693470-54ac-4c65-8324-ad6cb426b919"
+            }
+        },
+        {
+            "@id": "urn:uuid:65b7f8ee-c7b2-44b3-ae61-1091fc7f6286",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 22.8864583333333,
+            "cim:DiagramObjectPoint.yPosition": 120.583854166667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:6b8feae4-7e9f-4428-889e-ba683a6a06bb"
+            }
+        },
+        {
+            "@id": "urn:uuid:8d0f3e4b-6828-4516-8e40-cc575fe3b541",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 5.55625,
+            "cim:DiagramObjectPoint.yPosition": 140.559895833333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:9fe49407-9a10-4574-b7ff-459575422099"
+            }
+        },
+        {
+            "@id": "urn:uuid:b36f3a01-b971-4b67-8c7f-4cab34acdd22",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 22.8864583333333,
+            "cim:DiagramObjectPoint.yPosition": 140.559895833333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:619313ac-65dc-490b-93bc-2a454ac8ad75"
+            }
+        },
+        {
+            "@id": "urn:uuid:98b0d773-fc1f-45bf-8045-c680e15ad2da",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 7.07760416666667,
+            "cim:DiagramObjectPoint.yPosition": 98.6234375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:f0242ae6-372f-4a57-8466-691bf8160bb9"
+            }
+        },
+        {
+            "@id": "urn:uuid:310c2c07-0925-4d4a-8fc1-1ce8a0f8b7d7",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 22.8864583333333,
+            "cim:DiagramObjectPoint.yPosition": 98.6234375,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:9911a469-3477-4c17-844f-2e4ff27885f9"
+            }
+        },
+        {
+            "@id": "urn:uuid:f0acc651-8857-479f-8ec1-3bd6764b17ea",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 53.3135416666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:65ae177b-7278-4eae-acc7-3eea59d0da2a"
+            }
+        },
+        {
+            "@id": "urn:uuid:4d8221be-ecc4-425a-819e-3549025f92ca",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 22.8864583333333,
+            "cim:DiagramObjectPoint.yPosition": 56.0255208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:8f174f34-155c-493c-b917-8cab2869c437"
+            }
+        },
+        {
+            "@id": "urn:uuid:be619bbb-cbec-4943-95fb-bd9e8f360e6b",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": -2.84427083333333,
+            "cim:DiagramObjectPoint.yPosition": 56.0255208333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:0abf42e6-e74d-4bdb-9290-278ce4d9ec1c"
+            }
+        },
+        {
+            "@id": "urn:uuid:94c63949-2f89-4a04-8685-400437f1ac03",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 7.07760416666667,
+            "cim:DiagramObjectPoint.yPosition": 76.1338541666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:d3d617ed-1331-49c5-8d4f-6f8bc0922581"
+            }
+        },
+        {
+            "@id": "urn:uuid:8486bab5-2698-4a96-b0cb-44bc2864c449",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 22.8864583333333,
+            "cim:DiagramObjectPoint.yPosition": 76.1338541666667,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:a7016d73-ce37-4f02-ac0b-fa1fbc466044"
+            }
+        },
+        {
+            "@id": "urn:uuid:6033c3d9-f696-4c31-9678-1a57ea94d41a",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 16.5364583333333,
+            "cim:DiagramObjectPoint.yPosition": 162.983333333333,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:a48a4d01-01ad-43a9-b3f1-6017297d51cf"
+            }
+        },
+        {
+            "@id": "urn:uuid:82e76277-1ad3-4ec2-b318-0880f02c78a5",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": 22.8864583333333,
+            "cim:DiagramObjectPoint.yPosition": 165.6953125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:b0f8c40e-5918-4f7b-8ecf-c1920f8490d8"
+            }
+        },
+        {
+            "@id": "urn:uuid:40f6ff6d-3734-4a8d-8a86-baf328215039",
+            "@type": "cim:DiagramObjectPoint",
+            "cim:DiagramObjectPoint.sequenceNumber": 1,
+            "cim:DiagramObjectPoint.xPosition": -2.84427083333333,
+            "cim:DiagramObjectPoint.yPosition": 165.6953125,
+            "cim:DiagramObjectPoint.DiagramObject": {
+                "@id": "urn:uuid:7aec362d-d055-4852-b992-15d0b8588287"
+            }
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e12ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "Breaker"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e13ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "Disconnector"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e33ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "Impedance"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e26ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "NeighborSubstation"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e25ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "Load"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e1420",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "Transformer2W_10"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "Bus"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e17ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "ACLineSegment"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "PinLink"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "DiagramObjectName"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "NodeNameDisplay"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c11",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "DiagramLineName"
+        },
+        {
+            "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c19",
+            "@type": "cim:DiagramObjectStyle",
+            "cim:IdentifiedObject.name": "BusBarNameDisplay"
+        },
+        {
+            "@id": "urn:uuid:77dfebcf-2cd8-4255-8d1d-696f643bbf44",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES CN 001",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:9f1c383c-fda2-400e-95c9-c1a418693f59",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelNEDENES CN 001",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:bd030f75-e804-4514-985d-cab13d662e77",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES 22 E1 LB_S",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:adf1e8c1-ac6a-48c9-8b0a-62a395b5b981",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES 22 TELEMA",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:2603ff10-0b68-46f0-b0e0-07dced12040c",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES 22 T1 ALB_",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:5e8433b1-4c24-4ce0-bae8-336818018937",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_label22 TELEMA 2 ACLS4",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:3551093f-33a5-43a0-bc1c-adb11c3774a1",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES 04 LV EQV",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:9e017ab6-d74b-4696-af0d-7895edd18c9b",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_label04 TELEMA 2 ACLS3",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:b3f25048-f86e-42ef-becf-fee0097426d6",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES T1",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:7a842d2c-f657-4768-b859-644245d70172",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_label22 ENGENE-NEDENES",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c11"
+            }
+        },
+        {
+            "@id": "urn:uuid:9ee167a8-2199-433e-84c9-982cb0fbad82",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_label22 ENGENE-NEDENES",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:94693470-54ac-4c65-8324-ad6cb426b919",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES CN 005",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:6b8feae4-7e9f-4428-889e-ba683a6a06bb",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelNEDENES CN 005",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:9fe49407-9a10-4574-b7ff-459575422099",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES CN 003",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:619313ac-65dc-490b-93bc-2a454ac8ad75",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelNEDENES CN 003",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:f0242ae6-372f-4a57-8466-691bf8160bb9",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES CN 002",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:9911a469-3477-4c17-844f-2e4ff27885f9",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelNEDENES CN 002",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:65ae177b-7278-4eae-acc7-3eea59d0da2a",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES 22A CN 002",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:8f174f34-155c-493c-b917-8cab2869c437",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelNEDENES 22A CN",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:0abf42e6-e74d-4bdb-9290-278ce4d9ec1c",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_BuslabelNEDENES 22A CN",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c19"
+            }
+        },
+        {
+            "@id": "urn:uuid:d3d617ed-1331-49c5-8d4f-6f8bc0922581",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelNEDENES CN 004",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:a7016d73-ce37-4f02-ac0b-fa1fbc466044",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelNEDENES CN 004",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:a48a4d01-01ad-43a9-b3f1-6017297d51cf",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_labelXNED1_XNED2 CN",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10"
+            }
+        },
+        {
+            "@id": "urn:uuid:b0f8c40e-5918-4f7b-8ecf-c1920f8490d8",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_NodelabelXNED1_XNED2 CN",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20"
+            }
+        },
+        {
+            "@id": "urn:uuid:7aec362d-d055-4852-b992-15d0b8588287",
+            "@type": "cim:TextDiagramObject",
+            "cim:IdentifiedObject.name": "FreeText_BuslabelXNED1_XNED2 CN",
+            "cim:DiagramObject.Diagram": {
+                "@id": "urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b"
+            },
+            "cim:DiagramObject.DiagramObjectStyle": {
+                "@id": "urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c19"
+            }
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-10-24T21:00:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MeasurementValueSource_RD",
+    "dcterms:description": [
+        {
+            "@value": "Measurement Value Source Reference data (RD) based on IEC 61970-301:2020+AMD1:2022",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MeasurementValueSource_RD"
+    },
+    "dcat:keyword": "RD",
+    "dcterms:spatial": {
+        "@id": "http://energy.referencedata.eu/MeasurementValueSource"
+    },
+    "@graph": [
+        {
+            "@id": "urn:uuid:b1a076df-b20d-490d-81a5-6e55efbf403c",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "b1a076df-b20d-490d-81a5-6e55efbf403c",
+            "cim:IdentifiedObject.description": "Telemetered values received from a local SCADA system",
+            "cim:IdentifiedObject.name": "SCADA"
+        },
+        {
+            "@id": "urn:uuid:c6d71c1d-73fd-4be1-91a0-d520305498cf",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "c6d71c1d-73fd-4be1-91a0-d520305498cf",
+            "cim:IdentifiedObject.description": "Telemetered values received from a local DMS system",
+            "cim:IdentifiedObject.name": "DMS"
+        },
+        {
+            "@id": "urn:uuid:e44bdf48-20f6-4ee2-941e-57f966d7d937",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "e44bdf48-20f6-4ee2-941e-57f966d7d937",
+            "cim:IdentifiedObject.description": "Value received from a remote control centre via TASE.2 or other control centre protocol",
+            "cim:IdentifiedObject.name": "CCLink"
+        },
+        {
+            "@id": "urn:uuid:e5048824-2bc1-4b72-810b-750981000b6f",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "e5048824-2bc1-4b72-810b-750981000b6f",
+            "cim:IdentifiedObject.description": "Operator entered value (always manually maintained, PSR is not connected to an RTU)",
+            "cim:IdentifiedObject.name": "Operator"
+        },
+        {
+            "@id": "urn:uuid:4a6b2a0e-ebfc-44c5-96a0-f318278bd03a",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "4a6b2a0e-ebfc-44c5-96a0-f318278bd03a",
+            "cim:IdentifiedObject.description": "Value updated by a state estimator",
+            "cim:IdentifiedObject.name": "Estimated"
+        },
+        {
+            "@id": "urn:uuid:793bb713-6c01-46ae-b2d0-2977a4981e70",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "793bb713-6c01-46ae-b2d0-2977a4981e70",
+            "cim:IdentifiedObject.description": "Value updated as result of a Powerflow",
+            "cim:IdentifiedObject.name": "PowerFlow"
+        },
+        {
+            "@id": "urn:uuid:4f620500-e428-4a6c-b3f9-96089de113ee",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "4f620500-e428-4a6c-b3f9-96089de113ee",
+            "cim:IdentifiedObject.description": "Value that is planned or forecasted.",
+            "cim:IdentifiedObject.name": "Forecasted"
+        },
+        {
+            "@id": "urn:uuid:6c0bb43a-91b3-4543-8fed-f423ed9124f8",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "6c0bb43a-91b3-4543-8fed-f423ed9124f8",
+            "cim:IdentifiedObject.description": "Calculated from other measurement values (e.g. a sum)",
+            "cim:IdentifiedObject.name": "Calculated"
+        },
+        {
+            "@id": "urn:uuid:27b2f26a-1444-4d4f-99ae-93d31bb935cf",
+            "@type": "cim:MeasurementValueSource",
+            "cim:IdentifiedObject.mRID": "27b2f26a-1444-4d4f-99ae-93d31bb935cf",
+            "cim:IdentifiedObject.description": "Calculated by a load allocator",
+            "cim:IdentifiedObject.name": "Allocated"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:b39e7379-a9ae-4262-98dc-9ade1200adb0",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-04-06T11:32:55",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-HV1-MV1_BM",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 High Voltage 1 (HV1) Medium Voltage 1 (MV1) Boundary Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-HV1-MV1_BM"
+    },
+    "dcat:keyword": "BM",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/HV1-MV1"
+    },
+    "@graph": [
+        {
+            "@id": "urn:uuid:048e8349-1963-4d55-a842-f74c4de8fe0f",
+            "@type": "eu:BoundaryPoint",
+            "cim:IdentifiedObject.mRID": "048e8349-1963-4d55-a842-f74c4de8fe0f",
+            "cim:IdentifiedObject.description": "Boundary Point Arendal 420 Bus",
+            "cim:IdentifiedObject.name": "XARE1_XARE2 BP",
+            "eu:BoundaryPoint.isDirectCurrent": null,
+            "eu:BoundaryPoint.fromEndIsoCode": "NO",
+            "eu:BoundaryPoint.fromEndName": "ARENDAL",
+            "eu:BoundaryPoint.fromEndNameTso": "TSO1",
+            "eu:BoundaryPoint.toEndIsoCode": "NO",
+            "eu:BoundaryPoint.toEndName": "ARENDAL",
+            "eu:BoundaryPoint.toEndNameTso": "DSO1",
+            "eu:BoundaryPoint.isExcludedFromAreaInterchange": null,
+            "eu:BoundaryPoint.ConnectivityNode": {
+                "@id": "urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c"
+            }
+        },
+        {
+            "@id": "urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "cb837454-5c66-d341-be63-d0c044e5fd3c",
+            "cim:IdentifiedObject.description": "Boundary on Arendal 420 Bus",
+            "cim:IdentifiedObject.name": "XARE1_XARE2 CN",
+            "cim:ConnectivityNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3"
+            }
+        },
+        {
+            "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "f1769670-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.name": "ARENDAL",
+            "cim:Substation.Region": {
+                "@id": "urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3",
+            "@type": "cim:VoltageLevel",
+            "cim:IdentifiedObject.mRID": "1f4fabd4-8c57-c245-b107-4e64c9007ae3",
+            "cim:IdentifiedObject.name": "ARENDAL 420",
+            "cim:VoltageLevel.BaseVoltage": {
+                "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:VoltageLevel.Substation": {
+                "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f"
+            }
+        }
+    ]
+}

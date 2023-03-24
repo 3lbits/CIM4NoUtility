@@ -1,0 +1,3061 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1-LV1_SV",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) and Low Voltage 1 (LV1) State Variable (SV) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        },
+        "dcat:endDate": {
+            "@value": "2022-03-31T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcat:temporalResolution": {
+        "@type": "xsd:duration",
+        "@value": "PT1H"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1-LV1_SV"
+    },
+    "dcat:keyword": "SV",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/StateVariables/5.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:256e66c5-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -10.6928959,
+            "cim:SvPowerFlow.q": -2.657878,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:7d09271d-7826-442e-bc57-d1fa1955495e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c6-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 10.68519,
+            "cim:SvPowerFlow.q": 2.5857408,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:48955729-dbff-455b-94bd-3b8bb2c1537c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c7-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 10.6753054,
+            "cim:SvPowerFlow.q": 2.66986179,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:19be92de-7307-074e-af23-2acb6521214a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c8-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.136871174,
+            "cim:SvPowerFlow.q": 0.514481664,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33b9a-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c9-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.08823794,
+            "cim:SvPowerFlow.q": -0.2749074,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:f6e8c471-b1eb-467b-af68-78c6aa25771b"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ca-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0872425362,
+            "cim:SvPowerFlow.q": 0.0156163154,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:25581747-6599-46ae-a8ac-62a0161045aa"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66cb-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.0881168842,
+            "cim:SvPowerFlow.q": -0.0152305989,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:eaa32378-2082-4b76-92df-09fa5f8b8b51"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66cc-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:86c847a4-9732-9844-b480-c53b70f6ceec"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66cd-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0572474226,
+            "cim:SvPowerFlow.q": 0.03070774,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33be5-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ce-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.000897665566,
+            "cim:SvPowerFlow.q": 0.000215741762,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:b4e0a331-3de4-4ac8-802b-a8eb031ce568"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66cf-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0537569,
+            "cim:SvPowerFlow.q": 0.13060759,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bb7-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.05346343,
+            "cim:SvPowerFlow.q": -0.129983962,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33ba8-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0009461577,
+            "cim:SvPowerFlow.q": 4.98531444e-05,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33b81-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": 0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:e190ae57-ed18-f340-90c2-ddbbfe168ed8"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d3-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 10.6929016,
+            "cim:SvPowerFlow.q": 2.658038,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d4-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.000963706756,
+            "cim:SvPowerFlow.q": -3.61772654e-05,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:1089c4dd-7fa5-4b0b-a92c-1680375ae16f"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d5-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.002,
+            "cim:SvPowerFlow.q": 0.0002,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:87f8c183-5711-4941-9eb4-c6b84d6a80b9"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d6-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -2.13619518,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33c01-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d7-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.000473650754,
+            "cim:SvPowerFlow.q": 0.000188257225,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bf1-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d8-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0582196042,
+            "cim:SvPowerFlow.q": 0.6023686,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:05548bc6-70a0-44b7-8bac-20f745974e43"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66d9-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 10.5,
+            "cim:SvPowerFlow.q": 2.077,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:9fa38ed3-62bd-a842-9af7-9e51bbe67b89"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66da-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.065,
+            "cim:SvPowerFlow.q": 0.00728,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:ef17168b-d7ee-7548-9822-e10bbbcec793"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66db-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0750553,
+            "cim:SvPowerFlow.q": 0.270499349,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bfd-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66dc-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.09630975,
+            "cim:SvPowerFlow.q": -0.295449942,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:9796f69a-d718-43c7-91b6-980cd96a1c50"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66dd-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -9.458724,
+            "cim:SvPowerFlow.q": -2.34184146,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:d6520dc7-c5b2-4ac5-bdba-04d02ec87472"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66de-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -10.664176,
+            "cim:SvPowerFlow.q": -2.62882376,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:5b2bb253-421b-b14e-9d6c-ca972e830e4a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66df-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.094964765,
+            "cim:SvPowerFlow.q": 0.2976104,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bce-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.08836113,
+            "cim:SvPowerFlow.q": 0.015285749,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:db529221-814c-4f40-ab73-a7084d6308b7"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:0851452b-3751-0843-b8e3-74f14543907b"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.056228593,
+            "cim:SvPowerFlow.q": -0.0289443843,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33be6-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e3-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.000897606951,
+            "cim:SvPowerFlow.q": -0.000215719614,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33b7f-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e4-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.05346343,
+            "cim:SvPowerFlow.q": -0.129983962,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bb8-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e5-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0537569,
+            "cim:SvPowerFlow.q": 0.13060759,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33ba9-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e6-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0009607422,
+            "cim:SvPowerFlow.q": 7.981607e-05,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33b82-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e7-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00191781658,
+            "cim:SvPowerFlow.q": 0.000101056743,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:7ca23509-fcc4-4653-a7db-334e1e113581"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e8-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.08693852,
+            "cim:SvPowerFlow.q": -0.0155445682,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66e9-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -10.6923227,
+            "cim:SvPowerFlow.q": -2.64055014,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bf7-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ea-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.05800072,
+            "cim:SvPowerFlow.q": -0.5947693,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bfb-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66eb-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.000473647058,
+            "cim:SvPowerFlow.q": -0.000188238817,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bf3-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ec-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.07111028,
+            "cim:SvPowerFlow.q": -0.242975056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:92d33bff-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ed-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0156032983,
+            "cim:SvPowerFlow.q": 0.002796832,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:1f6d65dc-0498-4e9f-beda-0e36a667bb43"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ee-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00221119262,
+            "cim:SvPowerFlow.q": 0.000396459742,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:54a2bbab-bf15-4b63-afc6-ecfbd135d058"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ef-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.002209191,
+            "cim:SvPowerFlow.q": -0.000395988085,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:d4141353-a4b9-4b70-8aad-a9206b76b35c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:be24dc11-bfeb-4879-b0ff-18a490500393"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00221119262,
+            "cim:SvPowerFlow.q": 0.000396459742,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:0da1c730-0958-4dac-9a8c-c8d7ba4b43ce"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.002209191,
+            "cim:SvPowerFlow.q": -0.000395988085,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:fc57ebb1-8059-4dd7-9811-2129b912dd45"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f3-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:2c0a6657-c218-4e53-8b4f-97eca6cabf5d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f4-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.011055965,
+            "cim:SvPowerFlow.q": 0.001985256,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:81cdadda-ee8c-4dfd-946a-0635624ec15b"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f5-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00219848519,
+            "cim:SvPowerFlow.q": 0.0003948773,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:63008f90-ffd1-437c-8325-dba7f0f6d0e0"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f6-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00219648331,
+            "cim:SvPowerFlow.q": -0.000394405652,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:75cd9cd7-b796-4f22-b6e3-8b6f7c5e37af"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f7-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:9f6c9ac5-f891-479b-b127-d032bd91e130"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f8-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00219848519,
+            "cim:SvPowerFlow.q": 0.0003948773,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:683d152b-dcf1-4366-80fd-76f2b6cd9ee3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66f9-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00219648331,
+            "cim:SvPowerFlow.q": -0.000394405652,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:fbf03686-b993-49c2-93c9-65104176a8f2"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66fa-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:3319d991-dcb5-46ce-947c-a99d45f63aab"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66fb-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00219848519,
+            "cim:SvPowerFlow.q": 0.0003948773,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:f31b5fec-4481-49d9-8848-fe49584f5ffe"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66fc-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00219648331,
+            "cim:SvPowerFlow.q": -0.000394405652,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:3d6ea092-8ae6-42e3-babf-44a147bcb208"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66fd-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:aa1b0b87-0d63-46e2-8111-9fbb6ea816a2"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66fe-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00439685676,
+            "cim:SvPowerFlow.q": 0.000790089951,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:bf2c7b69-3bea-4fcc-958d-7b3c48a7a857"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ff-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0021934032,
+            "cim:SvPowerFlow.q": 0.000394238217,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:01ec3391-39cc-44e6-805e-ac0f0edae6c0"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6700-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00219140132,
+            "cim:SvPowerFlow.q": -0.000393766561,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:48e064d1-57cf-4fbe-bc6b-1aa924545e7a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6701-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0021934032,
+            "cim:SvPowerFlow.q": 0.000394238217,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:0a678342-9812-43a4-96f3-5854378d5d78"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6702-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00219140132,
+            "cim:SvPowerFlow.q": -0.000393766561,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:eb318191-ad86-4557-bda4-ec5bb2a8bf6c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6703-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.006687442,
+            "cim:SvPowerFlow.q": 0.00119698874,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:3511146a-8295-4ff1-a93f-c55041b56074"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6704-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00222152052,
+            "cim:SvPowerFlow.q": 0.0003977514,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:a08c75e1-e729-43d9-8f8a-f3aef1c64328"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6705-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00221951841,
+            "cim:SvPowerFlow.q": -0.000397279655,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:4ae7f58f-6292-4b46-967f-3220caf4bcfb"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6706-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:1eab6fb9-bcaf-43ac-9d4e-59d5e6c584c9"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6707-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00444299262,
+            "cim:SvPowerFlow.q": 0.0007958347,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:62eb6150-d16f-456a-9288-178f36391480"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6708-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.002216437,
+            "cim:SvPowerFlow.q": 0.00039711775,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:53075a70-fdf6-4201-ab30-a5622568f240"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6709-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.002214435,
+            "cim:SvPowerFlow.q": -0.000396646064,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:9e92ebe1-8891-4d33-b03d-8a87bb1fb68a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e670a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:ec4561fc-115e-4fc0-903b-362c076c245e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e670b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.002216437,
+            "cim:SvPowerFlow.q": 0.00039711775,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:db6aa9ff-9de6-4356-89be-b8e889ad6c76"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e670c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.002214435,
+            "cim:SvPowerFlow.q": -0.000396646064,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:cf300299-c004-43c6-88bf-213eef453fbb"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e670d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:1a49c2a1-157b-48d8-b9bc-c730e1bc4f0c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e670e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:57b5a4b0-ef47-49cf-bd43-4b3b91fcf621"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e670f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:762fe0b5-b721-4b03-be6a-4cf2ebb68c28"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6710-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.006687442,
+            "cim:SvPowerFlow.q": 0.00119698874,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:d406735a-4c44-45ef-a189-e050216e1183"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6711-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00222152052,
+            "cim:SvPowerFlow.q": 0.0003977514,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:649f6e2d-c92a-48ef-bae8-db3e945ce62e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6712-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00221951841,
+            "cim:SvPowerFlow.q": -0.000397279655,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:15e427b1-b3c8-4599-a093-eef5ddda81c2"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6713-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:7be4341d-b51c-41f9-a174-0166467e4e56"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6714-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00222152052,
+            "cim:SvPowerFlow.q": 0.0003977514,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:aa779c1e-3231-4a30-9c97-2e454df8fd2e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6715-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00221951841,
+            "cim:SvPowerFlow.q": -0.000397279655,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:c09dcf2f-1c42-4327-b781-a60f03da1bdf"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6716-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:9b9eb222-f178-41bd-b982-1a6bbc962633"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6717-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.002221515,
+            "cim:SvPowerFlow.q": 0.000397787779,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:3a69b15f-29f9-45a1-b1e5-abd6e87679ca"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6718-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.00221898,
+            "cim:SvPowerFlow.q": 0.000397424621,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:bd42c91e-8867-4d92-ba9d-491240b602af"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6719-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.002216978,
+            "cim:SvPowerFlow.q": -0.0003969529,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:7a1e79c9-c114-4868-a557-1dccf242477d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e671a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:1c7f30d2-4876-4033-9637-90ce25ea2fe7"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e671b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:c1de217c-a40b-4079-9fde-3d7bd30a934b"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e671c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.0,
+            "cim:SvPowerFlow.q": -0.0,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:06ac43a8-dee2-4c3c-bf96-4d87defe94db"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e671d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.065,
+            "cim:SvPowerFlow.q": 0.00728,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e671e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.0154806748,
+            "cim:SvPowerFlow.q": -0.00276793935,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:b4049b1a-ac26-43bc-a59f-bd3b4bbd666e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e671f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.0109934052,
+            "cim:SvPowerFlow.q": -0.00197051559,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:b6fde3bb-8fb7-4b19-9e15-32597c864385"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6720-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.004386848,
+            "cim:SvPowerFlow.q": -0.0007877317,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:532b1ea0-074d-4ab0-b582-b583b3289f03"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6721-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:38e1c640-0a06-4538-b521-953f48cefea8"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6722-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": 0.005,
+            "cim:SvPowerFlow.q": 0.00056,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:7ab75f17-adf9-4e46-b2c2-8c361e647e21"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6723-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.006664919,
+            "cim:SvPowerFlow.q": -0.00119168183,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:ca7d345e-cf27-4f24-941d-c0ac34b2fdb3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6724-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00443298277,
+            "cim:SvPowerFlow.q": -0.0007934761,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:02d082db-3c6d-458a-93d2-0d7ace7d4ec8"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6725-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.006664919,
+            "cim:SvPowerFlow.q": -0.00119168183,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:40381c35-9d93-41dc-b504-9f7fa07d36fa"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6726-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvPowerFlow",
+            "cim:SvPowerFlow.p": -0.00221901247,
+            "cim:SvPowerFlow.q": -0.000397198164,
+            "cim:SvPowerFlow.Terminal": {
+                "@id": "urn:uuid:e1048b55-b799-45b5-aa60-e452c0784a5d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e67a2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvShuntCompensatorSections",
+            "cim:SvShuntCompensatorSections.sections": 1.0,
+            "cim:SvShuntCompensatorSections.ShuntCompensator": {
+                "@id": "urn:uuid:681a323d-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6727-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a26db-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6728-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:ab5aff23-cc0c-40a9-ab1b-7c113822358e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6729-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e672a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e672b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e672c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e672d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e672e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e672f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a2a7f-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6730-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a2a13-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6731-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a26cf-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6732-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6733-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6734-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:9d58e5bb-834c-4faa-928c-7da0bb1497d9"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6735-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:46bce40c-71c2-4d19-b63f-78a69c460b0e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6736-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:84329e8e-2efe-4870-82db-a0bf9a768bd2"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6737-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:ead7f7fd-d132-43b5-b561-1b0e65b0a562"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6738-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:3f90847f-9450-47aa-a2fa-714cc5353867"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6739-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:6f519536-eefe-452e-8294-c115bf21581d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e673a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:446700b3-38fb-4cfe-aa71-11fdf6118a49"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e673b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:320b9701-cae3-478e-a70b-03d1736ed4e3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e673c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:8dcf0a96-206b-4da2-814d-4030ac0dfaec"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e673d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:797fe5ce-1857-4bea-8a0f-728a4b4c30ed"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e673e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:f2ed5944-a394-4802-8ec9-936bc60e5bc4"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e673f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:81567f71-8233-4e19-8357-e75d35e89470"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6740-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:fe0a5228-5eb4-4008-9ee6-d22389f798e9"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6741-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:93efed67-8a75-487c-8e1d-0d31ee4a2fc3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6742-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:b6bbea56-f530-4f7b-9a94-9b7fdeb58779"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6743-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e0e00668-9e76-461f-b310-8c84afb9ffe6"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6744-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:50e4056a-92e6-4bc2-b6e1-4d66f1624c38"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6745-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:70b19e4c-edb9-4957-885c-59b7a515724f"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6746-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:43dbe66c-a342-44b0-b9cf-058c784cef1d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6747-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:0103615e-f6cc-4cb8-a338-a7fb714cdfa2"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6748-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:919be6f3-be6b-449d-af3d-4d0a7a221ff5"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6749-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:30d15518-d0ac-4800-a5c1-da8593c790ed"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e674a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e674b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e674c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:d4afd20b-a007-43f0-9736-4a868c4cc65a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e674d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e674e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:12156bb5-7a82-4e95-8ea4-2ff8573133fe"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e674f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:808643b7-4e47-4faa-b906-999d0f1fe32b"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6750-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:f7d8e580-296d-4c2a-b989-1eb4db7af387"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6751-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:b16294fe-269c-4f3d-b6af-4bc473c663d6"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6752-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:dd41276d-9ea7-47a8-a0f3-65215c8225a5"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6753-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:a2a20c81-78b5-40bc-81d1-14ed8ea03e12"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6754-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:2714d85d-92e7-4f88-a488-f39e782a6298"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6755-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:2fb546e7-9e06-4356-a3ad-7e3756c34f6a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6756-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:8aad5c29-6039-4321-8f8a-ad1c186dd145"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6757-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:76335f11-64c3-474d-92fd-7ab11ed607e4"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6758-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:131a14f6-7032-499d-b691-f65bc52cc635"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6759-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:2a906e57-0892-4de8-89b2-56c273f8c09c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e675a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:a498f1fd-65f0-41df-83ee-29c92d075514"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e675b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:764a7252-9aae-4da4-a23b-6c770d8b16c1"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e675c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e675d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:bf819ffc-270d-4025-bef8-db10ffb5b196"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e675e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e832d4e7-1335-4773-b203-bf7035d29bc3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e675f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:ba0be174-8971-4820-a42b-db2c5a781e87"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6760-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:800c36a9-07be-45bd-9106-260cbd66ce4c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6761-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": false,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:81f3131f-baed-442d-bf7a-3606832fc3e0"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6762-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:7e432a85-77b4-44f2-ae98-07134a1a5087"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6763-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:46ae56a9-435f-4fad-aa91-015ef1dca930"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6764-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:296e7555-8ef5-4ad4-a85b-3111ae892a65"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6765-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:725505f7-df2a-41da-9428-0a9b7984817a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6766-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:04355e33-02e4-42ed-8d88-96b0be7044a8"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6767-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:9b24ac8f-043c-4087-ac3b-a695c464f93d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6768-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:5bd4c12d-99d5-49d7-87fb-a346067c697e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6769-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": false,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:b63024f5-df5f-4d21-ba9d-97288bdabe97"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e676a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:f64ec489-a926-4f4f-877b-102d4cd7fd2b"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e676b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:7c60d1fd-fe74-4094-89f7-2d3949deaa3c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e676c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:9a717362-88c3-4b20-85a7-9adfb67c63ca"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e676d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:39a90500-8c87-4576-b912-32abf18a8d12"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e676e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:9f3753d2-3a46-454b-8d14-f4f00743d48a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e676f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:063fd50f-9b15-4b24-a59c-be21be7fd845"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6770-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:1404c232-d6aa-4ed9-855c-8c7ac383a8f5"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6771-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:86b80fe6-e846-415c-a74d-30abad315741"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6772-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:85024669-7147-4a77-9a30-b773d8b10f58"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6773-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:117beb83-cb8e-444f-a054-e98d1ca477e7"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6774-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e286272e-827c-4b12-83cb-6b3e91170e3e"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6775-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:eb9b50c9-e363-0940-a177-2b7abd47f398"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6776-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:69a8ceaa-e0a2-8744-a258-2f572ba4bd9f"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6777-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:eba80fde-c5f8-49fc-8465-0329fdeefda9"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6778-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:dda0993b-140e-41f4-ab0e-9690859afef3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6779-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:ed384e6d-b8d1-45bf-9778-fb2e1b5142fa"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e677a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:7d2f35f7-82ef-42f9-bc10-6f62fe96d116"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e677b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:a6d32ac1-e894-4d28-a44b-41635a6c8b6f"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e677c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:1ab052d3-e055-4dfe-9e47-8af771bd652a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e677d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:5394fd91-851b-406a-ab9c-ecbe7a411c17"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e677e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:aae86260-d615-473f-9622-5817da962df1"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e677f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:2a850d95-6c2e-4a20-a9c6-0f97158473d6"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6780-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:3a7461ed-8e5d-427a-8b48-af3a46c042f5"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6781-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:67334cb3-902b-4d55-9207-50c75357458c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6782-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:1bb434df-1410-4b79-b57b-1af90387e355"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6783-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e2b45f87-e399-47b4-86f9-0e68fb374a65"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6784-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6785-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6786-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:a8f889e8-53f2-494b-97b9-c5dcbc1d17c7"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6787-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:a450fac1-80a9-cd4d-aa26-0223af980b17"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6788-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:93fb8ecd-7d8f-40b3-8777-be000fb8e0e3"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6789-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:57b1462c-259c-426b-86f9-f6f6f2af9c5c"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e678a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:b8b9b131-6eb7-41c7-899e-7003960b1a5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e678b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:842aed4c-0828-4e7a-babc-ce724633a43d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e678c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:fd338915-3831-4cc5-8c55-af2b4c1c2bb8"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e678d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:41e0788e-9dc5-4bf0-862b-f2a99e421602"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e678e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e63a5023-05b9-4adf-bafd-a372b751a6ed"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e678f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:411847e0-02b3-49df-951a-f1cf780f4738"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6790-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:1ac100c3-7a71-4b22-b32c-47fd73c3d01a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6791-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:75f12fd9-2057-4b79-9f19-73736a0f2a6d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6792-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:652e1c63-50b0-4f5a-b88d-8f814a0cda4d"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6793-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": false,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:ed8865cf-8b36-42ce-acdc-0627b5f55802"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6794-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:c70c1ea0-c58b-624b-ab6a-0072ad2eea25"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6795-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6796-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a323d-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6797-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6798-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:20605037-a626-4691-8601-89666564ff87"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e6799-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e679a-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e679b-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e679c-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e679d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:33666962-c2f9-4f6b-af5a-2ef1982ac282"
+            }
+        },
+        {
+            "@id": "urn:uuid:914aa754-90ae-ce44-bfb4-843f83d81cff",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:13d2fd99-e200-4f43-bd9f-a16dc4959edb"
+            }
+        },
+        {
+            "@id": "urn:uuid:76e0ce32-e3d8-954e-9f61-3498832e99c1",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:47bfbe16-6fa2-4b6c-9b75-7453efebafbe"
+            }
+        },
+        {
+            "@id": "urn:uuid:2f0fde11-42d3-504d-b075-dc7f8922c8d7",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:84d18a79-be9c-4b68-be21-36c3d7d40c58"
+            }
+        },
+        {
+            "@id": "urn:uuid:d6b4dae3-7a07-da48-a96e-f2d0b48f8fe7",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a2160-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:38b9c79f-0923-3b4c-9fe3-33440c7024cc",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a1eac-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:4b44db75-0d6d-f34f-aa0d-f0e0bed6f7f7",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a21b1-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:6699504b-bd7c-794e-8208-e62902e73658",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:681a2176-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:7677f801-4258-5145-8037-aa5c93b61da0",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:b8a334a5-2bcb-40e6-b6c2-db906441552d"
+            }
+        },
+        {
+            "@id": "urn:uuid:64a4666a-cc48-d84f-a60a-3414def263b6",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:e18cbee0-1a4f-4315-9108-39f317c67fd5"
+            }
+        },
+        {
+            "@id": "urn:uuid:c5db52bb-9505-7041-af7b-ee5272330601",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:8cc7031f-def2-49b7-97a9-43d3c3c15789"
+            }
+        },
+        {
+            "@id": "urn:uuid:29edddf2-eb5c-294b-9dab-cd4913815fa4",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:13e2ba8c-0046-447a-a99f-4c7ec3b051b9"
+            }
+        },
+        {
+            "@id": "urn:uuid:5f5ed952-12cb-924c-9209-37a99809505c",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:4c23e857-2e4b-4b7c-9c47-5a9190e5afd4"
+            }
+        },
+        {
+            "@id": "urn:uuid:6cae7505-2916-5342-bba4-a61c174b7081",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:46c1c4fb-6a7a-4912-bd2e-4851b6276345"
+            }
+        },
+        {
+            "@id": "urn:uuid:6d0ed07a-b2f8-0a46-85d7-642009d73ddf",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:c060399a-96a1-4765-9ef8-c936ca08f8fe"
+            }
+        },
+        {
+            "@id": "urn:uuid:781313ef-d72d-b041-8faf-f1bbbe5fb74c",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:abbab805-9b44-4c2d-93c2-45a691f71cd1"
+            }
+        },
+        {
+            "@id": "urn:uuid:dd992057-78b0-274b-b8f6-febcf92185d9",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:c9d5445c-9ad6-3849-9e02-08762805826b"
+            }
+        },
+        {
+            "@id": "urn:uuid:711d56b0-757a-394d-be7b-846401ab73a9",
+            "@type": "cim:SvStatus",
+            "cim:SvStatus.inService": true,
+            "cim:SvStatus.ConductingEquipment": {
+                "@id": "urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa"
+            }
+        },
+        {
+            "@id": "urn:uuid:02dca4be-d0f6-8846-8339-883921f4c256",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:e286272e-827c-4b12-83cb-6b3e91170e3e"
+            }
+        },
+        {
+            "@id": "urn:uuid:08c1547a-5381-fb4a-9486-a0f61ede5350",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:ba0be174-8971-4820-a42b-db2c5a781e87"
+            }
+        },
+        {
+            "@id": "urn:uuid:0a1c2324-306e-e048-a9eb-bfc8f77520fa",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:9b24ac8f-043c-4087-ac3b-a695c464f93d"
+            }
+        },
+        {
+            "@id": "urn:uuid:0c6bf056-a183-ec49-b5d8-8332079fb5c4",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:b8b9b131-6eb7-41c7-899e-7003960b1a5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:0e3c6127-d74b-9848-a998-fd68b4ac8c0a",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:a8f889e8-53f2-494b-97b9-c5dcbc1d17c7"
+            }
+        },
+        {
+            "@id": "urn:uuid:0f8a7059-4a46-a44c-ae63-a21787d8498a",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:d4afd20b-a007-43f0-9736-4a868c4cc65a"
+            }
+        },
+        {
+            "@id": "urn:uuid:18f88f4f-869e-3444-9126-9d4d96fed20b",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:5bd4c12d-99d5-49d7-87fb-a346067c697e"
+            }
+        },
+        {
+            "@id": "urn:uuid:2808b29c-37f5-1d45-853d-95b3a0803677",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:04355e33-02e4-42ed-8d88-96b0be7044a8"
+            }
+        },
+        {
+            "@id": "urn:uuid:2bfe0111-c291-624b-8a0b-378a597b6afe",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:f7d8e580-296d-4c2a-b989-1eb4db7af387"
+            }
+        },
+        {
+            "@id": "urn:uuid:2cb2898f-841b-424a-923e-7d3d0492bbfa",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:e832d4e7-1335-4773-b203-bf7035d29bc3"
+            }
+        },
+        {
+            "@id": "urn:uuid:30565e56-5c05-4748-a8cd-a7b010f6e02b",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:842aed4c-0828-4e7a-babc-ce724633a43d"
+            }
+        },
+        {
+            "@id": "urn:uuid:31374e45-3fbb-ef4b-bb7b-a759d7055f93",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:85024669-7147-4a77-9a30-b773d8b10f58"
+            }
+        },
+        {
+            "@id": "urn:uuid:3142df27-4c49-e245-bb2d-cd287c685208",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31"
+            }
+        },
+        {
+            "@id": "urn:uuid:3367af94-8759-fc4a-af82-9297c9002821",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300"
+            }
+        },
+        {
+            "@id": "urn:uuid:39c4ecf9-4164-df4d-bf8f-ddbb81de7898",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:a498f1fd-65f0-41df-83ee-29c92d075514"
+            }
+        },
+        {
+            "@id": "urn:uuid:412c15d8-7044-ed47-b909-a75cbaf50ed0",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:7c60d1fd-fe74-4094-89f7-2d3949deaa3c"
+            }
+        },
+        {
+            "@id": "urn:uuid:417f13d3-ec97-9a43-ade7-6d7c74f6de46",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:7e432a85-77b4-44f2-ae98-07134a1a5087"
+            }
+        },
+        {
+            "@id": "urn:uuid:46db5d4f-e6ae-ab4d-8f68-400062eae37c",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:86b80fe6-e846-415c-a74d-30abad315741"
+            }
+        },
+        {
+            "@id": "urn:uuid:47b85bf2-c66c-4246-b711-b1ec86e9ab35",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": true,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:81f3131f-baed-442d-bf7a-3606832fc3e0"
+            }
+        },
+        {
+            "@id": "urn:uuid:4d542f6b-d229-1f4b-affc-995f1a1a6903",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:9a717362-88c3-4b20-85a7-9adfb67c63ca"
+            }
+        },
+        {
+            "@id": "urn:uuid:4fcc9951-c759-5845-9899-944d61df43b2",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:75f12fd9-2057-4b79-9f19-73736a0f2a6d"
+            }
+        },
+        {
+            "@id": "urn:uuid:53b0bcc3-33b0-6041-a959-a9c88b67fb29",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
+            }
+        },
+        {
+            "@id": "urn:uuid:5407b256-1f8e-1348-b963-2ee54987b128",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:2a906e57-0892-4de8-89b2-56c273f8c09c"
+            }
+        },
+        {
+            "@id": "urn:uuid:5681b9be-4684-b449-b758-8330bf2aaf27",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:1404c232-d6aa-4ed9-855c-8c7ac383a8f5"
+            }
+        },
+        {
+            "@id": "urn:uuid:5c106f7f-38e4-944c-b0a6-7743a117025c",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:a2a20c81-78b5-40bc-81d1-14ed8ea03e12"
+            }
+        },
+        {
+            "@id": "urn:uuid:78c9a8bd-9a79-954e-bf22-45dd28390f7d",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:2fb546e7-9e06-4356-a3ad-7e3756c34f6a"
+            }
+        },
+        {
+            "@id": "urn:uuid:824bcfa9-b8de-c84b-ae19-634947e627f7",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": true,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:b63024f5-df5f-4d21-ba9d-97288bdabe97"
+            }
+        },
+        {
+            "@id": "urn:uuid:82ef3d94-94fc-b444-a00c-dc89555057de",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:bf819ffc-270d-4025-bef8-db10ffb5b196"
+            }
+        },
+        {
+            "@id": "urn:uuid:871aba90-75a1-8f45-9c49-4e7695129c70",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406"
+            }
+        },
+        {
+            "@id": "urn:uuid:8fb2bdaa-27c6-4940-8b95-ed67b5f62488",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:411847e0-02b3-49df-951a-f1cf780f4738"
+            }
+        },
+        {
+            "@id": "urn:uuid:909616c3-fe82-5642-a1ca-69d38976af8c",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:808643b7-4e47-4faa-b906-999d0f1fe32b"
+            }
+        },
+        {
+            "@id": "urn:uuid:91789d9a-e292-254a-aa4f-7ae5afb4d4a8",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:76335f11-64c3-474d-92fd-7ab11ed607e4"
+            }
+        },
+        {
+            "@id": "urn:uuid:92222acb-1f90-764d-98cf-7da23fcf0397",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:a450fac1-80a9-cd4d-aa26-0223af980b17"
+            }
+        },
+        {
+            "@id": "urn:uuid:955e483a-f4b9-2141-bce2-5d9f20d36e1c",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:b16294fe-269c-4f3d-b6af-4bc473c663d6"
+            }
+        },
+        {
+            "@id": "urn:uuid:987405b8-e308-8a49-ba77-ed3d9f352574",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:9f3753d2-3a46-454b-8d14-f4f00743d48a"
+            }
+        },
+        {
+            "@id": "urn:uuid:98b5211b-3782-674b-ac37-dc9bd8d5c599",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
+            }
+        },
+        {
+            "@id": "urn:uuid:9d5f4071-ec41-1f4d-baad-f0a677c3b385",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:2714d85d-92e7-4f88-a488-f39e782a6298"
+            }
+        },
+        {
+            "@id": "urn:uuid:a10df884-5532-f940-8a33-48508e5610a0",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:46ae56a9-435f-4fad-aa91-015ef1dca930"
+            }
+        },
+        {
+            "@id": "urn:uuid:a22693e2-ce86-d84f-9145-87bd5417d353",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:800c36a9-07be-45bd-9106-260cbd66ce4c"
+            }
+        },
+        {
+            "@id": "urn:uuid:a407080a-daef-5e47-b378-01126e471733",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:41e0788e-9dc5-4bf0-862b-f2a99e421602"
+            }
+        },
+        {
+            "@id": "urn:uuid:a5d6709a-f185-3349-8630-3f9b565882d9",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:764a7252-9aae-4da4-a23b-6c770d8b16c1"
+            }
+        },
+        {
+            "@id": "urn:uuid:b2fea6e9-7a55-4546-94fd-43dff01afc14",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:8aad5c29-6039-4321-8f8a-ad1c186dd145"
+            }
+        },
+        {
+            "@id": "urn:uuid:b552fbe5-4845-3c46-ac1f-52c93bcbcd9b",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:20605037-a626-4691-8601-89666564ff87"
+            }
+        },
+        {
+            "@id": "urn:uuid:b7867032-d78a-d74d-8103-3c4dac100154",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:117beb83-cb8e-444f-a054-e98d1ca477e7"
+            }
+        },
+        {
+            "@id": "urn:uuid:b7cc2bfe-3d65-e14e-aaca-80abcb18cab0",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:39a90500-8c87-4576-b912-32abf18a8d12"
+            }
+        },
+        {
+            "@id": "urn:uuid:ba501cdd-25bd-3c4a-b8be-d7825cef86f3",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c"
+            }
+        },
+        {
+            "@id": "urn:uuid:bd4b3331-f5b3-d74e-8322-623047344d2e",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:131a14f6-7032-499d-b691-f65bc52cc635"
+            }
+        },
+        {
+            "@id": "urn:uuid:c2802639-a3ed-d145-bd51-558d34f69dfe",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:296e7555-8ef5-4ad4-a85b-3111ae892a65"
+            }
+        },
+        {
+            "@id": "urn:uuid:c5fe0279-8a14-6b44-b6e5-7f16973f5d12",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:725505f7-df2a-41da-9428-0a9b7984817a"
+            }
+        },
+        {
+            "@id": "urn:uuid:cb548c45-70ad-4a4c-81fa-00f7f0402101",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:fd338915-3831-4cc5-8c55-af2b4c1c2bb8"
+            }
+        },
+        {
+            "@id": "urn:uuid:d0e3b346-7559-ea4a-a097-de0db86b4eb4",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:f64ec489-a926-4f4f-877b-102d4cd7fd2b"
+            }
+        },
+        {
+            "@id": "urn:uuid:d49c1ceb-510c-3048-ba27-7709d842ed32",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:dd41276d-9ea7-47a8-a0f3-65215c8225a5"
+            }
+        },
+        {
+            "@id": "urn:uuid:d9cb8f96-e410-f244-981b-fa4ef1069dbd",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:1ac100c3-7a71-4b22-b32c-47fd73c3d01a"
+            }
+        },
+        {
+            "@id": "urn:uuid:da80fee9-0026-9d40-85c9-8fa4cb88a3bc",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb"
+            }
+        },
+        {
+            "@id": "urn:uuid:e7779114-a77a-6049-977c-c25e25e50488",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:652e1c63-50b0-4f5a-b88d-8f814a0cda4d"
+            }
+        },
+        {
+            "@id": "urn:uuid:ed48e2ae-980e-214d-acc4-b517e6e46ef0",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:93fb8ecd-7d8f-40b3-8777-be000fb8e0e3"
+            }
+        },
+        {
+            "@id": "urn:uuid:f64b8b63-8b37-564b-9b1b-2e1bce848b58",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:12156bb5-7a82-4e95-8ea4-2ff8573133fe"
+            }
+        },
+        {
+            "@id": "urn:uuid:f717d27a-193e-d447-aaf0-f5c1facdec70",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:063fd50f-9b15-4b24-a59c-be21be7fd845"
+            }
+        },
+        {
+            "@id": "urn:uuid:fb644b43-da0e-a64d-8b5b-fd3be0f89cc9",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:57b1462c-259c-426b-86f9-f6f6f2af9c5c"
+            }
+        },
+        {
+            "@id": "urn:uuid:ff97a3af-f795-ff43-acc1-37efd9e97cc0",
+            "@type": "cim:SvSwitch",
+            "cim:SvSwitch.open": false,
+            "cim:SvSwitch.Switch": {
+                "@id": "urn:uuid:e63a5023-05b9-4adf-bafd-a372b751a6ed"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e679e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvTapStep",
+            "cim:SvTapStep.position": 17.0,
+            "cim:SvTapStep.TapChanger": {
+                "@id": "urn:uuid:681a2fe7-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e679f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvTapStep",
+            "cim:SvTapStep.position": 18.0,
+            "cim:SvTapStep.TapChanger": {
+                "@id": "urn:uuid:681a3091-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e67a0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvTapStep",
+            "cim:SvTapStep.position": 17.0,
+            "cim:SvTapStep.TapChanger": {
+                "@id": "urn:uuid:681a2fd5-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e67a1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvTapStep",
+            "cim:SvTapStep.position": 7.0,
+            "cim:SvTapStep.TapChanger": {
+                "@id": "urn:uuid:681a30a5-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e669d-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -0.281162083,
+            "cim:SvVoltage.v": 131.694809,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e669e-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -0.0875646546,
+            "cim:SvVoltage.v": 131.942886,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e669f-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.26905,
+            "cim:SvVoltage.v": 10.3777771,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.26953769,
+            "cim:SvVoltage.v": 10.377079,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.2713058,
+            "cim:SvVoltage.v": 0.108485475,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa23b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.233717,
+            "cim:SvVoltage.v": 62.9722176,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a3-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": 178.461655,
+            "cim:SvVoltage.v": 0.110384092,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a4-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.28292,
+            "cim:SvVoltage.v": 10.428606,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a5-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.26953769,
+            "cim:SvVoltage.v": 10.377079,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa23f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a6-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": 179.32814,
+            "cim:SvVoltage.v": 0.219818875,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa240-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a7-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": 0.0211417321,
+            "cim:SvVoltage.v": 116.729294,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a8-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -4.240611,
+            "cim:SvVoltage.v": 10.1026506,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66a9-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.053948,
+            "cim:SvVoltage.v": 0.181713626,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa245-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66aa-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -4.248755,
+            "cim:SvVoltage.v": 10.0744781,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa246-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ab-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -3.13587976,
+            "cim:SvVoltage.v": 68.13548,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ac-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.065014,
+            "cim:SvVoltage.v": 0.181074128,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:124a0983-c46c-6c4a-ac36-9f45bb847950"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ad-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": 0.0,
+            "cim:SvVoltage.v": 420.0,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:94f96db9-b16e-2942-a988-bc7a1c5267f7"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ae-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.0898037,
+            "cim:SvVoltage.v": 0.179637179,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66af-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.092637,
+            "cim:SvVoltage.v": 0.179472968,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa249-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.092637,
+            "cim:SvVoltage.v": 0.179472968,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa24a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.065014,
+            "cim:SvVoltage.v": 0.181074128,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.107511,
+            "cim:SvVoltage.v": 0.178610787,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b3-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.11034441,
+            "cim:SvVoltage.v": 0.178446576,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa24c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b4-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.11034441,
+            "cim:SvVoltage.v": 0.178446576,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa24d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b5-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.11034441,
+            "cim:SvVoltage.v": 0.178446576,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa24e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b6-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.11459351,
+            "cim:SvVoltage.v": 0.178200245,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b7-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.07563829,
+            "cim:SvVoltage.v": 0.180458292,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b8-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.078471,
+            "cim:SvVoltage.v": 0.180294082,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa254-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66b9-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.08272076,
+            "cim:SvVoltage.v": 0.180047736,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66ba-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.08555365,
+            "cim:SvVoltage.v": 0.179883525,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa256-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66bb-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.08555365,
+            "cim:SvVoltage.v": 0.179883525,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa257-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66bc-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.08272076,
+            "cim:SvVoltage.v": 0.180047736,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa250-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66bd-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.07563829,
+            "cim:SvVoltage.v": 0.180458292,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66be-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.078471,
+            "cim:SvVoltage.v": 0.180294082,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa25a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66bf-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.078471,
+            "cim:SvVoltage.v": 0.180294082,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa25b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c0-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.079179,
+            "cim:SvVoltage.v": 0.180253029,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c1-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.08201265,
+            "cim:SvVoltage.v": 0.1800888,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa238-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c2-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.079179,
+            "cim:SvVoltage.v": 0.180253029,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa258-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c3-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.117427,
+            "cim:SvVoltage.v": 0.178036019,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa251-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:256e66c4-9d74-11ec-a67a-74e5f963e191",
+            "@type": "cim:SvVoltage",
+            "cim:SvVoltage.angle": -5.117427,
+            "cim:SvVoltage.v": 0.178036019,
+            "cim:SvVoltage.TopologicalNode": {
+                "@id": "urn:uuid:734aa252-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa25e-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalIsland",
+            "cim:IdentifiedObject.mRID": "734aa25e-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.description": "diverged",
+            "cim:IdentifiedObject.name": "XARE1_XARE2 CN",
+            "cim:TopologicalIsland.AngleRefTopologicalNode": {
+                "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68"
+            },
+            "cim:TopologicalIsland.TopologicalNodes": [
+                {
+                    "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa23b-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa23f-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa240-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa245-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa246-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa24c-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa24d-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa24e-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa249-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa254-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa256-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa257-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa250-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa25a-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa25b-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa238-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa258-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa251-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa252-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa24a-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa241-9549-11ec-b226-48ba4eadba68"
+                },
+                {
+                    "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68"
+                }
+            ]
+        }
+    ]
+}

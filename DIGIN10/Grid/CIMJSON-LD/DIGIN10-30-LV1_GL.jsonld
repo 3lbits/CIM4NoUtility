@@ -1,0 +1,231 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_GL",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Geograpical Location (GL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_GL"
+    },
+    "dcat:keyword": "GL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/CIM/Geographical/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9",
+            "@type": "cim:CoordinateSystem",
+            "cim:IdentifiedObject.mRID": "2be52cd7-b707-4dda-9e14-4a1966e22ff9",
+            "cim:IdentifiedObject.name": "EPSG 4326",
+            "cim:CoordinateSystem.crsUrn": "urn:ogc:def:crs:EPSG::4326"
+        },
+        {
+            "@id": "urn:uuid:990df1b7-bd8c-4989-808f-15b73ae0b1f4",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "990df1b7-bd8c-4989-808f-15b73ae0b1f4",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB1",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:e322d64a-0413-4703-b31c-b8e0c5c32f44"
+            }
+        },
+        {
+            "@id": "urn:uuid:a46f1252-f9a1-4469-99b7-a70f1f40a0c5",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "a46f1252-f9a1-4469-99b7-a70f1f40a0c5",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB2",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:4bb21420-ef4f-4af1-979e-863c3f484c51"
+            }
+        },
+        {
+            "@id": "urn:uuid:ce8c258e-0d2d-4485-ba6c-6e0cac041454",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "ce8c258e-0d2d-4485-ba6c-6e0cac041454",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB3",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:ccffa748-19de-412a-9946-1fc846d98b71"
+            }
+        },
+        {
+            "@id": "urn:uuid:d978a4dc-7d22-4b69-b148-e595558aadd5",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "d978a4dc-7d22-4b69-b148-e595558aadd5",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB4",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:37a3bd2c-7817-48de-aa01-13a324a6d6bd"
+            }
+        },
+        {
+            "@id": "urn:uuid:f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB5",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:27a21834-5457-4f1b-ad5c-1c69ff88fbd4"
+            }
+        },
+        {
+            "@id": "urn:uuid:36e1bc0b-c616-48f5-9a64-95c6d8beaa94",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB6",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:811613d5-c44f-4daa-9dc1-03005740a4e5"
+            }
+        },
+        {
+            "@id": "urn:uuid:d78bbdd4-b936-4c9f-bc78-13a9258e7b84",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "d78bbdd4-b936-4c9f-bc78-13a9258e7b84",
+            "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB7",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:99a5ca36-e724-49a7-8e7f-247357b6f336"
+            }
+        },
+        {
+            "@id": "urn:uuid:4c6c0cb6-44d9-4323-a0c9-4f533b524a1c",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7007293714585,
+            "cim:PositionPoint.yPosition": 58.41467201058505,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:990df1b7-bd8c-4989-808f-15b73ae0b1f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:74de16e2-6d65-4d27-ade8-dec58040aa5b",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7027,
+            "cim:PositionPoint.yPosition": 58.4147,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:a46f1252-f9a1-4469-99b7-a70f1f40a0c5"
+            }
+        },
+        {
+            "@id": "urn:uuid:296c295c-b91d-457f-a418-9511b2dc1b1f",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7037,
+            "cim:PositionPoint.yPosition": 58.4148,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:ce8c258e-0d2d-4485-ba6c-6e0cac041454"
+            }
+        },
+        {
+            "@id": "urn:uuid:c0d91539-ae1f-4819-94cb-342c3a82bcdb",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7047,
+            "cim:PositionPoint.yPosition": 58.4149,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:d978a4dc-7d22-4b69-b148-e595558aadd5"
+            }
+        },
+        {
+            "@id": "urn:uuid:d53716ca-99e3-4be5-84cb-30b719d3bf69",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7057,
+            "cim:PositionPoint.yPosition": 58.415,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9"
+            }
+        },
+        {
+            "@id": "urn:uuid:027d2663-9163-4091-ac9e-740a9c4ed25e",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7067,
+            "cim:PositionPoint.yPosition": 58.4151,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:36e1bc0b-c616-48f5-9a64-95c6d8beaa94"
+            }
+        },
+        {
+            "@id": "urn:uuid:3f9731a7-2113-4d9a-83a6-61eb34c07cf6",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7077,
+            "cim:PositionPoint.yPosition": 58.4176,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:d78bbdd4-b936-4c9f-bc78-13a9258e7b84"
+            }
+        }
+    ]
+}

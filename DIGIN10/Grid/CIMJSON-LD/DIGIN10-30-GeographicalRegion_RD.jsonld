@@ -1,0 +1,168 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-04-01T08:55:55",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-GeographicalRegion_RD",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Geographical Region Reference model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-GeographicalRegion_RD"
+    },
+    "dcat:keyword": "RD",
+    "dcterms:spatial": {
+        "@id": "\"http://energy.referencedata.eu/CGMES\""
+    },
+    "@graph": [
+        {
+            "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:GeographicalRegion",
+            "cim:IdentifiedObject.mRID": "2dd9048c-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Nordic",
+            "cim:IdentifiedObject.name": "NO"
+        },
+        {
+            "@id": "urn:uuid:f17696b3-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f17696b3-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "FI1 Bidding Zone",
+            "cim:IdentifiedObject.name": "FI1 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f1769609-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f1769609-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "NO1 Bidding Zone",
+            "cim:IdentifiedObject.name": "NO1 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f176965f-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "NO2 Bidding Zone",
+            "cim:IdentifiedObject.name": "NO2 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f1769699-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f1769699-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "NO3 Bidding Zone",
+            "cim:IdentifiedObject.name": "NO3 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f17696a3-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f17696a3-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "NO4 Bidding Zone",
+            "cim:IdentifiedObject.name": "NO4 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f1769619-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f1769619-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "NO5 Bidding Zone",
+            "cim:IdentifiedObject.name": "NO5 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f17695cd-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f17695cd-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "SE1 Bidding Zone",
+            "cim:IdentifiedObject.name": "SE1 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f17695c3-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f17695c3-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "SE2 Bidding Zone",
+            "cim:IdentifiedObject.name": "SE2 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f17695af-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f17695af-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "SE3 Bidding Zone",
+            "cim:IdentifiedObject.name": "SE3 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f17696cf-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f17696cf-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "SE4 Bidding Zone",
+            "cim:IdentifiedObject.name": "SE4 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:d9b89685-1fed-4233-8f85-70fd9e6cfd23",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "d9b89685-1fed-4233-8f85-70fd9e6cfd23",
+            "cim:IdentifiedObject.description": "Distribution System Operator Vest",
+            "cim:IdentifiedObject.name": "DSO V",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        }
+    ]
+}

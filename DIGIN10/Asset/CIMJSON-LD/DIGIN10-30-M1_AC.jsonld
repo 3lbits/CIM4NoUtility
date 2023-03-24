@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-10-28T13:37:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-M1_AC",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 Manufacture 1 (M1) Asset Catalogue Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-10-28T13:37:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-M1_AC"
+    },
+    "dcat:keyword": "AC",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/AssetCatalogue"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/AssetCatalogue/2/0"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:d25f35ca-69fb-4c06-905b-67ec532e5f14",
+            "@type": "cim:CableInfo",
+            "cim:IdentifiedObject.mRID": "d25f35ca-69fb-4c06-905b-67ec532e5f14",
+            "cim:IdentifiedObject.description": "PFXP underground cable with dimension 1x4x95 and aluminum conductor for low voltage grid",
+            "cim:IdentifiedObject.name": "PFXP_1x4x95_Al 1 kV",
+            "cim:WireInfo.coreRadius": null,
+            "cim:WireInfo.coreStrandCount": null,
+            "cim:WireInfo.gmr": null,
+            "cim:WireInfo.insulated": true,
+            "cim:WireInfo.insulationThickness": null,
+            "cim:WireInfo.rAC25": 320.0,
+            "cim:WireInfo.rAC50": null,
+            "cim:WireInfo.rAC75": null,
+            "cim:WireInfo.rDC20": null,
+            "cim:WireInfo.radius": 95.0,
+            "cim:WireInfo.ratedCurrent": 220.0,
+            "cim:WireInfo.sizeDescription": null,
+            "cim:WireInfo.strandCount": null,
+            "cim:CableInfo.diameterOverCore": null,
+            "cim:CableInfo.diameterOverInsulation": null,
+            "cim:CableInfo.diameterOverJacket": null,
+            "cim:CableInfo.diameterOverScreen": null,
+            "cim:CableInfo.isStrandFill": null,
+            "cim:CableInfo.nominalTemperature": null,
+            "cim:CableInfo.sheathAsNeutral": null,
+            "cim:WireInfo.insulationMaterial": {
+                "@id": "cim:WireInsulationKind.other"
+            },
+            "cim:WireInfo.material": {
+                "@id": "cim:WireMaterialKind.aluminum"
+            },
+            "cim:CableInfo.constructionKind": {
+                "@id": "cim:CableConstructionKind.stranded"
+            },
+            "cim:CableInfo.outerJacketKind": {
+                "@id": "cim:CableOuterJacketKind.pvc"
+            },
+            "cim:CableInfo.shieldMaterial": {
+                "@id": "cim:CableShieldMaterialKind.aluminum"
+            }
+        },
+        {
+            "@id": "urn:uuid:5462d46a-9ee5-4d09-9ac2-9f97933caa4d",
+            "@type": "cim:PowerTransformerInfo",
+            "cim:IdentifiedObject.mRID": "5462d46a-9ee5-4d09-9ac2-9f97933caa4d",
+            "cim:IdentifiedObject.description": null,
+            "cim:IdentifiedObject.name": "Engene 132-22 KV PowerTransformerInfo"
+        },
+        {
+            "@id": "urn:uuid:6d4b7fa0-aa6e-4e82-a88e-c14b84370eec",
+            "@type": "cim:Manufacturer",
+            "cim:IdentifiedObject.mRID": "b0c1754b-187c-49fa-8159-6fd2f4f918ad",
+            "cim:IdentifiedObject.aliasName": "RBE",
+            "cim:IdentifiedObject.name": "Reuters Borg Elektro",
+            "cim:Manufacturer.ProductAssetModel": {
+                "@id": "urn:uuid:df774997-6a8e-47ca-9cd5-30ce2a85abf0"
+            }
+        },
+        {
+            "@id": "urn:uuid:df774997-6a8e-47ca-9cd5-30ce2a85abf0",
+            "@type": "cim:ProductAssetModel",
+            "cim:IdentifiedObject.mRID": "df774997-6a8e-47ca-9cd5-30ce2a85abf0",
+            "cim:IdentifiedObject.description": "RTU skap for småkraftverk",
+            "cim:IdentifiedObject.name": "RS5970P",
+            "cim:ProductAssetModel.modelNumber": "28597",
+            "cim:ProductAssetModel.modelVersion": "2.3",
+            "cim:ProductAssetModel.drawingNumber": "EQ-15987-104",
+            "cim:ProductAssetModel.instructionMnaual": "RS5970P Operation Manual",
+            "cim:ProductAssetModel.weightTotal": 115.0,
+            "cim:ProductAssetModel.AssetModelCatalogueItem": {
+                "@id": "urn:uuid:99e19919-b030-4742-8609-f1230681333d"
+            },
+            "cim:ProductAssetModel.Manufacturer": {
+                "@id": "urn:uuid:6d4b7fa0-aa6e-4e82-a88e-c14b84370eec"
+            }
+        },
+        {
+            "@id": "urn:uuid:99e19919-b030-4742-8609-f1230681333d",
+            "@type": "cim:AssetModelCatalogueItem",
+            "cim:IdentifiedObject.mRID": "99e19919-b030-4742-8609-f1230681333d",
+            "cim:IdentifiedObject.description": "Pricing for RTU skap for småkraftverk",
+            "cim:IdentifiedObject.name": "Price_RS5970P",
+            "cim:AssetModelCatalogueItem.unitCost": "38500"
+        }
+    ]
+}

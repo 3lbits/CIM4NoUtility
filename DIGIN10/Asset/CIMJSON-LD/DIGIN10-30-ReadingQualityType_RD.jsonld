@@ -1,0 +1,416 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#"
+    },
+    "@id": "urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-02-18T00:21:43Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-ReadingQualityType_RD",
+    "dcterms:description": [
+        {
+            "@value": "Meter Reading Quality Types Reference data (RD)",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-ReadingQualityType_RD"
+    },
+    "dcat:keyword": "RD",
+    "dcterms:spatial": {
+        "@id": "\"http://energy.referencedata.eu/ReadingQualityType\""
+    },
+    "@graph": [
+        {
+            "@id": "urn:uuid:bc98521e-922a-4fa5-920b-e7474ec0c8a1",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "bc98521e-922a-4fa5-920b-e7474ec0c8a1",
+            "cim:IdentifiedObject.description": "EndDevice Valid Data Valid",
+            "cim:IdentifiedObject.name": "1.0.0",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Valid",
+            "cim:ReadingQualityType.subCategory": "Data Valid",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.0.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6af5f778-e6c5-4da6-aaf2-4e6487c7af61",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "6af5f778-e6c5-4da6-aaf2-4e6487c7af61",
+            "cim:IdentifiedObject.description": "EndDevice Power quality related issues at the data collection point PowerQualityFlag",
+            "cim:IdentifiedObject.name": "1.2.0",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Power quality related issues at the data collection point",
+            "cim:ReadingQualityType.subCategory": "PowerQualityFlag",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.2.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ffaf535c-4a2d-4586-9f2f-dbc8f69fac04",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "ffaf535c-4a2d-4586-9f2f-dbc8f69fac04",
+            "cim:IdentifiedObject.description": "EndDevice Data collection related AlarmFlag",
+            "cim:IdentifiedObject.name": "1.4.0",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "AlarmFlag",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.4.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:dfdaf8fc-3a72-4639-8d73-3b8a8ad34ec9",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "dfdaf8fc-3a72-4639-8d73-3b8a8ad34ec9",
+            "cim:IdentifiedObject.description": "EndDevice Data collection related ClockChanged",
+            "cim:IdentifiedObject.name": "1.4.9",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "ClockChanged",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.4.9"
+            }
+        },
+        {
+            "@id": "urn:uuid:99d7caf6-375a-4601-81b0-b281be81ac62",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "99d7caf6-375a-4601-81b0-b281be81ac62",
+            "cim:IdentifiedObject.description": "EndDevice Power quality related issues at the data collection point PowerFail",
+            "cim:IdentifiedObject.name": "1.2.32",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Power quality related issues at the data collection point",
+            "cim:ReadingQualityType.subCategory": "PowerFail",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.2.32"
+            }
+        },
+        {
+            "@id": "urn:uuid:42a2b497-049c-4711-bcfb-11ae6e5d1b22",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "42a2b497-049c-4711-bcfb-11ae6e5d1b22",
+            "cim:IdentifiedObject.description": "EndDevice Data collection related ResetOccurred",
+            "cim:IdentifiedObject.name": "1.4.8",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "ResetOccurred",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.4.8"
+            }
+        },
+        {
+            "@id": "urn:uuid:33f02411-424c-41bf-80aa-20e24246c373",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "33f02411-424c-41bf-80aa-20e24246c373",
+            "cim:IdentifiedObject.description": "EndDevice Diagnostics related DiagnosticsFlag",
+            "cim:IdentifiedObject.name": "1.1.0",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Diagnostics related",
+            "cim:ReadingQualityType.subCategory": "DiagnosticsFlag",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.1.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:49215b6d-646c-47ad-8183-0f8678190dda",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "49215b6d-646c-47ad-8183-0f8678190dda",
+            "cim:IdentifiedObject.description": "EndDevice Failed validation testing Failed validation – Generic",
+            "cim:IdentifiedObject.name": "1.6.0",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Failed validation testing",
+            "cim:ReadingQualityType.subCategory": "Failed validation – Generic",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.6.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f78aafb3-9ed6-4e7c-a420-acf0bf8bb72f",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "f78aafb3-9ed6-4e7c-a420-acf0bf8bb72f",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Failed validation testing Failed validation – Generic",
+            "cim:IdentifiedObject.name": "2.6.0",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Failed validation testing",
+            "cim:ReadingQualityType.subCategory": "Failed validation – Generic",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.6.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:5c22f7a5-48ad-464a-bc3a-ea5a16b55fa3",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "5c22f7a5-48ad-464a-bc3a-ea5a16b55fa3",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Diagnostics related DiagnosticsFlag",
+            "cim:IdentifiedObject.name": "2.1.0",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Diagnostics related",
+            "cim:ReadingQualityType.subCategory": "DiagnosticsFlag",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.1.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2ece3371-b46d-4078-8703-435eaa470372",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "2ece3371-b46d-4078-8703-435eaa470372",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Data collection related ClockChanged",
+            "cim:IdentifiedObject.name": "2.4.9",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "ClockChanged",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.4.9"
+            }
+        },
+        {
+            "@id": "urn:uuid:68eb85f0-e1f5-474c-bcab-0995a2b30853",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "68eb85f0-e1f5-474c-bcab-0995a2b30853",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Data collection related SkippedInterval",
+            "cim:IdentifiedObject.name": "2.4.4",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "SkippedInterval",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.4.4"
+            }
+        },
+        {
+            "@id": "urn:uuid:e59a5865-21c8-462a-9496-9d072bb73137",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "e59a5865-21c8-462a-9496-9d072bb73137",
+            "cim:IdentifiedObject.description": "Meter Data Management System Valid Validated",
+            "cim:IdentifiedObject.name": "3.0.1",
+            "cim:ReadingQualityType.systemId": "Meter Data Management System",
+            "cim:ReadingQualityType.category": "Valid",
+            "cim:ReadingQualityType.subCategory": "Validated",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/3.0.1"
+            }
+        },
+        {
+            "@id": "urn:uuid:eac5bde7-2fc6-48c2-9bea-17c22c0809e0",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "eac5bde7-2fc6-48c2-9bea-17c22c0809e0",
+            "cim:IdentifiedObject.description": "Meter Data Management System Estimated Validated",
+            "cim:IdentifiedObject.name": "3.8.1",
+            "cim:ReadingQualityType.systemId": "Meter Data Management System",
+            "cim:ReadingQualityType.category": "Estimated",
+            "cim:ReadingQualityType.subCategory": "Validated",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/3.8.1"
+            }
+        },
+        {
+            "@id": "urn:uuid:deeabf1b-deba-4385-9474-25c89ce4003c",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "deeabf1b-deba-4385-9474-25c89ce4003c",
+            "cim:IdentifiedObject.description": "Meter Data Management System Edited Validated",
+            "cim:IdentifiedObject.name": "3.7.1",
+            "cim:ReadingQualityType.systemId": "Meter Data Management System",
+            "cim:ReadingQualityType.category": "Edited",
+            "cim:ReadingQualityType.subCategory": "Validated",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/3.7.1"
+            }
+        },
+        {
+            "@id": "urn:uuid:66c3b271-327b-42d6-8899-5e04475a07b1",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "66c3b271-327b-42d6-8899-5e04475a07b1",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Valid Data Valid",
+            "cim:IdentifiedObject.name": "2.0.0",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Valid",
+            "cim:ReadingQualityType.subCategory": "Data Valid",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.0.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a538da72-9cd3-47bf-b4ec-d75960ebf464",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "a538da72-9cd3-47bf-b4ec-d75960ebf464",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Data collection related DstInEffect",
+            "cim:IdentifiedObject.name": "2.4.16",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "DstInEffect",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.4.16"
+            }
+        },
+        {
+            "@id": "urn:uuid:168d5503-66fa-43f9-bf18-55895f6a8625",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "168d5503-66fa-43f9-bf18-55895f6a8625",
+            "cim:IdentifiedObject.description": "EndDevice Tamper / Revenue Protection related ReverseRotation",
+            "cim:IdentifiedObject.name": "1.3.4",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Tamper / Revenue Protection related",
+            "cim:ReadingQualityType.subCategory": "ReverseRotation",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.3.4"
+            }
+        },
+        {
+            "@id": "urn:uuid:9c36ee77-e39c-406f-9c00-55410ba3e672",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "9c36ee77-e39c-406f-9c00-55410ba3e672",
+            "cim:IdentifiedObject.description": "EndDevice Power quality related issues at the data collection point ServiceDisconnectSwitching",
+            "cim:IdentifiedObject.name": "1.2.3",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Power quality related issues at the data collection point",
+            "cim:ReadingQualityType.subCategory": "ServiceDisconnectSwitching",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.2.3"
+            }
+        },
+        {
+            "@id": "urn:uuid:bdf08ea9-c946-4efd-abfc-e8544d66b5f6",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "bdf08ea9-c946-4efd-abfc-e8544d66b5f6",
+            "cim:IdentifiedObject.description": "EndDevice Diagnostics related ClockError",
+            "cim:IdentifiedObject.name": "1.1.9",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Diagnostics related",
+            "cim:ReadingQualityType.subCategory": "ClockError",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.1.9"
+            }
+        },
+        {
+            "@id": "urn:uuid:0eae0498-1dd2-4fa2-aee4-ee3ed6f906ff",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "0eae0498-1dd2-4fa2-aee4-ee3ed6f906ff",
+            "cim:IdentifiedObject.description": "EndDevice Diagnostics related RAMChecksumError",
+            "cim:IdentifiedObject.name": "1.1.7",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Diagnostics related",
+            "cim:ReadingQualityType.subCategory": "RAMChecksumError",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.1.7"
+            }
+        },
+        {
+            "@id": "urn:uuid:d1995141-5c40-47eb-8ee5-84ba6c281400",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "d1995141-5c40-47eb-8ee5-84ba6c281400",
+            "cim:IdentifiedObject.description": "EndDevice Diagnostics related ROMChecksumError",
+            "cim:IdentifiedObject.name": "1.1.8",
+            "cim:ReadingQualityType.systemId": "EndDevice",
+            "cim:ReadingQualityType.category": "Diagnostics related",
+            "cim:ReadingQualityType.subCategory": "ROMChecksumError",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/1.1.8"
+            }
+        },
+        {
+            "@id": "urn:uuid:a538da72-9cd3-47bf-b4ec-d75960ebf464",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "a538da72-9cd3-47bf-b4ec-d75960ebf464",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Failed reasonability testing Suspect",
+            "cim:IdentifiedObject.name": "2.5.258",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Failed reasonability testing",
+            "cim:ReadingQualityType.subCategory": "Suspect",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.5.258"
+            }
+        },
+        {
+            "@id": "urn:uuid:2ac98fbf-97d0-4105-aea4-8db5643a881d",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "2ac98fbf-97d0-4105-aea4-8db5643a881d",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Data collection related ClockSetForward",
+            "cim:IdentifiedObject.name": "2.4.64",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "ClockSetForward",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.4.64"
+            }
+        },
+        {
+            "@id": "urn:uuid:f2c8ef79-6a87-4af3-8aed-27f9f784b70e",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "f2c8ef79-6a87-4af3-8aed-27f9f784b70e",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Failed reasonability testing DataOutsideExpectedRange",
+            "cim:IdentifiedObject.name": "2.5.256",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Failed reasonability testing",
+            "cim:ReadingQualityType.subCategory": "DataOutsideExpectedRange",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.5.256"
+            }
+        },
+        {
+            "@id": "urn:uuid:a9aaff7a-da09-4ee9-a0f9-d752e699f63f",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "a9aaff7a-da09-4ee9-a0f9-d752e699f63f",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Failed validation testing Failed validation – UsageBelow Minimum",
+            "cim:IdentifiedObject.name": "2.6.4",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Failed validation testing",
+            "cim:ReadingQualityType.subCategory": "Failed validation – UsageBelow Minimum",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.6.4"
+            }
+        },
+        {
+            "@id": "urn:uuid:6ecda923-c47c-49eb-99f3-db2f09069926",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "6ecda923-c47c-49eb-99f3-db2f09069926",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Data collection related OverflowConditionDetected",
+            "cim:IdentifiedObject.name": "2.4.1",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Data collection related",
+            "cim:ReadingQualityType.subCategory": "OverflowConditionDetected",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.4.1"
+            }
+        },
+        {
+            "@id": "urn:uuid:e87d6a17-a394-4497-89b2-027c4b6df576",
+            "@type": "cim:ReadingQualityType",
+            "cim:IdentifiedObject.mRID": "e87d6a17-a394-4497-89b2-027c4b6df576",
+            "cim:IdentifiedObject.description": "Metering system (data collection) network Failed reasonability testing KnownMissingRead",
+            "cim:IdentifiedObject.name": "2.5.259",
+            "cim:ReadingQualityType.systemId": "Metering system (data collection) network",
+            "cim:ReadingQualityType.category": "Failed reasonability testing",
+            "cim:ReadingQualityType.subCategory": "KnownMissingRead",
+            "skos:exactMatch": {
+                "@id": "http://energy.referencedata.eu/ReadingQualityType/2.5.259"
+            }
+        }
+    ]
+}

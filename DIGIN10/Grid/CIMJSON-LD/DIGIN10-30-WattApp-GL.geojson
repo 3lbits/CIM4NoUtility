@@ -1,0 +1,229 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "geojson": "https://purl.org/geojson/vocab#",
+    "Feature": "geojson:Feature",
+    "FeatureCollection": "geojson:FeatureCollection",
+    "GeometryCollection": "geojson:GeometryCollection",
+    "LineString": "geojson:LineString",
+    "MultiLineString": "geojson:MultiLineString",
+    "MultiPoint": "geojson:MultiPoint",
+    "MultiPolygon": "geojson:MultiPolygon",
+    "Point": "geojson:Point",
+    "Polygon": "geojson:Polygon",
+    "bbox": {
+      "@container": "@list",
+      "@id": "geojson:bbox"
+    },
+    "coordinates": {
+      "@container": "@list",
+      "@id": "geojson:coordinates"
+    },
+    "features": {
+      "@container": "@set",
+      "@id": "geojson:features"
+    },
+    "geometry": "geojson:geometry",
+    "properties": "geojson:properties",
+    "type": "@type",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "cim": "http://ucaiug.org/ns/CIM#",
+    "nc": "http://entsoe.eu/ns/nc#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "type": "FeatureCollection",
+  "@id": "urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05",
+  "@type": "dcat:Dataset",
+  "prov:generatedAtTime": {
+    "@value": "2023-02-20T16:04:23Z",
+    "@type": "xsd:dateTime"
+  },
+  "dcterms:issued": {
+    "@value": "2023-02-21T08:08:00.000Z",
+    "@type": "xsd:date"
+  },
+  "dcterms:title": "DIGIN10-30-WattApp-GL",
+  "dcterms:description": [
+    {
+      "@value": "Geospartial GridCapacity MAS1",
+      "@language": "en"
+    },
+    {
+      "@value": "Stedsdata Nettkapasitet MAS1",
+      "@language": "no"
+    }
+  ],
+  "dcterms:publisher": {
+    "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+    "dcterms:title": "DIGIN"
+  },
+  "dcterms:temporal": {
+    "@type": "dcterms:PeriodOfTime",
+    "dcat:startDate": {
+      "@value": "2022-03-30T23:00:00Z",
+      "@type": "xsd:dateTime"
+    }
+  },
+  "dcterms:rights": "© 2023 Copyright",
+  "dcterms:rightsHolder": "DIGIN",
+  "dcterms:license": {
+    "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "dcterms:title": "CC BY-NC-SA 4.0"
+  },
+  "dcterms:accessRights": {
+    "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+    "dcterms:title": "PUBLIC"
+  },
+  "dcat:isVersionOf": {
+    "@id": "https://digin.no/Foundation/DIGIN10-30-WattApp_GL"
+  },
+  "dcat:keyword": "GL",
+  "dcterms:spatial": {
+    "@id": "https://diginenergi.no/DIGIN10/WattApp"
+  },
+  "dcterms:conformsTo": [
+    {
+      "@id": "http://digin.no/ns/CIM/GeoJSON/1.0"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "@id": "urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.229020984659712,
+              59.24698254345179
+            ],
+            [
+              10.18420614097019,
+              59.19982925336586
+            ],
+            [
+              10.142883363023742,
+              59.13888033657065
+            ],
+            [
+              10.202442484289662,
+              59.13758660552921
+            ],
+            [
+              10.276357875828012,
+              59.16126409167293
+            ],
+            [
+              10.310502518638259,
+              59.22922084872761
+            ],
+            [
+              10.229020984659712,
+              59.24698254345179
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545",
+        "@type": "cim:Feeder",
+        "cim:IdentifiedObject.mRID": "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545",
+        "cim:IdentifiedObject.description": [
+          {
+            "@value": "Sandefjord business and industry area",
+            "@language": "en"
+          },
+          {
+            "@value": "Sandefjord næring og industri område",
+            "@language": "no"
+          }
+        ],
+        "cim:IdentifiedObject.name": [
+          {
+            "@value": "Sandefjord_business_and_industry_area",
+            "@language": "en"
+          },
+          {
+            "@value": "Sandefjord_næring_og_industri_område",
+            "@language": "no"
+          }
+        ],
+        "nc:Feeder.CapacitySchedule": [
+          {
+            "nc:IdentifiedObject.name": [
+              {
+                "@value": "Sandefjord, increased capacity for business and industry",
+                "@language": "en"
+              },
+              {
+                "@value": "Sandefjord, økt kapasitet til næring og industri",
+                "@language": "no"
+              }
+            ],
+            "nc:IdentifiedObject.description": [
+              {
+                "@value": "There is currently little capacity for new business and industry along the E18 in Sandefjord. Increased demand for capacity therefore creates a need for increased transformer capacity in the area. Available capacity and timing will depend on demand and are not fixed.",
+                "@language": "en"
+              },
+              {
+                "@value": "Det er i dag liten kapasitet til ny næring og industri langs E18 i Sandefjord. Økt etterspørsel etter kapasitet gir derfor behov for økt transformatorkapasitet i området. Tilgjengelig kapasitet og tidspunkt vil være avhengig av behov og er ikke fastsatt.",
+                "@language": "no"
+              }
+            ],
+            "nc:BaseTimeSeries.interpolationKind": {
+              "@id": "nc:TimeSeriesInterpolationKind.previous"
+            },
+            "nc:BaseTimeSeries.kind": {
+              "@id": "nc:BaseTimeSeriesKind.forecast"
+            },
+            "nc:BaseTimeSeries.generatedAtTime": "2022-11-07T12:05:43.641Z",
+            "nc:BaseTimeSeries.percentile": "50",
+            "nc:BaseTimeSeries.method": [
+              {
+                "@value": "Power System Report",
+                "@language": "en"
+              },
+              {
+                "@value": "KraftSystemUtredning",
+                "@language": "no"
+              }
+            ],
+            "nc:CapacitySchedule.CapacityTimePoint": [
+              {
+                "nc:CapacityTimePoint.atTime": "2028-01-01T23:00:00.000Z",
+                "nc:CapacityTimePoint.maxP": {
+                  "cim:ActivePower.value": 40.0
+                },
+                "nc:CapacityTimePoint.minP": {
+                  "cim:ActivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.maxQ": {
+                  "cim:ReactivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.minQ": {
+                  "cim:ReactivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.maxAllocatedP": {
+                  "cim:ActivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.minAllocatedP": {
+                  "cim:ActivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.maxAllocatedQ": {
+                  "cim:ReactivePower.value": 0.0
+                },
+                "nc:CapacityTimePoint.minAllocatedQ": {
+                  "cim:ReactivePower.value": 0.0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

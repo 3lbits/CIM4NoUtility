@@ -1,0 +1,312 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:50ae854b-afb8-4d42-bd4b-e97f1ee1ca6f",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_SC",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Equipment Short-Circuit (SC) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_SC"
+    },
+    "dcat:keyword": "SC",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:_9d58e5bb-834c-4faa-928c-7da0bb1497d9",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_8dcf0a96-206b-4da2-814d-4030ac0dfaec",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_797fe5ce-1857-4bea-8a0f-728a4b4c30ed",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_f2ed5944-a394-4802-8ec9-936bc60e5bc4",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_81567f71-8233-4e19-8357-e75d35e89470",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_fe0a5228-5eb4-4008-9ee6-d22389f798e9",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_93efed67-8a75-487c-8e1d-0d31ee4a2fc3",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_b6bbea56-f530-4f7b-9a94-9b7fdeb58779",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_e0e00668-9e76-461f-b310-8c84afb9ffe6",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.076799999740563,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.018095573861056
+        },
+        {
+            "@id": "urn:uuid:_50e4056a-92e6-4bc2-b6e1-4d66f1624c38",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_70b19e4c-edb9-4957-885c-59b7a515724f",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_46bce40c-71c2-4d19-b63f-78a69c460b0e",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_43dbe66c-a342-44b0-b9cf-058c784cef1d",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_0103615e-f6cc-4cb8-a338-a7fb714cdfa2",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_919be6f3-be6b-449d-af3d-4d0a7a221ff5",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_30d15518-d0ac-4800-a5c1-da8593c790ed",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.076799999740563,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.018095573861056
+        },
+        {
+            "@id": "urn:uuid:_84329e8e-2efe-4870-82db-a0bf9a768bd2",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_ead7f7fd-d132-43b5-b561-1b0e65b0a562",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_3f90847f-9450-47aa-a2fa-714cc5353867",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_6f519536-eefe-452e-8294-c115bf21581d",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_446700b3-38fb-4cfe-aa71-11fdf6118a49",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.051199999827042,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.012063715907371
+        },
+        {
+            "@id": "urn:uuid:_320b9701-cae3-478e-a70b-03d1736ed4e3",
+            "@type": "cim:ACLineSegment",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.063999999783802,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 0.0,
+            "cim:ACLineSegment.x0": 0.015079644884214
+        },
+        {
+            "@id": "urn:uuid:_b8a334a5-2bcb-40e6-b6c2-db906441552d",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_e18cbee0-1a4f-4315-9108-39f317c67fd5",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_8cc7031f-def2-49b7-97a9-43d3c3c15789",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_13e2ba8c-0046-447a-a99f-4c7ec3b051b9",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_46c1c4fb-6a7a-4912-bd2e-4851b6276345",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_c060399a-96a1-4765-9ef8-c936ca08f8fe",
+            "@type": "cim:BusbarSection",
+            "cim:BusbarSection.ipMax": 0.0
+        },
+        {
+            "@id": "urn:uuid:_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a",
+            "@type": "cim:EquivalentInjection",
+            "cim:EquivalentInjection.r0": 1.267199996,
+            "cim:EquivalentInjection.r": 0.316799999,
+            "cim:EquivalentInjection.x0": 0.298576969,
+            "cim:EquivalentInjection.x": 0.074644242
+        }
+    ]
+}

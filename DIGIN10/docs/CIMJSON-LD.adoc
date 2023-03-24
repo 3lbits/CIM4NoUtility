@@ -1,0 +1,119 @@
+= CIMJSON-LD
+:sectnums:
+
+The following sections describe how conversion from CIMXML to CIMJSON-LD should be handled.
+
+== Datatype
+This section includes documentation of how to convert the following CIMXML datatypes to CIMJSON-LD:
+
+. Primitives (Float, Boolean, Decimal, String, etc.)
+. CIMDatatypes (ActivePower, RealEnergy, Resistance, etc.)
+. Compounds (TimeInterval, DateInterval, etc.)
+. Enumerators (Unit, Multiplier, etc.)
+
+=== Primitives
+The declaration of the primitives are covered by the JSON language and explained in https://json-schema.org/understanding-json-schema/reference/type.html[Type-specific keywords].
+
+==== Decimal
+In the cases where CIM defines decimals instead of float we are using string. Reason: As JSON does not support decimal and float is not precise enough, this is the best practice. 
+
+=== CIMDatatypes
+Multipliers and units are specified in the standard profile.
+
+=== Enumerators
+In CIMXML the url is used in enumerators, in JSON-LD we are just using the prefix.
+*Example:* +
+CIMXML: "http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue" + 
+JSON-LD: "cim:OperationalLimitDirectionKind.absoluteValue" +
+
+
+//----------------------------------------------
+
+== Header and dataset
+
+=== Convertion rule CIMXML -> CIMJSON-LD
+This should be a lossless transformation where some data are duplicated:
+
+--
+[cols="1,1,1,1", width=100%]
+[#tab:CIMXMLtoCIMJSON-LDHeaderConversion] 
+|===
+|*CIMXML* |*Operation* |*CIMJSON-LD* |*Note*
+|rdf:about	|Syntax	|@id	|
+
+|md:Model.created	|Semantic	|prov:generatedAtTime	|Attribute will be removed when better provenance are available. Shall represent when the instance file is created. Need to declare as DateTime.
+
+|md:Model.created	|Semantic	|dcterms:issued	|Represent when the dataset (graph) is created. Need to declare as Date.
+
+|md:Model.scenarioTime	|Semantic	|dcterms:temporal	|Need to declare as dcterms:PeriodOfTime and xsd:dateTime. For EQ, DY, GL, this would be an open interval.
+
+|md:Model.scenarioTime	|Semantic	|dcterms:temporalResolution	|Need to declare as Duration. Apply to SSH, TP and SV to state that the dataset include hourly values, "PT1H".
+
+|md:Model.description	|Semantic	|dcterms:description	|Shall support multiple language.
+
+|md:Model.modelingAuthoritySet	|Semantic	|dcat:isVersionOf	|Represent the abstract dataset.
+
+|md:Model.profile	|Semantic	|dcterms:conformsTo	|Needs to be declared as multiple.
+
+|md:Model.version	|Syntax	|dcat:version	|It relates to the version of the document and not the version of the mode/dataset. Needs to follow prov:generatedAtTime.
+
+|md:Model.DependentOn	|Semantic	|dcterms:references	|Needs to be declared as multiple. Should include the title for human readable.
+|===
+--
+
+
+=== Convertion rule CIMJSON-LD -> CIMXML 
+This is *not* a lossless transformation and it includes duplication.
+
+--
+[cols="1,1,1,1", width=100%]
+[#tab:CIMJSONtoCIMXMLHeaderConversion] 
+|===
+|*CIMXML* |*Operation* |*CIMJSON-LD* |*Note*
+|@id	|Syntax	|rdf:about	|
+
+|prov:generatedAtTime	|Syntax		| |
+
+|dcterms:issued	|Semantic	|md:Model.created	|Represent when the dataset (graph) is created.
+
+|dcterms:temporal - dcat:startDate	|Semantic	|md:Model.scenarioTime	|
+
+|dcterms:description	|Semantic	|md:Model.description	|Only "@language": "en" is converted.
+
+|dcat:isVersionOf	|Semantic	|md:Model.modelingAuthoritySet|
+
+|dcterms:conformsTo	|Semantic	|md:Model.profile	|
+
+|dcat:version	|Semantic	|md:Model.version |
+
+|dcterms:references	|Semantic	|md:Model.DependentOn	|Not possible to declare as a list
+
+|dcterms:title	|Syntax	| |	
+
+|dcterms:publisher	|Syntax	|	|Loses the name
+
+|dcterms:rights	|Syntax	||	
+
+|dcterms:rightsHolder	|Syntax	||	
+
+|dcterms:license	|Syntax		||
+
+|dcterms:accessRights	|Syntax	|	|Loses the name
+
+|dcat:keyword	|Syntax		||
+
+|dcterms:LocationPeriodOrJurisdiction	|Syntax	||
+
+|dcterms:temporalResolution	|Syntax		||Loss of declaration xsd:duration
+|===
+--
+
+=== Examples
+More examples can be found link:../Grid/CIMJSON-LD/DIGIN10-30-LV1_EQ.jsonld[here]
+
+
+
+//need to update link to correct repo once/if we upload the files.
+
+//----------------------------------------------
+

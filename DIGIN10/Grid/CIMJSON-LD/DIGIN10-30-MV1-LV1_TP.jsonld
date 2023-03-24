@@ -1,0 +1,2862 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1-LV1_TP",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) and Low Voltage 1 (LV1) Topology (TP) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        },
+        "dcat:endDate": {
+            "@value": "2022-03-31T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcat:temporalResolution": {
+        "@type": "xsd:duration",
+        "@value": "PT1H"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1-LV1_TP"
+    },
+    "dcat:keyword": "TP",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1-LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/Topology-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/Topology/5.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:_681a1e80-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1aea01d1-2f09-1a4d-a2b1-872e3f11457f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d33115d5-f70a-7543-818c-f15f9b7d4501",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_517ac677-7ac0-dd4d-ac94-a191b7c05b13",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_730d0140-2cfb-1046-a131-fe4022d80e95",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a2162-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a2169-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a215b-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a1e4b-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a1e53-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_457c0964-f107-4223-a3c3-92eff4b11f5c",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_15748f64-9c04-48c4-be7c-3f8b628f9520",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a93aa804-2baf-4bef-b283-766fe00a4e71",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5346a24c-57fa-4f68-a879-6400d46cb5bd",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a1e88-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4e8ec3b0-386c-43d4-8311-e98d8a8f565a",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_dd01dba2-04ba-46a6-9752-37010d7c7e45",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a2154-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a1e24-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa241-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_20d31521-c427-4640-9b7f-97d230607fa4",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_68fd81e3-9e30-6b4c-a373-84c6387d6780",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7de52109-cf23-6846-adf0-2e69ef1d6aac",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_39082cb0-8808-b047-893c-ba0503a458d6",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ab9b57dd-c5f7-49c1-95a1-56d1f650db21",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ecd42e0b-67a4-4ebe-911b-c3f3146e6bed",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa240-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ff2e9331-31f5-0247-ac4c-77a2bc179624",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a1e62-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c5889457-95dd-408e-ba1b-621d27d606c0",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_cc0fef15-9e1b-4b59-8ca2-0b002c6556e1",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_71f76f1e-c868-44c9-bcff-86f2e5eb3202",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8a6562a6-8eb8-49e3-92a1-155587726e3f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2a616b39-67cc-4a1a-abaf-2bf4b527e95f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f48c2263-2375-446c-8ee5-6fa8ef2825d9",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7a91b6ba-ac49-4486-99c9-027e2130059f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a2178-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b34-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d5b4c5ad-1762-8e43-9330-6ec8f7d97bce",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a21b3-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa245-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ec60b5b3-1ffc-f940-8ce5-140d04267667",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9bf03de1-7f35-4dfe-86aa-29dff75a6962",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa246-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a1d394c6-fe4a-4a1a-ba12-7148f80af5ca",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_570e408d-5441-4c27-8480-5ef76e636e89",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ec7523f4-1a9e-472b-a95d-a1d435f61388",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2504ac3f-4c17-4720-a21d-e9f225b510d4",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bbe326ff-1c66-452d-85d1-80204f25efff",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_76b4a441-e593-4da5-a3b0-b586eaa4e223",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_75e87fc0-107d-4555-8f1d-ec8f88211a11",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4aad58b1-6d97-4e4f-ba3c-1251700966e4",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ef273823-732b-426a-951f-d0173813d4d2",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2c05c827-3cc9-476e-9211-01ec54bcdeb9",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7b6e3bae-60cb-4a0d-afba-ba25fe060c34",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_87ec01a7-bbb3-497f-a497-6f3a9627cfe8",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa249-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7516eaac-9a58-4e11-b680-5c51172bc397",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_272725c5-c7cf-4f72-88fb-fea5b73fad97",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f8449f3f-e37e-4392-9cb0-366f378593c7",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa254-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_176d0737-9e72-456d-bb64-c430987bb331",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_94c9bbd7-3543-43c1-a158-7cb9cdd4ae4a",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bed5bfb9-b344-4590-9139-f9786847a70b",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2e1efef0-2493-41a1-9347-a7b82b533699",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_39b43067-3131-4502-a17d-bd207081cbca",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3c2a2de4-9c8f-4ca7-b0b7-7ecb97e0538f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa256-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f0b614f9-38c1-4850-b1a5-2759b8cf6353",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa257-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1447d25c-5977-43ec-8878-8ac210edda8f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_396f6446-4d2c-45dc-8a81-5ddfb22bedb5",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa250-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5ba4f34d-39c7-4713-b421-8cb74672d90e",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b58e75c8-e79f-4aa3-b10b-871db40c0f09",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_03af34d5-0687-4ac9-b531-f6acedd3ce1f",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f0c8dea3-a433-4fd8-9fb2-f69c6f1d8f5a",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0070949a-32c4-460d-8e40-c6b2cb0f62d8",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa25a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_acd3ba85-71e9-43d1-8a81-093dc2fda8b5",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa25b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_49583330-a500-44ed-96b8-9970119ec8b2",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f7f48e0d-74ee-4a53-80a7-dbb02e8dfe2b",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4501c2ef-d566-4004-9008-cc42b9b4a687",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8e754ae4-3b0b-5415-a552-e3e776e43ff4",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_cdb1d670-77ff-4b70-9335-f1a5b6c2ce69",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_94872c96-676c-453d-8231-a0b4064ac5a8",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa238-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ba789e86-4cb4-4e17-aef9-e39d95e1721d",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa258-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d64b7ace-fb94-4968-b976-d213b803c698",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_486f219e-c4dc-498d-ba6a-3c8c8c46cdcf",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_261ac434-edce-4b15-a8d2-a18d03c3cee3",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e0556fab-2c55-4a3c-a68e-7b1c97221a74",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa251-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9b327c9f-86c3-41ee-b833-7150048a0c15",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa252-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_72550aa6-89f4-40cc-b3f9-8d2b0699fd32",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_6461597d-bdcf-428e-aa69-221cd2760fa5",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7a0a4af1-bfe3-4177-9ffc-4b7537fbd4e4",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e00c3050-afa4-47e7-8a4a-c061051ce9d4",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_df241dc7-8ae0-4a0c-aadb-69d2fea29d4c",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_12dc1e8c-e50d-4029-9aeb-8b664db702e6",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_25aa69e7-0916-427f-9d87-d8690d39358b",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_832d8fe2-00f4-4f0b-a948-883088e0f5f2",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c9f68b3b-2f5a-459b-8de2-c87ebeffa4ef",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_681a1e2b-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b20e4b70-f546-48b1-82e8-66b138fd7ae2",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_cb837454-5c66-d341-be63-d0c044e5fd3c",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_45fed034-857e-48df-b6ad-45d82eec564d",
+            "@type": "cim:ConnectivityNode",
+            "cim:ConnectivityNode.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b81-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_25581747-6599-46ae-a8ac-62a0161045aa",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa245-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_19be92de-7307-074e-af23-2acb6521214a",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b9a-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ffb2f7d9-b099-4ecb-be93-9071b755ceab",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f6e8c471-b1eb-467b-af68-78c6aa25771b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa241-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_48955729-dbff-455b-94bd-3b8bb2c1537c",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33be5-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bb7-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33ba8-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b4e0a331-3de4-4ac8-802b-a8eb031ce568",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_eaa32378-2082-4b76-92df-09fa5f8b8b51",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa246-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f3b95f0e-d18e-4d14-a61a-79c020ac8c30",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_86c847a4-9732-9844-b480-c53b70f6ceec",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0a936e9d-6e05-6547-af77-18e442db0913",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0523e10e-4e02-48c6-94dd-ef1938932497",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_86def089-155d-984b-a28f-2d4835cc7dfe",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8266f01c-2b3d-4111-957e-b871f71f0fad",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_45fbf47e-a9b2-4131-8851-afceeecf0ec9",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0e748f98-11fe-4783-9501-0e673cab8f0d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e190ae57-ed18-f340-90c2-ddbbfe168ed8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7d09271d-7826-442e-bc57-d1fa1955495e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bf5-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_6cc409d6-980c-481b-8b67-127ecf5dc19c",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_87f8c183-5711-4941-9eb4-c6b84d6a80b9",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa240-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1089c4dd-7fa5-4b0b-a92c-1680375ae16f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_297b7aa5-fb24-458f-8680-c1052e42a1f9",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4e7dd4ef-600d-4ada-9cf4-115877382adc",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8be67710-8728-3546-b2be-87f8fa2ee604",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_342b33ad-8621-4065-8b98-d7497369f93b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0eb374ed-073c-481e-bc88-1be81df7070b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_991c13e2-277f-4d4b-9c53-d6d58b1008c0",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_fa0a4d49-abad-4371-a75e-3051034a834a",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_54d22a2e-c361-45e2-94cd-08a2573b3c4e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5781ec87-90e4-4f57-8651-6b34b8f3eb4d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_223dbb61-ee70-474e-8e58-adc96aa4458d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33c01-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_47144173-d517-44a1-b149-91017d75db78",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b55-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1c3ecb82-a323-4874-bdf0-95c84c12113d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bf1-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_05548bc6-70a0-44b7-8bac-20f745974e43",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b395d763-b35d-1e45-85d8-05da6a0bb6ab",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2ce9db0d-914a-4beb-96ae-76dbb1d47a49",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1c9ff3c5-59c8-4277-8c0a-80babe98e3c3",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3641e5de-84eb-4f21-9947-e1bef550a7bc",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_352223e5-366d-4556-92dc-2ad6ab9b0c7f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9fa38ed3-62bd-a842-9af7-9e51bbe67b89",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_323cb814-3159-4112-9290-3dfe87439ee1",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8aaadbaa-c554-403b-87ff-0a788ab24c82",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3be9726b-a9cf-430e-ba62-96ad7c43a73f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a56293ef-1f47-4837-a124-4ce3f3b75c9f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_95b7ad7d-6b88-4dce-b726-feb157304bd8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ef17168b-d7ee-7548-9822-e10bbbcec793",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b5a-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bec25a71-68ca-496f-ad8a-edf43f6e6982",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_fa9b4957-62cd-4146-8483-a9620bf5ba3f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b58-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bfd-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa246-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1a4d9840-26f0-452a-afe4-d74ba8829451",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_240e7e1c-2d1b-4637-9721-c3642adea4f7",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b82-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7ca23509-fcc4-4653-a7db-334e1e113581",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa240-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c2797e60-6614-4c5f-9090-ed8cef7b15b5",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5b2bb253-421b-b14e-9d6c-ca972e830e4a",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9796f69a-d718-43c7-91b6-980cd96a1c50",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bce-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d6520dc7-c5b2-4ac5-bdba-04d02ec87472",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33be6-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bb8-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33ba9-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33b7f-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_db529221-814c-4f40-ab73-a7084d6308b7",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_21699bda-a520-45ea-b011-21a56bf567d7",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0851452b-3751-0843-b8e3-74f14543907b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_71d501b8-9459-40b1-abe6-d18563eed82f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ccbe9368-07f4-184b-b3e5-9af9b1a08592",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f8846bea-b1a3-4b2c-8da5-7fa0231079f6",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bf7-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_cb3849f8-60a6-406b-8567-39293b5a1f76",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b9bbb321-d34a-c142-a321-b4fa3ac440cb",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e36ac936-4891-4871-b3b5-604e0d163922",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_60032c2a-2dc2-41d1-9530-497a7474f22b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_83bf6035-97b6-4433-b5f9-bb455444a983",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a4c98c27-2025-413a-b0e3-152d1cdf425d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d1b627f7-1429-4a78-845a-17e9a7068a4f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5e488684-a146-4775-8cd8-5dbbe9da8034",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5b6cb662-bbaf-49aa-9c9e-b86d268a8518",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_deb8bef1-6ddc-49fe-bf8f-a2252b2f5cc4",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_78148af7-4690-43b1-ab25-80913fb55a75",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_34c1e6c6-72ce-4d1c-904b-d11a63c3490b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bfb-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bf3-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa23b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a42ffc08-46b4-4e3d-910c-248ca5d3a382",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d87b4358-2aaf-46a0-bf1e-e63edc2352a8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3bbcc64f-d1ea-42d9-827a-77f46787ea95",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e72f44bf-2c81-4329-a902-233eec3a9a8b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9077e7e3-9b90-9e46-a24c-30c28317e7e4",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_fc3c9e4a-a573-4f55-ab9e-18f4c0f3a3d2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b581556c-f18b-4120-bc90-a89ef37448e9",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d2a2232a-024f-467c-b698-2b16ddf2547a",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d6d1a951-08c8-468b-b9b3-011774b9a769",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0766474a-94ad-40b5-8bb5-db0b7fcd04ff",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_802d9d22-8304-5444-ac23-6f071fb84b77",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_92d33bff-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa245-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_78c5385c-be34-4f4f-a81a-225decba8227",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a9b61cc1-6066-49e5-bfbc-8ab93df5378f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_be24dc11-bfeb-4879-b0ff-18a490500393",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_aa779c1e-3231-4a30-9c97-2e454df8fd2e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c09dcf2f-1c42-4327-b781-a60f03da1bdf",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9b9eb222-f178-41bd-b982-1a6bbc962633",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_01e61a02-6a5c-4870-8908-0993f903e993",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_aedd4519-26d5-49a7-afdc-4429e9fa792b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3a69b15f-29f9-45a1-b1e5-abd6e87679ca",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f9c541fc-963c-4261-b7be-635e26aab390",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7a27297f-5740-4fad-b0f5-70615a91b8c2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_36f15195-4403-4b23-889f-ef5f31ea0bb7",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c6c5b1ac-8cc3-46a5-9b10-66097a1ef1c8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_6888a1d9-6f42-419f-b2df-7b6f0e031db4",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5df405a4-3126-4ea8-a022-32d7756bd141",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bd42c91e-8867-4d92-ba9d-491240b602af",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7a1e79c9-c114-4868-a557-1dccf242477d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa238-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1c7f30d2-4876-4033-9637-90ce25ea2fe7",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa238-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_6a3d76f7-276c-44d5-b883-89240b3b2b2f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_50abb33d-e94f-4e74-b775-d252f82d1310",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c1de217c-a40b-4079-9fde-3d7bd30a934b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_06ac43a8-dee2-4c3c-bf96-4d87defe94db",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa258-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b4049b1a-ac26-43bc-a59f-bd3b4bbd666e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0da1c730-0958-4dac-9a8c-c8d7ba4b43ce",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b6fde3bb-8fb7-4b19-9e15-32597c864385",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_532b1ea0-074d-4ab0-b582-b583b3289f03",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_38e1c640-0a06-4538-b521-953f48cefea8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa251-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7ab75f17-adf9-4e46-b2c2-8c361e647e21",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa252-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ca7d345e-cf27-4f24-941d-c0ac34b2fdb3",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_02d082db-3c6d-458a-93d2-0d7ace7d4ec8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_40381c35-9d93-41dc-b504-9f7fa07d36fa",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e1048b55-b799-45b5-aa60-e452c0784a5d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bfe5eea8-b897-49ec-afc9-bbec308f93be",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1e4f0009-85b7-4087-85a8-bf7c21f01e47",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_fc57ebb1-8059-4dd7-9811-2129b912dd45",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa249-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2c0a6657-c218-4e53-8b4f-97eca6cabf5d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa249-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7fe6afe8-8c76-4da5-93ff-ef18a1ea5a05",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0802b6e1-d0ec-4763-8ef3-3daa8491db3d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_81cdadda-ee8c-4dfd-946a-0635624ec15b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_31333403-d015-4f06-964e-9e17a61c5a8b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_143382f7-7fd8-4191-bc72-2637805f2232",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_536ea11f-ef95-4aed-9ed3-38e25507a31e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_229bbca7-85c5-4477-a17a-a740a659f4ba",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_597e3d22-006a-42fd-98ab-2d770c3de3c3",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4b48981e-04b8-497d-bd12-aebaa0711e51",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_63008f90-ffd1-437c-8325-dba7f0f6d0e0",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_75cd9cd7-b796-4f22-b6e3-8b6f7c5e37af",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9f6c9ac5-f891-479b-b127-d032bd91e130",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24c-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8a265428-9d34-49fb-8c38-925857746227",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7f48263a-770e-40c7-ad21-c71627cdab40",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1f6d65dc-0498-4e9f-beda-0e36a667bb43",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_683d152b-dcf1-4366-80fd-76f2b6cd9ee3",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_fbf03686-b993-49c2-93c9-65104176a8f2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3319d991-dcb5-46ce-947c-a99d45f63aab",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24d-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0215c1f8-fc1e-445f-a558-92bf98969e41",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ed91b195-2039-4900-a268-a8755d30cf30",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f31b5fec-4481-49d9-8848-fe49584f5ffe",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3d6ea092-8ae6-42e3-babf-44a147bcb208",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_aa1b0b87-0d63-46e2-8111-9fbb6ea816a2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24e-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bf39bb12-27ee-4d10-8b12-e5cf9df9b716",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e2be31ec-d1e5-406b-9599-86aa02207bed",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e1a6c356-813b-4311-8986-898231fa1aa1",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bf2c7b69-3bea-4fcc-958d-7b3c48a7a857",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e8b1f571-0501-4698-ad19-640b1185dc7d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_52ed6ec4-be0a-408c-ad0a-7bd5373a146c",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_68157d46-4a7e-418f-bafe-66e20711a4a9",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_b2c87180-cc2e-495b-b118-f136e5bccf1d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_62523238-53d4-4711-8a2a-b41035630898",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa250-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_55e2a0a4-56bf-40c1-83b2-d325f5189991",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_283fd7fb-6e9d-412a-a4f5-fdabbca1a570",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_01ec3391-39cc-44e6-805e-ac0f0edae6c0",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_48e064d1-57cf-4fbe-bc6b-1aa924545e7a",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa251-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_aea98b32-d6db-4a7e-a95a-ada4f44c8198",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2bc1cd52-2a39-4aab-ade9-aa288026e247",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_98004ef5-e5ce-4265-ab1f-61f09e071cfa",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0a678342-9812-43a4-96f3-5854378d5d78",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_eb318191-ad86-4557-bda4-ec5bb2a8bf6c",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa252-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8e8a13c4-ae71-48d8-84b7-dceb0d7672cb",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_c5bc4e4d-bac4-4345-910f-15a6790278d2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_3511146a-8295-4ff1-a93f-c55041b56074",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_dac94d79-480e-4e2c-80be-38d1cd71ba4d",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7b16f278-456f-4dc8-a3e5-3187f673f7c3",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_147daae5-324b-400e-bae3-2834a755d490",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8096380f-f98c-4e4e-aa15-1866edf2a519",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_bb5f83d8-1fea-4335-8377-e2551ad64ee8",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_27b62e2b-b8aa-4df1-b740-8edbfbf1bc8e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a08c75e1-e729-43d9-8f8a-f3aef1c64328",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4ae7f58f-6292-4b46-967f-3220caf4bcfb",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa254-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1eab6fb9-bcaf-43ac-9d4e-59d5e6c584c9",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa254-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_10b9392c-2705-442f-9caa-92befb7f2a59",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_e4308159-eace-4525-ab88-9165ffcc4c56",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_62eb6150-d16f-456a-9288-178f36391480",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_2d89f58a-8b63-4926-afab-43dd40806497",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_907ec852-2025-45ba-8c23-74844b7181f1",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a9b32dfb-6dfe-4d4c-b563-2e29614b4319",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_5212d1df-9427-4202-9564-8aac1111fbc5",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_8d1b7879-ba70-459c-a9ab-f5cc16245e92",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_dbd260b8-a9a6-4e57-b3c4-4e37faf970ad",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa258-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7d68dda0-34ab-4d1f-adbe-59833a2e2d89",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_a1efb1ed-3ba9-4461-a9f4-0b80b8298bbe",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_53075a70-fdf6-4201-ab30-a5622568f240",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9e92ebe1-8891-4d33-b03d-8a87bb1fb68a",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa256-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_ec4561fc-115e-4fc0-903b-362c076c245e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa256-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_0a57245c-827a-447d-b68a-18cbbd2b7d7b",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d4af13ff-7321-4031-9d3a-5d609e7a716f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_54a2bbab-bf15-4b63-afc6-ecfbd135d058",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_db6aa9ff-9de6-4356-89be-b8e889ad6c76",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_cf300299-c004-43c6-88bf-213eef453fbb",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa257-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_1a49c2a1-157b-48d8-b9bc-c730e1bc4f0c",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa257-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_eda5e7ec-946f-46db-8ba3-5b7dcf8ab677",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_87f29ed1-815c-41f4-b6ea-1d379f3b4b79",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_57b5a4b0-ef47-49cf-bd43-4b3b91fcf621",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_762fe0b5-b721-4b03-be6a-4cf2ebb68c28",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa250-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_6cd14a4d-28a7-43b2-aab8-47f19a4ff074",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_4ff08b75-a1c0-4efb-a6cf-e6007d46fbac",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d406735a-4c44-45ef-a189-e050216e1183",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_d4141353-a4b9-4b70-8aad-a9206b76b35c",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa24a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_9e6f9c70-b0ad-48c6-9622-8956105b03a6",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_f2c474df-1fdf-4d28-bfde-7a64bf08fac2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_95c67764-d60f-4cda-87bb-3844490986e4",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_79da072a-4f5a-4985-b4e0-9e9d6fe36de0",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7a3181a7-9e88-457f-b242-8042d802cc5f",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_649f6e2d-c92a-48ef-bae8-db3e945ce62e",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_15e427b1-b3c8-4599-a093-eef5ddda81c2",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_7be4341d-b51c-41f9-a174-0166467e4e56",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa25a-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_cd2d0841-1edd-4eab-a4dd-3261bc5f7e34",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:_661cab41-0d32-4b9f-b33e-f707c4904c39",
+            "@type": "cim:Terminal",
+            "cim:Terminal.TopologicalNode": {
+                "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa237-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ARENDAL 132A",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa236-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ARENDAL CN 012",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa23d-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE 023A",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:830622e6-d259-4526-b14e-122d94a622a4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa23a-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa23a-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 003",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa23b-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa23b-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 004",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:830622e6-d259-4526-b14e-122d94a622a4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa23e-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa23e-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 014",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa239-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 016",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa23c-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa23c-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 018",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa23f-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa23f-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 019",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa240-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa240-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "ENGENE CN 021",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:830622e6-d259-4526-b14e-122d94a622a4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa242-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa242-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "FROLAND CN 011",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa245-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa245-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "NEDENES CN 003",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa244-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa244-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "NEDENES CN 004",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa246-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa246-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "NEDENES CN 005",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa24c-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa24c-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN13",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d87764a9-3363-4342-908f-d96f8e7ef71d"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa24d-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa24d-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN14",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d87764a9-3363-4342-908f-d96f8e7ef71d"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa24e-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa24e-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN15",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d87764a9-3363-4342-908f-d96f8e7ef71d"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa249-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa249-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN2",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:91ef68b3-8878-47a4-b24f-66f42bb459ba"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa254-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa254-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN22",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:277ce47c-fa5b-438d-9f82-346c887b57fd"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa256-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa256-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN28",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:8da6d670-4607-4432-abce-49614b85fd8e"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa257-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa257-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN29",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:8da6d670-4607-4432-abce-49614b85fd8e"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa250-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa250-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN30",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:791059a4-3f6e-4242-a478-1fbbf1abc328"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa243-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN31",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa25a-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa25a-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN35",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa25b-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa25b-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN36",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa238-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa238-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN41",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:bb017e3b-c1e1-463c-b719-fe73df802624"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa258-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa258-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN42",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:8da6d670-4607-4432-abce-49614b85fd8e"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa248-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa248-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN43",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:91ef68b3-8878-47a4-b24f-66f42bb459ba"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa24b-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa24b-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN44",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d87764a9-3363-4342-908f-d96f8e7ef71d"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa24f-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa24f-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN45",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:791059a4-3f6e-4242-a478-1fbbf1abc328"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa251-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa251-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN46",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:791059a4-3f6e-4242-a478-1fbbf1abc328"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa252-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa252-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN47",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:791059a4-3f6e-4242-a478-1fbbf1abc328"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa253-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa253-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN48",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:277ce47c-fa5b-438d-9f82-346c887b57fd"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa255-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN49",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:8da6d670-4607-4432-abce-49614b85fd8e"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa24a-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa24a-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN5",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:91ef68b3-8878-47a4-b24f-66f42bb459ba"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa259-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa259-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN50",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:d82114b7-09c0-4cb4-b9c8-19a5fdaf991a"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa25c-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa25c-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "TELEMA2 04 CN51",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:bb017e3b-c1e1-463c-b719-fe73df802624"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa247-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "T_ENGENE CN 001",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e3e-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa241-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa241-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "T_ENGENE CN 002",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:734aa235-9549-11ec-b226-48ba4eadba68",
+            "@type": "cim:TopologicalNode",
+            "cim:IdentifiedObject.mRID": "734aa235-9549-11ec-b226-48ba4eadba68",
+            "cim:IdentifiedObject.name": "XARE1_XARE2 CN",
+            "cim:TopologicalNode.BaseVoltage": {
+                "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:TopologicalNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3"
+            }
+        }
+    ]
+}

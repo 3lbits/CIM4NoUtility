@@ -1,0 +1,155 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-10-28T13:37:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_AS",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 Low Voltage 1 (LV1) Asset Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-10-28T13:37:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_AS"
+    },
+    "dcat:keyword": "AS",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/Asset"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/Asset/2/0"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:6270b5e8-b307-427d-82c2-5605950145e3",
+            "@type": "cim:Asset",
+            "cim:IdentifiedObject.mRID": "6270b5e8-b307-427d-82c2-5605950145e3",
+            "cim:IdentifiedObject.description": "400V Telemarkstien 2 Asset 1 ACLineSegment 1",
+            "cim:IdentifiedObject.name": "04 TELEMA2 Asset1 ACLS1",
+            "cim:Asset.baselineCondition": "New",
+            "cim:Asset.baselineLossOfLife": 0.0,
+            "cim:Asset.critical": true,
+            "cim:Asset.lotNumber": "LOT # B-01580609",
+            "cim:Asset.position": "inGround",
+            "cim:Asset.purchasePrice": "400.00",
+            "cim:Asset.serialNumber": "8DuSTPRv",
+            "cim:Asset.type": "UnderGroundCable",
+            "cim:Asset.utcNumber": "10000000000001",
+            "cim:Asset.AssetInfo": {
+                "@id": "urn:uuid:d25f35ca-69fb-4c06-905b-67ec532e5f14"
+            },
+            "cim:Asset.PowerSystemResources": {
+                "@id": "urn:uuid:9d58e5bb-834c-4faa-928c-7da0bb1497d9"
+            },
+            "cim:Asset.inUseState": {
+                "@id": "cim:InUseStateKind.inUse"
+            },
+            "cim:Asset.kind": {
+                "@id": "cim:AssetKind.other"
+            },
+            "cim:Asset.lifecycleState": {
+                "@id": "cim:AssetLifeCycleStateKind.received"
+            }
+        },
+        {
+            "@id": "urn:uuid:c03f6706-21e6-4034-ab48-781c438af5a2",
+            "@type": "cim:Asset",
+            "cim:IdentifiedObject.mRID": "c03f6706-21e6-4034-ab48-781c438af5a2",
+            "cim:IdentifiedObject.description": "Disruptive Technologies temperature sensor 1 Asset 2",
+            "cim:IdentifiedObject.name": "DisrTechTempSensor1 Asset2",
+            "cim:Asset.baselineCondition": "New",
+            "cim:Asset.baselineLossOfLife": 0.0,
+            "cim:Asset.critical": false,
+            "cim:Asset.lotNumber": "LOT # B-01580608",
+            "cim:Asset.position": "inGround",
+            "cim:Asset.purchasePrice": "10.00",
+            "cim:Asset.serialNumber": "8DuSTPRs",
+            "cim:Asset.type": "DisrTechTemperatrueSensor",
+            "cim:Asset.utcNumber": "10000000000002",
+            "cim:Asset.PowerSystemResources": {
+                "@id": "urn:uuid:00160296-775f-407a-8d67-c9a5d610715a"
+            },
+            "cim:Asset.inUseState": {
+                "@id": "cim:InUseStateKind.inUse"
+            },
+            "cim:Asset.kind": {
+                "@id": "cim:AssetKind.other"
+            },
+            "cim:Asset.lifecycleState": {
+                "@id": "cim:AssetLifeCycleStateKind.received"
+            }
+        },
+        {
+            "@id": "urn:uuid:58236274-f2dc-467b-90df-466007786b49",
+            "@type": "cim:Meter",
+            "cim:IdentifiedObject.mRID": "58236274-f2dc-467b-90df-466007786b49",
+            "cim:IdentifiedObject.description": "Nedenes 400 Volt Meter 2",
+            "cim:IdentifiedObject.name": "NEDENES 04 M2",
+            "cim:Asset.baselineCondition": "New",
+            "cim:Asset.baselineLossOfLife": 0.0,
+            "cim:Asset.critical": true,
+            "cim:Asset.lotNumber": "LOT # B-01280609",
+            "cim:Asset.position": "inHouse",
+            "cim:Asset.purchasePrice": "500.00",
+            "cim:Asset.serialNumber": "7359990000000001",
+            "cim:Asset.type": "SmartMeter",
+            "cim:Asset.utcNumber": "10000001000001",
+            "cim:EndDevice.amrSystem": "AMI",
+            "cim:EndDevice.installCode": "7359990000000001",
+            "cim:EndDevice.isPan": false,
+            "cim:EndDevice.isSmartInverter": true,
+            "cim:EndDevice.isVirtual": false,
+            "cim:EndDevice.timeZoneOffset": 1.0,
+            "cim:Meter.connectionCategory": null,
+            "cim:Meter.formNumber": null,
+            "cim:Asset.inUseState": {
+                "@id": "cim:InUseStateKind.inUse"
+            },
+            "cim:Asset.kind": {
+                "@id": "cim:AssetKind.other"
+            },
+            "cim:Asset.lifecycleState": {
+                "@id": "cim:AssetLifeCycleStateKind.received"
+            }
+        }
+    ]
+}

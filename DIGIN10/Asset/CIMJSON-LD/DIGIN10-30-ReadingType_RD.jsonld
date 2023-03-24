@@ -1,0 +1,1980 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#"
+    },
+    "@id": "urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-02-18T00:21:43Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-ReadingType_RD",
+    "dcterms:description": [
+        {
+            "@value": "Meter Reading Types Reference data (RD)",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-ReadingType_RD"
+    },
+    "dcat:keyword": "RD",
+    "dcterms:spatial": {
+        "@id": "\"http://energy.referencedata.eu/ReadingType\""
+    },
+    "@graph": [
+        {
+            "@id": "urn:uuid:c6554d99-d8d3-49db-abc6-694cec37ae10",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c6554d99-d8d3-49db-abc6-694cec37ae10",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData forward electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            },
+            "cim:ReadingType.measuringPeriod": {
+                "@id": "cim:MacroPeriodKind.sixtyMinute"
+            },
+            "cim:ReadingType.accumulation": {
+                "@id": "cim:AccumulationKind.deltaData"
+            },
+            "cim:ReadingType.flowDirection": {
+                "@id": "cim:FlowDirectionKind.forward"
+            },
+            "cim:ReadingType.multiplier": {
+                "@id": "cim:UnitMultiplier.k"
+            },
+            "cim:ReadingType.unit": {
+                "@id": "cim:UnitSymbol.Wh"
+            }
+        },
+        {
+            "@id": "urn:uuid:f89aee25-0a13-4dbd-afc7-8584c66b6317",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f89aee25-0a13-4dbd-afc7-8584c66b6317",
+            "cim:IdentifiedObject.description": "forward electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            },
+            "cim:ReadingType.flowDirection": {
+                "@id": "cim:FlowDirectionKind.forward"
+            },
+            "cim:ReadingType.multiplier": {
+                "@id": "cim:UnitMultiplier.k"
+            },
+            "cim:ReadingType.unit": {
+                "@id": "cim:UnitSymbol.Wh"
+            },
+            "cim:ReadingType.currency": {
+                "@id": "cim:UnitSymbol.Wh"
+            }
+        },
+        {
+            "@id": "urn:uuid:a0f5330e-1fcf-4df3-a001-ef9578ae318a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a0f5330e-1fcf-4df3-a001-ef9578ae318a",
+            "cim:IdentifiedObject.description": "average tenMinute summation electricitySecondaryMetered voltage phaseA (V)",
+            "cim:IdentifiedObject.name": "0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+            },
+            "cim:ReadingType.aggregate": {
+                "@id": "cim:AggregateKind.average"
+            },
+            "cim:ReadingType.measuringPeriod": {
+                "@id": "cim:MeasurementKind.tenMinute"
+            },
+            "cim:ReadingType.accumulation": {
+                "@id": "cim:AccumulationKind.summation"
+            },
+            "cim:ReadingType.commodity": {
+                "@id": "cim:CommodityKind.electricitySecondaryMetered"
+            },
+            "cim:ReadingType.measurementKind": {
+                "@id": "cim:MeasurementKind.voltage"
+            },
+            "cim:ReadingType.phases": {
+                "@id": "cim:PhaseCode.phaseA"
+            },
+            "cim:ReadingType.unit": {
+                "@id": "cim:UnitSymbol.V"
+            }
+        },
+        {
+            "@id": "urn:uuid:86bb43dd-add2-4a44-b5aa-59b0a02b9297",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "86bb43dd-add2-4a44-b5aa-59b0a02b9297",
+            "cim:IdentifiedObject.description": "indicating electricitySecondaryMetered current phaseA (A)",
+            "cim:IdentifiedObject.name": "0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0"
+            },
+            "cim:ReadingType.accumulation": {
+                "@id": "cim:AccumulationKind.indicating"
+            },
+            "cim:ReadingType.commodity": {
+                "@id": "cim:CommodityKind.electricitySecondaryMetered"
+            },
+            "cim:ReadingType.measurementKind": {
+                "@id": "cim:MeasurementKind.current"
+            },
+            "cim:ReadingType.phases": {
+                "@id": "cim:PhaseCode.phaseA"
+            },
+            "cim:ReadingType.unit": {
+                "@id": "cim:UnitSymbol.A"
+            }
+        },
+        {
+            "@id": "urn:uuid:de1cd5ff-6810-42c1-af36-5b519e09042c",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "de1cd5ff-6810-42c1-af36-5b519e09042c",
+            "cim:IdentifiedObject.description": "indicating electricitySecondaryMetered voltage phaseA (V)",
+            "cim:IdentifiedObject.name": "0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+            },
+            "cim:ReadingType.accumulation": {
+                "@id": "cim:AccumulationKind.indicating"
+            },
+            "cim:ReadingType.commodity": {
+                "@id": "cim:CommodityKind.electricitySecondaryMetered"
+            },
+            "cim:ReadingType.measurementKind": {
+                "@id": "cim:MeasurementKind.voltage"
+            },
+            "cim:ReadingType.phases": {
+                "@id": "cim:PhaseCode.phaseA"
+            },
+            "cim:ReadingType.unit": {
+                "@id": "cim:UnitSymbol.V"
+            }
+        },
+        {
+            "@id": "urn:uuid:7d11e2a7-5149-4112-9170-a64d85d34cbb",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "7d11e2a7-5149-4112-9170-a64d85d34cbb",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity forward electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:bf55fb09-e5e8-427b-a989-351a04a81325",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "bf55fb09-e5e8-427b-a989-351a04a81325",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity reverse electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:7fee985b-aa1b-46fd-b343-debeeb803f16",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "7fee985b-aa1b-46fd-b343-debeeb803f16",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity forward electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e3b5a84a-e8f3-4c38-a379-31c942642df2",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e3b5a84a-e8f3-4c38-a379-31c942642df2",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity reverse electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2211f4ad-479f-4942-a0bb-34d0e88ea661",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "2211f4ad-479f-4942-a0bb-34d0e88ea661",
+            "cim:IdentifiedObject.description": "bulkQuantity reverse electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.0.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3a4cda70-cf94-4290-a35f-058176555109",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3a4cda70-cf94-4290-a35f-058176555109",
+            "cim:IdentifiedObject.description": "bulkQuantity forward electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.0.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2211f4ad-479f-4942-a0bb-34d0e88ea661",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "2211f4ad-479f-4942-a0bb-34d0e88ea661",
+            "cim:IdentifiedObject.description": "bulkQuantity reverse electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.0.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3a4cda70-cf94-4290-a35f-058176555109",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3a4cda70-cf94-4290-a35f-058176555109",
+            "cim:IdentifiedObject.description": "bulkQuantity forward electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.0.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:00e7434f-fde8-472f-b495-4eb3b01aad9e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "00e7434f-fde8-472f-b495-4eb3b01aad9e",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity forward electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:657970de-551c-4661-8920-cd3c0a1258cc",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "657970de-551c-4661-8920-cd3c0a1258cc",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity reverse electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f099b97e-f1f5-4f40-be08-b0ac6dd2fe2e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f099b97e-f1f5-4f40-be08-b0ac6dd2fe2e",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity forward electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:27c70108-b50d-4e4c-9cec-ea8eb2eb7d2d",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "27c70108-b50d-4e4c-9cec-ea8eb2eb7d2d",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity reverse electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:be44e143-4b7b-474c-b714-b4b1065eb9a5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "be44e143-4b7b-474c-b714-b4b1065eb9a5",
+            "cim:IdentifiedObject.description": "minimum indicating electricitySecondaryMetered voltageRMS phaseA (V)",
+            "cim:IdentifiedObject.name": "0.9.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e175a706-ccd1-44e9-942c-7050c28d3fcf",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e175a706-ccd1-44e9-942c-7050c28d3fcf",
+            "cim:IdentifiedObject.description": "average indicating electricitySecondaryMetered voltageRMS phaseA (V)",
+            "cim:IdentifiedObject.name": "0.2.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3a66f5a2-f960-4e36-98e8-aacf0dab3528",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3a66f5a2-f960-4e36-98e8-aacf0dab3528",
+            "cim:IdentifiedObject.description": "maximum indicating electricitySecondaryMetered voltageRMS phaseA (V)",
+            "cim:IdentifiedObject.name": "0.8.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:daafac49-6328-4107-b331-668e98c214ba",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "daafac49-6328-4107-b331-668e98c214ba",
+            "cim:IdentifiedObject.description": "minimum indicating electricitySecondaryMetered voltageRMS phaseB (V)",
+            "cim:IdentifiedObject.name": "0.9.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:7595ac48-196d-4a65-9b9e-91604f940327",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "7595ac48-196d-4a65-9b9e-91604f940327",
+            "cim:IdentifiedObject.description": "average indicating electricitySecondaryMetered voltageRMS phaseB (V)",
+            "cim:IdentifiedObject.name": "0.2.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6542f83b-8944-48ce-8353-a36111fb67ea",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6542f83b-8944-48ce-8353-a36111fb67ea",
+            "cim:IdentifiedObject.description": "maximum indicating electricitySecondaryMetered voltageRMS phaseB (V)",
+            "cim:IdentifiedObject.name": "0.8.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.0.6.0.1.54.0.0.0.0.0.0.0.64.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:b0ad0f27-ed57-48aa-8f1b-e8abac9d5850",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "b0ad0f27-ed57-48aa-8f1b-e8abac9d5850",
+            "cim:IdentifiedObject.description": "minimum indicating electricitySecondaryMetered voltageRMS phaseC (V)",
+            "cim:IdentifiedObject.name": "0.9.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:dee0ee4f-5932-4f9b-a017-635181f412fd",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "dee0ee4f-5932-4f9b-a017-635181f412fd",
+            "cim:IdentifiedObject.description": "average indicating electricitySecondaryMetered voltageRMS phaseC (V)",
+            "cim:IdentifiedObject.name": "0.2.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c10b558a-ec40-4448-9e95-02b46578f0e7",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c10b558a-ec40-4448-9e95-02b46578f0e7",
+            "cim:IdentifiedObject.description": "maximum indicating electricitySecondaryMetered voltageRMS phaseC (V)",
+            "cim:IdentifiedObject.name": "0.8.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.0.6.0.1.54.0.0.0.0.0.0.0.32.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:1cc7f6a2-33e6-47e1-91ab-ebae9d2503c0",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "1cc7f6a2-33e6-47e1-91ab-ebae9d2503c0",
+            "cim:IdentifiedObject.description": "indicating forward electricitySecondaryMetered current phaseA (A)",
+            "cim:IdentifiedObject.name": "0.0.0.6.1.1.4.0.0.0.0.0.0.0.128.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.128.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ed48f359-283a-429e-a18e-b1d8cfd13a79",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "ed48f359-283a-429e-a18e-b1d8cfd13a79",
+            "cim:IdentifiedObject.description": "indicating forward electricitySecondaryMetered current phaseB (A)",
+            "cim:IdentifiedObject.name": "0.0.0.6.1.1.4.0.0.0.0.0.0.0.64.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.64.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:755c2afc-be77-4382-99ab-ec82a252d4db",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "755c2afc-be77-4382-99ab-ec82a252d4db",
+            "cim:IdentifiedObject.description": "indicating forward electricitySecondaryMetered current phaseC (A)",
+            "cim:IdentifiedObject.name": "0.0.0.6.1.1.4.0.0.0.0.0.0.0.32.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.32.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6968b00e-e3ae-4d13-9d6c-107f0b94ce47",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6968b00e-e3ae-4d13-9d6c-107f0b94ce47",
+            "cim:IdentifiedObject.description": "indicating forward electricitySecondaryMetered current phaseNtoGnd (A)",
+            "cim:IdentifiedObject.name": "0.0.0.6.1.1.4.0.0.0.0.0.0.0.17.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.1.1.4.0.0.0.0.0.0.0.17.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c95e549-d4b4-4a06-b95f-44a42c6d780d",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3c95e549-d4b4-4a06-b95f-44a42c6d780d",
+            "cim:IdentifiedObject.description": "maximum twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)",
+            "cim:IdentifiedObject.name": "0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:58291c0-d210-45e2-9d1c-1eac9d45f56e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "658291c0-d210-45e2-9d1c-1eac9d45f56e",
+            "cim:IdentifiedObject.description": "average twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)",
+            "cim:IdentifiedObject.name": "0.2.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.4.6.0.1.4.0.0.0.0.0.0.0.17.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:d35eecdf-d5ad-4ec5-a184-31652759d1b2",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "d35eecdf-d5ad-4ec5-a184-31652759d1b2",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:58218512-4130-4f88-88bc-eaac1a93b8a9",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "58218512-4130-4f88-88bc-eaac1a93b8a9",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoN (V)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3fb04138-64aa-401a-b425-c6d8cb0a448b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3fb04138-64aa-401a-b425-c6d8cb0a448b",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseCtoN (V)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6de0b9cd-1d8e-406f-ac8a-e520e7773d58",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6de0b9cd-1d8e-406f-ac8a-e520e7773d58",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseA (A)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:40a34dbe-be98-4489-8613-8ed35dafe619",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "40a34dbe-be98-4489-8613-8ed35dafe619",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseB (A)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:8c863d7a-0965-4c4c-80a8-361816150591",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "8c863d7a-0965-4c4c-80a8-361816150591",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseC (A)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c42e1e8f-baf3-40b3-95a8-68ab564712f0",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c42e1e8f-baf3-40b3-95a8-68ab564712f0",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kW)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:53b9855a-73b0-4d88-aa23-967487dd5ada",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "53b9855a-73b0-4d88-aa23-967487dd5ada",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kW)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:264df871-b90f-4283-b5db-7ba81a9f3435",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "264df871-b90f-4283-b5db-7ba81a9f3435",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kW)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:09193042-7465-4928-9bb8-70cdae474e4a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "09193042-7465-4928-9bb8-70cdae474e4a",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVAr)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:5c276a93-bbaf-4473-819b-2bd751a0d7bc",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "5c276a93-bbaf-4473-819b-2bd751a0d7bc",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVAr)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:b319c2fd-e165-4cd0-b966-d71fdc5841aa",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "b319c2fd-e165-4cd0-b966-d71fdc5841aa",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVAr)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2a851b5c-519f-47a4-a182-716aafcfb3eb",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "2a851b5c-519f-47a4-a182-716aafcfb3eb",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kW)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:429f012e-f0ce-4f25-8640-d2583ec84b94",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "429f012e-f0ce-4f25-8640-d2583ec84b94",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (W/VA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:feb86bae-cfa4-4dcf-937b-f3c72dbbb668",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "feb86bae-cfa4-4dcf-937b-f3c72dbbb668",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered frequency (Hz)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:cdcc8ef7-9535-4ab8-bd07-0a3ae721dd7d",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "cdcc8ef7-9535-4ab8-bd07-0a3ae721dd7d",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoB (V)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:4a1d2329-f884-4959-b245-7c4c0abb98c9",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "4a1d2329-f884-4959-b245-7c4c0abb98c9",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoC (V)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c3220b33-e16f-4dcb-b4f3-f8ddf79f6c13",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c3220b33-e16f-4dcb-b4f3-f8ddf79f6c13",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:bd37f622-6ca6-4a52-9bd2-0eab09ac411a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "bd37f622-6ca6-4a52-9bd2-0eab09ac411a",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:19a57243-c4d6-43e4-bdc3-fe5adba6b438",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "19a57243-c4d6-43e4-bdc3-fe5adba6b438",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6b5f38c6-2683-4497-ae0a-b9abcf356cb8",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6b5f38c6-2683-4497-ae0a-b9abcf356cb8",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:fe3391e5-a949-4f89-bd07-c2838a9d7be8",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "fe3391e5-a949-4f89-bd07-c2838a9d7be8",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:d84d535b-6aae-4060-bef3-cd8109bd71f5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "d84d535b-6aae-4060-bef3-cd8109bd71f5",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:59a2b750-574c-49a0-ab2b-22bfc10cabda",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "59a2b750-574c-49a0-ab2b-22bfc10cabda",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:07ee7169-1c9b-417d-a6bc-42d53bedbf88",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "07ee7169-1c9b-417d-a6bc-42d53bedbf88",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:758d2dcd-5781-41b2-b963-1045e08770c9",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "758d2dcd-5781-41b2-b963-1045e08770c9",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f114f1df-ce24-4795-a90f-858a27902ec5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f114f1df-ce24-4795-a90f-858a27902ec5",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:61687dcb-7acb-4242-96f2-638778f2dec1",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "61687dcb-7acb-4242-96f2-638778f2dec1",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:8c35aa61-14e7-4b83-91de-00ac4af358e0",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "8c35aa61-14e7-4b83-91de-00ac4af358e0",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseA (W/VA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:15debb53-b847-46b1-a7f5-1688ca9d3bcd",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "15debb53-b847-46b1-a7f5-1688ca9d3bcd",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseB (W/VA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a02fd192-b154-4cf4-ba41-37226d0a36f5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a02fd192-b154-4cf4-ba41-37226d0a36f5",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseC (W/VA)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:9e7d10e1-3ff3-45b7-b6d1-b2c85bc323d4",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "9e7d10e1-3ff3-45b7-b6d1-b2c85bc323d4",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous q1plusQ3 electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.9.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6859bd68-c3c6-4d31-9781-0187af17aa00",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6859bd68-c3c6-4d31-9781-0187af17aa00",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous q2plusQ4 electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.9.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:0ec0183e-05e4-487a-b40f-24d0bea630ab",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "0ec0183e-05e4-487a-b40f-24d0bea630ab",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVArh)",
+            "cim:IdentifiedObject.name": "0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c06e2863-7bcb-4e6c-a000-314a15c5fc6a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c06e2863-7bcb-4e6c-a000-314a15c5fc6a",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (Cosθ)",
+            "cim:IdentifiedObject.name": "0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:718e66f1-69c1-4320-96ae-6a9b5c539183",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "718e66f1-69c1-4320-96ae-6a9b5c539183",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kWh)",
+            "cim:IdentifiedObject.name": "0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:710f1ee4-9962-4722-9a5c-97f908a21d54",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "710f1ee4-9962-4722-9a5c-97f908a21d54",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVAh)",
+            "cim:IdentifiedObject.name": "0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3eddf2dd-1b47-4244-bdd9-abdd2ac9e37c",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3eddf2dd-1b47-4244-bdd9-abdd2ac9e37c",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous insulativeOil temperature (°C)",
+            "cim:IdentifiedObject.name": "0.9.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c96fb3ae-c6f1-4128-ae9b-ea0b9f656a9d",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c96fb3ae-c6f1-4128-ae9b-ea0b9f656a9d",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous insulativeOil (hPa)",
+            "cim:IdentifiedObject.name": "0.9.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:1999eaa8-4861-49f8-b6ac-7b2b2ea42c34",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "1999eaa8-4861-49f8-b6ac-7b2b2ea42c34",
+            "cim:IdentifiedObject.description": "minimum fifteenMinute instantaneous air temperature (°C)",
+            "cim:IdentifiedObject.name": "0.9.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.9.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:af8e6b1c-ac75-489f-9f12-c76edbc6860a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "af8e6b1c-ac75-489f-9f12-c76edbc6860a",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:7c51dcee-e544-4bd2-9ea4-c1acc2310b16",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "7c51dcee-e544-4bd2-9ea4-c1acc2310b16",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoN (V)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:94826ad5-369d-4057-a64d-592299ba4900",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "94826ad5-369d-4057-a64d-592299ba4900",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseCtoN (V)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:844e9698-1e53-43c7-aff2-a0707bd10999",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "844e9698-1e53-43c7-aff2-a0707bd10999",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseA (A)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:75d0bdf6-86e9-4417-b588-6dd908f304ab",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "75d0bdf6-86e9-4417-b588-6dd908f304ab",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseB (A)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6be1696a-73af-4990-ad9a-b6103ef7ee7a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6be1696a-73af-4990-ad9a-b6103ef7ee7a",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered current phaseC (A)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:9b77993f-f6ed-4a80-8cd9-5ec075a8e1dc",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "9b77993f-f6ed-4a80-8cd9-5ec075a8e1dc",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kW)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a72f13e9-5695-4e11-b154-03a765915616",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a72f13e9-5695-4e11-b154-03a765915616",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kW)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:941359b6-1cc1-4152-a43d-8b54d4e7e0c1",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "941359b6-1cc1-4152-a43d-8b54d4e7e0c1",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kW)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:235d8000-650f-4b5b-9ea4-33a9a2cf6609",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "235d8000-650f-4b5b-9ea4-33a9a2cf6609",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVAr)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ba1bbe98-b9bf-4fcd-93e0-143adea91e18",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "ba1bbe98-b9bf-4fcd-93e0-143adea91e18",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVAr)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f0fdadb4-1264-49a2-a89c-e9a413320512",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f0fdadb4-1264-49a2-a89c-e9a413320512",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVAr)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:8044755a-e54c-428f-a5a6-0a1fc3dd402c",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "8044755a-e54c-428f-a5a6-0a1fc3dd402c",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kW)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6ec6bc62-2ba2-4f6a-8d0b-240fe8c5e661",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6ec6bc62-2ba2-4f6a-8d0b-240fe8c5e661",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (W/VA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:7d19db2a-a48b-42ed-9892-320d517d9a39",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "7d19db2a-a48b-42ed-9892-320d517d9a39",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered frequency (Hz)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2041139a-43ac-43a8-975d-8f49c459d07a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "2041139a-43ac-43a8-975d-8f49c459d07a",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoB (V)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3f48da16-8765-481c-9d62-8a07e3f8b7c2",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3f48da16-8765-481c-9d62-8a07e3f8b7c2",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoC (V)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:af61424d-799f-40eb-b332-34ca5e24b0e7",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "af61424d-799f-40eb-b332-34ca5e24b0e7",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:62f31f57-5a8a-40f7-8d3c-0591eaadf248",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "62f31f57-5a8a-40f7-8d3c-0591eaadf248",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:905ff604-501f-4a75-be71-0f450a61721e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "905ff604-501f-4a75-be71-0f450a61721e",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:15e6ea27-f9df-43cd-a42a-7fc827d4378f",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "15e6ea27-f9df-43cd-a42a-7fc827d4378f",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:849a6786-6bae-4d62-b7fc-2b9be70b5ce2",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "849a6786-6bae-4d62-b7fc-2b9be70b5ce2",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:11ec7da7-07c9-4d5d-bf8e-846340b5c1b1",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "11ec7da7-07c9-4d5d-bf8e-846340b5c1b1",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c8945301-414c-49c1-9efd-beef940a4a97",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c8945301-414c-49c1-9efd-beef940a4a97",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:95887bb0-bb7b-43fc-9352-9a364e72b17b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "95887bb0-bb7b-43fc-9352-9a364e72b17b",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:45cfb58f-5a4a-4d33-a15f-ab7b924e0977",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "45cfb58f-5a4a-4d33-a15f-ab7b924e0977",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:39c33ca4-04c2-4c75-82bc-0f16f949e68f",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "39c33ca4-04c2-4c75-82bc-0f16f949e68f",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:abe786cc-7004-4788-9aca-774a03bb9321",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "abe786cc-7004-4788-9aca-774a03bb9321",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c61be936-d0e4-4d00-85b9-9cba383ec40f",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c61be936-d0e4-4d00-85b9-9cba383ec40f",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseA (W/VA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:7a727b78-4af0-47bb-8f14-12523c95a8dd",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "7a727b78-4af0-47bb-8f14-12523c95a8dd",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseB (W/VA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6f6b46b1-a5ae-40b3-ad6d-7e345433c23e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6f6b46b1-a5ae-40b3-ad6d-7e345433c23e",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseC (W/VA)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3d369940-4f40-4a9e-9f10-ac578c830bbe",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3d369940-4f40-4a9e-9f10-ac578c830bbe",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous q1plusQ3 electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.8.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:4c2f3076-63c8-438a-9161-b34e6bf03863",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "4c2f3076-63c8-438a-9161-b34e6bf03863",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous q2plusQ4 electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.8.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2052b9db-068d-4f33-ae54-2d75edca9cf5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "2052b9db-068d-4f33-ae54-2d75edca9cf5",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVArh)",
+            "cim:IdentifiedObject.name": "0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6c556063-d246-4b0e-93d0-7588e9c34d3e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6c556063-d246-4b0e-93d0-7588e9c34d3e",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (Cosθ)",
+            "cim:IdentifiedObject.name": "0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c3a88805-c4a6-4387-93f3-55cfaeac3076",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c3a88805-c4a6-4387-93f3-55cfaeac3076",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kWh)",
+            "cim:IdentifiedObject.name": "0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:040bd576-249f-4bf0-9ec1-f126cd2c54fd",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "040bd576-249f-4bf0-9ec1-f126cd2c54fd",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVAh)",
+            "cim:IdentifiedObject.name": "0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:1ca5b648-1532-4d43-a7c6-424070d41477",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "1ca5b648-1532-4d43-a7c6-424070d41477",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous insulativeOil temperature (°C)",
+            "cim:IdentifiedObject.name": "0.8.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f19a623c-c249-4e40-8b37-595b794b51c0",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f19a623c-c249-4e40-8b37-595b794b51c0",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous insulativeOil (hPa)",
+            "cim:IdentifiedObject.name": "0.8.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e4e25868-ab76-4f71-990f-367fcde7044e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e4e25868-ab76-4f71-990f-367fcde7044e",
+            "cim:IdentifiedObject.description": "maximum fifteenMinute instantaneous air temperature (°C)",
+            "cim:IdentifiedObject.name": "0.8.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.8.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:018e30a9-d6a7-4682-98a6-071c5554f102",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "018e30a9-d6a7-4682-98a6-071c5554f102",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoN (V)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.129.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:803b8499-6f8b-4c99-a49c-773957761264",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "803b8499-6f8b-4c99-a49c-773957761264",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoN (V)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.65.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:90797b23-f387-4759-be91-5687795a52b1",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "90797b23-f387-4759-be91-5687795a52b1",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseCtoN (V)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.33.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a9318e26-a359-4913-bf5c-a3050f37a6ed",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a9318e26-a359-4913-bf5c-a3050f37a6ed",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered current phaseA (A)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.128.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:13e64941-085e-49f5-998d-c90874fad482",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "13e64941-085e-49f5-998d-c90874fad482",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered current phaseB (A)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.64.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:22d69129-4fd6-42d2-b878-b67d6d872db3",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "22d69129-4fd6-42d2-b878-b67d6d872db3",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered current phaseC (A)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.32.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:0a7f80d6-6826-4ea1-a9d2-1d19ade69cca",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "0a7f80d6-6826-4ea1-a9d2-1d19ade69cca",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kW)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ca14440a-3712-4fce-8386-37c8f5018311",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "ca14440a-3712-4fce-8386-37c8f5018311",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kW)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:cbe4458d-e71b-487c-b0d1-e7513fe8a1ec",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "cbe4458d-e71b-487c-b0d1-e7513fe8a1ec",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kW)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a0ecef34-c9e9-4114-9204-cf5155c5e2ea",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a0ecef34-c9e9-4114-9204-cf5155c5e2ea",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVAr)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:fd5849f1-b8e2-4df9-af8c-a9f14a796b31",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "fd5849f1-b8e2-4df9-af8c-a9f14a796b31",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVAr)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:adda8748-bee7-4379-b91f-aa6fcb314e01",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "adda8748-bee7-4379-b91f-aa6fcb314e01",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVAr)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:5a503449-5324-4316-a68f-21910a0ade29",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "5a503449-5324-4316-a68f-21910a0ade29",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kW)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.38.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e40c37ca-2229-46c8-96de-293f5b92beb0",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e40c37ca-2229-46c8-96de-293f5b92beb0",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (W/VA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:706f044b-b259-40dd-b37e-7f595a4c7990",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "706f044b-b259-40dd-b37e-7f595a4c7990",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered frequency (Hz)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e70082e5-6643-44ce-96b0-507b0ced477c",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e70082e5-6643-44ce-96b0-507b0ced477c",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseAtoB (V)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.132.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c69a0092-a9de-4ad3-b0cc-0d019304cdd9",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c69a0092-a9de-4ad3-b0cc-0d019304cdd9",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered voltageRMS phaseBtoC (V)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.54.0.0.0.0.0.0.0.66.0.29.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:8ddc293f-6144-4e87-b782-a3a6ac87c6fc",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "8ddc293f-6144-4e87-b782-a3a6ac87c6fc",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:9fe15728-93a7-4517-ab1e-b43740acc3af",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "9fe15728-93a7-4517-ab1e-b43740acc3af",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e78160a1-3f23-49ce-9970-e3c52d7e000b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e78160a1-3f23-49ce-9970-e3c52d7e000b",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.151.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:1ddfda5f-5e0a-4808-9eb8-b032730e458c",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "1ddfda5f-5e0a-4808-9eb8-b032730e458c",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseA (%)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.128.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:125b7a88-d18c-4f45-9029-316924596ce4",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "125b7a88-d18c-4f45-9029-316924596ce4",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseB (%)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.64.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:4a42f31b-1dbb-417a-9c53-47b6a92b065b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "4a42f31b-1dbb-417a-9c53-47b6a92b065b",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered totalHarmonicDistortion phaseC (%)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.47.0.0.0.0.0.0.0.32.-2.152.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ef23b107-111d-4d6e-9a5d-5851efb10213",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "ef23b107-111d-4d6e-9a5d-5851efb10213",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:5d8d5934-b073-41e1-be20-07c91dfa21d6",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "5d8d5934-b073-41e1-be20-07c91dfa21d6",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c27b21ac-81da-46ab-8e7f-5e373677e7df",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c27b21ac-81da-46ab-8e7f-5e373677e7df",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered current phasesABC (A)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.4.0.0.0.0.0.0.0.224.0.5.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.4.0.0.0.0.0.0.0.224.0.5.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:b054e332-620e-4037-b65f-edd6d5e0ebd3",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "b054e332-620e-4037-b65f-edd6d5e0ebd3",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseA (kVA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.128.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:8ef57a0d-793c-47e9-ac62-3f2c602ff2a6",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "8ef57a0d-793c-47e9-ac62-3f2c602ff2a6",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseB (kVA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.64.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f88cfe34-eaac-4553-8452-4e12f6c96ee4",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f88cfe34-eaac-4553-8452-4e12f6c96ee4",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered power phaseC (kVA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.37.0.0.0.0.0.0.0.32.3.61.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:0b68e544-4f57-4327-a86a-06b34bd05544",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "0b68e544-4f57-4327-a86a-06b34bd05544",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseA (W/VA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.128.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:5e6dd03c-d638-4ea8-882e-351c29cd2669",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "5e6dd03c-d638-4ea8-882e-351c29cd2669",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseB (W/VA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.64.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:554c8014-5561-423f-8f5a-3eb0df392373",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "554c8014-5561-423f-8f5a-3eb0df392373",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phaseC (W/VA)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.32.0.153.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:16c01af9-e599-4c91-9699-292a09f614d5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "16c01af9-e599-4c91-9699-292a09f614d5",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous q1plusQ3 electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.2.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.7.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:8ada877e-0b84-4743-96aa-d06ad4d7cb4e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "8ada877e-0b84-4743-96aa-d06ad4d7cb4e",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous q2plusQ4 electricitySecondaryMetered power phasesABC (kVAr)",
+            "cim:IdentifiedObject.name": "0.2.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.11.1.37.0.0.0.0.0.0.0.224.3.63.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:62e83a9e-ff0e-4581-a502-bd980e267bca",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "62e83a9e-ff0e-4581-a502-bd980e267bca",
+            "cim:IdentifiedObject.description": "average fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVArh)",
+            "cim:IdentifiedObject.name": "0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f6ba9496-0d48-4f09-8516-73cdbbe06a3b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f6ba9496-0d48-4f09-8516-73cdbbe06a3b",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous forward electricitySecondaryMetered powerFactor phasesABC (Cosθ)",
+            "cim:IdentifiedObject.name": "0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.1.1.38.0.0.0.0.0.0.0.224.0.65.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e468752e-631d-4a13-b65b-0c20fcea8898",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e468752e-631d-4a13-b65b-0c20fcea8898",
+            "cim:IdentifiedObject.description": "average fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kWh)",
+            "cim:IdentifiedObject.name": "0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:02f409d1-5a4e-4140-95a9-ef5cf621363a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "02f409d1-5a4e-4140-95a9-ef5cf621363a",
+            "cim:IdentifiedObject.description": "average fifteenMinute bulkQuantity forward electricitySecondaryMetered energy phasesABC (kVAh)",
+            "cim:IdentifiedObject.name": "0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.1.1.1.12.0.0.0.0.0.0.0.224.3.71.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:299958a2-5418-457a-8d5f-fba982607511",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "299958a2-5418-457a-8d5f-fba982607511",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous insulativeOil temperature (°C)",
+            "cim:IdentifiedObject.name": "0.2.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.0.6.46.0.0.0.0.0.0.0.0.0.23.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f8cb460d-0a89-4aac-b7cd-04ea51de4b4e",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f8cb460d-0a89-4aac-b7cd-04ea51de4b4e",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous insulativeOil (hPa)",
+            "cim:IdentifiedObject.name": "0.2.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.0.6.0.0.0.0.0.0.0.0.0.2.39.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:22403b75-d4ac-4f56-b129-6cc2ae90be4b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "22403b75-d4ac-4f56-b129-6cc2ae90be4b",
+            "cim:IdentifiedObject.description": "average fifteenMinute instantaneous air temperature (°C)",
+            "cim:IdentifiedObject.name": "0.2.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.2.2.12.0.4.46.0.0.0.0.0.0.0.0.0.23.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:9c0117de-273a-4227-9a91-ba0117e4d7cc",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "9c0117de-273a-4227-9a91-ba0117e4d7cc",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity quadrant1 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:59d44d6e-ee14-4e99-b511-47bc784270e2",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "59d44d6e-ee14-4e99-b511-47bc784270e2",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity quadrant4 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:2270c649-919f-4a25-a595-48bafe360dde",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "2270c649-919f-4a25-a595-48bafe360dde",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity quadrant2 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:30ad79ab-724e-4195-8634-f17ed3f65c1f",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "30ad79ab-724e-4195-8634-f17ed3f65c1f",
+            "cim:IdentifiedObject.description": "fifteenMinute bulkQuantity quadrant3 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:66e8afc6-7339-44fc-b77f-401ef1e4d9bf",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "66e8afc6-7339-44fc-b77f-401ef1e4d9bf",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData forward electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:bdfe5fa5-0bf4-45cf-8f58-b35a3fd36bee",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "bdfe5fa5-0bf4-45cf-8f58-b35a3fd36bee",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData forward electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6127360a-c81a-46a4-8be4-c45034df0ea5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6127360a-c81a-46a4-8be4-c45034df0ea5",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData reverse electricitySecondaryMetered energy (kWh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:b72913f6-528f-48c6-93ae-415e63ae2e22",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "b72913f6-528f-48c6-93ae-415e63ae2e22",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData reverse electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:106961ee-4636-4960-8838-460e4fce97d2",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "106961ee-4636-4960-8838-460e4fce97d2",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant1 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:82153f3d-b692-470b-aa91-f20c596d55d8",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "82153f3d-b692-470b-aa91-f20c596d55d8",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant4 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a598f2c9-8a2a-41b4-aca9-7f62e1b415af",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a598f2c9-8a2a-41b4-aca9-7f62e1b415af",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant2 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:842b1679-15ba-49bd-877d-b627083b2e71",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "842b1679-15ba-49bd-877d-b627083b2e71",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant3 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:c970d8d8-fbb6-4dc4-852b-062d97923ca1",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "c970d8d8-fbb6-4dc4-852b-062d97923ca1",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData forward electricitySecondaryMetered energy (Wh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:78dbcdb1-3d3a-4997-8743-af21181dcc68",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "78dbcdb1-3d3a-4997-8743-af21181dcc68",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData forward electricitySecondaryMetered energy (VArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.0.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:6c858bac-ec15-456b-a5ce-56fdd93c384a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "6c858bac-ec15-456b-a5ce-56fdd93c384a",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData reverse electricitySecondaryMetered energy (Wh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:67dee17a-b137-42c8-80ad-90b4532c1862",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "67dee17a-b137-42c8-80ad-90b4532c1862",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData reverse electricitySecondaryMetered energy (VArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.19.1.12.0.0.0.0.0.0.0.0.0.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:acc55f80-01c9-4a55-9244-b3c28e900ec5",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "acc55f80-01c9-4a55-9244-b3c28e900ec5",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant1 electricitySecondaryMetered energy (VArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.0.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.15.1.12.0.0.0.0.0.0.0.0.0.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e422a4b1-1177-4669-95da-a41ce237d76d",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e422a4b1-1177-4669-95da-a41ce237d76d",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant4 electricitySecondaryMetered energy (VArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.0.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.18.1.12.0.0.0.0.0.0.0.0.0.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:524af4c7-ea84-4289-af30-3bbcac7ed86a",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "524af4c7-ea84-4289-af30-3bbcac7ed86a",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant2 electricitySecondaryMetered energy (VArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.0.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.16.1.12.0.0.0.0.0.0.0.0.0.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:12b34e3f-8c20-4ad8-9c4c-7cf3b2811bbd",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "12b34e3f-8c20-4ad8-9c4c-7cf3b2811bbd",
+            "cim:IdentifiedObject.description": "sixtyMinute deltaData quadrant3 electricitySecondaryMetered energy (VArh)",
+            "cim:IdentifiedObject.name": "0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.0.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.17.1.12.0.0.0.0.0.0.0.0.0.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:51824e7e-0421-426e-a7c6-ae9ddcec7e30",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "51824e7e-0421-426e-a7c6-ae9ddcec7e30",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData forward electricitySecondaryMetered energy (MWh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ae51dfa8-f99b-44f1-9d07-a4dbc0900d40",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "ae51dfa8-f99b-44f1-9d07-a4dbc0900d40",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData forward electricitySecondaryMetered energy (MVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.1.1.12.0.0.0.0.0.0.0.0.6.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:506b0d07-15a6-410f-8a11-ee3e25d1b34c",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "506b0d07-15a6-410f-8a11-ee3e25d1b34c",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData reverse electricitySecondaryMetered energy (MWh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.72.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.72.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:f83403c8-018f-467c-8522-7548a5a6609b",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "f83403c8-018f-467c-8522-7548a5a6609b",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData reverse electricitySecondaryMetered energy (MVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.19.1.12.0.0.0.0.0.0.0.0.6.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:3d189cb7-c826-456a-84e5-3c7355964ecd",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "3d189cb7-c826-456a-84e5-3c7355964ecd",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData quadrant1 electricitySecondaryMetered energy (MVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.15.1.12.0.0.0.0.0.0.0.0.6.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.15.1.12.0.0.0.0.0.0.0.0.6.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:a5d2cafe-6f87-4cb1-a8b2-7b858e042611",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "a5d2cafe-6f87-4cb1-a8b2-7b858e042611",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData quadrant4 electricitySecondaryMetered energy (MVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.18.1.12.0.0.0.0.0.0.0.0.6.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.18.1.12.0.0.0.0.0.0.0.0.6.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:efda8767-5b3a-48c6-a9f4-fff401df085d",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "efda8767-5b3a-48c6-a9f4-fff401df085d",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData quadrant2 electricitySecondaryMetered energy (MVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.16.1.12.0.0.0.0.0.0.0.0.6.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.16.1.12.0.0.0.0.0.0.0.0.6.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:e9b288df-4e94-42a8-a147-d4f99c539c15",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "e9b288df-4e94-42a8-a147-d4f99c539c15",
+            "cim:IdentifiedObject.description": "fifteenMinute deltaData quadrant3 electricitySecondaryMetered energy (MVArh)",
+            "cim:IdentifiedObject.name": "0.0.2.4.17.1.12.0.0.0.0.0.0.0.0.6.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.2.4.17.1.12.0.0.0.0.0.0.0.0.6.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:d315218d-dfad-44c2-8dc7-19021cfd4a19",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "d315218d-dfad-44c2-8dc7-19021cfd4a19",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity quadrant1 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.15.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:45ac96d5-0fb5-4795-a91f-e987f9dd90f4",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "45ac96d5-0fb5-4795-a91f-e987f9dd90f4",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity quadrant4 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.18.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:ddc3c373-ea95-47e9-a5c2-292d38f52084",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "ddc3c373-ea95-47e9-a5c2-292d38f52084",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity quadrant2 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.16.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        },
+        {
+            "@id": "urn:uuid:d8305e9d-89a0-4d34-b881-633b6be4df39",
+            "@type": "cim:ReadingType",
+            "cim:IdentifiedObject.mRID": "d8305e9d-89a0-4d34-b881-633b6be4df39",
+            "cim:IdentifiedObject.description": "sixtyMinute bulkQuantity quadrant3 electricitySecondaryMetered energy (kVArh)",
+            "cim:IdentifiedObject.name": "0.0.7.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.1.17.1.12.0.0.0.0.0.0.0.0.3.73.0"
+            }
+        }
+    ]
+}
