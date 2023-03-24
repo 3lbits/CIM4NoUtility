@@ -32,8 +32,7 @@
     "dcterms": "http://purl.org/dc/terms/",
     "dcat": "http://www.w3.org/ns/dcat#",
     "prov": "http://www.w3.org/ns/prov#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "wattapp": "https://wattapp.no"
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "type": "FeatureCollection",
   "@id": "urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05",
@@ -79,7 +78,7 @@
     "dcterms:title": "PUBLIC"
   },
   "dcat:isVersionOf": {
-    "@id": "https://digin.no/baseprofile/DIGIN10-30-WattApp_GL"
+    "@id": "https://digin.no/Foundation/DIGIN10-30-WattApp_GL"
   },
   "dcat:keyword": "GL",
   "dcterms:spatial": {
@@ -87,10 +86,7 @@
   },
   "dcterms:conformsTo": [
     {
-      "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
-    },
-    {
-      "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0"
+      "@id": "http://digin.no/ns/CIM/GeoJSON/1.0"
     }
   ],
   "features": [
@@ -222,21 +218,7 @@
               }
             ]
           }
-        ],
-        "wattapp:contactEmail": "firmapost@digin.no",
-        "wattapp:contactUrl": "https://www.company/contact.no",
-        "wattapp:moreInfoUrl": "https://www.company/project1.no",
-        "wattapp:IdentifiedObject.shortDescription": [
-          {
-            "@value": "There is an increased capacity demand for business and industry along the E18, which creates a need for measures.",
-            "@language": "en"
-          },
-          {
-            "@value": "Det oppleves økt kapasitetterspørsel til næring og industri langs E18 som gir behov for tiltak.",
-            "@language": "no"
-          }
-        ],
-        "wattapp:PowerSystemResource.owner": "DiginGrid AS"
+        ]
       }
     }
   ]
