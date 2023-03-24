@@ -61,7 +61,7 @@
     "dcterms:title": "DIGIN"
   },
   "dcterms:temporal": {
-    "@type": "http://purl.org/dc/terms/PeriodOfTime",
+    "@type": "dcterms:PeriodOfTime",
     "dcat:startDate": {
       "@value": "2022-03-30T23:00:00Z",
       "@type": "xsd:dateTime"
