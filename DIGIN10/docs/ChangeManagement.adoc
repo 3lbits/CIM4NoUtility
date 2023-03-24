@@ -16,4 +16,11 @@ should maintain two mRIDs and in both cases support difference file exchange."
 In general it is considered OK to keep the mRID when the model is changed from one CIM version to another. Fuse does not exist in the profile CGMES v2.4 but does exist in CGMES v.3.0, the Breaker/Fuse changes are therefore considered as a clean version change and not a model change. The mRIDs will therefore not be changed for the Breaker/Fuse or the associated Terminal. 
 
 
+== cim URI
+UTF13 with support from some of the other groups has decided to move to a persistent and resolvable namespace URI. This will come in the next 61970-302/457 (which is something between CIM17/100 and CIM18/101).
 
+"cim": "http://iec.ch/TC57/CIM100#", +
+is being replaced by + 
+"cim": "http://ucaiug.org/ns/CIM#"
+
+The DIGIN10 model has incorporated the new namespace for the cim URI as we are moving to CIMJSON-LD.
