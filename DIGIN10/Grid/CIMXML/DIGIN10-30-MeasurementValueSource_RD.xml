@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rdf:RDF
-    xmlns:cim="http://iec.ch/TC57/2016/CIM-schema-cim17#"
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#"
     xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"

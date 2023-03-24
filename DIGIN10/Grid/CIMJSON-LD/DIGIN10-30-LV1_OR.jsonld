@@ -1,0 +1,158 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nc": "http://entsoe.eu/ns/nc#"
+    },
+    "@id": "urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-04-11T15:38:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_OR",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Object Reference (OR) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_OR"
+    },
+    "dcat:keyword": "OR",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://entsoe.eu/ns/CIM/ObjectRegistry-EU/2.1"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:12ba87f6-d635-41a8-add4-c917db73953d",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "12ba87f6-d635-41a8-add4-c917db73953d",
+            "cim:Name.name": "6573456",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:9d58e5bb-834c-4faa-928c-7da0bb1497d9"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:c229b6a8-03ef-499b-9b3d-f661a92b8d6a",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "c229b6a8-03ef-499b-9b3d-f661a92b8d6a",
+            "cim:Name.name": "653497324",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:46bce40c-71c2-4d19-b63f-78a69c460b0e"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:e08e14be-3cb2-4f79-a54a-62b54085aa06",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "e08e14be-3cb2-4f79-a54a-62b54085aa06",
+            "cim:Name.name": "27785734",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:8aad5c29-6039-4321-8f8a-ad1c186dd145"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:a5cd373a-70b5-4c49-baa1-5bd21a2816b2",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "a5cd373a-70b5-4c49-baa1-5bd21a2816b2",
+            "cim:Name.name": "6534512",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:76335f11-64c3-474d-92fd-7ab11ed607e4"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:cd0ec51f-f672-48e0-b1fd-5a0c65be4aee",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "cd0ec51f-f672-48e0-b1fd-5a0c65be4aee",
+            "cim:Name.name": "65767234",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:eba80fde-c5f8-49fc-8465-0329fdeefda9"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:ba68a6ec-a706-465b-8c36-7a875de5d3c9",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "ba68a6ec-a706-465b-8c36-7a875de5d3c9",
+            "cim:Name.name": "8345723",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:e322d64a-0413-4703-b31c-b8e0c5c32f44"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f",
+            "@type": "cim:NameType",
+            "nc:NameType.mRID": "d56ca01d-7801-4e1b-ac69-c2059143475f",
+            "cim:NameType.description": "Unique identifier in Company NIS",
+            "cim:NameType.name": "companyNisId",
+            "nc:NameType.NameTypeAuthority": {
+                "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e"
+            }
+        },
+        {
+            "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e",
+            "@type": "cim:NameTypeAuthority",
+            "nc:NameTypeAuthority.mRID": "3868b80f-7e64-4fc0-a851-ce6835676a6e",
+            "cim:NameTypeAuthority.description": "Network Information System made by Company",
+            "cim:NameTypeAuthority.name": "companyNis"
+        }
+    ]
+}

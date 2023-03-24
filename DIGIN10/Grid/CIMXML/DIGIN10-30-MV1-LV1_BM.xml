@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" 
-            xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#"
-            xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
-            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    xmlns:dcat="http://www.w3.org/ns/dcat"
+    >
 
     <md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
         <md:Model.created>2022-04-06T11:32:55</md:Model.created>
@@ -14,10 +17,8 @@
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundary/3/1</md:Model.profile>
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1</md:Model.profile> -->
     </md:FullModel>
-    
-<!--
-    BoundaryPoints
--->
+
+    <!--BoundaryPoints-->
 
     <cim:Substation rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
         <cim:IdentifiedObject.mRID>681a2179-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
@@ -41,15 +42,14 @@
         <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:Bay>
 
-
     <cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
         <cim:IdentifiedObject.mRID>45fed034-857e-48df-b6ad-45d82eec564d</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
     </cim:ConnectivityNode>
- 
-     <eu:BoundaryPoint rdf:ID="_e961d4f3-7d72-476b-9ae3-4bab97e87ced">
-         <cim:IdentifiedObject.mRID>e961d4f3-7d72-476b-9ae3-4bab97e87ced</cim:IdentifiedObject.mRID>
+
+    <eu:BoundaryPoint rdf:ID="_e961d4f3-7d72-476b-9ae3-4bab97e87ced">
+        <cim:IdentifiedObject.mRID>e961d4f3-7d72-476b-9ae3-4bab97e87ced</cim:IdentifiedObject.mRID>
         <eu:IdentifiedObject.shortName>XNED1_XNED2</eu:IdentifiedObject.shortName>
         <eu:BoundaryPoint.isDirectCurrent>false</eu:BoundaryPoint.isDirectCurrent>
         <eu:BoundaryPoint.fromEndIsoCode>NO</eu:BoundaryPoint.fromEndIsoCode>

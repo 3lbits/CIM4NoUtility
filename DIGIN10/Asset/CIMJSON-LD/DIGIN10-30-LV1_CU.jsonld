@@ -1,0 +1,562 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_CU",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Customer (CU) Modele",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_CU"
+    },
+    "dcat:keyword": "CU",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/Customers/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:ab9eba1c-28e2-41e6-9d90-97b484581582",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "ab9eba1c-28e2-41e6-9d90-97b484581582",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 1",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP001",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:eba80fde-c5f8-49fc-8465-0329fdeefda9"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:0b88dcec-5657-4e00-9957-41c42dda9e90",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "0b88dcec-5657-4e00-9957-41c42dda9e90",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 2",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP002",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:dda0993b-140e-41f4-ab0e-9690859afef3"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:aa75e2ad-ac2b-476f-a20c-f7b75dec97d9",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "aa75e2ad-ac2b-476f-a20c-f7b75dec97d9",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 3",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP003",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:ed384e6d-b8d1-45bf-9778-fb2e1b5142fa"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:4111f640-e2d3-49e1-a3b2-bca045db3e5b",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "4111f640-e2d3-49e1-a3b2-bca045db3e5b",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 4",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP004",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:7d2f35f7-82ef-42f9-bc10-6f62fe96d116"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:c07ae94f-63ac-4d65-ba38-02db925c2623",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c07ae94f-63ac-4d65-ba38-02db925c2623",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 5",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP005",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:a6d32ac1-e894-4d28-a44b-41635a6c8b6f"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:4b7cce2d-a55f-45a3-89ef-c0fcaec6660e",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "4b7cce2d-a55f-45a3-89ef-c0fcaec6660e",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 6",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP006",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1ab052d3-e055-4dfe-9e47-8af771bd652a"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:e56eef37-2b37-4eb6-bfbe-d1a693d54f48",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "e56eef37-2b37-4eb6-bfbe-d1a693d54f48",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 7",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP007",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:5394fd91-851b-406a-ab9c-ecbe7a411c17"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:c49577df-41d9-4ce5-bf39-401980a173ba",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "c49577df-41d9-4ce5-bf39-401980a173ba",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 8",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP008",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:aae86260-d615-473f-9622-5817da962df1"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:7b416d80-631d-47ff-b9c1-da3ccf35be97",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "7b416d80-631d-47ff-b9c1-da3ccf35be97",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 9",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP009",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:2a850d95-6c2e-4a20-a9c6-0f97158473d6"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:959cdda7-ac98-44e1-ab61-2f739702eded",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "959cdda7-ac98-44e1-ab61-2f739702eded",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 10",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP010",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:3a7461ed-8e5d-427a-8b48-af3a46c042f5"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:e3f14479-7342-4a7d-8cc5-47f14438e41e",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "e3f14479-7342-4a7d-8cc5-47f14438e41e",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 11",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP011",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:67334cb3-902b-4d55-9207-50c75357458c"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:f1e8abd7-524d-483c-b20d-d895e2923a22",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "f1e8abd7-524d-483c-b20d-d895e2923a22",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 12",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP012",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:1bb434df-1410-4b79-b57b-1af90387e355"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:a62be726-c257-42d6-82cc-33fdf9b826c8",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "a62be726-c257-42d6-82cc-33fdf9b826c8",
+            "cim:IdentifiedObject.description": "Telemarkstien 2 400 Volt UsagePoint 13",
+            "cim:IdentifiedObject.name": "TELEMA2  04 UP013",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": 19.5,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 63.0,
+            "cim:UsagePoint.ratedPower": 0.02268,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
+            "cim:UsagePoint.servicePriority": "Low",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.enabled"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:e2b45f87-e399-47b4-86f9-0e68fb374a65"
+                }
+            ]
+        }
+    ]
+}

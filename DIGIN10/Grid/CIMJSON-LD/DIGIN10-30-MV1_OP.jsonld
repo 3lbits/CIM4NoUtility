@@ -1,0 +1,655 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-10-28T13:37:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1_OP",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Equipment Operationa (OP) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-10-28T13:37:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_OP"
+    },
+    "dcat:keyword": "OP",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/Operation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/Operation/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:b64c1205-d433-425f-9861-17e67fd8dd92",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "b64c1205-d433-425f-9861-17e67fd8dd92",
+            "cim:IdentifiedObject.description": "Engene Current Transformer 1 Analog 1",
+            "cim:IdentifiedObject.name": "ENGENE CT1 AN1",
+            "cim:Measurement.measurementType": "PhaseCurrent",
+            "cim:Analog.maxValue": 450.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 270.0,
+            "cim:Analog.positiveFlowIn": false,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.A"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.A"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:3344a693-6818-4703-93ac-510baac566d5"
+            }
+        },
+        {
+            "@id": "urn:uuid:d92eb31b-7af4-44d3-9d35-cc39ec96463a",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "d92eb31b-7af4-44d3-9d35-cc39ec96463a",
+            "cim:IdentifiedObject.description": "Engene Current Transformer 2 Analog 2",
+            "cim:IdentifiedObject.name": "ENGENE CT2 AN2",
+            "cim:Measurement.measurementType": "PhaseCurrent",
+            "cim:Analog.maxValue": 450.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 270.0,
+            "cim:Analog.positiveFlowIn": false,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.B"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.A"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:3344a693-6818-4703-93ac-510baac566d5"
+            }
+        },
+        {
+            "@id": "urn:uuid:421acdf3-c623-47fa-9de1-3029ca7db837",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "421acdf3-c623-47fa-9de1-3029ca7db837",
+            "cim:IdentifiedObject.description": "Engene Current Transformer 3 Analog 3",
+            "cim:IdentifiedObject.name": "ENGENE CT3 AN3",
+            "cim:Measurement.measurementType": "PhaseCurrent",
+            "cim:Analog.maxValue": 450.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 270.0,
+            "cim:Analog.positiveFlowIn": false,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.C"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.A"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:3344a693-6818-4703-93ac-510baac566d5"
+            }
+        },
+        {
+            "@id": "urn:uuid:2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7",
+            "cim:IdentifiedObject.description": "Engene Voltage Transformer 1 Analog 4",
+            "cim:IdentifiedObject.name": "ENGENE VT1 AN4",
+            "cim:Measurement.measurementType": "PhaseVoltage",
+            "cim:Analog.maxValue": 24.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 22.0,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.AB"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.k"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.V"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6"
+            }
+        },
+        {
+            "@id": "urn:uuid:25498d39-29b5-45aa-8dae-ccfa497353db",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "25498d39-29b5-45aa-8dae-ccfa497353db",
+            "cim:IdentifiedObject.description": "Engene Voltage Transformer 2 Analog 5",
+            "cim:IdentifiedObject.name": "ENGENE VT2 AN5",
+            "cim:Measurement.measurementType": "PhaseVoltage",
+            "cim:Analog.maxValue": 24.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 22.0,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.AC"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.k"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.V"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6"
+            }
+        },
+        {
+            "@id": "urn:uuid:e11a4842-898f-43fc-9d09-1a7f4e6a694a",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "e11a4842-898f-43fc-9d09-1a7f4e6a694a",
+            "cim:IdentifiedObject.description": "Engene Voltage Transformer 3 Analog 6",
+            "cim:IdentifiedObject.name": "ENGENE VT3 AN6",
+            "cim:Measurement.measurementType": "PhaseVoltage",
+            "cim:Analog.maxValue": 24.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 22.0,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.BC"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.k"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.V"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6"
+            }
+        },
+        {
+            "@id": "urn:uuid:56f7f828-73d8-405a-a725-4dfbe88c371d",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "56f7f828-73d8-405a-a725-4dfbe88c371d",
+            "cim:IdentifiedObject.description": "Engene Active Power Analog 7",
+            "cim:IdentifiedObject.name": "ENGENE TotW AN7",
+            "cim:Measurement.measurementType": "ThreePhaseActivePower",
+            "cim:Analog.maxValue": 35.0,
+            "cim:Analog.minValue": -35.0,
+            "cim:Analog.normalValue": 20.0,
+            "cim:Analog.positiveFlowIn": true,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.ABC"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.M"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.W"
+            }
+        },
+        {
+            "@id": "urn:uuid:ca370fd8-debb-4fb3-9595-952932ceea7f",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "ca370fd8-debb-4fb3-9595-952932ceea7f",
+            "cim:IdentifiedObject.description": "Engene Reactive Power Analog 8",
+            "cim:IdentifiedObject.name": "ENGENE TotVAr AN8",
+            "cim:Measurement.measurementType": "ThreePhaseReactivePower",
+            "cim:Analog.maxValue": 30.0,
+            "cim:Analog.minValue": -30.0,
+            "cim:Analog.normalValue": 15.0,
+            "cim:Analog.positiveFlowIn": true,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.ABC"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.M"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.VAR"
+            }
+        },
+        {
+            "@id": "urn:uuid:2791272a-9ba0-49eb-ae5a-272c3437b59a",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "2791272a-9ba0-49eb-ae5a-272c3437b59a",
+            "cim:IdentifiedObject.description": "Engene Tap Postition Analog 9",
+            "cim:IdentifiedObject.name": "ENGENE TapPos AN9",
+            "cim:Measurement.measurementType": "TapPosition",
+            "cim:Analog.maxValue": 7.0,
+            "cim:Analog.minValue": 0.0,
+            "cim:Analog.normalValue": 4.0,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.none"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.none"
+            }
+        },
+        {
+            "@id": "urn:uuid:03f01d8e-c6ca-4815-a0a5-0a4a57abbb02",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "03f01d8e-c6ca-4815-a0a5-0a4a57abbb02",
+            "cim:IdentifiedObject.description": "Engene OilTemperature Analog 10",
+            "cim:IdentifiedObject.name": "ENGENE OilTemp AN10",
+            "cim:Measurement.measurementType": "OilTemperature",
+            "cim:Analog.maxValue": 140.0,
+            "cim:Analog.minValue": -40.0,
+            "cim:Analog.normalValue": 50.0,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.none"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.Deg"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:6b7f7604-9f3e-479e-889f-f5d3d8ca60a1"
+            }
+        },
+        {
+            "@id": "urn:uuid:b7962aac-9280-46ce-92a2-459880fcb6c8",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "b7962aac-9280-46ce-92a2-459880fcb6c8",
+            "cim:IdentifiedObject.description": "Engene Analog 7 Analog Value 7",
+            "cim:IdentifiedObject.name": "ENGENE AN7 AV7",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 4134.0,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:56f7f828-73d8-405a-a725-4dfbe88c371d"
+            }
+        },
+        {
+            "@id": "urn:uuid:49d96826-fad5-41f7-b5b8-c05dc0c166ed",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "49d96826-fad5-41f7-b5b8-c05dc0c166ed",
+            "cim:IdentifiedObject.description": "Engene Analog 8 Analog Value 8",
+            "cim:IdentifiedObject.name": "ENGENE AN8 AV8",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 2563.0,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:ca370fd8-debb-4fb3-9595-952932ceea7f"
+            }
+        },
+        {
+            "@id": "urn:uuid:6e22219e-ef75-450a-8269-e440f49b04a7",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "6e22219e-ef75-450a-8269-e440f49b04a7",
+            "cim:IdentifiedObject.description": "Engene Analog 9 Analog Value 9",
+            "cim:IdentifiedObject.name": "ENGENE AN9 AV9",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 5.0,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:2791272a-9ba0-49eb-ae5a-272c3437b59a"
+            }
+        },
+        {
+            "@id": "urn:uuid:fc9fdcc1-71d0-41a7-b138-2d7592a9db4e",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "fc9fdcc1-71d0-41a7-b138-2d7592a9db4e",
+            "cim:IdentifiedObject.description": "Engene Analog 10 Analog Value 10",
+            "cim:IdentifiedObject.name": "ENGENE AN10 AV10",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 45.0,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:03f01d8e-c6ca-4815-a0a5-0a4a57abbb02"
+            }
+        },
+        {
+            "@id": "urn:uuid:c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "c284c4f3-db8d-42b0-b8f0-a9614ffd2fb6",
+            "cim:IdentifiedObject.description": "Engene Analog 1 Analog Value 1",
+            "cim:IdentifiedObject.name": "ENGENE AN1 AV1",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 265.8,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:b64c1205-d433-425f-9861-17e67fd8dd92"
+            }
+        },
+        {
+            "@id": "urn:uuid:a446a44a-2eef-448c-8890-29b9d4f40b5f",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "a446a44a-2eef-448c-8890-29b9d4f40b5f",
+            "cim:IdentifiedObject.description": "Engene Analog 2 Analog Value 2",
+            "cim:IdentifiedObject.name": "ENGENE AN2 AV2",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 270.3,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:d92eb31b-7af4-44d3-9d35-cc39ec96463a"
+            }
+        },
+        {
+            "@id": "urn:uuid:6068978b-1a52-4cc6-bd3d-b17d7a239ad0",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "6068978b-1a52-4cc6-bd3d-b17d7a239ad0",
+            "cim:IdentifiedObject.description": "Engene Analog 3 Analog Value 3",
+            "cim:IdentifiedObject.name": "ENGENE AN3 AV3",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 268.9,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:421acdf3-c623-47fa-9de1-3029ca7db837"
+            }
+        },
+        {
+            "@id": "urn:uuid:3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "3ab3e76a-7adc-43e6-a3a6-f10ed326ab1a",
+            "cim:IdentifiedObject.description": "Engene Analog 4 Analog Value 4",
+            "cim:IdentifiedObject.name": "ENGENE AN4 AV4",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 11.2,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:2066f19b-0a5f-48e3-96fa-4fe0b5f29ce7"
+            }
+        },
+        {
+            "@id": "urn:uuid:4e707066-d551-4f75-ae9c-c8fba5e6242d",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "4e707066-d551-4f75-ae9c-c8fba5e6242d",
+            "cim:IdentifiedObject.description": "Engene Analog 5 Analog Value 5",
+            "cim:IdentifiedObject.name": "ENGENE AN5 AV5",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 10.6,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:25498d39-29b5-45aa-8dae-ccfa497353db"
+            }
+        },
+        {
+            "@id": "urn:uuid:108f2b7f-dd63-4c41-b996-439c68275490",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "108f2b7f-dd63-4c41-b996-439c68275490",
+            "cim:IdentifiedObject.description": "Engene Analog 6 Analog Value 6",
+            "cim:IdentifiedObject.name": "ENGENE AN6 AV6",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2021-08-11T11:45:39.393725Z",
+            "cim:AnalogValue.value": 10.3,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:e11a4842-898f-43fc-9d09-1a7f4e6a694a"
+            }
+        },
+        {
+            "@id": "urn:uuid:126164c6-805d-4560-ab42-87660401a30c",
+            "@type": "cim:Discrete",
+            "cim:IdentifiedObject.mRID": "126164c6-805d-4560-ab42-87660401a30c",
+            "cim:IdentifiedObject.description": "Arendal 132kV Trafo 1 Breaker Switch Position",
+            "cim:IdentifiedObject.name": "ARENDAL 132 T1E SWITCH POSITION",
+            "cim:Measurement.measurementType": "SwitchPosition",
+            "cim:Discrete.maxValue": 3.0,
+            "cim:Discrete.minValue": 0.0,
+            "cim:Discrete.normalValue": 0.0,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.ABC"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.none"
+            },
+            "cim:Measurement.PowerSystemResource": {
+                "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
+            },
+            "cim:Measurement.ACDCTerminal": {
+                "@id": "urn:uuid:8266f01c-2b3d-4111-957e-b871f71f0fad"
+            }
+        },
+        {
+            "@id": "urn:uuid:7520d444-23c4-41ab-bc1d-c972bf328e51",
+            "@type": "cim:DiscreteValue",
+            "cim:IdentifiedObject.mRID": "7520d444-23c4-41ab-bc1d-c972bf328e51",
+            "cim:IdentifiedObject.description": "Arendal 132kV Trafo 1 Breaker Switch Position 0",
+            "cim:IdentifiedObject.name": "ARENDAL 132 T1E SWITCH POSITION 0",
+            "cim:MeasurementValue.timeStamp": "2021-08-11T13:45:39.393725Z",
+            "cim:DiscreteValue.value": 0.0,
+            "cim:MeasurementValue.MeasurementValueSource": {
+                "@id": "urn:uuid:b1a076df-b20d-490d-81a5-6e55efbf403c"
+            },
+            "cim:DiscreteValue.Discrete": {
+                "@id": "urn:uuid:126164c6-805d-4560-ab42-87660401a30c"
+            }
+        },
+        {
+            "@id": "urn:uuid:4d7a4e51-39ac-4588-9eb0-624fce41faad",
+            "@type": "cim:DiscreteValue",
+            "cim:IdentifiedObject.mRID": "4d7a4e51-39ac-4588-9eb0-624fce41faad",
+            "cim:IdentifiedObject.description": "Arendal 132kV Trafo 1 Breaker Switch Position 1",
+            "cim:IdentifiedObject.name": "ARENDAL 132 T1E SWITCH POSITION 1",
+            "cim:MeasurementValue.timeStamp": "2021-08-11T14:45:39.393725Z",
+            "cim:DiscreteValue.value": 1.0,
+            "cim:MeasurementValue.MeasurementValueSource": {
+                "@id": "urn:uuid:b1a076df-b20d-490d-81a5-6e55efbf403c"
+            },
+            "cim:DiscreteValue.Discrete": {
+                "@id": "urn:uuid:126164c6-805d-4560-ab42-87660401a30c"
+            }
+        },
+        {
+            "@id": "urn:uuid:be832621-c852-4035-a4fe-374e01444509",
+            "@type": "cim:DiscreteValue",
+            "cim:IdentifiedObject.mRID": "be832621-c852-4035-a4fe-374e01444509",
+            "cim:IdentifiedObject.description": "Arendal 132kV Trafo 1 Breaker Switch Position 2",
+            "cim:IdentifiedObject.name": "ARENDAL 132 T1E SWITCH POSITION 2",
+            "cim:MeasurementValue.timeStamp": "2021-08-11T15:45:39.393725Z",
+            "cim:DiscreteValue.value": 2.0,
+            "cim:MeasurementValue.MeasurementValueSource": {
+                "@id": "urn:uuid:c6d71c1d-73fd-4be1-91a0-d520305498cf"
+            },
+            "cim:DiscreteValue.Discrete": {
+                "@id": "urn:uuid:126164c6-805d-4560-ab42-87660401a30c"
+            }
+        },
+        {
+            "@id": "urn:uuid:73e4441c-6972-4695-b229-c62998a39567",
+            "@type": "cim:DiscreteValue",
+            "cim:IdentifiedObject.mRID": "73e4441c-6972-4695-b229-c62998a39567",
+            "cim:IdentifiedObject.description": "Arendal 132kV Trafo 1 Breaker Switch Position 3",
+            "cim:IdentifiedObject.name": "ARENDAL 132 T1E SWITCH POSITION 3",
+            "cim:MeasurementValue.timeStamp": "2021-08-11T16:45:39.393725Z",
+            "cim:DiscreteValue.value": 3.0,
+            "cim:MeasurementValue.MeasurementValueSource": {
+                "@id": "urn:uuid:c6d71c1d-73fd-4be1-91a0-d520305498cf"
+            },
+            "cim:DiscreteValue.Discrete": {
+                "@id": "urn:uuid:126164c6-805d-4560-ab42-87660401a30c"
+            }
+        },
+        {
+            "@id": "urn:uuid:26d2f8aa-b651-46c5-a54d-05948f35f3d2",
+            "@type": "cim:CurrentTransformer",
+            "cim:IdentifiedObject.mRID": "26d2f8aa-b651-46c5-a54d-05948f35f3d2",
+            "cim:IdentifiedObject.description": "Engene Current Transformer 1",
+            "cim:IdentifiedObject.name": "ENGENE CT1",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.normallyInService": true,
+            "cim:CurrentTransformer.accuracyClass": "5P",
+            "cim:CurrentTransformer.accuracyLimit": 5.0,
+            "cim:CurrentTransformer.coreBurden": 20.0,
+            "cim:CurrentTransformer.ctClass": "P30",
+            "cim:CurrentTransformer.usage": "protection",
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        },
+        {
+            "@id": "urn:uuid:0f3b6200-684d-4365-8d55-45baae73bffb",
+            "@type": "cim:CurrentTransformer",
+            "cim:IdentifiedObject.mRID": "0f3b6200-684d-4365-8d55-45baae73bffb",
+            "cim:IdentifiedObject.description": "Engene Current Transformer 2",
+            "cim:IdentifiedObject.name": "ENGENE CT2",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.normallyInService": true,
+            "cim:CurrentTransformer.accuracyClass": "5P",
+            "cim:CurrentTransformer.accuracyLimit": 5.0,
+            "cim:CurrentTransformer.coreBurden": 20.0,
+            "cim:CurrentTransformer.ctClass": "P30",
+            "cim:CurrentTransformer.usage": "protection",
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        },
+        {
+            "@id": "urn:uuid:cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541",
+            "@type": "cim:CurrentTransformer",
+            "cim:IdentifiedObject.mRID": "cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541",
+            "cim:IdentifiedObject.description": "Engene Current Transformer 3",
+            "cim:IdentifiedObject.name": "ENGENE CT3",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.normallyInService": true,
+            "cim:CurrentTransformer.accuracyClass": "5P",
+            "cim:CurrentTransformer.accuracyLimit": 5.0,
+            "cim:CurrentTransformer.coreBurden": 20.0,
+            "cim:CurrentTransformer.ctClass": "P30",
+            "cim:CurrentTransformer.usage": "protection",
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        },
+        {
+            "@id": "urn:uuid:686be1a3-4215-4ee3-b9fa-701b3c76ec04",
+            "@type": "cim:CurrentTransformer",
+            "cim:IdentifiedObject.mRID": "686be1a3-4215-4ee3-b9fa-701b3c76ec04",
+            "cim:IdentifiedObject.description": "Nedenes 400 Volt Current Transformer 4",
+            "cim:IdentifiedObject.name": "NEDENES 04 CT4",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.normallyInService": true,
+            "cim:CurrentTransformer.accuracyClass": "5P",
+            "cim:CurrentTransformer.accuracyLimit": 5.0,
+            "cim:CurrentTransformer.coreBurden": 20.0,
+            "cim:CurrentTransformer.ctClass": "P30",
+            "cim:CurrentTransformer.usage": "metering",
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5"
+            }
+        },
+        {
+            "@id": "urn:uuid:fd11bf7f-138b-4a1b-802c-25262b7b8672",
+            "@type": "cim:PotentialTransformer",
+            "cim:IdentifiedObject.mRID": "fd11bf7f-138b-4a1b-802c-25262b7b8672",
+            "cim:IdentifiedObject.description": "Engene Voltage Transformer 1",
+            "cim:IdentifiedObject.name": "ENGENE VT1",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.normallyInService": true,
+            "cim:PotentialTransformer.accuracyClass": "0.2",
+            "cim:PotentialTransformer.nominalRatio": 200.0,
+            "cim:PotentialTransformer.ptClass": "0.2",
+            "cim:PotentialTransformer.type": {
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
+            },
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        },
+        {
+            "@id": "urn:uuid:03f7a245-aeca-48ba-af07-58419fb9b77c",
+            "@type": "cim:PotentialTransformer",
+            "cim:IdentifiedObject.mRID": "03f7a245-aeca-48ba-af07-58419fb9b77c",
+            "cim:IdentifiedObject.description": "Engene Voltage Transformer 2",
+            "cim:IdentifiedObject.name": "ENGENE VT2",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.networkAnalysisEnabled": true,
+            "cim:Equipment.normallyInService": true,
+            "cim:PotentialTransformer.accuracyClass": "0.2",
+            "cim:PotentialTransformer.nominalRatio": 200.0,
+            "cim:PotentialTransformer.ptClass": "0.2",
+            "cim:PotentialTransformer.type": {
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
+            },
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        },
+        {
+            "@id": "urn:uuid:74936f6f-296e-44db-b772-1d522f317069",
+            "@type": "cim:PotentialTransformer",
+            "cim:IdentifiedObject.mRID": "74936f6f-296e-44db-b772-1d522f317069",
+            "cim:IdentifiedObject.description": "Engene Voltage Transformer 3",
+            "cim:IdentifiedObject.name": "ENGENE VT3",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.networkAnalysisEnabled": true,
+            "cim:Equipment.normallyInService": true,
+            "cim:PotentialTransformer.accuracyClass": "0.2",
+            "cim:PotentialTransformer.nominalRatio": 200.0,
+            "cim:PotentialTransformer.ptClass": "0.2",
+            "cim:PotentialTransformer.type": {
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
+            },
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
+            }
+        },
+        {
+            "@id": "urn:uuid:d9358e9b-1dc4-40fe-9c5f-b3cb40b236a5",
+            "@type": "cim:PotentialTransformer",
+            "cim:IdentifiedObject.mRID": "d9358e9b-1dc4-40fe-9c5f-b3cb40b236a5",
+            "cim:IdentifiedObject.description": "Nedenes 400 Volt Voltage Transformer 4",
+            "cim:IdentifiedObject.name": "NEDENES 04 VT4",
+            "cim:Equipment.aggregate": false,
+            "cim:Equipment.normallyInService": true,
+            "cim:PotentialTransformer.accuracyClass": "0.2",
+            "cim:PotentialTransformer.nominalRatio": 200.0,
+            "cim:PotentialTransformer.ptClass": "0.2",
+            "cim:PotentialTransformer.type": {
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
+            },
+            "cim:AuxiliaryEquipment.Terminal": {
+                "@id": "urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5"
+            }
+        }
+    ]
+}

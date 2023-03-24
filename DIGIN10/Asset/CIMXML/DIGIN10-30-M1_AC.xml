@@ -34,7 +34,7 @@
         <cim:WireInfo.ratedCurrent>220</cim:WireInfo.ratedCurrent>
         <cim:WireInfo.sizeDescription></cim:WireInfo.sizeDescription>
         <cim:WireInfo.strandCount></cim:WireInfo.strandCount>
-        <cim:CableInfo.constructionKind rdf:resource="http://iec.ch/TC57/CIM100#CableConstructionKind.stranded" /> <!--No idea-->
+        <cim:CableInfo.constructionKind rdf:resource="http://iec.ch/TC57/CIM100#CableConstructionKind.stranded" />
         <cim:CableInfo.diameterOverCore></cim:CableInfo.diameterOverCore>
         <cim:CableInfo.diameterOverInsulation></cim:CableInfo.diameterOverInsulation>
         <cim:CableInfo.diameterOverJacket></cim:CableInfo.diameterOverJacket>
@@ -57,21 +57,28 @@
         <cim:IdentifiedObject.mRID>b0c1754b-187c-49fa-8159-6fd2f4f918ad</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.Description>Power and grid utility production company</cim:IdentifiedObject.Description>
         <cim:IdentifiedObject.name>Reuters Borg Elektro</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.alias>RBE</cim:IdentifiedObject.alias>
-        <cim:Manufacturer.ProductAssetModel rdf:ID="#_df774997-6a8e-47ca-9cd5-30ce2a85abf0"/>
+        <cim:IdentifiedObject.aliasName>RBE</cim:IdentifiedObject.aliasName>
+        <cim:Manufacturer.ProductAssetModel rdf:resource="#_df774997-6a8e-47ca-9cd5-30ce2a85abf0"/>
     </cim:Manufacturer>
 
     <cim:ProductAssetModel rdf:ID ="_df774997-6a8e-47ca-9cd5-30ce2a85abf0">
         <cim:IdentifiedObject.mRID>df774997-6a8e-47ca-9cd5-30ce2a85abf0</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>RTU skap for småkraftverk</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>RS5970P</cim:IdentifiedObject.name>    
-        <cim:modelNumber>28597</cim:modelNumber>
-        <cim:modelVersion>2.3</cim:modelVersion>
-        <cim:drawingNumber>EQ-15987-104</cim:drawingNumber>
-        <cim:instructionMnaual>RS5970P Operation Manual</cim:instructionMnaual>
-        <cim:weightTotal>115 kg</cim:weightTotal>
-        <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
-        <cim:ProducAssetModel.Manufacturer rdf:ID="#_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec"/>
+        <cim:ProductAssetModel.modelNumber>28597</cim:ProductAssetModel.modelNumber>
+        <cim:ProductAssetModel.modelVersion>2.3</cim:ProductAssetModel.modelVersion>
+        <cim:ProductAssetModel.drawingNumber>EQ-15987-104</cim:ProductAssetModel.drawingNumber>
+        <cim:ProductAssetModel.instructionMnaual>RS5970P Operation Manual</cim:ProductAssetModel.instructionMnaual>
+        <cim:ProductAssetModel.weightTotal>115</cim:ProductAssetModel.weightTotal>
+        <cim:ProductAssetModel.AssetModelCatalogueItem rdf:resource="#_99e19919-b030-4742-8609-f1230681333d"/>
+        <cim:ProductAssetModel.Manufacturer rdf:resource="#_6d4b7fa0-aa6e-4e82-a88e-c14b84370eec"/>
     </cim:ProductAssetModel>
-    
+
+    <cim:AssetModelCatalogueItem rdf:ID ="_99e19919-b030-4742-8609-f1230681333d">
+        <cim:IdentifiedObject.mRID>99e19919-b030-4742-8609-f1230681333d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Pricing for RTU skap for småkraftverk</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>Price_RS5970P</cim:IdentifiedObject.name>    
+        <cim:AssetModelCatalogueItem.unitCost>38500</cim:AssetModelCatalogueItem.unitCost>
+    </cim:AssetModelCatalogueItem>
+
 </rdf:RDF>

@@ -1,0 +1,156 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-10-28T13:37:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_OP",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Equipment Operation (OP) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-10-28T13:37:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_OP"
+    },
+    "dcat:keyword": "OP",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/Operation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/Operation/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:173ce5e1-d16b-4015-9793-b12913c9f428",
+            "@type": "cim:Analog",
+            "cim:IdentifiedObject.mRID": "173ce5e1-d16b-4015-9793-b12913c9f428",
+            "cim:IdentifiedObject.description": "400 Volt Telemarkstien 2 AC Line Segment 1 Analog 7",
+            "cim:IdentifiedObject.name": "04 TELEMA 2 ACLS1 AN7",
+            "cim:Measurement.measurementType": "Temperature",
+            "cim:Analog.maxValue": 120.0,
+            "cim:Analog.minValue": 10.0,
+            "cim:Analog.normalValue": 30.0,
+            "cim:Analog.positiveFlowIn": false,
+            "cim:Measurement.phases": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:Measurement.unitMultiplier": {
+                "@id": "cim:UnitMultiplier.none"
+            },
+            "cim:Measurement.unitSymbol": {
+                "@id": "cim:UnitSymbol.degC"
+            },
+            "cim:Measurement.Asset": {
+                "@id": "urn:uuid:6270b5e8-b307-427d-82c2-5605950145e3"
+            }
+        },
+        {
+            "@id": "urn:uuid:ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f",
+            "@type": "cim:AnalogValue",
+            "cim:IdentifiedObject.mRID": "ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f",
+            "cim:IdentifiedObject.description": "400 Volt Telemarkstien 2 Analog 7 Analog Value 7",
+            "cim:IdentifiedObject.name": "04 TELEMA 2 AN7 AV7",
+            "cim:MeasurementValue.sensorAccuracy": 97.2,
+            "cim:MeasurementValue.timeStamp": "2022-03-30T13:45:39.393725Z",
+            "cim:AnalogValue.value": 24.37,
+            "cim:AnalogValue.Analog": {
+                "@id": "urn:uuid:173ce5e1-d16b-4015-9793-b12913c9f428"
+            }
+        },
+        {
+            "@id": "urn:uuid:1fe5049c-34d7-4e30-a411-ff01c16b8f3a",
+            "@type": "cim:CommunicationLink",
+            "cim:IdentifiedObject.mRID": "1fe5049c-34d7-4e30-a411-ff01c16b8f3a",
+            "cim:IdentifiedObject.description": "Disruptive Technolgies WiFi",
+            "cim:IdentifiedObject.name": "DisrTechWiFi",
+            "cim:CommunicationLink.RemoteUnits": [
+                {
+                    "@id": "urn:uuid:00160296-775f-407a-8d67-c9a5d610715a"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:2bf1f9fc-263d-4995-80da-9802dc087fe5",
+            "@type": "cim:CommunicationLink",
+            "cim:IdentifiedObject.mRID": "2bf1f9fc-263d-4995-80da-9802dc087fe5",
+            "cim:IdentifiedObject.description": "Disruptive Technolgies 4G",
+            "cim:IdentifiedObject.name": "DisrTech4G",
+            "cim:CommunicationLink.RemoteUnits": [
+                {
+                    "@id": "urn:uuid:00160296-775f-407a-8d67-c9a5d610715a"
+                }
+            ]
+        },
+        {
+            "@id": "urn:uuid:055d5259-8401-4206-a483-f7fd13a87299",
+            "@type": "cim:RemoteSource",
+            "cim:IdentifiedObject.mRID": "055d5259-8401-4206-a483-f7fd13a87299",
+            "cim:IdentifiedObject.description": "400 Volt Telemarkstien 2 Remote Source 1",
+            "cim:IdentifiedObject.name": "04 TELEMA 2 RS1",
+            "cim:RemoteSource.deadband": 0.0,
+            "cim:RemoteSource.scanInterval": 1.0,
+            "cim:RemoteSource.sensorMaximum": 120.0,
+            "cim:RemoteSource.sensorMinimum": -30.0,
+            "cim:RemotePoint.RemoteUnit": {
+                "@id": "urn:uuid:00160296-775f-407a-8d67-c9a5d610715a"
+            }
+        },
+        {
+            "@id": "urn:uuid:00160296-775f-407a-8d67-c9a5d610715a",
+            "@type": "cim:RemoteUnit",
+            "cim:IdentifiedObject.mRID": "00160296-775f-407a-8d67-c9a5d610715a",
+            "cim:IdentifiedObject.description": "400 Volt Telemarkstien 2 Remote Unit 1",
+            "cim:IdentifiedObject.name": "04 TELEMA 2 RU1",
+            "cim:RemoteUnit.remoteUnitType": {
+                "@id": "cim:RemoteUnitType.IED"
+            }
+        }
+    ]
+}

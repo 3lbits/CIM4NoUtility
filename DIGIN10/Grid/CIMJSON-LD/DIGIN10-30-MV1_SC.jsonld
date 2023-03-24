@@ -1,0 +1,305 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1_SC",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Equipment Short-Circuit (SC) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_SC"
+    },
+    "dcat:keyword": "SC",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit/4.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:_681a26db-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "681a26db-5a55-11eb-a658-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_ab5aff23-cc0c-40a9-ab1b-7c113822358e",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "ab5aff23-cc0c-40a9-ab1b-7c113822358e",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "cf484bc9-2ef9-4116-a5a9-9a5db3e09df9",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_681a26f3-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "681a26f3-5a55-11eb-a658-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_1f19556f-4604-8545-b930-0d96b163c57a",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "1f19556f-4604-8545-b930-0d96b163c57a",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_92d33b99-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "92d33b99-7034-11eb-a65a-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_92d33bcc-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "92d33bcc-7034-11eb-a65a-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_92d33be4-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "92d33be4-7034-11eb-a65a-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_681a2a7f-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "681a2a7f-5a55-11eb-a658-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_681a2a13-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "681a2a13-5a55-11eb-a658-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_681a26cf-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "681a26cf-5a55-11eb-a658-74e5f963e191",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "d1afcb93-f7d9-4e93-8c91-bbeb35f2a322",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_b1b4714b-a160-7742-84d5-d6486d776c94",
+            "@type": "cim:ACLineSegment",
+            "cim:IdentifiedObject.mRID": "b1b4714b-a160-7742-84d5-d6486d776c94",
+            "cim:ACLineSegment.b0ch": 0.0,
+            "cim:ACLineSegment.g0ch": 0.0,
+            "cim:ACLineSegment.r0": 0.3,
+            "cim:ACLineSegment.shortCircuitEndTemperature": 160.0,
+            "cim:ACLineSegment.x0": 0.9
+        },
+        {
+            "@id": "urn:uuid:_ed8865cf-8b36-42ce-acdc-0627b5f55802",
+            "@type": "cim:EquivalentInjection",
+            "cim:IdentifiedObject.mRID": "ed8865cf-8b36-42ce-acdc-0627b5f55802",
+            "cim:EquivalentInjection.r": 0.43445,
+            "cim:EquivalentInjection.x": 4.3445
+        },
+        {
+            "@id": "urn:uuid:_c70c1ea0-c58b-624b-ab6a-0072ad2eea25",
+            "@type": "cim:EquivalentInjection",
+            "cim:IdentifiedObject.mRID": "c70c1ea0-c58b-624b-ab6a-0072ad2eea25",
+            "cim:EquivalentInjection.r0": 1.267199996,
+            "cim:EquivalentInjection.r": 0.316799999,
+            "cim:EquivalentInjection.x0": 0.298576969,
+            "cim:EquivalentInjection.x": 0.074644242
+        },
+        {
+            "@id": "urn:uuid:_33666962-c2f9-4f6b-af5a-2ef1982ac282",
+            "@type": "cim:SynchronousMachine",
+            "cim:IdentifiedObject.mRID": "33666962-c2f9-4f6b-af5a-2ef1982ac282",
+            "cim:SynchronousMachine.r": 0.43445
+        },
+        {
+            "@id": "urn:uuid:_c9d5445c-9ad6-3849-9e02-08762805826b",
+            "@type": "cim:PetersenCoil",
+            "cim:IdentifiedObject.mRID": "c9d5445c-9ad6-3849-9e02-08762805826b"
+        },
+        {
+            "@id": "urn:uuid:_62585c75-b020-614c-89a1-fec7c118c3fa",
+            "@type": "cim:PetersenCoil",
+            "cim:IdentifiedObject.mRID": "62585c75-b020-614c-89a1-fec7c118c3fa"
+        },
+        {
+            "@id": "urn:uuid:_681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "cim:PowerTransformer.isPartOfGeneratorUnit": false
+        },
+        {
+            "@id": "urn:uuid:_681a2fcb-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "681a2fcb-5a55-11eb-a658-74e5f963e191",
+            "cim:PowerTransformer.isPartOfGeneratorUnit": false
+        },
+        {
+            "@id": "urn:uuid:_681a3087-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "681a3087-5a55-11eb-a658-74e5f963e191",
+            "cim:PowerTransformer.isPartOfGeneratorUnit": false
+        },
+        {
+            "@id": "urn:uuid:_681a309b-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformer",
+            "cim:IdentifiedObject.mRID": "681a309b-5a55-11eb-a658-74e5f963e191",
+            "cim:PowerTransformer.isPartOfGeneratorUnit": false
+        },
+        {
+            "@id": "urn:uuid:_681a2fe0-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a2fe0-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a2fea-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a2fea-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a308a-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a308a-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a3094-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a3094-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a2fce-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a2fce-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a2fd8-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a2fd8-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a309e-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a309e-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        },
+        {
+            "@id": "urn:uuid:_681a30a8-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:PowerTransformerEnd",
+            "cim:IdentifiedObject.mRID": "681a30a8-5a55-11eb-a658-74e5f963e191",
+            "cim:TransformerEnd.grounded": false
+        }
+    ]
+}

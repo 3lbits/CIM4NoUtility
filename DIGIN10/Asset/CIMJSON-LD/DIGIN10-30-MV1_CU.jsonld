@@ -1,0 +1,112 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:5f21a6a1-1d98-45f0-89f1-e4d7aa34691a",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1_CU",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Customer (CU) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_CU"
+    },
+    "dcat:keyword": "CU",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM/Customers/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:106944d1-3139-41a8-a972-5bf8be1a1c5b",
+            "@type": "cim:UsagePoint",
+            "cim:IdentifiedObject.mRID": "106944d1-3139-41a8-a972-5bf8be1a1c5b",
+            "cim:IdentifiedObject.description": "Nedenes 400 Volt PowerTransformer Load UsagePoint 14",
+            "cim:IdentifiedObject.name": "NEDENES 04 SS1 UP014",
+            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.connectionCategory": "LowVoltage",
+            "cim:UsagePoint.disconnectionMethod": null,
+            "cim:UsagePoint.estimatedLoad": null,
+            "cim:UsagePoint.grounded": true,
+            "cim:UsagePoint.isSdq": false,
+            "cim:UsagePoint.isVirtual": false,
+            "cim:UsagePoint.minimalUsageExpected": false,
+            "cim:UsagePoint.nominalServiceVoltage": 0.4,
+            "cim:UsagePoint.outageRegion": "Telemarkstien",
+            "cim:UsagePoint.phaseCount": 3,
+            "cim:UsagePoint.ratedCurrent": 400.0,
+            "cim:UsagePoint.ratedPower": 1.0,
+            "cim:UsagePoint.readCycle": "Hourly",
+            "cim:UsagePoint.readRoute": null,
+            "cim:UsagePoint.serviceDeliveryRemark": "PowerTransformerMeter",
+            "cim:UsagePoint.servicePriority": "High",
+            "cim:UsagePoint.amiBillingReady": {
+                "@id": "cim:AmiBillingReady.operable"
+            },
+            "cim:UsagePoint.connectionState": {
+                "@id": "cim:ConnectionState.connected"
+            },
+            "cim:UsagePoint.phaseCode": {
+                "@id": "cim:PhaseCode.ABCN"
+            },
+            "cim:UsagePoint.Equipments": [
+                {
+                    "@id": "urn:uuid:0506353c-8adf-4f48-999f-bb1975c03467"
+                },
+                {
+                    "@id": "urn:uuid:d9358e9b-1dc4-40fe-9c5f-b3cb40b236a5"
+                },
+                {
+                    "@id": "urn:uuid:686be1a3-4215-4ee3-b9fa-701b3c76ec04"
+                }
+            ]
+        }
+    ]
+}

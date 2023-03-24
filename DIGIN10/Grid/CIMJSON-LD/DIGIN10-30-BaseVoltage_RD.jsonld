@@ -1,0 +1,122 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-04-01T08:55:55",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-BaseVoltage_RD",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Base Voltage Reference model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-BaseVoltage_RD"
+    },
+    "dcat:keyword": "RD",
+    "dcterms:spatial": {
+        "@id": "\"http://energy.referencedata.eu/CGMES\""
+    },
+    "@graph": [
+        {
+            "@id": "urn:uuid:2dd90154-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:BasePower",
+            "cim:IdentifiedObject.mRID": "2dd90154-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Base Power 1000",
+            "cim:BasePower.basePower": 1000.0
+        },
+        {
+            "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "2dd90159-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Base Voltage 420 kV",
+            "cim:IdentifiedObject.name": "AC-420kV",
+            "cim:BaseVoltage.nominalVoltage": 420.0
+        },
+        {
+            "@id": "urn:uuid:2dd90169-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "2dd90169-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Base Voltage 300 kV",
+            "cim:IdentifiedObject.name": "AC-300kV",
+            "cim:BaseVoltage.nominalVoltage": 300.0
+        },
+        {
+            "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Base Voltage 132 kV",
+            "cim:IdentifiedObject.name": "AC-132kV",
+            "cim:BaseVoltage.nominalVoltage": 132.0
+        },
+        {
+            "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "92d33b38-7034-11eb-a65a-74e5f963e191",
+            "cim:IdentifiedObject.description": "Base Voltage 22 kV",
+            "cim:IdentifiedObject.name": "AC-22kV",
+            "cim:BaseVoltage.nominalVoltage": 22.0
+        },
+        {
+            "@id": "urn:uuid:06d3126a-8b34-4101-b800-c09ec42275a9",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "06d3126a-8b34-4101-b800-c09ec42275a9",
+            "cim:IdentifiedObject.description": "Base Voltage 1000 V",
+            "cim:IdentifiedObject.name": "AC-1000V",
+            "cim:BaseVoltage.nominalVoltage": 1.0
+        },
+        {
+            "@id": "urn:uuid:fb384693-5e5b-4432-a281-1c7b206f652e",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "fb384693-5e5b-4432-a281-1c7b206f652e",
+            "cim:IdentifiedObject.description": "Base Voltage 690 V",
+            "cim:IdentifiedObject.name": "AC-690V",
+            "cim:BaseVoltage.nominalVoltage": 0.69
+        },
+        {
+            "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "9598e4a0-67e5-4ad7-879c-c85a1f63159c",
+            "cim:IdentifiedObject.description": "Base Voltage 400 V",
+            "cim:IdentifiedObject.name": "AC-400V",
+            "cim:BaseVoltage.nominalVoltage": 0.4
+        },
+        {
+            "@id": "urn:uuid:830622e6-d259-4526-b14e-122d94a622a4",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "830622e6-d259-4526-b14e-122d94a622a4",
+            "cim:IdentifiedObject.description": "Base Voltage 230 V",
+            "cim:IdentifiedObject.name": "AC-230V",
+            "cim:BaseVoltage.nominalVoltage": 0.23
+        }
+    ]
+}

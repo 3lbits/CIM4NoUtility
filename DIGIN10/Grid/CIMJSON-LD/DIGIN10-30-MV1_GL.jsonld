@@ -1,0 +1,316 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-MV1_GL",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Geographical layout (GL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-MV1_GL"
+    },
+    "dcat:keyword": "GL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/CIM/Geographical/2/0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834",
+            "@type": "cim:CoordinateSystem",
+            "cim:IdentifiedObject.mRID": "a5417df7-4f3c-4661-8701-aa5ee6991834",
+            "cim:IdentifiedObject.name": "EPSG 4326",
+            "cim:CoordinateSystem.crsUrn": "urn:ogc:def:crs:EPSG::4336"
+        },
+        {
+            "@id": "urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "9d68070f-959b-472b-8774-d552c9bcec5c",
+            "cim:IdentifiedObject.name": "L ENGENE",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "80d03a93-b24b-a944-a1ec-9c02e3e56e4a",
+            "cim:IdentifiedObject.name": "L NEDENES",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "0003ba83-a884-e74b-b89e-eb26079a7f57",
+            "cim:IdentifiedObject.name": "L FROLAND",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "cbc4987d-6ea1-9644-84a0-fceecd4cd25b",
+            "cim:IdentifiedObject.name": "L ARENDAL",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "9ae7284b-84ec-344f-a3f1-50a13f72be4b",
+            "cim:IdentifiedObject.name": "L T_ENGENE",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "358b358f-3fbe-42da-a071-c84c64449b95",
+            "cim:IdentifiedObject.name": "L ARENDAL-FROLAND",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "6c77ced6-7735-4a49-a086-9b241a1622c1",
+            "cim:IdentifiedObject.name": "L FROLAND-T_ENGENE",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:c3b960e2-fb92-478b-880d-13768894c467",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "c3b960e2-fb92-478b-880d-13768894c467",
+            "cim:IdentifiedObject.name": "L T_ENGENE-ENGENE",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "87870813-fff0-45eb-a9e0-dc28a12223b1",
+            "cim:IdentifiedObject.name": "L ENGENE-NEDENES",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:aa125e13-2b8b-41cb-9726-63fdf52a37c4",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.6929813714585,
+            "cim:PositionPoint.yPosition": 58.4017201058505,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c"
+            }
+        },
+        {
+            "@id": "urn:uuid:76b56639-411c-0f4d-b23b-47b850ec72e3",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.70038854077893,
+            "cim:PositionPoint.yPosition": 58.4154855281921,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a"
+            }
+        },
+        {
+            "@id": "urn:uuid:100010a9-4266-0340-b271-ae3e61a14d12",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.64229880452226,
+            "cim:PositionPoint.yPosition": 58.5074387827182,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57"
+            }
+        },
+        {
+            "@id": "urn:uuid:94063a82-6722-2f40-b596-f7e39eee6454",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.77315129409427,
+            "cim:PositionPoint.yPosition": 58.4640187084885,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b"
+            }
+        },
+        {
+            "@id": "urn:uuid:02bcdc15-1cf1-7244-92e7-9057b65919fc",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.68410932019787,
+            "cim:PositionPoint.yPosition": 58.4141069023377,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b"
+            }
+        },
+        {
+            "@id": "urn:uuid:966c6ef8-78c0-4c99-b096-d06545ac6604",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.77315129409427,
+            "cim:PositionPoint.yPosition": 58.4640187084885,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95"
+            }
+        },
+        {
+            "@id": "urn:uuid:d066daa7-56a1-4c61-8411-caddfcf451f5",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 2,
+            "cim:PositionPoint.xPosition": 8.64229880452226,
+            "cim:PositionPoint.yPosition": 58.5074387827182,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95"
+            }
+        },
+        {
+            "@id": "urn:uuid:c35e2ef4-eb74-4824-a001-b25ba199363e",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.64229880452226,
+            "cim:PositionPoint.yPosition": 58.5074387827182,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1"
+            }
+        },
+        {
+            "@id": "urn:uuid:09b30053-af9b-4475-b0a4-b439462e1b8d",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 2,
+            "cim:PositionPoint.xPosition": 8.68410932019787,
+            "cim:PositionPoint.yPosition": 58.4141069023377,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1"
+            }
+        },
+        {
+            "@id": "urn:uuid:d7e8ce29-8119-4a25-af2b-1b247d56e44b",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.68410932019787,
+            "cim:PositionPoint.yPosition": 58.4141069023377,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:c3b960e2-fb92-478b-880d-13768894c467"
+            }
+        },
+        {
+            "@id": "urn:uuid:1640e77b-5126-4514-94d3-78f057174a83",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 2,
+            "cim:PositionPoint.xPosition": 8.6929813714585,
+            "cim:PositionPoint.yPosition": 58.4017201058505,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:c3b960e2-fb92-478b-880d-13768894c467"
+            }
+        },
+        {
+            "@id": "urn:uuid:f6c06356-bb16-462e-96cd-196bb0228400",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.6929813714585,
+            "cim:PositionPoint.yPosition": 58.4017201058505,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1"
+            }
+        },
+        {
+            "@id": "urn:uuid:2401e59b-e904-4552-8367-b58f45f7b575",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 2,
+            "cim:PositionPoint.xPosition": 8.70038854077893,
+            "cim:PositionPoint.yPosition": 58.4154855281921,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1"
+            }
+        }
+    ]
+}

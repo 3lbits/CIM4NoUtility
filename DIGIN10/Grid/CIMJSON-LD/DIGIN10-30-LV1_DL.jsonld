@@ -1,0 +1,77 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T15:24:37Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_DL",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Diagram Layout (DL) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_DL"
+    },
+    "dcat:keyword": "DL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:6e7d0428-fc30-43dc-a9d6-42aa5c9d6168",
+            "@type": "cim:Diagram",
+            "cim:IdentifiedObject.mRID": "6e7d0428-fc30-43dc-a9d6-42aa5c9d6168",
+            "cim:IdentifiedObject.name": "DIGIN10 Low Voltage",
+            "cim:Diagram.orientation": {
+                "@id": "cim:OrientationKind.negative"
+            }
+        }
+    ]
+}
