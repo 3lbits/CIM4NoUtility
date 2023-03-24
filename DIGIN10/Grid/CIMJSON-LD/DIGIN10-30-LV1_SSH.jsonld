@@ -1,0 +1,1290 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2023-03-24T09:17:57Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2022-03-30T16:26:37.958Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30-LV1_SSH",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Steady State Hypothesis (SSH) Model",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2022-03-30T23:00:00Z",
+            "@type": "xsd:dateTime"
+        },
+        "dcat:endDate": {
+            "@value": "2022-03-31T23:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcat:temporalResolution": {
+        "@type": "xsd:duration",
+        "@value": "PT1H"
+    },
+    "dcterms:rights": "© 2023 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_SSH"
+    },
+    "dcat:keyword": "SSH",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10/LV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis/2.0"
+        },
+        {
+            "@id": "http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
+            "dcterms:title": "DIGIN10-30-LV1_SSH"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:_9d58e5bb-834c-4faa-928c-7da0bb1497d9",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_8dcf0a96-206b-4da2-814d-4030ac0dfaec",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_797fe5ce-1857-4bea-8a0f-728a4b4c30ed",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_f2ed5944-a394-4802-8ec9-936bc60e5bc4",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_81567f71-8233-4e19-8357-e75d35e89470",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_fe0a5228-5eb4-4008-9ee6-d22389f798e9",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_93efed67-8a75-487c-8e1d-0d31ee4a2fc3",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_b6bbea56-f530-4f7b-9a94-9b7fdeb58779",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_e0e00668-9e76-461f-b310-8c84afb9ffe6",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_50e4056a-92e6-4bc2-b6e1-4d66f1624c38",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_70b19e4c-edb9-4957-885c-59b7a515724f",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_46bce40c-71c2-4d19-b63f-78a69c460b0e",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_43dbe66c-a342-44b0-b9cf-058c784cef1d",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_0103615e-f6cc-4cb8-a338-a7fb714cdfa2",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_919be6f3-be6b-449d-af3d-4d0a7a221ff5",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_30d15518-d0ac-4800-a5c1-da8593c790ed",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_84329e8e-2efe-4870-82db-a0bf9a768bd2",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_ead7f7fd-d132-43b5-b561-1b0e65b0a562",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_3f90847f-9450-47aa-a2fa-714cc5353867",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_6f519536-eefe-452e-8294-c115bf21581d",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_446700b3-38fb-4cfe-aa71-11fdf6118a49",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_320b9701-cae3-478e-a70b-03d1736ed4e3",
+            "@type": "cim:ACLineSegment",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_b63024f5-df5f-4d21-ba9d-97288bdabe97",
+            "@type": "cim:Breaker",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": true
+        },
+        {
+            "@id": "urn:uuid:_b8a334a5-2bcb-40e6-b6c2-db906441552d",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_e18cbee0-1a4f-4315-9108-39f317c67fd5",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_8cc7031f-def2-49b7-97a9-43d3c3c15789",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_13e2ba8c-0046-447a-a99f-4c7ec3b051b9",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_46c1c4fb-6a7a-4912-bd2e-4851b6276345",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_c060399a-96a1-4765-9ef8-c936ca08f8fe",
+            "@type": "cim:BusbarSection",
+            "cim:Equipment.inService": true
+        },
+        {
+            "@id": "urn:uuid:_eba80fde-c5f8-49fc-8465-0329fdeefda9",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_3a7461ed-8e5d-427a-8b48-af3a46c042f5",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_67334cb3-902b-4d55-9207-50c75357458c",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_1bb434df-1410-4b79-b57b-1af90387e355",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_e2b45f87-e399-47b4-86f9-0e68fb374a65",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_dda0993b-140e-41f4-ab0e-9690859afef3",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_ed384e6d-b8d1-45bf-9778-fb2e1b5142fa",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_7d2f35f7-82ef-42f9-bc10-6f62fe96d116",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_a6d32ac1-e894-4d28-a44b-41635a6c8b6f",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_1ab052d3-e055-4dfe-9e47-8af771bd652a",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_5394fd91-851b-406a-ab9c-ecbe7a411c17",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_aae86260-d615-473f-9622-5817da962df1",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_2a850d95-6c2e-4a20-a9c6-0f97158473d6",
+            "@type": "cim:ConformLoad",
+            "cim:Equipment.inService": true,
+            "cim:EnergyConsumer.p": 0.005,
+            "cim:EnergyConsumer.q": 0.00056
+        },
+        {
+            "@id": "urn:uuid:_9df7b716-0395-d14c-889e-15be72031d4a",
+            "@type": "cim:ControlArea",
+            "cim:ControlArea.netInterchange": 0.0
+        },
+        {
+            "@id": "urn:uuid:_9ff945ef-e893-4c68-b514-ff8940c01f17",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_e34ca4c2-8bd7-4d41-b407-bfde09878fe2",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_9b95046e-3a0b-4bf4-9ac8-b16ae30dd99f",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_2fe2f098-bef7-46ce-a283-4a533a07dbfc",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_af9b16b2-d918-445c-a2aa-5b116efe6ced",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_71d437d2-b5dc-48d7-9250-e558e8811ff3",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_b964f2e5-1c68-4b5f-abb7-11a4f84650bd",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_11f01e0a-8233-458f-b427-666f0fb53736",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_5457ebb3-1f51-483e-b49a-4424ec03840e",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_b059c518-fa8e-484a-a426-8766c56275ad",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_9bff3a3c-5a06-4538-b04c-6cdeaa4e709c",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_927aa241-7249-4362-83de-e2ff3da337da",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_aaed6c4c-abfb-49d0-bf54-a29398344a0f",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_94686647-b1d0-4214-ace2-4ec6879fffda",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_e50656d8-81e1-49b6-8960-120cdf90d351",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_d2124105-10f2-42c0-a16a-6c47b5edb485",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_0fdd0101-d830-4751-8500-158d70bfeed6",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_ca7b66d4-f320-4d41-a7d7-81e178fad8fa",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_d0cad0ac-ccd0-4fa1-ad9d-042a953f267e",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_c7a834b4-a64f-4e17-a09a-d922527cd824",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_1a367f73-c961-4f37-937f-9ee7d7a812a5",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_d600cd39-c90d-41d4-94c2-6899a02507c9",
+            "@type": "cim:CurrentLimit",
+            "cim:CurrentLimit.value": 400.0
+        },
+        {
+            "@id": "urn:uuid:_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a",
+            "@type": "cim:EquivalentInjection",
+            "cim:Equipment.inService": true,
+            "cim:EquivalentInjection.p": 0.065,
+            "cim:EquivalentInjection.q": 0.00728
+        },
+        {
+            "@id": "urn:uuid:_8aad5c29-6039-4321-8f8a-ad1c186dd145",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_ba0be174-8971-4820-a42b-db2c5a781e87",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_800c36a9-07be-45bd-9106-260cbd66ce4c",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_81f3131f-baed-442d-bf7a-3606832fc3e0",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": true
+        },
+        {
+            "@id": "urn:uuid:_7e432a85-77b4-44f2-ae98-07134a1a5087",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_46ae56a9-435f-4fad-aa91-015ef1dca930",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_296e7555-8ef5-4ad4-a85b-3111ae892a65",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_725505f7-df2a-41da-9428-0a9b7984817a",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_04355e33-02e4-42ed-8d88-96b0be7044a8",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_9b24ac8f-043c-4087-ac3b-a695c464f93d",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_5bd4c12d-99d5-49d7-87fb-a346067c697e",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_76335f11-64c3-474d-92fd-7ab11ed607e4",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_f64ec489-a926-4f4f-877b-102d4cd7fd2b",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_7c60d1fd-fe74-4094-89f7-2d3949deaa3c",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_9a717362-88c3-4b20-85a7-9adfb67c63ca",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_39a90500-8c87-4576-b912-32abf18a8d12",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_9f3753d2-3a46-454b-8d14-f4f00743d48a",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_063fd50f-9b15-4b24-a59c-be21be7fd845",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_1404c232-d6aa-4ed9-855c-8c7ac383a8f5",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_86b80fe6-e846-415c-a74d-30abad315741",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_85024669-7147-4a77-9a30-b773d8b10f58",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_131a14f6-7032-499d-b691-f65bc52cc635",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_117beb83-cb8e-444f-a054-e98d1ca477e7",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_e286272e-827c-4b12-83cb-6b3e91170e3e",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_2a906e57-0892-4de8-89b2-56c273f8c09c",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_a498f1fd-65f0-41df-83ee-29c92d075514",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_764a7252-9aae-4da4-a23b-6c770d8b16c1",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_bf819ffc-270d-4025-bef8-db10ffb5b196",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_e832d4e7-1335-4773-b203-bf7035d29bc3",
+            "@type": "cim:Fuse",
+            "cim:Equipment.inService": true,
+            "cim:Switch.locked": false,
+            "cim:Switch.open": false
+        },
+        {
+            "@id": "urn:uuid:_a9b61cc1-6066-49e5-bfbc-8ab93df5378f",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_be24dc11-bfeb-4879-b0ff-18a490500393",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_aa779c1e-3231-4a30-9c97-2e454df8fd2e",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_c09dcf2f-1c42-4327-b781-a60f03da1bdf",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_9b9eb222-f178-41bd-b982-1a6bbc962633",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_01e61a02-6a5c-4870-8908-0993f903e993",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_aedd4519-26d5-49a7-afdc-4429e9fa792b",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_3a69b15f-29f9-45a1-b1e5-abd6e87679ca",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_f9c541fc-963c-4261-b7be-635e26aab390",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7a27297f-5740-4fad-b0f5-70615a91b8c2",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_36f15195-4403-4b23-889f-ef5f31ea0bb7",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_c6c5b1ac-8cc3-46a5-9b10-66097a1ef1c8",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_6888a1d9-6f42-419f-b2df-7b6f0e031db4",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_5df405a4-3126-4ea8-a022-32d7756bd141",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_bd42c91e-8867-4d92-ba9d-491240b602af",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7a1e79c9-c114-4868-a557-1dccf242477d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_1c7f30d2-4876-4033-9637-90ce25ea2fe7",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_6a3d76f7-276c-44d5-b883-89240b3b2b2f",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_50abb33d-e94f-4e74-b775-d252f82d1310",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_c1de217c-a40b-4079-9fde-3d7bd30a934b",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_06ac43a8-dee2-4c3c-bf96-4d87defe94db",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_b4049b1a-ac26-43bc-a59f-bd3b4bbd666e",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_0da1c730-0958-4dac-9a8c-c8d7ba4b43ce",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_b6fde3bb-8fb7-4b19-9e15-32597c864385",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_532b1ea0-074d-4ab0-b582-b583b3289f03",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_38e1c640-0a06-4538-b521-953f48cefea8",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7ab75f17-adf9-4e46-b2c2-8c361e647e21",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_ca7d345e-cf27-4f24-941d-c0ac34b2fdb3",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_02d082db-3c6d-458a-93d2-0d7ace7d4ec8",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_40381c35-9d93-41dc-b504-9f7fa07d36fa",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_e1048b55-b799-45b5-aa60-e452c0784a5d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_bfe5eea8-b897-49ec-afc9-bbec308f93be",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_1e4f0009-85b7-4087-85a8-bf7c21f01e47",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_fc57ebb1-8059-4dd7-9811-2129b912dd45",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_2c0a6657-c218-4e53-8b4f-97eca6cabf5d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7fe6afe8-8c76-4da5-93ff-ef18a1ea5a05",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_0802b6e1-d0ec-4763-8ef3-3daa8491db3d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_81cdadda-ee8c-4dfd-946a-0635624ec15b",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_31333403-d015-4f06-964e-9e17a61c5a8b",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_143382f7-7fd8-4191-bc72-2637805f2232",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_536ea11f-ef95-4aed-9ed3-38e25507a31e",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_229bbca7-85c5-4477-a17a-a740a659f4ba",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_597e3d22-006a-42fd-98ab-2d770c3de3c3",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_4b48981e-04b8-497d-bd12-aebaa0711e51",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_63008f90-ffd1-437c-8325-dba7f0f6d0e0",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_75cd9cd7-b796-4f22-b6e3-8b6f7c5e37af",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_9f6c9ac5-f891-479b-b127-d032bd91e130",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_8a265428-9d34-49fb-8c38-925857746227",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7f48263a-770e-40c7-ad21-c71627cdab40",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_1f6d65dc-0498-4e9f-beda-0e36a667bb43",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_683d152b-dcf1-4366-80fd-76f2b6cd9ee3",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_fbf03686-b993-49c2-93c9-65104176a8f2",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_3319d991-dcb5-46ce-947c-a99d45f63aab",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_0215c1f8-fc1e-445f-a558-92bf98969e41",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_ed91b195-2039-4900-a268-a8755d30cf30",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_f31b5fec-4481-49d9-8848-fe49584f5ffe",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_3d6ea092-8ae6-42e3-babf-44a147bcb208",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_aa1b0b87-0d63-46e2-8111-9fbb6ea816a2",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_bf39bb12-27ee-4d10-8b12-e5cf9df9b716",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_e2be31ec-d1e5-406b-9599-86aa02207bed",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_e1a6c356-813b-4311-8986-898231fa1aa1",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_bf2c7b69-3bea-4fcc-958d-7b3c48a7a857",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_e8b1f571-0501-4698-ad19-640b1185dc7d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_52ed6ec4-be0a-408c-ad0a-7bd5373a146c",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_68157d46-4a7e-418f-bafe-66e20711a4a9",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_b2c87180-cc2e-495b-b118-f136e5bccf1d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_62523238-53d4-4711-8a2a-b41035630898",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_55e2a0a4-56bf-40c1-83b2-d325f5189991",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_283fd7fb-6e9d-412a-a4f5-fdabbca1a570",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_01ec3391-39cc-44e6-805e-ac0f0edae6c0",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_48e064d1-57cf-4fbe-bc6b-1aa924545e7a",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_aea98b32-d6db-4a7e-a95a-ada4f44c8198",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_2bc1cd52-2a39-4aab-ade9-aa288026e247",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_98004ef5-e5ce-4265-ab1f-61f09e071cfa",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_0a678342-9812-43a4-96f3-5854378d5d78",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_eb318191-ad86-4557-bda4-ec5bb2a8bf6c",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_8e8a13c4-ae71-48d8-84b7-dceb0d7672cb",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_c5bc4e4d-bac4-4345-910f-15a6790278d2",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_3511146a-8295-4ff1-a93f-c55041b56074",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_dac94d79-480e-4e2c-80be-38d1cd71ba4d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7b16f278-456f-4dc8-a3e5-3187f673f7c3",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_147daae5-324b-400e-bae3-2834a755d490",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_8096380f-f98c-4e4e-aa15-1866edf2a519",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_bb5f83d8-1fea-4335-8377-e2551ad64ee8",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_27b62e2b-b8aa-4df1-b740-8edbfbf1bc8e",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_a08c75e1-e729-43d9-8f8a-f3aef1c64328",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_4ae7f58f-6292-4b46-967f-3220caf4bcfb",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_1eab6fb9-bcaf-43ac-9d4e-59d5e6c584c9",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_10b9392c-2705-442f-9caa-92befb7f2a59",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_e4308159-eace-4525-ab88-9165ffcc4c56",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_62eb6150-d16f-456a-9288-178f36391480",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_2d89f58a-8b63-4926-afab-43dd40806497",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_907ec852-2025-45ba-8c23-74844b7181f1",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_a9b32dfb-6dfe-4d4c-b563-2e29614b4319",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_5212d1df-9427-4202-9564-8aac1111fbc5",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_8d1b7879-ba70-459c-a9ab-f5cc16245e92",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_dbd260b8-a9a6-4e57-b3c4-4e37faf970ad",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7d68dda0-34ab-4d1f-adbe-59833a2e2d89",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_a1efb1ed-3ba9-4461-a9f4-0b80b8298bbe",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_53075a70-fdf6-4201-ab30-a5622568f240",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_9e92ebe1-8891-4d33-b03d-8a87bb1fb68a",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_ec4561fc-115e-4fc0-903b-362c076c245e",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_0a57245c-827a-447d-b68a-18cbbd2b7d7b",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_d4af13ff-7321-4031-9d3a-5d609e7a716f",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_54a2bbab-bf15-4b63-afc6-ecfbd135d058",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_db6aa9ff-9de6-4356-89be-b8e889ad6c76",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_cf300299-c004-43c6-88bf-213eef453fbb",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_1a49c2a1-157b-48d8-b9bc-c730e1bc4f0c",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_eda5e7ec-946f-46db-8ba3-5b7dcf8ab677",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_87f29ed1-815c-41f4-b6ea-1d379f3b4b79",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_57b5a4b0-ef47-49cf-bd43-4b3b91fcf621",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_762fe0b5-b721-4b03-be6a-4cf2ebb68c28",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_6cd14a4d-28a7-43b2-aab8-47f19a4ff074",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_4ff08b75-a1c0-4efb-a6cf-e6007d46fbac",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_d406735a-4c44-45ef-a189-e050216e1183",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_d4141353-a4b9-4b70-8aad-a9206b76b35c",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_9e6f9c70-b0ad-48c6-9622-8956105b03a6",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_f2c474df-1fdf-4d28-bfde-7a64bf08fac2",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_95c67764-d60f-4cda-87bb-3844490986e4",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_79da072a-4f5a-4985-b4e0-9e9d6fe36de0",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7a3181a7-9e88-457f-b242-8042d802cc5f",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_649f6e2d-c92a-48ef-bae8-db3e945ce62e",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_15e427b1-b3c8-4599-a093-eef5ddda81c2",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_7be4341d-b51c-41f9-a174-0166467e4e56",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_cd2d0841-1edd-4eab-a4dd-3261bc5f7e34",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:_661cab41-0d32-4b9f-b33e-f707c4904c39",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        }
+    ]
+}
