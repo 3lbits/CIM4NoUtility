@@ -174,8 +174,12 @@
                 "@language": "no"
               }
             ],
-            "nc:BaseTimeSeries.interpolationKind": "http://iec.ch/TC57/2013/CIM-schema-cim16#TimeSeriesInterpolationKind.previous",
-            "nc:BaseTimeSeries.kind": "http://iec.ch/TC57/2013/CIM-schema-cim16#BaseTimeSeriesKind.forecast",
+            "nc:BaseTimeSeries.interpolationKind": {
+              "@id": "nc:TimeSeriesInterpolationKind.previous"
+            },
+            "nc:BaseTimeSeries.kind": {
+              "@id": "nc:BaseTimeSeriesKind.forecast"
+            },
             "nc:BaseTimeSeries.generatedAtTime": "2022-11-07T12:05:43.641Z",
             "nc:BaseTimeSeries.percentile": "50",
             "nc:BaseTimeSeries.method": [
