@@ -11,7 +11,7 @@
     "@id": "urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-03-30T23:00:00Z",
             "@type": "xsd:dateTime"
@@ -63,8 +63,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16",
-            "dcterms:title": "DIGIN10-30-MV1_SC"
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
         }
     ],
     "@graph": [

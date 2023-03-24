@@ -11,7 +11,7 @@
     "@id": "urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-10-28T13:37:00Z",
             "@type": "xsd:dateTime"
@@ -78,13 +78,13 @@
                 "@id": "urn:uuid:26d2f8aa-b651-46c5-a54d-05948f35f3d2"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -106,13 +106,13 @@
                 "@id": "urn:uuid:0f3b6200-684d-4365-8d55-45baae73bffb"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -134,13 +134,13 @@
                 "@id": "urn:uuid:cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -162,13 +162,13 @@
                 "@id": "urn:uuid:fd11bf7f-138b-4a1b-802c-25262b7b8672"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -190,13 +190,13 @@
                 "@id": "urn:uuid:03f7a245-aeca-48ba-af07-58419fb9b77c"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -218,13 +218,13 @@
                 "@id": "urn:uuid:74936f6f-296e-44db-b772-1d522f317069"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -249,13 +249,13 @@
                 "@id": "urn:uuid:74936f6f-296e-44db-b772-1d522f317069"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.transformer"
+                "@id": "cim:AssetKind.transformer"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -277,13 +277,13 @@
                 "@id": "urn:uuid:686be1a3-4215-4ee3-b9fa-701b3c76ec04"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -305,13 +305,13 @@
                 "@id": "urn:uuid:74936f6f-296e-44db-b772-1d522f317069"
             },
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         },
         {
@@ -338,13 +338,13 @@
             "cim:Meter.connectionCategory": null,
             "cim:Meter.formNumber": null,
             "cim:Asset.inUseState": {
-                "@id": "http://iec.ch/TC57/CIM100#InUseStateKind.inUse"
+                "@id": "cim:InUseStateKind.inUse"
             },
             "cim:Asset.kind": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetKind.other"
+                "@id": "cim:AssetKind.other"
             },
             "cim:Asset.lifecycleState": {
-                "@id": "http://iec.ch/TC57/CIM100#AssetLifeCycleStateKind.received"
+                "@id": "cim:AssetLifeCycleStateKind.received"
             }
         }
     ]

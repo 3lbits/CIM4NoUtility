@@ -11,7 +11,7 @@
     "@id": "urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -71,8 +71,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5",
-            "dcterms:title": "DIGIN10-30-MV1-LV1_SV"
+            "@id": "urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5"
         }
     ],
     "@graph": [

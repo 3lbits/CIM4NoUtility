@@ -11,7 +11,7 @@
     "@id": "urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -71,8 +71,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
-            "dcterms:title": "DIGIN10-30-LV1_SSH"
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
         }
     ],
     "@graph": [

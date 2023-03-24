@@ -11,7 +11,7 @@
     "@id": "urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-03-30T23:00:00Z",
             "@type": "xsd:dateTime"
@@ -60,8 +60,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
-            "dcterms:title": "DIGIN10-30-LV1_DL"
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
         }
     ],
     "@graph": [
@@ -71,7 +70,7 @@
             "cim:IdentifiedObject.mRID": "6e7d0428-fc30-43dc-a9d6-42aa5c9d6168",
             "cim:IdentifiedObject.name": "DIGIN10 Low Voltage",
             "cim:Diagram.orientation": {
-                "@id": "http://iec.ch/TC57/CIM100#OrientationKind.negative"
+                "@id": "cim:OrientationKind.negative"
             }
         }
     ]

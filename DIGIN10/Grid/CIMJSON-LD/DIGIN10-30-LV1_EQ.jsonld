@@ -11,7 +11,7 @@
     "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-03-30T23:00:00Z",
             "@type": "xsd:dateTime"
@@ -63,8 +63,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4",
-            "dcterms:title": "DIGIN10-30-LV1_EQ"
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
         }
     ],
     "@graph": [
@@ -2801,7 +2800,7 @@
             "cim:IdentifiedObject.description": "Permanent Admissible Transmission Loading",
             "cim:IdentifiedObject.name": "PATL",
             "cim:OperationalLimitType.direction": {
-                "@id": "http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue"
+                "@id": "cim:OperationalLimitDirectionKind.absoluteValue"
             }
         },
         {
@@ -2911,7 +2910,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T1",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:131a14f6-7032-499d-b691-f65bc52cc635"
@@ -2928,7 +2927,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T10",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:eba80fde-c5f8-49fc-8465-0329fdeefda9"
@@ -2945,7 +2944,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T100",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:43dbe66c-a342-44b0-b9cf-058c784cef1d"
@@ -2962,7 +2961,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T101",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:43dbe66c-a342-44b0-b9cf-058c784cef1d"
@@ -2979,7 +2978,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T102",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:1bb434df-1410-4b79-b57b-1af90387e355"
@@ -2996,7 +2995,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T103",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:063fd50f-9b15-4b24-a59c-be21be7fd845"
@@ -3013,7 +3012,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T104",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:063fd50f-9b15-4b24-a59c-be21be7fd845"
@@ -3030,7 +3029,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T105",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:0103615e-f6cc-4cb8-a338-a7fb714cdfa2"
@@ -3047,7 +3046,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T106",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:85024669-7147-4a77-9a30-b773d8b10f58"
@@ -3064,7 +3063,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T107",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:85024669-7147-4a77-9a30-b773d8b10f58"
@@ -3081,7 +3080,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T108",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:c060399a-96a1-4765-9ef8-c936ca08f8fe"
@@ -3098,7 +3097,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T109",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:117beb83-cb8e-444f-a054-e98d1ca477e7"
@@ -3115,7 +3114,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T11",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:2a906e57-0892-4de8-89b2-56c273f8c09c"
@@ -3132,7 +3131,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T110",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:117beb83-cb8e-444f-a054-e98d1ca477e7"
@@ -3149,7 +3148,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T111",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:919be6f3-be6b-449d-af3d-4d0a7a221ff5"
@@ -3166,7 +3165,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T112",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:919be6f3-be6b-449d-af3d-4d0a7a221ff5"
@@ -3183,7 +3182,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T113",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e2b45f87-e399-47b4-86f9-0e68fb374a65"
@@ -3200,7 +3199,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T114",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e286272e-827c-4b12-83cb-6b3e91170e3e"
@@ -3217,7 +3216,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T115",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e286272e-827c-4b12-83cb-6b3e91170e3e"
@@ -3234,7 +3233,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T116",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:30d15518-d0ac-4800-a5c1-da8593c790ed"
@@ -3251,7 +3250,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T117",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:30d15518-d0ac-4800-a5c1-da8593c790ed"
@@ -3268,7 +3267,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T118",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a"
@@ -3285,7 +3284,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T119",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9d58e5bb-834c-4faa-928c-7da0bb1497d9"
@@ -3302,7 +3301,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T12",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:84329e8e-2efe-4870-82db-a0bf9a768bd2"
@@ -3319,7 +3318,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T120",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:ead7f7fd-d132-43b5-b561-1b0e65b0a562"
@@ -3336,7 +3335,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T121",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:320b9701-cae3-478e-a70b-03d1736ed4e3"
@@ -3353,7 +3352,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T122",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:1ab052d3-e055-4dfe-9e47-8af771bd652a"
@@ -3370,7 +3369,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T123",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:5394fd91-851b-406a-ab9c-ecbe7a411c17"
@@ -3387,7 +3386,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T124",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:f2ed5944-a394-4802-8ec9-936bc60e5bc4"
@@ -3404,7 +3403,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T125",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:fe0a5228-5eb4-4008-9ee6-d22389f798e9"
@@ -3421,7 +3420,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T126",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:50e4056a-92e6-4bc2-b6e1-4d66f1624c38"
@@ -3438,7 +3437,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T127",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:0103615e-f6cc-4cb8-a338-a7fb714cdfa2"
@@ -3455,7 +3454,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T13",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:8aad5c29-6039-4321-8f8a-ad1c186dd145"
@@ -3472,7 +3471,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T14",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:8aad5c29-6039-4321-8f8a-ad1c186dd145"
@@ -3489,7 +3488,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T15",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:84329e8e-2efe-4870-82db-a0bf9a768bd2"
@@ -3506,7 +3505,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T16",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:dda0993b-140e-41f4-ab0e-9690859afef3"
@@ -3523,7 +3522,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T17",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:a498f1fd-65f0-41df-83ee-29c92d075514"
@@ -3540,7 +3539,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T18",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:a498f1fd-65f0-41df-83ee-29c92d075514"
@@ -3557,7 +3556,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T19",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:ead7f7fd-d132-43b5-b561-1b0e65b0a562"
@@ -3574,7 +3573,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T2",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:2a906e57-0892-4de8-89b2-56c273f8c09c"
@@ -3591,7 +3590,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T20",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:764a7252-9aae-4da4-a23b-6c770d8b16c1"
@@ -3608,7 +3607,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T21",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:764a7252-9aae-4da4-a23b-6c770d8b16c1"
@@ -3625,7 +3624,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T22",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e18cbee0-1a4f-4315-9108-39f317c67fd5"
@@ -3642,7 +3641,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T23",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31"
@@ -3659,7 +3658,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T24",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31"
@@ -3676,7 +3675,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T25",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:3f90847f-9450-47aa-a2fa-714cc5353867"
@@ -3693,7 +3692,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T26",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:3f90847f-9450-47aa-a2fa-714cc5353867"
@@ -3710,7 +3709,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T27",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:ed384e6d-b8d1-45bf-9778-fb2e1b5142fa"
@@ -3727,7 +3726,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T28",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:bf819ffc-270d-4025-bef8-db10ffb5b196"
@@ -3744,7 +3743,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T29",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:bf819ffc-270d-4025-bef8-db10ffb5b196"
@@ -3761,7 +3760,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T3",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9d58e5bb-834c-4faa-928c-7da0bb1497d9"
@@ -3778,7 +3777,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T30",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:6f519536-eefe-452e-8294-c115bf21581d"
@@ -3795,7 +3794,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T31",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:6f519536-eefe-452e-8294-c115bf21581d"
@@ -3812,7 +3811,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T32",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:7d2f35f7-82ef-42f9-bc10-6f62fe96d116"
@@ -3829,7 +3828,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T33",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e832d4e7-1335-4773-b203-bf7035d29bc3"
@@ -3846,7 +3845,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T34",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e832d4e7-1335-4773-b203-bf7035d29bc3"
@@ -3863,7 +3862,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T35",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:446700b3-38fb-4cfe-aa71-11fdf6118a49"
@@ -3880,7 +3879,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T36",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:446700b3-38fb-4cfe-aa71-11fdf6118a49"
@@ -3897,7 +3896,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T37",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:a6d32ac1-e894-4d28-a44b-41635a6c8b6f"
@@ -3914,7 +3913,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T38",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:ba0be174-8971-4820-a42b-db2c5a781e87"
@@ -3931,7 +3930,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T39",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:ba0be174-8971-4820-a42b-db2c5a781e87"
@@ -3948,7 +3947,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T4",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:131a14f6-7032-499d-b691-f65bc52cc635"
@@ -3965,7 +3964,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T40",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:320b9701-cae3-478e-a70b-03d1736ed4e3"
@@ -3982,7 +3981,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T41",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:800c36a9-07be-45bd-9106-260cbd66ce4c"
@@ -3999,7 +3998,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T42",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:800c36a9-07be-45bd-9106-260cbd66ce4c"
@@ -4016,7 +4015,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T43",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:8cc7031f-def2-49b7-97a9-43d3c3c15789"
@@ -4033,7 +4032,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T44",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:81f3131f-baed-442d-bf7a-3606832fc3e0"
@@ -4050,7 +4049,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T45",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:81f3131f-baed-442d-bf7a-3606832fc3e0"
@@ -4067,7 +4066,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T46",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:7e432a85-77b4-44f2-ae98-07134a1a5087"
@@ -4084,7 +4083,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T47",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:7e432a85-77b4-44f2-ae98-07134a1a5087"
@@ -4101,7 +4100,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T48",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:8dcf0a96-206b-4da2-814d-4030ac0dfaec"
@@ -4118,7 +4117,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T49",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:8dcf0a96-206b-4da2-814d-4030ac0dfaec"
@@ -4135,7 +4134,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T5",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b8a334a5-2bcb-40e6-b6c2-db906441552d"
@@ -4152,7 +4151,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T50",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:46ae56a9-435f-4fad-aa91-015ef1dca930"
@@ -4169,7 +4168,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T51",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:46ae56a9-435f-4fad-aa91-015ef1dca930"
@@ -4186,7 +4185,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T52",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:797fe5ce-1857-4bea-8a0f-728a4b4c30ed"
@@ -4203,7 +4202,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T53",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:797fe5ce-1857-4bea-8a0f-728a4b4c30ed"
@@ -4220,7 +4219,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T54",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:296e7555-8ef5-4ad4-a85b-3111ae892a65"
@@ -4237,7 +4236,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T55",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:296e7555-8ef5-4ad4-a85b-3111ae892a65"
@@ -4254,7 +4253,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T56",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:f2ed5944-a394-4802-8ec9-936bc60e5bc4"
@@ -4271,7 +4270,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T57",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:725505f7-df2a-41da-9428-0a9b7984817a"
@@ -4288,7 +4287,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T58",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:725505f7-df2a-41da-9428-0a9b7984817a"
@@ -4305,7 +4304,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T59",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:13e2ba8c-0046-447a-a99f-4c7ec3b051b9"
@@ -4322,7 +4321,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T6",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:76335f11-64c3-474d-92fd-7ab11ed607e4"
@@ -4339,7 +4338,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T60",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:04355e33-02e4-42ed-8d88-96b0be7044a8"
@@ -4356,7 +4355,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T61",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:04355e33-02e4-42ed-8d88-96b0be7044a8"
@@ -4373,7 +4372,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T62",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:81567f71-8233-4e19-8357-e75d35e89470"
@@ -4390,7 +4389,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T63",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:81567f71-8233-4e19-8357-e75d35e89470"
@@ -4407,7 +4406,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T63",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:aae86260-d615-473f-9622-5817da962df1"
@@ -4424,7 +4423,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T65",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9b24ac8f-043c-4087-ac3b-a695c464f93d"
@@ -4441,7 +4440,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T66",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9b24ac8f-043c-4087-ac3b-a695c464f93d"
@@ -4458,7 +4457,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T67",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:fe0a5228-5eb4-4008-9ee6-d22389f798e9"
@@ -4475,7 +4474,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T68",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:5bd4c12d-99d5-49d7-87fb-a346067c697e"
@@ -4492,7 +4491,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T69",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:5bd4c12d-99d5-49d7-87fb-a346067c697e"
@@ -4509,7 +4508,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T7",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:76335f11-64c3-474d-92fd-7ab11ed607e4"
@@ -4526,7 +4525,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T70",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:4c23e857-2e4b-4b7c-9c47-5a9190e5afd4"
@@ -4543,7 +4542,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T71",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b63024f5-df5f-4d21-ba9d-97288bdabe97"
@@ -4560,7 +4559,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T72",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b63024f5-df5f-4d21-ba9d-97288bdabe97"
@@ -4577,7 +4576,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T73",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:f64ec489-a926-4f4f-877b-102d4cd7fd2b"
@@ -4594,7 +4593,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T74",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:f64ec489-a926-4f4f-877b-102d4cd7fd2b"
@@ -4611,7 +4610,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T75",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:93efed67-8a75-487c-8e1d-0d31ee4a2fc3"
@@ -4628,7 +4627,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T76",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:93efed67-8a75-487c-8e1d-0d31ee4a2fc3"
@@ -4645,7 +4644,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T77",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:2a850d95-6c2e-4a20-a9c6-0f97158473d6"
@@ -4662,7 +4661,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T78",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:7c60d1fd-fe74-4094-89f7-2d3949deaa3c"
@@ -4679,7 +4678,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T79",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:7c60d1fd-fe74-4094-89f7-2d3949deaa3c"
@@ -4696,7 +4695,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T8",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:46bce40c-71c2-4d19-b63f-78a69c460b0e"
@@ -4713,7 +4712,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T80",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b6bbea56-f530-4f7b-9a94-9b7fdeb58779"
@@ -4730,7 +4729,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T81",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b6bbea56-f530-4f7b-9a94-9b7fdeb58779"
@@ -4747,7 +4746,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T82",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:3a7461ed-8e5d-427a-8b48-af3a46c042f5"
@@ -4764,7 +4763,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T83",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9a717362-88c3-4b20-85a7-9adfb67c63ca"
@@ -4781,7 +4780,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T84",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9a717362-88c3-4b20-85a7-9adfb67c63ca"
@@ -4798,7 +4797,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T85",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e0e00668-9e76-461f-b310-8c84afb9ffe6"
@@ -4815,7 +4814,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T86",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e0e00668-9e76-461f-b310-8c84afb9ffe6"
@@ -4832,7 +4831,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T87",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:39a90500-8c87-4576-b912-32abf18a8d12"
@@ -4849,7 +4848,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T88",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:39a90500-8c87-4576-b912-32abf18a8d12"
@@ -4866,7 +4865,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T89",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:50e4056a-92e6-4bc2-b6e1-4d66f1624c38"
@@ -4883,7 +4882,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T9",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:46bce40c-71c2-4d19-b63f-78a69c460b0e"
@@ -4900,7 +4899,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T90",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9f3753d2-3a46-454b-8d14-f4f00743d48a"
@@ -4917,7 +4916,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T91",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:9f3753d2-3a46-454b-8d14-f4f00743d48a"
@@ -4934,7 +4933,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T92",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:46c1c4fb-6a7a-4912-bd2e-4851b6276345"
@@ -4951,7 +4950,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T93",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:1404c232-d6aa-4ed9-855c-8c7ac383a8f5"
@@ -4968,7 +4967,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T94",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:1404c232-d6aa-4ed9-855c-8c7ac383a8f5"
@@ -4985,7 +4984,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T95",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:70b19e4c-edb9-4957-885c-59b7a515724f"
@@ -5002,7 +5001,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T96",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:70b19e4c-edb9-4957-885c-59b7a515724f"
@@ -5019,7 +5018,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T97",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:67334cb3-902b-4d55-9207-50c75357458c"
@@ -5036,7 +5035,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T98",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:86b80fe6-e846-415c-a74d-30abad315741"
@@ -5053,7 +5052,7 @@
             "cim:IdentifiedObject.name": "TELEMA2 04 T99",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:86b80fe6-e846-415c-a74d-30abad315741"

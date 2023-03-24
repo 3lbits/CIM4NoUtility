@@ -11,7 +11,7 @@
     "@id": "urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-03-30T23:00:00Z",
             "@type": "xsd:dateTime"
@@ -60,8 +60,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
-            "dcterms:title": "DIGIN10-30-LV1_CU"
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
         }
     ],
     "@graph": [
@@ -89,13 +88,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -127,13 +126,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -165,13 +164,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -203,13 +202,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -241,13 +240,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -279,13 +278,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -317,13 +316,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -355,13 +354,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -393,13 +392,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -431,13 +430,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -469,13 +468,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -507,13 +506,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {
@@ -545,13 +544,13 @@
             "cim:UsagePoint.serviceDeliveryRemark": "Houshold",
             "cim:UsagePoint.servicePriority": "Low",
             "cim:UsagePoint.amiBillingReady": {
-                "@id": "http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"
+                "@id": "cim:AmiBillingReady.enabled"
             },
             "cim:UsagePoint.connectionState": {
-                "@id": "http://iec.ch/TC57/CIM100#ConnectionState.connected"
+                "@id": "cim:ConnectionState.connected"
             },
             "cim:UsagePoint.phaseCode": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:UsagePoint.Equipments": [
                 {

@@ -12,7 +12,7 @@
     "@id": "urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -58,19 +58,19 @@
                 "@id": "http://data.europa.eu/energy/ReadingType/0.0.7.4.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
             },
             "cim:ReadingType.measuringPeriod": {
-                "@id": "http://iec.ch/TC57/CIM100#MacroPeriodKind.sixtyMinute"
+                "@id": "cim:MacroPeriodKind.sixtyMinute"
             },
             "cim:ReadingType.accumulation": {
-                "@id": "http://iec.ch/TC57/CIM100#AccumulationKind.deltaData"
+                "@id": "cim:AccumulationKind.deltaData"
             },
             "cim:ReadingType.flowDirection": {
-                "@id": "http://iec.ch/TC57/CIM100#FlowDirectionKind.forward"
+                "@id": "cim:FlowDirectionKind.forward"
             },
             "cim:ReadingType.multiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             },
             "cim:ReadingType.unit": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.Wh"
+                "@id": "cim:UnitSymbol.Wh"
             }
         },
         {
@@ -83,16 +83,16 @@
                 "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.0.1.1.12.0.0.0.0.0.0.0.0.3.72.0"
             },
             "cim:ReadingType.flowDirection": {
-                "@id": "http://iec.ch/TC57/CIM100#FlowDirectionKind.forward"
+                "@id": "cim:FlowDirectionKind.forward"
             },
             "cim:ReadingType.multiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             },
             "cim:ReadingType.unit": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.Wh"
+                "@id": "cim:UnitSymbol.Wh"
             },
             "cim:ReadingType.currency": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.Wh"
+                "@id": "cim:UnitSymbol.Wh"
             }
         },
         {
@@ -105,25 +105,25 @@
                 "@id": "http://data.europa.eu/energy/ReadingType/0.2.1.9.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
             },
             "cim:ReadingType.aggregate": {
-                "@id": "http://iec.ch/TC57/CIM100#AggregateKind.average"
+                "@id": "cim:AggregateKind.average"
             },
             "cim:ReadingType.measuringPeriod": {
-                "@id": "http://iec.ch/TC57/CIM100#MeasurementKind.tenMinute"
+                "@id": "cim:MeasurementKind.tenMinute"
             },
             "cim:ReadingType.accumulation": {
-                "@id": "http://iec.ch/TC57/CIM100#AccumulationKind.summation"
+                "@id": "cim:AccumulationKind.summation"
             },
             "cim:ReadingType.commodity": {
-                "@id": "http://iec.ch/TC57/CIM100#CommodityKind.electricitySecondaryMetered"
+                "@id": "cim:CommodityKind.electricitySecondaryMetered"
             },
             "cim:ReadingType.measurementKind": {
-                "@id": "http://iec.ch/TC57/CIM100#MeasurementKind.voltage"
+                "@id": "cim:MeasurementKind.voltage"
             },
             "cim:ReadingType.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.phaseA"
+                "@id": "cim:PhaseCode.phaseA"
             },
             "cim:ReadingType.unit": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.V"
+                "@id": "cim:UnitSymbol.V"
             }
         },
         {
@@ -136,19 +136,19 @@
                 "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.4.0.0.0.0.0.0.0.128.0.5.0"
             },
             "cim:ReadingType.accumulation": {
-                "@id": "http://iec.ch/TC57/CIM100#AccumulationKind.indicating"
+                "@id": "cim:AccumulationKind.indicating"
             },
             "cim:ReadingType.commodity": {
-                "@id": "http://iec.ch/TC57/CIM100#CommodityKind.electricitySecondaryMetered"
+                "@id": "cim:CommodityKind.electricitySecondaryMetered"
             },
             "cim:ReadingType.measurementKind": {
-                "@id": "http://iec.ch/TC57/CIM100#MeasurementKind.current"
+                "@id": "cim:MeasurementKind.current"
             },
             "cim:ReadingType.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.phaseA"
+                "@id": "cim:PhaseCode.phaseA"
             },
             "cim:ReadingType.unit": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.A"
+                "@id": "cim:UnitSymbol.A"
             }
         },
         {
@@ -161,19 +161,19 @@
                 "@id": "http://data.europa.eu/energy/ReadingType/0.0.0.6.0.1.54.0.0.0.0.0.0.0.128.0.29.0"
             },
             "cim:ReadingType.accumulation": {
-                "@id": "http://iec.ch/TC57/CIM100#AccumulationKind.indicating"
+                "@id": "cim:AccumulationKind.indicating"
             },
             "cim:ReadingType.commodity": {
-                "@id": "http://iec.ch/TC57/CIM100#CommodityKind.electricitySecondaryMetered"
+                "@id": "cim:CommodityKind.electricitySecondaryMetered"
             },
             "cim:ReadingType.measurementKind": {
-                "@id": "http://iec.ch/TC57/CIM100#MeasurementKind.voltage"
+                "@id": "cim:MeasurementKind.voltage"
             },
             "cim:ReadingType.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.phaseA"
+                "@id": "cim:PhaseCode.phaseA"
             },
             "cim:ReadingType.unit": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.V"
+                "@id": "cim:UnitSymbol.V"
             }
         },
         {

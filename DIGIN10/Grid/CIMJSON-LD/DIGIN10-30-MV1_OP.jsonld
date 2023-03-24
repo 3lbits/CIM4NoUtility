@@ -11,7 +11,7 @@
     "@id": "urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-10-28T13:37:00Z",
             "@type": "xsd:dateTime"
@@ -63,8 +63,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16",
-            "dcterms:title": "DIGIN10-30-MV1_OP"
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
         }
     ],
     "@graph": [
@@ -80,13 +79,13 @@
             "cim:Analog.normalValue": 270.0,
             "cim:Analog.positiveFlowIn": false,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.A"
+                "@id": "cim:PhaseCode.A"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.A"
+                "@id": "cim:UnitSymbol.A"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:3344a693-6818-4703-93ac-510baac566d5"
@@ -104,13 +103,13 @@
             "cim:Analog.normalValue": 270.0,
             "cim:Analog.positiveFlowIn": false,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.B"
+                "@id": "cim:PhaseCode.B"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.A"
+                "@id": "cim:UnitSymbol.A"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:3344a693-6818-4703-93ac-510baac566d5"
@@ -128,13 +127,13 @@
             "cim:Analog.normalValue": 270.0,
             "cim:Analog.positiveFlowIn": false,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.C"
+                "@id": "cim:PhaseCode.C"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.A"
+                "@id": "cim:UnitSymbol.A"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:3344a693-6818-4703-93ac-510baac566d5"
@@ -151,13 +150,13 @@
             "cim:Analog.minValue": 0.0,
             "cim:Analog.normalValue": 22.0,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.AB"
+                "@id": "cim:PhaseCode.AB"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.V"
+                "@id": "cim:UnitSymbol.V"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6"
@@ -174,13 +173,13 @@
             "cim:Analog.minValue": 0.0,
             "cim:Analog.normalValue": 22.0,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.AC"
+                "@id": "cim:PhaseCode.AC"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.V"
+                "@id": "cim:UnitSymbol.V"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6"
@@ -197,13 +196,13 @@
             "cim:Analog.minValue": 0.0,
             "cim:Analog.normalValue": 22.0,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.BC"
+                "@id": "cim:PhaseCode.BC"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.V"
+                "@id": "cim:UnitSymbol.V"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6"
@@ -221,13 +220,13 @@
             "cim:Analog.normalValue": 20.0,
             "cim:Analog.positiveFlowIn": true,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABC"
+                "@id": "cim:PhaseCode.ABC"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.M"
+                "@id": "cim:UnitMultiplier.M"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.W"
+                "@id": "cim:UnitSymbol.W"
             }
         },
         {
@@ -242,13 +241,13 @@
             "cim:Analog.normalValue": 15.0,
             "cim:Analog.positiveFlowIn": true,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABC"
+                "@id": "cim:PhaseCode.ABC"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.M"
+                "@id": "cim:UnitMultiplier.M"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.VAR"
+                "@id": "cim:UnitSymbol.VAR"
             }
         },
         {
@@ -262,13 +261,13 @@
             "cim:Analog.minValue": 0.0,
             "cim:Analog.normalValue": 4.0,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.none"
+                "@id": "cim:PhaseCode.none"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.none"
+                "@id": "cim:UnitSymbol.none"
             }
         },
         {
@@ -282,13 +281,13 @@
             "cim:Analog.minValue": -40.0,
             "cim:Analog.normalValue": 50.0,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.none"
+                "@id": "cim:PhaseCode.none"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.Deg"
+                "@id": "cim:UnitSymbol.Deg"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:6b7f7604-9f3e-479e-889f-f5d3d8ca60a1"
@@ -435,13 +434,13 @@
             "cim:Discrete.minValue": 0.0,
             "cim:Discrete.normalValue": 0.0,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABC"
+                "@id": "cim:PhaseCode.ABC"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.none"
+                "@id": "cim:UnitSymbol.none"
             },
             "cim:Measurement.PowerSystemResource": {
                 "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
@@ -590,7 +589,7 @@
             "cim:PotentialTransformer.nominalRatio": 200.0,
             "cim:PotentialTransformer.ptClass": "0.2",
             "cim:PotentialTransformer.type": {
-                "@id": "http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling"
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
             },
             "cim:AuxiliaryEquipment.Terminal": {
                 "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
@@ -609,7 +608,7 @@
             "cim:PotentialTransformer.nominalRatio": 200.0,
             "cim:PotentialTransformer.ptClass": "0.2",
             "cim:PotentialTransformer.type": {
-                "@id": "http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling"
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
             },
             "cim:AuxiliaryEquipment.Terminal": {
                 "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
@@ -628,7 +627,7 @@
             "cim:PotentialTransformer.nominalRatio": 200.0,
             "cim:PotentialTransformer.ptClass": "0.2",
             "cim:PotentialTransformer.type": {
-                "@id": "http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling"
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
             },
             "cim:AuxiliaryEquipment.Terminal": {
                 "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983"
@@ -646,7 +645,7 @@
             "cim:PotentialTransformer.nominalRatio": 200.0,
             "cim:PotentialTransformer.ptClass": "0.2",
             "cim:PotentialTransformer.type": {
-                "@id": "http://iec.ch/TC57/CIM100#PotentialTransformerKind.capacitiveCoupling"
+                "@id": "cim:PotentialTransformerKind.capacitiveCoupling"
             },
             "cim:AuxiliaryEquipment.Terminal": {
                 "@id": "urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5"

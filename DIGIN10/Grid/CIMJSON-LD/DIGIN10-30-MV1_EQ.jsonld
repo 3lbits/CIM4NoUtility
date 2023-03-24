@@ -11,7 +11,7 @@
     "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-03-30T23:00:00Z",
             "@type": "xsd:dateTime"
@@ -63,8 +63,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4",
-            "dcterms:title": "DIGIN10-30-MV1_EQ"
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
         }
     ],
     "@graph": [
@@ -1147,7 +1146,7 @@
             "cim:IdentifiedObject.description": "DSO 1 ControlArea 1",
             "cim:IdentifiedObject.name": "DSO1 CA 1",
             "cim:ControlArea.type": {
-                "@id": "http://iec.ch/TC57/CIM100#ControlAreaTypeKind.Interchange"
+                "@id": "cim:ControlAreaTypeKind.Interchange"
             },
             "cim:ControlArea.EnergyArea": {
                 "@id": "urn:uuid:92d33b39-7034-11eb-a65a-74e5f963e191"
@@ -2068,15 +2067,6 @@
             "cim:LoadResponseCharacteristic.exponentModel": false
         },
         {
-            "@id": "urn:uuid:105b264a-2ab7-2441-bb32-aae12a3cfa51",
-            "@type": "cim:OperationalLimitSet",
-            "cim:IdentifiedObject.mRID": "105b264a-2ab7-2441-bb32-aae12a3cfa51",
-            "cim:IdentifiedObject.name": "LS T2 132 FROLAND-T_ENGENE ACLS 1",
-            "cim:OperationalLimitSet.Terminal": {
-                "@id": "urn:uuid:9796f69a-d718-43c7-91b6-980cd96a1c50"
-            }
-        },
-        {
             "@id": "urn:uuid:681a3095-5a55-11eb-a658-74e5f963e191",
             "@type": "cim:OperationalLimitSet",
             "cim:IdentifiedObject.mRID": "681a3095-5a55-11eb-a658-74e5f963e191",
@@ -2173,24 +2163,6 @@
             "cim:IdentifiedObject.name": "LS T1 22 ZT1-EFC ACLS 1",
             "cim:OperationalLimitSet.Terminal": {
                 "@id": "urn:uuid:86c847a4-9732-9844-b480-c53b70f6ceec"
-            }
-        },
-        {
-            "@id": "urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc",
-            "@type": "cim:OperationalLimitSet",
-            "cim:IdentifiedObject.mRID": "17264ab0-1492-6243-8e2d-44d85d0841fc",
-            "cim:IdentifiedObject.name": "LS T1 ARENDAL T1 420 P",
-            "cim:OperationalLimitSet.Terminal": {
-                "@id": "urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191"
-            }
-        },
-        {
-            "@id": "urn:uuid:681a2fcf-5a55-11eb-a658-74e5f963e191",
-            "@type": "cim:OperationalLimitSet",
-            "cim:IdentifiedObject.mRID": "681a2fcf-5a55-11eb-a658-74e5f963e191",
-            "cim:IdentifiedObject.name": "LS T1 ENGENE NT1 22 P",
-            "cim:OperationalLimitSet.Terminal": {
-                "@id": "urn:uuid:92d33bf1-7034-11eb-a65a-74e5f963e191"
             }
         },
         {
@@ -2326,7 +2298,7 @@
             "cim:IdentifiedObject.description": "Permanent Admissible Transmission Loading",
             "cim:IdentifiedObject.name": "PATL",
             "cim:OperationalLimitType.direction": {
-                "@id": "http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue"
+                "@id": "cim:OperationalLimitDirectionKind.absoluteValue"
             }
         },
         {
@@ -2337,7 +2309,7 @@
             "cim:IdentifiedObject.name": "TATL",
             "cim:OperationalLimitType.acceptableDuration": null,
             "cim:OperationalLimitType.direction": {
-                "@id": "http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue"
+                "@id": "cim:OperationalLimitDirectionKind.absoluteValue"
             }
         },
         {
@@ -2420,7 +2392,7 @@
             "cim:PowerTransformerEnd.ratedU": 420.0,
             "cim:PowerTransformerEnd.x": 25.41,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4"
@@ -2446,7 +2418,7 @@
             "cim:PowerTransformerEnd.ratedU": 132.0,
             "cim:PowerTransformerEnd.x": 0.0,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
@@ -2472,7 +2444,7 @@
             "cim:PowerTransformerEnd.ratedU": 132.0,
             "cim:PowerTransformerEnd.x": 82.28,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
@@ -2498,7 +2470,7 @@
             "cim:PowerTransformerEnd.ratedU": 22.0,
             "cim:PowerTransformerEnd.x": 0.0,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
@@ -2524,7 +2496,7 @@
             "cim:PowerTransformerEnd.ratedU": 22.0,
             "cim:PowerTransformerEnd.x": 7.62,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
@@ -2550,7 +2522,7 @@
             "cim:PowerTransformerEnd.ratedU": 0.23,
             "cim:PowerTransformerEnd.x": 0.0,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Zn"
+                "@id": "cim:WindingConnection.Zn"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:830622e6-d259-4526-b14e-122d94a622a4"
@@ -2576,7 +2548,7 @@
             "cim:PowerTransformerEnd.ratedU": 22.0,
             "cim:PowerTransformerEnd.x": 35.45,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191"
@@ -2602,7 +2574,7 @@
             "cim:PowerTransformerEnd.ratedU": 0.4,
             "cim:PowerTransformerEnd.x": 0.0,
             "cim:PowerTransformerEnd.connectionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#WindingConnection.Y"
+                "@id": "cim:WindingConnection.Y"
             },
             "cim:TransformerEnd.BaseVoltage": {
                 "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
@@ -2628,7 +2600,7 @@
             "cim:TapChanger.normalStep": 17,
             "cim:RatioTapChanger.stepVoltageIncrement": 0.625,
             "cim:RatioTapChanger.tculControlMode": {
-                "@id": "http://iec.ch/TC57/CIM100#TransformerControlMode.volt"
+                "@id": "cim:TransformerControlMode.volt"
             },
             "cim:RatioTapChanger.TransformerEnd": {
                 "@id": "urn:uuid:681a2fea-5a55-11eb-a658-74e5f963e191"
@@ -2648,7 +2620,7 @@
             "cim:TapChanger.normalStep": 18,
             "cim:RatioTapChanger.stepVoltageIncrement": 0.625,
             "cim:RatioTapChanger.tculControlMode": {
-                "@id": "http://iec.ch/TC57/CIM100#TransformerControlMode.volt"
+                "@id": "cim:TransformerControlMode.volt"
             },
             "cim:RatioTapChanger.TransformerEnd": {
                 "@id": "urn:uuid:681a3094-5a55-11eb-a658-74e5f963e191"
@@ -2668,7 +2640,7 @@
             "cim:TapChanger.normalStep": 17,
             "cim:RatioTapChanger.stepVoltageIncrement": 0.625,
             "cim:RatioTapChanger.tculControlMode": {
-                "@id": "http://iec.ch/TC57/CIM100#TransformerControlMode.volt"
+                "@id": "cim:TransformerControlMode.volt"
             },
             "cim:RatioTapChanger.TransformerEnd": {
                 "@id": "urn:uuid:681a2fd8-5a55-11eb-a658-74e5f963e191"
@@ -2688,7 +2660,7 @@
             "cim:TapChanger.normalStep": 4,
             "cim:RatioTapChanger.stepVoltageIncrement": 3.3333001136779785,
             "cim:RatioTapChanger.tculControlMode": {
-                "@id": "http://iec.ch/TC57/CIM100#TransformerControlMode.volt"
+                "@id": "cim:TransformerControlMode.volt"
             },
             "cim:TapChanger.TapChangerControl": {
                 "@id": "urn:uuid:681a30a4-5a55-11eb-a658-74e5f963e191"
@@ -2704,7 +2676,7 @@
             "cim:IdentifiedObject.description": "Arendal 420kV Transmission Equivalent",
             "cim:IdentifiedObject.name": "Arendal 300kV RC1",
             "cim:RegulatingControl.mode": {
-                "@id": "http://iec.ch/TC57/CIM100#RegulatingControlModeKind.voltage"
+                "@id": "cim:RegulatingControlModeKind.voltage"
             },
             "cim:RegulatingControl.Terminal": {
                 "@id": "urn:uuid:7d09271d-7826-442e-bc57-d1fa1955495e"
@@ -2717,7 +2689,7 @@
             "cim:IdentifiedObject.description": "Engene 22kV Shunt Compensator Regulating Control 1",
             "cim:IdentifiedObject.name": "ENGENE 22 SC1 RC",
             "cim:RegulatingControl.mode": {
-                "@id": "http://iec.ch/TC57/CIM100#RegulatingControlModeKind.voltage"
+                "@id": "cim:RegulatingControlModeKind.voltage"
             },
             "cim:RegulatingControl.Terminal": {
                 "@id": "urn:uuid:92d33b55-7034-11eb-a65a-74e5f963e191"
@@ -2792,7 +2764,7 @@
             "cim:SynchronousMachine.r": 0.43445,
             "cim:SynchronousMachine.referencePriority": 0,
             "cim:SynchronousMachine.type": {
-                "@id": "http://iec.ch/TC57/CIM100#SynchronousMachineKind.generator"
+                "@id": "cim:SynchronousMachineKind.generator"
             },
             "cim:Equipment.EquipmentContainer": {
                 "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3"
@@ -2811,7 +2783,7 @@
             "cim:IdentifiedObject.description": "Nedenes 22kV T1 Tap Changer Control",
             "cim:IdentifiedObject.name": "NEDENES 22 T1 TCC",
             "cim:RegulatingControl.mode": {
-                "@id": "http://iec.ch/TC57/CIM100#RegulatingControlModeKind.voltage"
+                "@id": "cim:RegulatingControlModeKind.voltage"
             },
             "cim:RegulatingControl.Terminal": {
                 "@id": "urn:uuid:92d33b5a-7034-11eb-a65a-74e5f963e191"
@@ -2853,7 +2825,7 @@
             "cim:IdentifiedObject.name": "T1 132 ARENDAL-T1 ACLS 1",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABC"
+                "@id": "cim:PhaseCode.ABC"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a"
@@ -2952,7 +2924,7 @@
             "cim:IdentifiedObject.name": "T1 22 ZT1-EFC ACLS 1",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.N"
+                "@id": "cim:PhaseCode.N"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94"
@@ -3067,7 +3039,7 @@
             "cim:IdentifiedObject.name": "T1 ARENDAL 132 T1E",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABC"
+                "@id": "cim:PhaseCode.ABC"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
@@ -3084,7 +3056,7 @@
             "cim:IdentifiedObject.name": "T1 ARENDAL 132 T1SP1E",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.N"
+                "@id": "cim:PhaseCode.N"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
@@ -3373,7 +3345,7 @@
             "cim:IdentifiedObject.name": "T1 ENGENE NT1 22 P",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191"
@@ -3736,7 +3708,7 @@
             "cim:IdentifiedObject.name": "T2 22 ZT1-EFC ACLS 1",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.N"
+                "@id": "cim:PhaseCode.N"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94"
@@ -3906,7 +3878,7 @@
             "cim:IdentifiedObject.name": "T2 ARENDAL 132 T1SP1E",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.N"
+                "@id": "cim:PhaseCode.N"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
@@ -3923,7 +3895,7 @@
             "cim:IdentifiedObject.name": "T2 ARENDAL T1 132 S",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
@@ -4001,7 +3973,7 @@
         {
             "@id": "urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983",
             "@type": "cim:Terminal",
-            "cim:IdentifiedObject.mRID": "d1b627f7-1429-4a78-845a-17e9a7068a4f",
+            "cim:IdentifiedObject.mRID": "83bf6035-97b6-4433-b5f9-bb455444a983",
             "cim:IdentifiedObject.name": "T2 ENGENE 22 N1E",
             "cim:ACDCTerminal.sequenceNumber": 2,
             "cim:Terminal.ConductingEquipment": {
@@ -4285,7 +4257,7 @@
             "cim:IdentifiedObject.name": "T1 ARENDAL 132 T1 PC",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.N"
+                "@id": "cim:PhaseCode.N"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa"
@@ -4302,7 +4274,7 @@
             "cim:IdentifiedObject.name": "T1 22 ZT1-EFC PC",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.N"
+                "@id": "cim:PhaseCode.N"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:c9d5445c-9ad6-3849-9e02-08762805826b"
@@ -4319,7 +4291,7 @@
             "cim:IdentifiedObject.name": "NEDENES 04 T128 SS1",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:0506353c-8adf-4f48-999f-bb1975c03467"

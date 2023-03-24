@@ -11,7 +11,7 @@
     "@id": "urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-10-28T13:37:00Z",
             "@type": "xsd:dateTime"
@@ -86,19 +86,19 @@
             "cim:CableInfo.nominalTemperature": null,
             "cim:CableInfo.sheathAsNeutral": null,
             "cim:WireInfo.insulationMaterial": {
-                "@id": "http://iec.ch/TC57/CIM100#WireInsulationKind.other"
+                "@id": "cim:WireInsulationKind.other"
             },
             "cim:WireInfo.material": {
-                "@id": "http://iec.ch/TC57/CIM100#WireMaterialKind.aluminum"
+                "@id": "cim:WireMaterialKind.aluminum"
             },
             "cim:CableInfo.constructionKind": {
-                "@id": "http://iec.ch/TC57/CIM100#CableConstructionKind.stranded"
+                "@id": "cim:CableConstructionKind.stranded"
             },
             "cim:CableInfo.outerJacketKind": {
-                "@id": "http://iec.ch/TC57/CIM100#CableOuterJacketKind.pvc"
+                "@id": "cim:CableOuterJacketKind.pvc"
             },
             "cim:CableInfo.shieldMaterial": {
-                "@id": "http://iec.ch/TC57/CIM100#CableShieldMaterialKind.aluminum"
+                "@id": "cim:CableShieldMaterialKind.aluminum"
             }
         },
         {

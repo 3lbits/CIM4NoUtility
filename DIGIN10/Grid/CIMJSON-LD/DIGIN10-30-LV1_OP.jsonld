@@ -11,7 +11,7 @@
     "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -30,7 +30,7 @@
         "dcterms:title": "DIGIN"
     },
     "dcterms:temporal": {
-        "@type": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": "dcterms:PeriodOfTime",
         "dcat:startDate": {
             "@value": "2022-10-28T13:37:00Z",
             "@type": "xsd:dateTime"
@@ -63,8 +63,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
-            "dcterms:title": "DIGIN10-30-LV1_OP"
+            "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
         }
     ],
     "@graph": [
@@ -80,13 +79,13 @@
             "cim:Analog.normalValue": 30.0,
             "cim:Analog.positiveFlowIn": false,
             "cim:Measurement.phases": {
-                "@id": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN"
+                "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Measurement.unitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.none"
+                "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitSymbol.degC"
+                "@id": "cim:UnitSymbol.degC"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:6270b5e8-b307-427d-82c2-5605950145e3"
@@ -150,7 +149,7 @@
             "cim:IdentifiedObject.description": "400 Volt Telemarkstien 2 Remote Unit 1",
             "cim:IdentifiedObject.name": "04 TELEMA 2 RU1",
             "cim:RemoteUnit.remoteUnitType": {
-                "@id": "http://iec.ch/TC57/CIM100#RemoteUnitType.IED"
+                "@id": "cim:RemoteUnitType.IED"
             }
         }
     ]

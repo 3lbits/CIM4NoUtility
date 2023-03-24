@@ -11,7 +11,7 @@
     "@id": "urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T09:17:57Z",
+        "@value": "2023-03-24T15:24:37Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -71,8 +71,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16",
-            "dcterms:title": "DIGIN10-30-MV1_SSH"
+            "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
         }
     ],
     "@graph": [
@@ -672,7 +671,7 @@
             "cim:RegulatingControl.enabled": true,
             "cim:RegulatingControl.targetValue": 420.0,
             "cim:RegulatingControl.targetValueUnitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             }
         },
         {
@@ -682,7 +681,7 @@
             "cim:RegulatingControl.enabled": true,
             "cim:RegulatingControl.targetValue": 22.0,
             "cim:RegulatingControl.targetValueUnitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             }
         },
         {
@@ -693,7 +692,7 @@
             "cim:RotatingMachine.q": 0.0,
             "cim:RegulatingCondEq.controlEnabled": true,
             "cim:SynchronousMachine.operatingMode": {
-                "@id": "http://iec.ch/TC57/CIM100#SynchronousMachineOperatingMode.generator"
+                "@id": "cim:SynchronousMachineOperatingMode.generator"
             }
         },
         {
@@ -704,7 +703,7 @@
             "cim:RegulatingControl.targetDeadband": 0.04,
             "cim:RegulatingControl.targetValue": 0.4,
             "cim:RegulatingControl.targetValueUnitMultiplier": {
-                "@id": "http://iec.ch/TC57/CIM100#UnitMultiplier.k"
+                "@id": "cim:UnitMultiplier.k"
             }
         },
         {
