@@ -11,7 +11,7 @@
     "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T15:24:37Z",
+        "@value": "2023-03-24T16:17:09Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -2299,6 +2299,9 @@
             "cim:IdentifiedObject.name": "PATL",
             "cim:OperationalLimitType.direction": {
                 "@id": "cim:OperationalLimitDirectionKind.absoluteValue"
+            },
+            "eu:OperationalLimitType.kind": {
+                "@id": "eu:LimitKind.patl"
             }
         },
         {
@@ -2310,6 +2313,9 @@
             "cim:OperationalLimitType.acceptableDuration": null,
             "cim:OperationalLimitType.direction": {
                 "@id": "cim:OperationalLimitDirectionKind.absoluteValue"
+            },
+            "eu:OperationalLimitType.kind": {
+                "@id": "eu:LimitKind.tatl"
             }
         },
         {
