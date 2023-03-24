@@ -29,6 +29,8 @@ DIGIN10-30-v2.0 - A 40 bus power flow case for MV and LV according to CGMES v3.0
 
 DIGIN10-30-v2.1 -  A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including measurement value time series, meter reading time series and necessary asset references.
 
+DIGIN10-30-v2.2 - A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including measurement value time series, meter reading time series and necessary asset references. A release that now includes JSON-LD as an alternative to CIMXML.
+
 ## Specifications
 
  A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1). This version includes measurement values and meter readings to allow power flow calculations based on real time data. The inclusion of measurements will also allow better estimation of future scenarios (steady state values are also based on the real time series).
@@ -44,9 +46,13 @@ v1.0 can be found in the branch release/digin10-v1.0
 
 v2.0 can be found in the branch release/digin10-v2.0
 
+v2.2 can be found in the branch release/digin10-v2.2
+
 ### Folder structure
 
 **Asset:**
+
+***Asset/CIMJSON-LD*** and ***Asset/CIMXML***
 
   Example files for using CDPSM v2.0 (IEC 61968-13:2021)
   
@@ -58,11 +64,7 @@ v2.0 can be found in the branch release/digin10-v2.0
 
 **Grid**
 
-***Grid/CIMJSONLD***
-
-Expected. CGMES profiles expressed in JSON-LD and GeoJSON. GeoJSON shows examples on exchange of CIM data using the GeoJSON standard (geojson.org).
-
-***Grid/CIMXML***
+***Grid/CIMJSON-LD*** and ***Grid/CIMXML***
 
 CGMES v3.0 serialised using CIMXML(IEC 61970-552)
 
