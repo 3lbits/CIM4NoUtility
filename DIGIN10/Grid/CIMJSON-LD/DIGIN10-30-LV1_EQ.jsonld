@@ -11,7 +11,7 @@
     "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T15:24:37Z",
+        "@value": "2023-03-24T16:17:09Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
@@ -2801,6 +2801,9 @@
             "cim:IdentifiedObject.name": "PATL",
             "cim:OperationalLimitType.direction": {
                 "@id": "cim:OperationalLimitDirectionKind.absoluteValue"
+            },
+            "eu:OperationalLimitType.kind": {
+                "@id": "eu:LimitKind.patl"
             }
         },
         {

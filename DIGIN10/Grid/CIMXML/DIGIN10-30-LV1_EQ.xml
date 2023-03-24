@@ -2011,7 +2011,7 @@
         <cim:IdentifiedObject.name>PATL</cim:IdentifiedObject.name>
         <cim:OperationalLimitType.isInfiniteDuration>true</cim:OperationalLimitType.isInfiniteDuration>
         <cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.absoluteValue" />
-        <eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl" />
+        <eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-European#LimitKind.patl" />
     </cim:OperationalLimitType>
  
     <cim:SubLoadArea rdf:ID="_8e39a403-1b86-4a06-be89-3a83eb230789">
