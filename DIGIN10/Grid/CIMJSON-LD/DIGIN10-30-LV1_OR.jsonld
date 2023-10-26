@@ -3,16 +3,16 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "cim": "http://ucaiug.org/ns/CIM#",
         "eu": "http://iec.ch/TC57/CIM100-European#",
+        "nc": "http://entsoe.eu/ns/nc#",
         "dcterms": "http://purl.org/dc/terms/",
         "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "nc": "http://entsoe.eu/ns/nc#"
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@id": "urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T15:24:37Z",
+        "@value": "2023-10-26T10:35:31Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {

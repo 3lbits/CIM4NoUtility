@@ -1,17 +1,18 @@
 {
     "@context": {
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "cim": "http://ucaiug.org/ns/CIM#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "dcat": "http://www.w3.org/ns/dcat#",
         "eu": "http://iec.ch/TC57/CIM100-European#",
         "dcterms": "http://purl.org/dc/terms/",
-        "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
     "@id": "urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
-        "@value": "2023-03-24T15:24:37Z",
+        "@value": "2023-10-26T10:35:31Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:issued": {
