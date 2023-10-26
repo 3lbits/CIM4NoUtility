@@ -20,22 +20,23 @@ Please provide feedback in the case you are dicsovering any errors at, https://g
 
 
 *Status*: Current +
-*Version*: DIGIN10-30-v.2.1 +
-*Published*: 2022-12-05 +
-*Updated*: 2022-12-05 +
+*Version*: DIGIN10-30-v.2.2 +
+*Published*: 2023-03-24 +
+*Updated*: 2023-03-24 +
 *Current Version*: https://github.com/digin-energi/Grunnprofil/tree/main +
-*Previous Version*: DIGIN10-30-v2.0 +
+*Previous Version*: DIGIN10-30-v2.1 +
 
-Issue 50 has been adressed. +
-This version includes measurement values and meter readings to allow power flow calculations based on real time data. The inclusion of measurements will also allow better estimation of future scenarios (steady state values are also based on the real time series).
-Fuse has been included in this model version.
 
 = Related Documents
 Changelog from previous versions: https://github.com/DIGINenergi/Grunnprofil/blob/53fa5512ad099a339b3e5098a7e72739d8bae4ca/DIGIN10/v2.0/docs/ConvertingToCGMES30.adoc[Change Management]
 
-Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v2.1]
+Modeling Guide: https://github.com/DIGINenergi/Grunnprofil/blob/633ecfb97d74aba7c64e48d877ffacf1b3b3092d/DIGIN10/docs/ModelingGuide.adoc[Modeling Guide v2.2]
 
-Specification for the use of Measurement and MeterReading: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Measurement and MeterReading specification v2.1]
+Specification for the use of Measurement and MeterReading: https://github.com/DIGINenergi/Grunnprofil/blob/update_documentation_v.2.1/DIGIN10/docs/ModelingGuide_Measurement.adoc[Measurement and MeterReading specification v2.2]
 
+
+include::..\docs\CIMJSON-LD.adoc[]
+
+include::..\docs\StandardReferences.adoc[]
 
 include::..\docs\KnownIssues.adoc[]

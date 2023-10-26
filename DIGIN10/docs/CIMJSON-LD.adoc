@@ -67,7 +67,7 @@ This is *not* a lossless transformation and it includes duplication.
 
 --
 [cols="1,1,1,1", width=100%]
-[#tab:CIMXMLtoCIMJSON-LDHeaderConversion] 
+[#tab:CIMJSONtoCIMXMLHeaderConversion] 
 |===
 |*CIMXML* |*Operation* |*CIMJSON-LD* |*Note*
 |@id	|Syntax	|rdf:about	|
