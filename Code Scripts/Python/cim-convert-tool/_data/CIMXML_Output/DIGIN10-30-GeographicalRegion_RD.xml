@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://ucaiug.org/ns/CIM#" xmlns:eu="http://iec.ch/TC57/CIM100-European#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#">
+	<md:FullModel rdf:about="urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de">
+		<md:Model.created>2022-04-01T08:55:55</md:Model.created>
+		<md:Model.scenarioTime>DIGIN10 CGMES v3.0 Geographical Region Reference model</md:Model.scenarioTime>
+		<md:Model.modelingAuthoritySet>&quot;http://energy.referencedata.eu/CGMES&quot;</md:Model.modelingAuthoritySet>
+		<md:Model.version>1</md:Model.version>
+	</md:FullModel>
+	<cim:GeographicalRegion rdf:ID="_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4">
+		<cim:IdentifiedObject.mRID>2dd9048c-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Nordic</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NO</cim:IdentifiedObject.name>
+	</cim:GeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17696b3-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f17696b3-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>FI1 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>FI1 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f1769609-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f1769609-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>NO1 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NO1 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f176965f-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f176965f-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>NO2 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NO2 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f1769699-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f1769699-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>NO3 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NO3 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17696a3-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f17696a3-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>NO4 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NO4 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f1769619-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f1769619-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>NO5 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>NO5 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17695cd-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f17695cd-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>SE1 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>SE1 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17695c3-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f17695c3-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>SE2 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>SE2 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17695af-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f17695af-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>SE3 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>SE3 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_f17696cf-9aeb-11e5-91da-b8763fd99c5f">
+		<cim:IdentifiedObject.mRID>f17696cf-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>SE4 Bidding Zone</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>SE4 SGR</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+	<cim:SubGeographicalRegion rdf:ID="_d9b89685-1fed-4233-8f85-70fd9e6cfd23">
+		<cim:IdentifiedObject.mRID>d9b89685-1fed-4233-8f85-70fd9e6cfd23</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Distribution System Operator Vest</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>DSO V</cim:IdentifiedObject.name>
+		<cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+	</cim:SubGeographicalRegion>
+</rdf:RDF>

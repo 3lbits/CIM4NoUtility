@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://ucaiug.org/ns/CIM#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    >
+
+    <md:FullModel rdf:about="urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce">
+        <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
+        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Equipment Short-Circuit (SC) Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0</md:Model.profile>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/ShortCircuit/4.0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+        <!-- Ref Core Equipment -->
+        <md:Model.DependentOn rdf:resource="urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"/>
+    </md:FullModel>
+  
+    <cim:ACLineSegment rdf:about="#_681a26db-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a26db-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
+        <cim:IdentifiedObject.mRID>ab5aff23-cc0c-40a9-ab1b-7c113822358e</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
+        <cim:IdentifiedObject.mRID>cf484bc9-2ef9-4116-a5a9-9a5db3e09df9</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_681a26f3-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a26f3-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_1f19556f-4604-8545-b930-0d96b163c57a">
+        <cim:IdentifiedObject.mRID>1f19556f-4604-8545-b930-0d96b163c57a</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_92d33b99-7034-11eb-a65a-74e5f963e191">
+        <cim:IdentifiedObject.mRID>92d33b99-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_92d33bcc-7034-11eb-a65a-74e5f963e191">
+        <cim:IdentifiedObject.mRID>92d33bcc-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_92d33be4-7034-11eb-a65a-74e5f963e191">
+        <cim:IdentifiedObject.mRID>92d33be4-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_681a2a7f-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a2a7f-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_681a2a13-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a2a13-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_681a26cf-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a26cf-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">
+        <cim:IdentifiedObject.mRID>d1afcb93-f7d9-4e93-8c91-bbeb35f2a322</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_b1b4714b-a160-7742-84d5-d6486d776c94">
+        <cim:IdentifiedObject.mRID>b1b4714b-a160-7742-84d5-d6486d776c94</cim:IdentifiedObject.mRID>
+        <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+    </cim:ACLineSegment>
+
+    <cim:EquivalentInjection rdf:about="#_ed8865cf-8b36-42ce-acdc-0627b5f55802">
+        <cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
+        <cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
+        <cim:IdentifiedObject.mRID>ed8865cf-8b36-42ce-acdc-0627b5f55802</cim:IdentifiedObject.mRID>
+    </cim:EquivalentInjection>
+
+    <!-- Add SynchrousMachine to emulate EI for the power flow-->
+    <cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
+        <cim:SynchronousMachine.r>0.43445</cim:SynchronousMachine.r>
+        <cim:IdentifiedObject.mRID>33666962-c2f9-4f6b-af5a-2ef1982ac282</cim:IdentifiedObject.mRID>
+    </cim:SynchronousMachine>
+
+    <cim:EquivalentInjection rdf:about="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
+        <cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
+        <cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
+        <cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
+        <cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
+        <cim:IdentifiedObject.mRID>c70c1ea0-c58b-624b-ab6a-0072ad2eea25</cim:IdentifiedObject.mRID>
+    </cim:EquivalentInjection>
+
+    <cim:PetersenCoil rdf:about="#_c9d5445c-9ad6-3849-9e02-08762805826b">
+        <cim:IdentifiedObject.mRID>c9d5445c-9ad6-3849-9e02-08762805826b</cim:IdentifiedObject.mRID>
+    </cim:PetersenCoil>
+
+    <cim:PetersenCoil rdf:about="#_62585c75-b020-614c-89a1-fec7c118c3fa">
+        <cim:IdentifiedObject.mRID>62585c75-b020-614c-89a1-fec7c118c3fa</cim:IdentifiedObject.mRID>
+    </cim:PetersenCoil>
+
+    <cim:PowerTransformer rdf:about="#_681a2fdd-5a55-11eb-a658-74e5f963e191">
+        <cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+        <cim:IdentifiedObject.mRID>681a2fdd-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformer>
+
+    <cim:PowerTransformer rdf:about="#_681a2fcb-5a55-11eb-a658-74e5f963e191">
+        <cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+        <cim:IdentifiedObject.mRID>681a2fcb-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformer>
+
+    <cim:PowerTransformer rdf:about="#_681a3087-5a55-11eb-a658-74e5f963e191">
+        <cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+        <cim:IdentifiedObject.mRID>681a3087-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformer>
+
+    <cim:PowerTransformer rdf:about="#_681a309b-5a55-11eb-a658-74e5f963e191">
+        <cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
+        <cim:IdentifiedObject.mRID>681a309b-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformer>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a2fe0-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a2fe0-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a2fea-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a2fea-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a308a-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a308a-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a3094-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a3094-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a2fce-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a2fce-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a2fd8-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a2fd8-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a309e-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a309e-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+    <cim:PowerTransformerEnd rdf:about="#_681a30a8-5a55-11eb-a658-74e5f963e191">
+        <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
+        <cim:IdentifiedObject.mRID>681a30a8-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    </cim:PowerTransformerEnd>
+
+
+</rdf:RDF>

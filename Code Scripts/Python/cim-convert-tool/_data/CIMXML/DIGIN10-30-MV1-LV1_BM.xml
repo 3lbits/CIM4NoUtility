@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://ucaiug.org/ns/CIM#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    xmlns:dcat="http://www.w3.org/ns/dcat"
+    >
+
+    <md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
+        <md:Model.created>2022-04-06T11:32:55</md:Model.created>
+        <md:Model.version>1</md:Model.version>
+        <md:Model.description>DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Low Voltage 1 (LV1) Boundary Model</md:Model.description>
+        <dcat:keyword>BM</dcat:keyword>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/MV1-LV1</md:Model.modelingAuthoritySet>
+        <!-- Anything in EQ (Core, Operation and Short-Circuit) and EQR can be in a boundary. It would be good to refer to the vocabulary that is covered in the model
+        <md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundary/3/1</md:Model.profile>
+        <md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1</md:Model.profile> -->
+    </md:FullModel>
+
+    <!--BoundaryPoints-->
+
+    <cim:Substation rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a2179-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>NEDENES</cim:IdentifiedObject.name>
+        <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+        <cim:IdentifiedObject.description>Secondary Substation Nedenes</cim:IdentifiedObject.description>
+    </cim:Substation>
+
+    <cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a21b6-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04</cim:IdentifiedObject.name>
+        <cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
+        <cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
+    </cim:VoltageLevel>
+
+    <cim:Bay rdf:ID="_3d51330c-7528-4efb-8edc-e61dcc145ac4">
+        <cim:IdentifiedObject.mRID>3d51330c-7528-4efb-8edc-e61dcc145ac4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400V Low Voltage Cable 1 Bay</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES  04LC1</cim:IdentifiedObject.name>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+    </cim:Bay>
+
+    <cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
+        <cim:IdentifiedObject.mRID>45fed034-857e-48df-b6ad-45d82eec564d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+    </cim:ConnectivityNode>
+
+    <eu:BoundaryPoint rdf:ID="_e961d4f3-7d72-476b-9ae3-4bab97e87ced">
+        <cim:IdentifiedObject.mRID>e961d4f3-7d72-476b-9ae3-4bab97e87ced</cim:IdentifiedObject.mRID>
+        <eu:IdentifiedObject.shortName>XNED1_XNED2</eu:IdentifiedObject.shortName>
+        <eu:BoundaryPoint.isDirectCurrent>false</eu:BoundaryPoint.isDirectCurrent>
+        <eu:BoundaryPoint.fromEndIsoCode>NO</eu:BoundaryPoint.fromEndIsoCode>
+        <eu:BoundaryPoint.fromEndName>Nedenes</eu:BoundaryPoint.fromEndName>
+        <eu:BoundaryPoint.fromEndNameTso>DSO1</eu:BoundaryPoint.fromEndNameTso>
+        <eu:BoundaryPoint.toEndIsoCode>NO</eu:BoundaryPoint.toEndIsoCode>
+        <eu:BoundaryPoint.toEndName>Nedenes</eu:BoundaryPoint.toEndName>
+        <eu:BoundaryPoint.toEndNameTso>DSO1</eu:BoundaryPoint.toEndNameTso>
+        <cim:IdentifiedObject.description>Boundary Point Nedenes 0.400</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>XNED1_XNED2 BP</cim:IdentifiedObject.name>
+        <eu:BoundaryPoint.isExcludedFromAreaInterchange>true</eu:BoundaryPoint.isExcludedFromAreaInterchange>
+        <eu:BoundaryPoint.ConnectivityNode rdf:resource="#_45fed034-857e-48df-b6ad-45d82eec564d"/>
+    </eu:BoundaryPoint>
+
+</rdf:RDF>

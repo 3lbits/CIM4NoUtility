@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://ucaiug.org/ns/CIM#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    >
+
+    <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
+        <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Equipment Operation (OP) Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/Operation-EU/3.0</md:Model.profile>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/Operation/4.0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+        <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
+    </md:FullModel>
+
+    <cim:Analog rdf:ID="_173ce5e1-d16b-4015-9793-b12913c9f428">
+        <cim:IdentifiedObject.mRID>173ce5e1-d16b-4015-9793-b12913c9f428</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 AC Line Segment 1 Analog 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 ACLS1 AN7</cim:IdentifiedObject.name>
+        <cim:Measurement.measurementType>Temperature</cim:Measurement.measurementType>
+        <cim:Measurement.phases rdf:resource="http://ucaiug.org/ns/CIM#PhaseCode.ABCN" />
+        <cim:Measurement.unitMultiplier rdf:resource="http://ucaiug.org/ns/CIM#UnitMultiplier.none" />
+        <cim:Measurement.unitSymbol rdf:resource="http://ucaiug.org/ns/CIM#UnitSymbol.degC" />
+        <cim:Analog.maxValue>120</cim:Analog.maxValue>
+        <cim:Analog.minValue>10</cim:Analog.minValue>
+        <cim:Analog.normalValue>30</cim:Analog.normalValue>
+        <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
+        <cim:Measurement.Asset rdf:resource="#_6270b5e8-b307-427d-82c2-5605950145e3"/>
+        <cim:Measurement.PowerSystemResource rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9"/>
+    </cim:Analog>
+
+    <cim:AnalogValue rdf:ID="_ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f">
+        <cim:IdentifiedObject.mRID>ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Analog 7 Analog Value 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 AN7 AV7</cim:IdentifiedObject.name>
+        <cim:MeasurementValue.sensorAccuracy>97.2</cim:MeasurementValue.sensorAccuracy>
+        <cim:MeasurementValue.timeStamp>2022-03-30T13:45:39.393725Z</cim:MeasurementValue.timeStamp>
+        <cim:AnalogValue.value>24.37</cim:AnalogValue.value>
+        <cim:MeasurementValue.MeasurementValueSource rdf:resource="#_b1a076df-b20d-490d-81a5-6e55efbf403c"/>
+        <cim:MeasurementValue.RemoteSource rdf:resource="#_055d5259-8401-4206-a483-f7fd13a87299"/>
+        <cim:AnalogValue.Analog rdf:resource="#_173ce5e1-d16b-4015-9793-b12913c9f428"/>
+    </cim:AnalogValue>
+
+    <cim:CommunicationLink rdf:ID="_1fe5049c-34d7-4e30-a411-ff01c16b8f3a">
+        <cim:IdentifiedObject.mRID>1fe5049c-34d7-4e30-a411-ff01c16b8f3a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Disruptive Technolgies WiFi</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTechWiFi</cim:IdentifiedObject.name>
+        <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
+    </cim:CommunicationLink>
+
+    <cim:CommunicationLink rdf:ID="_2bf1f9fc-263d-4995-80da-9802dc087fe5">
+        <cim:IdentifiedObject.mRID>2bf1f9fc-263d-4995-80da-9802dc087fe5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Disruptive Technolgies 4G</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>DisrTech4G</cim:IdentifiedObject.name>
+        <cim:CommunicationLink.RemoteUnits rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
+    </cim:CommunicationLink>
+
+    <cim:RemoteSource rdf:ID="_055d5259-8401-4206-a483-f7fd13a87299">
+        <cim:IdentifiedObject.mRID>055d5259-8401-4206-a483-f7fd13a87299</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Remote Source 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 RS1</cim:IdentifiedObject.name>
+        <cim:RemoteSource.deadband>0</cim:RemoteSource.deadband>
+        <cim:RemoteSource.scanInterval>1</cim:RemoteSource.scanInterval>
+        <cim:RemoteSource.sensorMaximum>120</cim:RemoteSource.sensorMaximum>
+        <cim:RemoteSource.sensorMinimum>-30</cim:RemoteSource.sensorMinimum>
+        <cim:RemotePoint.RemoteUnit rdf:resource="#_00160296-775f-407a-8d67-c9a5d610715a"/>
+    </cim:RemoteSource>
+
+    <cim:RemoteUnit rdf:ID="_00160296-775f-407a-8d67-c9a5d610715a">
+        <cim:IdentifiedObject.mRID>00160296-775f-407a-8d67-c9a5d610715a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>400 Volt Telemarkstien 2 Remote Unit 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>04 TELEMA 2 RU1</cim:IdentifiedObject.name>
+        <cim:RemoteUnit.remoteUnitType rdf:resource="http://ucaiug.org/ns/CIM#RemoteUnitType.IED" />
+    </cim:RemoteUnit>
+
+</rdf:RDF>
