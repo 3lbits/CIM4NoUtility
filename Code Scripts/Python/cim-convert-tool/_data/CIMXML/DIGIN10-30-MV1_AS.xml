@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://ucaiug.org/ns/CIM#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#">
+ 
+    <md:FullModel rdf:about="urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342">
+        <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
+        <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 Medium Voltage 1 (MV1) Asset Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/Asset</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+    </md:FullModel>
+
+    <cim:Asset rdf:ID="_3344a693-6818-4703-93ac-510baac566d5">
+        <cim:IdentifiedObject.mRID>3344a693-6818-4703-93ac-510baac566d5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 1 Asset 3</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT1 A3</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01540601</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSTPRi</cim:Asset.serialNumber>
+        <cim:Asset.type>CurrentTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000003</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_26d2f8aa-b651-46c5-a54d-05948f35f3d2" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_9e9d30f5-fdb3-4d0e-9309-ad41c97f3df5">
+        <cim:IdentifiedObject.mRID>9e9d30f5-fdb3-4d0e-9309-ad41c97f3df5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 2 Asset 4</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT2 A4</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01550601</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSMPRi</cim:Asset.serialNumber>
+        <cim:Asset.type>CurrentTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000004</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_0f3b6200-684d-4365-8d55-45baae73bffb" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_addaff9d-8a88-4f0b-8213-1a15498083a2">
+        <cim:IdentifiedObject.mRID>addaff9d-8a88-4f0b-8213-1a15498083a2</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Current Transformer 3 Asset 5</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE CT3 A5</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01560601</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSTNRi</cim:Asset.serialNumber>
+        <cim:Asset.type>CurrentTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000005</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_ff20c614-4797-471e-98c6-c08f7ed97ce6">
+        <cim:IdentifiedObject.mRID>ff20c614-4797-471e-98c6-c08f7ed97ce6</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 1 Asset 6</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT1 A6</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01370602</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8HuPTPRy</cim:Asset.serialNumber>
+        <cim:Asset.type>PotentialTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000007</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_fd11bf7f-138b-4a1b-802c-25262b7b8672" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_0507d6c7-b845-4171-ad56-d531e2e52401">
+        <cim:IdentifiedObject.mRID>0507d6c7-b845-4171-ad56-d531e2e52401</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 2 Asset 7</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT2 A7</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01370602</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8YuPTPRy</cim:Asset.serialNumber>
+        <cim:Asset.type>PotentialTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000008</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_03f7a245-aeca-48ba-af07-58419fb9b77c" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_1104d9f6-95d3-463a-b8ad-6f64eb3a730b">
+        <cim:IdentifiedObject.mRID>1104d9f6-95d3-463a-b8ad-6f64eb3a730b</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Voltage Transformer 3 Asset 8</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE VT3 A8</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01370602</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8JuPTPRy</cim:Asset.serialNumber>
+        <cim:Asset.type>PotentialTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000009</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1">
+        <cim:IdentifiedObject.mRID>6b7f7604-9f3e-479e-889f-f5d3d8ca60a1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Engene Power Transformer</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>ENGENE PT</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.transformer" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber></cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice></cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber></cim:Asset.serialNumber>
+        <cim:Asset.type></cim:Asset.type>
+        <cim:Asset.utcNumber></cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+        <cim:Asset.AssetInfo rdf:resource="#_5462d46a-9ee5-4d09-9ac2-9f97933caa4d" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_4cb51263-a59e-4df2-972c-869f43a3aeaa">
+        <cim:IdentifiedObject.mRID>4cb51263-a59e-4df2-972c-869f43a3aeaa</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400 Volt Current Transformer 4 Asset 9</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04 CT4 A9</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01563601</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100200.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8DuSTNRi</cim:Asset.serialNumber>
+        <cim:Asset.type>CurrentTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000001000005</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_686be1a3-4215-4ee3-b9fa-701b3c76ec04" />
+    </cim:Asset>
+
+    <cim:Asset rdf:ID="_2147932e-ba94-4cee-a9ad-a22c9c87dab5">
+        <cim:IdentifiedObject.mRID>2147932e-ba94-4cee-a9ad-a22c9c87dab5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400 Volt Voltage Transformer 4 Asset 10</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04 VT4 A10</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>false</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01370602</cim:Asset.lotNumber>
+        <cim:Asset.position>inGround</cim:Asset.position>
+        <cim:Asset.purchasePrice>100000.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>8JuPTPRy</cim:Asset.serialNumber>
+        <cim:Asset.type>PotentialTransformer</cim:Asset.type>
+        <cim:Asset.utcNumber>10000000000009</cim:Asset.utcNumber>
+        <cim:Asset.PowerSystemResources rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+    </cim:Asset>
+
+    <cim:Meter rdf:ID="_c06392cf-393b-4a4f-8e58-63af4a84380a">
+        <cim:IdentifiedObject.mRID>c06392cf-393b-4a4f-8e58-63af4a84380a</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400 Volt Meter 1</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04 M1</cim:IdentifiedObject.name>
+        <cim:Asset.baselineCondition>New</cim:Asset.baselineCondition>
+        <cim:Asset.baselineLossOfLife>0</cim:Asset.baselineLossOfLife>
+        <cim:Asset.critical>true</cim:Asset.critical>
+        <cim:Asset.inUseState rdf:resource="http://ucaiug.org/ns/CIM#InUseStateKind.inUse" />
+        <cim:Asset.kind rdf:resource="http://ucaiug.org/ns/CIM#AssetKind.other" />
+        <cim:Asset.lifecycleState rdf:resource="http://ucaiug.org/ns/CIM#AssetLifeCycleStateKind.received" />
+        <cim:Asset.lotNumber>LOT # B-01280609</cim:Asset.lotNumber>
+        <cim:Asset.position>inSubstation</cim:Asset.position>
+        <cim:Asset.purchasePrice>500.00</cim:Asset.purchasePrice>
+        <cim:Asset.serialNumber>7359990000000001</cim:Asset.serialNumber>
+        <cim:Asset.type>SmartMeter</cim:Asset.type>
+        <cim:Asset.utcNumber>10000001000001</cim:Asset.utcNumber>
+        <cim:EndDevice.amrSystem>AMI</cim:EndDevice.amrSystem>
+        <cim:EndDevice.installCode>7359990000000001</cim:EndDevice.installCode>
+        <cim:EndDevice.isPan>false</cim:EndDevice.isPan>
+        <cim:EndDevice.isSmartInverter>true</cim:EndDevice.isSmartInverter>
+        <cim:EndDevice.isVirtual>false</cim:EndDevice.isVirtual>
+        <cim:EndDevice.timeZoneOffset>1</cim:EndDevice.timeZoneOffset>
+        <cim:Meter.connectionCategory></cim:Meter.connectionCategory>
+        <cim:Meter.formNumber></cim:Meter.formNumber>
+    </cim:Meter>
+
+</rdf:RDF>

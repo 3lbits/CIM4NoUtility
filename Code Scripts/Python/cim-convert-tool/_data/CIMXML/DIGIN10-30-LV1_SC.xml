@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cim="http://ucaiug.org/ns/CIM#"
+    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+    xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+    >
+
+    <md:FullModel rdf:about="urn:uuid:50ae854b-afb8-4d42-bd4b-e97f1ee1ca6f">
+        <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
+        <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+        <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Equipment Short-Circuit (SC) Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0</md:Model.profile>
+        <md:Model.profile>http://iec.ch/TC57/ns/CIM/ShortCircuit/4.0</md:Model.profile>
+        <md:Model.version>1</md:Model.version>
+        <!-- Ref Equipment Boundary Set -->
+        <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"/>
+    </md:FullModel>
+    
+    <cim:ACLineSegment rdf:about="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_81567f71-8233-4e19-8357-e75d35e89470">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_e0e00668-9e76-461f-b310-8c84afb9ffe6">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.076799999740563</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.018095573861056</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_70b19e4c-edb9-4957-885c-59b7a515724f">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_46bce40c-71c2-4d19-b63f-78a69c460b0e">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_43dbe66c-a342-44b0-b9cf-058c784cef1d">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_30d15518-d0ac-4800-a5c1-da8593c790ed">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.076799999740563</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.018095573861056</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_84329e8e-2efe-4870-82db-a0bf9a768bd2">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_3f90847f-9450-47aa-a2fa-714cc5353867">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_6f519536-eefe-452e-8294-c115bf21581d">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_446700b3-38fb-4cfe-aa71-11fdf6118a49">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.051199999827042</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.012063715907371</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:ACLineSegment rdf:about="#_320b9701-cae3-478e-a70b-03d1736ed4e3">
+        <cim:ACLineSegment.b0ch>0</cim:ACLineSegment.b0ch>
+        <cim:ACLineSegment.g0ch>0</cim:ACLineSegment.g0ch>
+        <cim:ACLineSegment.r0>0.063999999783802</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.shortCircuitEndTemperature>0</cim:ACLineSegment.shortCircuitEndTemperature>
+        <cim:ACLineSegment.x0>0.015079644884214</cim:ACLineSegment.x0>
+    </cim:ACLineSegment>
+
+    <cim:BusbarSection rdf:about="#_b8a334a5-2bcb-40e6-b6c2-db906441552d">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:BusbarSection rdf:about="#_e18cbee0-1a4f-4315-9108-39f317c67fd5">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:BusbarSection rdf:about="#_8cc7031f-def2-49b7-97a9-43d3c3c15789">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:BusbarSection rdf:about="#_13e2ba8c-0046-447a-a99f-4c7ec3b051b9">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:BusbarSection rdf:about="#_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:BusbarSection rdf:about="#_46c1c4fb-6a7a-4912-bd2e-4851b6276345">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:BusbarSection rdf:about="#_c060399a-96a1-4765-9ef8-c936ca08f8fe">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+    </cim:BusbarSection>
+
+    <cim:EquivalentInjection rdf:about="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a">
+        <cim:EquivalentInjection.r>0.316799999</cim:EquivalentInjection.r>
+        <cim:EquivalentInjection.r0>1.267199996</cim:EquivalentInjection.r0>
+        <cim:EquivalentInjection.x>0.074644242</cim:EquivalentInjection.x>
+        <cim:EquivalentInjection.x0>0.298576969</cim:EquivalentInjection.x0>
+    </cim:EquivalentInjection>
+
+</rdf:RDF>

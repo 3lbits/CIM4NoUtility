@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cim="http://ucaiug.org/ns/CIM#"
+  xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+  xmlns:eu="http://iec.ch/TC57/CIM100-European#"
+  >
+
+  <md:FullModel rdf:about="urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6">
+    <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
+    <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Diagram Layout (DL) Model</md:Model.description>
+    <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0</md:Model.profile>
+    <md:Model.version>1</md:Model.version>
+    <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>
+  </md:FullModel>
+
+  <cim:Diagram rdf:ID="_6e7d0428-fc30-43dc-a9d6-42aa5c9d6168">
+    <cim:IdentifiedObject.mRID>6e7d0428-fc30-43dc-a9d6-42aa5c9d6168</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>DIGIN10 Low Voltage</cim:IdentifiedObject.name>
+    <cim:Diagram.orientation rdf:resource="http://ucaiug.org/ns/CIM#OrientationKind.negative"/>
+  </cim:Diagram>
+
+</rdf:RDF>
