@@ -34,39 +34,39 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "UsagePoint": {
+                "mRID": "ab9eba1c-28e2-41e6-9d90-97b484581582",
+                "Names": [
+                    {
+                        "name": "707057500000000002",
+                        "NameType": {
+                            "description": "Unique identifier for UsagePoint in on-prem systems",
+                            "name": "usagePointId",
+                            "NameTypeAuthority": {
+                                "description": "Unique identifier standard ean",
+                                "name": "ean"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Meter": {
+                "mRID": "58236274-f2dc-467b-90df-466007786b49",
+                "Names": [
+                    {
+                        "name": "7359990000000002",
+                        "NameType": {
+                            "description": "Unique identifier for Meter in on-prem systems",
+                            "name": "meterId",
+                            "NameTypeAuthority": {
+                                "description": "Unique identifier standard ean",
+                                "name": "ean"
+                            }
+                        }
+                    }
+                ]
+            }
         }
-    ],
-    "UsagePoint": {
-        "mRID": "ab9eba1c-28e2-41e6-9d90-97b484581582",
-        "Names": [
-            {
-                "name": "707057500000000002",
-                "NameType": {
-                    "description": "Unique identifier for UsagePoint in on-prem systems",
-                    "name": "usagePointId",
-                    "NameTypeAuthority": {
-                        "description": "Unique identifier standard ean",
-                        "name": "ean"
-                    }
-                }
-            }
-        ]
-    },
-    "Meter": {
-        "mRID": "58236274-f2dc-467b-90df-466007786b49",
-        "Names": [
-            {
-                "name": "7359990000000002",
-                "NameType": {
-                    "description": "Unique identifier for Meter in on-prem systems",
-                    "name": "meterId",
-                    "NameTypeAuthority": {
-                        "description": "Unique identifier standard ean",
-                        "name": "ean"
-                    }
-                }
-            }
-        ]
-    }
+    ]
 }
