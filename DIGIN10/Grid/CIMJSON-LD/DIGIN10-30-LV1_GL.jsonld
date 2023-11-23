@@ -6,7 +6,8 @@
         "dcterms": "http://purl.org/dc/terms/",
         "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#"
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "elbits": "http://www.elbits.no"
     },
     "@id": "urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74",
     "@type": "dcat:Dataset",
@@ -96,6 +97,18 @@
             },
             "cim:Location.PowerSystemResources": {
                 "@id": "urn:uuid:4bb21420-ef4f-4af1-979e-863c3f484c51"
+            },
+            "elbits:Location.PhysicalAddress": {
+                "@id": "urn.uuid:609870a4-1575-4f90-a4fc-d87d9c0e084a",
+                "elbits:IdentifiedObject.mRID": "609870a4-1575-4f90-a4fc-d87d9c0e084a",
+                "elbits:Address.country": "Norway",
+                "elbits:Address.streetNumber": "2",
+                "elbits:Address.streetAddress": "Telemarkstien",
+                "elbits:Address.postalCode": "3810",
+                "elbits:Address.region": "Vestfold og Telemark",
+                "elbits:PhysicalAddress.municipality": "Midt-Telemark",
+                "elbits:PhysicalAddress.town": "Gvarv",
+                "elbits:PhysicalAddress.isWithinTownLimits": 1
             }
         },
         {
