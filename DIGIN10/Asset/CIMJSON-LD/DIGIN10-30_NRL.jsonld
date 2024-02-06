@@ -1,0 +1,160 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "http://ucaiug.org/ns/CIM#",
+        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@id": "urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-02-06T12:00:00Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-02-06T12:00:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "DIGIN10-30_NRL",
+    "dcterms:description": [
+        {
+            "@value": "DIGIN10 Norsk Register for Luftfartshinder",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "DIGIN"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-02-06T12:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://digin.no/baseprofile/DIGIN10-30_NRL"
+    },
+    "dcat:keyword": "NRL",
+    "dcterms:spatial": {
+        "@id": "https://diginenergi.no/DIGIN10"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "http://iec.ch/TC57/CIM"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:dd345794-d73a-4510-b0e3-ee62fbdde482"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
+            "@type": "nc:Zone",
+            "cim:IdentifiedObject.mRID": "802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
+            "cim:IdentifiedObject.description": "",
+            "cim:IdentifiedObject.name": "",
+            "nc:Zone.status": "",
+            "nc:Zone.verifisertRapporteringsnøyaktighet": "",
+            "nc:Zone.luftfartshindermerking": "",
+            "nc:Zone.luftfartshinderlyssetting": "",
+            "nc:Zone.luftspennType": "",
+            "nc:Zone.anleggsbredde": "",
+            "nc:Zone.høydereferanse": ""
+
+        },
+        {
+            "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812",
+            "@type": "nc:Site",
+            "cim:IdentifiedObject.mRID": "2065795c-28c0-49ab-98ed-7aa39dc90812",
+            "cim:IdentifiedObject.description": "",
+            "cim:IdentifiedObject.name": ""
+        },
+        {
+            "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb",
+            "@type": "nc:Structure",
+            "cim:IdentifiedObject.mRID": "1f521353-04da-47f7-bcc9-17e1aefb7beb",
+            "cim:IdentifiedObject.description": "",
+            "cim:IdentifiedObject.name": "",
+            "nc:Structure.status": "",
+            "nc:Structure.verifisertRapporteringsnøyaktighet": "",
+            "nc:Structure.luftfartshindermerking": "",
+            "nc:Structure.luftfartshinderlyssetting": "",
+            "nc:Structure.høydereferanse": "",
+            "nc:Structure.mastType": ""
+        },
+        {
+            "@id": "urn:uuid:4ca3f765-3300-4c40-b680-67cb330eb9ff",
+            "@type": "nc:StructureSupport",
+            "cim:IdentifiedObject.mRID": "4ca3f765-3300-4c40-b680-67cb330eb9ff",
+            "cim:IdentifiedObject.description": "",
+            "cim:IdentifiedObject.name": ""
+        },
+        {
+            "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9",
+            "@type": "cim:CoordinateSystem",
+            "cim:IdentifiedObject.mRID": "2be52cd7-b707-4dda-9e14-4a1966e22ff9",
+            "cim:IdentifiedObject.name": "EPSG 4326",
+            "cim:CoordinateSystem.crsUrn": "urn:ogc:def:crs:EPSG::4326"
+        },
+        {
+            "@id": "urn:uuid:5194368c-045a-4af4-bae3-10b7740f18de",
+            "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "5194368c-045a-4af4-bae3-10b7740f18de",
+            "cim:IdentifiedObject.name": "",
+            "cim:Location.CoordinateSystem": {
+                "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
+            },
+            "cim:Location.PowerSystemResources": {
+                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
+            }
+        },
+        {
+            "@id": "urn:uuid:00566aad-5139-4824-9fac-5b609cb3d170",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 1,
+            "cim:PositionPoint.xPosition": 8.7007293714585,
+            "cim:PositionPoint.yPosition": 58.41467201058505,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:5194368c-045a-4af4-bae3-10b7740f18de"
+            }
+        },
+        {
+            "@id": "urn:uuid:9738ea46-7ed2-4eac-91c7-c988e229c6f6",
+            "@type": "cim:PositionPoint",
+            "cim:PositionPoint.sequenceNumber": 2,
+            "cim:PositionPoint.xPosition": 8.7007293,
+            "cim:PositionPoint.yPosition": 58.414672,
+            "cim:PositionPoint.Location": {
+                "@id": "urn:uuid:5194368c-045a-4af4-bae3-10b7740f18de"
+            }
+        },
+        {
+            "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
+            "@type": "nc:Geometry",
+            "cim:IdentifiedObject.mRID": "7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
+            "cim:IdentifiedObject.description": "",
+            "cim:IdentifiedObject.name": "",
+            "nc:Geometry.type": "Line",
+            "nc:Geometry.PowerSystemResources": {
+                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
+            }
+        }
+    ]
+}
