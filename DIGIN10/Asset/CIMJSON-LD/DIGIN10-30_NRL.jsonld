@@ -76,17 +76,20 @@
             "nc:Zone.luftfartshinderlyssetting": "",
             "nc:Zone.luftspennType": "",
             "nc:Zone.anleggsbredde": "",
-            "nc:Zone.høydereferanse": ""
-
+            "nc:Zone.høydereferanse": "",
+            "nc:Zobe.Geometry": {
+                "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
+            }
         },
         {
             "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812",
-            "@type": "nc:Site",
+            "@type": "nc:Zone",
             "cim:IdentifiedObject.mRID": "2065795c-28c0-49ab-98ed-7aa39dc90812",
             "cim:IdentifiedObject.description": "",
             "cim:IdentifiedObject.name": ""
         },
         {
+            "_comment": "Bør skille på mast og stolpe. Mast er en kontainer av stolper og andre ting som barduner, osv",
             "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb",
             "@type": "nc:Structure",
             "cim:IdentifiedObject.mRID": "1f521353-04da-47f7-bcc9-17e1aefb7beb",
@@ -100,6 +103,7 @@
             "nc:Structure.mastType": ""
         },
         {
+            "_comment": "Bør være en del av kontaineren Mast",
             "@id": "urn:uuid:4ca3f765-3300-4c40-b680-67cb330eb9ff",
             "@type": "nc:StructureSupport",
             "cim:IdentifiedObject.mRID": "4ca3f765-3300-4c40-b680-67cb330eb9ff",
@@ -151,10 +155,7 @@
             "cim:IdentifiedObject.mRID": "7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
             "cim:IdentifiedObject.description": "",
             "cim:IdentifiedObject.name": "",
-            "nc:Geometry.type": "Line",
-            "nc:Geometry.PowerSystemResources": {
-                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
-            }
+            "nc:Geometry.type": "Line"
         }
     ]
 }
