@@ -65,19 +65,29 @@
     ],
     "@graph": [
         {
+            "_comment": "Inherit from nc:Zone with 1-1 with Line Container?",
             "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
-            "@type": "nc:Zone",
+            "@type": "nc:RightOfWay",
             "cim:IdentifiedObject.mRID": "802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
             "cim:IdentifiedObject.description": "",
             "cim:IdentifiedObject.name": "",
-            "nc:Zone.status": "",
-            "nc:Zone.verifisertRapporteringsnøyaktighet": "",
-            "nc:Zone.luftfartshindermerking": "",
-            "nc:Zone.luftfartshinderlyssetting": "",
-            "nc:Zone.luftspennType": "",
-            "nc:Zone.anleggsbredde": "",
-            "nc:Zone.høydereferanse": "",
-            "nc:Zobe.Geometry": {
+            "_commentStatus": "status needs to be in a project class or asset deployment [eksisterende, fjernet, planlagtOppført]",
+            "nc:RightOfWay.status": "",
+            "_commentVerifisertRapporteringsnøyaktighet": "Hardcoded? ['20230101_5-1, 0']",
+            "nc:RightOfWay.verifisertRapporteringsnøyaktighet": "",
+            "_commentLuftfartshindermerking": "['fargemerking', 'markør']",
+            "nc:RightOfWay.luftfartshindermerking": "",
+            "_commentLuftfartshinderlyssetting": "['lyssatt', 'mellomintensitetTypeA', 'mellomintensitetTypeB', 'mellomintensitetTypeC']",
+            "nc:RightOfWay.luftfartshinderlyssetting": "",
+            "_commentLuftspennType": "Create float as nominalVotlage in BaseVotlage?['høgspent', 'lavspent']",
+            "nc:RightOfWay.luftspennType": "",
+            "_commentAnleggsbredde": "",
+            "nc:RightOfWay.anleggsbredde": 0.0,
+            "nc:RightOfWay.høydereferanse": "",
+            "nc:Zone.Geometry": {
+                "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
+            },
+            "nc:RightOfWay.Line": {
                 "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
             }
         },
