@@ -10,7 +10,7 @@ Anyone is welcome to contribute to this repository by opening a pull request wit
 
 We fully adapt the git flow methodology, specifically the branch strategy for working on features, bugfixes, releases and hotfixes. For a walkthrough of this git strategy refer to the following site. We have 2 longlasting branches that contain the main code/data, develop and main, which are protected against code pushes into the Github repository. The different naming standards are used to indicate the purpose of a branch, which means that one should be able to identify what is being developed by looking at the branch names. Additions to the default naming standard can be considered on a repository by respository basis as long as the additional branch formats adds value to the development process.
 
-Note that in some older repos master is used instead of main. This is due to standards that have since been changed. New repos should always use main.
+> Note that in some older repos master is used instead of main. This is due to standards that have since been changed. New repos should always use main.
 
 ## Branch overview
 
