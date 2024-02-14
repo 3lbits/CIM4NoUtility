@@ -14,23 +14,6 @@ Note that in some older repos master is used instead of main. This is due to sta
 
 ## Branch overview
 
-<style>
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd; /* Add border color */
-  }
-  th, td {
-    border: 1px solid #ddd; /* Add border color */
-    padding: 8px;
-    text-align: left;
-  }
-  th {
-    background-color: #f2f2f2; /* Add grey background to header */
-    color: black; /* Set text color to black */
-  }
-</style>
-
 | Branch Format   | Lifetime  | Protected  | Purpose                                                                                                                                                           |
 |-----------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```main```      | Long      | Yes        | Contains the currently released code/data                                                                                                                         |
@@ -40,11 +23,7 @@ Note that in some older repos master is used instead of main. This is due to sta
 | ```bugfix/*```  | Short     | No         | Used to develop fixes for bugs or errors in the development branch                                                                                                |
 | ```hotfix/*```  | Short     | No         | Used to develop important fixes that need to be released as soon as possible. Suggested through Pull Request to main and then a merge to develop from main        |
 
-
-
-
-
-* in the branchformat above is to be replaced with a good description of the changes introduced in the branch. For example ```feature/add-documentation-to-endpoint-x``` and ```bugfix/remove-exception-while-importing-only-one-line```.
+```*``` in the branchformat above is to be replaced with a good description of the changes introduced in the branch. For example ```feature/add-documentation-to-endpoint-x``` and ```bugfix/remove-exception-while-importing-only-one-line```.
 
 Long = exists forever, and is never erased. Should be protected.
 Short = when the pull request to ```develop``` / ```main``` is approved and **squash-merged/merge** committed in, or not approved and Pull Request is closed, then the branch is deleted from the server. History is in the Pull Request discussion.
