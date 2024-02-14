@@ -15,7 +15,7 @@ Note that in some older repos master is used instead of main. This is due to sta
 ## Branch overview
 
 | Branch Format   | Lifetime  | Protected  | Purpose                                                                                                                                                           |
-|-----------------|-----------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:----------------|:----------|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ```main```      | Long      | Yes        | Contains the currently released code/data                                                                                                                         |
 | ```develop```   | Long      | Yes        | Contains the unreleased code                                                                                                                                      |
 | ```release/```  | Short     | No         | Contains the unreleased code that is being polished before release. This branch is optional                                                                       |
