@@ -83,7 +83,7 @@
             "nc:RightOfWay.luftspennType": "",
             "_commentAnleggsbredde": "",
             "nc:RightOfWay.anleggsbredde": 0.0,
-            "nc:RightOfWay.høydereferanse": "",
+            "nc:RightOfWay.høydereferanse": 0.0,
             "nc:Zone.Geometry": {
                 "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
             },
