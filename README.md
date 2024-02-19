@@ -6,13 +6,19 @@ The Community platform shall serve as an arena for development of best practices
 All communication within the Community platform shall be in English to promote interoperability and international collaboration.
 
 ### Code development
-In order to ensure a good working environment for the Community platform all contributors must be  aligned on a GitHub workflow, therefore, all contributors shall follow the GitHub repo strategy: [RepositoryStrategy.md](RepositoryStrategy.md)
+In order to ensure a good working environment for the Community platform all contributors must be  aligned on a GitHub workflow, therefore, all contributors shall follow the GitHub repo strategy: [RepositoryStrategy.md](RepositoryStrategy.md) <br>
+
+The [DeveloperGuide](DeveloperGuide.adoc) provides a stepwise instruction of how to make changes to code using Visual Studio Code.
 
 ### Issues
 Issues are used to plan, discuss and track tasks related to use cases that Elbits_Utility_Standardization is working on.<br>
 Issues are also used to report bugs.
 
 ### Discussions
+GitHub Discussions is used as a communication forum so that users or contributors to Elbits_Utility_Standardization can make suggestions and engage with community members about plans, questions, ideas, and feedback.
+
+Upvote discussions and comments to give higher visibility to topics or ideas you find important or valuable.
+
 |Discussion category| Description                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
 |Announcements      |Updates and news of interest to the user community                                                |
