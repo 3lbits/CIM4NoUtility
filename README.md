@@ -2,10 +2,10 @@
 The goal of ElBits Data Standardization is to establish a best practice for the use of data exchange formats within the Norwegian (and international) electrical utility industry. To acheive this the whole electric utility industry must contribute. 
 The Community platform shall serve as an arena for development of best practices and competence enhancement within the Norwegian electric utility industry.
 
-## Get involved
+## :seedling: Get involved
 All communication within the Community platform shall be in English to promote interoperability and international collaboration.
 
-### :seedling: Code development
+### Code development
 In order to ensure a good working environment for the Community platform all contributors must be  aligned on a GitHub workflow, therefore, all contributors shall follow the GitHub repo strategy: [RepositoryStrategy.md](RepositoryStrategy.md)
 
 ### Issues
