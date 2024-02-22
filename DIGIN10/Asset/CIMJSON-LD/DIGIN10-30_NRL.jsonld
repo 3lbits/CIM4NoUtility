@@ -1,12 +1,13 @@
 {
     "@context": {
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "cim": "http://ucaiug.org/ns/CIM#",
+        "cim": "https://cim.ucaiug.io/ns#",
         "eu": "http://iec.ch/TC57/CIM100-European#",
         "dcterms": "http://purl.org/dc/terms/",
         "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#"
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nc-no" : "https://cim4.eu/ns/nc-no#"
     },
     "@id": "urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3",
     "@type": "dcat:Dataset",
@@ -65,60 +66,122 @@
     ],
     "@graph": [
         {
-            "_comment": "Inherit from nc:Zone with 1-1 with Line Container?",
             "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
-            "@type": "nc:RightOfWay",
+            "@type": "nc-no:ACLineSegmentSpan",
             "cim:IdentifiedObject.mRID": "802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
-            "cim:IdentifiedObject.description": "",
-            "cim:IdentifiedObject.name": "",
-            "_commentStatus": "status needs to be in a project class or asset deployment [eksisterende, fjernet, planlagtOppført]",
-            "nc:RightOfWay.status": "",
-            "_commentVerifisertRapporteringsnøyaktighet": "Hardcoded? ['20230101_5-1, 0']",
-            "nc:RightOfWay.verifisertRapporteringsnøyaktighet": "",
-            "_commentLuftfartshindermerking": "['fargemerking', 'markør']",
-            "nc:RightOfWay.luftfartshindermerking": "",
-            "_commentLuftfartshinderlyssetting": "['lyssatt', 'mellomintensitetTypeA', 'mellomintensitetTypeB', 'mellomintensitetTypeC']",
-            "nc:RightOfWay.luftfartshinderlyssetting": "",
-            "_commentLuftspennType": "Create float as nominalVotlage in BaseVotlage?['høgspent', 'lavspent']",
-            "nc:RightOfWay.luftspennType": "",
-            "_commentAnleggsbredde": "",
-            "nc:RightOfWay.anleggsbredde": 0.0,
-            "nc:RightOfWay.høydereferanse": 0.0,
-            "nc:Zone.Geometry": {
-                "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
+            "cim:IdentifiedObject.description": "ACLineSegmentSpan 2",
+            "cim:IdentifiedObject.name": "ACLSS_2",
+            "nc-no:ACLineSegmentSpan.accuracyKind": {
+                "@id": "nc-no:AccuracyKind.measured"
             },
-            "nc:RightOfWay.Line": {
+            "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+                "@id": "nc-no:AviationObstacleMarkingKind.colorMarking"
+            },
+            "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+                "@id": "nc-no:AviationObstacleLightingKind.lit"
+            },
+            "nc-no:ACLineSegmentSpan.spanWidth": 3.97,
+            "nc-no:ACLineSegmentSpan.maxHeight": 153.23,
+            "nc-no:PowerSystemResource.Geometry": {
                 "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
             }
         },
         {
-            "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812",
-            "@type": "nc:Zone",
-            "cim:IdentifiedObject.mRID": "2065795c-28c0-49ab-98ed-7aa39dc90812",
-            "cim:IdentifiedObject.description": "",
-            "cim:IdentifiedObject.name": ""
+            "@id": "urn:uuid:9888539e-6d5f-4598-a259-0ded6c29aa45",
+            "@type": "nc-no:ACLineSegmentDeployment",
+            "cim:IdentifiedObject.mRID": "9888539e-6d5f-4598-a259-0ded6c29aa45",
+            "cim:IdentifiedObject.description": "ACLineSegment Deployment 2",
+            "cim:IdentifiedObject.name": "ACLSD_2",
+            "cim:AssetDeployment.deploymentState": {
+                "@id": "cim:DeploymentStateKind.notYetInstalled"
+            },
+            "cim:AssetDeployment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:AssetDeployment.PowerSystemResource": {
+                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
+            }
         },
         {
-            "_comment": "Bør skille på mast og stolpe. Mast er en kontainer av stolper og andre ting som barduner, osv",
             "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb",
-            "@type": "nc:Structure",
+            "@type": "nc-no:Structure",
             "cim:IdentifiedObject.mRID": "1f521353-04da-47f7-bcc9-17e1aefb7beb",
-            "cim:IdentifiedObject.description": "",
-            "cim:IdentifiedObject.name": "",
-            "nc:Structure.status": "",
-            "nc:Structure.verifisertRapporteringsnøyaktighet": "",
-            "nc:Structure.luftfartshindermerking": "",
-            "nc:Structure.luftfartshinderlyssetting": "",
-            "nc:Structure.høydereferanse": "",
-            "nc:Structure.mastType": ""
+            "cim:IdentifiedObject.description": "Structure 2",
+            "cim:IdentifiedObject.name": "S_2",
+            "nc-no:ACLineSegmentSpan.accuracyKind": {
+                "@id": "nc-no:AccuracyKind.measured"
+            },
+            "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+                "@id": "nc-no:AviationObstacleMarkingKind.marker"
+            },
+            "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+                "@id": "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB"
+            },
+            "nc-no:ACLineSegmentSpan.height": 20.04,
+            "nc-no:PowerSystemResource.Geometry": {
+                "@id": "urn:uuid:6b774068-8942-404b-8812-53d2fa1520d9"
+            }
+        },
+        {
+            "@id": "urn:uuid:fe789266-1074-406f-99a8-f833d07865c4",
+            "@type": "nc-no:StructureDeployment",
+            "cim:IdentifiedObject.mRID": "fe789266-1074-406f-99a8-f833d07865c4",
+            "cim:IdentifiedObject.description": "Structure Deployment 3",
+            "cim:IdentifiedObject.name": "SD_3",
+            "cim:AssetDeployment.deploymentState": {
+                "@id": "cim:DeploymentStateKind.notYetInstalled"
+            },
+            "cim:AssetDeployment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "cim:AssetDeployment.PowerSystemResource": {
+                "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            }
+        },
+        {
+            "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812",
+            "@type": "nc-no:Zone",
+            "cim:IdentifiedObject.mRID": "2065795c-28c0-49ab-98ed-7aa39dc90812",
+            "cim:IdentifiedObject.description": "Zone 1",
+            "cim:IdentifiedObject.name": "Z_1",
+            "nc-no:Zone.kind": {
+                "@id": "nc-no:ZoneKind.substationZone"
+            },
+            "nc-no:PowerSystemResource.Geometry": {
+                "@id": "urn:uuid:38a7eccd-d24a-4ece-a8b8-b8fce461c8b9"
+            }
         },
         {
             "_comment": "Bør være en del av kontaineren Mast",
             "@id": "urn:uuid:4ca3f765-3300-4c40-b680-67cb330eb9ff",
-            "@type": "nc:StructureSupport",
+            "@type": "nc-no:StructureSupport",
             "cim:IdentifiedObject.mRID": "4ca3f765-3300-4c40-b680-67cb330eb9ff",
             "cim:IdentifiedObject.description": "",
             "cim:IdentifiedObject.name": ""
+        },
+        {
+            "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
+            "@type": "nc-no:Geometry",
+            "cim:IdentifiedObject.mRID": "7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
+            "cim:IdentifiedObject.description": "Geometry 1",
+            "cim:IdentifiedObject.name": "G_1",
+            "nc-no:Geometry.type": "Line"
+        },
+        {
+            "@id": "urn:uuid:6b774068-8942-404b-8812-53d2fa1520d9",
+            "@type": "nc-no:Geometry",
+            "cim:IdentifiedObject.mRID": "6b774068-8942-404b-8812-53d2fa1520d9",
+            "cim:IdentifiedObject.description": "Geometry 2",
+            "cim:IdentifiedObject.name": "G_2",
+            "nc-no:Geometry.type": "Point"
+        },
+        {
+            "@id": "urn:uuid:38a7eccd-d24a-4ece-a8b8-b8fce461c8b9",
+            "@type": "nc-no:Geometry",
+            "cim:IdentifiedObject.mRID": "38a7eccd-d24a-4ece-a8b8-b8fce461c8b9",
+            "cim:IdentifiedObject.description": "Geometry 3",
+            "cim:IdentifiedObject.name": "G_3",
+            "nc-no:Geometry.type": "Polygon"
         },
         {
             "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9",
@@ -131,7 +194,8 @@
             "@id": "urn:uuid:5194368c-045a-4af4-bae3-10b7740f18de",
             "@type": "cim:Location",
             "cim:IdentifiedObject.mRID": "5194368c-045a-4af4-bae3-10b7740f18de",
-            "cim:IdentifiedObject.name": "",
+            "cim:IdentifiedObject.description": "Location 1",
+            "cim:IdentifiedObject.name": "L_1",
             "cim:Location.CoordinateSystem": {
                 "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
             },
@@ -160,12 +224,12 @@
             }
         },
         {
-            "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
-            "@type": "nc:Geometry",
-            "cim:IdentifiedObject.mRID": "7449ba72-0aa7-4c16-ac43-4c690d9b5caf",
-            "cim:IdentifiedObject.description": "",
-            "cim:IdentifiedObject.name": "",
-            "nc:Geometry.type": "Line"
+            "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Base Voltage 132 kV",
+            "cim:IdentifiedObject.name": "AC-132kV",
+            "cim:BaseVoltage.nominalVoltage": 132.0
         }
     ]
 }
