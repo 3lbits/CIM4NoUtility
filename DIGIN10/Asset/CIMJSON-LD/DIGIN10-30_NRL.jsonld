@@ -75,13 +75,19 @@
                 "@id": "nc-no:AccuracyKind.measured"
             },
             "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
-                "@id": "nc-no:AviationObstacleMarkingKind.colorMarking"
+                "@id": "nc-no:LineMarkingKind.colourMarking"
             },
             "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
-                "@id": "nc-no:AviationObstacleLightingKind.lit"
+                "@id": "nc-no:LineLightingKind.lit"
             },
-            "nc-no:ACLineSegmentSpan.spanWidth": 3.97,
+            "nc-no:ACLineSegmentSpan.maxWidth": 3.97,
             "nc-no:ACLineSegmentSpan.maxHeight": 153.23,
+            "nc-no:ACLineSegmentSpan.spanWireLength": 63.01,
+            "nc-no:ACLineSegmentSpan.ACLineSegment": [
+                {
+                    "@id": "urn:uuid:f8b08d2f-9110-4016-8aca-bdcec9fa02be"
+                }
+            ],
             "nc-no:PowerSystemResource.Geometry": {
                 "@id": "urn:uuid:7449ba72-0aa7-4c16-ac43-4c690d9b5caf"
             }
@@ -111,13 +117,14 @@
             "nc-no:ACLineSegmentSpan.accuracyKind": {
                 "@id": "nc-no:AccuracyKind.measured"
             },
-            "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+            "nc-no:Structure.aviationObstacleMarkingKind": {
                 "@id": "nc-no:AviationObstacleMarkingKind.marker"
             },
-            "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+            "nc-no:Structure.aviationObstacleLightingKind": {
                 "@id": "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB"
             },
-            "nc-no:ACLineSegmentSpan.height": 20.04,
+            "nc-no:Structure.height": 20.04,
+            "nc-no:Structure.maxHeight": 21.04,
             "nc-no:PowerSystemResource.Geometry": {
                 "@id": "urn:uuid:6b774068-8942-404b-8812-53d2fa1520d9"
             }
@@ -152,7 +159,6 @@
             }
         },
         {
-            "_comment": "Bør være en del av kontaineren Mast",
             "@id": "urn:uuid:4ca3f765-3300-4c40-b680-67cb330eb9ff",
             "@type": "nc-no:StructureSupport",
             "cim:IdentifiedObject.mRID": "4ca3f765-3300-4c40-b680-67cb330eb9ff",
