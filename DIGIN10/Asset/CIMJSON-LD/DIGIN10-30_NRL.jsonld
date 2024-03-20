@@ -7,7 +7,8 @@
         "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "nc-no" : "https://cim4.eu/ns/nc-no#"
+        "nc-no" : "https://cim4.eu/ns/nc-no#",
+        "geo": "http://www.opengis.net/ont/geosparql#"
     },
     "@id": "urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3",
     "@type": "dcat:Dataset",
@@ -111,7 +112,7 @@
         },
         {
             "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb",
-            "@type": "nc-no:OverheadStructure",
+            "@type": ["nc-no:OverheadStructure", "geo:Feature"],
             "cim:IdentifiedObject.mRID": "1f521353-04da-47f7-bcc9-17e1aefb7beb",
             "cim:IdentifiedObject.description": "Overhead Structure 2",
             "cim:IdentifiedObject.name": "OS_2",
@@ -126,7 +127,7 @@
             },
             "nc-no:OverheadStructure.height": 20.04,
             "nc-no:OverheadStructure.maxHeight": 21.04,
-            "nc-no:PowerSystemResource.SpatialObject": {
+            "geo:hasGeometry": {
                 "geo:asWKT": "\"POINT (6502691.542169236 972304.9284766684)\"^^geo:wktLiteral ;",
                 "geo:asGeoJSON": "\"{\"type\": \"Point\", \"coordinates\": [8.7007293,58.414672]}\"^^geo:geoJSONLiteral ;"
             }
@@ -149,7 +150,7 @@
         },
         {
             "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812",
-            "@type": "nc-no:Zone",
+            "@type": ["nc-no:Zone", "geo:Feature"],
             "cim:IdentifiedObject.mRID": "2065795c-28c0-49ab-98ed-7aa39dc90812",
             "cim:IdentifiedObject.description": "Zone 1",
             "cim:IdentifiedObject.name": "Z_1",
@@ -159,17 +160,21 @@
             "nc-no:Zone.state": {
                 "@id": "cim:ZoneStateKind.notYetRegistered"
             },
-            "nc-no:PowerSystemResource.SpatialObject": {
+            "geo:hasGeometry": {
                 "geo:asWKT": "\"POLYGON ((6587256.628094575 1078406.1968272764,6587169.520670191 1078443.240921313, 6587193.339304573 1078617.6854121676,6587279.085154201 1078542.2498585451,6587256.628094575 1078406.1968272764))\"^^geo:wktLiteral ;",
                 "geo:asGeoJSON": "\"{\"type\": \"Polygon\", \"coordinates\": [[[9.641657919550369,59.17433310258693],[9.641985991575922,59.17355060327998],[9.643530912568622,59.173764569713114],[9.642862838625433,59.17453483778593],[9.641657919550369,59.17433310258693]]]}\"^^geo:geoJSONLiteral ;"
             }
         },
         {
             "@id": "urn:uuid:4ca3f765-3300-4c40-b680-67cb330eb9ff",
-            "@type": "nc-no:StructureSupport",
+            "@type": ["nc-no:StructureSupport", "geo:Feature"],
             "cim:IdentifiedObject.mRID": "4ca3f765-3300-4c40-b680-67cb330eb9ff",
             "cim:IdentifiedObject.description": "",
-            "cim:IdentifiedObject.name": ""
+            "cim:IdentifiedObject.name": "",
+            "geo:hasGeometry": {
+                "geo:asWKT": "\"POINT (6502691.542169236 972304.9284766684)\"^^geo:wktLiteral ;",
+                "geo:asGeoJSON": "\"{\"type\": \"Point\", \"coordinates\": [8.7007293,58.414672]}\"^^geo:geoJSONLiteral ;"
+            }
         },
         {
             "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
