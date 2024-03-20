@@ -67,7 +67,7 @@
     "@graph": [
         {
             "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
-            "@type": "nc-no:ACLineSegmentSpan",
+            "@type": ["nc-no:ACLineSegmentSpan", "geo:Feature"],
             "cim:IdentifiedObject.mRID": "802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
             "cim:IdentifiedObject.description": "ACLineSegmentSpan 2",
             "cim:IdentifiedObject.name": "ACLSS_2",
@@ -88,7 +88,7 @@
                     "@id": "urn:uuid:f8b08d2f-9110-4016-8aca-bdcec9fa02be"
                 }
             ],
-            "nc-no:PowerSystemResource.SpatialObject": {
+            "geo:hasGeometry": {
                 "geo:asWKT": "\"LINESTRING (6502691.542169236 972304.9284766684,6502691.540990914 972304.9204293368)\"^^geo:wktLiteral ;",
                 "geo:asGeoJSON": "\"{\"type\": \"LineString\", \"coordinates\": [[[8.7007293714585,58.41467201058505], [8.7007293,58.414672]]]}\"^^geo:geoJSONLiteral ;"
             }
