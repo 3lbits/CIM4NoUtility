@@ -24,7 +24,7 @@
     "dcterms:description": [
         {
             "@value": "DIGIN10 Norsk Register for Luftfartshinder",
-            "@language": "en"
+            "@language": "no"
         }
     ],
     "dcterms:publisher": {
@@ -101,7 +101,7 @@
             "cim:IdentifiedObject.description": "AC Line Segment Span Deployment 2",
             "cim:IdentifiedObject.name": "ACLSSD_2",
             "cim:AssetDeployment.deploymentState": {
-                "@id": "cim:DeploymentStateKind.notYetInstalled"
+                "@id": "nc-no:DeploymentStateKind.notYetInstalled"
             },
             "cim:AssetDeployment.BaseVoltage": {
                 "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
@@ -139,7 +139,7 @@
             "cim:IdentifiedObject.description": "Structure Deployment 3",
             "cim:IdentifiedObject.name": "SD_3",
             "cim:AssetDeployment.deploymentState": {
-                "@id": "cim:DeploymentStateKind.notYetInstalled"
+                "@id": "nc-no:DeploymentStateKind.notYetInstalled"
             },
             "cim:AssetDeployment.BaseVoltage": {
                 "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
@@ -158,7 +158,7 @@
                 "@id": "nc-no:ZoneKind.substation"
             },
             "nc-no:Zone.state": {
-                "@id": "cim:ZoneStateKind.notYetRegistered"
+                "@id": "nc-no:ZoneStateKind.notYetRegistered"
             },
             "geo:hasGeometry": {
                 "geo:asWKT": "\"POLYGON ((6587256.628094575 1078406.1968272764,6587169.520670191 1078443.240921313, 6587193.339304573 1078617.6854121676,6587279.085154201 1078542.2498585451,6587256.628094575 1078406.1968272764))\"^^geo:wktLiteral ;",
