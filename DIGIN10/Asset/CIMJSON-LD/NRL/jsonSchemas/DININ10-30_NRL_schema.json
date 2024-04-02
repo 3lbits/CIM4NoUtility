@@ -304,7 +304,7 @@
             "order": false,
             "items": {
                 "type": "object",
-                "anyOf": [
+                "oneOf": [
                     {
                         "type": "object",
                         "required": [
