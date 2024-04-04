@@ -11,7 +11,7 @@
 |  |  |  | planlagtOppført |  |  |  |  |  | notYetInstalled |  |  |
 |  | komponentident | CharacterString |  |  | [0..1] | Structure | mRID | String |  | Inherited from cim:IdentifiedObject. Shall be a UUID.  | [1..1] |
 |  | navn | CharacterString |  |  | [0..1] | Structure | name | String |  |  | [1..0] |
-|  | vertikalAvstand | Real |  | Mandatory to report if hight above ground is >= 15m | [0..1] | Structure | maxHeight | Length |  | The maximum height measured according to "Forskrift om rapportering, registrering og merking av luftfartshinder". If refistered height is the height of "mastens senterhøyde" Structure.height should be used. Length is a CIMDataType with the following attributes: multiplier, unit and value(type:float), if no unit of measure is specified m is the default.  | [1..1] |
+|  | vertikalAvstand | Real |  | Mandatory to report if hight above ground is >= 15m | [0..1] | Structure | maxHeight | Length |  | The maximum height measured according to "Forskrift om rapportering, registrering og merking av luftfartshinder". If registered height is the height of "mastens senterhøyde" Structure.height should be used. Length is a CIMDataType with the following attributes: multiplier, unit and value(type:float), if no unit of measure is specified m is the default.  | [1..1] |
 |  | luftfartshindermerking | «CodeList» Luftfartshindermerking |  | Mandatory to report if present on 'mast' | [0..1] | OverheadStructure | aviationObstacleMarkingKind | LineMarkingKind |  | LineMarkingKind is an enumeration | [0..1]
 |  |  |  | fargemerking |  |  |  |  |  | colourMarking |  |  |
 |  |  |  | markør |  |  |  |  |  | marker |  |  |
@@ -26,9 +26,9 @@
 |  |  |  | lavintensitetTypeA |  |  |  |  |  | lowIntensityTypeA |  |  |
 |  |  |  | lavintensitetTypeB |  |  |  |  |  | lowIntensityTypeB |  |  |
 |  |  |  | lyssatt |  |  |  |  |  | lit |  |  |
-|  |  |  | mellomintensitetTypeA |  |  |  |  |  | mediumIntesityTypeA |  |  |
-|  |  |  | mellomintensitetTypeB |  |  |  |  |  | mediumIntesityTypeB |  |  |
-|  |  |  | mellomintensitetTypeC |  |  |  |  |  | mediumIntesityTypeC |  |  |
+|  |  |  | mellomintensitetTypeA |  |  |  |  |  | mediumIntensityTypeA |  |  |
+|  |  |  | mellomintensitetTypeB |  |  |  |  |  | mediumIntensityTypeB |  |  |
+|  |  |  | mellomintensitetTypeC |  |  |  |  |  | mediumIntensityTypeC |  |  |
 |  | mastType | «CodeList» MastType |  |  | [1..1] | BaseVoltage | nominalVoltage | Voltage |  | BaseVoltage has a [1..1] to [0..'*'] relation to AssetDeployment. StructureDeployment is child of AssetDeployment and has a [0..1] to [0..1] relation to Structure. Voltage is a CIMDataType with the following attributes: multiplier, unit and value(type:float), if no unit of measure is specified kV is the default. | [1..1] |
 |  |  |  | høgspentmast | >1kV |  |  |  |  |  |  |  |
 |  |  |  | lavspentmast | <=1kV |  |  |  |  |  |  |  |
