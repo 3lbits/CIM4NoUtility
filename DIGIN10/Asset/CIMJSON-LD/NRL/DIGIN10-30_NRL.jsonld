@@ -183,6 +183,59 @@
             "cim:IdentifiedObject.description": "Base Voltage 132 kV",
             "cim:IdentifiedObject.name": "AC-132kV",
             "cim:BaseVoltage.nominalVoltage": 132.0
+        },
+        {
+            "@id": "urn:uuid:1fb68b4a-5705-435d-9f28-1a70154181bb",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "1fb68b4a-5705-435d-9f28-1a70154181bb",
+            "cim:Name.name": "6573456",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:25d820b5-f930-42c7-809a-0c1706dd62fe",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "25d820b5-f930-42c7-809a-0c1706dd62fe",
+            "cim:Name.name": "454613",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:57ae9503-f0f0-4498-bf9f-a7d4e77b4b74",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "57ae9503-f0f0-4498-bf9f-a7d4e77b4b74",
+            "cim:Name.name": "65745245",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f",
+            "@type": "cim:NameType",
+            "nc:NameType.mRID": "d56ca01d-7801-4e1b-ac69-c2059143475f",
+            "cim:NameType.description": "Unique identifier in Company NIS",
+            "cim:NameType.name": "companyNisId",
+            "nc:NameType.NameTypeAuthority": {
+                "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e"
+            }
+        },
+        {
+            "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e",
+            "@type": "cim:NameTypeAuthority",
+            "nc:NameTypeAuthority.mRID": "3868b80f-7e64-4fc0-a851-ce6835676a6e",
+            "cim:NameTypeAuthority.description": "Network Information System made by Company",
+            "cim:NameTypeAuthority.name": "companyNis"
         }
     ]
 }
