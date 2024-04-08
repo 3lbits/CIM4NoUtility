@@ -101,7 +101,7 @@
             "type": "number",
             "minimum": 0
         },
-        "nc-no:OverheadStructure.maxHeight": {
+        "nc-no:OverheadStructure.maxElevation": {
             "type": "number",
             "minimum": 0
         },
