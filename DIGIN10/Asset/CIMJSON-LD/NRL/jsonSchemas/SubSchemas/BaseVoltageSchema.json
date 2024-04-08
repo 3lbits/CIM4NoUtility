@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "required": [
+        "@id",
+        "@type",
+        "cim:IdentifiedObject.mRID",
+        "cim:BaseVoltage.nominalVoltage"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "@id": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+            "message": {
+                "pattern": "String does not validate against format 'uuid'."
+            }
+        },
+        "@type": {
+            "type": "string",
+            "format": "uri",
+            "enum": [
+                "cim:BaseVoltage"
+            ]
+        },
+        "cim:IdentifiedObject.mRID": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "cim:IdentifiedObject.description": {
+            "type": "string"
+        },
+        "cim:IdentifiedObject.name": {
+            "type": "string"
+        },
+        "cim:BaseVoltage.nominalVoltage": {
+            "type": "number",
+            "minimum": 0
+        }
+    }
+}
