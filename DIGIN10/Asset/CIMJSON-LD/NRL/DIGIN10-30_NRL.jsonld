@@ -126,7 +126,7 @@
                 "@id": "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB"
             },
             "nc-no:OverheadStructure.height": 20.04,
-            "nc-no:OverheadStructure.maxHeight": 21.04,
+            "nc-no:OverheadStructure.maxElevation": 21.04,
             "geo:hasGeometry": {
                 "geo:asWKT": "\"POINT (6502691.542169236 972304.9284766684)\"^^geo:wktLiteral ;",
                 "geo:asGeoJSON": "\"{\"type\": \"Point\", \"coordinates\": [8.7007293,58.414672]}\"^^geo:geoJSONLiteral ;"
