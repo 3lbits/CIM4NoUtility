@@ -127,14 +127,14 @@
         },
         "geo:hasGeometry": {
             "type": "object",
-            "required": [
-                "geo:asGeoJSON"
-            ],
             "properties": {
                 "geo:asWKT": {
                     "type": "string"
                 },
                 "geo:asGeoJSON": {
+                    "type": "string"
+                },
+                "geo:asGML": {
                     "type": "string"
                 }
             }

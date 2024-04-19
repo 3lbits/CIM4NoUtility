@@ -434,14 +434,14 @@
                             },
                             "geo:hasGeometry": {
                                 "type": "object",
-                                "required": [
-                                    "geo:asGeoJSON"
-                                ],
                                 "properties": {
                                     "geo:asWKT": {
                                         "type": "string"
                                     },
                                     "geo:asGeoJSON": {
+                                        "type": "string"
+                                    },
+                                    "geo:asGML": {
                                         "type": "string"
                                     }
                                 }
@@ -551,7 +551,8 @@
                             "@id",
                             "@type",
                             "cim:IdentifiedObject.mRID",
-                            "nc-no:LocationResource.locationMethod"
+                            "nc-no:LocationResource.locationMethod",
+                            "geo:hasGeometry"
                         ],
                         "additionalProperties": false,
                         "properties": {
@@ -654,14 +655,14 @@
                             },
                             "geo:hasGeometry": {
                                 "type": "object",
-                                "required": [
-                                    "geo:asGeoJSON"
-                                ],
                                 "properties": {
                                     "geo:asWKT": {
                                         "type": "string"
                                     },
                                     "geo:asGeoJSON": {
+                                        "type": "string"
+                                    },
+                                    "geo:asGML": {
                                         "type": "string"
                                     }
                                 }
@@ -849,14 +850,14 @@
                             },
                             "geo:hasGeometry": {
                                 "type": "object",
-                                "required": [
-                                    "geo:asGeoJSON"
-                                ],
                                 "properties": {
                                     "geo:asWKT": {
                                         "type": "string"
                                     },
                                     "geo:asGeoJSON": {
+                                        "type": "string"
+                                    },
+                                    "geo:asGML": {
                                         "type": "string"
                                     }
                                 }
