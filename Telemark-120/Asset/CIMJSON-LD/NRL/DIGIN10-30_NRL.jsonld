@@ -169,17 +169,6 @@
             }
         },
         {
-            "@id": "urn:uuid:4ca3f765-3300-4c40-b680-67cb330eb9ff",
-            "@type": ["nc-no:StructureSupport", "geo:Feature"],
-            "cim:IdentifiedObject.mRID": "4ca3f765-3300-4c40-b680-67cb330eb9ff",
-            "cim:IdentifiedObject.description": "",
-            "cim:IdentifiedObject.name": "",
-            "geo:hasGeometry": {
-                "geo:asWKT": "\"POINT (6502691.542169236 972304.9284766684)\"^^geo:wktLiteral ;",
-                "geo:asGeoJSON": "\"{\"type\": \"Point\", \"coordinates\": [8.7007293,58.414672]}\"^^geo:geoJSONLiteral ;"
-            }
-        },
-        {
             "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
             "@type": "cim:BaseVoltage",
             "cim:IdentifiedObject.mRID": "2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
@@ -224,6 +213,18 @@
             }
         },
         {
+            "@id": "urn:uuid:fd353b3b-bb97-498d-bdcc-2c8ce9b01378",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "fd353b3b-bb97-498d-bdcc-2c8ce9b01378",
+            "cim:Name.name": "base",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:65c19a8c-268a-4347-a383-23bfd7e3be9a"
+            }
+        },
+        {
             "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f",
             "@type": "cim:NameType",
             "nc:NameType.mRID": "d56ca01d-7801-4e1b-ac69-c2059143475f",
@@ -234,11 +235,28 @@
             }
         },
         {
+            "@id": "urn:uuid:65c19a8c-268a-4347-a383-23bfd7e3be9a",
+            "@type": "cim:NameType",
+            "nc:NameType.mRID": "65c19a8c-268a-4347-a383-23bfd7e3be9a",
+            "cim:NameType.description": "Id from the source system",
+            "cim:NameType.name": "heightReference",
+            "nc:NameType.NameTypeAuthority": {
+                "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e"
+            }
+        },
+        {
             "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e",
             "@type": "cim:NameTypeAuthority",
             "nc:NameTypeAuthority.mRID": "3868b80f-7e64-4fc0-a851-ce6835676a6e",
             "cim:NameTypeAuthority.description": "Source system",
             "cim:NameTypeAuthority.name": "source"
+        },
+        {
+            "@id": "urn:uuid:d7684592-2691-4654-b06b-a3ed637ca456",
+            "@type": "cim:NameTypeAuthority",
+            "nc:NameTypeAuthority.mRID": "b1e0b923-4797-487e-91b6-9abbf2d96a21",
+            "cim:NameTypeAuthority.description": "The Norwegian Mapping Authority (Kartverket)",
+            "cim:NameTypeAuthority.name": "Kartverket"
         }
     ]
 }
