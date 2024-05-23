@@ -90,6 +90,7 @@
                         "nc-no:LineLightingKind.mediumIntensityTypeA",
                         "nc-no:LineLightingKind.mediumIntensityTypeB",
                         "nc-no:LineLightingKind.mediumIntensityTypeC",
+                        "nc-no:LineLightingKind.none",
                         "nc-no:LineLightingKind.lowIntensityTypeA",
                         "nc-no:LineLightingKind.lowIntensityTypeB",
                         "nc-no:LineLightingKind.highIntensityTypeA",

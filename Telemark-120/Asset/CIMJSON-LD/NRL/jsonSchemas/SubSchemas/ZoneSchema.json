@@ -72,8 +72,6 @@
                     "enum": [
                         "nc-no:ZoneStateKind.notYetRegistered",
                         "nc-no:ZoneStateKind.registered",
-                        "nc-no:ZoneStateKind.inService",
-                        "nc-no:ZoneStateKind.outOfService",
                         "nc-no:ZoneStateKind.removed",
                         "nc-no:ZoneStateKind.notYetRemoved"
                     ]

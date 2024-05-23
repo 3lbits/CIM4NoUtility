@@ -90,6 +90,7 @@
                         "nc-no:AviationObstacleLightingKind.mediumIntensityTypeA",
                         "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB",
                         "nc-no:AviationObstacleLightingKind.mediumIntensityTypeC",
+                        "nc-no:AviationObstacleLightingKind.none",
                         "nc-no:AviationObstacleLightingKind.lowIntensityTypeA",
                         "nc-no:AviationObstacleLightingKind.lowIntensityTypeB",
                         "nc-no:AviationObstacleLightingKind.highIntensityTypeA",
@@ -102,7 +103,7 @@
             "type": "number",
             "minimum": 0
         },
-        "nc-no:OverheadStructure.maxElevation": {
+        "nc-no:OverheadStructure.maxHeight": {
             "type": "number",
             "minimum": 0
         },

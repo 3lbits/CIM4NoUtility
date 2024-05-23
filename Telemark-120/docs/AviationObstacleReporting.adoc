@@ -20,8 +20,8 @@ https://ap-no.cim4.eu/AviationObstacle/1.0
 == AO Profile overview
 An overview of the associations, classes and extensions in the AO profile can be found in the below diagrams:
 
-image::..\diagrams\images\ExtAviationObstacle_070524.png[]
-image::..\diagrams\images\ExtStructure_070524.png[]
+image::..\diagrams\images\ExtAviationObstacle_230524.png[]
+image::..\diagrams\images\ExtStructure_230524.png[]
 
 
 == Extensions
@@ -435,43 +435,43 @@ nc-no:OverheadStructure.locationMethod.LocationMethodKind.manual
 |If the value of nominal voltage is &lt;=1kV. BaseVoltage should be associated to a StructureDeployment and StructureDeployment should be associated to an OverheadStructure.
 
 |NrlMast.luftfartshindermerking.fargemerking
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.colourMarking
+|nc-no:OverheadStructure.aviationObstacleMarkingKind.AviationObstacleMarkingKind.colourMarking
 |
 
 |NrlMast.luftfartshindermerking.markør
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.marker
+|nc-no:OverheadStructure.aviationObstacleMarkingKind.AviationObstacleMarkingKind.marker
 |
 
 |NrlMast.luftfartshinderlyssetting.høyintensitetTypeA
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.highIntensityTypeA
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeA
 |
 
 |NrlMast.luftfartshinderlyssetting.høyintensitetTypeB
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.highIntensityTypeB
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeB
 |
 
 |NrlMast.luftfartshinderlyssetting.lavintensitetTypeA
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.lowIntensityTypeA
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeA
 |
 
 |NrlMast.luftfartshinderlyssetting.lavintensitetTypeB
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.lowIntensityTypeB
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeB
 |
 
 |NrlMast.luftfartshinderlyssetting.lyssatt
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.lit
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.lit
 |
 
 |NrlMast.luftfartshinderlyssetting.mellomintensitetTypeA
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.mediumIntensityTypeA
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeA
 |
 
 |NrlMast.luftfartshinderlyssetting.mellomintensitetTypeB
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.mediumIntensityTypeB
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeB
 |
 
 |NrlMast.luftfartshinderlyssetting.mellomintensitetTypeC
-|nc-no:OverheadStructure.aviationObstacleMarkingKind.LineMarkingKind.mediumIntensityTypeC
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeC
 |
 
 |===
@@ -549,43 +549,43 @@ nc-no:ACLineSegmentSpan.locationMethod.LocationMethodKind.manual
 |If the value of nominal voltage is &lt;=1kV. BaseVoltage should be associated to a ACLineSegmentSpanDeployment and ACLineSegmentSpanDeployment should be associated to an ACLineSegmentSpan.
 
 |NrlLuftspenn.luftfartshindermerking.fargemerking
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.colourMarking
+|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.AviationObstacleMarkingKind.colourMarking
 |
 
 |NrlLuftspenn.luftfartshindermerking.markør
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.marker
+|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.AviationObstacleMarkingKind.marker
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeA
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.highIntensityTypeA
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeA
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeB
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.highIntensityTypeB
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeB
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeA
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.lowIntensityTypeA
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeA
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeB
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.lowIntensityTypeB
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeB
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.lyssatt
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.lit
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.lit
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeA
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.mediumIntensityTypeA
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeA
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeB
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.mediumIntensityTypeB
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeB
 |
 
 |NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeC
-|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.LineMarkingKind.mediumIntensityTypeC
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeC
 |
 
 |===

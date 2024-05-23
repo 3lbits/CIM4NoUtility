@@ -397,6 +397,7 @@
                                             "nc-no:LineLightingKind.mediumIntensityTypeA",
                                             "nc-no:LineLightingKind.mediumIntensityTypeB",
                                             "nc-no:LineLightingKind.mediumIntensityTypeC",
+                                            "nc-no:LineLightingKind.none",
                                             "nc-no:LineLightingKind.lowIntensityTypeA",
                                             "nc-no:LineLightingKind.lowIntensityTypeB",
                                             "nc-no:LineLightingKind.highIntensityTypeA",
@@ -637,6 +638,7 @@
                                             "nc-no:AviationObstacleLightingKind.mediumIntensityTypeA",
                                             "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB",
                                             "nc-no:AviationObstacleLightingKind.mediumIntensityTypeC",
+                                            "nc-no:AviationObstacleLightingKind.none",
                                             "nc-no:AviationObstacleLightingKind.lowIntensityTypeA",
                                             "nc-no:AviationObstacleLightingKind.lowIntensityTypeB",
                                             "nc-no:AviationObstacleLightingKind.highIntensityTypeA",
@@ -649,7 +651,7 @@
                                 "type": "number",
                                 "minimum": 0
                             },
-                            "nc-no:OverheadStructure.maxElevation": {
+                            "nc-no:OverheadStructure.maxHeight": {
                                 "type": "number",
                                 "minimum": 0
                             },
@@ -840,8 +842,6 @@
                                         "enum": [
                                             "nc-no:ZoneStateKind.notYetRegistered",
                                             "nc-no:ZoneStateKind.registered",
-                                            "nc-no:ZoneStateKind.inService",
-                                            "nc-no:ZoneStateKind.outOfService",
                                             "nc-no:ZoneStateKind.removed",
                                             "nc-no:ZoneStateKind.notYetRemoved"
                                         ]
