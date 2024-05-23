@@ -1,4 +1,5 @@
 = Avition Obstacle (AO) reporting
+:sectnums:
 
 To support Norwegian utilities in reporting aviation obstacles according to national regulations the CIM was extended. Extensions have been made with respect to ongoing CIM model development efforts within the CIM working groups and ENTSO-E.
 For CIM compliant NRL reporting, Norwegian utilities are encouraged to utilise the AO profile.
@@ -28,6 +29,8 @@ The below sections provide detailed descriptions of the new and extended classes
 The attribute details follow the convention:
 
 - attribute name: data type, attribute description.
+
+:sectnums!:
 
 === ACLineSegmentSpan
 New class.
@@ -357,9 +360,12 @@ Deployment of a structure support.
 
 |===
 
+:sectnums:
 
 == Kartverket to AO Mapping 
 For NRL (Norwegian National register of aviation obstacle) reporting.
+
+:sectnums!:
 
 === Line support (no: "Mast")
 [cols="1,1,1"]
@@ -648,19 +654,21 @@ nc-no:Zone.locationMethod.LocationMethodKind.manual
 |See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
 
 |===
+
+:sectnums:
 === Naming convensions for Name, NameType and NameTypeAuthority in NRL reporting
 Name, NameType and NameTypeAutority should be given an mRID according to the Network Codes (NC) CIM extensions.
 
 ==== referanse.komponentkodeverdi
 This optional attribute from Kartverket is used to provide the source system ID for a component. If used: +
 
-*Attributes*
+===== Attributes
 
 Name.name should be populated with the source system ID. +
 NameType.name should be given the value "sourceId" +
 NameTypeAuthority.name should be given the value "source" +
 
-*Associations*
+===== Associations
 
 Name should be associated to the relevant NameType and IdentifiedObject subclass (OverheadStructure, ACLineSegmentSpan, Zone or StructureSupport). +
 NameType should be associated to the relevant NameTypeAuthority.
@@ -668,7 +676,7 @@ NameType should be associated to the relevant NameTypeAuthority.
 ==== høydereferanse
 This attribute from Kartverket is mandatory if a z-value has been given for the geometry and is used to define a height reference for which end (top or bottom) of the asset the z-coordinate refers to. I
 
-*Attributes*
+===== Attributes
 
 If høydereferanse.topp: +
 Name.name should be populated with "base"  +
@@ -681,7 +689,7 @@ Note: If these values are not provided it will be assumed that the height refere
 NameType.name should be given the value "heightReference" +
 NameTypeAuthority.name should be given the value "Karverket" +
 
-*Associations*
+===== Associations
 
 Name should be associated to the relevant NameType and IdentifiedObject subclass (OverheadStructure, ACLineSegmentSpan, Zone or StructureSupport). +
 NameType should be associated to the relevant NameTypeAuthority.

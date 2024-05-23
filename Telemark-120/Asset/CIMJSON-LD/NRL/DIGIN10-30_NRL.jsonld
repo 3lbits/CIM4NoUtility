@@ -238,7 +238,7 @@
             "@id": "urn:uuid:65c19a8c-268a-4347-a383-23bfd7e3be9a",
             "@type": "cim:NameType",
             "nc:NameType.mRID": "65c19a8c-268a-4347-a383-23bfd7e3be9a",
-            "cim:NameType.description": "Id from the source system",
+            "cim:NameType.description": "Specifies which part of the object the height value refers to",
             "cim:NameType.name": "heightReference",
             "nc:NameType.NameTypeAuthority": {
                 "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e"
