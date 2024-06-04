@@ -20,16 +20,16 @@
         "@value": "2024-02-06T12:00:00Z",
         "@type": "xsd:date"
     },
-    "dcterms:title": "DIGIN10-30_NRL",
+    "dcterms:title": "Telemark-120_AO",
     "dcterms:description": [
         {
-            "@value": "DIGIN10 Norsk Register for Luftfartshinder",
+            "@value": "Telemark-120 Aviation Obstacle",
             "@language": "no"
         }
     ],
     "dcterms:publisher": {
         "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
-        "dcterms:title": "DIGIN"
+        "dcterms:title": "ElBits"
     },
     "dcterms:temporal": {
         "@type": "dcterms:PeriodOfTime",
@@ -39,7 +39,7 @@
         }
     },
     "dcterms:rights": "© 2024 Copyright",
-    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:rightsHolder": "ElBits",
     "dcterms:license": {
         "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
         "dcterms:title": "CC BY-NC-SA 4.0"
@@ -49,11 +49,11 @@
         "dcterms:title": "PUBLIC"
     },
     "dcat:isVersionOf": {
-        "@id": "https://digin.no/baseprofile/DIGIN10-30_NRL"
+        "@id": "https://test.model4powersystem.eu/Telemark/"
     },
     "dcat:keyword": "NRL",
     "dcterms:spatial": {
-        "@id": "https://diginenergi.no/DIGIN10"
+        "@id": "https://energy.referencedata.eu/Test/Frame/NO-Telemark-MV1"
     },
     "dcterms:conformsTo": [
         {
