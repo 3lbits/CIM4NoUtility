@@ -2,7 +2,7 @@
 
 == Initial model
 The initial model use the following mask: 
-DIGIN10-<CGMES version>-<MAS>_<profile>
+Telemark-<size of model>-<CGMES version>-<MAS>_<profile>
 
 === Profiles
 --
@@ -26,6 +26,7 @@ DIGIN10-<CGMES version>-<MAS>_<profile>
 |MeasurementValueSource_RD |Measurement Value Source Reference Data
 |AC |Asset Catalog Profile
 |AS | Assets Profile
+|AO |Aviation Obstacle profile
 |===
 --
 

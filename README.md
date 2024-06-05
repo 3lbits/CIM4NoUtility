@@ -1,4 +1,6 @@
 # Telemark-120
+> [!NOTE]
+> The DIGIN10 model has been renamed to Telemark-120 (05.06.2024)
 
 ## Background
 

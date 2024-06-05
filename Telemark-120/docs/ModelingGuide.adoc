@@ -159,7 +159,7 @@ Currently the DIGIN10 model only includes examples for the Points, later version
 If you use LineString you need a list of coordinates, GeoJSON suports an infinite number of list items. The order of the listed item must correspond to the sequenceNumber of the list.
 
 
-include::..\docs\DIGIN10ModelingNamingStandard.adoc[]
+include::..\docs\Telemark-120ModelingNamingStandard.adoc[]
 
 
 
