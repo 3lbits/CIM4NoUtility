@@ -2,7 +2,7 @@
 
 == Initial model
 The initial model use the following mask: 
-Telemark-<size of model>-<CGMES version>-<MAS>_<profile>
+Telemark-120-<MAS>_<profile>
 
 === Profiles
 --
