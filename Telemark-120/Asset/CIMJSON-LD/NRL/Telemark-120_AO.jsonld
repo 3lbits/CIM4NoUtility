@@ -1,0 +1,262 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "https://cim.ucaiug.io/ns#",
+        "eu": "https://cim.ucaiug.io/ns/eu#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nc-no" : "https://cim4.eu/ns/nc-no#",
+        "geo": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@id": "urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-02-06T12:00:00Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:issued": {
+        "@value": "2024-02-06T12:00:00Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "Telemark-120_AO",
+    "dcterms:description": [
+        {
+            "@value": "Telemark-120 Aviation Obstacle",
+            "@language": "no"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
+        "dcterms:title": "ElBits"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-02-06T12:00:00Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "ElBits",
+    "dcterms:license": {
+        "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "dcterms:title": "PUBLIC"
+    },
+    "dcat:isVersionOf": {
+        "@id": "https://test.model4powersystem.eu/Telemark/"
+    },
+    "dcat:keyword": "NRL",
+    "dcterms:spatial": {
+        "@id": "https://energy.referencedata.eu/Test/Frame/NO-Telemark-MV1"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "https://ap-no.cim4.eu/AviationObstacle/0.9"
+        }
+    ],
+    "dcterms:references": [
+        {
+            "@id": "urn:uuid:dd345794-d73a-4510-b0e3-ee62fbdde482"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
+            "@type": ["nc-no:ACLineSegmentSpan", "geo:Feature"],
+            "cim:IdentifiedObject.mRID": "802a2294-3cc5-4d3a-b2ba-57706abfe8ed",
+            "cim:IdentifiedObject.description": "ACLineSegmentSpan 2",
+            "cim:IdentifiedObject.name": "ACLSS_2",
+            "nc-no:PowerSystemResource.locationMethod": {
+                "@id": "nc-no:locationMethodKind.measured"
+            },
+            "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+                "@id": "nc-no:LineMarkingKind.colourMarking"
+            },
+            "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+                "@id": "nc-no:LineLightingKind.lit"
+            },
+            "nc-no:ACLineSegmentSpan.maxWidth": 3.97,
+            "nc-no:ACLineSegmentSpan.maxHeight": 153.23,
+            "nc-no:ACLineSegmentSpan.spanWireLength": 63.01,
+            "nc-no:ACLineSegmentSpan.ACLineSegment": [
+                {
+                    "@id": "urn:uuid:f8b08d2f-9110-4016-8aca-bdcec9fa02be"
+                }
+            ],
+            "geo:hasGeometry": {
+                "geo:asWKT": "\"LINESTRING (6502691.542169236 972304.9284766684,6502691.540990914 972304.9204293368)\"^^geo:wktLiteral ;",
+                "geo:asGeoJSON": "\"{\"type\": \"LineString\", \"coordinates\": [[[8.7007293714585, 58.41467201058505, 20], [8.7007293, 58.414672, 20]]]}\"^^geo:geoJSONLiteral ;",
+                "geo:asGML": "<gml:LineString xmlns:gml=\"http://www.opengis.net/gml/3.2\" srsName=\"urn:x-ogc:def:crs:EPSG::5972\" srsDimension=\"3\"><gml:posList>6474917.289 482515.352 40.81 6474917.288 482515.348 40.81</gml:posList></gml:LineString>\"^^geo:gmlLiteral ;"
+            }
+        },
+        {
+            "@id": "urn:uuid:9888539e-6d5f-4598-a259-0ded6c29aa45",
+            "@type": "nc-no:ACLineSegmentSpanDeployment",
+            "cim:IdentifiedObject.mRID": "9888539e-6d5f-4598-a259-0ded6c29aa45",
+            "cim:IdentifiedObject.description": "AC Line Segment Span Deployment 2",
+            "cim:IdentifiedObject.name": "ACLSSD_2",
+            "cim:AssetDeployment.deploymentState": {
+                "@id": "nc-no:DeploymentStateKind.notYetInstalled"
+            },
+            "cim:AssetDeployment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "nc-no:ACLineSegmentSpanDeployment.ACLineSegmentSpan": {
+                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
+            }
+        },
+        {
+            "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb",
+            "@type": ["nc-no:OverheadStructure", "geo:Feature"],
+            "cim:IdentifiedObject.mRID": "1f521353-04da-47f7-bcc9-17e1aefb7beb",
+            "cim:IdentifiedObject.description": "Overhead Structure 2",
+            "cim:IdentifiedObject.name": "OS_2",
+            "nc-no:LocationResource.locationMethod": {
+                "@id": "nc-no:locationMethodKind.measured"
+            },
+            "nc-no:OverheadStructure.aviationObstacleMarkingKind": {
+                "@id": "nc-no:AviationObstacleMarkingKind.marker"
+            },
+            "nc-no:OverheadStructure.aviationObstacleLightingKind": {
+                "@id": "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB"
+            },
+            "nc-no:OverheadStructure.height": 20.04,
+            "nc-no:OverheadStructure.maxHeight": 21.04,
+            "geo:hasGeometry": {
+                "geo:asWKT": "\"POINT (6502691.542169236 972304.9284766684)\"^^geo:wktLiteral ;",
+                "geo:asGeoJSON": "\"{\"type\": \"Point\", \"coordinates\": [8.7007293, 58.414672, 20]}\"^^geo:geoJSONLiteral ;",
+                "geo:asGML": "<gml:Point xmlns:gml=\"http://www.opengis.net/gml/3.2\" srsName=\"urn:x-ogc:def:crs:EPSG::5972\" srsDimension=\"3\"><gml:pos>6474917.288 482515.348, 40.81</gml:pos></gml:Point>\"^^geo:gmlLiteral ;"
+            }
+        },
+        {
+            "@id": "urn:uuid:fe789266-1074-406f-99a8-f833d07865c4",
+            "@type": "nc-no:StructureDeployment",
+            "cim:IdentifiedObject.mRID": "fe789266-1074-406f-99a8-f833d07865c4",
+            "cim:IdentifiedObject.description": "Structure Deployment 3",
+            "cim:IdentifiedObject.name": "SD_3",
+            "cim:AssetDeployment.deploymentState": {
+                "@id": "nc-no:DeploymentStateKind.notYetInstalled"
+            },
+            "cim:AssetDeployment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "nc-no:StructureDeployment.Structure": {
+                "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            }
+        },
+        {
+            "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812",
+            "@type": ["nc-no:Zone", "geo:Feature"],
+            "cim:IdentifiedObject.mRID": "2065795c-28c0-49ab-98ed-7aa39dc90812",
+            "cim:IdentifiedObject.description": "Zone 1",
+            "cim:IdentifiedObject.name": "Z_1",
+            "nc-no:Zone.zoneKind": {
+                "@id": "nc-no:ZoneKind.substation"
+            },
+            "nc-no:Zone.state": {
+                "@id": "nc-no:ZoneStateKind.notYetRegistered"
+            },
+            "geo:hasGeometry": {
+                "geo:asWKT": "\"POLYGON ((6587256.628094575 1078406.1968272764,6587169.520670191 1078443.240921313, 6587193.339304573 1078617.6854121676,6587279.085154201 1078542.2498585451,6587256.628094575 1078406.1968272764))\"^^geo:wktLiteral ;",
+                "geo:asGeoJSON": "\"{\"type\": \"Polygon\", \"coordinates\": [[[9.641657919550369, 59.17433310258693, 20],[9.641985991575922, 59.17355060327998, 20],[9.643530912568622, 59.173764569713114, 20],[9.642862838625433, 59.17453483778593, 20],[9.641657919550369, 59.17433310258693, 20]]]}\"^^geo:geoJSONLiteral ;",
+                "geo:asGML": "<gml:Polygon xmlns:gml=\"http://www.opengis.net/gml/3.2\" srsName=\"urn:x-ogc:def:crs:EPSG::5972\" srsDimension=\"3\"><gml:exterior><gml:LinearRing><gml:posList>6559640.738 536677.848 40.96 6559553.787 536697.439 40.96 6559578.463 536785.518 40.96 6559663.864 536746.504 40.96 6559640.738 536677.848 40.96</gml:posList></gml:LinearRing></gml:exterior></gml:Polygon>\"^^geo:gmlLiteral ;"
+            }
+        },
+        {
+            "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "2dd90174-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Base Voltage 132 kV",
+            "cim:IdentifiedObject.name": "AC-132kV",
+            "cim:BaseVoltage.nominalVoltage": 132.0
+        },
+        {
+            "@id": "urn:uuid:1fb68b4a-5705-435d-9f28-1a70154181bb",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "1fb68b4a-5705-435d-9f28-1a70154181bb",
+            "cim:Name.name": "6573456",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:802a2294-3cc5-4d3a-b2ba-57706abfe8ed"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:25d820b5-f930-42c7-809a-0c1706dd62fe",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "25d820b5-f930-42c7-809a-0c1706dd62fe",
+            "cim:Name.name": "454613",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:57ae9503-f0f0-4498-bf9f-a7d4e77b4b74",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "57ae9503-f0f0-4498-bf9f-a7d4e77b4b74",
+            "cim:Name.name": "65745245",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:2065795c-28c0-49ab-98ed-7aa39dc90812"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f"
+            }
+        },
+        {
+            "@id": "urn:uuid:fd353b3b-bb97-498d-bdcc-2c8ce9b01378",
+            "@type": "cim:Name",
+            "nc:Name.mRID": "fd353b3b-bb97-498d-bdcc-2c8ce9b01378",
+            "cim:Name.name": "base",
+            "cim:Name.IdentifiedObject": {
+                "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            },
+            "nc:Name.NameType": {
+                "@id": "urn:uuid:65c19a8c-268a-4347-a383-23bfd7e3be9a"
+            }
+        },
+        {
+            "@id": "urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f",
+            "@type": "cim:NameType",
+            "nc:NameType.mRID": "d56ca01d-7801-4e1b-ac69-c2059143475f",
+            "cim:NameType.description": "Id from the source system",
+            "cim:NameType.name": "sourceId",
+            "nc:NameType.NameTypeAuthority": {
+                "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e"
+            }
+        },
+        {
+            "@id": "urn:uuid:65c19a8c-268a-4347-a383-23bfd7e3be9a",
+            "@type": "cim:NameType",
+            "nc:NameType.mRID": "65c19a8c-268a-4347-a383-23bfd7e3be9a",
+            "cim:NameType.description": "Specifies which part of the object the height value refers to",
+            "cim:NameType.name": "heightReference",
+            "nc:NameType.NameTypeAuthority": {
+                "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e"
+            }
+        },
+        {
+            "@id": "urn:uuid:3868b80f-7e64-4fc0-a851-ce6835676a6e",
+            "@type": "cim:NameTypeAuthority",
+            "nc:NameTypeAuthority.mRID": "3868b80f-7e64-4fc0-a851-ce6835676a6e",
+            "cim:NameTypeAuthority.description": "Source system",
+            "cim:NameTypeAuthority.name": "source"
+        },
+        {
+            "@id": "urn:uuid:d7684592-2691-4654-b06b-a3ed637ca456",
+            "@type": "cim:NameTypeAuthority",
+            "nc:NameTypeAuthority.mRID": "b1e0b923-4797-487e-91b6-9abbf2d96a21",
+            "cim:NameTypeAuthority.description": "The Norwegian Mapping Authority (Kartverket)",
+            "cim:NameTypeAuthority.name": "Kartverket"
+        }
+    ]
+}

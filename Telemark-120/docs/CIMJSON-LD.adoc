@@ -109,7 +109,7 @@ This is *not* a lossless transformation and it includes duplication.
 --
 
 === Examples
-More examples can be found link:../Grid/CIMJSON-LD/DIGIN10-30-LV1_EQ.jsonld[here]
+More examples can be found link:../Grid/CIMJSON-LD/Telemark-120-30-LV1_EQ.jsonld[here]
 
 
 

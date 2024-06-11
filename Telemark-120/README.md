@@ -1,14 +1,16 @@
-# DIGIN10
+# Telemark-120
+> [!NOTE]
+> The DIGIN10 model has been renamed to Telemark-120 (05.06.2024)
 
 ## Background
 
 Integrations, exchange of models and data between systems and businesses will become an important and essential process for the energy industry. Today this process is often a based on one to one integrations between systems/applications and ad-hoc solutions. 
 
-In the project «DIGIN CIM grunnprofiler for beregninger og simuleringer i distribusjonsnett» DIGIN wants to engage with the DSOs and the vendors to develop and standardize a set of common profiles for analysis and simulation purposes in tools and systems like SCADA, DMS, NIS and GIS. The outcome will be increased reuse of an interface, higher data quality and lower implementation cost for all system applications and interfaces. This again will contribute to more efficient operations and grid development. 
+In «ElBits Data Standardization» ElBits wants to engage with the DSOs and the vendors to develop and standardize a set of common profiles for analysis and simulation purposes in tools and systems like SCADA, DMS, NIS and GIS. The outcome will be increased reuse of an interface, higher data quality and lower implementation cost for all system applications and interfaces. This again will contribute to more efficient operations and grid development. 
 
-DIGIN has developed a test model, the DIGIN10 model for the regional and local distribution grid, that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The DIGIN10 model contains the whole grid from the transmission connection to the local end user.
+ElBits/DIGIN has developed a test model, the Telemark-120 model for the regional and local distribution grid, that can be used together with the NORDIC44 transmission grid model for the nordic TSO grid. The Telemark-120 model contains the whole grid from the transmission connection to the local end user.
 
- CGMES v3.0 using CIM17 is the basis for the profiles. CDPSM v2.0 is used as basis for the profiles that are not included in the CGMES v3.0. The DIGIN10 model contains two boundary model profiles, one between each model authority set (MAS). 
+ CGMES v3.0 using CIM17 is the basis for the profiles. CDPSM v2.0 is used as basis for the profiles that are not included in the CGMES v3.0. The Telemark-120 model contains two boundary model profiles, one between each model authority set (MAS). 
 
 ## Definitions
 
@@ -37,7 +39,8 @@ DIGIN10-30-v2.2 - A 40 bus power flow case for MV and LV according to CGMES v3.0
 
  A 40 bus power flow case for MV and LV according to CGMES v3.0 (CIM17). Including two Model Authority Sets (MAS), bilateral boundaries and reference data. The solution is done on the merged (MV1+LV1). This version includes measurement values and meter readings to allow power flow calculations based on real time data. The inclusion of measurements will also allow better estimation of future scenarios (steady state values are also based on the real time series).
 
-This version does not include any extensions of the [CGMES v3.0](DIGIN10\docs\StandardReferences.adoc). In [CDPSM v2.0](DIGIN10\docs\StandardReferences.adoc) we have added cim:UsagePoint so that we can model the customer installation. In this version the instance file supporting CDPSM is only added to support cim:UsagePoint and to show how cim:Asset and cim:AssetInfo is connected to the cim:PowerSystemResource. The plan is to show how CGMES + CDPSM can support the Autofos project in upcoming versions. Significant updates have been made to the Equipment Operation (OP) to address cim:Measurement.
+This version does not include any extensions of the [CGMES v3.0](Telemark-120\docs\StandardReferences.adoc). In [CDPSM v2.0](Telemark-120\docs\StandardReferences.adoc) we have added cim:UsagePoint so that we can model the customer installation. In this version the instance file supporting CDPSM is only added to support cim:UsagePoint and to show how cim:Asset and cim:AssetInfo is connected to the cim:PowerSystemResource. The plan is to show how CGMES + CDPSM can support the Autofos project in upcoming versions. Significant updates have been made to the Equipment Operation (OP) to address cim:Measurement.
+
 
 ## Content
 
@@ -69,7 +72,7 @@ Example files for using CDPSM v2.0 (IEC 61968-13:2021)
 
 CGMES v3.0 serialised using CIMXML(IEC 61970-552)
 
-The DIGIN10 model contains the following
+The Telemark-120 model contains the following
 
 - Profiles according to CGMES v3.0 using CIM17: DL, GL, SV, TP, SSH, EQ, OP
   - All instance files are according to CIMXML format (IEC 61970-552) which is based on RDF XML.
