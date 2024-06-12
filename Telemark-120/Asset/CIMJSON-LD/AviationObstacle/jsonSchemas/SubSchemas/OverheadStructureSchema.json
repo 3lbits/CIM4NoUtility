@@ -4,7 +4,7 @@
         "@id",
         "@type",
         "cim:IdentifiedObject.mRID",
-        "nc-no:PowerSystemResource.locationMethod",
+        "nc-no:LocationResource.locationMethod",
         "geo:hasGeometry"
     ],
     "additionalProperties": false,
@@ -25,7 +25,7 @@
             "items": {
                 "type": "string",
                 "enum": [
-                    "nc-no:ACLineSegmentSpan",
+                    "nc-no:OverheadStructure",
                     "geo:Feature"
                 ]
             }
@@ -40,7 +40,7 @@
         "cim:IdentifiedObject.name": {
             "type": "string"
         },
-        "nc-no:PowerSystemResource.locationMethod": {
+        "nc-no:LocationResource.locationMethod": {
             "type": "object",
             "required": [
                 "@id"
@@ -59,7 +59,7 @@
                 }
             }
         },
-        "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+        "nc-no:OverheadStructure.aviationObstacleMarkingKind": {
             "type": "object",
             "required": [
                 "@id"
@@ -69,14 +69,14 @@
                     "type": "string",
                     "format": "uri",
                     "enum": [
-                        "nc-no:LineMarkingKind.colourMarking",
-                        "nc-no:LineMarkingKind.marker",
-                        "nc-no:LineMarkingKind.none"
+                        "nc-no:AviationObstacleMarkingKind.colourMarking",
+                        "nc-no:AviationObstacleMarkingKind.marker",
+                        "nc-no:AviationObstacleMarkingKind.none"
                     ]
                 }
             }
         },
-        "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+        "nc-no:OverheadStructure.aviationObstacleLightingKind": {
             "type": "object",
             "required": [
                 "@id"
@@ -86,57 +86,62 @@
                     "type": "string",
                     "format": "uri",
                     "enum": [
-                        "nc-no:LineLightingKind.lit",
-                        "nc-no:LineLightingKind.mediumIntensityTypeA",
-                        "nc-no:LineLightingKind.mediumIntensityTypeB",
-                        "nc-no:LineLightingKind.mediumIntensityTypeC",
-                        "nc-no:LineLightingKind.none",
-                        "nc-no:LineLightingKind.lowIntensityTypeA",
-                        "nc-no:LineLightingKind.lowIntensityTypeB",
-                        "nc-no:LineLightingKind.highIntensityTypeA",
-                        "nc-no:LineLightingKind.highIntensityTypeB"
+                        "nc-no:AviationObstacleLightingKind.lit",
+                        "nc-no:AviationObstacleLightingKind.mediumIntensityTypeA",
+                        "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB",
+                        "nc-no:AviationObstacleLightingKind.mediumIntensityTypeC",
+                        "nc-no:AviationObstacleLightingKind.none",
+                        "nc-no:AviationObstacleLightingKind.lowIntensityTypeA",
+                        "nc-no:AviationObstacleLightingKind.lowIntensityTypeB",
+                        "nc-no:AviationObstacleLightingKind.highIntensityTypeA",
+                        "nc-no:AviationObstacleLightingKind.highIntensityTypeB"
                     ]
                 }
             }
         },
-        "nc-no:ACLineSegmentSpan.maxWidth": {
+        "nc-no:OverheadStructure.height": {
             "type": "number",
             "minimum": 0
         },
-        "nc-no:ACLineSegmentSpan.maxHeight": {
+        "nc-no:OverheadStructure.maxHeight": {
             "type": "number",
             "minimum": 0
-        },
-        "nc-no:ACLineSegmentSpan.spanWireLength": {
-            "type": "number",
-            "minimum": 0
-        },
-        "nc-no:ACLineSegmentSpan.ACLineSegment": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "required": [
-                    "@id"
-                ],
-                "properties": {
-                    "@id": {
-                        "type": "string",
-                        "format": "uri"
-                    }
-                }
-            }
         },
         "geo:hasGeometry": {
             "type": "object",
             "properties": {
                 "geo:asWKT": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@type": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "geo:asGeoJSON": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@type": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "geo:asGML": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@type": {
+                            "type": "string"
+                        }
+                    }
                 }
             }
         }

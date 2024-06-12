@@ -696,5 +696,16 @@ NameType should be associated to the relevant NameTypeAuthority.
 
 === CIMDataType overview and default values
 All CIMDataTypes consist of the following attributes: multiplier (type: UnitMultiplier), unit (type: UnitSymbol) and value (type: float).
+
 - Length: If no unit of measure is specified, m is the default unit.
 - Voltage:  If no unit of measure is specified, kV is the default unit.
+
+=== GeoSPARQL
+https://docs.ogc.org/is/22-047r1/22-047r1.html[GeoSPARQL] is the basis for representation of geospatial information in the AO profile. +
+The CIM GL (Geographical Location) profile supports basic geospatial information but it was decided that a domain standard should be master for representation of geometries and harmonized with CIM. +
+GeoSPARQL was selected in order to support semantic tools. +
+
+For the AO profile we use the following GeoSPARQL options:
+
+- asGeoJSON: If you have Coordinate reference system (CRS) WGS84 you can use GeoJSON. Mark, height system is geoide.
+- asGML: Supports several options of CRS, if you want to use f.ex. UTM32 with NN2000 specify CRS EPSG::5972 for a 3D system.
