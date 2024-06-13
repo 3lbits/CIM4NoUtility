@@ -90,7 +90,7 @@
                 }
             ],
             "geo:hasGeometry": {
-                                "geo:asWKT": {
+                "geo:asWKT": {
                     "@value": "\"LINESTRING (6502691.542169236 972304.9284766684,6502691.540990914 972304.9204293368)", 
                     "@type": "geo:wktLiteral"
                 },
