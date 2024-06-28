@@ -1,10 +1,10 @@
 {
     "@context": {
-        "cim": "http://ucaiug.org/ns/CIM#",
+        "cim": "https://cim.ucaiug.io/ns#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "skos": "http://www.w3.org/2004/02/skos/core#",
         "dcat": "http://www.w3.org/ns/dcat#",
-        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "eu": "https://cim.ucaiug.io/ns/eu#",
         "dcterms": "http://purl.org/dc/terms/",
         "prov": "http://www.w3.org/ns/prov#",
         "xsd": "http://www.w3.org/2001/XMLSchema#"

@@ -1,8 +1,8 @@
 {
     "@context": {
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "cim": "http://ucaiug.org/ns/CIM#",
-        "eu": "http://iec.ch/TC57/CIM100-European#",
+        "cim": "https://cim.ucaiug.io/ns#",
+        "eu": "https://cim.ucaiug.io/ns/eu#",
         "dcterms": "http://purl.org/dc/terms/",
         "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",
