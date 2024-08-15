@@ -91,6 +91,8 @@
                 }
             ],
             "geo:hasGeometry": {
+                "@id": "urn:uuid:7d8a6fba-409a-4dc0-9b1b-f1d46668366e",
+                "@type": "geo:Geometry",
                 "geo:asWKT": {
                     "@value": "\"LINESTRING (6502691.542169236 972304.9284766684,6502691.540990914 972304.9204293368)", 
                     "@type": "geo:wktLiteral"
@@ -139,6 +141,8 @@
             "nc-no:OverheadStructure.height": 20.04,
             "nc-no:OverheadStructure.maxHeight": 21.04,
             "geo:hasGeometry": {
+                "@id": "urn:uuid:d9dc4a4c-cf44-4025-b733-a93d9021fac3",
+                "@type": "geo:Geometry",
                 "geo:asWKT": {
                     "@value": "\"POINT (6502691.542169236 972304.9284766684)", 
                     "@type": "geo:wktLiteral"
@@ -182,7 +186,9 @@
                 "@id": "nc-no:ZoneStateKind.notYetRegistered"
             },
             "geo:hasGeometry": {
-               "geo:asWKT": {
+                "@id": "urn:uuid:f5fd7c46-d22c-4f95-8a35-cab939d38f4e",
+                "@type": "geo:Geometry",
+                "geo:asWKT": {
                     "@value": "\"POLYGON ((6587256.628094575 1078406.1968272764,6587169.520670191 1078443.240921313, 6587193.339304573 1078617.6854121676,6587279.085154201 1078542.2498585451,6587256.628094575 1078406.1968272764))", 
                     "@type": "geo:wktLiteral"
                 },
