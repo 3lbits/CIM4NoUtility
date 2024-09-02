@@ -20,8 +20,8 @@ https://ap-no.cim4.eu/AviationObstacle/1.0
 == AO Profile overview
 An overview of the associations, classes and extensions in the AO profile can be found in the below diagrams:
 
-image::..\diagrams\images\ExtAviationObstacle_230524.png[]
-image::..\diagrams\images\ExtStructure_230524.png[]
+image::..\diagrams\images\ExtAviationObstacle_020924.png[]
+image::..\diagrams\images\ExtStructure_020924.png[]
 
 
 == Extensions
