@@ -437,13 +437,37 @@
                                 "type": "object",
                                 "properties": {
                                     "geo:asWKT": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     },
                                     "geo:asGeoJSON": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     },
                                     "geo:asGML": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -659,13 +683,37 @@
                                 "type": "object",
                                 "properties": {
                                     "geo:asWKT": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     },
                                     "geo:asGeoJSON": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     },
                                     "geo:asGML": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -852,13 +900,37 @@
                                 "type": "object",
                                 "properties": {
                                     "geo:asWKT": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     },
                                     "geo:asGeoJSON": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     },
                                     "geo:asGML": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
                                     }
                                 }
                             }
