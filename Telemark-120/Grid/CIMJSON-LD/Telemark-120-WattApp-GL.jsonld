@@ -1,0 +1,106 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "cim": "https://cim.ucaiug.io/ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "eu": "https://cim.ucaiug.io/ns/eu#",
+        "nc-no": "https://cim4.eu/ns/nc-no#",
+        "nc": "http://cim4.eu/ns/nc#",
+        "geo": "http://www.opengis.net/ont/geosparql#"
+    },
+    "@id": "urn:uuid:dc1a6d5c-c51c-4dac-b291-7e59cb8aefca",
+    "@type": "dcat:Dataset",
+    "prov:generatedAtTime": {
+        "@value": "2024-10-10T11:45:49Z",
+        "@type": "xsd:date"
+    },
+    "dcterms:title": "Telemark-120-WattApp-GL",
+    "dcterms:description": [
+        {
+            "@value": "Geospartial GridCapacity MAS1",
+            "@language": "en"
+        }
+    ],
+    "dcterms:publisher": {
+        "dcterms:title": "ElBits AS"
+    },
+    "dcterms:temporal": {
+        "@type": "dcterms:PeriodOfTime",
+        "dcat:startDate": {
+            "@value": "2024-10-10T11:45:49Z",
+            "@type": "xsd:dateTime"
+        }
+    },
+    "dcterms:rights": "© 2024 Copyright",
+    "dcterms:rightsHolder": "ElBits AS",
+    "dcterms:license": {
+        "dcterms:title": "CC BY-NC-SA 4.0"
+    },
+    "dcterms:accessRights": {
+        "dcterms:title": "PUBLIC"
+    },
+    "dcterms:isVersionOf": {
+        "@id": "https://test.model4powersystem.eu/Telemark/"
+    },
+    "dcat:keyword": "WattApp",
+    "dcterms:spatial": {
+        "@id": "https://energy.referencedata.eu/Test/Frame/WattApp"
+    },
+    "dcterms:conformsTo": [
+        {
+            "@id": "https://ap-no.cim4.eu/WattApp/1.0"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545",
+            "@type": [
+                "cim:Feeder",
+                "geo:Feature"
+            ],
+            "cim:IdentifiedObject.mRID": "4e51e598-8948-4c85-b151-f44ffddc5545",
+            "cim:IdentifiedObject.description": "Sandefjord business and industry area",
+            "cim:IdentifiedObject.name": "Sandefjord_business_and_industry_area",
+            "geo:hasGeometry": {
+                "geo:asGeoJSON": "\"{\"type\": \"Polygon\", \"coordinates\": [[[10.229020984659712, 59.24698254345179],[10.18420614097019, 59.19982925336586],[10.142883363023742, 59.13888033657065],[10.202442484289662, 59.13758660552921],[10.276357875828012, 59.16126409167293],[10.310502518638259, 59.22922084872761],[10.229020984659712, 59.24698254345179]]]}\"^^geo:geoJSONLiteral ;"
+            }
+        },
+        {
+            "@id": "urn:uuid:d8ed0711-8a04-4921-8625-aa0ba12b4aae",
+            "@type": "nc:CapacitySchedule",
+            "cim:IdentifiedObject.mRID": "d8ed0711-8a04-4921-8625-aa0ba12b4aae",
+            "cim:IdentifiedObject.description": "Sandefjord business and industry area",
+            "cim:IdentifiedObject.name": "Sandefjord_business_and_industry_area",
+            "nc:BaseTimeSeries.interpolationKind": {
+                "@id": "nc:TimeSeriesInterpolationKind.previous"
+            },
+            "nc:BaseTimeSeries.timeSeriesKind": {
+                "@id": "nc:BaseTimeSeriesKind.forecast"
+            },
+            "nc:BaseTimeSeries.generatedAtTime": "2022-11-07T12:05:43.641Z",
+            "nc:BaseTimeSeries.percentile": 50,
+            "nc:BaseTimeSeries.actionMethod": "Power System Report",
+            "nc-no:CapacitySchedule.Feeder": {
+                "@id": "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545"
+            }
+        },
+        {
+            "@type": "nc:CapacityTimePoint",
+            "nc:CapacityTimePoint.atTime": "2028-01-01T23:00:00.000Z",
+            "nc:CapacityTimePoint.maxP": 40.0,
+            "nc:CapacityTimePoint.minP": 0.0,
+            "nc:CapacityTimePoint.maxQ": 0.0,
+            "nc:CapacityTimePoint.minQ": 0.0,
+            "nc:CapacityTimePoint.maxAllocatedP": 0.0,
+            "nc:CapacityTimePoint.minAllocatedP": 0.0,
+            "nc:CapacityTimePoint.maxAllocatedQ": 0.0,
+            "nc:CapacityTimePoint.minAllocatedQ": 0.0,
+            "nc:CapacityTimePoint.CapacitySchedule": {
+                "@id": "urn:uuid:d8ed0711-8a04-4921-8625-aa0ba12b4aae"
+            }
+        }
+    ]
+}
