@@ -21,7 +21,7 @@ https://ap-no.cim4.eu/AviationObstacle/1.0
 An overview of the associations, classes and extensions in the AO profile can be found in the below diagrams:
 
 image::..\diagrams\images\ExtAviationObstacle_050924.png[]
-image::..\diagrams\images\ExtStructure_020924.png[]
+image::..\diagrams\images\ExtStructure_251024.png[]
 
 
 == Extensions
@@ -310,6 +310,15 @@ New class, inherits from StructureSupport.
 
 *Description:*
 Guy wire.
+
+**Attributes**
+
+- aviationObstacleLightingKind: LineLightingKind, Kind of lighting on the structure.
+- aviationObstacleMarkingKind: LineMarkingKind, kind of marking on the structure.
+- length: Length, Length of the guy wire.
+- maxHeight: Length, Describes the maximum elevation, which is the highest distance from the ground when the guy wire has a raised point from the ground.
+- maxWidth: Length, Describes the maximum distance between the two end points of the guy wire relative to the ground. Consider the ground as the xy plane, the maximum width is then the length between the two end points in the xy plane.
+
 
 *Associations:*
 [cols="1,1,1,1"]
@@ -652,6 +661,115 @@ nc-no:Zone.locationMethod.LocationMethodKind.manual
 |NrlFlate.område
 |geo:hasGeometry
 |See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
+
+|===
+
+=== Guy (no: "Bardunline")
+[cols="1,1,1"]
+|===
+|Kartverket |AO profile | Note
+
+|NrlLuftspenn.status.eksisterende 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.installed 
+|StructureSupportDeployment must be associated to a Guy
+
+|NrlLuftspenn.status.fjernet 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.removed
+|Same as above
+
+|NrlLuftspenn.status.planlagtFjernet 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.notYetRemoved  
+|Same as above
+
+|NrlLuftspenn.status.planlagtOppført 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.notYetInstalled  
+|Same as above
+
+|NrlLuftspenn.komponentident
+|nc-no:Guy.mRID
+|Should be a UUID4
+
+|NrlLuftspenn.referanse.komponentkodeverdi
+|cim:Name.name
+|Name should be associated to a Guy and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#referanse.komponentkodeverdi["referanse.komponentkodeverdi"] on the use of the Name class.
+
+|NrlLuftspenn.navn
+|nc-no:Guy.name
+|
+
+|NrlLuftspenn.vertikalAvstand
+|nc-no:Guy.maxHight
+|
+
+|NrlLuftspenn.anleggsbredde
+|nc-no:Guy.maxWidth
+|
+
+|NrlLuftspenn.verifisertRapporteringsnøyaktighet.20230101_5-1
+|nc-no:Guy.locationMethod.LocationMethodKind.measured
+|
+
+|NrlLuftspenn.verifisertRapporteringsnøyaktighet.0
+|nc-no:Guy.locationMethod.LocationMethodKind.calculated or +
+nc-no:Guy.locationMethod.LocationMethodKind.estimated or +
+nc-no:Guy.locationMethod.LocationMethodKind.manual
+|
+
+|NrlLuftspenn.høydereferanse.fot
+|cim:Name.name
+|Name should be associated to an Guy and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlLuftspenn.høydereferanse.topp
+|cim:Name.name
+|Name should be associated to an Guy and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlLuftspenn.beliggenhet
+|geo:hasGeometry
+|See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
+
+|NrlLuftspenn.luftspennType.Bardun
+|cim:Guy
+|The type is given by the instantiation of a Guy class.
+
+|NrlLuftspenn.luftfartshindermerking.fargemerking
+|nc-no:Guy.aviationObstacleMarkingKind.AviationObstacleMarkingKind.colourMarking
+|
+
+|NrlLuftspenn.luftfartshindermerking.markør
+|nc-no:Guy.aviationObstacleMarkingKind.AviationObstacleMarkingKind.marker
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeA
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeB
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeA
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeB
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lyssatt
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.lit
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeA
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeB
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeC
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeC
+|
 
 |===
 
