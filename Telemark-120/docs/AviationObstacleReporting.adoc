@@ -317,7 +317,7 @@ Guy wire.
 - aviationObstacleMarkingKind: LineMarkingKind, kind of marking on the structure.
 - length: Length, Length of the guy wire.
 - maxHeight: Length, Describes the maximum elevation, which is the highest distance from the ground when the guy wire has a raised point from the ground.
-- maxWidth: Length, Describes the maximum distance between the two end points of the guy wire relative to the ground. Consider the ground as the xy plane, the maximum width is then the length between the two end points in the xy plane.
+- maxWidth: Length, The maximum width of guy wire that is connected to a structure in both ends.
 
 
 *Associations:*

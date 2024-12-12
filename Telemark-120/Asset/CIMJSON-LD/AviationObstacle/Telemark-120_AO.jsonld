@@ -130,7 +130,7 @@
             "cim:IdentifiedObject.description": "Overhead Structure 2",
             "cim:IdentifiedObject.name": "OS_2",
             "nc-no:LocationResource.locationMethod": {
-                "@id": "nc-no:locationMethodKind.measured"
+                "@id": "nc-no:LocationMethodKind.measured"
             },
             "nc-no:OverheadStructure.aviationObstacleMarkingKind": {
                 "@id": "nc-no:AviationObstacleMarkingKind.marker"
@@ -171,6 +171,49 @@
             },
             "nc-no:StructureDeployment.Structure": {
                 "@id": "urn:uuid:1f521353-04da-47f7-bcc9-17e1aefb7beb"
+            }
+        },
+        {
+            "@id": "urn:uuid:a584f27c-be73-4b77-986c-15aa5aa65ec9",
+            "@type": ["nc-no:Guy", "geo:Feature"],
+            "cim:IdentifiedObject.mRID": "a584f27c-be73-4b77-986c-15aa5aa65ec9",
+            "cim:IdentifiedObject.description": "Guy wire 2",
+            "cim:IdentifiedObject.name": "GUY_2",
+            "nc-no:LocationResource.locationMethod": {
+                "@id": "nc-no:LocationMethodKind.measured"
+            },
+            "nc-no:Guy.aviationObstacleMarkingKind": {
+                "@id": "nc-no:LineMarkingKind.colourMarking"
+            },
+            "nc-no:Guy.aviationObstacleLightingKind": {
+                "@id": "nc-no:LineLightingKind.lit"
+            },
+            "nc-no:Guy.maxWidth": 3.97,
+            "nc-no:Guy.maxHeight": 153.23,
+            "nc-no:Guy.length": 63.01,
+            "geo:hasGeometry": {
+                "@id": "urn:uuid:7d8a6fba-409a-4dc0-9b1b-f1d46668366e",
+                "@type": "geo:Geometry",
+                "geo:asGML": {
+                    "@value": "<gml:LineString xmlns:gml=\"http://www.opengis.net/gml/3.2\" srsName=\"urn:x-ogc:def:crs:EPSG::5972\" srsDimension=\"3\"><gml:posList>6474917.289 482515.352 40.81 6474917.288 482515.348 40.81</gml:posList></gml:LineString>", 
+                    "@type": "geo:gmlLiteral"
+                }
+            }
+        },
+        {
+            "@id": "urn:uuid:aea8c050-7521-44ab-a60e-1e36f8d633c6",
+            "@type": "nc-no:StructureSupportDeployment",
+            "cim:IdentifiedObject.mRID": "aea8c050-7521-44ab-a60e-1e36f8d633c6",
+            "cim:IdentifiedObject.description": "Structure Support Deployment 2",
+            "cim:IdentifiedObject.name": "SSD_2",
+            "cim:AssetDeployment.deploymentState": {
+                "@id": "nc-no:DeploymentStateKind.notYetInstalled"
+            },
+            "cim:AssetDeployment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+            },
+            "nc-no:StructureSupportDeployment.StructureSupport": {
+                "@id": "urn:uuid:a584f27c-be73-4b77-986c-15aa5aa65ec9"
             }
         },
         {
