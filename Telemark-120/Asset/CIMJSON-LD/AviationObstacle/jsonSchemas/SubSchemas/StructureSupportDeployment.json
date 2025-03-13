@@ -22,7 +22,7 @@
             "type": "string",
             "format": "uri",
             "enum": [
-                "nc-no:StructureDeployment"
+                "nc-no:StructureSupportDeployment"
             ]
         },
         "cim:IdentifiedObject.mRID": {
