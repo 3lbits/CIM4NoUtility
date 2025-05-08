@@ -4,7 +4,7 @@
         "@id",
         "@type",
         "cim:IdentifiedObject.mRID",
-        "nc-no:PowerSystemResource.locationMethod",
+        "nc-no:LocationResource.locationMethod",
         "geo:hasGeometry"
     ],
     "additionalProperties": false,
@@ -25,7 +25,7 @@
             "items": {
                 "type": "string",
                 "enum": [
-                    "nc-no:ACLineSegmentSpan",
+                    "nc-no:Guy",
                     "geo:Feature"
                 ]
             }
@@ -40,7 +40,7 @@
         "cim:IdentifiedObject.name": {
             "type": "string"
         },
-        "nc-no:PowerSystemResource.locationMethod": {
+        "nc-no:LocationResource.locationMethod": {
             "type": "object",
             "required": [
                 "@id"
@@ -59,7 +59,7 @@
                 }
             }
         },
-        "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+        "nc-no:Guy.aviationObstacleMarkingKind": {
             "type": "object",
             "required": [
                 "@id"
@@ -76,7 +76,7 @@
                 }
             }
         },
-        "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+        "nc-no:Guy.aviationObstacleLightingKind": {
             "type": "object",
             "required": [
                 "@id"
@@ -99,19 +99,19 @@
                 }
             }
         },
-        "nc-no:ACLineSegmentSpan.maxWidth": {
+        "nc-no:Guy.length": {
             "type": "number",
             "minimum": 0
         },
-        "nc-no:ACLineSegmentSpan.maxHeight": {
+        "nc-no:Guy.maxHeight": {
             "type": "number",
             "minimum": 0
         },
-        "nc-no:ACLineSegmentSpan.spanWireLength": {
+        "nc-no:Guy.maxWidth": {
             "type": "number",
             "minimum": 0
         },
-        "nc-no:ACLineSegmentSpan.ACLineSegment": {
+        "nc-no:Guy.OverheadStructure": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -130,13 +130,37 @@
             "type": "object",
             "properties": {
                 "geo:asWKT": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@type": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "geo:asGeoJSON": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@type": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "geo:asGML": {
-                    "type": "string"
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@type": {
+                            "type": "string"
+                        }
+                    }
                 }
             }
         }
