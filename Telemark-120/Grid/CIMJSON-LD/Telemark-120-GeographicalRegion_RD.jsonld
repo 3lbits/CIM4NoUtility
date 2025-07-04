@@ -44,7 +44,7 @@
     },
     "dcat:keyword": "RD",
     "dcterms:spatial": {
-        "@id": "\"http://energy.referencedata.eu/CGMES\""
+        "@id": "http://energy.referencedata.eu/CGMES"
     },
     "@graph": [
         {
