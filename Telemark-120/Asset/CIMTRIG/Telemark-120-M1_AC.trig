@@ -1,0 +1,97 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "DIGIN" .
+
+<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:conformsTo    <http://iec.ch/TC57/CIM/AssetCatalogue/2/0>;
+        dcterms:description   "DIGIN10 Manufacture 1 (M1) Asset Catalogue Model"@en;
+        dcterms:issued        "2022-10-28T13:37:00Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "DIGIN";
+        dcterms:spatial       <https://diginenergi.no/DIGIN10/AssetCatalogue>;
+        dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
+                                dcat:startDate  "2022-10-28T13:37:00Z"^^xsd:dateTime
+                              ];
+        dcterms:title         "DIGIN10-30-M1_AC";
+        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-M1_AC>;
+        dcat:keyword          "AC";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504> {
+    <urn:uuid:df774997-6a8e-47ca-9cd5-30ce2a85abf0>
+            rdf:type                   cim:ProductAssetModel;
+            cim:IdentifiedObject.description
+                    "RTU skap for småkraftverk";
+            cim:IdentifiedObject.mRID  "df774997-6a8e-47ca-9cd5-30ce2a85abf0";
+            cim:IdentifiedObject.name  "RS5970P";
+            cim:ProductAssetModel.AssetModelCatalogueItem
+                    <urn:uuid:99e19919-b030-4742-8609-f1230681333d>;
+            cim:ProductAssetModel.Manufacturer
+                    <urn:uuid:6d4b7fa0-aa6e-4e82-a88e-c14b84370eec>;
+            cim:ProductAssetModel.drawingNumber
+                    "EQ-15987-104";
+            cim:ProductAssetModel.instructionMnaual
+                    "RS5970P Operation Manual";
+            cim:ProductAssetModel.modelNumber
+                    "28597";
+            cim:ProductAssetModel.modelVersion
+                    "2.3";
+            cim:ProductAssetModel.weightTotal
+                    115 .
+    
+    <urn:uuid:d25f35ca-69fb-4c06-905b-67ec532e5f14>
+            rdf:type                        cim:CableInfo;
+            cim:CableInfo.constructionKind  cim:CableConstructionKind.stranded;
+            cim:CableInfo.outerJacketKind   cim:CableOuterJacketKind.pvc;
+            cim:CableInfo.shieldMaterial    cim:CableShieldMaterialKind.aluminum;
+            cim:IdentifiedObject.description
+                    "PFXP underground cable with dimension 1x4x95 and aluminum conductor for low voltage grid";
+            cim:IdentifiedObject.mRID       "d25f35ca-69fb-4c06-905b-67ec532e5f14";
+            cim:IdentifiedObject.name       "PFXP_1x4x95_Al 1 kV";
+            cim:WireInfo.insulated          true;
+            cim:WireInfo.insulationMaterial
+                    cim:WireInsulationKind.other;
+            cim:WireInfo.material           cim:WireMaterialKind.aluminum;
+            cim:WireInfo.rAC25              320;
+            cim:WireInfo.radius             95;
+            cim:WireInfo.ratedCurrent       220 .
+    
+    <urn:uuid:99e19919-b030-4742-8609-f1230681333d>
+            rdf:type                   cim:AssetModelCatalogueItem;
+            cim:AssetModelCatalogueItem.unitCost
+                    "38500";
+            cim:IdentifiedObject.description
+                    "Pricing for RTU skap for småkraftverk";
+            cim:IdentifiedObject.mRID  "99e19919-b030-4742-8609-f1230681333d";
+            cim:IdentifiedObject.name  "Price_RS5970P" .
+    
+    <urn:uuid:6d4b7fa0-aa6e-4e82-a88e-c14b84370eec>
+            rdf:type                        cim:Manufacturer;
+            cim:IdentifiedObject.aliasName  "RBE";
+            cim:IdentifiedObject.mRID       "b0c1754b-187c-49fa-8159-6fd2f4f918ad";
+            cim:IdentifiedObject.name       "Reuters Borg Elektro";
+            cim:Manufacturer.ProductAssetModel
+                    <urn:uuid:df774997-6a8e-47ca-9cd5-30ce2a85abf0> .
+    
+    <urn:uuid:5462d46a-9ee5-4d09-9ac2-9f97933caa4d>
+            rdf:type                   cim:PowerTransformerInfo;
+            cim:IdentifiedObject.mRID  "5462d46a-9ee5-4d09-9ac2-9f97933caa4d";
+            cim:IdentifiedObject.name  "Engene 132-22 KV PowerTransformerInfo" .
+}

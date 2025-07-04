@@ -1,0 +1,238 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "DIGIN" .
+
+<urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:conformsTo    <http://iec.ch/TC57/CIM/Asset/2/0>;
+        dcterms:description   "DIGIN10 Medium Voltage 1 (MV1) Asset Model"@en;
+        dcterms:issued        "2022-10-28T13:37:00Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "DIGIN";
+        dcterms:spatial       <https://diginenergi.no/DIGIN10/Asset>;
+        dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
+                                dcat:startDate  "2022-10-28T13:37:00Z"^^xsd:dateTime
+                              ];
+        dcterms:title         "DIGIN10-30-MV1_AS";
+        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-MV1_AS>;
+        dcat:keyword          "AS";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342> {
+    <urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:fd11bf7f-138b-4a1b-802c-25262b7b8672>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01370602";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8HuPTPRy";
+            cim:Asset.type                  "PotentialTransformer";
+            cim:Asset.utcNumber             "10000000000007";
+            cim:IdentifiedObject.description
+                    "Engene Voltage Transformer 1 Asset 6";
+            cim:IdentifiedObject.mRID       "ff20c614-4797-471e-98c6-c08f7ed97ce6";
+            cim:IdentifiedObject.name       "ENGENE VT1 A6" .
+    
+    <urn:uuid:c06392cf-393b-4a4f-8e58-63af4a84380a>
+            rdf:type                       cim:Meter;
+            cim:Asset.baselineCondition    "New";
+            cim:Asset.baselineLossOfLife   0;
+            cim:Asset.critical             true;
+            cim:Asset.inUseState           cim:InUseStateKind.inUse;
+            cim:Asset.kind                 cim:AssetKind.other;
+            cim:Asset.lifecycleState       cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber            "LOT # B-01280609";
+            cim:Asset.position             "inSubstation";
+            cim:Asset.purchasePrice        "500.00";
+            cim:Asset.serialNumber         "7359990000000001";
+            cim:Asset.type                 "SmartMeter";
+            cim:Asset.utcNumber            "10000001000001";
+            cim:EndDevice.amrSystem        "AMI";
+            cim:EndDevice.installCode      "7359990000000001";
+            cim:EndDevice.isPan            false;
+            cim:EndDevice.isSmartInverter  true;
+            cim:EndDevice.isVirtual        false;
+            cim:EndDevice.timeZoneOffset   1;
+            cim:IdentifiedObject.description
+                    "Nedenes 400 Volt Meter 1";
+            cim:IdentifiedObject.mRID      "c06392cf-393b-4a4f-8e58-63af4a84380a";
+            cim:IdentifiedObject.name      "NEDENES 04 M1" .
+    
+    <urn:uuid:addaff9d-8a88-4f0b-8213-1a15498083a2>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01560601";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8DuSTNRi";
+            cim:Asset.type                  "CurrentTransformer";
+            cim:Asset.utcNumber             "10000000000005";
+            cim:IdentifiedObject.description
+                    "Engene Current Transformer 3 Asset 5";
+            cim:IdentifiedObject.mRID       "addaff9d-8a88-4f0b-8213-1a15498083a2";
+            cim:IdentifiedObject.name       "ENGENE CT3 A5" .
+    
+    <urn:uuid:9e9d30f5-fdb3-4d0e-9309-ad41c97f3df5>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:0f3b6200-684d-4365-8d55-45baae73bffb>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01550601";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8DuSMPRi";
+            cim:Asset.type                  "CurrentTransformer";
+            cim:Asset.utcNumber             "10000000000004";
+            cim:IdentifiedObject.description
+                    "Engene Current Transformer 2 Asset 4";
+            cim:IdentifiedObject.mRID       "9e9d30f5-fdb3-4d0e-9309-ad41c97f3df5";
+            cim:IdentifiedObject.name       "ENGENE CT2 A4" .
+    
+    <urn:uuid:6b7f7604-9f3e-479e-889f-f5d3d8ca60a1>
+            rdf:type                        cim:Asset;
+            cim:Asset.AssetInfo             <urn:uuid:5462d46a-9ee5-4d09-9ac2-9f97933caa4d>;
+            cim:Asset.PowerSystemResources  <urn:uuid:74936f6f-296e-44db-b772-1d522f317069>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.transformer;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.position              "inGround";
+            cim:IdentifiedObject.description
+                    "Engene Power Transformer";
+            cim:IdentifiedObject.mRID       "6b7f7604-9f3e-479e-889f-f5d3d8ca60a1";
+            cim:IdentifiedObject.name       "ENGENE PT" .
+    
+    <urn:uuid:4cb51263-a59e-4df2-972c-869f43a3aeaa>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:686be1a3-4215-4ee3-b9fa-701b3c76ec04>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01563601";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100200.00";
+            cim:Asset.serialNumber          "8DuSTNRi";
+            cim:Asset.type                  "CurrentTransformer";
+            cim:Asset.utcNumber             "10000001000005";
+            cim:IdentifiedObject.description
+                    "Nedenes 400 Volt Current Transformer 4 Asset 9";
+            cim:IdentifiedObject.mRID       "4cb51263-a59e-4df2-972c-869f43a3aeaa";
+            cim:IdentifiedObject.name       "NEDENES 04 CT4 A9" .
+    
+    <urn:uuid:3344a693-6818-4703-93ac-510baac566d5>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:26d2f8aa-b651-46c5-a54d-05948f35f3d2>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01540601";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8DuSTPRi";
+            cim:Asset.type                  "CurrentTransformer";
+            cim:Asset.utcNumber             "10000000000003";
+            cim:IdentifiedObject.description
+                    "Engene Current Transformer 1 Asset 3";
+            cim:IdentifiedObject.mRID       "3344a693-6818-4703-93ac-510baac566d5";
+            cim:IdentifiedObject.name       "ENGENE CT1 A3" .
+    
+    <urn:uuid:2147932e-ba94-4cee-a9ad-a22c9c87dab5>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:74936f6f-296e-44db-b772-1d522f317069>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01370602";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8JuPTPRy";
+            cim:Asset.type                  "PotentialTransformer";
+            cim:Asset.utcNumber             "10000000000009";
+            cim:IdentifiedObject.description
+                    "Nedenes 400 Volt Voltage Transformer 4 Asset 10";
+            cim:IdentifiedObject.mRID       "2147932e-ba94-4cee-a9ad-a22c9c87dab5";
+            cim:IdentifiedObject.name       "NEDENES 04 VT4 A10" .
+    
+    <urn:uuid:1104d9f6-95d3-463a-b8ad-6f64eb3a730b>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:74936f6f-296e-44db-b772-1d522f317069>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01370602";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8JuPTPRy";
+            cim:Asset.type                  "PotentialTransformer";
+            cim:Asset.utcNumber             "10000000000009";
+            cim:IdentifiedObject.description
+                    "Engene Voltage Transformer 3 Asset 8";
+            cim:IdentifiedObject.mRID       "1104d9f6-95d3-463a-b8ad-6f64eb3a730b";
+            cim:IdentifiedObject.name       "ENGENE VT3 A8" .
+    
+    <urn:uuid:0507d6c7-b845-4171-ad56-d531e2e52401>
+            rdf:type                        cim:Asset;
+            cim:Asset.PowerSystemResources  <urn:uuid:03f7a245-aeca-48ba-af07-58419fb9b77c>;
+            cim:Asset.baselineCondition     "New";
+            cim:Asset.baselineLossOfLife    0;
+            cim:Asset.critical              false;
+            cim:Asset.inUseState            cim:InUseStateKind.inUse;
+            cim:Asset.kind                  cim:AssetKind.other;
+            cim:Asset.lifecycleState        cim:AssetLifeCycleStateKind.received;
+            cim:Asset.lotNumber             "LOT # B-01370602";
+            cim:Asset.position              "inGround";
+            cim:Asset.purchasePrice         "100000.00";
+            cim:Asset.serialNumber          "8YuPTPRy";
+            cim:Asset.type                  "PotentialTransformer";
+            cim:Asset.utcNumber             "10000000000008";
+            cim:IdentifiedObject.description
+                    "Engene Voltage Transformer 2 Asset 7";
+            cim:IdentifiedObject.mRID       "0507d6c7-b845-4171-ad56-d531e2e52401";
+            cim:IdentifiedObject.name       "ENGENE VT2 A7" .
+}
