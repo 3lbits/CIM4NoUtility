@@ -1,17 +1,11 @@
-JSON1 = $(wildcard ../CIMJSON-LD/*.geojson)
-TTL1  = $(patsubst ../CIMJSON-LD/%.geojson,%.ttl, $(JSON1))
-TRIG1 = $(patsubst ../CIMJSON-LD/%.geojson,%.trig,$(JSON1))
+JSON = $(wildcard ../CIMJSON-LD/*.jsonld)
+TRIG = $(patsubst ../CIMJSON-LD/%.jsonld,%.trig, $(JSON)) Telemark-120_AO.trig
 
-JSON2 = $(wildcard ../CIMJSON-LD/*.jsonld)
-TRIG2 = $(patsubst ../CIMJSON-LD/%.jsonld,%.trig, $(JSON2))
-
-
-all: $(TTL1) $(TRIG1) $(TRIG2)
-
-%.ttl: ../CIMJSON-LD/%.geojson
-	riot.bat --syntax jsonld --formatted trig $^ > $*.trig
-#	owl.bat write $*.trig $*.ttl
+all: $(TRIG)
 
 %.trig: ../CIMJSON-LD/%.jsonld
+	riot.bat --syntax jsonld --formatted trig $^ > $@
+
+Telemark-120_AO.trig: ../CIMJSON-LD/AviationObstacle/Telemark-120_AO.jsonld
 	riot.bat --syntax jsonld --formatted trig $^ > $@
 
