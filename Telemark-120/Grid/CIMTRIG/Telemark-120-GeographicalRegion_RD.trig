@@ -18,6 +18,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
         dcterms:rights        "© 2023 Copyright";
         dcterms:rightsHolder  "DIGIN";
+        dcterms:spatial       <http://energy.referencedata.eu/CGMES>;
         dcterms:title         "DIGIN10-30-GeographicalRegion_RD";
         dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-GeographicalRegion_RD>;
         dcat:keyword          "RD";
