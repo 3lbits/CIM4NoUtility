@@ -9,7 +9,14 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
         dcterms:title  "DIGIN" .
 
-<urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731>
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731> {
+    <urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Operation-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Operation/4.0>;
@@ -29,13 +36,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "OP";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731> {
     <urn:uuid:fd11bf7f-138b-4a1b-802c-25262b7b8672>
             rdf:type                       cim:PotentialTransformer;
             cim:AuxiliaryEquipment.Terminal

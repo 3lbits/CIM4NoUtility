@@ -10,7 +10,14 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
         dcterms:title  "DIGIN" .
 
-<urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326>
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326> {
+    <urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:description   "Meter Reading Types Reference data (RD)"@en;
@@ -25,13 +32,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "RD";
         prov:generatedAtTime  "2023-03-24T15:24:37Z"^^xsd:dateTime .
 
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326> {
     <urn:uuid:feb86bae-cfa4-4dcf-937b-f3c72dbbb668>
             rdf:type                   cim:ReadingType;
             skos:exactMatch            <http://data.europa.eu/energy/ReadingType/0.9.2.12.1.1.15.0.0.0.0.0.0.0.0.0.33.0>;

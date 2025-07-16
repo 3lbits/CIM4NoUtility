@@ -9,7 +9,17 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3>
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "ElBits" .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3> {
+    <urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <https://ap-no.cim4.eu/AviationObstacle/1.0>;
@@ -29,16 +39,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "AO";
         prov:generatedAtTime  "2024-02-06T12:00:00Z"^^xsd:dateTime .
 
-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-        dcterms:title  "ElBits" .
-
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:f1d9a88d-0ff5-4e4b-9d6a-c353fe8232c3> {
     <urn:uuid:fe789266-1074-406f-99a8-f833d07865c4>
             rdf:type                   nc-no:StructureDeployment;
             cim:AssetDeployment.BaseVoltage

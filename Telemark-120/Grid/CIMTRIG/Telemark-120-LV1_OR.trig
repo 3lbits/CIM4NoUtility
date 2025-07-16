@@ -10,7 +10,14 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
         dcterms:title  "DIGIN" .
 
-<urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd>
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd> {
+    <urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <http://entsoe.eu/ns/CIM/ObjectRegistry-EU/2.1>;
@@ -30,13 +37,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "OR";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd> {
     <urn:uuid:e08e14be-3cb2-4f79-a54a-62b54085aa06>
             rdf:type                   cim:Name;
             nc:Name.NameType           <urn:uuid:d56ca01d-7801-4e1b-ac69-c2059143475f>;

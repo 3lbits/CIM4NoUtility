@@ -1,4 +1,4 @@
-PREFIX cim:     <https://cim.ucaiug.io/ns#>
+ PREFIX cim:     <https://cim.ucaiug.io/ns#>
 PREFIX dcat:    <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
@@ -9,7 +9,14 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
         dcterms:title  "DIGIN" .
 
-<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504>
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504> {
+    <urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <http://iec.ch/TC57/CIM/AssetCatalogue/2/0>;
@@ -28,13 +35,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "AC";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504> {
     <urn:uuid:df774997-6a8e-47ca-9cd5-30ce2a85abf0>
             rdf:type                   cim:ProductAssetModel;
             cim:IdentifiedObject.description

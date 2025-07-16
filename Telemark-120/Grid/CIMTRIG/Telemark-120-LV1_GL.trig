@@ -9,7 +9,14 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
         dcterms:title  "DIGIN" .
 
-<urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74>
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74> {
+    <urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0> , <http://iec.ch/TC57/CIM/Geographical/2/0>;
@@ -29,13 +36,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "GL";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74> {
     <urn:uuid:f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9>
             rdf:type                       cim:Location;
             cim:IdentifiedObject.mRID      "f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9";

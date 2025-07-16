@@ -6,7 +6,17 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "DIGIN" .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4> {
+    <urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:description   "DIGIN10 CGMES v3.0 Base Voltage Reference model"@en;
@@ -21,16 +31,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "RD";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-        dcterms:title  "DIGIN" .
-
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4> {
     <urn:uuid:fb384693-5e5b-4432-a281-1c7b206f652e>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  6.9E-1;

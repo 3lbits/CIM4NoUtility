@@ -6,7 +6,17 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5>
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "DIGIN" .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5> {
+    <urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5>
         rdf:type                 dcat:Dataset;
         dcterms:accessRights     <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo       <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Topology/5.0>;
@@ -28,16 +38,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:temporalResolution  "PT1H"^^xsd:duration;
         prov:generatedAtTime     "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-        dcterms:title  "DIGIN" .
-
-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
-        dcterms:title  "CC BY-NC-SA 4.0" .
-
-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
-        dcterms:title  "PUBLIC" .
-
-<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5> {
     <urn:uuid:ffb2f7d9-b099-4ecb-be93-9071b755ceab>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:734aa247-9549-11ec-b226-48ba4eadba68> .
