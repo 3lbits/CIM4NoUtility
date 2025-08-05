@@ -9,7 +9,7 @@
     xmlns:eu="http://iec.ch/TC57/CIM100-European#">
 
     <md:FullModel rdf:about="urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326">
-        <md:Model.modelingAuthoritySet>"http://energy.referencedata.eu/ReadingType"</md:Model.modelingAuthoritySet>
+        <md:Model.modelingAuthoritySet>http://energy.referencedata.eu/ReadingType</md:Model.modelingAuthoritySet>
         <md:Model.description>Meter Reading Types Reference data (RD)</md:Model.description>
         <dcat:keyword>RD</dcat:keyword>
         <md:Model.version>1</md:Model.version>

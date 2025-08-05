@@ -45,7 +45,7 @@
     },
     "dcat:keyword": "RD",
     "dcterms:spatial": {
-        "@id": "\"http://energy.referencedata.eu/ReadingQualityType\""
+        "@id": "http://energy.referencedata.eu/ReadingQualityType"
     },
     "@graph": [
         {

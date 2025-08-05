@@ -1,0 +1,72 @@
+@prefix nc:      <https://cim4.eu/ns/nc#> .
+@prefix cim:     <https://cim.ucaiug.io/ns#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo:     <http://www.opengis.net/ont/geosparql#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC> dcterms:title "PUBLIC" .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> dcterms:title "CC BY-NC-SA 4.0" .
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "DIGIN" .
+
+<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> {
+  <urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset;
+    dcterms:description "Geospartial GridCapacity MAS1"@en ;
+    dcterms:description "Stedsdata Nettkapasitet MAS1"@no ;
+    dcat:isVersionOf <https://digin.no/Foundation/DIGIN10-30-WattApp_GL> ;
+    dcat:keyword "GL" ;
+    dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dcterms:conformsTo <http://digin.no/ns/CIM/GeoJSON/1.0> ;
+    dcterms:issued "2023-02-21T08:08:00.000Z"^^xsd:dateTime ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+    dcterms:publisher <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> ;
+    dcterms:rights "© 2023 Copyright" ;
+    dcterms:rightsHolder "DIGIN" ;
+    dcterms:spatial <https://diginenergi.no/DIGIN10/WattApp> ;
+    dcterms:temporal [
+      a dcterms:PeriodOfTime ;
+      dcat:startDate "2022-03-30T23:00:00Z"^^xsd:dateTime ;
+    ] ;
+    dcterms:title "DIGIN10-30-WattApp-GL" ;
+    prov:generatedAtTime "2023-02-20T16:04:23Z"^^xsd:dateTime .
+
+  <urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545> a cim:Feeder, geo:Feature ;
+    cim:IdentifiedObject.description "Sandefjord business and industry area"@en ;
+    cim:IdentifiedObject.description "Sandefjord næring og industri område"@no ;
+    cim:IdentifiedObject.mRID "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545" ;
+    cim:IdentifiedObject.name "Sandefjord_business_and_industry_area"@en ;
+    cim:IdentifiedObject.name "Sandefjord_næring_og_industri_område"@no ;
+    nc:Feeder.CapacitySchedule [
+      nc:BaseTimeSeries.generatedAtTime "2022-11-07T12:05:43.641Z" ;
+      nc:BaseTimeSeries.interpolationKind nc:TimeSeriesInterpolationKind.previous ;
+      nc:BaseTimeSeries.kind nc:BaseTimeSeriesKind.forecast ;
+      nc:BaseTimeSeries.method "KraftSystemUtredning"@no ;
+      nc:BaseTimeSeries.method "Power System Report"@en ;
+      nc:BaseTimeSeries.percentile "50" ;
+      nc:CapacitySchedule.CapacityTimePoint [
+        nc:CapacityTimePoint.atTime "2028-01-01T23:00:00.000Z"^^xsd:dateTime ;
+        nc:CapacityTimePoint.maxAllocatedP "0"^^xsd:float;
+        nc:CapacityTimePoint.maxAllocatedQ "0"^^xsd:float;
+        nc:CapacityTimePoint.maxP "40"^^xsd:float;
+        nc:CapacityTimePoint.maxQ "0"^^xsd:float;
+        nc:CapacityTimePoint.minAllocatedP "0"^^xsd:float;
+        nc:CapacityTimePoint.minAllocatedQ "0"^^xsd:float;
+        nc:CapacityTimePoint.minP "0"^^xsd:float;
+        nc:CapacityTimePoint.minQ "0"^^xsd:float;
+      ] ;
+      nc:IdentifiedObject.description "Det er i dag liten kapasitet til ny næring og industri langs E18 i Sandefjord. Økt etterspørsel etter kapasitet gir derfor behov for økt transformatorkapasitet i området. Tilgjengelig kapasitet og tidspunkt vil være avhengig av behov og er ikke fastsatt."@no ;
+      nc:IdentifiedObject.description "There is currently little capacity for new business and industry along the E18 in Sandefjord. Increased demand for capacity therefore creates a need for increased transformer capacity in the area. Available capacity and timing will depend on demand and are not fixed."@en ;
+      nc:IdentifiedObject.name "Sandefjord, increased capacity for business and industry"@en ;
+      nc:IdentifiedObject.name "Sandefjord, økt kapasitet til næring og industri"@no ;
+    ] ;
+    geo:hasGeometry <urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8>
+    .
+
+  <urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8> a geo:Geometry ;
+      geo:asWKT "POLYGON((10.229020984659712 59.24698254345179, 10.18420614097019 59.19982925336586, 10.142883363023742 59.13888033657065, 10.202442484289662 59.13758660552921, 10.276357875828012 59.16126409167293, 10.310502518638259 59.22922084872761, 10.229020984659712 59.24698254345179))"^^geo:wktLiteral .
+
+}

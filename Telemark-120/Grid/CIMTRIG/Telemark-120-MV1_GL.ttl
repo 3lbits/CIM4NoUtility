@@ -1,0 +1,159 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cim: <https://cim.ucaiug.io/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geojson: <https://purl.org/geojson/vocab#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC> dcterms:title "PUBLIC" .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/> dcterms:title "CC BY-NC-SA 4.0" .
+
+<urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57> a geojson:Point ;
+  geojson:coordinates ( 8.6423E0 5.8507E1 ) .
+
+<urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95> a geojson:Point ;
+  geojson:coordinates ( 8.6423E0 5.8507E1 ) ;
+  geojson:coordinates ( 8.7732E0 5.8464E1 ) .
+
+<urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L ENGENE" .
+
+<urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L T_ENGENE" .
+
+<urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L FROLAND" .
+
+<urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L NEDENES" .
+
+<urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L ARENDAL-FROLAND" .
+
+<urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1> a geojson:Point ;
+  geojson:coordinates ( 8.6841E0 5.8414E1 ) ;
+  geojson:coordinates ( 8.6423E0 5.8507E1 ) .
+
+<urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a> a geojson:Point ;
+  geojson:coordinates ( 8.7004E0 5.8415E1 ) .
+
+<urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1> a geojson:Point ;
+  geojson:coordinates ( 8.693E0 5.8402E1 ) ;
+  geojson:coordinates ( 8.7004E0 5.8415E1 ) .
+
+<urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L FROLAND-T_ENGENE" .
+
+<urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L T_ENGENE-ENGENE" .
+
+<urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191> a cim:Substation ;
+  cim:IdentifiedObject.name "L ENGENE-NEDENES" .
+
+<urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654> a dcat:Dataset, geojson:FeatureCollection ;
+  dcterms:description "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Geographical layout (GL) Model"@en ;
+  dcat:isVersionOf <https://digin.no/baseprofile/DIGIN10-30-MV1_GL> ;
+  dcat:keyword "GL" ;
+  dcterms:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+  dcterms:conformsTo <http://iec.ch/TC57/CIM/Geographical/2/0> ;
+  dcterms:conformsTo <http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0> ;
+  dcterms:issued "2022-03-30T16:26:37.958Z"^^xsd:date ;
+  dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+  dcterms:publisher <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> ;
+  dcterms:references <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16> ;
+  dcterms:rights "© 2023 Copyright" ;
+  dcterms:rightsHolder "DIGIN" ;
+  dcterms:spatial <https://diginenergi.no/DIGIN10/MV1> ;
+  dcterms:temporal [
+    a dcterms:PeriodOfTime ;
+    dcat:startDate "2022-03-30T23:00:00Z"^^xsd:dateTime ;
+  ] ;
+  dcterms:title "DIGIN10-30-MV1_GL" ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b> ;
+    geojson:properties <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95> ;
+    geojson:properties <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1> ;
+    geojson:properties <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57> ;
+    geojson:properties <urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95> ;
+    geojson:properties <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1> ;
+    geojson:properties <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1> ;
+    geojson:properties <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:c3b960e2-fb92-478b-880d-13768894c467> ;
+    geojson:properties <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c> ;
+    geojson:properties <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a> ;
+    geojson:properties <urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:c3b960e2-fb92-478b-880d-13768894c467> ;
+    geojson:properties <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b> ;
+    geojson:properties <urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191> ;
+  ] ;
+  geojson:features [
+    a geojson:Feature ;
+    geojson:geometry <urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1> ;
+    geojson:properties <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191> ;
+  ] ;
+  prov:generatedAtTime "2023-03-24T15:24:37Z"^^xsd:dateTime .
+
+<urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b> a geojson:Point ;
+  geojson:coordinates ( 8.6841E0 5.8414E1 ) .
+
+<urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c> a geojson:Point ;
+  geojson:coordinates ( 8.693E0 5.8402E1 ) .
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "DIGIN" .
+
+<urn:uuid:c3b960e2-fb92-478b-880d-13768894c467> a geojson:Point ;
+  geojson:coordinates ( 8.6841E0 5.8414E1 ) ;
+  geojson:coordinates ( 8.693E0 5.8402E1 ) .
+
+<urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b> a geojson:Point ;
+  geojson:coordinates ( 8.7732E0 5.8464E1 ) .
+
+<urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f> a cim:Substation ;
+  cim:IdentifiedObject.name "L ARENDAL" .
+
+
