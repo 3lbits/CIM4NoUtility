@@ -427,7 +427,7 @@
             }
         },
         {
-            "@id": "urn:uuid:c95e549-d4b4-4a06-b95f-44a42c6d780d",
+            "@id": "urn:uuid:3c95e549-d4b4-4a06-b95f-44a42c6d780d",
             "@type": "cim:ReadingType",
             "cim:IdentifiedObject.mRID": "3c95e549-d4b4-4a06-b95f-44a42c6d780d",
             "cim:IdentifiedObject.description": "maximum twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)",
@@ -437,7 +437,7 @@
             }
         },
         {
-            "@id": "urn:uuid:58291c0-d210-45e2-9d1c-1eac9d45f56e",
+            "@id": "urn:uuid:658291c0-d210-45e2-9d1c-1eac9d45f56e",
             "@type": "cim:ReadingType",
             "cim:IdentifiedObject.mRID": "658291c0-d210-45e2-9d1c-1eac9d45f56e",
             "cim:IdentifiedObject.description": "average twentyfourHour indicating electricitySecondaryMetered current phaseNtoGnd (A)",
