@@ -21,7 +21,7 @@
         <cim:IdentifiedObject.description>Nedenes 400 Volt PowerTransformer Load UsagePoint 14</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>NEDENES 04 SS1 UP014</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.operable"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>

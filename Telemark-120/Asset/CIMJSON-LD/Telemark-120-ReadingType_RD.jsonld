@@ -120,7 +120,7 @@
                 "@id": "cim:MeasurementKind.voltage"
             },
             "cim:ReadingType.phases": {
-                "@id": "cim:PhaseCode.phaseA"
+                "@id": "cim:PhaseCode.A"
             },
             "cim:ReadingType.unit": {
                 "@id": "cim:UnitSymbol.V"
@@ -145,7 +145,7 @@
                 "@id": "cim:MeasurementKind.current"
             },
             "cim:ReadingType.phases": {
-                "@id": "cim:PhaseCode.phaseA"
+                "@id": "cim:PhaseCode.A"
             },
             "cim:ReadingType.unit": {
                 "@id": "cim:UnitSymbol.A"
@@ -170,7 +170,7 @@
                 "@id": "cim:MeasurementKind.voltage"
             },
             "cim:ReadingType.phases": {
-                "@id": "cim:PhaseCode.phaseA"
+                "@id": "cim:PhaseCode.A"
             },
             "cim:ReadingType.unit": {
                 "@id": "cim:UnitSymbol.V"

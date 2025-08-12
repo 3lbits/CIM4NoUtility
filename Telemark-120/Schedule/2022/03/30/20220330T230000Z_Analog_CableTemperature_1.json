@@ -30,7 +30,7 @@
             "measurementType": "Temperature",
             "phases": "http://iec.ch/TC57/CIM100#PhaseCode.ABCN",
             "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
-            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.Deg",
+            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.deg",
             "Asset": {
                 "mRID": "6270b5e8-b307-427d-82c2-5605950145e3"
             },

@@ -21,7 +21,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP001</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -48,7 +48,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 2</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP002</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -75,7 +75,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 3</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP003</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -102,7 +102,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 4</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP004</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -129,7 +129,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 5</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP005</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -156,7 +156,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 6</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP006</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -183,7 +183,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 7</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP007</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -210,7 +210,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 8</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP008</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -237,7 +237,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 9</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP009</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -264,7 +264,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 10</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP010</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -291,7 +291,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 11</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP011</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -318,7 +318,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 12</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP012</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>
@@ -345,7 +345,7 @@
         <cim:IdentifiedObject.description>Telemarkstien 2 400 Volt UsagePoint 13</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>TELEMA2  04 UP013</cim:IdentifiedObject.name>
         <cim:UsagePoint.amiBillingReady rdf:resource="http://iec.ch/TC57/CIM100#AmiBillingReady.enabled"/>
-        <cim:UsagePoint.chekBilling>false</cim:UsagePoint.chekBilling>
+        <cim:usagepoint.checkBilling>false</cim:usagepoint.checkBilling>
         <cim:UsagePoint.connectionCategory>LowVoltage</cim:UsagePoint.connectionCategory>
         <cim:UsagePoint.connectionState rdf:resource="http://iec.ch/TC57/CIM100#ConnectionState.connected"/>
         <cim:UsagePoint.disconnectionMethod></cim:UsagePoint.disconnectionMethod>

@@ -49,7 +49,7 @@
         <cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.summation"/>
         <cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.electricitySecondaryMetered"/>
         <cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.voltage"/>
-        <cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phaseA"/>
+        <cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.A"/>
         <cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V"/>
     </cim:ReadingType>
 
@@ -61,7 +61,7 @@
         <cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.indicating"/>
         <cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.electricitySecondaryMetered"/>
         <cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.current"/>
-        <cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phaseA"/>
+        <cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.A"/>
         <cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.A"/>
     </cim:ReadingType>
 
@@ -73,7 +73,7 @@
         <cim:ReadingType.accumulation rdf:resource="http://iec.ch/TC57/CIM100#AccumulationKind.indicating"/>
         <cim:ReadingType.commodity rdf:resource="http://iec.ch/TC57/CIM100#CommodityKind.electricitySecondaryMetered"/>
         <cim:ReadingType.measurementKind rdf:resource="http://iec.ch/TC57/CIM100#MeasurementKind.voltage"/>
-        <cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.phaseA"/>
+        <cim:ReadingType.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.A"/>
         <cim:ReadingType.unit rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.V"/>
     </cim:ReadingType>
 
