@@ -154,7 +154,10 @@
         ],
         "nc:Feeder.CapacitySchedule": [
           {
-            "nc:IdentifiedObject.name": [
+            "@id": "urn:uuid:4dcec4a7-b68f-4dd3-a622-abac43cadf03",
+            "@type": "nc:CapacitySchedule",
+            "cim:IdentifiedObject.mRID": "4dcec4a7-b68f-4dd3-a622-abac43cadf03",
+            "cim:IdentifiedObject.name": [
               {
                 "@value": "Sandefjord, increased capacity for business and industry",
                 "@language": "en"
@@ -164,7 +167,7 @@
                 "@language": "no"
               }
             ],
-            "nc:IdentifiedObject.description": [
+            "cim:IdentifiedObject.description": [
               {
                 "@value": "There is currently little capacity for new business and industry along the E18 in Sandefjord. Increased demand for capacity therefore creates a need for increased transformer capacity in the area. Available capacity and timing will depend on demand and are not fixed.",
                 "@language": "en"
@@ -194,6 +197,8 @@
             ],
             "nc:CapacitySchedule.CapacityTimePoint": [
               {
+                "@id": "urn:uuid:2b7afd23-409c-4988-9d28-bb84035a8067",
+                "@type": "nc:CapacityTimePoint",
                 "nc:CapacityTimePoint.atTime": "2028-01-01T23:00:00.000Z",
                 "nc:CapacityTimePoint.maxP": {
                   "cim:ActivePower.value": 40.0
