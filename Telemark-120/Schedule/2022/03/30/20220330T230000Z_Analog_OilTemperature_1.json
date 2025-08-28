@@ -24,7 +24,7 @@
             "measurementType": "OilTemperature",
             "phases": "http://iec.ch/TC57/CIM100#PhaseCode.none",
             "unitMultiplier": "http://iec.ch/TC57/CIM100#UnitMultiplier.none",
-            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.Deg",
+            "unitSymbol": "http://iec.ch/TC57/CIM100#UnitSymbol.deg",
             "Asset": {
                 "mRID": "6b7f7604-9f3e-479e-889f-f5d3d8ca60a1"
             },

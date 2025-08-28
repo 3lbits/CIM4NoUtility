@@ -247,7 +247,7 @@
                 "@id": "cim:UnitMultiplier.M"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "cim:UnitSymbol.VAR"
+                "@id": "cim:UnitSymbol.VAr"
             }
         },
         {
@@ -287,7 +287,7 @@
                 "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "cim:UnitSymbol.Deg"
+                "@id": "cim:UnitSymbol.deg"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:6b7f7604-9f3e-479e-889f-f5d3d8ca60a1"

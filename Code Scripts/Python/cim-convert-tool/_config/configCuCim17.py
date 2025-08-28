@@ -10,7 +10,7 @@ configCuCim17 = \
                 'cim:IdentifiedObject.description': {'type': 'string', 'list': False},
                 'cim:IdentifiedObject.name': {'type': 'string', 'list': False},
                 # 'cim:IdentifiedObject.shortName': {'type': 'string', 'list': False},
-                'cim:UsagePoint.chekBilling': {'type': 'bool', 'list': False},
+                'cim:UsagePoint.checkBilling': {'type': 'bool', 'list': False},
                 'cim:UsagePoint.connectionCategory': {'type': 'string', 'list': False},
                 'cim:UsagePoint.disconnectionMethod': {'type': 'string', 'list': False},
                 'cim:UsagePoint.estimatedLoad': {'type': 'float', 'list': False},

@@ -138,7 +138,7 @@
         <cim:Measurement.measurementType>ThreePhaseReactivePower</cim:Measurement.measurementType>
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M" />
-        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.VAR" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.VAr" />
         <cim:Analog.maxValue>30</cim:Analog.maxValue>
         <cim:Analog.minValue>-30</cim:Analog.minValue>
         <cim:Analog.normalValue>15</cim:Analog.normalValue>
@@ -168,7 +168,7 @@
         <cim:Measurement.measurementType>OilTemperature</cim:Measurement.measurementType>
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.none" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
-        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.Deg" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.deg" />
         <cim:Analog.maxValue>140</cim:Analog.maxValue>
         <cim:Analog.minValue>-40</cim:Analog.minValue>
         <cim:Analog.normalValue>50</cim:Analog.normalValue>

@@ -3,7 +3,7 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "cim": "https://cim.ucaiug.io/ns#",
         "eu": "https://cim.ucaiug.io/ns/eu#",
-        "nc": "http://entsoe.eu/ns/nc#",
+        "nc": "https://cim4.eu/ns/nc#",
         "dcterms": "http://purl.org/dc/terms/",
         "dcat": "http://www.w3.org/ns/dcat#",
         "prov": "http://www.w3.org/ns/prov#",

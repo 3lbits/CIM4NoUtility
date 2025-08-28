@@ -70,7 +70,7 @@
             "cim:IdentifiedObject.mRID": "106944d1-3139-41a8-a972-5bf8be1a1c5b",
             "cim:IdentifiedObject.description": "Nedenes 400 Volt PowerTransformer Load UsagePoint 14",
             "cim:IdentifiedObject.name": "NEDENES 04 SS1 UP014",
-            "cim:UsagePoint.chekBilling": false,
+            "cim:UsagePoint.checkBilling": false,
             "cim:UsagePoint.connectionCategory": "LowVoltage",
             "cim:UsagePoint.disconnectionMethod": null,
             "cim:UsagePoint.estimatedLoad": null,
