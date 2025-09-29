@@ -2817,15 +2817,6 @@
             }
         },
         {
-            "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f",
-            "@type": "cim:Substation",
-            "cim:IdentifiedObject.mRID": "f1769670-9aeb-11e5-91da-b8763fd99c5f",
-            "cim:IdentifiedObject.name": "ARENDAL",
-            "cim:Substation.Region": {
-                "@id": "urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f"
-            }
-        },
-        {
             "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191",
             "@type": "cim:Substation",
             "cim:IdentifiedObject.mRID": "681a2179-5a55-11eb-a658-74e5f963e191",

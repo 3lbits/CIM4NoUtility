@@ -463,7 +463,7 @@
         },
         {
             "@id": "urn:uuid:81f3131f-baed-442d-bf7a-3606832fc3e0",
-            "@type": "cim:Fuse",
+            "@type": "cim:Breaker",
             "cim:Equipment.inService": true,
             "cim:Switch.locked": false,
             "cim:Switch.open": true
