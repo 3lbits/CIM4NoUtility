@@ -30,7 +30,7 @@
         <cim:Analog.normalValue>270</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
         <cim:Measurement.Asset rdf:resource="#_3344a693-6818-4703-93ac-510baac566d5" />
-        <cim:Measurement.PowerSystemResource rdf:resource="#_26d2f8aa-b651-46c5-a54d-05948f35f3d2" />
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
 
@@ -47,7 +47,7 @@
         <cim:Analog.normalValue>270</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
         <cim:Measurement.Asset rdf:resource="#_3344a693-6818-4703-93ac-510baac566d5" />
-        <cim:Measurement.PowerSystemResource rdf:resource="#_0f3b6200-684d-4365-8d55-45baae73bffb" />
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" /> 
     </cim:Analog>
 
@@ -64,7 +64,7 @@
         <cim:Analog.normalValue>270</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>false</cim:Analog.positiveFlowIn>
         <cim:Measurement.Asset rdf:resource="#_3344a693-6818-4703-93ac-510baac566d5" />
-        <cim:Measurement.PowerSystemResource rdf:resource="#_cfb857c9-3ac2-4ea8-bcdb-1e50bd15f541" />
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
 
@@ -80,7 +80,7 @@
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>22</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
-        <cim:Measurement.PowerSystemResource rdf:resource="#_fd11bf7f-138b-4a1b-802c-25262b7b8672" />
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
 
@@ -96,7 +96,7 @@
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>22</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
-        <cim:Measurement.PowerSystemResource rdf:resource="#_03f7a245-aeca-48ba-af07-58419fb9b77c" />
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
 
@@ -112,7 +112,7 @@
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>22</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_ff20c614-4797-471e-98c6-c08f7ed97ce6" />
-        <cim:Measurement.PowerSystemResource rdf:resource="#_74936f6f-296e-44db-b772-1d522f317069" />
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
 
@@ -128,6 +128,7 @@
         <cim:Analog.minValue>-35</cim:Analog.minValue>
         <cim:Analog.normalValue>20</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>true</cim:Analog.positiveFlowIn>
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
     
@@ -143,6 +144,7 @@
         <cim:Analog.minValue>-30</cim:Analog.minValue>
         <cim:Analog.normalValue>15</cim:Analog.normalValue>
         <cim:Analog.positiveFlowIn>true</cim:Analog.positiveFlowIn>
+        <cim:Measurement.PowerSystemResource rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
         <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
     </cim:Analog>
     
@@ -158,7 +160,7 @@
         <cim:Analog.minValue>0</cim:Analog.minValue>
         <cim:Analog.normalValue>4</cim:Analog.normalValue>
         <cim:Measurement.PowerSystemResource rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
-        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+        <!--<cim:Measurement.ACDCTerminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191" />-->
     </cim:Analog>
 
     <cim:Analog rdf:ID="_03f01d8e-c6ca-4815-a0a5-0a4a57abbb02">
@@ -174,7 +176,7 @@
         <cim:Analog.normalValue>50</cim:Analog.normalValue>
         <cim:Measurement.Asset rdf:resource="#_6b7f7604-9f3e-479e-889f-f5d3d8ca60a1" />
         <cim:Measurement.PowerSystemResource rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
-        <cim:Measurement.ACDCTerminal rdf:resource="#_83bf6035-97b6-4433-b5f9-bb455444a983" />
+        <cim:Measurement.ACDCTerminal rdf:resource="#_92d33bf1-7034-11eb-a65a-74e5f963e191" />
     </cim:Analog>
 
     <cim:AnalogValue rdf:ID="_b7962aac-9280-46ce-92a2-459880fcb6c8">

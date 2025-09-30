@@ -97,6 +97,10 @@ image::../diagrams/images/Measurement-modeling-example-AssetInfo.png[title= Mode
 |===
 --
 
+== Measurement
+Note that OilTemperature is not a valid value of Measurement.measurementType for Analogs according to CGMES constraint C:452:OP:Measurement.measurementType:analogValues
+"For Analog, Measurement.measurementType is restricted to the following valid values: ThreePhasePower, ThreePhaseActivePower, ThreePhaseReactivePower, LineCurrent, PhaseVoltage, Voltage, Angle, Frequency and TapPosition.". This may be considered an extension.
+
 
 === Future plans for Measurement: 
 
