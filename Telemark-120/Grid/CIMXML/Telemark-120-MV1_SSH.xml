@@ -516,6 +516,12 @@
         <cim:RegulatingControl.targetValue>22</cim:RegulatingControl.targetValue>
         <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
     </cim:RegulatingControl>
+
+    <cim:StationSupply rdf:about="#_0506353c-8adf-4f48-999f-bb1975c03467">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>0.0002</cim:EnergyConsumer.q>
+    </cim:StationSupply>    
  
     <cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
         <cim:Equipment.inService>true</cim:Equipment.inService>
