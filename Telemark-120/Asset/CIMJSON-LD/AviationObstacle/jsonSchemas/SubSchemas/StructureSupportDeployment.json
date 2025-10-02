@@ -1,0 +1,97 @@
+{
+    "type": "object",
+    "required": [
+        "@id",
+        "@type",
+        "cim:IdentifiedObject.mRID",
+        "cim:AssetDeployment.deploymentState",
+        "cim:AssetDeployment.BaseVoltage",
+        "nc-no:StructureSupportDeployment.StructureSupport"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "@id": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+            "message": {
+                "pattern": "String does not validate against format 'uuid'."
+            }
+        },
+        "@type": {
+            "type": "string",
+            "format": "uri",
+            "enum": [
+                "nc-no:StructureSupportDeployment"
+            ]
+        },
+        "cim:IdentifiedObject.mRID": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "cim:IdentifiedObject.description": {
+            "type": "string"
+        },
+        "cim:IdentifiedObject.name": {
+            "type": "string"
+        },
+        "cim:AssetDeployment.deploymentState": {
+            "type": "object",
+            "required": [
+                "@id"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [
+                        "nc-no:DeploymentStateKind.notYetInstalled",
+                        "nc-no:DeploymentStateKind.installed",
+                        "nc-no:DeploymentStateKind.inService",
+                        "nc-no:DeploymentStateKind.outOfService",
+                        "nc-no:DeploymentStateKind.removed",
+                        "nc-no:DeploymentStateKind.notYetRemoved"
+                    ]
+                }
+            }
+        },
+        "cim:AssetDeployment.BaseVoltage": {
+            "type": "object",
+            "required": [
+                "@id"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                    "enum": [
+                        "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+                    ],
+                    "message": {
+                        "pattern": "String does not validate against format 'uuid'."
+                    }
+                }
+            }
+        },
+        "nc-no:StructureSupportDeployment.StructureSupport": {
+            "type": "object",
+            "required": [
+                "@id"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$"
+                },
+                "message": {
+                    "pattern": "String does not validate against format 'uuid'."
+                }
+            }
+        }
+    }
+}

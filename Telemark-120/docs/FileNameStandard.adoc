@@ -26,6 +26,7 @@ Telemark-120-<MAS>_<profile>
 |MeasurementValueSource_RD |Measurement Value Source Reference Data
 |AC |Asset Catalog Profile
 |AS | Assets Profile
+|AO |Aviation Obstacle profil
 |===
 --
 

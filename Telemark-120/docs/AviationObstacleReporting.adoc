@@ -1,0 +1,829 @@
+= Avition Obstacle (AO) reporting
+:sectnums:
+
+To support Norwegian utilities in reporting aviation obstacles according to national regulations the CIM was extended. Extensions have been made with respect to ongoing CIM model development efforts within the CIM working groups and ENTSO-E.
+For CIM compliant NRL reporting, Norwegian utilities are encouraged to utilise the AO profile.
+
+Norwegian extensions to the CIM use the "nc-no" namespace. This is to indicate that the Norwegian extensions use the standard CIM with NC (Network Codes) extensions as a basis. 
+
+== AO profile namespaces and profile URI
+
+=== Profile URI
+https://ap-no.cim4.eu/AviationObstacle/1.0
+
+=== Namespaces
+- nc-no: http://cim4.eu/ns/nc-no#
+- nc: https://cim4.eu/ns/nc#
+- cim: https://cim.ucaiug.io/ns#
+
+
+== AO Profile overview
+An overview of the associations, classes and extensions in the AO profile can be found in the below diagrams:
+
+image::..\diagrams\images\ExtAviationObstacle_050924.png[]
+image::..\diagrams\images\ExtStructure_251024.png[]
+
+
+== Extensions
+The below sections provide detailed descriptions of the new and extended classes that were created for the AO profile.
+The attribute details follow the convention:
+
+- attribute name: data type, attribute description.
+
+:sectnums!:
+
+=== ACLineSegmentSpan
+New class.
+
+*Description:*
+The part of a segment line between two consecutive points of support.
+
+*Reflections:*
+One could argue that the ACLineSegmentSpan class is excessive as a line span is defined by the poles/structures supporting the line and hence could be deduced from information about the structures. Attributes such as ACLineSegmentSpan.AviationObastcleMarkingKind could then have been replaced by asset instances for each marker. However, it was decided that a separate class should be created for practical purposes as the utilities are interested in a lot of information related to the spans which require the spans themselves to be identifiable.
+
+*Attributes*
+
+- aviationObstacleLightingKind: LineLightingKind, Kind of lighting on the span.
+- aviationObstacleMarkingKind: LineMarkingKind, Kind of marking on the span.
+- maxHeight: Length
+- maxWidth: Length
+- spanWireLength: Lenght, Normal length of the wire in the span.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+|[0..+++*+++] 
+|ACLineSegmentSpan
+|[0..+++*+++]
+|ACLineSegment
+|===
+
+=== LineLightingKind
+New enumeration.
+
+*Attributes:*
+
+- lit
+- mediumIntensityTypeA
+- mediumIntensityTypeB
+- mediumIntensityTypeC
+- none 
+- lowIntensityTypeA
+- lowIntensityTypeB
+- highIntensityTypeA
+- highIntensityTypeB
+
+=== LineMarkingKind
+New enumeration.
+
+*Attributes:*
+
+- colourMarking
+- marker
+- none
+
+=== ExtAssetDeployment
+Extension of AssetDeployment. AssetDeployment.deploymentDate was deprecated and replaced by all the attributes of DeploymentDate to remove the use of compund. DeploymentStateKind was updated.
+
+*Description:*
+Deployment of asset deployment in a power system resource role.
+
+*New/updated attributes:*
+
+- deploymentState: DeploymentStateKind, Current deployment state of asset. 
+- inServiceDate: DateTime, Date and time asset was most recently put in service.
+- installedDate: DateTime, Date and time asset was most recently installed.
+- notYetInstalledDate: DateTime, Date and time of asset deployment transition to not yet installed.
+- notYetRemovedDate: DateTime, Date and time of asset deployment transition to not yet removed.
+- outOfServiceDate: DateTime, Date and time asset was most recently taken out of service.
+- removedDate: DateTime, Date and time asset was most recently removed.
+
+=== DeploymentStateKind
+Extension of DeploymentStateKind.
+
+*Description:*
+Possible states of asset deployment.
+
+*New attributes:*
+
+- notYetRemoved
+
+=== ACLineSegmentSpanDeployment
+New class, inherits from AssetDeployment. 
+
+*Description:* 
+Deployment of an ACLineSegmentSpan.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+
+|[0..1] 
+|ACLineSegmentSpanDeployment
+|[0..1]
+|ACLineSegmentSpan
+
+|===
+
+=== ACLineSegmentDeployment
+New class, inherits from AssetDeployment. 
+
+*Description:* 
+Deployment of an ACLineSegment.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+
+|[0..1] 
+|ACLineSegmentDeployment
+|[0..1]
+|ACLineSegment
+
+|===
+
+=== LineDeployment
+New class, inherits from AssetDeployment. 
+
+*Description:* 
+Deployment of a Line.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+
+|[0..1] 
+|LineDeployment
+|[0..1]
+|Line
+
+|===
+
+=== ExtPowerSystemResource
+Extension of PowerSystemResource.
+
+*Description:*
+A power system resource (PSR) can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated.
+
+*New attributes:*
+
+- locationMethod: LocationMethodKind, Method used to derive geographical location for this power system resource.
+
+=== ElementResource
+New class, inherits from IdentifiedObject.
+
+*Descritpion:*
+An element of an asset that has no electrical characteristic. 
+
+=== LocationResource
+New class, inherits from ElementResource.
+
+*Description:*
+A spatial entity. LocationResource serves a similar purpose as PowerSystemResource but for non-electrical entites of interest to electrical utilities.
+
+*Attributes:*
+
+- locationMethod: LocationMethodKind, Method used to derive geographical location for this entity.
+
+=== LocationMethodKind
+New enumeration.
+
+*Description:* 
+Possible methods to derive geographical location.
+
+*Attributes:*
+
+- measured: , geospatial information is measured according to a given standard.
+- calculated: , geospatial information is calculated based on regular scannings by plane photograph.
+- estimated: , geospatial information is estimated based on other measured or calculated values.
+- manual: , geospatial information is entered manually based on looking at maps and other sources.
+
+=== Zone
+Repurposed the informative Zone class, inherits from LocationResource.
+
+*Description:*
+Area divided off from other areas. It may be part of the electrical network, a land area where special restrictions apply, weather areas, etc. For weather, it is an area where a set of relatively homogenous weather measurements apply.
+
+*Attributes:*
+
+- state: ZoneStateKind, Current state of zone.
+- zoneKind: ZoneKind, Kind of zone.
+
+=== ZoneKind
+Extended the informative ZoneKind class.
+
+*Description:*
+Kind of zone.
+
+*Attributes:*
+
+- electricalNetwork
+- other
+- specialRestrictionLand
+- weatherZone
+- substation
+
+=== ZoneStateKind
+New enumeration.
+
+*Description:*
+Current state of zone.
+
+*Attributes:*
+
+- registered
+- notYetRegistered
+- removed
+- notYetRemoved
+
+=== Structure
+Repurposed the Structure class, changed inheritance to LocationResource.
+
+*Description:* Construction holding assets such as conductors, transformers, switchgear, etc. 
+
+*Attributes:*
+
+- height: Length, Visible height of structure above ground level for overhead construction (e.g., Pole or Tower) or below ground level for an underground vault, manhole, etc. 
+
+=== UndergroundStructure
+New class, inherits from Structure.
+
+*Description:*
+Underground structure.
+
+=== MaritimeStructure
+New class, inherits from Structure.
+
+*Description:*
+Maritime structure.
+
+=== OverheadStructure
+New class, inherits from Structure.
+
+*Description:* 
+An overhead structure is an element of an electric transmission or distribution system that supports the overhead conductors and associated equipment used for the transmission of electricity.
+
+**Attributes**
+
+- aviationObstacleLightingKind: LineLightingKind, Kind of lighting on the structure.
+- aviationObstacleMarkingKind: LineMarkingKind, kind of marking on the structure.
+- height: Length, The length from ground at the centerpoint of the structure to the highest point of the structure. 
+- maxHeight: Length, The length of the longest distance from the ground to the highest point on the structure. If f.ex. the structure is located in a steep slope, the distance from the top of the structure to the ground may vary.
+
+
+=== Pole
+Repurposed the informative Pole class, inherits from OverheadStructure.
+
+*Description:*
+Pole asset.
+
+=== Tower
+Repurposed the informative Tower class, inherits from OverheadStructure.
+
+*Description:*
+Tower asset.
+
+=== StructureSupport
+Repurposed the StructureSupport class, changed inheritance to LocationResource.
+
+*Description:*
+Support for structure assets.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+
+|[0..1] 
+|StructureSupportDeployment
+|[0..1]
+|StructureSupport
+
+|===
+
+=== Guy
+New class, inherits from StructureSupport.
+
+*Description:*
+Guy wire.
+
+**Attributes**
+
+- aviationObstacleLightingKind: LineLightingKind, Kind of lighting on the structure.
+- aviationObstacleMarkingKind: LineMarkingKind, kind of marking on the structure.
+- length: Length, Length of the guy wire.
+- maxHeight: Length, Describes the maximum elevation, which is the highest distance from the ground when the guy wire has a raised point from the ground.
+- maxWidth: Length, The maximum width of guy wire that is connected to a structure in both ends.
+
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+
+|[0..+++*+++] 
+|Guy
+|[0..1]
+|OverheadStructure
+
+|===
+
+=== StructureDeployment
+New class, inherits from AssetDeployment.
+
+*Description:*
+Deployment of a structure.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+|Multiplicity from |From |Multiplicity to |To 
+
+|[0..1] 
+|StructureDeployment
+|[0..1]
+|Structure
+
+|===
+
+
+=== StructureSupportDeployment
+New class, inherits from AssetDeployment.
+
+*Description:*
+Deployment of a structure support.
+
+*Associations:*
+[cols="1,1,1,1"]
+|===
+
+|Multiplicity from |From |Multiplicity to |To 
+|[0..1] 
+|StructureSupportDeployment
+|[0..1]
+|StructureSupport
+
+|===
+
+:sectnums:
+
+== Kartverket to AO Mapping 
+For NRL (Norwegian National register of aviation obstacle) reporting.
+
+:sectnums!:
+
+=== Line support (no: "Mast")
+[cols="1,1,1"]
+|===
+|Kartverket |AO profile | Note
+
+|NrlMast.status.eksisterende 
+|nc-no:StructureDeployment.deploymentState.DeploymentStatekind.installed 
+|StructureDeployment must be associated to an OverheadStructure
+
+|NrlMast.status.fjernet 
+|nc-no:StructureDeployment.deploymentState.DeploymentStatekind.removed
+|Same as above
+
+|NrlMast.status.planlagtFjernet 
+|nc-no:StructureDeployment.deploymentState.DeploymentStatekind.notYetRemoved  
+|Same as above
+
+|NrlMast.status.planlagtOppført 
+|nc-no:StructureDeployment.deploymentState.DeploymentStatekind.notYetInstalled  
+|Same as above
+
+|NrlMast.komponentident
+|nc-no:OverheadStructure.mRID
+|Should be a UUID4
+
+|NrlMast.referanse.komponentkodeverdi
+|cim:Name.name
+|Name should be associated to an OverheadStructure and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#referanse.komponentkodeverdi["referanse.komponentkodeverdi"] on the use of the Name class.
+
+|NrlMast.navn
+|nc-no:OverheadStructure.name
+|
+
+|NrlMast.vertikalAvstand
+|nc-no:OverheadStructure.maxHeight
+|If registered height is the height of "mastens senterhøyde", OverheadStructure.height should be used instead. 
+
+|NrlMast.verifisertRapporteringsnøyaktighet.20230101_5-1
+|nc-no:OverheadStructure.locationMethod.LocationMethodKind.measured
+|
+
+|NrlMast.verifisertRapporteringsnøyaktighet.0
+|nc-no:OverheadStructure.locationMethod.LocationMethodKind.calculated or +
+nc-no:OverheadStructure.locationMethod.LocationMethodKind.estimated or +
+nc-no:OverheadStructure.locationMethod.LocationMethodKind.manual
+|
+
+|NrlMast.høydereferanse.fot
+|cim:Name.name
+|Name should be associated to an OverheadStructure and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlMast.høydereferanse.topp
+|cim:Name.name
+|Name should be associated to an OverheadStructure and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlMast.posisjon
+|geo:hasGeometry
+|See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
+
+|NrlMast.mastType.høgspentmast
+|cim:BaseVoltage.nominalVoltage
+|If the value of nominal voltage is &gt;1kV. BaseVoltage should be associated to a StructureDeployment and StructureDeployment should be associated to an OverheadStructure.
+
+|NrlMast.mastType.lavspentmast
+|cim:BaseVoltage.nominalVoltage
+|If the value of nominal voltage is &lt;=1kV. BaseVoltage should be associated to a StructureDeployment and StructureDeployment should be associated to an OverheadStructure.
+
+|NrlMast.luftfartshindermerking.fargemerking
+|nc-no:OverheadStructure.aviationObstacleMarkingKind.AviationObstacleMarkingKind.colourMarking
+|
+
+|NrlMast.luftfartshindermerking.markør
+|nc-no:OverheadStructure.aviationObstacleMarkingKind.AviationObstacleMarkingKind.marker
+|
+
+|NrlMast.luftfartshinderlyssetting.høyintensitetTypeA
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeA
+|
+
+|NrlMast.luftfartshinderlyssetting.høyintensitetTypeB
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeB
+|
+
+|NrlMast.luftfartshinderlyssetting.lavintensitetTypeA
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeA
+|
+
+|NrlMast.luftfartshinderlyssetting.lavintensitetTypeB
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeB
+|
+
+|NrlMast.luftfartshinderlyssetting.lyssatt
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.lit
+|
+
+|NrlMast.luftfartshinderlyssetting.mellomintensitetTypeA
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeA
+|
+
+|NrlMast.luftfartshinderlyssetting.mellomintensitetTypeB
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeB
+|
+
+|NrlMast.luftfartshinderlyssetting.mellomintensitetTypeC
+|nc-no:OverheadStructure.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeC
+|
+
+|===
+
+
+=== Line span (no: "Luftspenn")
+[cols="1,1,1"]
+|===
+|Kartverket |AO profile | Note
+
+|NrlLuftspenn.status.eksisterende 
+|nc-no:ACLineSegmentSpanDeployment.deploymentState.DeploymentStatekind.installed 
+|StructureDeployment must be associated to an ACLineSegmentSpan
+
+|NrlLuftspenn.status.fjernet 
+|nc-no:ACLineSegmentSpanDeployment.deploymentState.DeploymentStatekind.removed
+|Same as above
+
+|NrlLuftspenn.status.planlagtFjernet 
+|nc-no:ACLineSegmentSpanDeployment.deploymentState.DeploymentStatekind.notYetRemoved  
+|Same as above
+
+|NrlLuftspenn.status.planlagtOppført 
+|nc-no:ACLineSegmentSpanDeployment.deploymentState.DeploymentStatekind.notYetInstalled  
+|Same as above
+
+|NrlLuftspenn.komponentident
+|nc-no:ACLineSegmentSpan.mRID
+|Should be a UUID4
+
+|NrlLuftspenn.referanse.komponentkodeverdi
+|cim:Name.name
+|Name should be associated to an ACLineSegmentSpan and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#referanse.komponentkodeverdi["referanse.komponentkodeverdi"] on the use of the Name class.
+
+|NrlLuftspenn.navn
+|nc-no:ACLineSegmentSpan.name
+|
+
+|NrlLuftspenn.vertikalAvstand
+|nc-no:ACLineSegmentSpan.maxHeight
+|
+
+|NrlLuftspenn.anleggsbredde
+|ACLineSegmentSpan.maxWidth
+|
+
+|NrlLuftspenn.verifisertRapporteringsnøyaktighet.20230101_5-1
+|nc-no:ACLineSegmentSpan.locationMethod.LocationMethodKind.measured
+|
+
+|NrlLuftspenn.verifisertRapporteringsnøyaktighet.0
+|nc-no:ACLineSegmentSpan.locationMethod.LocationMethodKind.calculated or +
+nc-no:ACLineSegmentSpan.locationMethod.LocationMethodKind.estimated or +
+nc-no:ACLineSegmentSpan.locationMethod.LocationMethodKind.manual
+|
+
+|NrlLuftspenn.høydereferanse.fot
+|cim:Name.name
+|Name should be associated to an ACLineSegmentSpan and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlLuftspenn.høydereferanse.topp
+|cim:Name.name
+|Name should be associated to an ACLineSegmentSpan and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlLuftspenn.beliggenhet
+|geo:hasGeometry
+|See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
+
+|NrlLuftspenn.luftspennType.høgspent
+|cim:BaseVoltage.nominalVoltage
+|If the value of nominal voltage is &gt;1kV. BaseVoltage should be associated to a ACLineSegmentSpanDeployment and ACLineSegmentSpanDeployment should be associated to an ACLineSegmentSpan.
+
+|NrlLuftspenn.luftspennType.lavspent
+|cim:BaseVoltage.nominalVoltage
+|If the value of nominal voltage is &lt;=1kV. BaseVoltage should be associated to a ACLineSegmentSpanDeployment and ACLineSegmentSpanDeployment should be associated to an ACLineSegmentSpan.
+
+|NrlLuftspenn.luftfartshindermerking.fargemerking
+|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.AviationObstacleMarkingKind.colourMarking
+|
+
+|NrlLuftspenn.luftfartshindermerking.markør
+|nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind.AviationObstacleMarkingKind.marker
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeA
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeB
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeA
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeB
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lyssatt
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.lit
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeA
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeB
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeC
+|nc-no:ACLineSegmentSpan.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeC
+|
+
+|===
+
+=== Zone (no: "Flate")
+[cols="1,1,1"]
+|===
+|Kartverket |AO profile | Note
+
+|NrlFlate.status.eksisterende 
+|nc-no:Zone.state.ZoneStatekind.registered
+|
+
+|NrlFlate.status.fjernet 
+|nc-no:Zone.state.ZoneStatekind.removed
+|
+
+|NrlFlate.status.planlagtFjernet 
+|nc-no:Zone.state.ZoneStatekind.notYetRemoved  
+|
+
+|NrlFlate.status.planlagtOppført 
+|nc-no:Zone.state.ZoneStatekind.notYetRegistered 
+|
+
+|NrlFlate.komponentident
+|nc-no:Zone.mRID
+|Should be a UUID4
+
+|NrlFlate.referanse.komponentkodeverdi
+|cim:Name.name
+|Name should be associated to a Zone and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#referanse.komponentkodeverdi["referanse.komponentkodeverdi"]  on the use of the Name class.
+
+|NrlFlate.navn
+|nc-no:Zone.name
+|
+
+|NrlFlate.verifisertRapporteringsnøyaktighet.20230101_5-1
+|nc-no:Zone.locationMethod.LocationMethodKind.measured
+|
+
+|NrlFlate.verifisertRapporteringsnøyaktighet.0
+|nc-no:Zone.locationMethod.LocationMethodKind.calculated or +
+nc-no:Zone.locationMethod.LocationMethodKind.estimated or +
+nc-no:Zone.locationMethod.LocationMethodKind.manual
+|
+
+|NrlFlate.flateType.kontaktledning
+|Zone.zoneKind.ZoneKind.electricalNetwork
+|
+
+|NrlFlate.flateType.trafostasjon
+|Zone.zoneKind.ZoneKind.substation
+|
+
+|NrlFlate.høydereferanse.fot
+|cim:Name.name
+|Name should be associated to a Zone and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlFlate.høydereferanse.topp
+|cim:Name.name
+|Name should be associated to a Zone and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlFlate.område
+|geo:hasGeometry
+|See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
+
+|===
+
+=== Guy (no: "Bardunline")
+[cols="1,1,1"]
+|===
+|Kartverket |AO profile | Note
+
+|NrlLuftspenn.status.eksisterende 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.installed 
+|StructureSupportDeployment must be associated to a Guy
+
+|NrlLuftspenn.status.fjernet 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.removed
+|Same as above
+
+|NrlLuftspenn.status.planlagtFjernet 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.notYetRemoved  
+|Same as above
+
+|NrlLuftspenn.status.planlagtOppført 
+|nc-no:StructureSupportDeployment.deploymentState.DeploymentStatekind.notYetInstalled  
+|Same as above
+
+|NrlLuftspenn.komponentident
+|nc-no:Guy.mRID
+|Should be a UUID4
+
+|NrlLuftspenn.referanse.komponentkodeverdi
+|cim:Name.name
+|Name should be associated to a Guy and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#referanse.komponentkodeverdi["referanse.komponentkodeverdi"] on the use of the Name class.
+
+|NrlLuftspenn.navn
+|nc-no:Guy.name
+|
+
+|NrlLuftspenn.vertikalAvstand
+|nc-no:Guy.maxHight
+|
+
+|NrlLuftspenn.anleggsbredde
+|nc-no:Guy.maxWidth
+|
+
+|NrlLuftspenn.verifisertRapporteringsnøyaktighet.20230101_5-1
+|nc-no:Guy.locationMethod.LocationMethodKind.measured
+|
+
+|NrlLuftspenn.verifisertRapporteringsnøyaktighet.0
+|nc-no:Guy.locationMethod.LocationMethodKind.calculated or +
+nc-no:Guy.locationMethod.LocationMethodKind.estimated or +
+nc-no:Guy.locationMethod.LocationMethodKind.manual
+|
+
+|NrlLuftspenn.høydereferanse.fot
+|cim:Name.name
+|Name should be associated to an Guy and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlLuftspenn.høydereferanse.topp
+|cim:Name.name
+|Name should be associated to an Guy and a NameType. NameType should be associated to a NameTypeAuthority. See section xref:AviationObstacleReporting.adoc#høydereferanse["høydereferanse"] on the use of the Name class.
+
+|NrlLuftspenn.beliggenhet
+|geo:hasGeometry
+|See the xref:..\Asset\CIMJSON-LD\NRL\DIGIN10-30_NRL.jsonld[] example for how to use this GeoSPARQL property.
+
+|NrlLuftspenn.luftspennType.Bardun
+|cim:Guy
+|The type is given by the instantiation of a Guy class.
+
+|NrlLuftspenn.luftfartshindermerking.fargemerking
+|nc-no:Guy.aviationObstacleMarkingKind.AviationObstacleMarkingKind.colourMarking
+|
+
+|NrlLuftspenn.luftfartshindermerking.markør
+|nc-no:Guy.aviationObstacleMarkingKind.AviationObstacleMarkingKind.marker
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeA
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.høyintensitetTypeB
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.highIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeA
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lavintensitetTypeB
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.lowIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.lyssatt
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.lit
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeA
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeA
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeB
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeB
+|
+
+|NrlLuftspenn.luftfartshinderlyssetting.mellomintensitetTypeC
+|nc-no:Guy.aviationObstacleLightingKind.AviationObstacleLightingKind.mediumIntensityTypeC
+|
+
+|===
+
+:sectnums:
+=== Naming convensions for Name, NameType and NameTypeAuthority in NRL reporting
+Name, NameType and NameTypeAutority should be given an mRID according to the Network Codes (NC) CIM extensions.
+
+==== referanse.komponentkodeverdi
+This optional attribute from Kartverket is used to provide the source system ID for a component. If used: +
+
+===== Attributes
+
+Name.name should be populated with the source system ID. +
+NameType.name should be given the value "sourceId" +
+NameTypeAuthority.name should be given the value "source" +
+
+===== Associations
+
+Name should be associated to the relevant NameType and IdentifiedObject subclass (OverheadStructure, ACLineSegmentSpan, Zone or StructureSupport). +
+NameType should be associated to the relevant NameTypeAuthority.
+
+==== høydereferanse
+This attribute from Kartverket is mandatory if a z-value has been given for the geometry and is used to define a height reference for which end (top or bottom) of the asset the z-coordinate refers to. I
+
+===== Attributes
+
+If høydereferanse.topp: +
+Name.name should be populated with "base"  +
+
+If høydereferanse.fot: +
+Name.name should be populated with "top" +
+
+Note: If these values are not provided it will be assumed that the height reference is "top".
+
+NameType.name should be given the value "heightReference" +
+NameTypeAuthority.name should be given the value "Karverket" +
+
+===== Associations
+
+Name should be associated to the relevant NameType and IdentifiedObject subclass (OverheadStructure, ACLineSegmentSpan, Zone or StructureSupport). +
+NameType should be associated to the relevant NameTypeAuthority.
+
+=== CIMDataType overview and default values
+All CIMDataTypes consist of the following attributes: multiplier (type: UnitMultiplier), unit (type: UnitSymbol) and value (type: float).
+
+- Length: If no unit of measure is specified, m is the default unit.
+- Voltage:  If no unit of measure is specified, kV is the default unit.
+
+=== GeoSPARQL
+https://docs.ogc.org/is/22-047r1/22-047r1.html[GeoSPARQL] is the basis for representation of geospatial information in the AO profile. +
+The CIM GL (Geographical Location) profile supports basic geospatial information but it was decided that a domain standard should be master for representation of geometries and harmonized with CIM. +
+GeoSPARQL was selected in order to support semantic tools. +
+
+For the AO profile we use the following GeoSPARQL options:
+
+- asGeoJSON: If you have Coordinate reference system (CRS) WGS84 you can use GeoJSON. Mark, height system is geoide.
+- asGML: Supports several options of CRS, if you want to use f.ex. UTM32 with NN2000 specify CRS EPSG::5972 for a 3D system.

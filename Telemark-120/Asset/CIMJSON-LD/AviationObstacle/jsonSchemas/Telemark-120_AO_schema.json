@@ -1,0 +1,1249 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": [
+        "@context",
+        "@graph"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "@context": {
+            "type": "object",
+            "required": [
+                "rdf",
+                "cim",
+                "eu",
+                "dcterms",
+                "dcat",
+                "prov",
+                "xsd",
+                "nc-no",
+                "geo"
+            ],
+            "additionalProperties": false,
+            "properties": {
+                "rdf": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "cim": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "eu": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "dcterms": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "dcat": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "prov": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "xsd": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "nc-no": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "geo": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            }
+        },
+        "@id": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+            "message": {
+                "pattern": "String does not validate against format 'uuid'."
+            }
+        },
+        "@type": {
+            "type": "string",
+            "format": "uri",
+            "enum": [
+                "dcat:Dataset"
+            ]
+        },
+        "prov:generatedAtTime": {
+            "type": "object",
+            "properties": {
+                "@value": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "@type": {
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [
+                        "xsd:dateTime"
+                    ]
+                }
+            },
+            "required": [
+                "@value",
+                "@type"
+            ]
+        },
+        "dcterms:issued": {
+            "type": "object",
+            "properties": {
+                "@value": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "@type": {
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [
+                        "xsd:date"
+                    ]
+                }
+            },
+            "required": [
+                "@value",
+                "@type"
+            ]
+        },
+        "dcterms:title": {
+            "type": "string"
+        },
+        "dcterms:description": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string"
+                        },
+                        "@language": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "@value",
+                        "@language"
+                    ]
+                }
+            ]
+        },
+        "dcterms:publisher": {
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                    "message": {
+                        "pattern": "String does not validate against format 'uuid'."
+                    }
+                },
+                "dcterms:title": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "@id",
+                "dcterms:title"
+            ]
+        },
+        "dcterms:temporal": {
+            "type": "object",
+            "properties": {
+                "@type": {
+                    "type": "string",
+                    "format": "uri",
+                    "enum": [
+                        "dcterms:PeriodOfTime"
+                    ]
+                },
+                "dcat:startDate": {
+                    "type": "object",
+                    "properties": {
+                        "@value": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "@type": {
+                            "type": "string",
+                            "format": "uri",
+                            "enum": [
+                                "xsd:dateTime"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "@value",
+                        "@type"
+                    ]
+                }
+            },
+            "required": [
+                "@type",
+                "dcat:startDate"
+            ]
+        },
+        "dcterms:rights": {
+            "type": "string"
+        },
+        "dcterms:rightsHolder": {
+            "type": "string"
+        },
+        "dcterms:license": {
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "url"
+                },
+                "dcterms:title": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "@id",
+                "dcterms:title"
+            ]
+        },
+        "dcterms:accessRights": {
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "url"
+                },
+                "dcterms:title": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "@id",
+                "dcterms:title"
+            ]
+        },
+        "dcat:isVersionOf": {
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "url"
+                }
+            },
+            "required": [
+                "@id"
+            ]
+        },
+        "dcat:keyword": {
+            "type": "string"
+        },
+        "dcterms:spatial": {
+            "type": "object",
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "format": "url"
+                }
+            },
+            "required": [
+                "@id"
+            ]
+        },
+        "dcterms:conformsTo": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "@id": {
+                            "type": "string",
+                            "format": "url"
+                        }
+                    },
+                    "required": [
+                        "@id"
+                    ]
+                }
+            ]
+        },
+        "dcterms:references": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "@id": {
+                            "type": "string",
+                            "format": "uri",
+                            "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                            "message": {
+                                "pattern": "String does not validate against format 'uuid'."
+                            }
+                        }
+                    },
+                    "required": [
+                        "@id"
+                    ]
+                }
+            ]
+        },
+        "@graph": {
+            "type": "array",
+            "minItems": 1,
+            "additionalItems": false,
+            "order": false,
+            "items": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "nc-no:PowerSystemResource.locationMethod",
+                            "geo:hasGeometry"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "array",
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
+                                "items": {
+                                    "type": "string",
+                                    "enum": [
+                                        "nc-no:ACLineSegmentSpan",
+                                        "geo:Feature"
+                                    ]
+                                }
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "nc-no:PowerSystemResource.locationMethod": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:locationMethodKind.measured",
+                                            "nc-no:locationMethodKind.estimated",
+                                            "nc-no:locationMethodKind.calculated",
+                                            "nc-no:locationMethodKind.manual",
+                                            "nc-no:locationMethodKind.other"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:ACLineSegmentSpan.aviationObstacleMarkingKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:LineMarkingKind.colourMarking",
+                                            "nc-no:LineMarkingKind.marker",
+                                            "nc-no:LineMarkingKind.none"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:ACLineSegmentSpan.aviationObstacleLightingKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:LineLightingKind.lit",
+                                            "nc-no:LineLightingKind.mediumIntensityTypeA",
+                                            "nc-no:LineLightingKind.mediumIntensityTypeB",
+                                            "nc-no:LineLightingKind.mediumIntensityTypeC",
+                                            "nc-no:LineLightingKind.none",
+                                            "nc-no:LineLightingKind.lowIntensityTypeA",
+                                            "nc-no:LineLightingKind.lowIntensityTypeB",
+                                            "nc-no:LineLightingKind.highIntensityTypeA",
+                                            "nc-no:LineLightingKind.highIntensityTypeB"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:ACLineSegmentSpan.maxWidth": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:ACLineSegmentSpan.maxHeight": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:ACLineSegmentSpan.spanWireLength": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:ACLineSegmentSpan.ACLineSegment": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "required": [
+                                        "@id"
+                                    ],
+                                    "properties": {
+                                        "@id": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        }
+                                    }
+                                }
+                            },
+                            "geo:hasGeometry": {
+                                "type": "object",
+                                "properties": {
+                                    "geo:asWKT": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGeoJSON": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGML": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "cim:AssetDeployment.deploymentState",
+                            "cim:AssetDeployment.BaseVoltage",
+                            "nc-no:ACLineSegmentSpanDeployment.ACLineSegmentSpan"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "string",
+                                "format": "uri",
+                                "enum": [
+                                    "nc-no:ACLineSegmentSpanDeployment"
+                                ]
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "cim:AssetDeployment.deploymentState": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:DeploymentStateKind.notYetInstalled",
+                                            "nc-no:DeploymentStateKind.installed",
+                                            "nc-no:DeploymentStateKind.inService",
+                                            "nc-no:DeploymentStateKind.outOfService",
+                                            "nc-no:DeploymentStateKind.removed",
+                                            "nc-no:DeploymentStateKind.notYetRemoved"
+                                        ]
+                                    }
+                                }
+                            },
+                            "cim:AssetDeployment.BaseVoltage": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                        "enum": [
+                                            "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+                                        ],
+                                        "message": {
+                                            "pattern": "String does not validate against format 'uuid'."
+                                        }
+                                    }
+                                }
+                            },
+                            "nc-no:ACLineSegmentSpanDeployment.ACLineSegmentSpan": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$"
+                                    },
+                                    "message": {
+                                        "pattern": "String does not validate against format 'uuid'."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "nc-no:LocationResource.locationMethod",
+                            "geo:hasGeometry"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "array",
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
+                                "items": {
+                                    "type": "string",
+                                    "enum": [
+                                        "nc-no:OverheadStructure",
+                                        "geo:Feature"
+                                    ]
+                                }
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "nc-no:LocationResource.locationMethod": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:locationMethodKind.measured",
+                                            "nc-no:locationMethodKind.estimated",
+                                            "nc-no:locationMethodKind.calculated",
+                                            "nc-no:locationMethodKind.manual",
+                                            "nc-no:locationMethodKind.other"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:OverheadStructure.aviationObstacleMarkingKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:AviationObstacleMarkingKind.colourMarking",
+                                            "nc-no:AviationObstacleMarkingKind.marker",
+                                            "nc-no:AviationObstacleMarkingKind.none"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:OverheadStructure.aviationObstacleLightingKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:AviationObstacleLightingKind.lit",
+                                            "nc-no:AviationObstacleLightingKind.mediumIntensityTypeA",
+                                            "nc-no:AviationObstacleLightingKind.mediumIntensityTypeB",
+                                            "nc-no:AviationObstacleLightingKind.mediumIntensityTypeC",
+                                            "nc-no:AviationObstacleLightingKind.none",
+                                            "nc-no:AviationObstacleLightingKind.lowIntensityTypeA",
+                                            "nc-no:AviationObstacleLightingKind.lowIntensityTypeB",
+                                            "nc-no:AviationObstacleLightingKind.highIntensityTypeA",
+                                            "nc-no:AviationObstacleLightingKind.highIntensityTypeB"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:OverheadStructure.height": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:OverheadStructure.maxHeight": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "geo:hasGeometry": {
+                                "type": "object",
+                                "properties": {
+                                    "geo:asWKT": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGeoJSON": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGML": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "cim:AssetDeployment.deploymentState",
+                            "cim:AssetDeployment.BaseVoltage",
+                            "nc-no:StructureDeployment.Structure"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "string",
+                                "format": "uri",
+                                "enum": [
+                                    "nc-no:StructureDeployment"
+                                ]
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "cim:AssetDeployment.deploymentState": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:DeploymentStateKind.notYetInstalled",
+                                            "nc-no:DeploymentStateKind.installed",
+                                            "nc-no:DeploymentStateKind.inService",
+                                            "nc-no:DeploymentStateKind.outOfService",
+                                            "nc-no:DeploymentStateKind.removed",
+                                            "nc-no:DeploymentStateKind.notYetRemoved"
+                                        ]
+                                    }
+                                }
+                            },
+                            "cim:AssetDeployment.BaseVoltage": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                        "enum": [
+                                            "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+                                        ],
+                                        "message": {
+                                            "pattern": "String does not validate against format 'uuid'."
+                                        }
+                                    }
+                                }
+                            },
+                            "nc-no:StructureDeployment.Structure": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$"
+                                    },
+                                    "message": {
+                                        "pattern": "String does not validate against format 'uuid'."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "nc-no:LocationResource.locationMethod",
+                            "geo:hasGeometry"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "array",
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
+                                "items": {
+                                    "type": "string",
+                                    "enum": [
+                                        "nc-no:Guy",
+                                        "geo:Feature"
+                                    ]
+                                }
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "nc-no:LocationResource.locationMethod": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:locationMethodKind.measured",
+                                            "nc-no:locationMethodKind.estimated",
+                                            "nc-no:locationMethodKind.calculated",
+                                            "nc-no:locationMethodKind.manual",
+                                            "nc-no:locationMethodKind.other"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:Guy.aviationObstacleMarkingKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:LineMarkingKind.colourMarking",
+                                            "nc-no:LineMarkingKind.marker",
+                                            "nc-no:LineMarkingKind.none"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:Guy.aviationObstacleLightingKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:LineLightingKind.lit",
+                                            "nc-no:LineLightingKind.mediumIntensityTypeA",
+                                            "nc-no:LineLightingKind.mediumIntensityTypeB",
+                                            "nc-no:LineLightingKind.mediumIntensityTypeC",
+                                            "nc-no:LineLightingKind.none",
+                                            "nc-no:LineLightingKind.lowIntensityTypeA",
+                                            "nc-no:LineLightingKind.lowIntensityTypeB",
+                                            "nc-no:LineLightingKind.highIntensityTypeA",
+                                            "nc-no:LineLightingKind.highIntensityTypeB"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:Guy.length": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:Guy.maxHeight": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:Guy.maxWidth": {
+                                "type": "number",
+                                "minimum": 0
+                            },
+                            "nc-no:Guy.OverheadStructure": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "required": [
+                                        "@id"
+                                    ],
+                                    "properties": {
+                                        "@id": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        }
+                                    }
+                                }
+                            },
+                            "geo:hasGeometry": {
+                                "type": "object",
+                                "properties": {
+                                    "geo:asWKT": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGeoJSON": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGML": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "cim:AssetDeployment.deploymentState",
+                            "cim:AssetDeployment.BaseVoltage",
+                            "nc-no:StructureSupportDeployment.StructureSupport"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "string",
+                                "format": "uri",
+                                "enum": [
+                                    "nc-no:StructureSupportDeployment"
+                                ]
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "cim:AssetDeployment.deploymentState": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:DeploymentStateKind.notYetInstalled",
+                                            "nc-no:DeploymentStateKind.installed",
+                                            "nc-no:DeploymentStateKind.inService",
+                                            "nc-no:DeploymentStateKind.outOfService",
+                                            "nc-no:DeploymentStateKind.removed",
+                                            "nc-no:DeploymentStateKind.notYetRemoved"
+                                        ]
+                                    }
+                                }
+                            },
+                            "cim:AssetDeployment.BaseVoltage": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                        "enum": [
+                                            "urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4"
+                                        ],
+                                        "message": {
+                                            "pattern": "String does not validate against format 'uuid'."
+                                        }
+                                    }
+                                }
+                            },
+                            "nc-no:StructureSupportDeployment.StructureSupport": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "additionalProperties": false,
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$"
+                                    },
+                                    "message": {
+                                        "pattern": "String does not validate against format 'uuid'."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "nc-no:Zone.zoneKind",
+                            "nc-no:Zone.state",
+                            "geo:hasGeometry"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "array",
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
+                                "items": {
+                                    "type": "string",
+                                    "enum": [
+                                        "nc-no:Zone",
+                                        "geo:Feature"
+                                    ]
+                                }
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "nc-no:Zone.zoneKind": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:ZoneKind.electricalNetwork",
+                                            "nc-no:ZoneKind.other",
+                                            "nc-no:ZoneKind.specialRestrictionLand",
+                                            "nc-no:ZoneKind.weatherZone",
+                                            "nc-no:ZoneKind.substation"
+                                        ]
+                                    }
+                                }
+                            },
+                            "nc-no:Zone.state": {
+                                "type": "object",
+                                "required": [
+                                    "@id"
+                                ],
+                                "properties": {
+                                    "@id": {
+                                        "type": "string",
+                                        "format": "uri",
+                                        "enum": [
+                                            "nc-no:ZoneStateKind.notYetRegistered",
+                                            "nc-no:ZoneStateKind.registered",
+                                            "nc-no:ZoneStateKind.removed",
+                                            "nc-no:ZoneStateKind.notYetRemoved"
+                                        ]
+                                    }
+                                }
+                            },
+                            "geo:hasGeometry": {
+                                "type": "object",
+                                "properties": {
+                                    "geo:asWKT": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGeoJSON": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "geo:asGML": {
+                                        "type": "object",
+                                        "properties": {
+                                            "@value": {
+                                                "type": "string"
+                                            },
+                                            "@type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "object",
+                        "required": [
+                            "@id",
+                            "@type",
+                            "cim:IdentifiedObject.mRID",
+                            "cim:BaseVoltage.nominalVoltage"
+                        ],
+                        "additionalProperties": false,
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "format": "uri",
+                                "pattern": "^urn:uuid:[0-9a-fA-F]{8}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{4}\\b-[0-9a-fA-F]{12}$",
+                                "message": {
+                                    "pattern": "String does not validate against format 'uuid'."
+                                }
+                            },
+                            "@type": {
+                                "type": "string",
+                                "format": "uri",
+                                "enum": [
+                                    "cim:BaseVoltage"
+                                ]
+                            },
+                            "cim:IdentifiedObject.mRID": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "cim:IdentifiedObject.description": {
+                                "type": "string"
+                            },
+                            "cim:IdentifiedObject.name": {
+                                "type": "string"
+                            },
+                            "cim:BaseVoltage.nominalVoltage": {
+                                "type": "number",
+                                "minimum": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
