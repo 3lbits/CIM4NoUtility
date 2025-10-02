@@ -1,12 +1,12 @@
-# digin-best-practice
+# best-practice
 
-This repository contains best practices for work performed in the digin github organization.
+This repository contains best practices for work performed in the github organization.
 
 ## Contributions
 
 Anyone is welcome to contribute to this repository by opening a pull request with the desired changes with detailed documentation on the changes made. When creating this pull request please follow the branching strategy defined here
 
-# Branching strategy for DIGIN projects
+# Branching strategy for Telemark-120 projects
 
 We fully adapt the git flow methodology, specifically the branch strategy for working on features, bugfixes, releases and hotfixes. For a walkthrough of this git strategy refer to the following site. We have 2 longlasting branches that contain the main code/data, develop and main, which are protected against code pushes into the Github repository. The different naming standards are used to indicate the purpose of a branch, which means that one should be able to identify what is being developed by looking at the branch names. Additions to the default naming standard can be considered on a repository by respository basis as long as the additional branch formats adds value to the development process.
 
@@ -49,7 +49,7 @@ This guide is for administrators on Github which details how to create new repos
 
 Repositories should follow a common naming convention.
 
->**Note**: Make sure to create the repository in the ```digin-energi``` organization.
+>**Note**: Make sure to create the repository in the organization.
 
 ### 1.2 Assign a concise description
 
@@ -63,7 +63,7 @@ Repositories should by default be created as internal. If the project at hand ha
 </br>
 **Public** - Everybody on the entirety of the internet can see the repository. This means that all changes, the emails used to commit, code and data is available to the public (not exhausted list). <br/>
 </br>
-**Internal** - Everybody in the digin-energi enterprise account will be able to see the repository.<br/>
+**Internal** - Everybody in the enterprise account will be able to see the repository.<br/>
 </br>
 **Private** - Only people with assigned read or higher access can access the repository.</br>
 </br>

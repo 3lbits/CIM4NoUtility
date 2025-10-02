@@ -31,7 +31,7 @@ def modellInfoFunc(
             "@value": fullModelModelCreated,
             "@type": "xsd:date"
         }
-    dictionary["dcterms:title"] = docTitle #DIGIN10-30-MV1_EQ
+    dictionary["dcterms:title"] = docTitle #Telemark-120-MV1_EQ
     dictionary["dcterms:description"] = [
         {
             "@value": fullModelModelDescription,
@@ -40,8 +40,8 @@ def modellInfoFunc(
     ]
     # dictionary["dcat:version"] = fullModelModelVersion
     dictionary["dcterms:publisher"] = {
-            "@id": f"urn:uuid:{companyUuid}", #Digin uuid
-            "dcterms:title": companyName #Digin
+            "@id": f"urn:uuid:{companyUuid}", #ElBits uuid
+            "dcterms:title": companyName #ElBits
         }
     if docType in ["SSH", "TP", "SV"] and fullModelModelScenarioTime != "":
         dictionary["dcterms:temporal"] = {
@@ -78,7 +78,7 @@ def modellInfoFunc(
             "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
             "dcterms:title": "PUBLIC"
         }
-    dictionary["dcat:isVersionOf"] = {"@id": f"{isVersionOfUrl}{docTitle}"} #https://digin.no/baseprofile/DIGIN10-30-MV1_EQ
+    dictionary["dcat:isVersionOf"] = {"@id": f"{isVersionOfUrl}{docTitle}"} #https://digin.no/baseprofile/Telemark-120-MV1_EQ
     dictionary["dcat:keyword"] = docType #EQ
     dictionary["dcterms:spatial"] = {"@id": fullModelModelingAuthoritySet}
     if fullModelProfileList != []: dictionary["dcterms:conformsTo"] = fullModelProfileList
@@ -86,7 +86,7 @@ def modellInfoFunc(
         dictionary["dcterms:references"] = [
             {
                 "@id": fullModelDependentOn#,
-                #"dcterms:title": docTitle #DIGIN10-30-MV1_EQ
+                #"dcterms:title": docTitle #Telemark-120-MV1_EQ
             }
         ]
     return dictionary

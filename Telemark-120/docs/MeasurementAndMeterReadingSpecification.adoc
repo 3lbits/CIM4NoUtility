@@ -6,7 +6,7 @@
 These are two models in CIM to handle time series. MeterReading is normally related to AMI (AMS) and MeasurementValue is normally related to Scada and EMS/DMS/ADMS.
 
 Measurement provides structural data for both MeasurementValue and MeterReading. The current version does not fully support this for retail customers. This is done to be aligned with the idea that low voltage does not include all details (simplified model).
-DIGIN10-AMI-1/2 has tried to align some examples to how the AMI suppliers have modelled time series data.
+Telemark-120-AMI-1/2 has tried to align some examples to how the AMI suppliers have modelled time series data.
 
 All time series data are expressed in JSON syntax and structure data are expressed in CIM/XML (RDF/XML) syntax.
 The current profiles are defined as XSD using XML syntax, however, the standarization groups are moving more towards supporting JSON Schema and JSON syntax.

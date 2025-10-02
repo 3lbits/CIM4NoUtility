@@ -8,7 +8,7 @@ PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-        dcterms:title  "DIGIN" .
+        dcterms:title  "ElBits" .
 
 <urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326>
         rdf:type              dcat:Dataset;
@@ -18,10 +18,10 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
         dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
         dcterms:rights        "© 2023 Copyright";
-        dcterms:rightsHolder  "DIGIN";
+        dcterms:rightsHolder  "ElBits";
         dcterms:spatial       <http://energy.referencedata.eu/ReadingType>;
-        dcterms:title         "DIGIN10-30-ReadingType_RD";
-        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-ReadingType_RD>;
+        dcterms:title         "Telemark-120-ReadingType_RD";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-ReadingType_RD>;
         dcat:keyword          "RD";
         prov:generatedAtTime  "2023-03-24T15:24:37Z"^^xsd:dateTime .
 

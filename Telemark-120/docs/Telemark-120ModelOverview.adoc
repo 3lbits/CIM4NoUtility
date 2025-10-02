@@ -1,12 +1,12 @@
 :hardbreaks:
 
-= DIGIN10 model overview
+= Telemark-120 model overview
 :sectnums:
 
 *Version:* 2.1
 Please refer to xref:ChangeManagement.adoc[ChangeManagement.adoc] for details about changes in the way of modelling.
 
-The DIGIN10 model contains the following profiles for each MAS or sourceActor:
+The Telemark-120 model contains the following profiles for each MAS or sourceActor:
 _CGMES v3.0:_
     BM, DL, EQ, GL, OP, OR, RD, SC, SSH, SV, TP
 _CDPSM v2.0:_
@@ -15,7 +15,7 @@ _CDPSM v2.0:_
 Please refer to the xref:FileNameStandard.adoc[FileNameStandard.adoc] for decriptions of the abbreviations.
 
 == Profile overview
-An overview of the DIGIN10 model profiles and the classes currently included in each profile can be found in the below tables.
+An overview of the Telemark-120 model profiles and the classes currently included in each profile can be found in the below tables.
 
 === CGMES v3.0
 --

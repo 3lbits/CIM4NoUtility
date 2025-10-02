@@ -1,6 +1,6 @@
-def contextDataFunc(my_namespaces, wantDiginNameSpaces):
+def contextDataFunc(my_namespaces, wantCIM4NoUtilityNameSpaces):
     contextDict = {}
-    diginContextDict = \
+    CIM4NoUtilityContextDict = \
         {
             "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "cim": "http://ucaiug.org/ns/CIM#",
@@ -12,8 +12,8 @@ def contextDataFunc(my_namespaces, wantDiginNameSpaces):
         if nameSpace == "md":
             continue
         contextDict[nameSpace] = my_namespaces[nameSpace]
-        if wantDiginNameSpaces == True and nameSpace in diginContextDict:
-            contextDict[nameSpace] = diginContextDict[nameSpace]
+        if wantCIM4NoUtilityNameSpaces == True and nameSpace in CIM4NoUtilityContextDict:
+            contextDict[nameSpace] = CIM4NoUtilityContextDict[nameSpace]
     contextDict["dcterms"] = "http://purl.org/dc/terms/"
     contextDict["dcat"] = "http://www.w3.org/ns/dcat#"
     contextDict["prov"] = "http://www.w3.org/ns/prov#"

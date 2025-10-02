@@ -12,10 +12,10 @@ for parameter in parameters["documents"]:
     docType = parameter["docType"]
     docTopic = parameter["docTopic"]
     docTitle = parameter["docTitle"]
-    wantDiginNameSpaces = parameter["wantDiginNameSpaces"]
+    wantCIM4NoUtilityNameSpaces = parameter["wantCIM4NoUtilityNameSpaces"]
 
     if xmlToJsonLd == True:
-        xmlToJsonLDConverter(companyUuid, companyName, isVersionOfUrl, docType, docTopic, docTitle, wantDiginNameSpaces)
+        xmlToJsonLDConverter(companyUuid, companyName, isVersionOfUrl, docType, docTopic, docTitle, wantCIM4NoUtilityNameSpaces)
 
     if jsonldToXml == True:
         jsonToXmlConverter(docTitle)

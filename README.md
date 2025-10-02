@@ -33,8 +33,8 @@ The code repository will be separated into folders based on topics. Below is an 
 
 |Folder name   |Description                                   |
 |--------------|----------------------------------------------|
-|Code Scripts  |Useful code that was developed for and used to create the DIGIN10 model.|
-|DIGIN10       |Develop a test model, the DIGIN10 model, for the Norwegian regional and local distribution grid to standardize a set of common profiles for analysis and simulation purposes in tools and systems like SCADA, DMS, NIS and GIS. Continuation and further development of the DIGIN Grunnprofil project.|
+|Code Scripts  |Useful code that was developed for and used to create the Telemark-120 model.|
+|Telemark-120       |Develop a test model, the Telemark-120 model, for the Norwegian regional and local distribution grid to standardize a set of common profiles for analysis and simulation purposes in tools and systems like SCADA, DMS, NIS and GIS. Continuation and further development of the DIGI1 Grunnprofil project.|
 
 ## Versioning
 We will use Semantic Versioning as our standard practice for versioning.

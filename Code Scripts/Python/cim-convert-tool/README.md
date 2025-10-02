@@ -25,7 +25,7 @@ In the folder _config you can configure the output files by adding or removing c
 
 ### Step 3: Set Parameters
 
-In the parametes.py you need to sett companyUuid, companyName, isVersionOfUrl, if you want json and or xml. You must also configure documets which set the file parameters: docType, docTopic, docTitle, wantDiginNameSpaces.
+In the parametes.py you need to sett companyUuid, companyName, isVersionOfUrl, if you want json and or xml. You must also configure documets which set the file parameters: docType, docTopic, docTitle, wantCIM4NoUtilityNameSpaces.
 
 The configured docTypes that are included:
 

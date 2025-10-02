@@ -31,10 +31,10 @@ Telemark-120-<MAS>_<profile>
 
 
 == Reference models
-DIGIN10-<CGMES version>-<Class name>_RD. RD = Reference data.
+Telemark-120-<CGMES version>-<Class name>_RD. RD = Reference data.
 
 == Scheduled files
-The DIGIN naming standard for files is inspored by ENTSO-E Quality of CGMES Datasets and Calculations (QoCDC) v3.3 ( https://eepublicdownloads.azureedge.net/clean-documents/digital/QualityOfCGMESdatasetsAndCalculations_v3_3.pdf[QoCDC link]). 
+The ElBits naming standard for files is inspored by ENTSO-E Quality of CGMES Datasets and Calculations (QoCDC) v3.3 ( https://eepublicdownloads.azureedge.net/clean-documents/digital/QualityOfCGMESdatasetsAndCalculations_v3_3.pdf[QoCDC link]). 
 
 The following mask is to be used to have a valid file name:
 <effectiveDateTime>_<businessProcess>_<sourcingActor>_<modelPart>_<fileVersion>

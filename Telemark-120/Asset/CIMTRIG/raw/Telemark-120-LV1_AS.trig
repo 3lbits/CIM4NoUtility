@@ -7,24 +7,24 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-        dcterms:title  "DIGIN" .
+        dcterms:title  "ElBits" .
 
 <urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <http://iec.ch/TC57/CIM/Asset/2/0>;
-        dcterms:description   "DIGIN10 Low Voltage 1 (LV1) Asset Model"@en;
+        dcterms:description   "Telemark-120 Low Voltage 1 (LV1) Asset Model"@en;
         dcterms:issued        "2022-10-28T13:37:00Z"^^xsd:date;
         dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
         dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
         dcterms:rights        "© 2023 Copyright";
-        dcterms:rightsHolder  "DIGIN";
-        dcterms:spatial       <https://diginenergi.no/DIGIN10/Asset>;
+        dcterms:rightsHolder  "ElBits";
+        dcterms:spatial       <https://diginenergi.no/Telemark-120/Asset>;
         dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
                                 dcat:startDate  "2022-10-28T13:37:00Z"^^xsd:dateTime
                               ];
-        dcterms:title         "DIGIN10-30-LV1_AS";
-        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-LV1_AS>;
+        dcterms:title         "Telemark-120-LV1_AS";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-LV1_AS>;
         dcat:keyword          "AS";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 

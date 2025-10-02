@@ -9,8 +9,8 @@
     <md:FullModel rdf:about="urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b">
         <md:Model.created>2022-03-30T16:26:37.958Z</md:Model.created>
         <md:Model.scenarioTime>2022-03-30T23:00:00Z</md:Model.scenarioTime>
-        <md:Model.description>DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Customer (CU) Modele</md:Model.description>
-        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/LV1</md:Model.modelingAuthoritySet>
+        <md:Model.description>Telemark-120 CGMES v3.0 Low Voltage 1 (LV1) Customer (CU) Modele</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/Telemark-120/LV1</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://iec.ch/TC57/CIM/Customers/2/0</md:Model.profile>
         <md:Model.version>1</md:Model.version>
         <md:Model.DependentOn rdf:resource="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"/>

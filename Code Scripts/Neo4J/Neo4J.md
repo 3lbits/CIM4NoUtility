@@ -1,8 +1,8 @@
-# Using Neo4J for importing DIGIN Grunnprofil
+# Using Neo4J for importing CIM4NoUtility
 
-This is made for sharing what Digin Grunnprofil have made for importing .xml files into Neo4J with cypher. The reason for making this is to have a visual method to check quality errors in conductivity.
+This is made for sharing what CIM4NoUtility have made for importing .xml files into Neo4J with cypher. The reason for making this is to have a visual method to check quality errors in conductivity.
 
-**DIGIN can not take any responsibillity for errors in using this code.**
+**ElBits can not take any responsibillity for errors in using this code.**
 **This document does not include setup of Neo4J or apoc**
 
 ## Classes
@@ -41,8 +41,8 @@ CALL apoc.load.xml("your chosen file")
 
 Example:
 
-- DIGIN10-24-LV1_EQ.xml
-- DIGIN10-24-MV1_EQ.xml
+- Telemark-120-LV1_EQ.xml
+- Telemark-120-MV1_EQ.xml
 
 ### Conducting
 
@@ -810,7 +810,7 @@ m.normalOpen = normalOpen._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "LoadBreakSwitch"] AS LoadBreakSwitchs
 WITH LoadBreakSwitchs
@@ -827,7 +827,7 @@ m.normalOpen = normalOpen._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Disconnector"] AS Disconnectors
 WITH Disconnectors
@@ -844,7 +844,7 @@ m.normalOpen = normalOpen._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "SynchronousMachine"] AS SynchronousMachines
 WITH SynchronousMachines
@@ -857,7 +857,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "LinearShuntCompensator"] AS LinearShuntCompensators
 WITH LinearShuntCompensators
@@ -870,7 +870,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PetersenCoil"] AS PetersenCoils
 WITH PetersenCoils
@@ -883,7 +883,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "EquivalentInjection"] AS EquivalentInjections
 WITH EquivalentInjections
@@ -1194,9 +1194,9 @@ MATCH (n), (b) WHERE n.ConnectivityNodeContainer = b.`rdf:ID` MERGE (n)-[r:ref]-
 ### Only conductivity
 
 ```cypher
-//Input files: DIGIN10-24-MV1_EQ.xml and/or Nordic44Boundary_24_EQBP.xml
+//Input files: Telemark-120-MV1_EQ.xml and/or Nordic44Boundary_24_EQBP.xml
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ACLineSegment"] AS ACLineSegments
 WITH ACLineSegments
@@ -1229,7 +1229,7 @@ m.x0 = x0._text,
 m.shortCircuitEndTemperature = shortCircuitEndTemperature._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "BusbarSection"] AS BusbarSections
 WITH BusbarSections
@@ -1246,7 +1246,7 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1),
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ConformLoad"] AS ConformLoads
 WITH ConformLoads
@@ -1263,7 +1263,7 @@ m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1),
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "ConnectivityNode"] AS ConnectivityNodes
 WITH ConnectivityNodes
@@ -1278,7 +1278,7 @@ m.name = name._text,
 m.ConnectivityNodeContainer = substring(ConnectivityNodeContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Fuse"] AS Fuses
 WITH Fuses
@@ -1295,7 +1295,7 @@ m.normalOpen = normalOpen._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "LoadBreakSwitch"] AS LoadBreakSwitchs
 WITH LoadBreakSwitchs
@@ -1312,7 +1312,7 @@ m.normalOpen = normalOpen._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Disconnector"] AS Disconnectors
 WITH Disconnectors
@@ -1329,7 +1329,7 @@ m.normalOpen = normalOpen._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "SynchronousMachine"] AS SynchronousMachines
 WITH SynchronousMachines
@@ -1342,7 +1342,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "LinearShuntCompensator"] AS LinearShuntCompensators
 WITH LinearShuntCompensators
@@ -1355,7 +1355,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PetersenCoil"] AS PetersenCoils
 WITH PetersenCoils
@@ -1368,7 +1368,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "EquivalentInjection"] AS EquivalentInjections
 WITH EquivalentInjections
@@ -1381,7 +1381,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PowerTransformer"] AS PowerTransformers
 WITH PowerTransformers
@@ -1396,7 +1396,7 @@ m.name = name._text,
 m.EquipmentContainer = substring(EquipmentContainer.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PowerTransformerEnd"] AS PowerTransformerEnds
 WITH PowerTransformerEnds
@@ -1431,7 +1431,7 @@ m.Terminal = substring(Terminal.`rdf:resource`, 1),
 m.BaseVoltage = substring(BaseVoltage.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "PSRType"] AS PSRTypes
 WITH PSRTypes
@@ -1444,7 +1444,7 @@ SET
 m.name = name._text
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Terminal"] AS Terminals
 WITH Terminals
@@ -1463,7 +1463,7 @@ m.ConnectivityNode = substring(ConnectivityNode.`rdf:resource`, 1),
 m.ConductingEquipment = substring(ConductingEquipment.`rdf:resource`, 1)
 ;
 
-CALL apoc.load.xml("file:///DIGIN10-24-MV1_EQ.xml")
+CALL apoc.load.xml("file:///Telemark-120-MV1_EQ.xml")
 YIELD value
 WITH [item in value._children WHERE item._type = "Breaker"] AS Breakers
 WITH Breakers

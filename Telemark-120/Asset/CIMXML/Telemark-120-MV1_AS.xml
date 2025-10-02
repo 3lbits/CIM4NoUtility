@@ -8,8 +8,8 @@
     <md:FullModel rdf:about="urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342">
         <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
         <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
-        <md:Model.description>DIGIN10 Medium Voltage 1 (MV1) Asset Model</md:Model.description>
-        <md:Model.modelingAuthoritySet>https://diginenergi.no/DIGIN10/Asset</md:Model.modelingAuthoritySet>
+        <md:Model.description>Telemark-120 Medium Voltage 1 (MV1) Asset Model</md:Model.description>
+        <md:Model.modelingAuthoritySet>https://diginenergi.no/Telemark-120/Asset</md:Model.modelingAuthoritySet>
         <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>
         <md:Model.version>1</md:Model.version>
     </md:FullModel>
