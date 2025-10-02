@@ -4,7 +4,7 @@
  
 -<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -18,7 +18,7 @@
 @@ -23,12 +33,2 @@
  
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -107,7 +107,7 @@
  
 -<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -121,7 +121,7 @@
 @@ -28,12 +38,2 @@
  
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -161,7 +161,7 @@
  
 -<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -175,7 +175,7 @@
 @@ -28,12 +38,2 @@
  
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -263,7 +263,7 @@
  
 -<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -277,7 +277,7 @@
 @@ -23,12 +33,2 @@
  
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -317,7 +317,7 @@
  
 -<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -331,7 +331,7 @@
 @@ -30,12 +40,2 @@
  
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -371,7 +371,7 @@
  
 -<urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -386,7 +386,7 @@
          prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 -
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -474,7 +474,7 @@
  
 -<urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021>
 +<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-+        dcterms:title  "DIGIN" .
++        dcterms:title  "ElBits" .
 +
 +<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 +        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -488,7 +488,7 @@
 @@ -30,12 +40,2 @@
  
 -<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
--        dcterms:title  "DIGIN" .
+-        dcterms:title  "ElBits" .
 -
 -<https://creativecommons.org/licenses/by-nc-sa/4.0/>
 -        dcterms:title  "CC BY-NC-SA 4.0" .
@@ -593,7 +593,7 @@
 -      1.0202E1 5.9138E1 ) ( 1.0276E1 5.9161E1 ) ( 1.0311E1 5.9229E1 ) ( 1.0229E1 5.9247E1 ) ) ) ;
 -  ] ;
 -  geojson:properties <urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545> .
-+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "DIGIN" .
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "ElBits" .
  
 -<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset, geojson:FeatureCollection ;
 +<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> {
@@ -605,11 +605,11 @@
 +    dcterms:issued "2023-02-21T08:08:00.000Z"^^xsd:dateTime ;
    dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
 @@ -85,7 +34,39 @@
-   dcterms:title "DIGIN10-30-WattApp-GL" ;
+   dcterms:title "Telemark-120-WattApp-GL" ;
 -  geojson:features <urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8> ;
    prov:generatedAtTime "2023-02-20T16:04:23Z"^^xsd:dateTime .
  
--<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "DIGIN" .
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "ElBits" .
 +  <urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545> a cim:Feeder, geo:Feature ;
 +    cim:IdentifiedObject.description "Sandefjord business and industry area"@en ;
 +    cim:IdentifiedObject.description "Sandefjord næring og industri område"@no ;

@@ -1,6 +1,6 @@
 parameters = {
     "companyUuid": "bd53cf0a-2e2f-4230-a591-0233290b5f9b",
-    "companyName": "DIGIN",
+    "companyName": "ElBits",
     "isVersionOfUrl": "https://digin.no/baseprofile/",
     "xmlToJsonld": True,
     "jsonldToXml": False,
@@ -8,164 +8,164 @@ parameters = {
         {
             "docType": "RD",
             "docTopic": "Base Voltage",
-            "docTitle": "DIGIN10-30-BaseVoltage_RD",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-BaseVoltage_RD",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "RD",
             "docTopic": "Geographical Region",
-            "docTitle": "DIGIN10-30-GeographicalRegion_RD",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-GeographicalRegion_RD",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "BM",
             "docTopic": "Boundry",
-            "docTitle": "DIGIN10-30-HV1-MV1_BM",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-HV1-MV1_BM",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "AS",
             "docTopic": "Asset",
-            "docTitle": "DIGIN10-30-LV1_AS",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_AS",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "CU",
             "docTopic": "Customer",
-            "docTitle": "DIGIN10-30-LV1_CU",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_CU",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "DL",
             "docTopic": "Diagram Layout",
-            "docTitle": "DIGIN10-30-LV1_DL",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_DL",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "EQ",
             "docTopic": "Equipment",
-            "docTitle": "DIGIN10-30-LV1_EQ",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_EQ",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "GL",
             "docTopic": "Geographical Location",
-            "docTitle": "DIGIN10-30-LV1_GL",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_GL",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "OP",
             "docTopic": "Operation",
-            "docTitle": "DIGIN10-30-LV1_OP",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_OP",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "OR",
             "docTopic": "Object Reference",
-            "docTitle": "DIGIN10-30-LV1_OR",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_OR",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "SC",
             "docTopic": "Short Circuit",
-            "docTitle": "DIGIN10-30-LV1_SC",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_SC",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "SSH",
             "docTopic": "Steady State Hypothesis",
-            "docTitle": "DIGIN10-30-LV1_SSH",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-LV1_SSH",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "AC",
             "docTopic": "Asset Catalogue",
-            "docTitle": "DIGIN10-30-M1_AC",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-M1_AC",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "RD",
             "docTopic": "Measurement Value Source",
-            "docTitle": "DIGIN10-30-MeasurementValueSource_RD",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MeasurementValueSource_RD",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "AS",
             "docTopic": "Asset",
-            "docTitle": "DIGIN10-30-MV1_AS",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_AS",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "CU",
             "docTopic": "Customer",
-            "docTitle": "DIGIN10-30-MV1_CU",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_CU",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "DL",
             "docTopic": "Diagram Layout",
-            "docTitle": "DIGIN10-30-MV1_DL",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_DL",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "EQ",
             "docTopic": "Equipment",
-            "docTitle": "DIGIN10-30-MV1_EQ",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_EQ",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "GL",
             "docTopic": "Geographical Location",
-            "docTitle": "DIGIN10-30-MV1_GL",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_GL",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "OP",
             "docTopic": "Operation",
-            "docTitle": "DIGIN10-30-MV1_OP",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_OP",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "SC",
             "docTopic": "Short Circuit",
-            "docTitle": "DIGIN10-30-MV1_SC",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_SC",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "SSH",
             "docTopic": "Steady State Hypothesis",
-            "docTitle": "DIGIN10-30-MV1_SSH",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1_SSH",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "BM",
             "docTopic": "Boundry",
-            "docTitle": "DIGIN10-30-MV1-LV1_BM",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1-LV1_BM",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "SV",
             "docTopic": "State Variables",
-            "docTitle": "DIGIN10-30-MV1-LV1_SV",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1-LV1_SV",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "TP",
             "docTopic": "Topology",
-            "docTitle": "DIGIN10-30-MV1-LV1_TP",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-MV1-LV1_TP",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "RD",
             "docTopic": "Reading Quality Type",
-            "docTitle": "DIGIN10-30-ReadingQualityType_RD",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-ReadingQualityType_RD",
+            "wantCIM4NoUtilityNameSpaces": True
         },
         {
             "docType": "RD",
             "docTopic": "Reading Type",
-            "docTitle": "DIGIN10-30-ReadingType_RD",
-            "wantDiginNameSpaces": True
+            "docTitle": "Telemark-120-ReadingType_RD",
+            "wantCIM4NoUtilityNameSpaces": True
         }
     ]
 }

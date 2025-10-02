@@ -18,16 +18,16 @@
         "@value": "2022-03-30T16:26:37.958Z",
         "@type": "xsd:date"
     },
-    "dcterms:title": "DIGIN10-30-LV1_DL",
+    "dcterms:title": "Telemark-120-LV1_DL",
     "dcterms:description": [
         {
-            "@value": "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Diagram Layout (DL) Model",
+            "@value": "Telemark-120 CGMES v3.0 Low Voltage 1 (LV1) Diagram Layout (DL) Model",
             "@language": "en"
         }
     ],
     "dcterms:publisher": {
         "@id": "urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b",
-        "dcterms:title": "DIGIN"
+        "dcterms:title": "ElBits"
     },
     "dcterms:temporal": {
         "@type": "dcterms:PeriodOfTime",
@@ -37,7 +37,7 @@
         }
     },
     "dcterms:rights": "© 2023 Copyright",
-    "dcterms:rightsHolder": "DIGIN",
+    "dcterms:rightsHolder": "ElBits",
     "dcterms:license": {
         "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
         "dcterms:title": "CC BY-NC-SA 4.0"
@@ -47,11 +47,11 @@
         "dcterms:title": "PUBLIC"
     },
     "dcat:isVersionOf": {
-        "@id": "https://digin.no/baseprofile/DIGIN10-30-LV1_DL"
+        "@id": "https://digin.no/baseprofile/Telemark-120-LV1_DL"
     },
     "dcat:keyword": "DL",
     "dcterms:spatial": {
-        "@id": "https://diginenergi.no/DIGIN10/LV1"
+        "@id": "https://diginenergi.no/Telemark-120/LV1"
     },
     "dcterms:conformsTo": [
         {
@@ -68,7 +68,7 @@
             "@id": "urn:uuid:6e7d0428-fc30-43dc-a9d6-42aa5c9d6168",
             "@type": "cim:Diagram",
             "cim:IdentifiedObject.mRID": "6e7d0428-fc30-43dc-a9d6-42aa5c9d6168",
-            "cim:IdentifiedObject.name": "DIGIN10 Low Voltage",
+            "cim:IdentifiedObject.name": "Telemark-120 Low Voltage",
             "cim:Diagram.orientation": {
                 "@id": "cim:OrientationKind.negative"
             }

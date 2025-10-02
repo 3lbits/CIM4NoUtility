@@ -3,7 +3,7 @@
 
 [#ref-Change_Fuse]  
 == Fuse
-As of v2.1 of the DIGIN10 model, relevant Breakers have been changed to Fuse in the DIGIN10-30-LV1_EQ file. 
+As of v2.1 of the DIGIN10 model, relevant Breakers have been changed to Fuse in the DIGIN10-30-LV1_EQ file.
 
 Ref: IEC 61970-600-1:2021 MAS_7: "A new mRID is generated in case there is a need to change the class (e.g. GeneratingUnit is
 changed to ThermalGeneratingUnit in a sequence of exchanges in a process). If a physical

@@ -3,11 +3,11 @@
 = Modeling guide
 :sectnums:
 
-*Version:* 2.1
+*Version:* 2.2
 
-The purpose of this document is to provide the necessary information to model an electrical power grid according to the DIGIN10 model. 
+The purpose of this document is to provide the necessary information to model an electrical power grid according to the Telemark-120 model. 
 
-The purpose of the DIGIN10 model is to equip the Norwegian power industry with a common tool for modeling the distribution network, in its entirety, in CGMES format. The DIGIN10 model also includes examples for how the network model can be combined with MeterReading and Measurement data as well as the CDPSM v2.0.
+The purpose of the Telemark-120 model is to equip the Norwegian power industry with a common tool for modeling the distribution network, in its entirety, in CGMES format. The Telemark-120 model also includes examples for how the network model can be combined with MeterReading and Measurement data as well as the CDPSM v2.0.
 
 
 // ////////////////////////////////////////////////////////////
@@ -23,7 +23,7 @@ The interested reader is referred to IEC 61970-600-1 (CGMES).
 
 
 === Units
-CGMES v3.0 currently only supports fixed units for any given attribute. The following units have been used for the DIGIN10 model:
+CGMES v3.0 currently only supports fixed units for any given attribute. The following units have been used for the Telemark-120 model:
 --
 [grid=none, frame=none, width=30em]
 |===
@@ -44,7 +44,7 @@ This is related to one of the open issues related to the use of JSON-LD.
 In addition to the previously presented profiles, the following sections describe how particular aspects should be modelled.
 
 === Boundary model
-To support TSO-DSO-DSO-SGU model exchange there is a need to create the boundary models as bilateral boundary. In DIGIN10 we have created bilateral boundary models between HV1-MV1 and MV1-LV1. 
+To support TSO-DSO-DSO-SGU model exchange there is a need to create the boundary models as bilateral boundary. In Telemark-120 we have created bilateral boundary models between HV1-MV1 and MV1-LV1. 
 
 === BusbarSection
 It was decided that BusbarSection should be connected to a VoltageLevel when possible.
@@ -66,10 +66,10 @@ Remaining ConnectivityNodes in a Substation should be connected to a VoltageLeve
 
 
 === ControlArea
-The DIGIN10 model currently contains only one control area on the MV side. ControlArea will be adressed in coming releases.
+The Telemark-120 model currently contains only one control area on the MV side. ControlArea will be adressed in coming releases.
 
 === Equipment containers
-The DIGIN10 model uses the following equipent containers:
+The Telemark-120 model uses the following equipent containers:
 
 . Line
 . Bay
@@ -83,10 +83,10 @@ EquivalentInjection is included in the model, but switched off in cases where it
 For such cases SynchronousMachine, its corresponding Terminal and a GeneratingUnit is added to emulate EquivalentInjection for the power flow. 
 
 === Feeder
-Will be included in a later version of the DIGIN10 model.
+Will be included in a later version of the Telemark-120 model.
 
 === Fuse
-Fuse has been added to the DIGIN10 model. Please refer to xref:ChangeManagement.adoc#ref-Change_Fuse[ChangeManagement.adoc] for details.
+Fuse has been added to the Telemark-120 model. Please refer to xref:ChangeManagement.adoc#ref-Change_Fuse[ChangeManagement.adoc] for details.
 
 === Line
 Line.Region is optional. For the EQ profiles it is included in the MV files but excluded from the LV files.
@@ -129,7 +129,7 @@ Substation is used to model cable cabinets in the LV files. This is an issue and
 
 
 === Switch
-Switch.locked is mandatory for CGMES 3.0 compliance and was added due to DisconnectingCircuitBreaker(DCB). In the DIGIN10 model the property is added for all switch types. However, the DCB breaker is not included in the current DIGIN10 model.
+Switch.locked is mandatory for CGMES 3.0 compliance and was added due to DisconnectingCircuitBreaker(DCB). In the Telemark-120 model the property is added for all switch types. However, the DCB breaker is not included in the current Telemark-120 model.
 
 === Terminal
 If equipment is updated then the consolidated terminal must also be updated. If not, the Terminal cannot be used as it is simply embedded with the corresponding equipment and in reality is not equipment itself. 
@@ -137,9 +137,9 @@ If equipment is updated then the consolidated terminal must also be updated. If 
 == GeoJSON(-LD)
 
 GeoJSON was requested as a geographical format from actors as a better alternative to XML for sharing geospatial data.
-GeoJSON is an open standard based on JSON. The DIGIN10 model utilizes the linked data (LD) version of GeoJSON to include context.
+GeoJSON is an open standard based on JSON. The Telemark-120 model utilizes the linked data (LD) version of GeoJSON to include context.
 
-The DIGIN10 model includes alternative versions of the GL.xml files to GeoJSON(-LD). Tagged as GeoJSON so that GitHub can display it and GeoJSON validation can be enabled in the developing tool. However, the files also support https://json-ld.org/playground/[JSON-LD validation]. 
+The Telemark-120 model includes alternative versions of the GL.xml files to GeoJSON(-LD). Tagged as GeoJSON so that GitHub can display it and GeoJSON validation can be enabled in the developing tool. However, the files also support https://json-ld.org/playground/[JSON-LD validation]. 
 
 The official  https://www.w3.org/TR/json-ld11/[GeoJSON-LD] context, v1.1, has been used as a base for the example files. 
 
@@ -155,7 +155,7 @@ PositionPoint is included as geometry. Each coordinate object includes xPosition
 
 GeoJSON supports several geometry types: LineString, MultiLineString, MultiPoint, MultiPolygon, Point and Polygon.
 Substation is an example of Point, whereas ACLineSegment is an example of LineString.
-Currently the DIGIN10 model only includes examples for the Points, later versions will include at least LineString.
+Currently the Telemark-120 model only includes examples for the Points, later versions will include at least LineString.
 If you use LineString you need a list of coordinates, GeoJSON suports an infinite number of list items. The order of the listed item must correspond to the sequenceNumber of the list.
 
 

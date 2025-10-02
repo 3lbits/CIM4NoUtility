@@ -7,7 +7,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
-        dcterms:title  "DIGIN" .
+        dcterms:title  "ElBits" .
 
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>
         dcterms:title  "CC BY-NC-SA 4.0" .
@@ -20,19 +20,19 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Operation-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Operation/4.0>;
-        dcterms:description   "DIGIN10 CGMES v3.0 Low Voltage 1 (LV1) Equipment Operation (OP) Model"@en;
+        dcterms:description   "Telemark-120 CGMES v3.0 Low Voltage 1 (LV1) Equipment Operation (OP) Model"@en;
         dcterms:issued        "2022-10-28T13:37:00Z"^^xsd:date;
         dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
         dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
         dcterms:references    <urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>;
         dcterms:rights        "© 2023 Copyright";
-        dcterms:rightsHolder  "DIGIN";
-        dcterms:spatial       <https://diginenergi.no/DIGIN10/LV1>;
+        dcterms:rightsHolder  "ElBits";
+        dcterms:spatial       <https://diginenergi.no/Telemark-120/LV1>;
         dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
                                 dcat:startDate  "2022-10-28T13:37:00Z"^^xsd:dateTime
                               ];
-        dcterms:title         "DIGIN10-30-LV1_OP";
-        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-LV1_OP>;
+        dcterms:title         "Telemark-120-LV1_OP";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-LV1_OP>;
         dcat:keyword          "OP";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 

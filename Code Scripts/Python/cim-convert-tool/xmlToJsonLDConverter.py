@@ -8,7 +8,7 @@ from configPicker import configPicker
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-def xmlToJsonLDConverter(companyUuid, companyName, isVersionOfUrl, docType, docTopic, docTitle, wantDiginNameSpaces):
+def xmlToJsonLDConverter(companyUuid, companyName, isVersionOfUrl, docType, docTopic, docTitle, wantCIM4NoUtilityNameSpaces):
 
     inputFilePath = f"{dir_path}\_data\CIMXML\{docTitle}.xml"
     outputFilePath = f"{dir_path}\_data\JSON-LD\{docTitle}.jsonld"
@@ -21,7 +21,7 @@ def xmlToJsonLDConverter(companyUuid, companyName, isVersionOfUrl, docType, docT
 
     # Context
 
-    jsonldContext = contextDataFunc(my_namespaces, wantDiginNameSpaces)
+    jsonldContext = contextDataFunc(my_namespaces, wantCIM4NoUtilityNameSpaces)
 
     OutputJsonLD["@context"] = jsonldContext
     graphList = []
