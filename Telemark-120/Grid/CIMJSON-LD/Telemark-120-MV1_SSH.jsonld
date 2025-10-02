@@ -1215,6 +1215,41 @@
             "@id": "urn:uuid:0a936e9d-6e05-6547-af77-18e442db0913",
             "@type": "cim:Terminal",
             "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:313f9413-16a2-4037-8546-2df5c62767be",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:6cc409d6-980c-481b-8b67-127ecf5dc19c",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:240e7e1c-2d1b-4637-9721-c3642adea4f7",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:ffb2f7d9-b099-4ecb-be93-9071b755ceab",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:0e748f98-11fe-4783-9501-0e673cab8f0d",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:297b7aa5-fb24-458f-8680-c1052e42a1f9",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
+        },
+        {
+            "@id": "urn:uuid:60032c2a-2dc2-41d1-9530-497a7474f22b",
+            "@type": "cim:Terminal",
+            "cim:ACDCTerminal.connected": true
         }
     ]
 }

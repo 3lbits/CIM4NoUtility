@@ -189,147 +189,147 @@
         <cim:ControlArea.pTolerance>0.1</cim:ControlArea.pTolerance>
     </cim:ControlArea>
  
-    <cim:CurrentLimit rdf:about="_681a26d8-5a55-11eb-a658-74e5f963e191">
+    <cim:CurrentLimit rdf:about="#_681a26d8-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
  
-    <cim:CurrentLimit rdf:about="_681a2a1c-5a55-11eb-a658-74e5f963e191">
+    <cim:CurrentLimit rdf:about="#_681a2a1c-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>590</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_681a2a84-5a55-11eb-a658-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_681a2a84-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>590</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_681a2a88-5a55-11eb-a658-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_681a2a88-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>590</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_92d33bd5-7034-11eb-a65a-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_92d33bd5-7034-11eb-a65a-74e5f963e191">
         <cim:CurrentLimit.value>727</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_681a26e0-5a55-11eb-a658-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_681a26e0-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_92d33be9-7034-11eb-a65a-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_92d33be9-7034-11eb-a65a-74e5f963e191">
         <cim:CurrentLimit.value>745</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_681a2a18-5a55-11eb-a658-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_681a2a18-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>590</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_92d33bed-7034-11eb-a65a-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_92d33bed-7034-11eb-a65a-74e5f963e191">
         <cim:CurrentLimit.value>745</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_92d33b9e-7034-11eb-a65a-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_92d33b9e-7034-11eb-a65a-74e5f963e191">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_681a3096-5a55-11eb-a658-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_681a3096-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>656</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_681a2fd0-5a55-11eb-a658-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_681a2fd0-5a55-11eb-a658-74e5f963e191">
         <cim:CurrentLimit.value>83</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_92d33bd6-7034-11eb-a65a-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_92d33bd6-7034-11eb-a65a-74e5f963e191">
         <cim:CurrentLimit.value>727</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_92d33b9f-7034-11eb-a65a-74e5f963e191">
+
+    <cim:CurrentLimit rdf:about="#_92d33b9f-7034-11eb-a65a-74e5f963e191">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_0f183ae8-bf40-4c42-ba28-aff0684ec683">
+
+    <cim:CurrentLimit rdf:about="#_0f183ae8-bf40-4c42-ba28-aff0684ec683">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_245cd84e-872f-d141-b6ae-c791424d0237">
+
+    <cim:CurrentLimit rdf:about="#_245cd84e-872f-d141-b6ae-c791424d0237">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_10d3dc6c-c98a-df45-b1ce-c043dbfeef25">
+
+    <cim:CurrentLimit rdf:about="#_10d3dc6c-c98a-df45-b1ce-c043dbfeef25">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_f822f3a2-4516-9048-913a-b808866ec168">
+
+    <cim:CurrentLimit rdf:about="#_f822f3a2-4516-9048-913a-b808866ec168">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_bd381b90-7f6e-8a45-bff0-1370214c234c">
+
+    <cim:CurrentLimit rdf:about="#_bd381b90-7f6e-8a45-bff0-1370214c234c">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_c8231145-5610-4245-b1a1-572fecb643d8">
+
+    <cim:CurrentLimit rdf:about="#_c8231145-5610-4245-b1a1-572fecb643d8">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_df8139f5-361f-9846-b6ff-aaa351935dbb">
+
+    <cim:CurrentLimit rdf:about="#_df8139f5-361f-9846-b6ff-aaa351935dbb">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_c3594d55-896e-7447-a90b-6b3c087b788e">
+
+    <cim:CurrentLimit rdf:about="#_c3594d55-896e-7447-a90b-6b3c087b788e">
         <cim:CurrentLimit.value>727</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_87f5ed47-2758-514e-9a13-ef692d942321">
+
+    <cim:CurrentLimit rdf:about="#_87f5ed47-2758-514e-9a13-ef692d942321">
         <cim:CurrentLimit.value>727</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_e5e585f8-423e-c049-8e8e-58bda1ec78e8">
+
+    <cim:CurrentLimit rdf:about="#_e5e585f8-423e-c049-8e8e-58bda1ec78e8">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_859d05d5-cdac-f849-81a2-4f0593c6c824">
+
+    <cim:CurrentLimit rdf:about="#_859d05d5-cdac-f849-81a2-4f0593c6c824">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_7b025cfa-4526-6f49-a420-ea211e8eceba">
+
+    <cim:CurrentLimit rdf:about="#_7b025cfa-4526-6f49-a420-ea211e8eceba">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_1ab33989-6134-7f4f-876d-9fcd150fd081">
+
+    <cim:CurrentLimit rdf:about="#_1ab33989-6134-7f4f-876d-9fcd150fd081">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_a982d4f5-7307-3942-ab95-b3cac858d733">
+
+    <cim:CurrentLimit rdf:about="#_a982d4f5-7307-3942-ab95-b3cac858d733">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_11e9226e-e3cf-0f48-b691-8dfa2d25ae7b">
+
+    <cim:CurrentLimit rdf:about="#_11e9226e-e3cf-0f48-b691-8dfa2d25ae7b">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_57661de3-c67c-b74b-8729-912a82eeec22">
+
+    <cim:CurrentLimit rdf:about="#_57661de3-c67c-b74b-8729-912a82eeec22">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_de98fb60-241a-5e47-a390-ac62f1d20079">
+
+    <cim:CurrentLimit rdf:about="#_de98fb60-241a-5e47-a390-ac62f1d20079">
         <cim:CurrentLimit.value>1020</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_3401221c-3b67-7144-981f-94a1d57a77a1">
+
+    <cim:CurrentLimit rdf:about="#_3401221c-3b67-7144-981f-94a1d57a77a1">
         <cim:CurrentLimit.value>412</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_1d069b92-4138-454e-9db4-c05f38f767ca">
+
+    <cim:CurrentLimit rdf:about="#_1d069b92-4138-454e-9db4-c05f38f767ca">
         <cim:CurrentLimit.value>412</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_3817162d-5e9d-d243-be82-10c2eca33b5b">
+
+    <cim:CurrentLimit rdf:about="#_3817162d-5e9d-d243-be82-10c2eca33b5b">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_a3dceeba-ffb3-4349-9c4f-efb8c5c05923">
+
+    <cim:CurrentLimit rdf:about="#_a3dceeba-ffb3-4349-9c4f-efb8c5c05923">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
- 
-    <cim:CurrentLimit rdf:about="_b0e72714-9f93-c444-913f-a2437efb1d7e">
+
+    <cim:CurrentLimit rdf:about="#_b0e72714-9f93-c444-913f-a2437efb1d7e">
         <cim:CurrentLimit.value>275</cim:CurrentLimit.value>
     </cim:CurrentLimit>
  
@@ -516,6 +516,12 @@
         <cim:RegulatingControl.targetValue>22</cim:RegulatingControl.targetValue>
         <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
     </cim:RegulatingControl>
+
+    <cim:StationSupply rdf:about="#_0506353c-8adf-4f48-999f-bb1975c03467">
+        <cim:Equipment.inService>true</cim:Equipment.inService>
+        <cim:EnergyConsumer.p>0.002</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>0.0002</cim:EnergyConsumer.q>
+    </cim:StationSupply>    
  
     <cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282">
         <cim:Equipment.inService>true</cim:Equipment.inService>
@@ -938,6 +944,34 @@
     </cim:Terminal>
  
     <cim:Terminal rdf:about="#_0a936e9d-6e05-6547-af77-18e442db0913">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_313f9413-16a2-4037-8546-2df5c62767be">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_6cc409d6-980c-481b-8b67-127ecf5dc19c">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_240e7e1c-2d1b-4637-9721-c3642adea4f7">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_ffb2f7d9-b099-4ecb-be93-9071b755ceab">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_0e748f98-11fe-4783-9501-0e673cab8f0d">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_297b7aa5-fb24-458f-8680-c1052e42a1f9">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+
+    <cim:Terminal rdf:about="#_60032c2a-2dc2-41d1-9530-497a7474f22b">
         <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
     </cim:Terminal>
 

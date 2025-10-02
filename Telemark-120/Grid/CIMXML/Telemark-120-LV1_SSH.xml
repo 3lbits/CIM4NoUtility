@@ -122,7 +122,7 @@
         <cim:Switch.open>false</cim:Switch.open>
     </cim:Fuse>
  
-    <cim:Fuse rdf:about="#_81f3131f-baed-442d-bf7a-3606832fc3e0">
+    <cim:Breaker rdf:about="#_81f3131f-baed-442d-bf7a-3606832fc3e0">
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>true</cim:Switch.open>
