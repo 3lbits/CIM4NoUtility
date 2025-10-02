@@ -1,0 +1,220 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "DIGIN" .
+
+<urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0> , <http://iec.ch/TC57/CIM/Geographical/2/0>;
+        dcterms:description   "DIGIN10 CGMES v3.0 Medium Voltage 1 (MV1) Geographical layout (GL) Model"@en;
+        dcterms:issued        "2022-03-30T16:26:37.958Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:references    <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "DIGIN";
+        dcterms:spatial       <https://diginenergi.no/DIGIN10/MV1>;
+        dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
+                                dcat:startDate  "2022-03-30T23:00:00Z"^^xsd:dateTime
+                              ];
+        dcterms:title         "DIGIN10-30-MV1_GL";
+        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-MV1_GL>;
+        dcat:keyword          "GL";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654> {
+    <urn:uuid:f6c06356-bb16-462e-96cd-196bb0228400>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.6929813714585E0;
+            cim:PositionPoint.yPosition  5.84017201058505E1 .
+    
+    <urn:uuid:d7e8ce29-8119-4a25-af2b-1b247d56e44b>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:c3b960e2-fb92-478b-880d-13768894c467>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.68410932019787E0;
+            cim:PositionPoint.yPosition  5.84141069023377E1 .
+    
+    <urn:uuid:d066daa7-56a1-4c61-8411-caddfcf451f5>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95>;
+            cim:PositionPoint.sequenceNumber
+                    2;
+            cim:PositionPoint.xPosition  8.64229880452226E0;
+            cim:PositionPoint.yPosition  5.85074387827182E1 .
+    
+    <urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "cbc4987d-6ea1-9644-84a0-fceecd4cd25b";
+            cim:IdentifiedObject.name      "L ARENDAL";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:c3b960e2-fb92-478b-880d-13768894c467>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "c3b960e2-fb92-478b-880d-13768894c467";
+            cim:IdentifiedObject.name      "L T_ENGENE-ENGENE";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:c35e2ef4-eb74-4824-a001-b25ba199363e>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.64229880452226E0;
+            cim:PositionPoint.yPosition  5.85074387827182E1 .
+    
+    <urn:uuid:aa125e13-2b8b-41cb-9726-63fdf52a37c4>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.6929813714585E0;
+            cim:PositionPoint.yPosition  5.84017201058505E1 .
+    
+    <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>
+            rdf:type                     cim:CoordinateSystem;
+            cim:CoordinateSystem.crsUrn  "urn:ogc:def:crs:EPSG::4336";
+            cim:IdentifiedObject.mRID    "a5417df7-4f3c-4661-8701-aa5ee6991834";
+            cim:IdentifiedObject.name    "EPSG 4326" .
+    
+    <urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "9d68070f-959b-472b-8774-d552c9bcec5c";
+            cim:IdentifiedObject.name      "L ENGENE";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "9ae7284b-84ec-344f-a3f1-50a13f72be4b";
+            cim:IdentifiedObject.name      "L T_ENGENE";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:966c6ef8-78c0-4c99-b096-d06545ac6604>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.77315129409427E0;
+            cim:PositionPoint.yPosition  5.84640187084885E1 .
+    
+    <urn:uuid:94063a82-6722-2f40-b596-f7e39eee6454>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:cbc4987d-6ea1-9644-84a0-fceecd4cd25b>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.77315129409427E0;
+            cim:PositionPoint.yPosition  5.84640187084885E1 .
+    
+    <urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "87870813-fff0-45eb-a9e0-dc28a12223b1";
+            cim:IdentifiedObject.name      "L ENGENE-NEDENES";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "80d03a93-b24b-a944-a1ec-9c02e3e56e4a";
+            cim:IdentifiedObject.name      "L NEDENES";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:76b56639-411c-0f4d-b23b-47b850ec72e3>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:80d03a93-b24b-a944-a1ec-9c02e3e56e4a>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.70038854077893E0;
+            cim:PositionPoint.yPosition  5.84154855281921E1 .
+    
+    <urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "6c77ced6-7735-4a49-a086-9b241a1622c1";
+            cim:IdentifiedObject.name      "L FROLAND-T_ENGENE";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:358b358f-3fbe-42da-a071-c84c64449b95>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "358b358f-3fbe-42da-a071-c84c64449b95";
+            cim:IdentifiedObject.name      "L ARENDAL-FROLAND";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:2401e59b-e904-4552-8367-b58f45f7b575>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:87870813-fff0-45eb-a9e0-dc28a12223b1>;
+            cim:PositionPoint.sequenceNumber
+                    2;
+            cim:PositionPoint.xPosition  8.70038854077893E0;
+            cim:PositionPoint.yPosition  5.84154855281921E1 .
+    
+    <urn:uuid:1640e77b-5126-4514-94d3-78f057174a83>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:c3b960e2-fb92-478b-880d-13768894c467>;
+            cim:PositionPoint.sequenceNumber
+                    2;
+            cim:PositionPoint.xPosition  8.6929813714585E0;
+            cim:PositionPoint.yPosition  5.84017201058505E1 .
+    
+    <urn:uuid:100010a9-4266-0340-b271-ae3e61a14d12>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.64229880452226E0;
+            cim:PositionPoint.yPosition  5.85074387827182E1 .
+    
+    <urn:uuid:09b30053-af9b-4475-b0a4-b439462e1b8d>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:6c77ced6-7735-4a49-a086-9b241a1622c1>;
+            cim:PositionPoint.sequenceNumber
+                    2;
+            cim:PositionPoint.xPosition  8.68410932019787E0;
+            cim:PositionPoint.yPosition  5.84141069023377E1 .
+    
+    <urn:uuid:02bcdc15-1cf1-7244-92e7-9057b65919fc>
+            rdf:type                     cim:PositionPoint;
+            cim:PositionPoint.Location   <urn:uuid:9ae7284b-84ec-344f-a3f1-50a13f72be4b>;
+            cim:PositionPoint.sequenceNumber
+                    1;
+            cim:PositionPoint.xPosition  8.68410932019787E0;
+            cim:PositionPoint.yPosition  5.84141069023377E1 .
+    
+    <urn:uuid:0003ba83-a884-e74b-b89e-eb26079a7f57>
+            rdf:type                       cim:Location;
+            cim:IdentifiedObject.mRID      "0003ba83-a884-e74b-b89e-eb26079a7f57";
+            cim:IdentifiedObject.name      "L FROLAND";
+            cim:Location.CoordinateSystem  <urn:uuid:a5417df7-4f3c-4661-8701-aa5ee6991834>;
+            cim:Location.PowerSystemResources
+                    <urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191> .
+}

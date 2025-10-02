@@ -1,0 +1,648 @@
+--- raw/Telemark-120-BaseVoltage_RD.trig	2025-08-05 18:29:40.751011900 +0300
++++ Telemark-120-BaseVoltage_RD.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4> {
++    <urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
+         rdf:type              dcat:Dataset;
+@@ -23,12 +33,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4> {
+     <urn:uuid:fb384693-5e5b-4432-a281-1c7b206f652e>
+--- raw/Telemark-120-GeographicalRegion_RD.trig	2025-08-05 18:29:42.894730400 +0300
++++ Telemark-120-GeographicalRegion_RD.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de> {
++    <urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de>
+         rdf:type              dcat:Dataset;
+@@ -25,10 +32,2 @@
+         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de> {
+     <urn:uuid:f17696cf-9aeb-11e5-91da-b8763fd99c5f>
+--- raw/Telemark-120-HV1-MV1_BM.trig	2025-08-05 18:29:45.023268700 +0300
++++ Telemark-120-HV1-MV1_BM.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:b39e7379-a9ae-4262-98dc-9ade1200adb0>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:b39e7379-a9ae-4262-98dc-9ade1200adb0> {
++    <urn:uuid:b39e7379-a9ae-4262-98dc-9ade1200adb0>
+         rdf:type              dcat:Dataset;
+@@ -26,9 +33,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:b39e7379-a9ae-4262-98dc-9ade1200adb0> {
+     <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f>
+--- raw/Telemark-120-LV1_DL.trig	2025-08-05 18:29:47.191779600 +0300
++++ Telemark-120-LV1_DL.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6> {
++    <urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:02c12c37-ced0-4cbd-8fc2-4b51b0c532a6> {
+     <urn:uuid:6e7d0428-fc30-43dc-a9d6-42aa5c9d6168>
+--- raw/Telemark-120-LV1_EQ.trig	2025-08-05 18:29:49.848160100 +0300
++++ Telemark-120-LV1_EQ.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981> {
++    <urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>
+         rdf:type              dcat:Dataset;
+@@ -28,12 +38,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981> {
+     <urn:uuid:fe0a5228-5eb4-4008-9ee6-d22389f798e9>
+--- raw/Telemark-120-LV1_GL.trig	2025-08-05 18:29:52.071006700 +0300
++++ Telemark-120-LV1_GL.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74> {
++    <urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:9552dc72-0525-4a84-8532-81f160b8fb74> {
+     <urn:uuid:f3cf4fca-68fd-45b0-9f6d-2d6b960bf9d9>
+--- raw/Telemark-120-LV1_OP.trig	2025-08-05 18:29:54.255345800 +0300
++++ Telemark-120-LV1_OP.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981> {
++    <urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981>
+         rdf:type              dcat:Dataset;
+@@ -28,12 +38,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981> {
+     <urn:uuid:ea48d543-f02a-4c6e-8c5d-6ffe3e3f763f>
+--- raw/Telemark-120-LV1_OR.trig	2025-08-05 18:29:56.467969200 +0300
++++ Telemark-120-LV1_OR.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -12,3 +12,10 @@
+ 
+-<urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd> {
++    <urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd>
+         rdf:type              dcat:Dataset;
+@@ -32,9 +39,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:2e4ac4ff-692d-48e5-9837-cc0db61ee3dd> {
+     <urn:uuid:e08e14be-3cb2-4f79-a54a-62b54085aa06>
+--- raw/Telemark-120-LV1_SC.trig	2025-08-05 18:29:58.671053400 +0300
++++ Telemark-120-LV1_SC.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:50ae854b-afb8-4d42-bd4b-e97f1ee1ca6f>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:50ae854b-afb8-4d42-bd4b-e97f1ee1ca6f> {
++    <urn:uuid:50ae854b-afb8-4d42-bd4b-e97f1ee1ca6f>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:50ae854b-afb8-4d42-bd4b-e97f1ee1ca6f> {
+     <urn:uuid:fe0a5228-5eb4-4008-9ee6-d22389f798e9>
+--- raw/Telemark-120-LV1_SSH.trig	2025-08-05 18:30:00.924363200 +0300
++++ Telemark-120-LV1_SSH.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a> {
++    <urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a>
+         rdf:type                 dcat:Dataset;
+@@ -33,9 +40,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a> {
+     <urn:uuid:fe0a5228-5eb4-4008-9ee6-d22389f798e9>
+--- raw/Telemark-120-MV1-LV1_BM.trig	2025-08-05 18:30:03.292600100 +0300
++++ Telemark-120-MV1-LV1_BM.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4> {
++    <urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>
+         rdf:type              dcat:Dataset;
+@@ -23,12 +33,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4> {
+     <urn:uuid:e961d4f3-7d72-476b-9ae3-4bab97e87ced>
+--- raw/Telemark-120-MV1-LV1_SV.trig	2025-08-05 18:30:05.736056200 +0300
++++ Telemark-120-MV1-LV1_SV.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48> {
++    <urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48>
+         rdf:type                 dcat:Dataset;
+@@ -33,9 +40,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:00db75c5-d443-42e5-927b-ca9a2e14fd48> {
+     <urn:uuid:ff97a3af-f795-ff43-acc1-37efd9e97cc0>
+--- raw/Telemark-120-MV1-LV1_TP.trig	2025-08-05 18:30:08.519565200 +0300
++++ Telemark-120-MV1-LV1_TP.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5> {
++    <urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5>
+         rdf:type                 dcat:Dataset;
+@@ -30,12 +40,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:ef750ad6-a00c-4db3-b5c3-f849c096c2a5> {
+     <urn:uuid:ffb2f7d9-b099-4ecb-be93-9071b755ceab>
+--- raw/Telemark-120-MV1_DL.trig	2025-08-05 18:30:10.841943800 +0300
++++ Telemark-120-MV1_DL.trig	2025-08-05 18:17:24.352091500 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073> {
++    <urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073> {
+     <urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58>
+--- raw/Telemark-120-MV1_EQ.trig	2025-08-05 18:30:13.356722200 +0300
++++ Telemark-120-MV1_EQ.trig	2025-08-05 18:17:24.368073700 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16> {
++    <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>
+         rdf:type              dcat:Dataset;
+@@ -27,13 +37,2 @@
+         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+-
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16> {
+     <urn:uuid:ffb2f7d9-b099-4ecb-be93-9071b755ceab>
+--- raw/Telemark-120-MV1_GL.trig	2025-08-05 18:30:15.677399500 +0300
++++ Telemark-120-MV1_GL.trig	2025-08-05 18:17:24.368073700 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654> {
++    <urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:99790ba1-4bb2-4960-ade7-34d245740654> {
+     <urn:uuid:f6c06356-bb16-462e-96cd-196bb0228400>
+--- raw/Telemark-120-MV1_OP.trig	2025-08-05 18:30:17.980482900 +0300
++++ Telemark-120-MV1_OP.trig	2025-08-05 18:17:24.368073700 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731> {
++    <urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:31b9fe89-c729-4bb3-9f6c-22f885607731> {
+     <urn:uuid:fd11bf7f-138b-4a1b-802c-25262b7b8672>
+--- raw/Telemark-120-MV1_SC.trig	2025-08-05 18:30:20.148447400 +0300
++++ Telemark-120-MV1_SC.trig	2025-08-05 18:17:24.368073700 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce> {
++    <urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce> {
+     <urn:uuid:ed8865cf-8b36-42ce-acdc-0627b5f55802>
+--- raw/Telemark-120-MV1_SSH.trig	2025-08-05 18:30:22.407540500 +0300
++++ Telemark-120-MV1_SSH.trig	2025-08-05 18:17:24.368073700 +0300
+@@ -8,3 +8,13 @@
+ 
+-<urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "DIGIN" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021> {
++    <urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021>
+         rdf:type                 dcat:Dataset;
+@@ -30,12 +40,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "DIGIN" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:f19668c6-e0a1-4db7-bfee-7645392d0021> {
+     <urn:uuid:fd338915-3831-4cc5-8c55-af2b4c1c2bb8>
+--- raw/Telemark-120-MeasurementValueSource_RD.trig	2025-08-05 18:30:24.586594900 +0300
++++ Telemark-120-MeasurementValueSource_RD.trig	2025-08-05 18:17:24.368073700 +0300
+@@ -12,3 +12,10 @@
+ 
+-<urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9> {
++    <urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9>
+         rdf:type              dcat:Dataset;
+@@ -27,9 +34,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9> {
+     <urn:uuid:e5048824-2bc1-4b72-810b-750981000b6f>
+--- raw/Telemark-120-WattApp-GL.trig	2025-08-05 18:29:38.356834300 +0300
++++ Telemark-120-WattApp-GL.trig	2025-08-05 18:17:24.374561800 +0300
+@@ -1,3 +1,2 @@
+-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
++@prefix nc:      <https://cim4.eu/ns/nc#> .
+ @prefix cim: <https://cim.ucaiug.io/ns#> .
+@@ -5,5 +4,6 @@
+ @prefix dcterms: <http://purl.org/dc/terms/> .
+-@prefix geojson: <https://purl.org/geojson/vocab#> .
+-@prefix nc: <https://cim4.eu/ns/nc#> .
++@prefix geo:     <http://www.opengis.net/ont/geosparql#> .
+ @prefix prov: <http://www.w3.org/ns/prov#> .
++@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
++@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+ 
+@@ -13,57 +13,6 @@
+ 
+-<urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545> a cim:Feeder ;
+-  cim:IdentifiedObject.description "Sandefjord business and industry area"@en ;
+-  cim:IdentifiedObject.description "Sandefjord næring og industri område"@no ;
+-  cim:IdentifiedObject.mRID "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545" ;
+-  cim:IdentifiedObject.name "Sandefjord_business_and_industry_area"@en ;
+-  cim:IdentifiedObject.name "Sandefjord_næring_og_industri_område"@no ;
+-  nc:Feeder.CapacitySchedule [
+-    nc:BaseTimeSeries.generatedAtTime "2022-11-07T12:05:43.641Z" ;
+-    nc:BaseTimeSeries.interpolationKind nc:TimeSeriesInterpolationKind.previous ;
+-    nc:BaseTimeSeries.kind nc:BaseTimeSeriesKind.forecast ;
+-    nc:BaseTimeSeries.method "KraftSystemUtredning"@no ;
+-    nc:BaseTimeSeries.method "Power System Report"@en ;
+-    nc:BaseTimeSeries.percentile "50" ;
+-    nc:CapacitySchedule.CapacityTimePoint [
+-      nc:CapacityTimePoint.atTime "2028-01-01T23:00:00.000Z" ;
+-      nc:CapacityTimePoint.maxAllocatedP [
+-        cim:ActivePower.value 0 ;
+-      ] ;
+-      nc:CapacityTimePoint.maxAllocatedQ [
+-        cim:ReactivePower.value 0 ;
+-      ] ;
+-      nc:CapacityTimePoint.maxP [
+-        cim:ActivePower.value 40 ;
+-      ] ;
+-      nc:CapacityTimePoint.maxQ [
+-        cim:ReactivePower.value 0 ;
+-      ] ;
+-      nc:CapacityTimePoint.minAllocatedP [
+-        cim:ActivePower.value 0 ;
+-      ] ;
+-      nc:CapacityTimePoint.minAllocatedQ [
+-        cim:ReactivePower.value 0 ;
+-      ] ;
+-      nc:CapacityTimePoint.minP [
+-        cim:ActivePower.value 0 ;
+-      ] ;
+-      nc:CapacityTimePoint.minQ [
+-        cim:ReactivePower.value 0 ;
+-      ] ;
+-    ] ;
+-    nc:IdentifiedObject.description "Det er i dag liten kapasitet til ny næring og industri langs E18 i Sandefjord. Økt etterspørsel etter kapasitet gir derfor behov for økt transformatorkapasitet i området. Tilgjengelig kapasitet og tidspunkt vil være avhengig av behov og er ikke fastsatt."@no ;
+-    nc:IdentifiedObject.description "There is currently little capacity for new business and industry along the E18 in Sandefjord. Increased demand for capacity therefore creates a need for increased transformer capacity in the area. Available capacity and timing will depend on demand and are not fixed."@en ;
+-    nc:IdentifiedObject.name "Sandefjord, increased capacity for business and industry"@en ;
+-    nc:IdentifiedObject.name "Sandefjord, økt kapasitet til næring og industri"@no ;
+-  ] .
+-
+-<urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8> a geojson:Feature ;
+-  geojson:geometry [
+-    a geojson:Polygon ;
+-    geojson:coordinates ( ( ( 1.0229E1 5.9247E1 ) ( 1.0184E1 5.92E1 ) ( 1.0143E1 5.9139E1 ) ( 
+-      1.0202E1 5.9138E1 ) ( 1.0276E1 5.9161E1 ) ( 1.0311E1 5.9229E1 ) ( 1.0229E1 5.9247E1 ) ) ) ;
+-  ] ;
+-  geojson:properties <urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545> .
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "DIGIN" .
+ 
+-<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset, geojson:FeatureCollection ;
++<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> {
++  <urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset;
+   dcterms:description "Geospartial GridCapacity MAS1"@en ;
+@@ -74,3 +23,3 @@
+   dcterms:conformsTo <http://digin.no/ns/CIM/GeoJSON/1.0> ;
+-  dcterms:issued "2023-02-21T08:08:00.000Z"^^xsd:date ;
++    dcterms:issued "2023-02-21T08:08:00.000Z"^^xsd:dateTime ;
+   dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+@@ -85,7 +34,39 @@
+   dcterms:title "DIGIN10-30-WattApp-GL" ;
+-  geojson:features <urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8> ;
+   prov:generatedAtTime "2023-02-20T16:04:23Z"^^xsd:dateTime .
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b> dcterms:title "DIGIN" .
++  <urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545> a cim:Feeder, geo:Feature ;
++    cim:IdentifiedObject.description "Sandefjord business and industry area"@en ;
++    cim:IdentifiedObject.description "Sandefjord næring og industri område"@no ;
++    cim:IdentifiedObject.mRID "urn:uuid:4e51e598-8948-4c85-b151-f44ffddc5545" ;
++    cim:IdentifiedObject.name "Sandefjord_business_and_industry_area"@en ;
++    cim:IdentifiedObject.name "Sandefjord_næring_og_industri_område"@no ;
++    nc:Feeder.CapacitySchedule [
++      nc:BaseTimeSeries.generatedAtTime "2022-11-07T12:05:43.641Z" ;
++      nc:BaseTimeSeries.interpolationKind nc:TimeSeriesInterpolationKind.previous ;
++      nc:BaseTimeSeries.kind nc:BaseTimeSeriesKind.forecast ;
++      nc:BaseTimeSeries.method "KraftSystemUtredning"@no ;
++      nc:BaseTimeSeries.method "Power System Report"@en ;
++      nc:BaseTimeSeries.percentile "50" ;
++      nc:CapacitySchedule.CapacityTimePoint [
++        nc:CapacityTimePoint.atTime "2028-01-01T23:00:00.000Z"^^xsd:dateTime ;
++        nc:CapacityTimePoint.maxAllocatedP "0"^^xsd:float;
++        nc:CapacityTimePoint.maxAllocatedQ "0"^^xsd:float;
++        nc:CapacityTimePoint.maxP "40"^^xsd:float;
++        nc:CapacityTimePoint.maxQ "0"^^xsd:float;
++        nc:CapacityTimePoint.minAllocatedP "0"^^xsd:float;
++        nc:CapacityTimePoint.minAllocatedQ "0"^^xsd:float;
++        nc:CapacityTimePoint.minP "0"^^xsd:float;
++        nc:CapacityTimePoint.minQ "0"^^xsd:float;
++      ] ;
++      nc:IdentifiedObject.description "Det er i dag liten kapasitet til ny næring og industri langs E18 i Sandefjord. Økt etterspørsel etter kapasitet gir derfor behov for økt transformatorkapasitet i området. Tilgjengelig kapasitet og tidspunkt vil være avhengig av behov og er ikke fastsatt."@no ;
++      nc:IdentifiedObject.description "There is currently little capacity for new business and industry along the E18 in Sandefjord. Increased demand for capacity therefore creates a need for increased transformer capacity in the area. Available capacity and timing will depend on demand and are not fixed."@en ;
++      nc:IdentifiedObject.name "Sandefjord, increased capacity for business and industry"@en ;
++      nc:IdentifiedObject.name "Sandefjord, økt kapasitet til næring og industri"@no ;
++    ] ;
++    geo:hasGeometry <urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8>
++    .
+ 
++  <urn:uuid:58aee5a8-0cd9-467e-b5e7-180ac161d9b8> a geo:Geometry ;
++      geo:asWKT "POLYGON((10.229020984659712 59.24698254345179, 10.18420614097019 59.19982925336586, 10.142883363023742 59.13888033657065, 10.202442484289662 59.13758660552921, 10.276357875828012 59.16126409167293, 10.310502518638259 59.22922084872761, 10.229020984659712 59.24698254345179))"^^geo:wktLiteral .
+ 
++}

@@ -1,0 +1,97 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "DIGIN" .
+
+<urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:description   "Measurement Value Source Reference data (RD) based on IEC 61970-301:2020+AMD1:2022"@en;
+        dcterms:issued        "2022-10-24T21:00:00Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "DIGIN";
+        dcterms:spatial       <http://energy.referencedata.eu/MeasurementValueSource>;
+        dcterms:title         "DIGIN10-30-MeasurementValueSource_RD";
+        dcat:isVersionOf      <https://digin.no/baseprofile/DIGIN10-30-MeasurementValueSource_RD>;
+        dcat:keyword          "RD";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:aca7b76a-77d9-42ce-bd34-67f4b12800f9> {
+    <urn:uuid:e5048824-2bc1-4b72-810b-750981000b6f>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Operator entered value (always manually maintained, PSR is not connected to an RTU)";
+            cim:IdentifiedObject.mRID  "e5048824-2bc1-4b72-810b-750981000b6f";
+            cim:IdentifiedObject.name  "Operator" .
+    
+    <urn:uuid:e44bdf48-20f6-4ee2-941e-57f966d7d937>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Value received from a remote control centre via TASE.2 or other control centre protocol";
+            cim:IdentifiedObject.mRID  "e44bdf48-20f6-4ee2-941e-57f966d7d937";
+            cim:IdentifiedObject.name  "CCLink" .
+    
+    <urn:uuid:c6d71c1d-73fd-4be1-91a0-d520305498cf>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Telemetered values received from a local DMS system";
+            cim:IdentifiedObject.mRID  "c6d71c1d-73fd-4be1-91a0-d520305498cf";
+            cim:IdentifiedObject.name  "DMS" .
+    
+    <urn:uuid:b1a076df-b20d-490d-81a5-6e55efbf403c>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Telemetered values received from a local SCADA system";
+            cim:IdentifiedObject.mRID  "b1a076df-b20d-490d-81a5-6e55efbf403c";
+            cim:IdentifiedObject.name  "SCADA" .
+    
+    <urn:uuid:793bb713-6c01-46ae-b2d0-2977a4981e70>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Value updated as result of a Powerflow";
+            cim:IdentifiedObject.mRID  "793bb713-6c01-46ae-b2d0-2977a4981e70";
+            cim:IdentifiedObject.name  "PowerFlow" .
+    
+    <urn:uuid:6c0bb43a-91b3-4543-8fed-f423ed9124f8>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Calculated from other measurement values (e.g. a sum)";
+            cim:IdentifiedObject.mRID  "6c0bb43a-91b3-4543-8fed-f423ed9124f8";
+            cim:IdentifiedObject.name  "Calculated" .
+    
+    <urn:uuid:4f620500-e428-4a6c-b3f9-96089de113ee>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Value that is planned or forecasted.";
+            cim:IdentifiedObject.mRID  "4f620500-e428-4a6c-b3f9-96089de113ee";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <urn:uuid:4a6b2a0e-ebfc-44c5-96a0-f318278bd03a>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Value updated by a state estimator";
+            cim:IdentifiedObject.mRID  "4a6b2a0e-ebfc-44c5-96a0-f318278bd03a";
+            cim:IdentifiedObject.name  "Estimated" .
+    
+    <urn:uuid:27b2f26a-1444-4d4f-99ae-93d31bb935cf>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Calculated by a load allocator";
+            cim:IdentifiedObject.mRID  "27b2f26a-1444-4d4f-99ae-93d31bb935cf";
+            cim:IdentifiedObject.name  "Allocated" .
+}
