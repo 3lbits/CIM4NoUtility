@@ -1,0 +1,259 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "ElBits" .
+
+<urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0> , <http://iec.ch/TC57/ns/CIM/ShortCircuit/4.0>;
+        dcterms:description   "Telemark-120 CGMES v3.0 Medium Voltage 1 (MV1) Equipment Short-Circuit (SC) Model"@en;
+        dcterms:issued        "2022-03-30T16:26:37.958Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:references    <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "ElBits";
+        dcterms:spatial       <https://diginenergi.no/Telemark-120/MV1>;
+        dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
+                                dcat:startDate  "2022-03-30T23:00:00Z"^^xsd:dateTime
+                              ];
+        dcterms:title         "Telemark-120-MV1_SC";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-MV1_SC>;
+        dcat:keyword          "SC";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:9f36f713-b4d4-40a6-809f-9c342c3110ce> {
+    <urn:uuid:ed8865cf-8b36-42ce-acdc-0627b5f55802>
+            rdf:type                   cim:EquivalentInjection;
+            cim:EquivalentInjection.r  4.3445E-1;
+            cim:EquivalentInjection.x  4.3445E0;
+            cim:IdentifiedObject.mRID  "ed8865cf-8b36-42ce-acdc-0627b5f55802" .
+    
+    <urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "d1afcb93-f7d9-4e93-8c91-bbeb35f2a322" .
+    
+    <urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "cf484bc9-2ef9-4116-a5a9-9a5db3e09df9" .
+    
+    <urn:uuid:c9d5445c-9ad6-3849-9e02-08762805826b>
+            rdf:type                   cim:PetersenCoil;
+            cim:IdentifiedObject.mRID  "c9d5445c-9ad6-3849-9e02-08762805826b" .
+    
+    <urn:uuid:c70c1ea0-c58b-624b-ab6a-0072ad2eea25>
+            rdf:type                    cim:EquivalentInjection;
+            cim:EquivalentInjection.r   3.16799999E-1;
+            cim:EquivalentInjection.r0  1.267199996E0;
+            cim:EquivalentInjection.x   7.4644242E-2;
+            cim:EquivalentInjection.x0  2.98576969E-1;
+            cim:IdentifiedObject.mRID   "c70c1ea0-c58b-624b-ab6a-0072ad2eea25" .
+    
+    <urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "b1b4714b-a160-7742-84d5-d6486d776c94" .
+    
+    <urn:uuid:ab5aff23-cc0c-40a9-ab1b-7c113822358e>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "ab5aff23-cc0c-40a9-ab1b-7c113822358e" .
+    
+    <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "92d33be4-7034-11eb-a65a-74e5f963e191" .
+    
+    <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "92d33bcc-7034-11eb-a65a-74e5f963e191" .
+    
+    <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "92d33b99-7034-11eb-a65a-74e5f963e191" .
+    
+    <urn:uuid:681a30a8-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a30a8-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a309e-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a309e-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:IdentifiedObject.mRID  "681a309b-5a55-11eb-a658-74e5f963e191";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a3094-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a3094-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a308a-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a308a-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:IdentifiedObject.mRID  "681a3087-5a55-11eb-a658-74e5f963e191";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a2fea-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a2fea-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a2fe0-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a2fe0-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:IdentifiedObject.mRID  "681a2fdd-5a55-11eb-a658-74e5f963e191";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a2fd8-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a2fd8-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a2fce-5a55-11eb-a658-74e5f963e191>
+            rdf:type                     cim:PowerTransformerEnd;
+            cim:IdentifiedObject.mRID    "681a2fce-5a55-11eb-a658-74e5f963e191";
+            cim:TransformerEnd.grounded  false .
+    
+    <urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:IdentifiedObject.mRID  "681a2fcb-5a55-11eb-a658-74e5f963e191";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a2a7f-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "681a2a7f-5a55-11eb-a658-74e5f963e191" .
+    
+    <urn:uuid:681a2a13-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "681a2a13-5a55-11eb-a658-74e5f963e191" .
+    
+    <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "681a26f3-5a55-11eb-a658-74e5f963e191" .
+    
+    <urn:uuid:681a26db-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "681a26db-5a55-11eb-a658-74e5f963e191" .
+    
+    <urn:uuid:681a26cf-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "681a26cf-5a55-11eb-a658-74e5f963e191" .
+    
+    <urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa>
+            rdf:type                   cim:PetersenCoil;
+            cim:IdentifiedObject.mRID  "62585c75-b020-614c-89a1-fec7c118c3fa" .
+    
+    <urn:uuid:33666962-c2f9-4f6b-af5a-2ef1982ac282>
+            rdf:type                   cim:SynchronousMachine;
+            cim:IdentifiedObject.mRID  "33666962-c2f9-4f6b-af5a-2ef1982ac282";
+            cim:SynchronousMachine.r   4.3445E-1 .
+    
+    <urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.b0ch     0;
+            cim:ACLineSegment.g0ch     0;
+            cim:ACLineSegment.r0       3.0E-1;
+            cim:ACLineSegment.shortCircuitEndTemperature
+                    160;
+            cim:ACLineSegment.x0       9.0E-1;
+            cim:IdentifiedObject.mRID  "1f19556f-4604-8545-b930-0d96b163c57a" .
+}

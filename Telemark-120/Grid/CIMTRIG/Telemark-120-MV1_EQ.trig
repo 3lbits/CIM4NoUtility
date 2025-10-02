@@ -1,0 +1,3603 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "ElBits" .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16> {
+    <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0>;
+        dcterms:description   "Telemark-120 CGMES v3.0 Medium Voltage 1 (MV1) Core Equipment (EQ) Model"@en;
+        dcterms:issued        "2022-03-30T16:26:37.958Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:references    <urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "ElBits";
+        dcterms:spatial       <https://diginenergi.no/Telemark-120/MV1>;
+        dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
+                                dcat:startDate  "2022-03-30T23:00:00Z"^^xsd:dateTime
+                              ];
+        dcterms:title         "Telemark-120-MV1_EQ";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-MV1_EQ>;
+        dcat:keyword          "EQ";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+    <urn:uuid:ffb2f7d9-b099-4ecb-be93-9071b755ceab>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "T_Engene BS";
+            cim:IdentifiedObject.mRID      "ffb2f7d9-b099-4ecb-be93-9071b755ceab";
+            cim:IdentifiedObject.name      "T1 132 T_ENGENE BS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:abbab805-9b44-4c2d-93c2-45a691f71cd1>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:b20e4b70-f546-48b1-82e8-66b138fd7ae2> .
+    
+    <urn:uuid:ff2e9331-31f5-0247-ac4c-77a2bc179624>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>;
+            cim:IdentifiedObject.mRID  "ff2e9331-31f5-0247-ac4c-77a2bc179624";
+            cim:IdentifiedObject.name  "FROLAND 132 BA1 CN 001" .
+    
+    <urn:uuid:fd338915-3831-4cc5-8c55-af2b4c1c2bb8>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Arendal 1 A Disconnector ";
+            cim:IdentifiedObject.mRID  "fd338915-3831-4cc5-8c55-af2b4c1c2bb8";
+            cim:IdentifiedObject.name  "FROLAND 132 AR1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:fc3c9e4a-a573-4f55-ab9e-18f4c0f3a3d2>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "fc3c9e4a-a573-4f55-ab9e-18f4c0f3a3d2";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 BA1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:2714d85d-92e7-4f88-a488-f39e782a6298>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:8a6562a6-8eb8-49e3-92a1-155587726e3f> .
+    
+    <urn:uuid:fa9b4957-62cd-4146-8483-a9620bf5ba3f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "fa9b4957-62cd-4146-8483-a9620bf5ba3f";
+            cim:IdentifiedObject.name      "T1 NEDENES 22 T1 ALB_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:20605037-a626-4691-8601-89666564ff87>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2178-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:fa0a4d49-abad-4371-a75e-3051034a834a>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Bus Side";
+            cim:IdentifiedObject.mRID      "fa0a4d49-abad-4371-a75e-3051034a834a";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 NT1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:57b1462c-259c-426b-86f9-f6f6f2af9c5c>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:f8846bea-b1a3-4b2c-8da5-7fa0231079f6>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "ACLS Side";
+            cim:IdentifiedObject.mRID      "f8846bea-b1a3-4b2c-8da5-7fa0231079f6";
+            cim:IdentifiedObject.name      "T2 ARENDAL 132 T1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:48668646-105a-490d-aaad-3259b852aa23>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f> .
+    
+    <urn:uuid:f822f3a2-4516-9048-913a-b808866ec168>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "f822f3a2-4516-9048-913a-b808866ec168";
+            cim:IdentifiedObject.name     "PATL T2 22 TELEMA 2 ACLS 4";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:e7c2e720-4e7c-bc4d-a38b-e5b7fafe09b0>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:f7d8e580-296d-4c2a-b989-1eb4db7af387>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:5b299df4-d232-4348-9d1e-096f6d10fb5a>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Shunt Batteri Breaker";
+            cim:IdentifiedObject.mRID  "f7d8e580-296d-4c2a-b989-1eb4db7af387";
+            cim:IdentifiedObject.name  "ENGENE 22 SBE";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:f6e8c471-b1eb-467b-af68-78c6aa25771b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "T_Engene Side";
+            cim:IdentifiedObject.mRID      "f6e8c471-b1eb-467b-af68-78c6aa25771b";
+            cim:IdentifiedObject.name      "T1 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e24-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "f681a7bd-f378-4c49-89b9-2fb70ec52c6a";
+            cim:IdentifiedObject.name  "LS T2 ARENDAL T1 132 S";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bf7-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:f677795c-3419-4623-9e5d-4a0287903492>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 132 T_ENGENE-ENGENE";
+            cim:IdentifiedObject.mRID  "f677795c-3419-4623-9e5d-4a0287903492";
+            cim:IdentifiedObject.name  "LC 132T_ENGENE-ENGENE";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:f4e2587e-c4f9-e34c-a20e-d724f9e89af1>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "f4e2587e-c4f9-e34c-a20e-d724f9e89af1";
+            cim:IdentifiedObject.name  "LS T2 22 TELEMA 2 ACLS 4";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:eaa32378-2082-4b76-92df-09fa5f8b8b51> .
+    
+    <urn:uuid:f48c2263-2375-446c-8ee5-6fa8ef2825d9>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>;
+            cim:IdentifiedObject.mRID  "f48c2263-2375-446c-8ee5-6fa8ef2825d9";
+            cim:IdentifiedObject.name  "FROLAND CN 010" .
+    
+    <urn:uuid:f3b95f0e-d18e-4d14-a61a-79c020ac8c30>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "f3b95f0e-d18e-4d14-a61a-79c020ac8c30";
+            cim:IdentifiedObject.name      "T1 22 TELEMA 2 BR1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ec60b5b3-1ffc-f940-8ce5-140d04267667> .
+    
+    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Bamble 1 Bay";
+            cim:IdentifiedObject.mRID  "f2b5acf1-6067-4d18-9d75-ea1611013a3d";
+            cim:IdentifiedObject.name  "FROLAND 132 BA Ba1" .
+    
+    <urn:uuid:ef17168b-d7ee-7548-9822-e10bbbcec793>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "ef17168b-d7ee-7548-9822-e10bbbcec793";
+            cim:IdentifiedObject.name      "T1 NEDENES 04 LV EQV";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:c70c1ea0-c58b-624b-ab6a-0072ad2eea25>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d> .
+    
+    <urn:uuid:ee06cf5c-6eeb-1141-bf78-24098e198fc0>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "ee06cf5c-6eeb-1141-bf78-24098e198fc0";
+            cim:IdentifiedObject.name  "LS T1 22 ENGENE-ZT1 ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:b4e0a331-3de4-4ac8-802b-a8eb031ce568> .
+    
+    <urn:uuid:ed8865cf-8b36-42ce-acdc-0627b5f55802>
+            rdf:type                      cim:EquivalentInjection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3>;
+            cim:EquivalentInjection.maxP  300;
+            cim:EquivalentInjection.maxQ  100;
+            cim:EquivalentInjection.minP  0;
+            cim:EquivalentInjection.minQ  -100;
+            cim:EquivalentInjection.r     4.3445E-1;
+            cim:EquivalentInjection.regulationCapability
+                    false;
+            cim:EquivalentInjection.x     4.3445E0;
+            cim:IdentifiedObject.description
+                    "Arendal 420kV Transmission Equivalent";
+            cim:IdentifiedObject.mRID     "ed8865cf-8b36-42ce-acdc-0627b5f55802";
+            cim:IdentifiedObject.name     "ARENDAL 420 TM EQV" .
+    
+    <urn:uuid:ecd42e0b-67a4-4ebe-911b-c3f3146e6bed>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>;
+            cim:IdentifiedObject.mRID  "ecd42e0b-67a4-4ebe-911b-c3f3146e6bed";
+            cim:IdentifiedObject.name  "ENGENE CN 021" .
+    
+    <urn:uuid:ec60b5b3-1ffc-f940-8ce5-140d04267667>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:47f5ebe7-1d03-4d20-b599-9b6068319987>;
+            cim:IdentifiedObject.mRID  "ec60b5b3-1ffc-f940-8ce5-140d04267667";
+            cim:IdentifiedObject.name  "NEDENES CN 004" .
+    
+    <urn:uuid:eb9b50c9-e363-0940-a177-2b7abd47f398>
+            rdf:type                   cim:ConformLoad;
+            cim:ConformLoad.LoadGroup  <urn:uuid:0b8f03ae-b704-664c-8665-49300c9c1fff>;
+            cim:EnergyConsumer.LoadResponse
+                    <urn:uuid:6963e27e-9aaa-df42-a71c-1268f02e472f>;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>;
+            cim:Equipment.aggregate    true;
+            cim:IdentifiedObject.description
+                    "Engene 230V Netrual Transformer 1 Conform Load";
+            cim:IdentifiedObject.mRID  "eb9b50c9-e363-0940-a177-2b7abd47f398";
+            cim:IdentifiedObject.name  "ENGENE 023 ZT1 CL" .
+    
+    <urn:uuid:eaa32378-2082-4b76-92df-09fa5f8b8b51>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "eaa32378-2082-4b76-92df-09fa5f8b8b51";
+            cim:IdentifiedObject.name      "T1 22 TELEMA 2 ACLS4";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:9bf03de1-7f35-4dfe-86aa-29dff75a6962> .
+    
+    <urn:uuid:e7c2e720-4e7c-bc4d-a38b-e5b7fafe09b0>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "e7c2e720-4e7c-bc4d-a38b-e5b7fafe09b0";
+            cim:IdentifiedObject.name  "LS T2 22 ZT1-EFC ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:0851452b-3751-0843-b8e3-74f14543907b> .
+    
+    <urn:uuid:e72f44bf-2c81-4329-a902-233eec3a9a8b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "e72f44bf-2c81-4329-a902-233eec3a9a8b";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 BA1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:e63a5023-05b9-4adf-bafd-a372b751a6ed>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:71f76f1e-c868-44c9-bcff-86f2e5eb3202> .
+    
+    <urn:uuid:e63a5023-05b9-4adf-bafd-a372b751a6ed>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Bamble 1 A Disconnector";
+            cim:IdentifiedObject.mRID  "e63a5023-05b9-4adf-bafd-a372b751a6ed";
+            cim:IdentifiedObject.name  "FROLAND 132 BA1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:e5e585f8-423e-c049-8e8e-58bda1ec78e8>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "e5e585f8-423e-c049-8e8e-58bda1ec78e8";
+            cim:IdentifiedObject.name     "PATL T1 132 ARENDAL-T1 ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:2b69675e-dd3b-0e47-9039-845c5b5095f4>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:bec6d236-5e89-403b-b7d5-5799eaeea1ce>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV Petersen Coil 1 Breaker";
+            cim:IdentifiedObject.mRID  "e3b199ca-485b-4df8-99f0-fdd5e4f3ff73";
+            cim:IdentifiedObject.name  "ARENDAL 132 T1SP1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:e3a5b7c5-fa48-42f9-9b13-2ceb5b540bd6>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV Engene 1 Bay";
+            cim:IdentifiedObject.mRID  "e3a5b7c5-fa48-42f9-9b13-2ceb5b540bd6";
+            cim:IdentifiedObject.name  "NEDENES 22 E Ba1" .
+    
+    <urn:uuid:e36ac936-4891-4871-b3b5-604e0d163922>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "e36ac936-4891-4871-b3b5-604e0d163922";
+            cim:IdentifiedObject.name      "T2 ENGENE 132 T1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:d4afd20b-a007-43f0-9736-4a868c4cc65a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:457c0964-f107-4223-a3c3-92eff4b11f5c> .
+    
+    <urn:uuid:e2dfb756-4b1e-f34b-a0be-880ea3a2ef50>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "e2dfb756-4b1e-f34b-a0be-880ea3a2ef50";
+            cim:IdentifiedObject.name      "T1 ARENDAL 132 T1 PC";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465>;
+            cim:Terminal.phases            cim:PhaseCode.N .
+    
+    <urn:uuid:e190ae57-ed18-f340-90c2-ddbbfe168ed8>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "e190ae57-ed18-f340-90c2-ddbbfe168ed8";
+            cim:IdentifiedObject.name      "T1 ARENDAL 420 TM EQV";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:ed8865cf-8b36-42ce-acdc-0627b5f55802>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c> .
+    
+    <urn:uuid:e07eda57-aafe-384d-9f7b-3ed4ed8e1da0>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 22 ENGENE-T1 ACLS 1 1";
+            cim:IdentifiedObject.mRID  "e07eda57-aafe-384d-9f7b-3ed4ed8e1da0";
+            cim:IdentifiedObject.name  "LC 22 ENGENE-T1 ACLS 1 1";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:df8139f5-361f-9846-b6ff-aaa351935dbb>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "df8139f5-361f-9846-b6ff-aaa351935dbb";
+            cim:IdentifiedObject.name     "TATL T2 132 FROLAND-T_ENGENE ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:105b264a-2ab7-2441-bb32-aae12a3cfa51>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:deb8bef1-6ddc-49fe-bf8f-a2252b2f5cc4>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "deb8bef1-6ddc-49fe-bf8f-a2252b2f5cc4";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 SBE";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:f7d8e580-296d-4c2a-b989-1eb4db7af387>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2169-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:de98fb60-241a-5e47-a390-ac62f1d20079>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "de98fb60-241a-5e47-a390-ac62f1d20079";
+            cim:IdentifiedObject.name     "TATL T2 132 ARENDAL-FROLAND ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:4219ab33-927a-bb43-9506-b9b1b3487afd>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:dd41276d-9ea7-47a8-a0f3-65215c8225a5>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:7544cd75-be72-9644-b333-a932ff3ba603>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Engene 023kV NT1 Breaker";
+            cim:IdentifiedObject.mRID  "dd41276d-9ea7-47a8-a0f3-65215c8225a5";
+            cim:IdentifiedObject.name  "ENGENE 023 NT1BR";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    32;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:dd01dba2-04ba-46a6-9752-37010d7c7e45>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:7aff3ae4-1afa-b046-af50-4e8222f094ef>;
+            cim:IdentifiedObject.mRID  "dd01dba2-04ba-46a6-9752-37010d7c7e45";
+            cim:IdentifiedObject.name  "ENGENE CN 011" .
+    
+    <urn:uuid:db529221-814c-4f40-ab73-a7084d6308b7>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "db529221-814c-4f40-ab73-a7084d6308b7";
+            cim:IdentifiedObject.name      "T2 22 TELEMA 2 ACLS4";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:d5b4c5ad-1762-8e43-9330-6ec8f7d97bce> .
+    
+    <urn:uuid:d975d3c6-4aa8-e143-9188-a86cee4db583>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "d975d3c6-4aa8-e143-9188-a86cee4db583";
+            cim:IdentifiedObject.name  "LS T2 132 ARENDAL-T1 ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:5b2bb253-421b-b14e-9d6c-ca972e830e4a> .
+    
+    <urn:uuid:d87b4358-2aaf-46a0-bf1e-e63edc2352a8>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "d87b4358-2aaf-46a0-bf1e-e63edc2352a8";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 AR1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:41e0788e-9dc5-4bf0-862b-f2a99e421602>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:c5889457-95dd-408e-ba1b-621d27d606c0> .
+    
+    <urn:uuid:d6d1a951-08c8-468b-b9b3-011774b9a769>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "d6d1a951-08c8-468b-b9b3-011774b9a769";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 EN1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:2fb546e7-9e06-4356-a3ad-7e3756c34f6a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:f48c2263-2375-446c-8ee5-6fa8ef2825d9> .
+    
+    <urn:uuid:d6520dc7-c5b2-4ac5-bdba-04d02ec87472>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Froland Side";
+            cim:IdentifiedObject.mRID      "d6520dc7-c5b2-4ac5-bdba-04d02ec87472";
+            cim:IdentifiedObject.name      "T2 132ARENDAL-FROLAND1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:c5889457-95dd-408e-ba1b-621d27d606c0> .
+    
+    <urn:uuid:d5b4c5ad-1762-8e43-9330-6ec8f7d97bce>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:47f5ebe7-1d03-4d20-b599-9b6068319987>;
+            cim:IdentifiedObject.mRID  "d5b4c5ad-1762-8e43-9330-6ec8f7d97bce";
+            cim:IdentifiedObject.name  "NEDENES CN 002" .
+    
+    <urn:uuid:d4f4ebe8-2eed-f04f-9000-676f6778a959>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 22 ZT1-EFC ACLS 1";
+            cim:IdentifiedObject.mRID  "d4f4ebe8-2eed-f04f-9000-676f6778a959";
+            cim:IdentifiedObject.name  "LC 22 ZT1-EFC ACLS 1";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:d4afd20b-a007-43f0-9736-4a868c4cc65a>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:9441fd8e-3941-4e4f-844d-223701649f52>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Engene 132kV T1 Breaker";
+            cim:IdentifiedObject.mRID  "d4afd20b-a007-43f0-9736-4a868c4cc65a";
+            cim:IdentifiedObject.name  "ENGENE 132 T1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1600;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "Engene 230V Voltage Level";
+            cim:IdentifiedObject.mRID     "d4addb12-e956-e44b-9a9d-f118fdbe49f8";
+            cim:IdentifiedObject.name     "ENGENE 023 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4>;
+            cim:VoltageLevel.Substation   <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV Voltage Level";
+            cim:IdentifiedObject.mRID     "d4959144-d4c4-4885-a5fd-2a8ad9abbe2c";
+            cim:IdentifiedObject.name     "ARENDAL 132 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:VoltageLevel.Substation   <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:IdentifiedObject.mRID  "d33115d5-f70a-7543-818c-f15f9b7d4501";
+            cim:IdentifiedObject.name  "ARENDAL CN 009" .
+    
+    <urn:uuid:d2a2232a-024f-467c-b698-2b16ddf2547a>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "d2a2232a-024f-467c-b698-2b16ddf2547a";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 EN1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:75f12fd9-2057-4b79-9f19-73736a0f2a6d>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:7a91b6ba-ac49-4486-99c9-027e2130059f> .
+    
+    <urn:uuid:d1b627f7-1429-4a78-845a-17e9a7068a4f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "d1b627f7-1429-4a78-845a-17e9a7068a4f";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 NT1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:57b1462c-259c-426b-86f9-f6f6f2af9c5c>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:4e8ec3b0-386c-43d4-8311-e98d8a8f565a> .
+    
+    <urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        3.1E0;
+            cim:ACLineSegment.x        7.0E-1;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:Conductor.length       5;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:2dc165a0-39fb-6541-81d8-4daee82b2932>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV Telemarkstien 2 ACLineSegment 4";
+            cim:IdentifiedObject.mRID  "d1afcb93-f7d9-4e93-8c91-bbeb35f2a322";
+            cim:IdentifiedObject.name  "22 TELEMA 2 ACLS 4" .
+    
+    <urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1.278E-3;
+            cim:ACLineSegment.x        3.016E-4;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c>;
+            cim:Conductor.length       4;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:7a0c868b-eaa1-814b-97a8-c7e112c7a027>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "400V Telemarkstien 2 ACLineSegment 3";
+            cim:IdentifiedObject.mRID  "cf484bc9-2ef9-4116-a5a9-9a5db3e09df9";
+            cim:IdentifiedObject.name  "04 TELEMA 2 ACLS 3" .
+    
+    <urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV T1 S Disconnector";
+            cim:IdentifiedObject.mRID  "ce365fed-87da-da4c-b646-6d39ba7eb406";
+            cim:IdentifiedObject.name  "ARENDAL 132 T1 SD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1600;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:cdc8afca-5a57-ad4a-84ef-f6a236e20463>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 023 ZT1-EFC ACLS 1";
+            cim:IdentifiedObject.mRID  "cdc8afca-5a57-ad4a-84ef-f6a236e20463";
+            cim:IdentifiedObject.name  "LC 023 ZT1-EFC ACLS 1";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:ccbe9368-07f4-184b-b3e5-9af9b1a08592>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "ACLS Side";
+            cim:IdentifiedObject.mRID      "ccbe9368-07f4-184b-b3e5-9af9b1a08592";
+            cim:IdentifiedObject.name      "T2 ARENDAL 132 T1 SD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95> .
+    
+    <urn:uuid:cc0fef15-9e1b-4b59-8ca2-0b002c6556e1>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>;
+            cim:IdentifiedObject.mRID  "cc0fef15-9e1b-4b59-8ca2-0b002c6556e1";
+            cim:IdentifiedObject.name  "FROLAND CN 004" .
+    
+    <urn:uuid:cb57417c-d86a-4a42-a6a6-e0f53d9331c0>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 023 ZT1-EFC ACLS 2";
+            cim:IdentifiedObject.mRID  "cb57417c-d86a-4a42-a6a6-e0f53d9331c0";
+            cim:IdentifiedObject.name  "LC 023 ZT1-EFC ACLS 2";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:cb3849f8-60a6-406b-8567-39293b5a1f76>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "cb3849f8-60a6-406b-8567-39293b5a1f76";
+            cim:IdentifiedObject.name      "T2 ENGENE 132 T1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a8f889e8-53f2-494b-97b9-c5dcbc1d17c7>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:457c0964-f107-4223-a3c3-92eff4b11f5c> .
+    
+    <urn:uuid:c9d5445c-9ad6-3849-9e02-08762805826b>
+            rdf:type                   cim:PetersenCoil;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV ZT1-EFC Petersen Coil";
+            cim:IdentifiedObject.mRID  "c9d5445c-9ad6-3849-9e02-08762805826b";
+            cim:IdentifiedObject.name  "22 ZT1-EFC PC" .
+    
+    <urn:uuid:c8231145-5610-4245-b1a1-572fecb643d8>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "c8231145-5610-4245-b1a1-572fecb643d8";
+            cim:IdentifiedObject.name     "PATL T2 132 FROLAND-T_ENGENE ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:105b264a-2ab7-2441-bb32-aae12a3cfa51>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:c7ef29bd-8a14-e343-a03f-9b1b6d343e44>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line ENGENE-NEDENES ACLS 1";
+            cim:IdentifiedObject.mRID  "c7ef29bd-8a14-e343-a03f-9b1b6d343e44";
+            cim:IdentifiedObject.name  "LC 22 ENGENE-NEDENES ACLS 1";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:c70c1ea0-c58b-624b-ab6a-0072ad2eea25>
+            rdf:type                      cim:EquivalentInjection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191>;
+            cim:EquivalentInjection.maxP  6.5E-2;
+            cim:EquivalentInjection.maxQ  7.28E-3;
+            cim:EquivalentInjection.minP  1.3E-2;
+            cim:EquivalentInjection.minQ  1.43E-3;
+            cim:EquivalentInjection.r     3.16799999E-1;
+            cim:EquivalentInjection.regulationCapability
+                    false;
+            cim:EquivalentInjection.x     7.4644242E-2;
+            cim:IdentifiedObject.description
+                    "Nedenes 400V Low Voltage Equivalent";
+            cim:IdentifiedObject.mRID     "c70c1ea0-c58b-624b-ab6a-0072ad2eea25";
+            cim:IdentifiedObject.name     "NEDENES 04 LV EQV" .
+    
+    <urn:uuid:c5889457-95dd-408e-ba1b-621d27d606c0>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>;
+            cim:IdentifiedObject.mRID  "c5889457-95dd-408e-ba1b-621d27d606c0";
+            cim:IdentifiedObject.name  "FROLAND CN 001" .
+    
+    <urn:uuid:c3594d55-896e-7447-a90b-6b3c087b788e>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  727;
+            cim:IdentifiedObject.mRID     "c3594d55-896e-7447-a90b-6b3c087b788e";
+            cim:IdentifiedObject.name     "PATL T2 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:5227cc47-799d-3b4f-bf79-c0fee6d63e4a>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "c2797e60-6614-4c5f-9090-ed8cef7b15b5";
+            cim:IdentifiedObject.name      "T2 04 TELEMA 2 ACLS 3";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d> .
+    
+    <urn:uuid:bec6d236-5e89-403b-b7d5-5799eaeea1ce>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV PetersenCoil 1 Bay";
+            cim:IdentifiedObject.mRID  "bec6d236-5e89-403b-b7d5-5799eaeea1ce";
+            cim:IdentifiedObject.name  "ARENDAL 132 PC Ba1" .
+    
+    <urn:uuid:bec25a71-68ca-496f-ad8a-edf43f6e6982>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "ACLS Side";
+            cim:IdentifiedObject.mRID      "bec25a71-68ca-496f-ad8a-edf43f6e6982";
+            cim:IdentifiedObject.name      "T1 NEDENES 22 E1 LB_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:92d33b34-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:bd381b90-7f6e-8a45-bff0-1370214c234c>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "bd381b90-7f6e-8a45-bff0-1370214c234c";
+            cim:IdentifiedObject.name     "PATL T1 ENGENE T1 132 P";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:5a7908d7-612b-2346-918a-b7b6d458475a>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:b9bbb321-d34a-c142-a321-b4fa3ac440cb>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "b9bbb321-d34a-c142-a321-b4fa3ac440cb";
+            cim:IdentifiedObject.name      "T2 ENGENE 132 T1 SD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a450fac1-80a9-cd4d-aa26-0223af980b17>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:68fd81e3-9e30-6b4c-a373-84c6387d6780> .
+    
+    <urn:uuid:b8b9b131-6eb7-41c7-899e-7003960b1a5f>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:5b299df4-d232-4348-9d1e-096f6d10fb5a>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Shunt battery A Disconnector";
+            cim:IdentifiedObject.mRID  "b8b9b131-6eb7-41c7-899e-7003960b1a5f";
+            cim:IdentifiedObject.name  "ENGENE 22 SB AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:b7057d99-e21a-4ba1-9cef-15aeeee4232a>
+            rdf:type                     cim:GeneratingUnit;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f>;
+            cim:Equipment.aggregate      false;
+            cim:Equipment.normallyInService
+                    true;
+            cim:GeneratingUnit.highControlLimit
+                    380;
+            cim:GeneratingUnit.initialP  178;
+            cim:GeneratingUnit.lowControlLimit
+                    0;
+            cim:GeneratingUnit.maxEconomicP
+                    280;
+            cim:GeneratingUnit.maxOperatingP
+                    300;
+            cim:GeneratingUnit.minEconomicP
+                    0;
+            cim:GeneratingUnit.minOperatingP
+                    0;
+            cim:GeneratingUnit.nominalP  200;
+            cim:GeneratingUnit.ratedGrossMaxP
+                    380;
+            cim:GeneratingUnit.ratedNetMaxP
+                    350;
+            cim:IdentifiedObject.description
+                    "Arendal 420kV Transmission Equivalent";
+            cim:IdentifiedObject.mRID    "b7057d99-e21a-4ba1-9cef-15aeeee4232a";
+            cim:IdentifiedObject.name    "ARENDAL 420  G1" .
+    
+    <urn:uuid:b581556c-f18b-4120-bc90-a89ef37448e9>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "b581556c-f18b-4120-bc90-a89ef37448e9";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 EN1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:1ac100c3-7a71-4b22-b32c-47fd73c3d01a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e62-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:b4e0a331-3de4-4ac8-802b-a8eb031ce568>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Engene Side";
+            cim:IdentifiedObject.mRID      "b4e0a331-3de4-4ac8-802b-a8eb031ce568";
+            cim:IdentifiedObject.name      "T1 22 ENGENE-ZT1 ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a26cf-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:dd01dba2-04ba-46a6-9752-37010d7c7e45> .
+    
+    <urn:uuid:b395d763-b35d-1e45-85d8-05da6a0bb6ab>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "b395d763-b35d-1e45-85d8-05da6a0bb6ab";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 A";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a1eac-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e62-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:b2fe839d-37f8-42f6-a52c-5cea12165e60>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 132kV T-junction Engene 1 Bay";
+            cim:IdentifiedObject.mRID  "b2fe839d-37f8-42f6-a52c-5cea12165e60";
+            cim:IdentifiedObject.name  "ENGENE 132 T_E Ba1" .
+    
+    <urn:uuid:b20e4b70-f546-48b1-82e8-66b138fd7ae2>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e3e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "b20e4b70-f546-48b1-82e8-66b138fd7ae2";
+            cim:IdentifiedObject.name  "T_ENGENE CN 003" .
+    
+    <urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1.9E0;
+            cim:ACLineSegment.x        7.0E-1;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:Conductor.length       13;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:d4f4ebe8-2eed-f04f-9000-676f6778a959>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV ZT1-EFC ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "b1b4714b-a160-7742-84d5-d6486d776c94";
+            cim:IdentifiedObject.name  "22 ZT1-EFC ACLS 1" .
+    
+    <urn:uuid:b16294fe-269c-4f3d-b6af-4bc473c663d6>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:29ace056-c4e8-46ea-8935-38f32ddbee49>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Engene 22kV T1 Breaker";
+            cim:IdentifiedObject.mRID  "b16294fe-269c-4f3d-b6af-4bc473c663d6";
+            cim:IdentifiedObject.name  "ENGENE 22 T1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1250;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:b0e72714-9f93-c444-913f-a2437efb1d7e>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "b0e72714-9f93-c444-913f-a2437efb1d7e";
+            cim:IdentifiedObject.name     "TATL T1 ENGENE T1 132 P";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:5a7908d7-612b-2346-918a-b7b6d458475a>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:abbab805-9b44-4c2d-93c2-45a691f71cd1>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "T-Junction Engene 132kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "abbab805-9b44-4c2d-93c2-45a691f71cd1";
+            cim:IdentifiedObject.name  "T_ENGENE 132A" .
+    
+    <urn:uuid:ab9b57dd-c5f7-49c1-95a1-56d1f650db21>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>;
+            cim:IdentifiedObject.mRID  "ab9b57dd-c5f7-49c1-95a1-56d1f650db21";
+            cim:IdentifiedObject.name  "ENGENE CN 020" .
+    
+    <urn:uuid:ab5aff23-cc0c-40a9-ab1b-7c113822358e>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1.25E1;
+            cim:ACLineSegment.x        8.5E-1;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4>;
+            cim:Conductor.length       1.05E1;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:cb57417c-d86a-4a42-a6a6-e0f53d9331c0>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "230V ZT1-EFC ACLineSegment 2";
+            cim:IdentifiedObject.mRID  "ab5aff23-cc0c-40a9-ab1b-7c113822358e";
+            cim:IdentifiedObject.name  "023 ZT1-EFC ACLS 2" .
+    
+    <urn:uuid:a982d4f5-7307-3942-ab95-b3cac858d733>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "a982d4f5-7307-3942-ab95-b3cac858d733";
+            cim:IdentifiedObject.name     "TATL T1 132 ARENDAL-FROLAND ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:940fdf54-1e42-9840-a37f-7806a54f9e4b>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:a93aa804-2baf-4bef-b283-766fe00a4e71>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:5b299df4-d232-4348-9d1e-096f6d10fb5a>;
+            cim:IdentifiedObject.mRID  "a93aa804-2baf-4bef-b283-766fe00a4e71";
+            cim:IdentifiedObject.name  "ENGENE CN 007" .
+    
+    <urn:uuid:a8f889e8-53f2-494b-97b9-c5dcbc1d17c7>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:b2fe839d-37f8-42f6-a52c-5cea12165e60>;
+            cim:IdentifiedObject.description
+                    "Engene 132kV Transformer 1 A Disconnector";
+            cim:IdentifiedObject.mRID  "a8f889e8-53f2-494b-97b9-c5dcbc1d17c7";
+            cim:IdentifiedObject.name  "ENGENE 132 T1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1600;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV T1 L Disconnector";
+            cim:IdentifiedObject.mRID  "a8afc199-8a20-41d8-8ada-5261202610eb";
+            cim:IdentifiedObject.name  "ARENDAL 132 T1 LD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1600;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:a56293ef-1f47-4837-a124-4ce3f3b75c9f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "a56293ef-1f47-4837-a124-4ce3f3b75c9f";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 EN1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:75f12fd9-2057-4b79-9f19-73736a0f2a6d>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:f48c2263-2375-446c-8ee5-6fa8ef2825d9> .
+    
+    <urn:uuid:a4c98c27-2025-413a-b0e3-152d1cdf425d>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Breaker Side";
+            cim:IdentifiedObject.mRID      "a4c98c27-2025-413a-b0e3-152d1cdf425d";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 NE1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:93fb8ecd-7d8f-40b3-8777-be000fb8e0e3>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:5346a24c-57fa-4f68-a879-6400d46cb5bd> .
+    
+    <urn:uuid:a450fac1-80a9-cd4d-aa26-0223af980b17>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:9441fd8e-3941-4e4f-844d-223701649f52>;
+            cim:IdentifiedObject.description
+                    "Engene 132kV Transformer 1 S Disconnector";
+            cim:IdentifiedObject.mRID  "a450fac1-80a9-cd4d-aa26-0223af980b17";
+            cim:IdentifiedObject.name  "ENGENE 132 T1 SD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1600;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:a42ffc08-46b4-4e3d-910c-248ca5d3a382>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "a42ffc08-46b4-4e3d-910c-248ca5d3a382";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 AR1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:fd338915-3831-4cc5-8c55-af2b4c1c2bb8>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e62-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:a3dceeba-ffb3-4349-9c4f-efb8c5c05923>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "a3dceeba-ffb3-4349-9c4f-efb8c5c05923";
+            cim:IdentifiedObject.name     "TATL T2 ARENDAL T1 132 S";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:a2a20c81-78b5-40bc-81d1-14ed8ea03e12>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Arendal 1 Breaker";
+            cim:IdentifiedObject.mRID  "a2a20c81-78b5-40bc-81d1-14ed8ea03e12";
+            cim:IdentifiedObject.name  "FROLAND 132 AR1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:9fa38ed3-62bd-a842-9af7-9e51bbe67b89>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "9fa38ed3-62bd-a842-9af7-9e51bbe67b89";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 BA1 CL";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:69a8ceaa-e0a2-8744-a258-2f572ba4bd9f>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ff2e9331-31f5-0247-ac4c-77a2bc179624> .
+    
+    <urn:uuid:9bf03de1-7f35-4dfe-86aa-29dff75a6962>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "9bf03de1-7f35-4dfe-86aa-29dff75a6962";
+            cim:IdentifiedObject.name  "NEDENES CN 005" .
+    
+    <urn:uuid:9b11eb79-4938-451f-84cd-8d2be79a03e9>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Nedenes 1 Bay";
+            cim:IdentifiedObject.mRID  "9b11eb79-4938-451f-84cd-8d2be79a03e9";
+            cim:IdentifiedObject.name  "ENGENE 22 NE Ba1" .
+    
+    <urn:uuid:991c13e2-277f-4d4b-9c53-d6d58b1008c0>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Bus Side";
+            cim:IdentifiedObject.mRID      "991c13e2-277f-4d4b-9c53-d6d58b1008c0";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 NE1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:93fb8ecd-7d8f-40b3-8777-be000fb8e0e3>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:9796f69a-d718-43c7-91b6-980cd96a1c50>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "T_Engene Side";
+            cim:IdentifiedObject.mRID      "9796f69a-d718-43c7-91b6-980cd96a1c50";
+            cim:IdentifiedObject.name      "T2 132 FROLAND-T_ENGENE ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e2b-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:95b7ad7d-6b88-4dce-b726-feb157304bd8>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "95b7ad7d-6b88-4dce-b726-feb157304bd8";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 EN1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:2fb546e7-9e06-4356-a3ad-7e3756c34f6a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:2a616b39-67cc-4a1a-abaf-2bf4b527e95f> .
+    
+    <urn:uuid:9441fd8e-3941-4e4f-844d-223701649f52>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 132kV Transformer 1 Bay";
+            cim:IdentifiedObject.mRID  "9441fd8e-3941-4e4f-844d-223701649f52";
+            cim:IdentifiedObject.name  "ENGENE 132 T Ba1" .
+    
+    <urn:uuid:940fdf54-1e42-9840-a37f-7806a54f9e4b>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "940fdf54-1e42-9840-a37f-7806a54f9e4b";
+            cim:IdentifiedObject.name  "LS T1 132 ARENDAL-FROLAND ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:48955729-dbff-455b-94bd-3b8bb2c1537c> .
+    
+    <urn:uuid:93fb8ecd-7d8f-40b3-8777-be000fb8e0e3>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:9b11eb79-4938-451f-84cd-8d2be79a03e9>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Nedenes 1 A Disconnector";
+            cim:IdentifiedObject.mRID  "93fb8ecd-7d8f-40b3-8777-be000fb8e0e3";
+            cim:IdentifiedObject.name  "ENGENE 22 NE1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:92d33c01-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "92d33c01-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 SC1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a323d-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2169-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33c00-7034-11eb-a65a-74e5f963e191>
+            rdf:type                        cim:RegulatingControl;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Shunt Compensator Regulating Control 1";
+            cim:IdentifiedObject.mRID       "92d33c00-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name       "ENGENE 22 SC1 RC";
+            cim:RegulatingControl.Terminal  <urn:uuid:92d33b55-7034-11eb-a65a-74e5f963e191>;
+            cim:RegulatingControl.mode      cim:RegulatingControlModeKind.voltage .
+    
+    <urn:uuid:92d33bff-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Secondary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bff-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 NEDENES T1 04 S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a21b3-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bfd-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Primary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bfd-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 NEDENES T1 22 P";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:9bf03de1-7f35-4dfe-86aa-29dff75a6962> .
+    
+    <urn:uuid:92d33bfb-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Secondary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bfb-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 ENGENE T1 22 S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2154-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bf7-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Secondary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bf7-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 ARENDAL T1 132 S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>;
+            cim:Terminal.phases            cim:PhaseCode.ABCN .
+    
+    <urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Primary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bf5-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 ARENDAL T1 420 P";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c> .
+    
+    <urn:uuid:92d33bf3-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Secondary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bf3-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 ENGENE ZT1 023 S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e53-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bf1-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Primary Winding Side";
+            cim:IdentifiedObject.mRID      "92d33bf1-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 ENGENE NT1 22 P";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e4b-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.phases            cim:PhaseCode.ABCN .
+    
+    <urn:uuid:92d33bed-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  745;
+            cim:IdentifiedObject.mRID     "92d33bed-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T2 22 ENGENE-NEDENES ACLS1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:92d33bec-7034-11eb-a65a-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bec-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "92d33bec-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T2 22 ENGENE-NEDENES ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33be6-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:92d33be9-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  745;
+            cim:IdentifiedObject.mRID     "92d33be9-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T1 22 ENGENE-NEDENES ACLS1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:92d33be8-7034-11eb-a65a-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33be8-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "92d33be8-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T1 22 ENGENE-NEDENES ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33be5-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:92d33be6-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Nedenes Side";
+            cim:IdentifiedObject.mRID      "92d33be6-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 22 ENGENE-NEDENES ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:92d33b34-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:92d33be5-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Engene Side";
+            cim:IdentifiedObject.mRID      "92d33be5-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 22 ENGENE-NEDENES ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:20d31521-c427-4640-9b7f-97d230607fa4> .
+    
+    <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        26;
+            cim:ACLineSegment.x        45;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:Conductor.length       500;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:c7ef29bd-8a14-e343-a03f-9b1b6d343e44>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV Engene Nedenes ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "92d33be4-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "22 ENGENE-NEDENES ACLS 1" .
+    
+    <urn:uuid:92d33bd6-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  727;
+            cim:IdentifiedObject.mRID     "92d33bd6-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "TATL T2 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:92d33bd4-7034-11eb-a65a-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bd5-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  727;
+            cim:IdentifiedObject.mRID     "92d33bd5-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T2 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:92d33bd4-7034-11eb-a65a-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bd4-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "92d33bd4-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T2 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bce-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:92d33bce-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Engene Side";
+            cim:IdentifiedObject.mRID      "92d33bce-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:b20e4b70-f546-48b1-82e8-66b138fd7ae2> .
+    
+    <urn:uuid:92d33bcc-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        320;
+            cim:ACLineSegment.x        1080;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:Conductor.length       2680;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:f677795c-3419-4623-9e5d-4a0287903492>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "132kV T-Engene Engene 1 ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "92d33bcc-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "132 T_ENGENE-ENGENE ACLS 1 1" .
+    
+    <urn:uuid:92d33bb8-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "T1 Side";
+            cim:IdentifiedObject.mRID      "92d33bb8-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 22 ENGENE-T1 ACLS 1 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2a7f-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a215b-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33bb7-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Engene Side";
+            cim:IdentifiedObject.mRID      "92d33bb7-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 22 ENGENE-T1 ACLS 1 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2a7f-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2154-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33ba9-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "T1 Side";
+            cim:IdentifiedObject.mRID      "92d33ba9-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 22 ENGENE-T1 ACLS 1 2";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2a13-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2154-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33ba8-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "T1 Side";
+            cim:IdentifiedObject.mRID      "92d33ba8-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 22 ENGENE-T1 ACLS 1 2";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2a13-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a215b-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b9f-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "92d33b9f-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "TATL T1 132 FROLAND-T_ENGENE ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:92d33b9d-7034-11eb-a65a-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b9e-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "92d33b9e-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T1 132 FROLAND-T_ENGENE ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:92d33b9d-7034-11eb-a65a-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b9d-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "92d33b9d-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T1 132 FROLAND-T_ENGENE ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33b9a-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:92d33b9a-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Froland Side";
+            cim:IdentifiedObject.mRID      "92d33b9a-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 132 FROLAND-T_ENGENE ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:7a91b6ba-ac49-4486-99c9-027e2130059f> .
+    
+    <urn:uuid:92d33b99-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1950;
+            cim:ACLineSegment.x        10530;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:Conductor.length       27070;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:81e0db9e-aa30-474d-b017-def591771422>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "132kV Froland-T-Engene ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "92d33b99-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "132 FROLAND-T_ENGENE ACLS 1" .
+    
+    <urn:uuid:92d33b82-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "EFC Side";
+            cim:IdentifiedObject.mRID      "92d33b82-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 023 ZT1-EFC ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a26db-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e88-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b81-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "ZT1 Side";
+            cim:IdentifiedObject.mRID      "92d33b81-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 023 ZT1-EFC ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a26db-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e53-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b7f-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "ZT1 Side";
+            cim:IdentifiedObject.mRID      "92d33b7f-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T2 22 ENGENE-ZT1 ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a26cf-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e4b-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b5a-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "92d33b5a-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 NEDENES 04A";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a21b1-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d> .
+    
+    <urn:uuid:92d33b58-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "92d33b58-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 NEDENES 22A";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2176-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2178-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b55-7034-11eb-a65a-74e5f963e191>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "92d33b55-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name      "T1 ENGENE 22A";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a2160-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b3a-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:SubLoadArea;
+            cim:IdentifiedObject.description
+                    "DSP1 Subload Area 1";
+            cim:IdentifiedObject.mRID  "92d33b3a-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "DSO1 SA 1";
+            cim:SubLoadArea.LoadArea   <urn:uuid:92d33b39-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:92d33b39-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:LoadArea;
+            cim:IdentifiedObject.description
+                    "Distribution System Operator 1 Load Area 1";
+            cim:IdentifiedObject.mRID  "92d33b39-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "DSO1 LA 1" .
+    
+    <urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV Voltage Level";
+            cim:IdentifiedObject.mRID     "92d33b37-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name     "NEDENES 22 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:VoltageLevel.Substation   <urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:92d33b34-7034-11eb-a65a-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:e3a5b7c5-fa48-42f9-9b13-2ceb5b540bd6>;
+            cim:IdentifiedObject.mRID  "92d33b34-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name  "NEDENES CN 001" .
+    
+    <urn:uuid:9077e7e3-9b90-9e46-a24c-30c28317e7e4>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "9077e7e3-9b90-9e46-a24c-30c28317e7e4";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 BA1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:411847e0-02b3-49df-951a-f1cf780f4738>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ff2e9331-31f5-0247-ac4c-77a2bc179624> .
+    
+    <urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:bec6d236-5e89-403b-b7d5-5799eaeea1ce>;
+            cim:IdentifiedObject.mRID  "8f69bfc5-3f5a-7f49-aeab-7df584878465";
+            cim:IdentifiedObject.name  "ARENDAL CN 011" .
+    
+    <urn:uuid:8e0075c4-ea93-4669-b57c-3f6b229bb6d3>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 132 ARENDAL-FROLAND";
+            cim:IdentifiedObject.mRID  "8e0075c4-ea93-4669-b57c-3f6b229bb6d3";
+            cim:IdentifiedObject.name  "LC 132ARENDAL-FROLAND";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:8c9343e1-3296-3241-baf6-1e33351236a3>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "8c9343e1-3296-3241-baf6-1e33351236a3";
+            cim:IdentifiedObject.name  "LS T1 22 ZT1-EFC ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:86c847a4-9732-9844-b480-c53b70f6ceec> .
+    
+    <urn:uuid:8be67710-8728-3546-b2be-87f8fa2ee604>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "8be67710-8728-3546-b2be-87f8fa2ee604";
+            cim:IdentifiedObject.name      "T1 ENGENE 132 T1 SD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a450fac1-80a9-cd4d-aa26-0223af980b17>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:7de52109-cf23-6846-adf0-2e69ef1d6aac> .
+    
+    <urn:uuid:8aaadbaa-c554-403b-87ff-0a788ab24c82>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "8aaadbaa-c554-403b-87ff-0a788ab24c82";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 BA1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:2714d85d-92e7-4f88-a488-f39e782a6298>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:71f76f1e-c868-44c9-bcff-86f2e5eb3202> .
+    
+    <urn:uuid:8a6562a6-8eb8-49e3-92a1-155587726e3f>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>;
+            cim:IdentifiedObject.mRID  "8a6562a6-8eb8-49e3-92a1-155587726e3f";
+            cim:IdentifiedObject.name  "FROLAND CN 008" .
+    
+    <urn:uuid:87f8c183-5711-4941-9eb4-c6b84d6a80b9>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "87f8c183-5711-4941-9eb4-c6b84d6a80b9";
+            cim:IdentifiedObject.name      "T1 ENGENE 023 ZT1 CL";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:eb9b50c9-e363-0940-a177-2b7abd47f398>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ecd42e0b-67a4-4ebe-911b-c3f3146e6bed> .
+    
+    <urn:uuid:87f5ed47-2758-514e-9a13-ef692d942321>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  727;
+            cim:IdentifiedObject.mRID     "87f5ed47-2758-514e-9a13-ef692d942321";
+            cim:IdentifiedObject.name     "TATL T2 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:5227cc47-799d-3b4f-bf79-c0fee6d63e4a>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:86def089-155d-984b-a28f-2d4835cc7dfe>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Breaker Side";
+            cim:IdentifiedObject.mRID      "86def089-155d-984b-a28f-2d4835cc7dfe";
+            cim:IdentifiedObject.name      "T1 ARENDAL 132 T1 SD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:86c847a4-9732-9844-b480-c53b70f6ceec>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Transformer Side";
+            cim:IdentifiedObject.mRID      "86c847a4-9732-9844-b480-c53b70f6ceec";
+            cim:IdentifiedObject.name      "T1 22 ZT1-EFC ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e4b-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.phases            cim:PhaseCode.N .
+    
+    <urn:uuid:859d05d5-cdac-f849-81a2-4f0593c6c824>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "859d05d5-cdac-f849-81a2-4f0593c6c824";
+            cim:IdentifiedObject.name     "TATL T1 132 ARENDAL-T1 ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:2b69675e-dd3b-0e47-9039-845c5b5095f4>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:84d18a79-be9c-4b68-be21-36c3d7d40c58>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 132kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "84d18a79-be9c-4b68-be21-36c3d7d40c58";
+            cim:IdentifiedObject.name  "ENGENE 132A" .
+    
+    <urn:uuid:842aed4c-0828-4e7a-babc-ce724633a43d>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:29ace056-c4e8-46ea-8935-38f32ddbee49>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Transformer 1 A Disconnector";
+            cim:IdentifiedObject.mRID  "842aed4c-0828-4e7a-babc-ce724633a43d";
+            cim:IdentifiedObject.name  "ENGENE 22T1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    1250;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:83bf6035-97b6-4433-b5f9-bb455444a983>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "83bf6035-97b6-4433-b5f9-bb455444a983";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 N1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:12156bb5-7a82-4e95-8ea4-2ff8573133fe>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:20d31521-c427-4640-9b7f-97d230607fa4> .
+    
+    <urn:uuid:8266f01c-2b3d-4111-957e-b871f71f0fad>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Transformer Side";
+            cim:IdentifiedObject.mRID      "8266f01c-2b3d-4111-957e-b871f71f0fad";
+            cim:IdentifiedObject.name      "T1 ARENDAL 132 T1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:48668646-105a-490d-aaad-3259b852aa23>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.phases            cim:PhaseCode.ABC .
+    
+    <urn:uuid:81e0db9e-aa30-474d-b017-def591771422>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 132 FROLAND-T_ENGENE";
+            cim:IdentifiedObject.mRID  "81e0db9e-aa30-474d-b017-def591771422";
+            cim:IdentifiedObject.name  "LC 132FROLAND-T_ENGENE";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:808643b7-4e47-4faa-b906-999d0f1fe32b>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:7aff3ae4-1afa-b046-af50-4e8222f094ef>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Engene 22kV NT1 Breaker";
+            cim:IdentifiedObject.mRID  "808643b7-4e47-4faa-b906-999d0f1fe32b";
+            cim:IdentifiedObject.name  "ENGENE 22 NT1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:802d9d22-8304-5444-ac23-6f071fb84b77>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "802d9d22-8304-5444-ac23-6f071fb84b77";
+            cim:IdentifiedObject.name      "T2 NEDENES 22 T1 ALB_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:20605037-a626-4691-8601-89666564ff87>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ec60b5b3-1ffc-f940-8ce5-140d04267667> .
+    
+    <urn:uuid:7de52109-cf23-6846-adf0-2e69ef1d6aac>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:9441fd8e-3941-4e4f-844d-223701649f52>;
+            cim:IdentifiedObject.mRID  "7de52109-cf23-6846-adf0-2e69ef1d6aac";
+            cim:IdentifiedObject.name  "ENGENE CN 018" .
+    
+    <urn:uuid:7d09271d-7826-442e-bc57-d1fa1955495e>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "7d09271d-7826-442e-bc57-d1fa1955495e";
+            cim:IdentifiedObject.name      "T1 ARENDAL 420 TM M1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:33666962-c2f9-4f6b-af5a-2ef1982ac282>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c> .
+    
+    <urn:uuid:7ca23509-fcc4-4653-a7db-334e1e113581>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "EFC Side";
+            cim:IdentifiedObject.mRID      "7ca23509-fcc4-4653-a7db-334e1e113581";
+            cim:IdentifiedObject.name      "T2 023 ZT1-EFC ACLS 2";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:ab5aff23-cc0c-40a9-ab1b-7c113822358e>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ecd42e0b-67a4-4ebe-911b-c3f3146e6bed> .
+    
+    <urn:uuid:7b025cfa-4526-6f49-a420-ea211e8eceba>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "7b025cfa-4526-6f49-a420-ea211e8eceba";
+            cim:IdentifiedObject.name     "TATL T2 132 ARENDAL-T1 ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:d975d3c6-4aa8-e143-9188-a86cee4db583>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:7aff3ae4-1afa-b046-af50-4e8222f094ef>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV NT 1";
+            cim:IdentifiedObject.mRID  "7aff3ae4-1afa-b046-af50-4e8222f094ef";
+            cim:IdentifiedObject.name  "ENGENE 22 NT Ba1" .
+    
+    <urn:uuid:7a91b6ba-ac49-4486-99c9-027e2130059f>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>;
+            cim:IdentifiedObject.mRID  "7a91b6ba-ac49-4486-99c9-027e2130059f";
+            cim:IdentifiedObject.name  "FROLAND CN 011" .
+    
+    <urn:uuid:7a0c868b-eaa1-814b-97a8-c7e112c7a027>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 04 TELEMA 2 ACLS 3";
+            cim:IdentifiedObject.mRID  "7a0c868b-eaa1-814b-97a8-c7e112c7a027";
+            cim:IdentifiedObject.name  "LC 04 TELEMA 2 ACLS 3";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:78c5385c-be34-4f4f-a81a-225decba8227>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "78c5385c-be34-4f4f-a81a-225decba8227";
+            cim:IdentifiedObject.name      "T2 T_ENGENE 132 EN1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:652e1c63-50b0-4f5a-b88d-8f814a0cda4d>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:b20e4b70-f546-48b1-82e8-66b138fd7ae2> .
+    
+    <urn:uuid:78148af7-4690-43b1-ab25-80913fb55a75>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "ACLS Side";
+            cim:IdentifiedObject.mRID      "78148af7-4690-43b1-ab25-80913fb55a75";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 T1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:b16294fe-269c-4f3d-b6af-4bc473c663d6>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a215b-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:75f12fd9-2057-4b79-9f19-73736a0f2a6d>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Engene 1 L Disconnector ";
+            cim:IdentifiedObject.mRID  "75f12fd9-2057-4b79-9f19-73736a0f2a6d";
+            cim:IdentifiedObject.name  "FROLAND 132 EN1 LD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:7544cd75-be72-9644-b333-a932ff3ba603>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>;
+            cim:IdentifiedObject.description
+                    "Engene 230V Neutral Transformer 1";
+            cim:IdentifiedObject.mRID  "7544cd75-be72-9644-b333-a932ff3ba603";
+            cim:IdentifiedObject.name  "ENGENE 023 ZT Ba1" .
+    
+    <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:IdentifiedObject.mRID  "730d0140-2cfb-1046-a131-fe4022d80e95";
+            cim:IdentifiedObject.name  "ARENDAL CN 012" .
+    
+    <urn:uuid:71f76f1e-c868-44c9-bcff-86f2e5eb3202>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>;
+            cim:IdentifiedObject.mRID  "71f76f1e-c868-44c9-bcff-86f2e5eb3202";
+            cim:IdentifiedObject.name  "FROLAND CN 006" .
+    
+    <urn:uuid:71d501b8-9459-40b1-abe6-d18563eed82f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "ACLS Side";
+            cim:IdentifiedObject.mRID      "71d501b8-9459-40b1-abe6-d18563eed82f";
+            cim:IdentifiedObject.name      "T2 ARENDAL 132 T1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501> .
+    
+    <urn:uuid:6cc409d6-980c-481b-8b67-127ecf5dc19c>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "6cc409d6-980c-481b-8b67-127ecf5dc19c";
+            cim:IdentifiedObject.name      "T1 ENGENE 023 ZT1 BR";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:dd41276d-9ea7-47a8-a0f3-65215c8225a5>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e88-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:69a8ceaa-e0a2-8744-a258-2f572ba4bd9f>
+            rdf:type                   cim:ConformLoad;
+            cim:ConformLoad.LoadGroup  <urn:uuid:0b8f03ae-b704-664c-8665-49300c9c1fff>;
+            cim:EnergyConsumer.LoadResponse
+                    <urn:uuid:6963e27e-9aaa-df42-a71c-1268f02e472f>;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>;
+            cim:Equipment.aggregate    true;
+            cim:IdentifiedObject.description
+                    "Froland 132 Bamle 1 Conform Load";
+            cim:IdentifiedObject.mRID  "69a8ceaa-e0a2-8744-a258-2f572ba4bd9f";
+            cim:IdentifiedObject.name  "FROLAND 132 BA1 CL" .
+    
+    <urn:uuid:6963e27e-9aaa-df42-a71c-1268f02e472f>
+            rdf:type                   cim:LoadResponseCharacteristic;
+            cim:IdentifiedObject.description
+                    "Constant p and q power load response characteristic";
+            cim:IdentifiedObject.mRID  "6963e27e-9aaa-df42-a71c-1268f02e472f";
+            cim:IdentifiedObject.name  "CONST_P_Q LRC";
+            cim:LoadResponseCharacteristic.exponentModel
+                    false;
+            cim:LoadResponseCharacteristic.pConstantCurrent
+                    0;
+            cim:LoadResponseCharacteristic.pConstantImpedance
+                    0;
+            cim:LoadResponseCharacteristic.pConstantPower
+                    1;
+            cim:LoadResponseCharacteristic.qConstantCurrent
+                    0;
+            cim:LoadResponseCharacteristic.qConstantImpedance
+                    0;
+            cim:LoadResponseCharacteristic.qConstantPower
+                    1 .
+    
+    <urn:uuid:68fd81e3-9e30-6b4c-a373-84c6387d6780>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:9441fd8e-3941-4e4f-844d-223701649f52>;
+            cim:IdentifiedObject.mRID  "68fd81e3-9e30-6b4c-a373-84c6387d6780";
+            cim:IdentifiedObject.name  "ENGENE CN 017" .
+    
+    <urn:uuid:681a323d-5a55-11eb-a658-74e5f963e191>
+            rdf:type                       cim:LinearShuntCompensator;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:Equipment.aggregate        false;
+            cim:IdentifiedObject.description
+                    "Engene 22kV A Shunt Compensator";
+            cim:IdentifiedObject.mRID      "681a323d-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name      "ENGENE 22 SC1";
+            cim:LinearShuntCompensator.bPerSection
+                    1.983500085771084E-2;
+            cim:LinearShuntCompensator.gPerSection
+                    0;
+            cim:RegulatingCondEq.RegulatingControl
+                    <urn:uuid:92d33c00-7034-11eb-a65a-74e5f963e191>;
+            cim:ShuntCompensator.aVRDelay  1;
+            cim:ShuntCompensator.maximumSections
+                    1;
+            cim:ShuntCompensator.nomU      22;
+            cim:ShuntCompensator.normalSections
+                    1 .
+    
+    <urn:uuid:681a30a8-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Nedenes T1 400V Secondary Winding";
+            cim:IdentifiedObject.mRID       "681a30a8-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "NEDENES T1 04 S";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       0;
+            cim:PowerTransformerEnd.ratedS  100;
+            cim:PowerTransformerEnd.ratedU  4.0E-1;
+            cim:PowerTransformerEnd.x       0;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bff-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    2;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a30a5-5a55-11eb-a658-74e5f963e191>
+            rdf:type                    cim:RatioTapChanger;
+            cim:IdentifiedObject.description
+                    "Nedenes T1 400V Secondary Ratio Tap Changer";
+            cim:IdentifiedObject.mRID   "681a30a5-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name   "NEDENES T1 04 S RTC";
+            cim:RatioTapChanger.TransformerEnd
+                    <urn:uuid:681a30a8-5a55-11eb-a658-74e5f963e191>;
+            cim:RatioTapChanger.stepVoltageIncrement
+                    3.333300113677978E0;
+            cim:RatioTapChanger.tculControlMode
+                    cim:TransformerControlMode.volt;
+            cim:TapChanger.TapChangerControl
+                    <urn:uuid:681a30a4-5a55-11eb-a658-74e5f963e191>;
+            cim:TapChanger.highStep     7;
+            cim:TapChanger.lowStep      1;
+            cim:TapChanger.ltcFlag      true;
+            cim:TapChanger.neutralStep  4;
+            cim:TapChanger.neutralU     4.0E-1;
+            cim:TapChanger.normalStep   4 .
+    
+    <urn:uuid:681a30a4-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:TapChangerControl;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV T1 Tap Changer Control";
+            cim:IdentifiedObject.mRID       "681a30a4-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "NEDENES 22 T1 TCC";
+            cim:RegulatingControl.Terminal  <urn:uuid:92d33b5a-7034-11eb-a65a-74e5f963e191>;
+            cim:RegulatingControl.mode      cim:RegulatingControlModeKind.voltage .
+    
+    <urn:uuid:681a309e-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Nedenes T1 22kV Primary Winding";
+            cim:IdentifiedObject.mRID       "681a309e-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "NEDENES T1 22 P";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       5.081E0;
+            cim:PowerTransformerEnd.ratedS  100;
+            cim:PowerTransformerEnd.ratedU  22;
+            cim:PowerTransformerEnd.x       3.545E1;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bfd-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    1;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV / 400V Power Transformer 1";
+            cim:IdentifiedObject.mRID  "681a309b-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "NEDENES T1";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a3096-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  656;
+            cim:IdentifiedObject.mRID     "681a3096-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T2 ENGENE T1 22 S";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a3095-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a3095-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a3095-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T2 ENGENE T1 22 S";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bfb-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a3094-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Engene T1 22kV Secondary Winding";
+            cim:IdentifiedObject.mRID       "681a3094-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "ENGENE T1 22 S";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       0;
+            cim:PowerTransformerEnd.ratedS  100;
+            cim:PowerTransformerEnd.ratedU  22;
+            cim:PowerTransformerEnd.x       0;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bfb-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    2;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a3091-5a55-11eb-a658-74e5f963e191>
+            rdf:type                    cim:RatioTapChanger;
+            cim:IdentifiedObject.description
+                    "Engene T1 22kV Secondary Ratio Tap Changer 1";
+            cim:IdentifiedObject.mRID   "681a3091-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name   "ENGENE T1 22 S RTC1";
+            cim:RatioTapChanger.TransformerEnd
+                    <urn:uuid:681a3094-5a55-11eb-a658-74e5f963e191>;
+            cim:RatioTapChanger.stepVoltageIncrement
+                    6.25E-1;
+            cim:RatioTapChanger.tculControlMode
+                    cim:TransformerControlMode.volt;
+            cim:TapChanger.highStep     33;
+            cim:TapChanger.lowStep      1;
+            cim:TapChanger.ltcFlag      true;
+            cim:TapChanger.neutralStep  17;
+            cim:TapChanger.neutralU     22;
+            cim:TapChanger.normalStep   18 .
+    
+    <urn:uuid:681a308a-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Engene T1 132kV Primary Winding";
+            cim:IdentifiedObject.mRID       "681a308a-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "ENGENE T1 132 P";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       2.37E0;
+            cim:PowerTransformerEnd.ratedS  100;
+            cim:PowerTransformerEnd.ratedU  132;
+            cim:PowerTransformerEnd.x       8.228E1;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:TransformerEnd.Terminal     <urn:uuid:05548bc6-70a0-44b7-8bac-20f745974e43>;
+            cim:TransformerEnd.endNumber    1;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 132kV / 22kV Transformer 1";
+            cim:IdentifiedObject.mRID  "681a3087-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE T1";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a2fea-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Arendal T1  132kV Secondary Winding";
+            cim:IdentifiedObject.mRID       "681a2fea-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "ARENDAL T1 132 S";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       0;
+            cim:PowerTransformerEnd.ratedS  100;
+            cim:PowerTransformerEnd.ratedU  132;
+            cim:PowerTransformerEnd.x       0;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bf7-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    2;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a2fe7-5a55-11eb-a658-74e5f963e191>
+            rdf:type                    cim:RatioTapChanger;
+            cim:IdentifiedObject.description
+                    "Arendal T1 132kV Secondary Ratio Tap Changer";
+            cim:IdentifiedObject.mRID   "681a2fe7-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name   "ARENDAL T1 S RTC1";
+            cim:RatioTapChanger.TransformerEnd
+                    <urn:uuid:681a2fea-5a55-11eb-a658-74e5f963e191>;
+            cim:RatioTapChanger.stepVoltageIncrement
+                    6.25E-1;
+            cim:RatioTapChanger.tculControlMode
+                    cim:TransformerControlMode.volt;
+            cim:TapChanger.highStep     33;
+            cim:TapChanger.lowStep      1;
+            cim:TapChanger.ltcFlag      true;
+            cim:TapChanger.neutralStep  17;
+            cim:TapChanger.neutralU     132;
+            cim:TapChanger.normalStep   17 .
+    
+    <urn:uuid:681a2fe0-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Arendal T1 420kV Primary Winding";
+            cim:IdentifiedObject.mRID       "681a2fe0-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "ARENDAL T1 420 P";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       8.4E-1;
+            cim:PowerTransformerEnd.ratedS  100;
+            cim:PowerTransformerEnd.ratedU  420;
+            cim:PowerTransformerEnd.x       2.541E1;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    1;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f>;
+            cim:IdentifiedObject.description
+                    "Arendal 420kV / 132kV Transformer 1";
+            cim:IdentifiedObject.mRID  "681a2fdd-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ARENDAL T1";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a2fd8-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Engene ZT1 Secondary Winding";
+            cim:IdentifiedObject.mRID       "681a2fd8-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "ENGENE ZT1 023 S";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Zn;
+            cim:PowerTransformerEnd.r       0;
+            cim:PowerTransformerEnd.ratedS  3.175E0;
+            cim:PowerTransformerEnd.ratedU  2.3E-1;
+            cim:PowerTransformerEnd.x       0;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bf3-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    2;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a2fd5-5a55-11eb-a658-74e5f963e191>
+            rdf:type                    cim:RatioTapChanger;
+            cim:IdentifiedObject.description
+                    "Engene ZT1 230V Secondary Ratio Tap Changer";
+            cim:IdentifiedObject.mRID   "681a2fd5-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name   "ENGENE ZT1 023 S RTC";
+            cim:RatioTapChanger.TransformerEnd
+                    <urn:uuid:681a2fd8-5a55-11eb-a658-74e5f963e191>;
+            cim:RatioTapChanger.stepVoltageIncrement
+                    6.25E-1;
+            cim:RatioTapChanger.tculControlMode
+                    cim:TransformerControlMode.volt;
+            cim:TapChanger.highStep     33;
+            cim:TapChanger.lowStep      1;
+            cim:TapChanger.ltcFlag      true;
+            cim:TapChanger.neutralStep  17;
+            cim:TapChanger.neutralU     2.3E-1;
+            cim:TapChanger.normalStep   17 .
+    
+    <urn:uuid:681a2fd0-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  83;
+            cim:IdentifiedObject.mRID     "681a2fd0-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T1 ENGENE NT1 22 P";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a2fcf-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a2fcf-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a2fcf-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T1 ENGENE NT1 22 P";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bf1-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a2fce-5a55-11eb-a658-74e5f963e191>
+            rdf:type                        cim:PowerTransformerEnd;
+            cim:IdentifiedObject.description
+                    "Engene ZT1 22kV Primary Winding";
+            cim:IdentifiedObject.mRID       "681a2fce-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name       "ENGENE ZT1 22 P";
+            cim:PowerTransformerEnd.PowerTransformer
+                    <urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191>;
+            cim:PowerTransformerEnd.b       0;
+            cim:PowerTransformerEnd.connectionKind
+                    cim:WindingConnection.Y;
+            cim:PowerTransformerEnd.r       1.52E0;
+            cim:PowerTransformerEnd.ratedS  3.175E0;
+            cim:PowerTransformerEnd.ratedU  22;
+            cim:PowerTransformerEnd.x       7.62E0;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.Terminal     <urn:uuid:92d33bf1-7034-11eb-a65a-74e5f963e191>;
+            cim:TransformerEnd.endNumber    1;
+            cim:TransformerEnd.grounded     false .
+    
+    <urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:PowerTransformer;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 22 Neutral transformer 1";
+            cim:IdentifiedObject.mRID  "681a2fcb-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE NT1";
+            cim:PowerTransformer.isPartOfGeneratorUnit
+                    false .
+    
+    <urn:uuid:681a2a88-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  590;
+            cim:IdentifiedObject.mRID     "681a2a88-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T2 22 ENGENE-T1 ACLS 1 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a2a87-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a2a87-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a2a87-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T2 22 ENGENE-T1 ACLS 1 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bb8-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a2a84-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  590;
+            cim:IdentifiedObject.mRID     "681a2a84-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T1 22 ENGENE-T1 ACLS 1 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a2a83-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a2a83-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a2a83-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T1 22 ENGENE-T1 ACLS 1 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bb7-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a2a7f-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1.6E0;
+            cim:ACLineSegment.x        3.4E0;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:Conductor.length       20;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:e07eda57-aafe-384d-9f7b-3ed4ed8e1da0>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV Engene Transformer 1 Cable 1";
+            cim:IdentifiedObject.mRID  "681a2a7f-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "22 ENGENE-T1 ACLS 1 1" .
+    
+    <urn:uuid:681a2a1c-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  590;
+            cim:IdentifiedObject.mRID     "681a2a1c-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T2 22 ENGENE-T1 ACLS 1 2";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a2a1b-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a2a1b-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a2a1b-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T2 22 ENGENE-T1 ACLS 1 2";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33ba9-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a2a18-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  590;
+            cim:IdentifiedObject.mRID     "681a2a18-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T1 22 ENGENE-T1 ACLS 1 2";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a2a17-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a2a17-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a2a17-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T1 22 ENGENE-T1 ACLS 1 2";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33ba8-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a2a13-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1.6E0;
+            cim:ACLineSegment.x        3.4E0;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:Conductor.length       20;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:58f1a6ec-bb18-e84b-b50f-864f0eb7100d>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV Engene Transformer 1 Cable 2";
+            cim:IdentifiedObject.mRID  "681a2a13-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "22 ENGENE-T1 ACLS 1 2" .
+    
+    <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        176;
+            cim:ACLineSegment.x        35;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:Conductor.length       590;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:8e0075c4-ea93-4669-b57c-3f6b229bb6d3>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "132kV Arendal-Froland 1 ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "681a26f3-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "132 ARENDAL-FROLAND ACLS 1" .
+    
+    <urn:uuid:681a26e0-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "681a26e0-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T1 NEDENES T1 22 P";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a26df-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a26df-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a26df-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T1 NEDENES T1 22 P";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bfd-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a26db-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        25;
+            cim:ACLineSegment.x        1.7E0;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4>;
+            cim:Conductor.length       21;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:cdc8afca-5a57-ad4a-84ef-f6a236e20463>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "230V ZT1-EFC ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "681a26db-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "023 ZT1-EFC ACLS 1" .
+    
+    <urn:uuid:681a26d8-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "681a26d8-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL T2 22 ENGENE-ZT1 ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:681a26d7-5a55-11eb-a658-74e5f963e191>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a26d7-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "681a26d7-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "LS T2 22 ENGENE-ZT1 ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33b7f-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:681a26cf-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        7.4E0;
+            cim:ACLineSegment.x        2.8E0;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:Conductor.length       28;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:1622b4fa-9e46-784e-b160-1c47e1133d7e>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "22kV Engene-ZT1 ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "681a26cf-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "22 ENGENE-ZT1 ACLS 1" .
+    
+    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:OperationalLimitType;
+            cim:IdentifiedObject.description
+                    "Temporarily Admissible Transmission Loading ";
+            cim:IdentifiedObject.mRID     "681a267a-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "TATL";
+            cim:OperationalLimitType.direction
+                    cim:OperationalLimitDirectionKind.absoluteValue;
+            eu:OperationalLimitType.kind  eu:LimitKind.tatl .
+    
+    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:OperationalLimitType;
+            cim:IdentifiedObject.description
+                    "Permanent Admissible Transmission Loading";
+            cim:IdentifiedObject.mRID     "681a2679-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "PATL";
+            cim:OperationalLimitType.direction
+                    cim:OperationalLimitDirectionKind.absoluteValue;
+            eu:OperationalLimitType.kind  eu:LimitKind.patl .
+    
+    <urn:uuid:681a21b3-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:3d51330c-7528-4efb-8edc-e61dcc145ac4>;
+            cim:IdentifiedObject.mRID  "681a21b3-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "NEDENES CN 003" .
+    
+    <urn:uuid:681a21b1-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Nedenes 400V A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "681a21b1-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "NEDENES 04A" .
+    
+    <urn:uuid:681a2178-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "681a2178-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "NEDENES 22A CN 002" .
+    
+    <urn:uuid:681a2176-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV A Busbar section 1";
+            cim:IdentifiedObject.mRID  "681a2176-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "NEDENES 22A" .
+    
+    <urn:uuid:681a2169-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:5b299df4-d232-4348-9d1e-096f6d10fb5a>;
+            cim:IdentifiedObject.mRID  "681a2169-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 001" .
+    
+    <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "681a2162-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE 22A CN 013" .
+    
+    <urn:uuid:681a2160-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "681a2160-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE 22A" .
+    
+    <urn:uuid:681a215b-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:29ace056-c4e8-46ea-8935-38f32ddbee49>;
+            cim:IdentifiedObject.mRID  "681a215b-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 002" .
+    
+    <urn:uuid:681a2154-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "681a2154-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 014" .
+    
+    <urn:uuid:681a1eac-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "681a1eac-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "FROLAND 132A" .
+    
+    <urn:uuid:681a1e88-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:7544cd75-be72-9644-b333-a932ff3ba603>;
+            cim:IdentifiedObject.mRID  "681a1e88-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 009" .
+    
+    <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:IdentifiedObject.mRID  "681a1e80-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ARENDAL CN 007" .
+    
+    <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Voltage Level";
+            cim:IdentifiedObject.mRID     "681a1e65-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "FROLAND 132 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:VoltageLevel.Substation   <urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a1e63-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:Substation;
+            cim:IdentifiedObject.description
+                    "Froland Coupling Substation";
+            cim:IdentifiedObject.mRID  "681a1e63-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "FROLAND";
+            cim:Substation.Region      <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:681a1e62-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "681a1e62-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "FROLAND 132A CN 005" .
+    
+    <urn:uuid:681a1e53-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>;
+            cim:IdentifiedObject.mRID  "681a1e53-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 004" .
+    
+    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Voltage Level";
+            cim:IdentifiedObject.mRID     "681a1e4e-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "ENGENE 22 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>;
+            cim:VoltageLevel.Substation   <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a1e4b-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "681a1e4b-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 003" .
+    
+    <urn:uuid:681a1e3e-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "T-junction Engene 132kV Voltage Level";
+            cim:IdentifiedObject.mRID     "681a1e3e-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "T_ENGENE 132 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:VoltageLevel.Substation   <urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a1e3c-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:Substation;
+            cim:IdentifiedObject.description
+                    "Engene T-junction";
+            cim:IdentifiedObject.mRID  "681a1e3c-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "T_ENGENE";
+            cim:Substation.Region      <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:681a1e2b-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:2d80e032-6152-0a44-8206-45b04656dc85>;
+            cim:IdentifiedObject.mRID  "681a1e2b-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "T_ENGENE CN 001" .
+    
+    <urn:uuid:681a1e24-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:b2fe839d-37f8-42f6-a52c-5cea12165e60>;
+            cim:IdentifiedObject.mRID  "681a1e24-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE CN 015" .
+    
+    <urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191>
+            rdf:type                      cim:VoltageLevel;
+            cim:IdentifiedObject.description
+                    "Engene 132kV Voltage Level";
+            cim:IdentifiedObject.mRID     "681a1e17-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name     "ENGENE 132 VL1";
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:VoltageLevel.Substation   <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191>
+            rdf:type                   cim:Substation;
+            cim:IdentifiedObject.description
+                    "Engene Substation";
+            cim:IdentifiedObject.mRID  "681a1e15-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name  "ENGENE";
+            cim:Substation.Region      <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:681a1dd5-5a55-11eb-a658-74e5f963e191>
+            rdf:type                    cim:ControlArea;
+            cim:ControlArea.EnergyArea  <urn:uuid:92d33b39-7034-11eb-a65a-74e5f963e191>;
+            cim:ControlArea.type        cim:ControlAreaTypeKind.Interchange;
+            cim:IdentifiedObject.description
+                    "DSO 1 ControlArea 1";
+            cim:IdentifiedObject.mRID   "681a1dd5-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.name   "DSO1 CA 1" .
+    
+    <urn:uuid:652e1c63-50b0-4f5a-b88d-8f814a0cda4d>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:2d80e032-6152-0a44-8206-45b04656dc85>;
+            cim:IdentifiedObject.description
+                    "T-junction_Engene 132kV Engene 1 L Disconnector ";
+            cim:IdentifiedObject.mRID  "652e1c63-50b0-4f5a-b88d-8f814a0cda4d";
+            cim:IdentifiedObject.name  "T_ENGENE 132 EN1 LD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa>
+            rdf:type                   cim:PetersenCoil;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV T1 PetersenCoil";
+            cim:IdentifiedObject.mRID  "62585c75-b020-614c-89a1-fec7c118c3fa";
+            cim:IdentifiedObject.name  "ARENDAL 132 T1 PC" .
+    
+    <urn:uuid:60032c2a-2dc2-41d1-9530-497a7474f22b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "60032c2a-2dc2-41d1-9530-497a7474f22b";
+            cim:IdentifiedObject.name      "T2 ENGENE 132A";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:84d18a79-be9c-4b68-be21-36c3d7d40c58>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:457c0964-f107-4223-a3c3-92eff4b11f5c> .
+    
+    <urn:uuid:5e488684-a146-4775-8cd8-5dbbe9da8034>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "5e488684-a146-4775-8cd8-5dbbe9da8034";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 NT10E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:808643b7-4e47-4faa-b906-999d0f1fe32b>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:dd01dba2-04ba-46a6-9752-37010d7c7e45> .
+    
+    <urn:uuid:5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>;
+            cim:IdentifiedObject.mRID  "5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e";
+            cim:IdentifiedObject.name  "FROLAND CN 002" .
+    
+    <urn:uuid:5b6cb662-bbaf-49aa-9c9e-b86d268a8518>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Bus Side";
+            cim:IdentifiedObject.mRID      "5b6cb662-bbaf-49aa-9c9e-b86d268a8518";
+            cim:IdentifiedObject.name      "T2 ENGENE 22 SB AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:b8b9b131-6eb7-41c7-899e-7003960b1a5f>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV Transformer 1 Bay";
+            cim:IdentifiedObject.mRID  "5b498a4e-d2de-7f41-8f17-be255b3489db";
+            cim:IdentifiedObject.name  "ARENDAL 132 T Ba1" .
+    
+    <urn:uuid:5b2bb253-421b-b14e-9d6c-ca972e830e4a>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Disconnector Side";
+            cim:IdentifiedObject.mRID      "5b2bb253-421b-b14e-9d6c-ca972e830e4a";
+            cim:IdentifiedObject.name      "T2 132 ARENDAL-T1 ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95> .
+    
+    <urn:uuid:5b299df4-d232-4348-9d1e-096f6d10fb5a>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Shunt Compensator 1 Bay";
+            cim:IdentifiedObject.mRID  "5b299df4-d232-4348-9d1e-096f6d10fb5a";
+            cim:IdentifiedObject.name  "ENGENE 22 SC Ba1" .
+    
+    <urn:uuid:5a7908d7-612b-2346-918a-b7b6d458475a>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "5a7908d7-612b-2346-918a-b7b6d458475a";
+            cim:IdentifiedObject.name  "LS T1 ENGENE T1 132 P";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:05548bc6-70a0-44b7-8bac-20f745974e43> .
+    
+    <urn:uuid:58f1a6ec-bb18-e84b-b50f-864f0eb7100d>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 22 ENGENE-T1 ACLS 1 2";
+            cim:IdentifiedObject.mRID  "58f1a6ec-bb18-e84b-b50f-864f0eb7100d";
+            cim:IdentifiedObject.name  "LC 22 ENGENE-T1 ACLS 1 2";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:57b1462c-259c-426b-86f9-f6f6f2af9c5c>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:7aff3ae4-1afa-b046-af50-4e8222f094ef>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Neutral Transformer 1 A Disconnector";
+            cim:IdentifiedObject.mRID  "57b1462c-259c-426b-86f9-f6f6f2af9c5c";
+            cim:IdentifiedObject.name  "ENGENE 22 NT1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:5781ec87-90e4-4f57-8651-6b34b8f3eb4d>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "5781ec87-90e4-4f57-8651-6b34b8f3eb4d";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 SB AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:b8b9b131-6eb7-41c7-899e-7003960b1a5f>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:a93aa804-2baf-4bef-b283-766fe00a4e71> .
+    
+    <urn:uuid:57661de3-c67c-b74b-8729-912a82eeec22>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "57661de3-c67c-b74b-8729-912a82eeec22";
+            cim:IdentifiedObject.name     "PATL T2 132 ARENDAL-FROLAND ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:4219ab33-927a-bb43-9506-b9b1b3487afd>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:570e76de-1b18-4a92-a1a2-b6f780f5dcbe>
+            rdf:type                        cim:RegulatingControl;
+            cim:IdentifiedObject.description
+                    "Arendal 420kV Transmission Equivalent";
+            cim:IdentifiedObject.mRID       "570e76de-1b18-4a92-a1a2-b6f780f5dcbe";
+            cim:IdentifiedObject.name       "Arendal 300kV RC1";
+            cim:RegulatingControl.Terminal  <urn:uuid:7d09271d-7826-442e-bc57-d1fa1955495e>;
+            cim:RegulatingControl.mode      cim:RegulatingControlModeKind.voltage .
+    
+    <urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300>
+            rdf:type                   cim:LoadBreakSwitch;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:e3a5b7c5-fa48-42f9-9b13-2ceb5b540bd6>;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV Engene 1 Load Break Switch";
+            cim:IdentifiedObject.mRID  "55de4e32-8cb0-4602-9901-ec91e104b300";
+            cim:IdentifiedObject.name  "NEDENES 22 E1 LB_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:54d22a2e-c361-45e2-94cd-08a2573b3c4e>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "54d22a2e-c361-45e2-94cd-08a2573b3c4e";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 NT10E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:808643b7-4e47-4faa-b906-999d0f1fe32b>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:4e8ec3b0-386c-43d4-8311-e98d8a8f565a> .
+    
+    <urn:uuid:5346a24c-57fa-4f68-a879-6400d46cb5bd>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:9b11eb79-4938-451f-84cd-8d2be79a03e9>;
+            cim:IdentifiedObject.mRID  "5346a24c-57fa-4f68-a879-6400d46cb5bd";
+            cim:IdentifiedObject.name  "ENGENE CN 008" .
+    
+    <urn:uuid:5227cc47-799d-3b4f-bf79-c0fee6d63e4a>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "5227cc47-799d-3b4f-bf79-c0fee6d63e4a";
+            cim:IdentifiedObject.name  "LS T1 132 T_ENGENE-ENGENE ACLS 1 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:f6e8c471-b1eb-467b-af68-78c6aa25771b> .
+    
+    <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>;
+            cim:IdentifiedObject.mRID  "517ac677-7ac0-dd4d-ac94-a191b7c05b13";
+            cim:IdentifiedObject.name  "ARENDAL CN 010" .
+    
+    <urn:uuid:4e8ec3b0-386c-43d4-8311-e98d8a8f565a>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:7aff3ae4-1afa-b046-af50-4e8222f094ef>;
+            cim:IdentifiedObject.mRID  "4e8ec3b0-386c-43d4-8311-e98d8a8f565a";
+            cim:IdentifiedObject.name  "ENGENE CN 010" .
+    
+    <urn:uuid:4e7dd4ef-600d-4ada-9cf4-115877382adc>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "4e7dd4ef-600d-4ada-9cf4-115877382adc";
+            cim:IdentifiedObject.name      "T1 ENGENE 132 T1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a8f889e8-53f2-494b-97b9-c5dcbc1d17c7>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e24-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Arendal 1 Bay";
+            cim:IdentifiedObject.mRID  "4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b";
+            cim:IdentifiedObject.name  "FROLAND 132 AR Ba1" .
+    
+    <urn:uuid:48955729-dbff-455b-94bd-3b8bb2c1537c>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Arendal Side";
+            cim:IdentifiedObject.mRID      "48955729-dbff-455b-94bd-3b8bb2c1537c";
+            cim:IdentifiedObject.name      "T1 132ARENDAL-FROLAND1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501> .
+    
+    <urn:uuid:48668646-105a-490d-aaad-3259b852aa23>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV Trafo 1 Breaker";
+            cim:IdentifiedObject.mRID  "48668646-105a-490d-aaad-3259b852aa23";
+            cim:IdentifiedObject.name  "ARENDAL 132 T1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    4000;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:484698af-2887-c446-afa2-c1f4bb5a9e65>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Coil Side";
+            cim:IdentifiedObject.mRID      "484698af-2887-c446-afa2-c1f4bb5a9e65";
+            cim:IdentifiedObject.name      "T2 ARENDAL 132 T1SP1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465>;
+            cim:Terminal.phases            cim:PhaseCode.N .
+    
+    <urn:uuid:47f5ebe7-1d03-4d20-b599-9b6068319987>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:92d33b37-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV Transformer 1 Bay";
+            cim:IdentifiedObject.mRID  "47f5ebe7-1d03-4d20-b599-9b6068319987";
+            cim:IdentifiedObject.name  "NEDENES 22 T Ba1" .
+    
+    <urn:uuid:47bfbe16-6fa2-4b6c-9b75-7453efebafbe>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:d4addb12-e956-e44b-9a9d-f118fdbe49f8>;
+            cim:IdentifiedObject.description
+                    "Engene 023kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "47bfbe16-6fa2-4b6c-9b75-7453efebafbe";
+            cim:IdentifiedObject.name  "ENGENE 023A" .
+    
+    <urn:uuid:47144173-d517-44a1-b149-91017d75db78>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Disconnector Side";
+            cim:IdentifiedObject.mRID      "47144173-d517-44a1-b149-91017d75db78";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 T1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:b16294fe-269c-4f3d-b6af-4bc473c663d6>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:15748f64-9c04-48c4-be7c-3f8b628f9520> .
+    
+    <urn:uuid:45fbf47e-a9b2-4131-8851-afceeecf0ec9>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Transformer Side";
+            cim:IdentifiedObject.mRID      "45fbf47e-a9b2-4131-8851-afceeecf0ec9";
+            cim:IdentifiedObject.name      "T1 ARENDAL 132 T1SP1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>;
+            cim:Terminal.phases            cim:PhaseCode.N .
+    
+    <urn:uuid:457c0964-f107-4223-a3c3-92eff4b11f5c>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "457c0964-f107-4223-a3c3-92eff4b11f5c";
+            cim:IdentifiedObject.name  "ENGENE CN 005" .
+    
+    <urn:uuid:4219ab33-927a-bb43-9506-b9b1b3487afd>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "4219ab33-927a-bb43-9506-b9b1b3487afd";
+            cim:IdentifiedObject.name  "LS T2 132 ARENDAL-FROLAND ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:d6520dc7-c5b2-4ac5-bdba-04d02ec87472> .
+    
+    <urn:uuid:41e0788e-9dc5-4bf0-862b-f2a99e421602>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:4d1852d5-5acc-4e31-bf1e-320aa6a7ba5b>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Arendal 1 L Disconnector";
+            cim:IdentifiedObject.mRID  "41e0788e-9dc5-4bf0-862b-f2a99e421602";
+            cim:IdentifiedObject.name  "FROLAND 132 AR1 LD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:411847e0-02b3-49df-951a-f1cf780f4738>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Bamble 1 L Disconnector L";
+            cim:IdentifiedObject.mRID  "411847e0-02b3-49df-951a-f1cf780f4738";
+            cim:IdentifiedObject.name  "FROLAND 132 BA1 LD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:3be9726b-a9cf-430e-ba62-96ad7c43a73f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "3be9726b-a9cf-430e-ba62-96ad7c43a73f";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 EN1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:1ac100c3-7a71-4b22-b32c-47fd73c3d01a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:2a616b39-67cc-4a1a-abaf-2bf4b527e95f> .
+    
+    <urn:uuid:3bbcc64f-d1ea-42d9-827a-77f46787ea95>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "3bbcc64f-d1ea-42d9-827a-77f46787ea95";
+            cim:IdentifiedObject.name      "T2 FROLAND 132 AR1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a2a20c81-78b5-40bc-81d1-14ed8ea03e12>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e> .
+    
+    <urn:uuid:39082cb0-8808-b047-893c-ba0503a458d6>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.mRID  "39082cb0-8808-b047-893c-ba0503a458d6";
+            cim:IdentifiedObject.name  "ENGENE CN 019" .
+    
+    <urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:47f5ebe7-1d03-4d20-b599-9b6068319987>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV Telemarkstien 2 Breaker 1";
+            cim:IdentifiedObject.mRID  "38cd8874-fb01-462c-8c85-95dac14fee9c";
+            cim:IdentifiedObject.name  "NEDENES 22 TELEMA 2 BR1";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:3817162d-5e9d-d243-be82-10c2eca33b5b>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "3817162d-5e9d-d243-be82-10c2eca33b5b";
+            cim:IdentifiedObject.name     "PATL T2 ARENDAL T1 132 S";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:3641e5de-84eb-4f21-9947-e1bef550a7bc>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "3641e5de-84eb-4f21-9947-e1bef550a7bc";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 AR1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a2a20c81-78b5-40bc-81d1-14ed8ea03e12>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:cc0fef15-9e1b-4b59-8ca2-0b002c6556e1> .
+    
+    <urn:uuid:352223e5-366d-4556-92dc-2ad6ab9b0c7f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "352223e5-366d-4556-92dc-2ad6ab9b0c7f";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 BA1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:e63a5023-05b9-4adf-bafd-a372b751a6ed>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e62-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:34c1e6c6-72ce-4d1c-904b-d11a63c3490b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "34c1e6c6-72ce-4d1c-904b-d11a63c3490b";
+            cim:IdentifiedObject.name      "T2 ENGENE 22T1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:842aed4c-0828-4e7a-babc-ce724633a43d>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:15748f64-9c04-48c4-be7c-3f8b628f9520> .
+    
+    <urn:uuid:342b33ad-8621-4065-8b98-d7497369f93b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "342b33ad-8621-4065-8b98-d7497369f93b";
+            cim:IdentifiedObject.name      "T1 ENGENE 132 T1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:d4afd20b-a007-43f0-9736-4a868c4cc65a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:7de52109-cf23-6846-adf0-2e69ef1d6aac> .
+    
+    <urn:uuid:3401221c-3b67-7144-981f-94a1d57a77a1>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  412;
+            cim:IdentifiedObject.mRID     "3401221c-3b67-7144-981f-94a1d57a77a1";
+            cim:IdentifiedObject.name     "PATL T1 ARENDAL T1 420 P";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:33666962-c2f9-4f6b-af5a-2ef1982ac282>
+            rdf:type                     cim:SynchronousMachine;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3>;
+            cim:IdentifiedObject.description
+                    "Arendal 420kV Transmission Equivalent";
+            cim:IdentifiedObject.mRID    "33666962-c2f9-4f6b-af5a-2ef1982ac282";
+            cim:IdentifiedObject.name    "ARENDAL 420 M1";
+            cim:RegulatingCondEq.RegulatingControl
+                    <urn:uuid:570e76de-1b18-4a92-a1a2-b6f780f5dcbe>;
+            cim:RotatingMachine.GeneratingUnit
+                    <urn:uuid:b7057d99-e21a-4ba1-9cef-15aeeee4232a>;
+            cim:SynchronousMachine.maxQ  300;
+            cim:SynchronousMachine.maxU  100;
+            cim:SynchronousMachine.minQ  -100;
+            cim:SynchronousMachine.minU  0;
+            cim:SynchronousMachine.qPercent
+                    100;
+            cim:SynchronousMachine.r     4.3445E-1;
+            cim:SynchronousMachine.referencePriority
+                    0;
+            cim:SynchronousMachine.type  cim:SynchronousMachineKind.generator .
+    
+    <urn:uuid:323cb814-3159-4112-9290-3dfe87439ee1>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "323cb814-3159-4112-9290-3dfe87439ee1";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 BA1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:411847e0-02b3-49df-951a-f1cf780f4738>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:8a6562a6-8eb8-49e3-92a1-155587726e3f> .
+    
+    <urn:uuid:313f9413-16a2-4037-8546-2df5c62767be>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Nedenes 400 Volt Terminal 128 Station Supply 1";
+            cim:IdentifiedObject.mRID      "313f9413-16a2-4037-8546-2df5c62767be";
+            cim:IdentifiedObject.name      "NEDENES 04 T128 SS1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:0506353c-8adf-4f48-999f-bb1975c03467>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d>;
+            cim:Terminal.phases            cim:PhaseCode.ABCN .
+    
+    <urn:uuid:2fb546e7-9e06-4356-a3ad-7e3756c34f6a>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Engene 1 Breaker L";
+            cim:IdentifiedObject.mRID  "2fb546e7-9e06-4356-a3ad-7e3756c34f6a";
+            cim:IdentifiedObject.name  "FROLAND 132 EN1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:2dc165a0-39fb-6541-81d8-4daee82b2932>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 22 TELEMA 2 ACLS 4";
+            cim:IdentifiedObject.mRID  "2dc165a0-39fb-6541-81d8-4daee82b2932";
+            cim:IdentifiedObject.name  "LC 22 TELEMA 2 ACLS 4";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:2d80e032-6152-0a44-8206-45b04656dc85>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e3e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "T-junction Engene 132kV Engene 1";
+            cim:IdentifiedObject.mRID  "2d80e032-6152-0a44-8206-45b04656dc85";
+            cim:IdentifiedObject.name  "T_ENGENE 132 EN Ba1" .
+    
+    <urn:uuid:2ce9db0d-914a-4beb-96ae-76dbb1d47a49>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "2ce9db0d-914a-4beb-96ae-76dbb1d47a49";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 AR1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:fd338915-3831-4cc5-8c55-af2b4c1c2bb8>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:cc0fef15-9e1b-4b59-8ca2-0b002c6556e1> .
+    
+    <urn:uuid:2b69675e-dd3b-0e47-9039-845c5b5095f4>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "2b69675e-dd3b-0e47-9039-845c5b5095f4";
+            cim:IdentifiedObject.name  "LS T1 132 ARENDAL-T1 ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:19be92de-7307-074e-af23-2acb6521214a> .
+    
+    <urn:uuid:2a616b39-67cc-4a1a-abaf-2bf4b527e95f>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>;
+            cim:IdentifiedObject.mRID  "2a616b39-67cc-4a1a-abaf-2bf4b527e95f";
+            cim:IdentifiedObject.name  "FROLAND CN 009" .
+    
+    <urn:uuid:29ace056-c4e8-46ea-8935-38f32ddbee49>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e4e-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Transformer 1 Bay";
+            cim:IdentifiedObject.mRID  "29ace056-c4e8-46ea-8935-38f32ddbee49";
+            cim:IdentifiedObject.name  "ENGENE 22 T Ba1" .
+    
+    <urn:uuid:297b7aa5-fb24-458f-8680-c1052e42a1f9>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "297b7aa5-fb24-458f-8680-c1052e42a1f9";
+            cim:IdentifiedObject.name      "T1 ENGENE 023A BS";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:47bfbe16-6fa2-4b6c-9b75-7453efebafbe>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ab9b57dd-c5f7-49c1-95a1-56d1f650db21> .
+    
+    <urn:uuid:28412ba6-8a1b-e548-8b8e-d76b1b083afb>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line ARENDAL-T1 ACLS 1";
+            cim:IdentifiedObject.mRID  "28412ba6-8a1b-e548-8b8e-d76b1b083afb";
+            cim:IdentifiedObject.name  "LC 132 ARENDAL-T1 ACLS 1";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:2714d85d-92e7-4f88-a488-f39e782a6298>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:f2b5acf1-6067-4d18-9d75-ea1611013a3d>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Bamble 1 Breaker";
+            cim:IdentifiedObject.mRID  "2714d85d-92e7-4f88-a488-f39e782a6298";
+            cim:IdentifiedObject.name  "FROLAND 132 BA1E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:25581747-6599-46ae-a8ac-62a0161045aa>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Nednes Side";
+            cim:IdentifiedObject.mRID      "25581747-6599-46ae-a8ac-62a0161045aa";
+            cim:IdentifiedObject.name      "T1 04 TELEMA 2 ACLS 3";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a21b3-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:245cd84e-872f-d141-b6ae-c791424d0237>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "245cd84e-872f-d141-b6ae-c791424d0237";
+            cim:IdentifiedObject.name     "PATL T2 22 TELEMA 2 ACLS 4";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:f4e2587e-c4f9-e34c-a20e-d724f9e89af1>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:240e7e1c-2d1b-4637-9721-c3642adea4f7>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "EFC Side";
+            cim:IdentifiedObject.mRID      "240e7e1c-2d1b-4637-9721-c3642adea4f7";
+            cim:IdentifiedObject.name      "T2 023 NT1BR";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:dd41276d-9ea7-47a8-a0f3-65215c8225a5>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ab9b57dd-c5f7-49c1-95a1-56d1f650db21> .
+    
+    <urn:uuid:223dbb61-ee70-474e-8e58-adc96aa4458d>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "223dbb61-ee70-474e-8e58-adc96aa4458d";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 SBE";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:f7d8e580-296d-4c2a-b989-1eb4db7af387>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:a93aa804-2baf-4bef-b283-766fe00a4e71> .
+    
+    <urn:uuid:21699bda-a520-45ea-b011-21a56bf567d7>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.mRID      "21699bda-a520-45ea-b011-21a56bf567d7";
+            cim:IdentifiedObject.name      "T2 22 TELEMA 2 BR1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:d5b4c5ad-1762-8e43-9330-6ec8f7d97bce> .
+    
+    <urn:uuid:20d31521-c427-4640-9b7f-97d230607fa4>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:9b11eb79-4938-451f-84cd-8d2be79a03e9>;
+            cim:IdentifiedObject.mRID  "20d31521-c427-4640-9b7f-97d230607fa4";
+            cim:IdentifiedObject.name  "ENGENE CN 016" .
+    
+    <urn:uuid:20605037-a626-4691-8601-89666564ff87>
+            rdf:type                   cim:LoadBreakSwitch;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:47f5ebe7-1d03-4d20-b599-9b6068319987>;
+            cim:IdentifiedObject.description
+                    "Nedenes 22kV Transformer 1 Load Break Switch";
+            cim:IdentifiedObject.mRID  "20605037-a626-4691-8601-89666564ff87";
+            cim:IdentifiedObject.name  "NEDENES 22 T1 ALB_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a>
+            rdf:type                   cim:ACLineSegment;
+            cim:ACLineSegment.bch      0;
+            cim:ACLineSegment.r        1.6E0;
+            cim:ACLineSegment.x        5.9E0;
+            cim:ConductingEquipment.BaseVoltage
+                    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
+            cim:Conductor.length       35;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:28412ba6-8a1b-e548-8b8e-d76b1b083afb>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "132kV Arendal-T1 ACLineSegment 1";
+            cim:IdentifiedObject.mRID  "1f19556f-4604-8545-b930-0d96b163c57a";
+            cim:IdentifiedObject.name  "132 ARENDAL-T1 ACLS 1" .
+    
+    <urn:uuid:1d069b92-4138-454e-9db4-c05f38f767ca>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  412;
+            cim:IdentifiedObject.mRID     "1d069b92-4138-454e-9db4-c05f38f767ca";
+            cim:IdentifiedObject.name     "TATL T1 ARENDAL T1 420 P";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a267a-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:1c9ff3c5-59c8-4277-8c0a-80babe98e3c3>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "1c9ff3c5-59c8-4277-8c0a-80babe98e3c3";
+            cim:IdentifiedObject.name      "T1 FROLAND 132 AR1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:41e0788e-9dc5-4bf0-862b-f2a99e421602>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:5bec5b8b-6efd-43a1-bb6b-6cffe3239c6e> .
+    
+    <urn:uuid:1c3ecb82-a323-4874-bdf0-95c84c12113d>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Bus Side";
+            cim:IdentifiedObject.mRID      "1c3ecb82-a323-4874-bdf0-95c84c12113d";
+            cim:IdentifiedObject.name      "T1 ENGENE 22T1 AD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:842aed4c-0828-4e7a-babc-ce724633a43d>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
+            cim:IdentifiedObject.mRID  "1aea01d1-2f09-1a4d-a2b1-872e3f11457f";
+            cim:IdentifiedObject.name  "ARENDAL CN 008" .
+    
+    <urn:uuid:1ac100c3-7a71-4b22-b32c-47fd73c3d01a>
+            rdf:type                   cim:Disconnector;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Engene 1 A Disconnector";
+            cim:IdentifiedObject.mRID  "1ac100c3-7a71-4b22-b32c-47fd73c3d01a";
+            cim:IdentifiedObject.name  "FROLAND 132 EN1 AD_S";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    2500;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:1ab33989-6134-7f4f-876d-9fcd150fd081>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "1ab33989-6134-7f4f-876d-9fcd150fd081";
+            cim:IdentifiedObject.name     "PATL T2 132 ARENDAL-T1 ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:d975d3c6-4aa8-e143-9188-a86cee4db583>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:1a4d9840-26f0-452a-afe4-d74ba8829451>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Bus Side";
+            cim:IdentifiedObject.mRID      "1a4d9840-26f0-452a-afe4-d74ba8829451";
+            cim:IdentifiedObject.name      "T1 T_ENGENE 132 EN1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:652e1c63-50b0-4f5a-b88d-8f814a0cda4d>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e2b-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:19be92de-7307-074e-af23-2acb6521214a>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Transformer Side";
+            cim:IdentifiedObject.mRID      "19be92de-7307-074e-af23-2acb6521214a";
+            cim:IdentifiedObject.name      "T1 132 ARENDAL-T1 ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>;
+            cim:Terminal.phases            cim:PhaseCode.ABC .
+    
+    <urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "17264ab0-1492-6243-8e2d-44d85d0841fc";
+            cim:IdentifiedObject.name  "LS T1 ARENDAL T1 420 P";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:1622b4fa-9e46-784e-b160-1c47e1133d7e>
+            rdf:type                   cim:Line;
+            cim:IdentifiedObject.description
+                    "Line 22 ENGENE-ZT1 ACLS 1";
+            cim:IdentifiedObject.mRID  "1622b4fa-9e46-784e-b160-1c47e1133d7e";
+            cim:IdentifiedObject.name  "LC 22 ENGENE-ZT1 ACLS 1";
+            cim:Line.Region            <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f> .
+    
+    <urn:uuid:15748f64-9c04-48c4-be7c-3f8b628f9520>
+            rdf:type                   cim:ConnectivityNode;
+            cim:ConnectivityNode.ConnectivityNodeContainer
+                    <urn:uuid:29ace056-c4e8-46ea-8935-38f32ddbee49>;
+            cim:IdentifiedObject.mRID  "15748f64-9c04-48c4-be7c-3f8b628f9520";
+            cim:IdentifiedObject.name  "ENGENE CN 006" .
+    
+    <urn:uuid:13d2fd99-e200-4f43-bd9f-a16dc4959edb>
+            rdf:type                   cim:BusbarSection;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>;
+            cim:IdentifiedObject.description
+                    "Arendal 132kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID  "13d2fd99-e200-4f43-bd9f-a16dc4959edb";
+            cim:IdentifiedObject.name  "ARENDAL 132A" .
+    
+    <urn:uuid:12c2570d-d7d8-445b-865d-eb981c7603de>
+            rdf:type                   cim:Bay;
+            cim:Bay.VoltageLevel       <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.description
+                    "Froland 132kV Engene 1 Bay";
+            cim:IdentifiedObject.mRID  "12c2570d-d7d8-445b-865d-eb981c7603de";
+            cim:IdentifiedObject.name  "FROLAND 132 EN Ba1" .
+    
+    <urn:uuid:12156bb5-7a82-4e95-8ea4-2ff8573133fe>
+            rdf:type                   cim:Breaker;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:9b11eb79-4938-451f-84cd-8d2be79a03e9>;
+            cim:Equipment.aggregate    false;
+            cim:IdentifiedObject.description
+                    "Engene 22kV Nedenes 1 Breaker";
+            cim:IdentifiedObject.mRID  "12156bb5-7a82-4e95-8ea4-2ff8573133fe";
+            cim:IdentifiedObject.name  "ENGENE 22 NE1 E";
+            cim:Switch.normalOpen      false;
+            cim:Switch.ratedCurrent    630;
+            cim:Switch.retained        false .
+    
+    <urn:uuid:11e9226e-e3cf-0f48-b691-8dfa2d25ae7b>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  1020;
+            cim:IdentifiedObject.mRID     "11e9226e-e3cf-0f48-b691-8dfa2d25ae7b";
+            cim:IdentifiedObject.name     "PATL T1 132 ARENDAL-FROLAND ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:940fdf54-1e42-9840-a37f-7806a54f9e4b>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:10d3dc6c-c98a-df45-b1ce-c043dbfeef25>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "10d3dc6c-c98a-df45-b1ce-c043dbfeef25";
+            cim:IdentifiedObject.name     "PATL T1 22 TELEMA 2 ACLS 4";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:8c9343e1-3296-3241-baf6-1e33351236a3>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:1089c4dd-7fa5-4b0b-a92c-1680375ae16f>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "1089c4dd-7fa5-4b0b-a92c-1680375ae16f";
+            cim:IdentifiedObject.name      "T1 ENGENE 023 ZT1-EFC ACLS 2";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:ab5aff23-cc0c-40a9-ab1b-7c113822358e>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:ab9b57dd-c5f7-49c1-95a1-56d1f650db21> .
+    
+    <urn:uuid:105b264a-2ab7-2441-bb32-aae12a3cfa51>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.mRID  "105b264a-2ab7-2441-bb32-aae12a3cfa51";
+            cim:IdentifiedObject.name  "LS T2 132 FROLAND-T_ENGENE ACLS 1";
+            cim:OperationalLimitSet.Terminal
+                    <urn:uuid:9796f69a-d718-43c7-91b6-980cd96a1c50> .
+    
+    <urn:uuid:0f183ae8-bf40-4c42-ba28-aff0684ec683>
+            rdf:type                      cim:CurrentLimit;
+            cim:CurrentLimit.normalValue  275;
+            cim:IdentifiedObject.mRID     "0f183ae8-bf40-4c42-ba28-aff0684ec683";
+            cim:IdentifiedObject.name     "PATL T1 22 ENGENE-ZT1 ACLS 1";
+            cim:OperationalLimit.OperationalLimitSet
+                    <urn:uuid:ee06cf5c-6eeb-1141-bf78-24098e198fc0>;
+            cim:OperationalLimit.OperationalLimitType
+                    <urn:uuid:681a2679-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:0eb374ed-073c-481e-bc88-1be81df7070b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.mRID      "0eb374ed-073c-481e-bc88-1be81df7070b";
+            cim:IdentifiedObject.name      "T1 ENGENE 22 N1E";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:12156bb5-7a82-4e95-8ea4-2ff8573133fe>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:5346a24c-57fa-4f68-a879-6400d46cb5bd> .
+    
+    <urn:uuid:0e748f98-11fe-4783-9501-0e673cab8f0d>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "T1 ARENDAL 132kV A Busbar Section 1";
+            cim:IdentifiedObject.mRID      "0e748f98-11fe-4783-9501-0e673cab8f0d";
+            cim:IdentifiedObject.name      "T1 ARENDAL 132A";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:13d2fd99-e200-4f43-bd9f-a16dc4959edb>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13> .
+    
+    <urn:uuid:0b8f03ae-b704-664c-8665-49300c9c1fff>
+            rdf:type                   cim:ConformLoadGroup;
+            cim:IdentifiedObject.description
+                    "Subload area 1 Load group 1";
+            cim:IdentifiedObject.mRID  "0b8f03ae-b704-664c-8665-49300c9c1fff";
+            cim:IdentifiedObject.name  "DSO1 SA 1 LG 1";
+            cim:LoadGroup.SubLoadArea  <urn:uuid:92d33b3a-7034-11eb-a65a-74e5f963e191> .
+    
+    <urn:uuid:0a936e9d-6e05-6547-af77-18e442db0913>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Single";
+            cim:IdentifiedObject.mRID      "0a936e9d-6e05-6547-af77-18e442db0913";
+            cim:IdentifiedObject.name      "T1 22 ZT1-EFC PC";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:c9d5445c-9ad6-3849-9e02-08762805826b>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:39082cb0-8808-b047-893c-ba0503a458d6>;
+            cim:Terminal.phases            cim:PhaseCode.N .
+    
+    <urn:uuid:0851452b-3751-0843-b8e3-74f14543907b>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Fuse Side";
+            cim:IdentifiedObject.mRID      "0851452b-3751-0843-b8e3-74f14543907b";
+            cim:IdentifiedObject.name      "T2 22 ZT1-EFC ACLS 1";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:b1b4714b-a160-7742-84d5-d6486d776c94>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:39082cb0-8808-b047-893c-ba0503a458d6>;
+            cim:Terminal.phases            cim:PhaseCode.N .
+    
+    <urn:uuid:0766474a-94ad-40b5-8bb5-db0b7fcd04ff>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    2;
+            cim:IdentifiedObject.description
+                    "Bus Side";
+            cim:IdentifiedObject.mRID      "0766474a-94ad-40b5-8bb5-db0b7fcd04ff";
+            cim:IdentifiedObject.name      "T2 NEDENES 22 E1 LB_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:681a2178-5a55-11eb-a658-74e5f963e191> .
+    
+    <urn:uuid:05548bc6-70a0-44b7-8bac-20f745974e43>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Primary Winding Side";
+            cim:IdentifiedObject.mRID      "05548bc6-70a0-44b7-8bac-20f745974e43";
+            cim:IdentifiedObject.name      "T1 ENGENE T1 132 P";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:681a3087-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:68fd81e3-9e30-6b4c-a373-84c6387d6780> .
+    
+    <urn:uuid:0523e10e-4e02-48c6-94dd-ef1938932497>
+            rdf:type                       cim:Terminal;
+            cim:ACDCTerminal.sequenceNumber
+                    1;
+            cim:IdentifiedObject.description
+                    "Breaker Side";
+            cim:IdentifiedObject.mRID      "0523e10e-4e02-48c6-94dd-ef1938932497";
+            cim:IdentifiedObject.name      "T1 ARENDAL 132 T1 LD_S";
+            cim:Terminal.ConductingEquipment
+                    <urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f> .
+    
+    <urn:uuid:0506353c-8adf-4f48-999f-bb1975c03467>
+            rdf:type                      cim:StationSupply;
+            cim:EnergyConsumer.pfixed     0;
+            cim:EnergyConsumer.pfixedPct  0;
+            cim:EnergyConsumer.qfixed     0;
+            cim:EnergyConsumer.qfixedPct  0;
+            cim:Equipment.EquipmentContainer
+                    <urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191>;
+            cim:Equipment.aggregate       false;
+            cim:IdentifiedObject.description
+                    "Nedenes 400 Volt Station Supply 1";
+            cim:IdentifiedObject.mRID     "0506353c-8adf-4f48-999f-bb1975c03467";
+            cim:IdentifiedObject.name     "NEDENES 04 SS1" .
+}

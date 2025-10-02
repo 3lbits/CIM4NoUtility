@@ -1,0 +1,1356 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "ElBits" .
+
+<urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0>;
+        dcterms:description   "Telemark-120 CGMES v3.0 Medium Voltage 1 (MV1) Diagram Layout (DL) Model"@en;
+        dcterms:issued        "2022-03-30T16:26:37.958Z"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:references    <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "ElBits";
+        dcterms:spatial       <https://diginenergi.no/Telemark-120/MV1>;
+        dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
+                                dcat:startDate  "2022-03-30T23:00:00Z"^^xsd:dateTime
+                              ];
+        dcterms:title         "Telemark-120-MV1_DL";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-MV1_DL>;
+        dcat:keyword          "DL";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:1399ce7d-e052-4714-954a-a17c7d6b4073> {
+    <urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:92d33bfd-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.name  "PinLink_T1 NEDENES T1 P" .
+    
+    <urn:uuid:f0acc651-8857-479f-8ec1-3bd6764b17ea>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:65ae177b-7278-4eae-acc7-3eea59d0da2a>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.33135416666667E1 .
+    
+    <urn:uuid:f0242ae6-372f-4a57-8466-691bf8160bb9>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES CN 002" .
+    
+    <urn:uuid:ea93195e-8976-4b99-8e9b-96dcb1869f93>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:e31d243c-d0b6-4543-ba1c-5c9839579cff>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.79197916666667E1 .
+    
+    <urn:uuid:e722f0b1-3d71-47c2-99a7-566d857ce038>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:ec60b5b3-1ffc-f940-8ce5-140d04267667>;
+            cim:IdentifiedObject.name  "Bus_NEDENES CN 004" .
+    
+    <urn:uuid:e31d243c-d0b6-4543-ba1c-5c9839579cff>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:f3b95f0e-d18e-4d14-a61a-79c020ac8c30>;
+            cim:IdentifiedObject.name  "PinLink_T1 22 TELEMA 2 FU1" .
+    
+    <urn:uuid:e254be2d-e622-4e68-ab67-d288cee4a197>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e12ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:55de4e32-8cb0-4602-9901-ec91e104b300>;
+            cim:IdentifiedObject.name  "Breaker_NEDENES 22 E1 LB_S" .
+    
+    <urn:uuid:e0e0cfc7-a42c-4b35-ad4c-d2d5cb0ae93b>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:cfcf48bc-c198-463c-9f50-50e49018c7e2>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    3.50572916666667E1 .
+    
+    <urn:uuid:dd74d686-3a62-441a-8cc6-37efa332a244>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:7d4230d8-e195-43d0-8ef6-49f2ab2705c2>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    6.52197916666667E1 .
+    
+    <urn:uuid:d8a812b8-da10-4ad5-a1a6-c57efd179354>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:fa9b4957-62cd-4146-8483-a9620bf5ba3f>;
+            cim:IdentifiedObject.name  "PinLink_T1 NEDENES 22 T1 ALB_S" .
+    
+    <urn:uuid:d87cbf54-2bd2-445e-ba12-a157dea88872>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:04141a3b-1da3-4d79-b280-19ac0b50ee62>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.00144791666667E2 .
+    
+    <urn:uuid:d4e3966d-9a5e-4135-950d-a89a86ea8edd>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:3b9be0f7-df35-458f-8321-9cd29ff6e71b>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.1828125E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.7546875E1 .
+    
+    <urn:uuid:d3d617ed-1331-49c5-8d4f-6f8bc0922581>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES CN 004" .
+    
+    <urn:uuid:d3583a7d-814e-4c4d-a69f-32d1e7e742a7>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b3f25048-f86e-42ef-becf-fee0097426d6>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.301875E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.28455208333333E2 .
+    
+    <urn:uuid:cfcf48bc-c198-463c-9f50-50e49018c7e2>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e17ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:92d33be4-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.name  "ACLineSegment_22 ENGENE-NEDENES" .
+    
+    <urn:uuid:cd9e68f9-4f71-49bb-afef-0d5384bc613f>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:c0db2e4d-4857-438c-8c12-2b2f85ffe1dd>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.32291666666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    3.50572916666667E1 .
+    
+    <urn:uuid:ca9276ac-ef90-423b-bc4b-d393e35734ff>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:80807833-d801-4760-95ac-b75c8e0d4296>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.00144791666667E2 .
+    
+    <urn:uuid:c9c6f216-5bbb-4d24-9f2a-38133e06900c>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:d8a812b8-da10-4ad5-a1a6-c57efd179354>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.7546875E1 .
+    
+    <urn:uuid:c6fc349c-bef7-4923-91eb-a6c6bbefb670>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:802d9d22-8304-5444-ac23-6f071fb84b77>;
+            cim:IdentifiedObject.name  "PinLink_T2 NEDENES 22 T1 ALB_S" .
+    
+    <urn:uuid:c0fe4d78-17c6-4a87-9586-188ee9f051d2>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:21699bda-a520-45ea-b011-21a56bf567d7>;
+            cim:IdentifiedObject.name  "PinLink_T2 22 TELEMA 2 FU1" .
+    
+    <urn:uuid:c0db2e4d-4857-438c-8c12-2b2f85ffe1dd>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:92d33b34-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.name  "Bus_NEDENES CN 001" .
+    
+    <urn:uuid:c0a108e9-d9eb-47f2-85cf-b8c740bf295c>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:2045299d-ce21-4c39-a208-1684195fed4c>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    3.50572916666667E1 .
+    
+    <urn:uuid:beeb6643-7ebf-4a2e-8546-f7bbb0fb2a66>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e1420>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:681a309b-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.name  "Transformer2W_NEDENES T1" .
+    
+    <urn:uuid:be619bbb-cbec-4943-95fb-bd9e8f360e6b>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:0abf42e6-e74d-4bdb-9290-278ce4d9ec1c>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    -2.84427083333333E0;
+            cim:DiagramObjectPoint.yPosition
+                    5.60255208333333E1 .
+    
+    <urn:uuid:bd19b71d-3735-4948-9bf4-cb2d64105cd7>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:76c62fe6-4af2-42be-bb8c-db6501519f86>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.17607291666667E2 .
+    
+    <urn:uuid:bd030f75-e804-4514-985d-cab13d662e77>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES 22 E1 LB_S" .
+    
+    <urn:uuid:ba99443c-13a5-4a58-8e73-6023041f2e99>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b1e6bd11-7d18-4b2d-aa4d-cc751bf6225d>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.6748125E2 .
+    
+    <urn:uuid:b99bd3f4-2aed-4ba9-9e52-ae7b3e25f798>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e33ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:cf484bc9-2ef9-4116-a5a9-9a5db3e09df9>;
+            cim:IdentifiedObject.name  "Impedance_04 TELEMA 2 ACLS3" .
+    
+    <urn:uuid:b3f25048-f86e-42ef-becf-fee0097426d6>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES T1" .
+    
+    <urn:uuid:b36f3a01-b971-4b67-8c7f-4cab34acdd22>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:619313ac-65dc-490b-93bc-2a454ac8ad75>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.28864583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.40559895833333E2 .
+    
+    <urn:uuid:b1e6bd11-7d18-4b2d-aa4d-cc751bf6225d>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:ef17168b-d7ee-7548-9822-e10bbbcec793>;
+            cim:IdentifiedObject.name  "PinLink_T1 NEDENES 04 LV EQV" .
+    
+    <urn:uuid:b1423ad3-f32f-40fe-a9d0-2e8229fe0030>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:681a21b3-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.name  "Bus_NEDENES CN 003" .
+    
+    <urn:uuid:b0f8c40e-5918-4f7b-8ecf-c1920f8490d8>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelXNED1_XNED2 CN" .
+    
+    <urn:uuid:ae33f6f8-b68e-4e14-80ff-2468fa53a915>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:3b9be0f7-df35-458f-8321-9cd29ff6e71b>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.7546875E1 .
+    
+    <urn:uuid:adf1e8c1-ac6a-48c9-8b0a-62a395b5b981>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES 22 TELEMA" .
+    
+    <urn:uuid:ac735500-3a70-479e-80cb-537490fae44d>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:3551093f-33a5-43a0-bc1c-adb11c3774a1>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    5.45703125E0;
+            cim:DiagramObjectPoint.yPosition
+                    1.74625E2 .
+    
+    <urn:uuid:aa392b63-1919-487f-9a0b-9d11ac4d410d>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:92d33bff-7034-11eb-a65a-74e5f963e191>;
+            cim:IdentifiedObject.name  "PinLink_T2 NEDENES T1 S" .
+    
+    <urn:uuid:a7016d73-ce37-4f02-ac0b-fa1fbc466044>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelNEDENES CN 004" .
+    
+    <urn:uuid:a6410157-0f9f-4256-a0bd-ed74defeb49c>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:2603ff10-0b68-46f0-b0e0-07dced12040c>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.1034375E1;
+            cim:DiagramObjectPoint.yPosition
+                    6.36984375E1 .
+    
+    <urn:uuid:a4bec6a0-0a39-43c4-84cc-93b4735228ab>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:e31d243c-d0b6-4543-ba1c-5c9839579cff>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.76552083333333E1 .
+    
+    <urn:uuid:a4a4b365-21a5-4c7f-8ff0-faf9123df2c8>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b1e6bd11-7d18-4b2d-aa4d-cc751bf6225d>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.67216666666667E2 .
+    
+    <urn:uuid:a48a4d01-01ad-43a9-b3f1-6017297d51cf>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelXNED1_XNED2 CN" .
+    
+    <urn:uuid:a3a00a99-67fd-4b0c-bb3e-28e52bf2c417>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:c6fc349c-bef7-4923-91eb-a6c6bbefb670>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.2628125E1 .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e33ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "Impedance" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e26ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "NeighborSubstation" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e25ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "Load" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "PinLink" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e17ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "ACLineSegment" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "Bus" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e1420>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "Transformer2W_10" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e13ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "Disconnector" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e12ee>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "Breaker" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "NodeNameDisplay" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c19>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "BusBarNameDisplay" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c11>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "DiagramLineName" .
+    
+    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>
+            rdf:type                   cim:DiagramObjectStyle;
+            cim:IdentifiedObject.name  "DiagramObjectName" .
+    
+    <urn:uuid:9fe49407-9a10-4574-b7ff-459575422099>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES CN 003" .
+    
+    <urn:uuid:9f1c383c-fda2-400e-95c9-c1a418693f59>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelNEDENES CN 001" .
+    
+    <urn:uuid:9ee167a8-2199-433e-84c9-982cb0fbad82>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_label22 ENGENE-NEDENES" .
+    
+    <urn:uuid:9e017ab6-d74b-4696-af0d-7895edd18c9b>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_label04 TELEMA 2 ACLS3" .
+    
+    <urn:uuid:9911a469-3477-4c17-844f-2e4ff27885f9>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelNEDENES CN 002" .
+    
+    <urn:uuid:98b0d773-fc1f-45bf-8045-c680e15ad2da>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:f0242ae6-372f-4a57-8466-691bf8160bb9>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    7.07760416666667E0;
+            cim:DiagramObjectPoint.yPosition
+                    9.86234375E1 .
+    
+    <urn:uuid:94c63949-2f89-4a04-8685-400437f1ac03>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:d3d617ed-1331-49c5-8d4f-6f8bc0922581>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    7.07760416666667E0;
+            cim:DiagramObjectPoint.yPosition
+                    7.61338541666667E1 .
+    
+    <urn:uuid:94693470-54ac-4c65-8324-ad6cb426b919>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES CN 005" .
+    
+    <urn:uuid:90bbda13-1fc7-4f9d-a802-83a49f02fd92>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:8d29e51c-aa38-4dbf-9871-ef41921c4c7f>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.25197916666667E1 .
+    
+    <urn:uuid:908fd947-ded6-4e03-ad47-d777bc453d23>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:c6fc349c-bef7-4923-91eb-a6c6bbefb670>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.76552083333333E1 .
+    
+    <urn:uuid:8f75b151-5b6f-450a-98f8-7b0654ad7efe>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:80807833-d801-4760-95ac-b75c8e0d4296>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.1828125E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.00144791666667E2 .
+    
+    <urn:uuid:8f174f34-155c-493c-b917-8cab2869c437>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelNEDENES 22A CN" .
+    
+    <urn:uuid:8d29e51c-aa38-4dbf-9871-ef41921c4c7f>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:0766474a-94ad-40b5-8bb5-db0b7fcd04ff>;
+            cim:IdentifiedObject.name  "PinLink_T2 NEDENES 22 E1 LB_S" .
+    
+    <urn:uuid:8d0f3e4b-6828-4516-8e40-cc575fe3b541>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:9fe49407-9a10-4574-b7ff-459575422099>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    5.55625E0;
+            cim:DiagramObjectPoint.yPosition
+                    1.40559895833333E2 .
+    
+    <urn:uuid:8aec8ef9-be61-4d92-8128-e4bf199dcc9f>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e33ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:d1afcb93-f7d9-4e93-8c91-bbeb35f2a322>;
+            cim:IdentifiedObject.name  "Impedance_22 TELEMA 2 ACLS4" .
+    
+    <urn:uuid:8486bab5-2698-4a96-b0cb-44bc2864c449>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:a7016d73-ce37-4f02-ac0b-fa1fbc466044>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.28864583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.61338541666667E1 .
+    
+    <urn:uuid:83a4f0ae-f07c-4662-9e27-581e7e42cda6>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:beeb6643-7ebf-4a2e-8546-f7bbb0fb2a66>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.299765625E2 .
+    
+    <urn:uuid:82e76277-1ad3-4ec2-b318-0880f02c78a5>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b0f8c40e-5918-4f7b-8ecf-c1920f8490d8>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.28864583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.656953125E2 .
+    
+    <urn:uuid:816ce2a8-7f50-461a-9540-17a202b85fe3>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:6611d419-ca3a-4e1f-bde1-a9fe077628a0>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.67216666666667E2 .
+    
+    <urn:uuid:80807833-d801-4760-95ac-b75c8e0d4296>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:d5b4c5ad-1762-8e43-9330-6ec8f7d97bce>;
+            cim:IdentifiedObject.name  "Bus_NEDENES CN 002" .
+    
+    <urn:uuid:7e420932-c051-401e-b3fe-ec734c67e0ab>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:8aec8ef9-be61-4d92-8128-e4bf199dcc9f>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.09008333333333E2 .
+    
+    <urn:uuid:7d4230d8-e195-43d0-8ef6-49f2ab2705c2>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e12ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:20605037-a626-4691-8601-89666564ff87>;
+            cim:IdentifiedObject.name  "Breaker_NEDENES 22 T1 ALB_S" .
+    
+    <urn:uuid:7c80e5b9-7f97-4056-8e86-1618193713a7>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:d8a812b8-da10-4ad5-a1a6-c57efd179354>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.78114583333333E1 .
+    
+    <urn:uuid:7c12a8ca-f176-4604-ad22-b7fa103fd0a8>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:5a035e03-d4c0-479c-9578-f9615727af14>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.70788541666667E2 .
+    
+    <urn:uuid:7aec362d-d055-4852-b992-15d0b8588287>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c19>;
+            cim:IdentifiedObject.name  "FreeText_BuslabelXNED1_XNED2 CN" .
+    
+    <urn:uuid:7a842d2c-f657-4768-b859-644245d70172>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c11>;
+            cim:IdentifiedObject.name  "FreeText_label22 ENGENE-NEDENES" .
+    
+    <urn:uuid:77dfebcf-2cd8-4255-8d1d-696f643bbf44>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES CN 001" .
+    
+    <urn:uuid:770ea008-d56f-48af-bb45-164dfc1ae40f>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:e722f0b1-3d71-47c2-99a7-566d857ce038>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.1828125E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.76552083333333E1 .
+    
+    <urn:uuid:76c62fe6-4af2-42be-bb8c-db6501519f86>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:eaa32378-2082-4b76-92df-09fa5f8b8b51>;
+            cim:IdentifiedObject.name  "PinLink_T1 22 TELEMA 2 ACLS4" .
+    
+    <urn:uuid:74b235f3-e92a-4f85-b0c5-59d38ea06b6f>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:6611d419-ca3a-4e1f-bde1-a9fe077628a0>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.1828125E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.67216666666667E2 .
+    
+    <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>
+            rdf:type                   cim:Diagram;
+            cim:Diagram.orientation    cim:OrientationKind.negative;
+            cim:IdentifiedObject.name  "NEDENES" .
+    
+    <urn:uuid:71b6c29f-6221-4ea6-95b3-e355bdc0307e>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:aa392b63-1919-487f-9a0b-9d11ac4d410d>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.37583333333333E2 .
+    
+    <urn:uuid:717612c8-9751-43f9-ad8a-c44208d0aefc>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:94693470-54ac-4c65-8324-ad6cb426b919>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    7.07760416666667E0;
+            cim:DiagramObjectPoint.yPosition
+                    1.20583854166667E2 .
+    
+    <urn:uuid:70868676-808c-4a9f-b651-6cdd62cce16e>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:9ee167a8-2199-433e-84c9-982cb0fbad82>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.42213541666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.32291666666667E1 .
+    
+    <urn:uuid:6cdd39ae-1641-463d-a84f-0d1ec45cb402>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b1423ad3-f32f-40fe-a9d0-2e8229fe0030>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.4208125E2 .
+    
+    <urn:uuid:6b8feae4-7e9f-4428-889e-ba683a6a06bb>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelNEDENES CN 005" .
+    
+    <urn:uuid:6acf7550-ba8f-4025-882c-4a103cee0d50>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:e254be2d-e622-4e68-ab67-d288cee4a197>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    4.51114583333333E1 .
+    
+    <urn:uuid:6611d419-ca3a-4e1f-bde1-a9fe077628a0>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d>;
+            cim:IdentifiedObject.name  "Bus_XNED1_XNED2 CN" .
+    
+    <urn:uuid:65b7f8ee-c7b2-44b3-ae61-1091fc7f6286>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:6b8feae4-7e9f-4428-889e-ba683a6a06bb>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.28864583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.20583854166667E2 .
+    
+    <urn:uuid:65ae177b-7278-4eae-acc7-3eea59d0da2a>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES 22A CN 002" .
+    
+    <urn:uuid:654212f4-c654-462a-93c5-a632a3ec6eac>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:7a842d2c-f657-4768-b859-644245d70172>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.984375E1;
+            cim:DiagramObjectPoint.yPosition
+                    2.82442708333333E1 .
+    
+    <urn:uuid:642719a5-89ff-486a-a665-969378147b6a>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:03c36c92-f10c-41ac-a6c0-c2965a8a0fd9>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.22105208333333E2 .
+    
+    <urn:uuid:62352272-2a23-4721-a543-155354950515>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:18196020-7867-4366-befa-4518edd3830e>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    8.651875E1 .
+    
+    <urn:uuid:619313ac-65dc-490b-93bc-2a454ac8ad75>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c20>;
+            cim:IdentifiedObject.name  "FreeText_NodelabelNEDENES CN 003" .
+    
+    <urn:uuid:618be573-7a76-463e-91a4-ecf746968947>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b99bd3f4-2aed-4ba9-9e52-ae7b3e25f798>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.50944791666667E2 .
+    
+    <urn:uuid:61346d77-7e6c-445d-8c96-5b4ec74cf671>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:c2797e60-6614-4c5f-9090-ed8cef7b15b5>;
+            cim:IdentifiedObject.name  "PinLink_T2 A22 TELEMA 2 ACLS4" .
+    
+    <urn:uuid:606abd73-01e1-47cb-9535-eaea15373af4>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:cfcf48bc-c198-463c-9f50-50e49018c7e2>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    2.44739583333333E1 .
+    
+    <urn:uuid:6033c3d9-f696-4c31-9678-1a57ea94d41a>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:a48a4d01-01ad-43a9-b3f1-6017297d51cf>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.62983333333333E2 .
+    
+    <urn:uuid:5f889f94-d897-49f4-91be-3c6f4809e886>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:61346d77-7e6c-445d-8c96-5b4ec74cf671>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.67216666666667E2 .
+    
+    <urn:uuid:5e8433b1-4c24-4ce0-bae8-336818018937>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_label22 TELEMA 2 ACLS4" .
+    
+    <urn:uuid:5e275b44-a52d-46ef-912d-525a79486d8f>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:bd030f75-e804-4514-985d-cab13d662e77>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.1034375E1;
+            cim:DiagramObjectPoint.yPosition
+                    4.35901041666667E1 .
+    
+    <urn:uuid:5a2f5e0a-f598-4725-a92e-42caaad2156b>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:aa392b63-1919-487f-9a0b-9d11ac4d410d>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.4208125E2 .
+    
+    <urn:uuid:5a035e03-d4c0-479c-9578-f9615727af14>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e25ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:c70c1ea0-c58b-624b-ab6a-0072ad2eea25>;
+            cim:IdentifiedObject.name  "Load_NEDENES 04 LV EQV" .
+    
+    <urn:uuid:53ed11aa-4cb6-4888-ba0f-14a4ddb17438>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:c0db2e4d-4857-438c-8c12-2b2f85ffe1dd>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.51354166666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    3.50572916666667E1 .
+    
+    <urn:uuid:4d9111e6-d060-4493-b24a-5e5211447257>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:8d29e51c-aa38-4dbf-9871-ef41921c4c7f>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.7546875E1 .
+    
+    <urn:uuid:4d8221be-ecc4-425a-819e-3549025f92ca>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:8f174f34-155c-493c-b917-8cab2869c437>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.28864583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    5.60255208333333E1 .
+    
+    <urn:uuid:4b7cf771-6b39-44c2-b850-7842e7707ff0>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:76c62fe6-4af2-42be-bb8c-db6501519f86>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.22105208333333E2 .
+    
+    <urn:uuid:4384dc61-a29e-41d1-aa42-8070b9ae7869>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:2045299d-ce21-4c39-a208-1684195fed4c>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    3.7703125E1 .
+    
+    <urn:uuid:40f6ff6d-3734-4a8d-8a86-baf328215039>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:7aec362d-d055-4852-b992-15d0b8588287>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    -2.84427083333333E0;
+            cim:DiagramObjectPoint.yPosition
+                    1.656953125E2 .
+    
+    <urn:uuid:406fcd3a-ec00-4fb1-a4f5-dfc15228cdc2>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:e722f0b1-3d71-47c2-99a7-566d857ce038>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.65364583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    7.76552083333333E1 .
+    
+    <urn:uuid:3f7c029e-5be8-4e3a-acb3-5a29da7be5a0>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:61346d77-7e6c-445d-8c96-5b4ec74cf671>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.5954375E2 .
+    
+    <urn:uuid:3e065f0a-f33a-4a99-a6ac-cee771bd20db>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:c0fe4d78-17c6-4a87-9586-188ee9f051d2>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    9.51177083333333E1 .
+    
+    <urn:uuid:3b9be0f7-df35-458f-8321-9cd29ff6e71b>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:681a2178-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.name  "Bus_NEDENES 22A CN 002" .
+    
+    <urn:uuid:35ec3276-1383-43d0-a1e7-6e087f49b814>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.22369791666667E2 .
+    
+    <urn:uuid:35c29fe0-0ee9-4304-a917-4f958caec75c>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e26ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:681a1e15-5a55-11eb-a658-74e5f963e191>;
+            cim:IdentifiedObject.name  "NeighborSubstation_ENGENE" .
+    
+    <urn:uuid:357eb903-c32d-4d2c-8e82-3448d021964b>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:b1423ad3-f32f-40fe-a9d0-2e8229fe0030>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.1828125E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.4208125E2 .
+    
+    <urn:uuid:3551093f-33a5-43a0-bc1c-adb11c3774a1>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES 04 LV EQV" .
+    
+    <urn:uuid:34535aa7-f908-414c-bad4-8827ed227063>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:9e017ab6-d74b-4696-af0d-7895edd18c9b>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.16958333333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.494234375E2 .
+    
+    <urn:uuid:310c2c07-0925-4d4a-8fc1-1ce8a0f8b7d7>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:9911a469-3477-4c17-844f-2e4ff27885f9>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.28864583333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    9.86234375E1 .
+    
+    <urn:uuid:2603ff10-0b68-46f0-b0e0-07dced12040c>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c10>;
+            cim:IdentifiedObject.name  "FreeText_labelNEDENES 22 T1 ALB_" .
+    
+    <urn:uuid:23f77f83-8af6-4712-ba9a-5e93e884a305>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:25581747-6599-46ae-a8ac-62a0161045aa>;
+            cim:IdentifiedObject.name  "PinLink_T1 22 TELEMA 2 ACLS4" .
+    
+    <urn:uuid:233d56e2-4f2f-497a-b0a9-f9f1ecb9265d>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:04141a3b-1da3-4d79-b280-19ac0b50ee62>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.00409375E2 .
+    
+    <urn:uuid:20a877cb-6859-428e-b4c6-2dc9ce8d332c>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:9f1c383c-fda2-400e-95c9-c1a418693f59>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.619375E1;
+            cim:DiagramObjectPoint.yPosition
+                    3.35359375E1 .
+    
+    <urn:uuid:2045299d-ce21-4c39-a208-1684195fed4c>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:bec25a71-68ca-496f-ad8a-edf43f6e6982>;
+            cim:IdentifiedObject.name  "PinLink_T1 NEDENES 22 E1 LB_S" .
+    
+    <urn:uuid:1d48ce76-4111-4c38-81f8-33fa313c7733>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:f0d66452-3273-40b9-9bb7-bf939f358b58>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.22105208333333E2 .
+    
+    <urn:uuid:195db13e-c8ff-429d-8fa1-410c224dcc01>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:5e8433b1-4c24-4ce0-bae8-336818018937>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.16958333333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.07486979166667E2 .
+    
+    <urn:uuid:192f4312-4212-45ff-8803-aa5fcf0fe0bd>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:35c29fe0-0ee9-4304-a917-4f958caec75c>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    2.03729166666667E1 .
+    
+    <urn:uuid:18196020-7867-4366-befa-4518edd3830e>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e13ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:38cd8874-fb01-462c-8c85-95dac14fee9c>;
+            cim:IdentifiedObject.name  "Disconnector_NEDENES 22 TELEMA 2" .
+    
+    <urn:uuid:16826247-09a9-46c2-817c-43059593266b>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:23f77f83-8af6-4712-ba9a-5e93e884a305>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.42345833333333E2 .
+    
+    <urn:uuid:15dd04bb-7e50-4ecd-bbd5-dd1babd3f955>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:77dfebcf-2cd8-4255-8d1d-696f643bbf44>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    3.7703125E0;
+            cim:DiagramObjectPoint.yPosition
+                    3.35359375E1 .
+    
+    <urn:uuid:15556681-e809-4e44-9dee-a3443fe1e48b>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:c0fe4d78-17c6-4a87-9586-188ee9f051d2>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.00144791666667E2 .
+    
+    <urn:uuid:1068d10a-e428-49a5-aafd-1ae6b6d3fbb2>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:23f77f83-8af6-4712-ba9a-5e93e884a305>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    1.91822916666667E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.4208125E2 .
+    
+    <urn:uuid:0abf42e6-e74d-4bdb-9290-278ce4d9ec1c>
+            rdf:type                   cim:TextDiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a400c19>;
+            cim:IdentifiedObject.name  "FreeText_BuslabelNEDENES 22A CN" .
+    
+    <urn:uuid:071b4cce-1084-4bf9-937a-7caab9bb8e73>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:adf1e8c1-ac6a-48c9-8b0a-62a395b5b981>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    1;
+            cim:DiagramObjectPoint.xPosition
+                    2.16958333333333E1;
+            cim:DiagramObjectPoint.yPosition
+                    8.49973958333333E1 .
+    
+    <urn:uuid:04141a3b-1da3-4d79-b280-19ac0b50ee62>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e18ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:db529221-814c-4f40-ab73-a7084d6308b7>;
+            cim:IdentifiedObject.name  "PinLink_T2 22 TELEMA 2 ACLS4" .
+    
+    <urn:uuid:03c36c92-f10c-41ac-a6c0-c2965a8a0fd9>
+            rdf:type                   cim:DiagramObject;
+            cim:DiagramObject.Diagram  <urn:uuid:7340e79a-9cff-4bb5-bddc-389e3358f71b>;
+            cim:DiagramObject.DiagramObjectStyle
+                    <urn:uuid:a2b40123-25d6-458f-9acc-9d5e5a4e15ee>;
+            cim:DiagramObject.IdentifiedObject
+                    <urn:uuid:9bf03de1-7f35-4dfe-86aa-29dff75a6962>;
+            cim:IdentifiedObject.name  "Bus_NEDENES CN 005" .
+    
+    <urn:uuid:035b1a74-0975-46aa-826e-8ebbb3b15cee>
+            rdf:type  cim:DiagramObjectPoint;
+            cim:DiagramObjectPoint.DiagramObject
+                    <urn:uuid:03c36c92-f10c-41ac-a6c0-c2965a8a0fd9>;
+            cim:DiagramObjectPoint.sequenceNumber
+                    2;
+            cim:DiagramObjectPoint.xPosition
+                    2.1828125E1;
+            cim:DiagramObjectPoint.yPosition
+                    1.22105208333333E2 .
+}

@@ -1,0 +1,26 @@
+= Change Management
+:sectnums:
+
+[#ref-Change_Fuse]  
+== Fuse
+As of v2.1 of the DIGIN10 model, relevant Breakers have been changed to Fuse in the DIGIN10-30-LV1_EQ file.
+
+Ref: IEC 61970-600-1:2021 MAS_7: "A new mRID is generated in case there is a need to change the class (e.g. GeneratingUnit is
+changed to ThermalGeneratingUnit in a sequence of exchanges in a process). If a physical
+unit given by mRID in the asset part of the CIM needs to be represented simultaneously as
+GeneratingUnit and ThermalGeneratingUnit (a given specialisation) it must have different
+mRIDs for GeneratingUnit and ThermalGeneratingUnit. If different business processes are
+required to support both types (GeneratingUnit and ThermalGeneratingUnit), the applications
+should maintain two mRIDs and in both cases support difference file exchange."
+
+In general it is considered OK to keep the mRID when the model is changed from one CIM version to another. Fuse does not exist in the profile CGMES v2.4 but does exist in CGMES v.3.0, the Breaker/Fuse changes are therefore considered as a clean version change and not a model change. The mRIDs will therefore not be changed for the Breaker/Fuse or the associated Terminal. 
+
+
+== cim URI
+UTF13 with support from some of the other groups has decided to move to a persistent and resolvable namespace URI. This will come in the next 61970-302/457 (which is something between CIM17/100 and CIM18/101).
+
+"cim": "http://iec.ch/TC57/CIM100#", +
+is being replaced by + 
+"cim": "http://ucaiug.org/ns/CIM#"
+
+The DIGIN10 model has incorporated the new namespace for the cim URI as we are moving to CIMJSON-LD.

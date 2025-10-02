@@ -1,0 +1,139 @@
+PREFIX cim:     <https://cim.ucaiug.io/ns#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+        dcterms:title  "ElBits" .
+
+<urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+        dcterms:description   "Telemark-120 CGMES v3.0 Geographical Region Reference model"@en;
+        dcterms:issued        "2022-04-01T08:55:55"^^xsd:date;
+        dcterms:license       <https://creativecommons.org/licenses/by-nc-sa/4.0/>;
+        dcterms:publisher     <urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>;
+        dcterms:rights        "© 2023 Copyright";
+        dcterms:rightsHolder  "ElBits";
+        dcterms:spatial       <http://energy.referencedata.eu/CGMES>;
+        dcterms:title         "Telemark-120-GeographicalRegion_RD";
+        dcat:isVersionOf      <https://digin.no/baseprofile/Telemark-120-GeographicalRegion_RD>;
+        dcat:keyword          "RD";
+        prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
+
+<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        dcterms:title  "CC BY-NC-SA 4.0" .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+        dcterms:title  "PUBLIC" .
+
+<urn:uuid:5ad50f29-f3e5-4cf9-8519-cef17d71f8de> {
+    <urn:uuid:f17696cf-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "SE4 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f17696cf-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "SE4 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f17696b3-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "FI1 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f17696b3-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "FI1 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f17696a3-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "NO4 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f17696a3-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "NO4 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f1769699-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "NO3 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f1769699-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "NO3 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "NO2 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f176965f-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "NO2 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f1769619-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "NO5 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f1769619-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "NO5 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f1769609-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "NO1 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f1769609-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "NO1 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f17695cd-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "SE1 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f17695cd-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "SE1 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f17695c3-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "SE2 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f17695c3-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "SE2 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:f17695af-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "SE3 Bidding Zone";
+            cim:IdentifiedObject.mRID  "f17695af-9aeb-11e5-91da-b8763fd99c5f";
+            cim:IdentifiedObject.name  "SE3 SGR";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:d9b89685-1fed-4233-8f85-70fd9e6cfd23>
+            rdf:type                   cim:SubGeographicalRegion;
+            cim:IdentifiedObject.description
+                    "Distribution System Operator Vest";
+            cim:IdentifiedObject.mRID  "d9b89685-1fed-4233-8f85-70fd9e6cfd23";
+            cim:IdentifiedObject.name  "DSO V";
+            cim:SubGeographicalRegion.Region
+                    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4> .
+    
+    <urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4>
+            rdf:type                   cim:GeographicalRegion;
+            cim:IdentifiedObject.description
+                    "Nordic";
+            cim:IdentifiedObject.mRID  "2dd9048c-bdfb-11e5-94fa-c8f73332c8f4";
+            cim:IdentifiedObject.name  "NO" .
+}

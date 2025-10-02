@@ -1,0 +1,180 @@
+--- raw/Telemark-120-LV1_AS.trig	2025-08-05 18:19:06.900126100 +0300
++++ Telemark-120-LV1_AS.trig	2025-08-05 18:17:24.342351900 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2> {
++    <urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2>
+         rdf:type              dcat:Dataset;
+@@ -30,9 +37,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:14a0302f-aaae-4abd-862f-7b0c86b4dca2> {
+     <urn:uuid:c03f6706-21e6-4034-ab48-781c438af5a2>
+--- raw/Telemark-120-LV1_CU.trig	2025-08-05 18:19:09.089017000 +0300
++++ Telemark-120-LV1_CU.trig	2025-08-05 18:17:24.342351900 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b> {
++    <urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:596d41fa-11d3-41da-b231-e05724325e9b> {
+     <urn:uuid:f1e8abd7-524d-483c-b20d-d895e2923a22>
+--- raw/Telemark-120-M1_AC.trig	2025-08-05 18:19:11.243958100 +0300
++++ Telemark-120-M1_AC.trig	2025-08-05 18:17:24.344370200 +0300
+@@ -1,2 +1,2 @@
+-PREFIX cim:     <https://cim.ucaiug.io/ns#>
++ PREFIX cim:     <https://cim.ucaiug.io/ns#>
+ PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504> {
++    <urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504>
+         rdf:type              dcat:Dataset;
+@@ -30,9 +37,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:309fe4e7-d477-44e1-a495-de43562b3504> {
+     <urn:uuid:df774997-6a8e-47ca-9cd5-30ce2a85abf0>
+--- raw/Telemark-120-MV1_AS.trig	2025-08-05 18:19:13.516269400 +0300
++++ Telemark-120-MV1_AS.trig	2025-08-05 18:17:24.344370200 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342> {
++    <urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342>
+         rdf:type              dcat:Dataset;
+@@ -30,9 +37,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:7c2e25c9-331f-46f2-a4d4-d33c2e25d342> {
+     <urn:uuid:ff20c614-4797-471e-98c6-c08f7ed97ce6>
+--- raw/Telemark-120-MV1_CU.trig	2025-08-05 18:19:15.892438300 +0300
++++ Telemark-120-MV1_CU.trig	2025-08-05 18:17:24.346387400 +0300
+@@ -11,3 +11,10 @@
+ 
+-<urn:uuid:5f21a6a1-1d98-45f0-89f1-e4d7aa34691a>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:5f21a6a1-1d98-45f0-89f1-e4d7aa34691a> {
++    <urn:uuid:5f21a6a1-1d98-45f0-89f1-e4d7aa34691a>
+         rdf:type              dcat:Dataset;
+@@ -31,9 +38,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:5f21a6a1-1d98-45f0-89f1-e4d7aa34691a> {
+     <urn:uuid:106944d1-3139-41a8-a972-5bf8be1a1c5b>
+--- raw/Telemark-120-ReadingQualityType_RD.trig	2025-08-05 18:19:18.070517300 +0300
++++ Telemark-120-ReadingQualityType_RD.trig	2025-08-05 18:17:24.346387400 +0300
+@@ -9,3 +9,13 @@
+ 
+-<urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2>
++<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
++        dcterms:title  "ElBits" .
++
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2> {
++    <urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2>
+         rdf:type              dcat:Dataset;
+@@ -24,12 +34,2 @@
+ 
+-<urn:uuid:bd53cf0a-2e2f-4230-a591-0233290b5f9b>
+-        dcterms:title  "ElBits" .
+-
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:e7277159-1a1b-4e6f-bd81-bb888341a3a2> {
+     <urn:uuid:ffaf535c-4a2d-4586-9f2f-dbc8f69fac04>
+--- raw/Telemark-120-ReadingType_RD.trig	2025-08-05 18:19:20.424445700 +0300
++++ Telemark-120-ReadingType_RD.trig	2025-08-05 18:17:24.348405000 +0300
+@@ -12,3 +12,10 @@
+ 
+-<urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326>
++<https://creativecommons.org/licenses/by-nc-sa/4.0/>
++        dcterms:title  "CC BY-NC-SA 4.0" .
++
++<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
++        dcterms:title  "PUBLIC" .
++
++<urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326> {
++    <urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326>
+         rdf:type              dcat:Dataset;
+@@ -27,9 +34,2 @@
+ 
+-<https://creativecommons.org/licenses/by-nc-sa/4.0/>
+-        dcterms:title  "CC BY-NC-SA 4.0" .
+-
+-<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+-        dcterms:title  "PUBLIC" .
+-
+-<urn:uuid:5d5ea085-1ad3-4826-91db-a329818f8326> {
+     <urn:uuid:feb86bae-cfa4-4dcf-937b-f3c72dbbb668>
+@@ -11,3 +11,13 @@
+ 
