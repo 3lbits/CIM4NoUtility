@@ -61,7 +61,7 @@
             "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit/4.0"
         }
     ],
-    "dcterms:references": [
+    "dcterms:requires": [
         {
             "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
         }

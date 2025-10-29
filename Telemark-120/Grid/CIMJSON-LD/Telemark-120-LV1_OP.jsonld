@@ -61,7 +61,7 @@
             "@id": "http://iec.ch/TC57/ns/CIM/Operation/4.0"
         }
     ],
-    "dcterms:references": [
+    "dcterms:requires": [
         {
             "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
         }

@@ -69,7 +69,7 @@
             "@id": "http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0"
         }
     ],
-    "dcterms:references": [
+    "dcterms:requires": [
         {
             "@id": "urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16"
         }
