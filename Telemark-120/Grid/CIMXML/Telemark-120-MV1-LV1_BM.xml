@@ -7,12 +7,13 @@
     xmlns:dcat="http://www.w3.org/ns/dcat"
     >
 
-    <md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
+    <md:FullModel rdf:about="urn:uuid:e766c722-d2db-41cc-93e4-74b1f161c13a">
         <md:Model.created>2022-04-06T11:32:55</md:Model.created>
         <md:Model.version>1</md:Model.version>
         <md:Model.description>Telemark-120 CGMES v3.0 Medium Voltage 1 (MV1) Low Voltage 1 (LV1) Boundary Model</md:Model.description>
         <dcat:keyword>BM</dcat:keyword>
         <md:Model.modelingAuthoritySet>https://diginenergi.no/Telemark-120/MV1-LV1</md:Model.modelingAuthoritySet>
+        <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4" />
         <!-- Anything in EQ (Core, Operation and Short-Circuit) and EQR can be in a boundary. It would be good to refer to the vocabulary that is covered in the model
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundary/3/1</md:Model.profile>
         <md:Model.profile>http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1</md:Model.profile> -->

@@ -8,7 +8,7 @@
         "prov": "http://www.w3.org/ns/prov#",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
-    "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4",
+    "@id": "urn:uuid:e766c722-d2db-41cc-93e4-74b1f161c13a",
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
         "@value": "2023-10-26T10:35:31Z",
@@ -46,6 +46,11 @@
     "dcterms:spatial": {
         "@id": "https://diginenergi.no/Telemark-120/MV1-LV1"
     },
+    "dcterms:requires": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
     "@graph": [
         {
             "@id": "urn:uuid:3d51330c-7528-4efb-8edc-e61dcc145ac4",
