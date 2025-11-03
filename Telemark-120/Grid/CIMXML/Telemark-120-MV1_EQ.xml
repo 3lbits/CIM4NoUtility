@@ -454,7 +454,7 @@
         <cim:IdentifiedObject.mRID>abbab805-9b44-4c2d-93c2-45a691f71cd1</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>T-Junction Engene 132kV A Busbar Section 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>T_ENGENE 132A</cim:IdentifiedObject.name>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_681a1e17-5a55-11eb-a658-74e5f963e191" />
+        <cim:Equipment.EquipmentContainer rdf:resource="#_681a1e3e-5a55-11eb-a658-74e5f963e191" />
     </cim:BusbarSection>
  
     <cim:BusbarSection rdf:ID="_681a1eac-5a55-11eb-a658-74e5f963e191">

@@ -666,7 +666,7 @@
             "cim:IdentifiedObject.description": "T-Junction Engene 132kV A Busbar Section 1",
             "cim:IdentifiedObject.name": "T_ENGENE 132A",
             "cim:Equipment.EquipmentContainer": {
-                "@id": "urn:uuid:681a1e17-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:681a1e3e-5a55-11eb-a658-74e5f963e191"
             }
         },
         {
