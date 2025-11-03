@@ -46,6 +46,11 @@
     "dcterms:spatial": {
         "@id": "https://diginenergi.no/Telemark-120/HV1-MV1"
     },
+    "dcterms:requires": [
+        {
+            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+        }
+    ],
     "@graph": [
         {
             "@id": "urn:uuid:048e8349-1963-4d55-a842-f74c4de8fe0f",

@@ -69,7 +69,7 @@
             "@id": "http://iec.ch/TC57/ns/CIM/Topology/5.0"
         }
     ],
-    "dcterms:references": [
+    "dcterms:requires": [
         {
             "@id": "urn:uuid:a529556e-aa95-4b28-b729-e9114f90880a"
         }

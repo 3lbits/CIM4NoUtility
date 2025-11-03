@@ -13,7 +13,7 @@
         <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
         <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment/4.0</md:Model.profile>
         <md:Model.version>1</md:Model.version>
-        <md:Model.DependentOn rdf:resource="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4" />
+        <md:Model.DependentOn rdf:resource="urn:uuid:b39e7379-a9ae-4262-98dc-9ade1200adb0" />
     </md:FullModel>
  
     <cim:ACLineSegment rdf:ID="_681a26db-5a55-11eb-a658-74e5f963e191">
@@ -2907,5 +2907,74 @@
         <cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
         <cim:VoltageLevel.Substation rdf:resource="#_681a1e3c-5a55-11eb-a658-74e5f963e191" />
     </cim:VoltageLevel>
+
+    <cim:VoltageLevel rdf:ID="_1f4fabd4-8c57-c245-b107-4e64c9007ae3">
+        <cim:IdentifiedObject.mRID>1f4fabd4-8c57-c245-b107-4e64c9007ae3</cim:IdentifiedObject.mRID>
+        <cim:VoltageLevel.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
+        <cim:VoltageLevel.Substation rdf:resource="#_f1769670-9aeb-11e5-91da-b8763fd99c5f"/>
+        <cim:IdentifiedObject.name>ARENDAL 420</cim:IdentifiedObject.name>
+    </cim:VoltageLevel>
+
+    <cim:ConnectivityNode rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c">
+        <cim:IdentifiedObject.mRID>cb837454-5c66-d341-be63-d0c044e5fd3c</cim:IdentifiedObject.mRID>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+        <cim:IdentifiedObject.name>XARE1_XARE2 CN</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
+    </cim:ConnectivityNode>
+
+    <cim:BaseVoltage rdf:ID="_2dd90174-bdfb-11e5-94fa-c8f73332c8f4">
+        <cim:IdentifiedObject.mRID>2dd90174-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 132 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>132</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-132kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>132</eu:IdentifiedObject.shortName>
+    </cim:BaseVoltage>
+
+    <cim:BaseVoltage rdf:ID="_92d33b38-7034-11eb-a65a-74e5f963e191">
+        <cim:IdentifiedObject.mRID>92d33b38-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 22 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>22</cim:BaseVoltage.nominalVoltage>
+        <eu:IdentifiedObject.shortName>22</eu:IdentifiedObject.shortName>
+        <cim:IdentifiedObject.name>AC-22kV</cim:IdentifiedObject.name>
+    </cim:BaseVoltage>
+
+    <cim:BaseVoltage rdf:ID="_830622e6-d259-4526-b14e-122d94a622a4">
+        <cim:IdentifiedObject.mRID>830622e6-d259-4526-b14e-122d94a622a4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 230 V</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>0.23</cim:BaseVoltage.nominalVoltage>
+        <eu:IdentifiedObject.shortName>023</eu:IdentifiedObject.shortName>
+        <cim:IdentifiedObject.name>AC-230V</cim:IdentifiedObject.name>
+    </cim:BaseVoltage>
+
+    <cim:BaseVoltage rdf:ID="_9598e4a0-67e5-4ad7-879c-c85a1f63159c">
+        <cim:IdentifiedObject.mRID>9598e4a0-67e5-4ad7-879c-c85a1f63159c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 400 V</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>0.4</cim:BaseVoltage.nominalVoltage>
+        <eu:IdentifiedObject.shortName>04</eu:IdentifiedObject.shortName>
+        <cim:IdentifiedObject.name>AC-400V</cim:IdentifiedObject.name>
+    </cim:BaseVoltage>
+
+    <cim:BaseVoltage rdf:ID="_2dd90159-bdfb-11e5-94fa-c8f73332c8f4">
+        <cim:IdentifiedObject.mRID>2dd90159-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 420 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>420</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-420kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>420</eu:IdentifiedObject.shortName>
+    </cim:BaseVoltage>
+
+    <cim:SubGeographicalRegion rdf:ID="_f176965f-9aeb-11e5-91da-b8763fd99c5f">
+        <cim:IdentifiedObject.mRID>f176965f-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
+        <cim:SubGeographicalRegion.Region rdf:resource="#_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"/>
+        <cim:IdentifiedObject.name>NO2 SGR</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>NO2</eu:IdentifiedObject.shortName>
+        <cim:IdentifiedObject.description>NO2 Bidding Zone</cim:IdentifiedObject.description>
+    </cim:SubGeographicalRegion>
+    
+    <cim:GeographicalRegion rdf:ID="_2dd9048c-bdfb-11e5-94fa-c8f73332c8f4">
+        <cim:IdentifiedObject.mRID>2dd9048c-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>NO</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Nordic</cim:IdentifiedObject.description>
+        <eu:IdentifiedObject.shortName>NO</eu:IdentifiedObject.shortName>
+    </cim:GeographicalRegion>
 
  </rdf:RDF>

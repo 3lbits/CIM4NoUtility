@@ -8,7 +8,7 @@
         "prov": "http://www.w3.org/ns/prov#",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     },
-    "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981",
+    "@id": "urn:uuid:9ac3689e-bc48-42d0-b18e-4f9ee16503a0", 
     "@type": "dcat:Dataset",
     "prov:generatedAtTime": {
         "@value": "2023-10-26T10:35:31Z",
@@ -61,7 +61,7 @@
             "@id": "http://iec.ch/TC57/ns/CIM/Operation/4.0"
         }
     ],
-    "dcterms:references": [
+    "dcterms:requires": [
         {
             "@id": "urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981"
         }

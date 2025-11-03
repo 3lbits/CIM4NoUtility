@@ -63,7 +63,7 @@
     ],
     "dcterms:references": [
         {
-            "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
+            "@id": "urn:uuid:e766c722-d2db-41cc-93e4-74b1f161c13a"
         }
     ],
     "@graph": [
@@ -5147,18 +5147,6 @@
             }
         },
         {
-            "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3",
-            "@type": "cim:VoltageLevel",
-            "cim:IdentifiedObject.mRID": "1f4fabd4-8c57-c245-b107-4e64c9007ae3",
-            "cim:IdentifiedObject.name": "ARENDAL 420",
-            "cim:VoltageLevel.BaseVoltage": {
-                "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4"
-            },
-            "cim:VoltageLevel.Substation": {
-                "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f"
-            }
-        },
-        {
             "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191",
             "@type": "cim:VoltageLevel",
             "cim:IdentifiedObject.mRID": "681a21b6-5a55-11eb-a658-74e5f963e191",
@@ -5170,6 +5158,50 @@
             "cim:VoltageLevel.Substation": {
                 "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191"
             }
+        },
+        {
+            "@id": "urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "45fed034-857e-48df-b6ad-45d82eec564d",
+            "cim:IdentifiedObject.name": "XNED1_XNED2 CN",
+            "cim:ConnectivityNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c",
+            "@type": "cim:BaseVoltage",
+            "cim:IdentifiedObject.mRID": "9598e4a0-67e5-4ad7-879c-c85a1f63159c",
+            "cim:IdentifiedObject.description": "Base Voltage 400 V",
+            "cim:IdentifiedObject.name": "AC-400V",
+            "cim:BaseVoltage.nominalVoltage": 0.4
+        },
+        {
+            "@id": "urn:uuid:d9b89685-1fed-4233-8f85-70fd9e6cfd23",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "d9b89685-1fed-4233-8f85-70fd9e6cfd23",
+            "cim:IdentifiedObject.description": "Distribution System Operator Vest",
+            "cim:IdentifiedObject.name": "DSO V",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f",
+            "@type": "cim:SubGeographicalRegion",
+            "cim:IdentifiedObject.mRID": "f176965f-9aeb-11e5-91da-b8763fd99c5f",
+            "cim:IdentifiedObject.description": "NO2 Bidding Zone",
+            "cim:IdentifiedObject.name": "NO2 SGR",
+            "cim:SubGeographicalRegion.Region": {
+                "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4"
+            }
+        },
+        {
+            "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4",
+            "@type": "cim:GeographicalRegion",
+            "cim:IdentifiedObject.mRID": "2dd9048c-bdfb-11e5-94fa-c8f73332c8f4",
+            "cim:IdentifiedObject.description": "Nordic",
+            "cim:IdentifiedObject.name": "NO"
         }
     ]
 }

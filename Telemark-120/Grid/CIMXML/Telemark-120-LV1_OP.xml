@@ -6,7 +6,7 @@
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
     >
 
-    <md:FullModel rdf:about="urn:uuid:c47d4310-b8ee-480d-9cf3-e53a81630981">
+    <md:FullModel rdf:about="urn:uuid:9ac3689e-bc48-42d0-b18e-4f9ee16503a0"> 
         <md:Model.created>2022-10-28T13:37:00Z</md:Model.created>
         <md:Model.scenarioTime>2022-10-28T13:37:00Z</md:Model.scenarioTime>
         <md:Model.description>Telemark-120 CGMES v3.0 Low Voltage 1 (LV1) Equipment Operation (OP) Model</md:Model.description>
