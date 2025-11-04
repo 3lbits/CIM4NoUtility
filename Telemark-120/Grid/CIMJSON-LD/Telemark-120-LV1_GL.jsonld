@@ -137,6 +137,7 @@
         {
             "@id": "urn:uuid:36e1bc0b-c616-48f5-9a64-95c6d8beaa94",
             "@type": "cim:Location",
+            "cim:IdentifiedObject.mRID": "36e1bc0b-c616-48f5-9a64-95c6d8beaa94",
             "cim:IdentifiedObject.name": "L TELEMARKSTIEN2 CB6",
             "cim:Location.CoordinateSystem": {
                 "@id": "urn:uuid:2be52cd7-b707-4dda-9e14-4a1966e22ff9"
