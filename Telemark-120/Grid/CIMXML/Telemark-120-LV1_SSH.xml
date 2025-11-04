@@ -126,7 +126,7 @@
         <cim:Equipment.inService>true</cim:Equipment.inService>
         <cim:Switch.locked>false</cim:Switch.locked>
         <cim:Switch.open>true</cim:Switch.open>
-    </cim:Fuse>
+    </cim:Breaker>
  
     <cim:Fuse rdf:about="#_7e432a85-77b4-44f2-ae98-07134a1a5087">
         <cim:Equipment.inService>true</cim:Equipment.inService>
