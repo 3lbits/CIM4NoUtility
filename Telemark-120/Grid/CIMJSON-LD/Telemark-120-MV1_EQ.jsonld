@@ -4419,6 +4419,48 @@
             }
         },
         {
+            "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:VoltageLevel",
+            "cim:IdentifiedObject.mRID": "681a21b6-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.description": "Secondary Substation LV",
+            "cim:IdentifiedObject.name": "NEDENES 04",
+            "cim:VoltageLevel.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:VoltageLevel.Substation": {
+                "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "681a2179-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.description": "Secondary Substation Nedenes",
+            "cim:IdentifiedObject.name": "NEDENES",
+            "cim:Substation.Region": {
+                "@id": "urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:3d51330c-7528-4efb-8edc-e61dcc145ac4",
+            "@type": "cim:Bay",
+            "cim:IdentifiedObject.mRID": "3d51330c-7528-4efb-8edc-e61dcc145ac4",
+            "cim:IdentifiedObject.description": "Nedenes 400V Low Voltage Cable 1 Bay",
+            "cim:IdentifiedObject.name": "NEDENES  04LC1",
+            "cim:Bay.VoltageLevel": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "45fed034-857e-48df-b6ad-45d82eec564d",
+            "cim:IdentifiedObject.name": "XNED1_XNED2 CN",
+            "cim:ConnectivityNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
             "@id": "urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c",
             "@type": "cim:ConnectivityNode",
             "cim:IdentifiedObject.mRID": "cb837454-5c66-d341-be63-d0c044e5fd3c",
