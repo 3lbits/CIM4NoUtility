@@ -1828,8 +1828,8 @@
             "cim:EquivalentInjection.r": 0.43445,
             "cim:EquivalentInjection.regulationCapability": false,
             "cim:EquivalentInjection.x": 4.3445,
-            "cim:Equipment.EquipmentContainer": {
-                "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3"
+            "cim:ConductingEquipment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4"
             }
         },
         {

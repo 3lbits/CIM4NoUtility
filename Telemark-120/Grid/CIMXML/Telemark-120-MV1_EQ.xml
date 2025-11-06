@@ -184,6 +184,13 @@
         <cim:Equipment.EquipmentContainer rdf:resource="#_d4f4ebe8-2eed-f04f-9000-676f6778a959" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
+
+    <cim:Bay rdf:ID="_3d51330c-7528-4efb-8edc-e61dcc145ac4">
+        <cim:IdentifiedObject.mRID>3d51330c-7528-4efb-8edc-e61dcc145ac4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Nedenes 400V Low Voltage Cable 1 Bay</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES  04LC1</cim:IdentifiedObject.name>
+        <cim:Bay.VoltageLevel rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+    </cim:Bay>
  
     <cim:Bay rdf:ID="_5b498a4e-d2de-7f41-8f17-be255b3489db">
         <cim:IdentifiedObject.mRID>5b498a4e-d2de-7f41-8f17-be255b3489db</cim:IdentifiedObject.mRID>
@@ -504,6 +511,19 @@
         <cim:IdentifiedObject.name>DSO1 SA 1 LG 1</cim:IdentifiedObject.name>
         <cim:LoadGroup.SubLoadArea rdf:resource="#_92d33b3a-7034-11eb-a65a-74e5f963e191" />
     </cim:ConformLoadGroup>
+
+    <cim:ConnectivityNode rdf:ID="_45fed034-857e-48df-b6ad-45d82eec564d">
+        <cim:IdentifiedObject.mRID>45fed034-857e-48df-b6ad-45d82eec564d</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>XNED1_XNED2 CN</cim:IdentifiedObject.name>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_681a21b6-5a55-11eb-a658-74e5f963e191"/>
+    </cim:ConnectivityNode>
+    
+    <cim:ConnectivityNode rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c">
+        <cim:IdentifiedObject.mRID>cb837454-5c66-d341-be63-d0c044e5fd3c</cim:IdentifiedObject.mRID>
+        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
+        <cim:IdentifiedObject.name>XARE1_XARE2 CN</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
+    </cim:ConnectivityNode>
  
     <cim:ConnectivityNode rdf:ID="_681a1e80-5a55-11eb-a658-74e5f963e191">
         <cim:IdentifiedObject.mRID>681a1e80-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
@@ -1226,7 +1246,8 @@
         <cim:EquivalentInjection.r>0.43445</cim:EquivalentInjection.r>
         <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
         <cim:EquivalentInjection.x>4.3445</cim:EquivalentInjection.x>
-        <cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3" />
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4" />
+        <!--<cim:Equipment.EquipmentContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3" />-->
     </cim:EquivalentInjection>
  
     <cim:EquivalentInjection rdf:ID="_c70c1ea0-c58b-624b-ab6a-0072ad2eea25">
@@ -1880,6 +1901,13 @@
         <cim:IdentifiedObject.description>Engene T-junction</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>T_ENGENE</cim:IdentifiedObject.name>
         <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f" />
+    </cim:Substation>
+
+    <cim:Substation rdf:ID="_681a2179-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a2179-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>NEDENES</cim:IdentifiedObject.name>
+        <cim:Substation.Region rdf:resource="#_f176965f-9aeb-11e5-91da-b8763fd99c5f"/>
+        <cim:IdentifiedObject.description>Secondary Substation Nedenes</cim:IdentifiedObject.description>
     </cim:Substation>
  
     <cim:SynchronousMachine rdf:ID="_33666962-c2f9-4f6b-af5a-2ef1982ac282">
@@ -2915,12 +2943,13 @@
         <cim:IdentifiedObject.name>ARENDAL 420</cim:IdentifiedObject.name>
     </cim:VoltageLevel>
 
-    <cim:ConnectivityNode rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c">
-        <cim:IdentifiedObject.mRID>cb837454-5c66-d341-be63-d0c044e5fd3c</cim:IdentifiedObject.mRID>
-        <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_1f4fabd4-8c57-c245-b107-4e64c9007ae3"/>
-        <cim:IdentifiedObject.name>XARE1_XARE2 CN</cim:IdentifiedObject.name>
-        <cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
-    </cim:ConnectivityNode>
+   <cim:VoltageLevel rdf:ID="_681a21b6-5a55-11eb-a658-74e5f963e191">
+        <cim:IdentifiedObject.mRID>681a21b6-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Secondary Substation LV</cim:IdentifiedObject.description>
+        <cim:IdentifiedObject.name>NEDENES 04</cim:IdentifiedObject.name>
+        <cim:VoltageLevel.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c"/>
+        <cim:VoltageLevel.Substation rdf:resource="#_681a2179-5a55-11eb-a658-74e5f963e191"/>
+    </cim:VoltageLevel>
 
     <cim:BaseVoltage rdf:ID="_2dd90174-bdfb-11e5-94fa-c8f73332c8f4">
         <cim:IdentifiedObject.mRID>2dd90174-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
