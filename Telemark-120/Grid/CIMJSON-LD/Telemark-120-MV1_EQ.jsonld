@@ -1560,7 +1560,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "3401221c-3b67-7144-981f-94a1d57a77a1",
             "cim:IdentifiedObject.name": "PATL T1 ARENDAL T1 420 P",
-            "cim:CurrentLimit.normalValue": 412.0,
+            "cim:CurrentLimit.normalValue": 150.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc"
             },
@@ -1573,7 +1573,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "1d069b92-4138-454e-9db4-c05f38f767ca",
             "cim:IdentifiedObject.name": "TATL T1 ARENDAL T1 420 P",
-            "cim:CurrentLimit.normalValue": 412.0,
+            "cim:CurrentLimit.normalValue": 150.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc"
             },
@@ -1586,7 +1586,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "3817162d-5e9d-d243-be82-10c2eca33b5b",
             "cim:IdentifiedObject.name": "PATL T2 ARENDAL T1 132 S",
-            "cim:CurrentLimit.normalValue": 275.0,
+            "cim:CurrentLimit.normalValue": 500.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a"
             },
@@ -1599,7 +1599,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "a3dceeba-ffb3-4349-9c4f-efb8c5c05923",
             "cim:IdentifiedObject.name": "TATL T2 ARENDAL T1 132 S",
-            "cim:CurrentLimit.normalValue": 275.0,
+            "cim:CurrentLimit.normalValue": 500.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a"
             },
