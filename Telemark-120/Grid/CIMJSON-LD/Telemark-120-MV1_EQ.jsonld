@@ -3359,9 +3359,6 @@
             "cim:IdentifiedObject.description": "Primary Winding Side",
             "cim:IdentifiedObject.name": "T1 ENGENE NT1 22 P",
             "cim:ACDCTerminal.sequenceNumber": 1,
-            "cim:Terminal.phases": {
-                "@id": "cim:PhaseCode.ABCN"
-            },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191"
             },

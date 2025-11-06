@@ -2258,7 +2258,6 @@
         <cim:IdentifiedObject.description>Primary Winding Side</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>T1 ENGENE NT1 22 P</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
-        <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABCN" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e4b-5a55-11eb-a658-74e5f963e191" />
     </cim:Terminal>
@@ -2712,6 +2711,7 @@
         <cim:IdentifiedObject.description>Secondary Winding Side</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>T2 ENGENE ZT1 023 S</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+        <!--<cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABCN" />-->
         <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e53-5a55-11eb-a658-74e5f963e191" />
     </cim:Terminal>
