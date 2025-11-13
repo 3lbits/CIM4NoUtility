@@ -528,6 +528,7 @@
         <cim:RotatingMachine.p>-178</cim:RotatingMachine.p>
         <cim:RotatingMachine.q>0</cim:RotatingMachine.q>
         <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
         <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/CIM100#SynchronousMachineOperatingMode.generator" />
     </cim:SynchronousMachine>
  

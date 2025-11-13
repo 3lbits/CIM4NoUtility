@@ -691,6 +691,7 @@
             "cim:RotatingMachine.p": -178.0,
             "cim:RotatingMachine.q": 0.0,
             "cim:RegulatingCondEq.controlEnabled": true,
+            "cim:SynchronousMachine.referencePriority": 0,
             "cim:SynchronousMachine.operatingMode": {
                 "@id": "cim:SynchronousMachineOperatingMode.generator"
             }
