@@ -23,8 +23,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.006804</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.09996</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e">
@@ -32,8 +32,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.003402</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.04998</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9">
@@ -41,8 +41,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.001208</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.00512</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_681a26f3-5a55-11eb-a658-74e5f963e191">
@@ -50,8 +50,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.06962</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.61537</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_1f19556f-4604-8545-b930-0d96b163c57a">
@@ -59,8 +59,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.01183</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.00483</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_92d33b99-7034-11eb-a65a-74e5f963e191">
@@ -68,8 +68,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>21.06046</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>6.82164</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_92d33bcc-7034-11eb-a65a-74e5f963e191">
@@ -77,8 +77,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>2.16008</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>1.11622</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_92d33be4-7034-11eb-a65a-74e5f963e191">
@@ -86,8 +86,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.135</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.052</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_681a2a7f-5a55-11eb-a658-74e5f963e191">
@@ -95,8 +95,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.0102</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.0032</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_681a2a13-5a55-11eb-a658-74e5f963e191">
@@ -104,8 +104,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.0102</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.0032</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_681a26cf-5a55-11eb-a658-74e5f963e191">
@@ -113,8 +113,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.0084</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.014784</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322">
@@ -122,8 +122,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.0021</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.0062</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:ACLineSegment rdf:about="#_b1b4714b-a160-7742-84d5-d6486d776c94">
@@ -131,8 +131,8 @@
         <cim:ACLineSegment.shortCircuitEndTemperature>160.0000000000</cim:ACLineSegment.shortCircuitEndTemperature>
         <cim:ACLineSegment.g0ch>0.0</cim:ACLineSegment.g0ch>
         <cim:ACLineSegment.b0ch>0.0</cim:ACLineSegment.b0ch>
-        <cim:ACLineSegment.x0>0.900000</cim:ACLineSegment.x0>
-        <cim:ACLineSegment.r0>0.300000</cim:ACLineSegment.r0>
+        <cim:ACLineSegment.x0>0.002106</cim:ACLineSegment.x0>
+        <cim:ACLineSegment.r0>0.003796</cim:ACLineSegment.r0>
     </cim:ACLineSegment>
 
     <cim:EquivalentInjection rdf:about="#_ed8865cf-8b36-42ce-acdc-0627b5f55802">

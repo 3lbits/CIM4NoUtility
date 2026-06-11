@@ -23,8 +23,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.021</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>25</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>1.7</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.025</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0017</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_cdc8afca-5a57-ad4a-84ef-f6a236e20463" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4" />
     </cim:ACLineSegment>
@@ -36,8 +36,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.0105</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>12.5</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>0.85</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0125</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.00085</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_cb57417c-d86a-4a42-a6a6-e0f53d9331c0" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_830622e6-d259-4526-b14e-122d94a622a4" />
     </cim:ACLineSegment>
@@ -62,8 +62,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.590</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>176</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>35</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.176</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.035</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_8e0075c4-ea93-4669-b57c-3f6b229bb6d3" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
     </cim:ACLineSegment>
@@ -75,8 +75,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.035</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>5.9</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0059</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_28412ba6-8a1b-e548-8b8e-d76b1b083afb" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
     </cim:ACLineSegment>
@@ -88,8 +88,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>27.070</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>1950</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>10530</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>1.95</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>10.53</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_81e0db9e-aa30-474d-b017-def591771422" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
     </cim:ACLineSegment>
@@ -101,8 +101,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>2.680</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>320</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>1080</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.32</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>1.08</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_f677795c-3419-4623-9e5d-4a0287903492" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
     </cim:ACLineSegment>
@@ -114,8 +114,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.500</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>26</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>45</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.026</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.045</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_c7ef29bd-8a14-e343-a03f-9b1b6d343e44" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
@@ -127,8 +127,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.020</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>3.4</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0034</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_e07eda57-aafe-384d-9f7b-3ed4ed8e1da0" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
@@ -140,8 +140,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.020</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>3.4</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0016</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0034</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_58f1a6ec-bb18-e84b-b50f-864f0eb7100d" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
@@ -153,8 +153,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.028</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>7.4</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>2.8</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0074</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0028</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_1622b4fa-9e46-784e-b160-1c47e1133d7e" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
@@ -166,8 +166,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.005</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>3.1</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>0.7</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0031</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0007</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_2dc165a0-39fb-6541-81d8-4daee82b2932" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
@@ -179,8 +179,8 @@
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Conductor.length>0.013</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
-        <cim:ACLineSegment.r>1.9</cim:ACLineSegment.r>
-        <cim:ACLineSegment.x>0.7</cim:ACLineSegment.x>
+        <cim:ACLineSegment.r>0.0019</cim:ACLineSegment.r>
+        <cim:ACLineSegment.x>0.0007</cim:ACLineSegment.x>
         <cim:Equipment.EquipmentContainer rdf:resource="#_d4f4ebe8-2eed-f04f-9000-676f6778a959" />
         <cim:ConductingEquipment.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
     </cim:ACLineSegment>
@@ -1651,10 +1651,10 @@
         <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
         <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
         <cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-        <cim:PowerTransformerEnd.r>0.84</cim:PowerTransformerEnd.r>
+        <cim:PowerTransformerEnd.r>5.292</cim:PowerTransformerEnd.r>
         <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
         <cim:PowerTransformerEnd.ratedU>420</cim:PowerTransformerEnd.ratedU>
-        <cim:PowerTransformerEnd.x>25.41</cim:PowerTransformerEnd.x>
+        <cim:PowerTransformerEnd.x>246.9</cim:PowerTransformerEnd.x>
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4" />
         <cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191" />
         <cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y" />
@@ -1685,10 +1685,10 @@
         <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
         <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
         <cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-        <cim:PowerTransformerEnd.r>2.37</cim:PowerTransformerEnd.r>
+        <cim:PowerTransformerEnd.r>0.8712</cim:PowerTransformerEnd.r>
         <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
         <cim:PowerTransformerEnd.ratedU>132</cim:PowerTransformerEnd.ratedU>
-        <cim:PowerTransformerEnd.x>82.28</cim:PowerTransformerEnd.x>
+        <cim:PowerTransformerEnd.x>20.89</cim:PowerTransformerEnd.x>
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
         <cim:TransformerEnd.Terminal rdf:resource="#_05548bc6-70a0-44b7-8bac-20f745974e43" />
         <cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y" />
@@ -1753,10 +1753,10 @@
         <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
         <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
         <cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
-        <cim:PowerTransformerEnd.r>5.081</cim:PowerTransformerEnd.r>
-        <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
+        <cim:PowerTransformerEnd.r>2.5405</cim:PowerTransformerEnd.r>
+        <cim:PowerTransformerEnd.ratedS>2</cim:PowerTransformerEnd.ratedS>
         <cim:PowerTransformerEnd.ratedU>22</cim:PowerTransformerEnd.ratedU>
-        <cim:PowerTransformerEnd.x>35.45</cim:PowerTransformerEnd.x>
+        <cim:PowerTransformerEnd.x>17.725</cim:PowerTransformerEnd.x>
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_92d33b38-7034-11eb-a65a-74e5f963e191" />
         <cim:TransformerEnd.Terminal rdf:resource="#_92d33bfd-7034-11eb-a65a-74e5f963e191" />
         <cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y" />
@@ -1771,7 +1771,7 @@
         <cim:TransformerEnd.grounded>false</cim:TransformerEnd.grounded>
         <cim:PowerTransformerEnd.b>0</cim:PowerTransformerEnd.b>
         <cim:PowerTransformerEnd.r>0</cim:PowerTransformerEnd.r>
-        <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
+        <cim:PowerTransformerEnd.ratedS>2</cim:PowerTransformerEnd.ratedS>
         <cim:PowerTransformerEnd.ratedU>0.400</cim:PowerTransformerEnd.ratedU>
         <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_9598e4a0-67e5-4ad7-879c-c85a1f63159c" />
