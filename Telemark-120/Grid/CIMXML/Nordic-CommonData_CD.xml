@@ -5,6 +5,7 @@
     xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
     xmlns:dcat="http://www.w3.org/ns/dcat"
+    xmlns:nc-no="http://cim4.eu/ns/nc-no#"
     >
 
     <md:FullModel rdf:about="urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4">
@@ -24,65 +25,158 @@
         <cim:IdentifiedObject.description>Base Power 1000</cim:IdentifiedObject.description>
         <cim:BasePower.basePower>1000</cim:BasePower.basePower>
     </cim:BasePower>
-    <!-- High Voltage (HV) BaseVoltage -->
-    <cim:BaseVoltage rdf:ID="_2dd90159-bdfb-11e5-94fa-c8f73332c8f4">
-        <cim:IdentifiedObject.mRID>2dd90159-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 420 kV</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>420</cim:BaseVoltage.nominalVoltage>
-        <cim:IdentifiedObject.name>AC-420kV</cim:IdentifiedObject.name>
-        <eu:IdentifiedObject.shortName>420</eu:IdentifiedObject.shortName>
-    </cim:BaseVoltage>
-    <cim:BaseVoltage rdf:ID="_2dd90169-bdfb-11e5-94fa-c8f73332c8f4">
-        <cim:IdentifiedObject.mRID>2dd90169-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 300 kV</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>300</cim:BaseVoltage.nominalVoltage>
-        <cim:IdentifiedObject.name>AC-300kV</cim:IdentifiedObject.name>
-        <eu:IdentifiedObject.shortName>300</eu:IdentifiedObject.shortName>
-    </cim:BaseVoltage>
-    <cim:BaseVoltage rdf:ID="_2dd90174-bdfb-11e5-94fa-c8f73332c8f4">
-        <cim:IdentifiedObject.mRID>2dd90174-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 132 kV</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>132</cim:BaseVoltage.nominalVoltage>
-        <cim:IdentifiedObject.name>AC-132kV</cim:IdentifiedObject.name>
-        <eu:IdentifiedObject.shortName>132</eu:IdentifiedObject.shortName>
-    </cim:BaseVoltage>
-    <!-- Medium Voltage (MV) BaseVoltage -->
-    <cim:BaseVoltage rdf:ID="_92d33b38-7034-11eb-a65a-74e5f963e191">
-        <cim:IdentifiedObject.mRID>92d33b38-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 22 kV</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>22</cim:BaseVoltage.nominalVoltage>
-        <eu:IdentifiedObject.shortName>22</eu:IdentifiedObject.shortName>
-        <cim:IdentifiedObject.name>AC-22kV</cim:IdentifiedObject.name>
-    </cim:BaseVoltage>
-    <!-- Low Voltage (LV) BaseVoltage -->
-    <cim:BaseVoltage rdf:ID="_06d3126a-8b34-4101-b800-c09ec42275a9">
-        <cim:IdentifiedObject.mRID>06d3126a-8b34-4101-b800-c09ec42275a9</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 1000 V</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>1</cim:BaseVoltage.nominalVoltage>
-        <eu:IdentifiedObject.shortName>1</eu:IdentifiedObject.shortName>
-        <cim:IdentifiedObject.name>AC-1000V</cim:IdentifiedObject.name>
-    </cim:BaseVoltage>
-    <cim:BaseVoltage rdf:ID="_fb384693-5e5b-4432-a281-1c7b206f652e">
-        <cim:IdentifiedObject.mRID>fb384693-5e5b-4432-a281-1c7b206f652e</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 690 V</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>0.690</cim:BaseVoltage.nominalVoltage>
-        <eu:IdentifiedObject.shortName>069</eu:IdentifiedObject.shortName>
-        <cim:IdentifiedObject.name>AC-690V</cim:IdentifiedObject.name>
-    </cim:BaseVoltage>
-    <!-- Household BaseVoltage -->
-    <cim:BaseVoltage rdf:ID="_9598e4a0-67e5-4ad7-879c-c85a1f63159c">
-        <cim:IdentifiedObject.mRID>9598e4a0-67e5-4ad7-879c-c85a1f63159c</cim:IdentifiedObject.mRID>
-        <cim:IdentifiedObject.description>Base Voltage 400 V</cim:IdentifiedObject.description>
-        <cim:BaseVoltage.nominalVoltage>0.4</cim:BaseVoltage.nominalVoltage>
-        <eu:IdentifiedObject.shortName>04</eu:IdentifiedObject.shortName>
-        <cim:IdentifiedObject.name>AC-400V</cim:IdentifiedObject.name>
-    </cim:BaseVoltage>
+
     <cim:BaseVoltage rdf:ID="_830622e6-d259-4526-b14e-122d94a622a4">
         <cim:IdentifiedObject.mRID>830622e6-d259-4526-b14e-122d94a622a4</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Base Voltage 230 V</cim:IdentifiedObject.description>
         <cim:BaseVoltage.nominalVoltage>0.23</cim:BaseVoltage.nominalVoltage>
-        <eu:IdentifiedObject.shortName>023</eu:IdentifiedObject.shortName>
         <cim:IdentifiedObject.name>AC-230V</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>230</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>0.14</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>0.3</nc-no:BaseVoltage.ceilVoltageExclusive>
     </cim:BaseVoltage>
-
+    <cim:BaseVoltage rdf:ID="_9598e4a0-67e5-4ad7-879c-c85a1f63159c">
+        <cim:IdentifiedObject.mRID>9598e4a0-67e5-4ad7-879c-c85a1f63159c</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 400 V</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>0.4</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-400V</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>400</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>0.3</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>0.55</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_fb384693-5e5b-4432-a281-1c7b206f652e">
+        <cim:IdentifiedObject.mRID>fb384693-5e5b-4432-a281-1c7b206f652e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 690 V</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>0.69</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-690V</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>690</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>0.55</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>0.8</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_06d3126a-8b34-4101-b800-c09ec42275a9">
+        <cim:IdentifiedObject.mRID>06d3126a-8b34-4101-b800-c09ec42275a9</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 1000 V</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>1.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-1000V</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>1000</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>0.8</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>1.5</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_d1927337-abd5-59cf-a34a-b64fbc87d89e">
+        <cim:IdentifiedObject.mRID>d1927337-abd5-59cf-a34a-b64fbc87d89e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 6 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>6.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-6kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>6</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>1.5</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>8.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_cd935d74-85e8-5858-9d79-38c6ba22b6c5">
+        <cim:IdentifiedObject.mRID>cd935d74-85e8-5858-9d79-38c6ba22b6c5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 11 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>11.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-11kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>11</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>8.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>14.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_ff3f000e-0996-5be1-ad40-fc565c8571ae">
+        <cim:IdentifiedObject.mRID>ff3f000e-0996-5be1-ad40-fc565c8571ae</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 17 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>17.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-17kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>17</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>14.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>19.5</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_92d33b38-7034-11eb-a65a-74e5f963e191">
+        <cim:IdentifiedObject.mRID>92d33b38-7034-11eb-a65a-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 22 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>22.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-22kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>22</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>19.5</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>26.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_20ef08cb-923a-50b0-918c-a0f07022b2dd">
+        <cim:IdentifiedObject.mRID>20ef08cb-923a-50b0-918c-a0f07022b2dd</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 33 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>33.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-33kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>33</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>26.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>42.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_63dea3cd-97cb-591f-9753-3af06a12273e">
+        <cim:IdentifiedObject.mRID>63dea3cd-97cb-591f-9753-3af06a12273e</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 47 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>47.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-47kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>47</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>42.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>48.5</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_34ce70cd-1a0d-54d5-a0ba-19835d01686b">
+        <cim:IdentifiedObject.mRID>34ce70cd-1a0d-54d5-a0ba-19835d01686b</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 50 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>50.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-50kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>50</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>48.5</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>58.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_ba2060ff-1bb2-57ab-bace-ccda8ec1fd48">
+        <cim:IdentifiedObject.mRID>ba2060ff-1bb2-57ab-bace-ccda8ec1fd48</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 66 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>66.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-66kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>66</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>58.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>80.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_700df993-19ec-52b8-92e0-6ed16d14a381">
+        <cim:IdentifiedObject.mRID>700df993-19ec-52b8-92e0-6ed16d14a381</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 110 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>110.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-110kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>110</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>80.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>117.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_2dd90174-bdfb-11e5-94fa-c8f73332c8f4">
+        <cim:IdentifiedObject.mRID>2dd90174-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 132 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>132.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-132kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>132</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>117.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>180.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_2dd90169-bdfb-11e5-94fa-c8f73332c8f4">
+        <cim:IdentifiedObject.mRID>2dd90169-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 300 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>300.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-300kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>300</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>180.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>360.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_2dd90159-bdfb-11e5-94fa-c8f73332c8f4">
+        <cim:IdentifiedObject.mRID>2dd90159-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 420 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>420.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-420kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>420</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>360.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>600.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_e19e936c-4eaa-554a-8ea1-3cae26eaff92">
+        <cim:IdentifiedObject.mRID>e19e936c-4eaa-554a-8ea1-3cae26eaff92</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.description>Base Voltage 1000 kV</cim:IdentifiedObject.description>
+        <cim:BaseVoltage.nominalVoltage>1000.0</cim:BaseVoltage.nominalVoltage>
+        <cim:IdentifiedObject.name>AC-1000kV</cim:IdentifiedObject.name>
+        <eu:IdentifiedObject.shortName>1000</eu:IdentifiedObject.shortName>
+        <nc-no:BaseVoltage.floorVoltageInclusive>600.0</nc-no:BaseVoltage.floorVoltageInclusive>
+        <nc-no:BaseVoltage.ceilVoltageExclusive>9900.0</nc-no:BaseVoltage.ceilVoltageExclusive>
+    </cim:BaseVoltage>
 </rdf:RDF>
