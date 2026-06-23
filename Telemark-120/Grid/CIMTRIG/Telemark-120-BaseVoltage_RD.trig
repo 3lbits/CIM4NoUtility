@@ -2,6 +2,7 @@ PREFIX cim:     <https://cim.ucaiug.io/ns#>
 PREFIX dcat:    <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
+PREFIX nc-no: <http://cim4.eu/ns/nc-no#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
@@ -31,74 +32,156 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:keyword          "RD";
         prov:generatedAtTime  "2023-10-26T10:35:31Z"^^xsd:dateTime .
 
-    <urn:uuid:fb384693-5e5b-4432-a281-1c7b206f652e>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  6.9E-1;
-            cim:IdentifiedObject.description
-                    "Base Voltage 690 V";
-            cim:IdentifiedObject.mRID       "fb384693-5e5b-4432-a281-1c7b206f652e";
-            cim:IdentifiedObject.name       "AC-690V" .
+    <urn:uuid:06d3126a-8b34-4101-b800-c09ec42275a9> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 1.5e+00 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 8e-01 ;
+        cim:BaseVoltage.nominalVoltage 1e+00 ;
+        cim:IdentifiedObject.mRID "06d3126a-8b34-4101-b800-c09ec42275a9" ;
+        cim:IdentifiedObject.name "AC-1000V" ;
+        cim:IdentifierObject.description "Base Voltage 1000 V" ;
+        eu:IdentifiedObject.shortName "1000" .
     
-    <urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  4.0E-1;
-            cim:IdentifiedObject.description
-                    "Base Voltage 400 V";
-            cim:IdentifiedObject.mRID       "9598e4a0-67e5-4ad7-879c-c85a1f63159c";
-            cim:IdentifiedObject.name       "AC-400V" .
+    <urn:uuid:20ef08cb-923a-50b0-918c-a0f07022b2dd> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 4.2e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 2.6e+01 ;
+        cim:BaseVoltage.nominalVoltage 3.3e+01 ;
+        cim:IdentifiedObject.mRID "20ef08cb-923a-50b0-918c-a0f07022b2dd" ;
+        cim:IdentifiedObject.name "AC-33kV" ;
+        cim:IdentifierObject.description "Base Voltage 33 kV" ;
+        eu:IdentifiedObject.shortName "33" .
     
-    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  22;
-            cim:IdentifiedObject.description
-                    "Base Voltage 22 kV";
-            cim:IdentifiedObject.mRID       "92d33b38-7034-11eb-a65a-74e5f963e191";
-            cim:IdentifiedObject.name       "AC-22kV" .
+    <urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 6e+02 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 3.6e+02 ;
+        cim:BaseVoltage.nominalVoltage 4.2e+02 ;
+        cim:IdentifiedObject.mRID "2dd90159-bdfb-11e5-94fa-c8f73332c8f4" ;
+        cim:IdentifiedObject.name "AC-420kV" ;
+        cim:IdentifierObject.description "Base Voltage 420 kV" ;
+        eu:IdentifiedObject.shortName "420" .
     
-    <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  2.3E-1;
-            cim:IdentifiedObject.description
-                    "Base Voltage 230 V";
-            cim:IdentifiedObject.mRID       "830622e6-d259-4526-b14e-122d94a622a4";
-            cim:IdentifiedObject.name       "AC-230V" .
+    <urn:uuid:2dd90169-bdfb-11e5-94fa-c8f73332c8f4> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 3.6e+02 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 1.8e+02 ;
+        cim:BaseVoltage.nominalVoltage 3e+02 ;
+        cim:IdentifiedObject.mRID "2dd90169-bdfb-11e5-94fa-c8f73332c8f4" ;
+        cim:IdentifiedObject.name "AC-300kV" ;
+        cim:IdentifierObject.description "Base Voltage 300 kV" ;
+        eu:IdentifiedObject.shortName "300" .
     
-    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  132;
-            cim:IdentifiedObject.description
-                    "Base Voltage 132 kV";
-            cim:IdentifiedObject.mRID       "2dd90174-bdfb-11e5-94fa-c8f73332c8f4";
-            cim:IdentifiedObject.name       "AC-132kV" .
+    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 1.8e+02 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 1.17e+02 ;
+        cim:BaseVoltage.nominalVoltage 1.32e+02 ;
+        cim:IdentifiedObject.mRID "2dd90174-bdfb-11e5-94fa-c8f73332c8f4" ;
+        cim:IdentifiedObject.name "AC-132kV" ;
+        cim:IdentifierObject.description "Base Voltage 132 kV" ;
+        eu:IdentifiedObject.shortName "132" .
     
-    <urn:uuid:2dd90169-bdfb-11e5-94fa-c8f73332c8f4>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  300;
-            cim:IdentifiedObject.description
-                    "Base Voltage 300 kV";
-            cim:IdentifiedObject.mRID       "2dd90169-bdfb-11e5-94fa-c8f73332c8f4";
-            cim:IdentifiedObject.name       "AC-300kV" .
+    <urn:uuid:34ce70cd-1a0d-54d5-a0ba-19835d01686b> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 5.8e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 4.85e+01 ;
+        cim:BaseVoltage.nominalVoltage 5e+01 ;
+        cim:IdentifiedObject.mRID "34ce70cd-1a0d-54d5-a0ba-19835d01686b" ;
+        cim:IdentifiedObject.name "AC-50kV" ;
+        cim:IdentifierObject.description "Base Voltage 50 kV" ;
+        eu:IdentifiedObject.shortName "50" .
     
-    <urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  420;
-            cim:IdentifiedObject.description
-                    "Base Voltage 420 kV";
-            cim:IdentifiedObject.mRID       "2dd90159-bdfb-11e5-94fa-c8f73332c8f4";
-            cim:IdentifiedObject.name       "AC-420kV" .
+    <urn:uuid:63dea3cd-97cb-591f-9753-3af06a12273e> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 4.85e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 4.2e+01 ;
+        cim:BaseVoltage.nominalVoltage 4.7e+01 ;
+        cim:IdentifiedObject.mRID "63dea3cd-97cb-591f-9753-3af06a12273e" ;
+        cim:IdentifiedObject.name "AC-47kV" ;
+        cim:IdentifierObject.description "Base Voltage 47 kV" ;
+        eu:IdentifiedObject.shortName "47" .
     
-    <urn:uuid:2dd90154-bdfb-11e5-94fa-c8f73332c8f4>
-            rdf:type                   cim:BasePower;
-            cim:BasePower.basePower    1000;
-            cim:IdentifiedObject.description
-                    "Base Power 1000";
-            cim:IdentifiedObject.mRID  "2dd90154-bdfb-11e5-94fa-c8f73332c8f4" .
+    <urn:uuid:700df993-19ec-52b8-92e0-6ed16d14a381> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 1.17e+02 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 8e+01 ;
+        cim:BaseVoltage.nominalVoltage 1.1e+02 ;
+        cim:IdentifiedObject.mRID "700df993-19ec-52b8-92e0-6ed16d14a381" ;
+        cim:IdentifiedObject.name "AC-110kV" ;
+        cim:IdentifierObject.description "Base Voltage 110 kV" ;
+        eu:IdentifiedObject.shortName "110" .
     
-    <urn:uuid:06d3126a-8b34-4101-b800-c09ec42275a9>
-            rdf:type                        cim:BaseVoltage;
-            cim:BaseVoltage.nominalVoltage  1;
-            cim:IdentifiedObject.description
-                    "Base Voltage 1000 V";
-            cim:IdentifiedObject.mRID       "06d3126a-8b34-4101-b800-c09ec42275a9";
-            cim:IdentifiedObject.name       "AC-1000V" .
+    <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 3e-01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 1.4e-01 ;
+        cim:BaseVoltage.nominalVoltage 2.3e-01 ;
+        cim:IdentifiedObject.mRID "830622e6-d259-4526-b14e-122d94a622a4" ;
+        cim:IdentifiedObject.name "AC-230V" ;
+        cim:IdentifierObject.description "Base Voltage 230 V" ;
+        eu:IdentifiedObject.shortName "230" .
+    
+    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 2.6e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 1.95e+01 ;
+        cim:BaseVoltage.nominalVoltage 2.2e+01 ;
+        cim:IdentifiedObject.mRID "92d33b38-7034-11eb-a65a-74e5f963e191" ;
+        cim:IdentifiedObject.name "AC-22kV" ;
+        cim:IdentifierObject.description "Base Voltage 22 kV" ;
+        eu:IdentifiedObject.shortName "22" .
+    
+    <urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 5.5e-01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 3e-01 ;
+        cim:BaseVoltage.nominalVoltage 4e-01 ;
+        cim:IdentifiedObject.mRID "9598e4a0-67e5-4ad7-879c-c85a1f63159c" ;
+        cim:IdentifiedObject.name "AC-400V" ;
+        cim:IdentifierObject.description "Base Voltage 400 V" ;
+        eu:IdentifiedObject.shortName "400" .
+    
+    <urn:uuid:ba2060ff-1bb2-57ab-bace-ccda8ec1fd48> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 8e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 5.8e+01 ;
+        cim:BaseVoltage.nominalVoltage 6.6e+01 ;
+        cim:IdentifiedObject.mRID "ba2060ff-1bb2-57ab-bace-ccda8ec1fd48" ;
+        cim:IdentifiedObject.name "AC-66kV" ;
+        cim:IdentifierObject.description "Base Voltage 66 kV" ;
+        eu:IdentifiedObject.shortName "66" .
+    
+    <urn:uuid:cd935d74-85e8-5858-9d79-38c6ba22b6c5> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 1.4e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 8e+00 ;
+        cim:BaseVoltage.nominalVoltage 1.1e+01 ;
+        cim:IdentifiedObject.mRID "cd935d74-85e8-5858-9d79-38c6ba22b6c5" ;
+        cim:IdentifiedObject.name "AC-11kV" ;
+        cim:IdentifierObject.description "Base Voltage 11 kV" ;
+        eu:IdentifiedObject.shortName "11" .
+    
+    <urn:uuid:d1927337-abd5-59cf-a34a-b64fbc87d89e> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 8e+00 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 1.5e+00 ;
+        cim:BaseVoltage.nominalVoltage 6e+00 ;
+        cim:IdentifiedObject.mRID "d1927337-abd5-59cf-a34a-b64fbc87d89e" ;
+        cim:IdentifiedObject.name "AC-6kV" ;
+        cim:IdentifierObject.description "Base Voltage 6 kV" ;
+        eu:IdentifiedObject.shortName "6" .
+    
+    <urn:uuid:e19e936c-4eaa-554a-8ea1-3cae26eaff92> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 9.9e+03 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 6e+02 ;
+        cim:BaseVoltage.nominalVoltage 1e+03 ;
+        cim:IdentifiedObject.mRID "e19e936c-4eaa-554a-8ea1-3cae26eaff92" ;
+        cim:IdentifiedObject.name "AC-1000kV" ;
+        cim:IdentifierObject.description "Base Voltage 1000 kV" ;
+        eu:IdentifiedObject.shortName "1000" .
+    
+    <urn:uuid:fb384693-5e5b-4432-a281-1c7b206f652e> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 8e-01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 5.5e-01 ;
+        cim:BaseVoltage.nominalVoltage 6.9e-01 ;
+        cim:IdentifiedObject.mRID "fb384693-5e5b-4432-a281-1c7b206f652e" ;
+        cim:IdentifiedObject.name "AC-690V" ;
+        cim:IdentifierObject.description "Base Voltage 690 V" ;
+        eu:IdentifiedObject.shortName "690" .
+    
+    <urn:uuid:ff3f000e-0996-5be1-ad40-fc565c8571ae> a cim:BaseVoltage ;
+        nc-no:BaseVoltage.ceilVoltageExclusive 1.95e+01 ;
+        nc-no:BaseVoltage.floorVoltageInclusive 1.4e+01 ;
+        cim:BaseVoltage.nominalVoltage 1.7e+01 ;
+        cim:IdentifiedObject.mRID "ff3f000e-0996-5be1-ad40-fc565c8571ae" ;
+        cim:IdentifiedObject.name "AC-17kV" ;
+        cim:IdentifierObject.description "Base Voltage 17 kV" ;
+        eu:IdentifiedObject.shortName "17" .
 }
