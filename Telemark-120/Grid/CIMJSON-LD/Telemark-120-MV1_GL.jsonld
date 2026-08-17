@@ -72,7 +72,7 @@
             "@type": "cim:CoordinateSystem",
             "cim:IdentifiedObject.mRID": "a5417df7-4f3c-4661-8701-aa5ee6991834",
             "cim:IdentifiedObject.name": "EPSG 4326",
-            "cim:CoordinateSystem.crsUrn": "urn:ogc:def:crs:EPSG::4336"
+            "cim:CoordinateSystem.crsUrn": "urn:ogc:def:crs:EPSG::4326"
         },
         {
             "@id": "urn:uuid:9d68070f-959b-472b-8774-d552c9bcec5c",
