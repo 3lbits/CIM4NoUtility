@@ -1016,7 +1016,7 @@
         <cim:IdentifiedObject.mRID>734aa237-9549-11ec-b226-48ba4eadba68</cim:IdentifiedObject.mRID>
     </cim:TopologicalNode>
     <cim:TopologicalNode rdf:ID="_734aa236-9549-11ec-b226-48ba4eadba68">
-        <cim:IdentifiedObject.name>ARENDAL CN 012</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.name>ARENDAL 132B</cim:IdentifiedObject.name>
         <cim:TopologicalNode.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
         <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"/>
         <cim:IdentifiedObject.mRID>734aa236-9549-11ec-b226-48ba4eadba68</cim:IdentifiedObject.mRID>

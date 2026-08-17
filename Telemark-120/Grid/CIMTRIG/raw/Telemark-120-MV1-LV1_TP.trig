@@ -1174,7 +1174,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68>
             rdf:type                   cim:TopologicalNode;
             cim:IdentifiedObject.mRID  "734aa236-9549-11ec-b226-48ba4eadba68";
-            cim:IdentifiedObject.name  "ARENDAL CN 012";
+            cim:IdentifiedObject.name  "ARENDAL 132B";
             cim:TopologicalNode.BaseVoltage
                     <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
             cim:TopologicalNode.ConnectivityNodeContainer
