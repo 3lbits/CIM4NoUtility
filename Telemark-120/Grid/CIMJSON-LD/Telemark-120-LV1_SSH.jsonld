@@ -57,11 +57,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-LV1_SSH"
     },
-    "dcat:keyword": "SSH",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/LV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "SSH",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis/2.0"
         },

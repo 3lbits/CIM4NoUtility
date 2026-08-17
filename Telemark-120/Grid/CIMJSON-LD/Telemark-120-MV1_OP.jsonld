@@ -49,11 +49,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_OP"
     },
-    "dcat:keyword": "OP",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "OP",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/Operation-EU/3.0"
         },
@@ -287,7 +283,7 @@
                 "@id": "cim:UnitMultiplier.none"
             },
             "cim:Measurement.unitSymbol": {
-                "@id": "cim:UnitSymbol.deg"
+                "@id": "cim:UnitSymbol.degC"
             },
             "cim:Measurement.Asset": {
                 "@id": "urn:uuid:6b7f7604-9f3e-479e-889f-f5d3d8ca60a1"

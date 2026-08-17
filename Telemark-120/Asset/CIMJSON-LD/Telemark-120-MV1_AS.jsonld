@@ -49,11 +49,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_AS"
     },
-    "dcat:keyword": "AS",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/Asset"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "AS",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/CIM/Asset/2/0"
         }

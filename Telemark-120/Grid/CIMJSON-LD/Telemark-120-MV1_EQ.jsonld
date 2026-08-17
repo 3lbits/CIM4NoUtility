@@ -49,11 +49,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_EQ"
     },
-    "dcat:keyword": "EQ",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "EQ",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
         },
@@ -74,7 +70,7 @@
             "cim:IdentifiedObject.description": "230V ZT1-EFC ACLineSegment 1",
             "cim:IdentifiedObject.name": "023 ZT1-EFC ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 21.0,
+            "cim:Conductor.length": 0.0210,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 25.0,
             "cim:ACLineSegment.x": 1.7,
@@ -92,7 +88,7 @@
             "cim:IdentifiedObject.description": "230V ZT1-EFC ACLineSegment 2",
             "cim:IdentifiedObject.name": "023 ZT1-EFC ACLS 2",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 10.5,
+            "cim:Conductor.length": 0.0105,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 12.5,
             "cim:ACLineSegment.x": 0.85,
@@ -110,7 +106,7 @@
             "cim:IdentifiedObject.description": "400V Telemarkstien 2 ACLineSegment 3",
             "cim:IdentifiedObject.name": "04 TELEMA 2 ACLS 3",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 4.0,
+            "cim:Conductor.length": 0.0040,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 0.001278,
             "cim:ACLineSegment.x": 0.0003016,
@@ -128,7 +124,7 @@
             "cim:IdentifiedObject.description": "132kV Arendal-Froland 1 ACLineSegment 1",
             "cim:IdentifiedObject.name": "132 ARENDAL-FROLAND ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 590.0,
+            "cim:Conductor.length": 0.5900,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 176.0,
             "cim:ACLineSegment.x": 35.0,
@@ -146,7 +142,7 @@
             "cim:IdentifiedObject.description": "132kV Arendal-T1 ACLineSegment 1",
             "cim:IdentifiedObject.name": "132 ARENDAL-T1 ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 35.0,
+            "cim:Conductor.length": 0.0350,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 1.6,
             "cim:ACLineSegment.x": 5.9,
@@ -164,7 +160,7 @@
             "cim:IdentifiedObject.description": "132kV Froland-T-Engene ACLineSegment 1",
             "cim:IdentifiedObject.name": "132 FROLAND-T_ENGENE ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 27070.0,
+            "cim:Conductor.length": 27.0700,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 1950.0,
             "cim:ACLineSegment.x": 10530.0,
@@ -182,7 +178,7 @@
             "cim:IdentifiedObject.description": "132kV T-Engene Engene 1 ACLineSegment 1",
             "cim:IdentifiedObject.name": "132 T_ENGENE-ENGENE ACLS 1 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 2680.0,
+            "cim:Conductor.length": 2.6800,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 320.0,
             "cim:ACLineSegment.x": 1080.0,
@@ -200,7 +196,7 @@
             "cim:IdentifiedObject.description": "22kV Engene Nedenes ACLineSegment 1",
             "cim:IdentifiedObject.name": "22 ENGENE-NEDENES ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 500.0,
+            "cim:Conductor.length": 0.5000,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 26.0,
             "cim:ACLineSegment.x": 45.0,
@@ -218,7 +214,7 @@
             "cim:IdentifiedObject.description": "22kV Engene Transformer 1 Cable 1",
             "cim:IdentifiedObject.name": "22 ENGENE-T1 ACLS 1 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 20.0,
+            "cim:Conductor.length": 0.0200,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 1.6,
             "cim:ACLineSegment.x": 3.4,
@@ -236,7 +232,7 @@
             "cim:IdentifiedObject.description": "22kV Engene Transformer 1 Cable 2",
             "cim:IdentifiedObject.name": "22 ENGENE-T1 ACLS 1 2",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 20.0,
+            "cim:Conductor.length": 0.0200,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 1.6,
             "cim:ACLineSegment.x": 3.4,
@@ -254,7 +250,7 @@
             "cim:IdentifiedObject.description": "22kV Engene-ZT1 ACLineSegment 1",
             "cim:IdentifiedObject.name": "22 ENGENE-ZT1 ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 28.0,
+            "cim:Conductor.length": 0.0280,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 7.4,
             "cim:ACLineSegment.x": 2.8,
@@ -272,7 +268,7 @@
             "cim:IdentifiedObject.description": "22kV Telemarkstien 2 ACLineSegment 4",
             "cim:IdentifiedObject.name": "22 TELEMA 2 ACLS 4",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 5.0,
+            "cim:Conductor.length": 0.0050,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 3.1,
             "cim:ACLineSegment.x": 0.7,
@@ -290,7 +286,7 @@
             "cim:IdentifiedObject.description": "22kV ZT1-EFC ACLineSegment 1",
             "cim:IdentifiedObject.name": "22 ZT1-EFC ACLS 1",
             "cim:Equipment.aggregate": false,
-            "cim:Conductor.length": 13.0,
+            "cim:Conductor.length": 0.0130,
             "cim:ACLineSegment.bch": 0.0,
             "cim:ACLineSegment.r": 1.9,
             "cim:ACLineSegment.x": 0.7,
@@ -744,54 +740,54 @@
             }
         },
         {
-            "@id": "urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191",
+            "@id": "urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "681a1e80-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.mRID": "6b8e0ffe-1129-e541-9ba1-65e69ebff7a4",
             "cim:IdentifiedObject.name": "ARENDAL CN 007",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
             }
         },
         {
-            "@id": "urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f",
+            "@id": "urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "1aea01d1-2f09-1a4d-a2b1-872e3f11457f",
+            "cim:IdentifiedObject.mRID": "20c2eb92-4ef1-204b-9054-c1baaba29845",
             "cim:IdentifiedObject.name": "ARENDAL CN 008",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
             }
         },
         {
-            "@id": "urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501",
+            "@id": "urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "d33115d5-f70a-7543-818c-f15f9b7d4501",
+            "cim:IdentifiedObject.mRID": "2751922a-47e7-714b-a611-b90281f72c7e",
             "cim:IdentifiedObject.name": "ARENDAL CN 009",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
             }
         },
         {
-            "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13",
+            "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "517ac677-7ac0-dd4d-ac94-a191b7c05b13",
+            "cim:IdentifiedObject.mRID": "4fdd3c67-0b4a-5145-b123-8404da4b4c37",
             "cim:IdentifiedObject.name": "ARENDAL CN 010",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"
             }
         },
         {
-            "@id": "urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465",
+            "@id": "urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "8f69bfc5-3f5a-7f49-aeab-7df584878465",
+            "cim:IdentifiedObject.mRID": "634c0b31-4fe8-2545-b189-6afde342600e",
             "cim:IdentifiedObject.name": "ARENDAL CN 011",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:bec6d236-5e89-403b-b7d5-5799eaeea1ce"
             }
         },
         {
-            "@id": "urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95",
+            "@id": "urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "730d0140-2cfb-1046-a131-fe4022d80e95",
+            "cim:IdentifiedObject.mRID": "b20d8f4b-ad02-ff4e-bd3f-f34a841f2432",
             "cim:IdentifiedObject.name": "ARENDAL CN 012",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
@@ -1560,7 +1556,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "3401221c-3b67-7144-981f-94a1d57a77a1",
             "cim:IdentifiedObject.name": "PATL T1 ARENDAL T1 420 P",
-            "cim:CurrentLimit.normalValue": 412.0,
+            "cim:CurrentLimit.normalValue": 150.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc"
             },
@@ -1573,7 +1569,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "1d069b92-4138-454e-9db4-c05f38f767ca",
             "cim:IdentifiedObject.name": "TATL T1 ARENDAL T1 420 P",
-            "cim:CurrentLimit.normalValue": 412.0,
+            "cim:CurrentLimit.normalValue": 150.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc"
             },
@@ -1586,7 +1582,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "3817162d-5e9d-d243-be82-10c2eca33b5b",
             "cim:IdentifiedObject.name": "PATL T2 ARENDAL T1 132 S",
-            "cim:CurrentLimit.normalValue": 275.0,
+            "cim:CurrentLimit.normalValue": 500.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a"
             },
@@ -1599,7 +1595,7 @@
             "@type": "cim:CurrentLimit",
             "cim:IdentifiedObject.mRID": "a3dceeba-ffb3-4349-9c4f-efb8c5c05923",
             "cim:IdentifiedObject.name": "TATL T2 ARENDAL T1 132 S",
-            "cim:CurrentLimit.normalValue": 275.0,
+            "cim:CurrentLimit.normalValue": 500.0,
             "cim:OperationalLimit.OperationalLimitSet": {
                 "@id": "urn:uuid:f681a7bd-f378-4c49-89b9-2fb70ec52c6a"
             },
@@ -1828,8 +1824,8 @@
             "cim:EquivalentInjection.r": 0.43445,
             "cim:EquivalentInjection.regulationCapability": false,
             "cim:EquivalentInjection.x": 4.3445,
-            "cim:Equipment.EquipmentContainer": {
-                "@id": "urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3"
+            "cim:ConductingEquipment.BaseVoltage": {
+                "@id": "urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4"
             }
         },
         {
@@ -2341,9 +2337,9 @@
             }
         },
         {
-            "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "@type": "cim:PowerTransformer",
-            "cim:IdentifiedObject.mRID": "681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.mRID": "f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "cim:IdentifiedObject.description": "Arendal 420kV / 132kV Transformer 1",
             "cim:IdentifiedObject.name": "ARENDAL T1",
             "cim:PowerTransformer.isPartOfGeneratorUnit": false,
@@ -2407,7 +2403,7 @@
                 "@id": "urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191"
             },
             "cim:PowerTransformerEnd.PowerTransformer": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             }
         },
         {
@@ -2433,7 +2429,7 @@
                 "@id": "urn:uuid:92d33bf7-7034-11eb-a65a-74e5f963e191"
             },
             "cim:PowerTransformerEnd.PowerTransformer": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             }
         },
         {
@@ -2829,7 +2825,7 @@
                 "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501"
+                "@id": "urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e"
             }
         },
         {
@@ -2846,7 +2842,7 @@
                 "@id": "urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -3029,7 +3025,7 @@
                 "@id": "urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f"
+                "@id": "urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845"
             }
         },
         {
@@ -3043,7 +3039,7 @@
                 "@id": "urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4"
             }
         },
         {
@@ -3060,7 +3056,7 @@
                 "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4"
             }
         },
         {
@@ -3077,7 +3073,7 @@
                 "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -3091,7 +3087,7 @@
                 "@id": "urn:uuid:13d2fd99-e200-4f43-bd9f-a16dc4959edb"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -3116,7 +3112,7 @@
             "cim:IdentifiedObject.name": "T1 ARENDAL T1 420 P",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.ConductingEquipment": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             },
             "cim:Terminal.ConnectivityNode": {
                 "@id": "urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c"
@@ -3359,9 +3355,6 @@
             "cim:IdentifiedObject.description": "Primary Winding Side",
             "cim:IdentifiedObject.name": "T1 ENGENE NT1 22 P",
             "cim:ACDCTerminal.sequenceNumber": 1,
-            "cim:Terminal.phases": {
-                "@id": "cim:PhaseCode.ABCN"
-            },
             "cim:Terminal.ConductingEquipment": {
                 "@id": "urn:uuid:681a2fcb-5a55-11eb-a658-74e5f963e191"
             },
@@ -3672,7 +3665,7 @@
                 "@id": "urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95"
+                "@id": "urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432"
             }
         },
         {
@@ -3854,7 +3847,7 @@
                 "@id": "urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501"
+                "@id": "urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e"
             }
         },
         {
@@ -3868,7 +3861,7 @@
                 "@id": "urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95"
+                "@id": "urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432"
             }
         },
         {
@@ -3882,7 +3875,7 @@
                 "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f"
+                "@id": "urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845"
             }
         },
         {
@@ -3899,7 +3892,7 @@
                 "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465"
+                "@id": "urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e"
             }
         },
         {
@@ -3913,10 +3906,10 @@
                 "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -4278,7 +4271,7 @@
                 "@id": "urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465"
+                "@id": "urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e"
             }
         },
         {
@@ -4416,6 +4409,48 @@
             },
             "cim:VoltageLevel.Substation": {
                 "@id": "urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:VoltageLevel",
+            "cim:IdentifiedObject.mRID": "681a21b6-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.description": "Secondary Substation LV",
+            "cim:IdentifiedObject.name": "NEDENES 04",
+            "cim:VoltageLevel.BaseVoltage": {
+                "@id": "urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c"
+            },
+            "cim:VoltageLevel.Substation": {
+                "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:681a2179-5a55-11eb-a658-74e5f963e191",
+            "@type": "cim:Substation",
+            "cim:IdentifiedObject.mRID": "681a2179-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.description": "Secondary Substation Nedenes",
+            "cim:IdentifiedObject.name": "NEDENES",
+            "cim:Substation.Region": {
+                "@id": "urn:uuid:f176965f-9aeb-11e5-91da-b8763fd99c5f"
+            }
+        },
+        {
+            "@id": "urn:uuid:3d51330c-7528-4efb-8edc-e61dcc145ac4",
+            "@type": "cim:Bay",
+            "cim:IdentifiedObject.mRID": "3d51330c-7528-4efb-8edc-e61dcc145ac4",
+            "cim:IdentifiedObject.description": "Nedenes 400V Low Voltage Cable 1 Bay",
+            "cim:IdentifiedObject.name": "NEDENES  04LC1",
+            "cim:Bay.VoltageLevel": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
+            }
+        },
+        {
+            "@id": "urn:uuid:45fed034-857e-48df-b6ad-45d82eec564d",
+            "@type": "cim:ConnectivityNode",
+            "cim:IdentifiedObject.mRID": "45fed034-857e-48df-b6ad-45d82eec564d",
+            "cim:IdentifiedObject.name": "XNED1_XNED2 CN",
+            "cim:ConnectivityNode.ConnectivityNodeContainer": {
+                "@id": "urn:uuid:681a21b6-5a55-11eb-a658-74e5f963e191"
             }
         },
         {

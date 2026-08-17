@@ -57,11 +57,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_SSH"
     },
-    "dcat:keyword": "SSH",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "SSH",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis/2.0"
         },
@@ -621,7 +617,7 @@
             "cim:Equipment.inService": true
         },
         {
-            "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "@type": "cim:PowerTransformer",
             "cim:Equipment.inService": true
         },
@@ -691,6 +687,7 @@
             "cim:RotatingMachine.p": -178.0,
             "cim:RotatingMachine.q": 0.0,
             "cim:RegulatingCondEq.controlEnabled": true,
+            "cim:SynchronousMachine.referencePriority": 0,
             "cim:SynchronousMachine.operatingMode": {
                 "@id": "cim:SynchronousMachineOperatingMode.generator"
             }

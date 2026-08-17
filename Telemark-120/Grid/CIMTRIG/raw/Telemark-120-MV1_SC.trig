@@ -20,7 +20,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:references    <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>;
         dcterms:rights        "© 2023 Copyright";
         dcterms:rightsHolder  "ElBits";
-        dcterms:spatial       <https://diginenergi.no/Telemark-120/MV1>;
         dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
                                 dcat:startDate  "2022-03-30T23:00:00Z"^^xsd:dateTime
                               ];
@@ -166,9 +165,9 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID    "681a2fe0-5a55-11eb-a658-74e5f963e191";
             cim:TransformerEnd.grounded  false .
     
-    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>
+    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:PowerTransformer;
-            cim:IdentifiedObject.mRID  "681a2fdd-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.mRID  "f1769e1e-9aeb-11e5-91da-b8763fd99c5f";
             cim:PowerTransformer.isPartOfGeneratorUnit
                     false .
     

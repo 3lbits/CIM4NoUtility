@@ -28,7 +28,7 @@ CGMES v3.0 currently only supports fixed units for any given attribute. The foll
 [grid=none, frame=none, width=30em]
 |===
 ||
-|Length|m
+|Length|km
 |Power|MW
 |Reactive Power |MVAr
 |Voltage |kV

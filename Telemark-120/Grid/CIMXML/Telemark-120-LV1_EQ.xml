@@ -22,7 +22,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS1</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
@@ -38,7 +38,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS10</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -53,7 +53,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS11</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -68,7 +68,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS12</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
@@ -83,7 +83,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS13</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -98,7 +98,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS14</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
@@ -113,7 +113,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS15</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -128,7 +128,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS16</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -143,7 +143,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS17</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>60</cim:Conductor.length>
+        <cim:Conductor.length>0.060</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.019199999935141</cim:ACLineSegment.r>
@@ -158,7 +158,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS18</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
@@ -173,7 +173,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS19</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -188,7 +188,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS2</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -203,7 +203,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS20</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -218,7 +218,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS21</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
@@ -233,7 +233,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS22</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -248,7 +248,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS23</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>60</cim:Conductor.length>
+        <cim:Conductor.length>0.060</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.019199999935141</cim:ACLineSegment.r>
@@ -263,7 +263,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS4</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -278,7 +278,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS5</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>
@@ -293,7 +293,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS6</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -308,7 +308,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS7</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -323,7 +323,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS8</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>40</cim:Conductor.length>
+        <cim:Conductor.length>0.040</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.012799999956761</cim:ACLineSegment.r>
@@ -338,7 +338,7 @@
         <cim:IdentifiedObject.name>04 TELEMA2 ACLS9</cim:IdentifiedObject.name>
         <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
         <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
-        <cim:Conductor.length>50</cim:Conductor.length>
+        <cim:Conductor.length>0.050</cim:Conductor.length>
         <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
         <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
         <cim:ACLineSegment.r>0.015999999945951</cim:ACLineSegment.r>

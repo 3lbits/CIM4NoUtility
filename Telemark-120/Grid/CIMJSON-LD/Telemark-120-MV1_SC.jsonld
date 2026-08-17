@@ -49,11 +49,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_SC"
     },
-    "dcat:keyword": "SC",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "SC",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0"
         },
@@ -230,9 +226,9 @@
             "cim:IdentifiedObject.mRID": "62585c75-b020-614c-89a1-fec7c118c3fa"
         },
         {
-            "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "@type": "cim:PowerTransformer",
-            "cim:IdentifiedObject.mRID": "681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.mRID": "f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "cim:PowerTransformer.isPartOfGeneratorUnit": false
         },
         {

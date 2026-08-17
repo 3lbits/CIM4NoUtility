@@ -27,7 +27,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:references    <urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4>;
         dcterms:rights        "© 2023 Copyright";
         dcterms:rightsHolder  "ElBits";
-        dcterms:spatial       <https://diginenergi.no/Telemark-120/LV1>;
         dcterms:temporal      [ rdf:type        dcterms:PeriodOfTime;
                                 dcat:startDate  "2022-03-30T23:00:00Z"^^xsd:dateTime
                               ];
@@ -4290,4 +4289,12 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
                     "Telemarkstien2 400 Volt Connectivity Node 35";
             cim:IdentifiedObject.mRID  "0070949a-32c4-460d-8e40-c6b2cb0f62d8";
             cim:IdentifiedObject.name  "TELEMA2 04 CN35" .
+    
+    <urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c>
+            rdf:type                        cim:BaseVoltage;
+            cim:BaseVoltage.nominalVoltage  4.0E-1;
+            cim:IdentifiedObject.description
+                    "Base Voltage 400 V";
+            cim:IdentifiedObject.mRID       "9598e4a0-67e5-4ad7-879c-c85a1f63159c";
+            cim:IdentifiedObject.name       "AC-400V" .
 }
