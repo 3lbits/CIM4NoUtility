@@ -75,11 +75,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_GL"
     },
-    "dcat:keyword": "GL",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "GL",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"
         },

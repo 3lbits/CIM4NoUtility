@@ -43,11 +43,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-ReadingType_RD"
     },
-    "dcat:keyword": "RD",
-    "dcterms:spatial": {
-        "@id": "http://energy.referencedata.eu/ReadingType"
-    },
-    "@graph": [
+    "dcat:keyword": "RD",    "@graph": [
         {
             "@id": "urn:uuid:c6554d99-d8d3-49db-abc6-694cec37ae10",
             "@type": "cim:ReadingType",

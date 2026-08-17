@@ -49,11 +49,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-LV1_EQ"
     },
-    "dcat:keyword": "EQ",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/LV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "EQ",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"
         },

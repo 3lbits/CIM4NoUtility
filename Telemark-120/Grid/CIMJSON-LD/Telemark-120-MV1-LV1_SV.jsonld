@@ -57,11 +57,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1-LV1_SV"
     },
-    "dcat:keyword": "SV",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "SV",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0"
         },

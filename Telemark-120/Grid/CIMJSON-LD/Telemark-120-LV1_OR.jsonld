@@ -50,11 +50,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-LV1_OR"
     },
-    "dcat:keyword": "OR",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/LV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "OR",    "dcterms:conformsTo": [
         {
             "@id": "http://entsoe.eu/ns/CIM/ObjectRegistry-EU/2.1"
         }

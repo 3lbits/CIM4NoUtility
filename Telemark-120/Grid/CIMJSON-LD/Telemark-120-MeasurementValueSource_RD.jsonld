@@ -43,11 +43,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MeasurementValueSource_RD"
     },
-    "dcat:keyword": "RD",
-    "dcterms:spatial": {
-        "@id": "http://energy.referencedata.eu/MeasurementValueSource"
-    },
-    "@graph": [
+    "dcat:keyword": "RD",    "@graph": [
         {
             "@id": "urn:uuid:b1a076df-b20d-490d-81a5-6e55efbf403c",
             "@type": "cim:MeasurementValueSource",

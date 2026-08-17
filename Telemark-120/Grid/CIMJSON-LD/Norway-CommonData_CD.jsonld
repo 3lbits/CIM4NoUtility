@@ -42,11 +42,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-GeographicalRegion_RD"
     },
-    "dcat:keyword": "RD",
-    "dcterms:spatial": {
-        "@id": "http://energy.referencedata.eu/CGMES"
-    },
-    "@graph": [
+    "dcat:keyword": "RD",    "@graph": [
         {
             "@id": "urn:uuid:2dd9048c-bdfb-11e5-94fa-c8f73332c8f4",
             "@type": "cim:GeographicalRegion",

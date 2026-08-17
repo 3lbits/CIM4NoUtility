@@ -17,7 +17,6 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:references       <urn:uuid:d12e4546-e6a5-4211-a4c8-877ac1e24d16>;
         dcterms:rights           "© 2023 Copyright";
         dcterms:rightsHolder     "ElBits";
-        dcterms:spatial          <https://diginenergi.no/Telemark-120/MV1>;
         dcterms:temporal         [ rdf:type        dcterms:PeriodOfTime;
                                    dcat:endDate    "2021-04-29T20:54:27Z"^^xsd:dateTime;
                                    dcat:startDate  "2021-04-28T20:54:27Z"^^xsd:dateTime

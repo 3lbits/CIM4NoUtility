@@ -42,11 +42,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1-LV1_BM"
     },
-    "dcat:keyword": "BM",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1-LV1"
-    },
-    "dcterms:requires": [
+    "dcat:keyword": "BM",    "dcterms:requires": [
         {
             "@id": "urn:uuid:f4c70c71-77e2-410e-9903-cbd85305cdc4"
         }

@@ -80,11 +80,7 @@
   "dcat:isVersionOf": {
     "@id": "https://digin.no/Foundation/Telemark-120-WattApp_GL"
   },
-  "dcat:keyword": "GL",
-  "dcterms:spatial": {
-    "@id": "https://diginenergi.no/Telemark-120/WattApp"
-  },
-  "dcterms:conformsTo": [
+  "dcat:keyword": "GL",  "dcterms:conformsTo": [
     {
       "@id": "http://digin.no/ns/CIM/GeoJSON/1.0"
     }

@@ -49,11 +49,7 @@
     "dcat:isVersionOf": {
         "@id": "https://digin.no/baseprofile/Telemark-120-MV1_SC"
     },
-    "dcat:keyword": "SC",
-    "dcterms:spatial": {
-        "@id": "https://diginenergi.no/Telemark-120/MV1"
-    },
-    "dcterms:conformsTo": [
+    "dcat:keyword": "SC",    "dcterms:conformsTo": [
         {
             "@id": "http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0"
         },
