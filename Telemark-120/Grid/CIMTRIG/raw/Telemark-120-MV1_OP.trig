@@ -542,5 +542,5 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
                     "OilTemperature";
             cim:Measurement.phases          cim:PhaseCode.none;
             cim:Measurement.unitMultiplier  cim:UnitMultiplier.none;
-            cim:Measurement.unitSymbol      cim:UnitSymbol.Deg .
+            cim:Measurement.unitSymbol      cim:UnitSymbol.degC .
 }

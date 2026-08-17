@@ -170,7 +170,7 @@
         <cim:Measurement.measurementType>OilTemperature</cim:Measurement.measurementType>
         <cim:Measurement.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.none" />
         <cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.none" />
-        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.deg" />
+        <cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.degC" />
         <cim:Analog.maxValue>140</cim:Analog.maxValue>
         <cim:Analog.minValue>-40</cim:Analog.minValue>
         <cim:Analog.normalValue>50</cim:Analog.normalValue>
