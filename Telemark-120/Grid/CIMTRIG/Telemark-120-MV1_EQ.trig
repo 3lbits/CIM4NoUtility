@@ -3600,4 +3600,44 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
                     "Nedenes 400 Volt Station Supply 1";
             cim:IdentifiedObject.mRID     "0506353c-8adf-4f48-999f-bb1975c03467";
             cim:IdentifiedObject.name     "NEDENES 04 SS1" .
+    
+    <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>
+            rdf:type                        cim:BaseVoltage;
+            cim:BaseVoltage.nominalVoltage  132;
+            cim:IdentifiedObject.description
+                    "Base Voltage 132 kV";
+            cim:IdentifiedObject.mRID       "2dd90174-bdfb-11e5-94fa-c8f73332c8f4";
+            cim:IdentifiedObject.name       "AC-132kV" .
+    
+    <urn:uuid:92d33b38-7034-11eb-a65a-74e5f963e191>
+            rdf:type                        cim:BaseVoltage;
+            cim:BaseVoltage.nominalVoltage  22;
+            cim:IdentifiedObject.description
+                    "Base Voltage 22 kV";
+            cim:IdentifiedObject.mRID       "92d33b38-7034-11eb-a65a-74e5f963e191";
+            cim:IdentifiedObject.name       "AC-22kV" .
+    
+    <urn:uuid:830622e6-d259-4526-b14e-122d94a622a4>
+            rdf:type                        cim:BaseVoltage;
+            cim:BaseVoltage.nominalVoltage  2.3E-1;
+            cim:IdentifiedObject.description
+                    "Base Voltage 230 V";
+            cim:IdentifiedObject.mRID       "830622e6-d259-4526-b14e-122d94a622a4";
+            cim:IdentifiedObject.name       "AC-230V" .
+    
+    <urn:uuid:9598e4a0-67e5-4ad7-879c-c85a1f63159c>
+            rdf:type                        cim:BaseVoltage;
+            cim:BaseVoltage.nominalVoltage  4.0E-1;
+            cim:IdentifiedObject.description
+                    "Base Voltage 400 V";
+            cim:IdentifiedObject.mRID       "9598e4a0-67e5-4ad7-879c-c85a1f63159c";
+            cim:IdentifiedObject.name       "AC-400V" .
+    
+    <urn:uuid:2dd90159-bdfb-11e5-94fa-c8f73332c8f4>
+            rdf:type                        cim:BaseVoltage;
+            cim:BaseVoltage.nominalVoltage  420;
+            cim:IdentifiedObject.description
+                    "Base Voltage 420 kV";
+            cim:IdentifiedObject.mRID       "2dd90159-bdfb-11e5-94fa-c8f73332c8f4";
+            cim:IdentifiedObject.name       "AC-420kV" .
 }
