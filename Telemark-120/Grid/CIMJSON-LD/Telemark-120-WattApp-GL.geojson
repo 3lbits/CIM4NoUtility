@@ -48,7 +48,7 @@
   "dcterms:title": "Telemark-120-WattApp-GL",
   "dcterms:description": [
     {
-      "@value": "Geospartial GridCapacity MAS1",
+      "@value": "Geospatial GridCapacity MAS1",
       "@language": "en"
     },
     {

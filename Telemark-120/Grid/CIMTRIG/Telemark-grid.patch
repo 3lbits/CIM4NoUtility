@@ -598,7 +598,7 @@
 -<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset, geojson:FeatureCollection ;
 +<urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> {
 +  <urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset;
-   dcterms:description "Geospartial GridCapacity MAS1"@en ;
+   dcterms:description "Geospatial GridCapacity MAS1"@en ;
 @@ -74,3 +23,3 @@
    dcterms:conformsTo <http://digin.no/ns/CIM/GeoJSON/1.0> ;
 -  dcterms:issued "2023-02-21T08:08:00.000Z"^^xsd:date ;

@@ -15,7 +15,7 @@
 
 <urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> {
   <urn:uuid:971c4254-5365-4aaf-8fa6-02658b3f8e05> a dcat:Dataset;
-    dcterms:description "Geospartial GridCapacity MAS1"@en ;
+    dcterms:description "Geospatial GridCapacity MAS1"@en ;
     dcterms:description "Stedsdata Nettkapasitet MAS1"@no ;
     dcat:isVersionOf <https://digin.no/Foundation/Telemark-120-WattApp_GL> ;
     dcat:keyword "GL" ;
