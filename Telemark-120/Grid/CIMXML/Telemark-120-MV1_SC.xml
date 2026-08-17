@@ -163,9 +163,9 @@
         <cim:IdentifiedObject.mRID>62585c75-b020-614c-89a1-fec7c118c3fa</cim:IdentifiedObject.mRID>
     </cim:PetersenCoil>
 
-    <cim:PowerTransformer rdf:about="#_681a2fdd-5a55-11eb-a658-74e5f963e191">
+    <cim:PowerTransformer rdf:about="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f">
         <cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
-        <cim:IdentifiedObject.mRID>681a2fdd-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.mRID>f1769e1e-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
     </cim:PowerTransformer>
 
     <cim:PowerTransformer rdf:about="#_681a2fcb-5a55-11eb-a658-74e5f963e191">

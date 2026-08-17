@@ -966,7 +966,7 @@
         <cim:SvStatus.inService>true</cim:SvStatus.inService>
     </cim:SvStatus>
     <cim:SvStatus rdf:ID="_256e6799-9d74-11ec-a67a-74e5f963e191">
-        <cim:SvStatus.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191"/>
+        <cim:SvStatus.ConductingEquipment rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f"/>
         <cim:SvStatus.inService>true</cim:SvStatus.inService>
     </cim:SvStatus>
     <cim:SvStatus rdf:ID="_256e679a-9d74-11ec-a67a-74e5f963e191">

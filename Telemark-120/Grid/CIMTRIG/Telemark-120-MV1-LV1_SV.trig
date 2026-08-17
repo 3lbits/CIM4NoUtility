@@ -470,7 +470,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:256e6799-9d74-11ec-a67a-74e5f963e191>
             rdf:type                cim:SvStatus;
             cim:SvStatus.ConductingEquipment
-                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+                    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>;
             cim:SvStatus.inService  true .
     
     <urn:uuid:256e6798-9d74-11ec-a67a-74e5f963e191>

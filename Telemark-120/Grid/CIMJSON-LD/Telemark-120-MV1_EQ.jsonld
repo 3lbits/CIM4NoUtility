@@ -744,54 +744,54 @@
             }
         },
         {
-            "@id": "urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191",
+            "@id": "urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "681a1e80-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.mRID": "6b8e0ffe-1129-e541-9ba1-65e69ebff7a4",
             "cim:IdentifiedObject.name": "ARENDAL CN 007",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
             }
         },
         {
-            "@id": "urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f",
+            "@id": "urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "1aea01d1-2f09-1a4d-a2b1-872e3f11457f",
+            "cim:IdentifiedObject.mRID": "20c2eb92-4ef1-204b-9054-c1baaba29845",
             "cim:IdentifiedObject.name": "ARENDAL CN 008",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
             }
         },
         {
-            "@id": "urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501",
+            "@id": "urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "d33115d5-f70a-7543-818c-f15f9b7d4501",
+            "cim:IdentifiedObject.mRID": "2751922a-47e7-714b-a611-b90281f72c7e",
             "cim:IdentifiedObject.name": "ARENDAL CN 009",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
             }
         },
         {
-            "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13",
+            "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "517ac677-7ac0-dd4d-ac94-a191b7c05b13",
+            "cim:IdentifiedObject.mRID": "4fdd3c67-0b4a-5145-b123-8404da4b4c37",
             "cim:IdentifiedObject.name": "ARENDAL CN 010",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c"
             }
         },
         {
-            "@id": "urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465",
+            "@id": "urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "8f69bfc5-3f5a-7f49-aeab-7df584878465",
+            "cim:IdentifiedObject.mRID": "634c0b31-4fe8-2545-b189-6afde342600e",
             "cim:IdentifiedObject.name": "ARENDAL CN 011",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:bec6d236-5e89-403b-b7d5-5799eaeea1ce"
             }
         },
         {
-            "@id": "urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95",
+            "@id": "urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432",
             "@type": "cim:ConnectivityNode",
-            "cim:IdentifiedObject.mRID": "730d0140-2cfb-1046-a131-fe4022d80e95",
+            "cim:IdentifiedObject.mRID": "b20d8f4b-ad02-ff4e-bd3f-f34a841f2432",
             "cim:IdentifiedObject.name": "ARENDAL CN 012",
             "cim:ConnectivityNode.ConnectivityNodeContainer": {
                 "@id": "urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db"
@@ -2341,9 +2341,9 @@
             }
         },
         {
-            "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "@type": "cim:PowerTransformer",
-            "cim:IdentifiedObject.mRID": "681a2fdd-5a55-11eb-a658-74e5f963e191",
+            "cim:IdentifiedObject.mRID": "f1769e1e-9aeb-11e5-91da-b8763fd99c5f",
             "cim:IdentifiedObject.description": "Arendal 420kV / 132kV Transformer 1",
             "cim:IdentifiedObject.name": "ARENDAL T1",
             "cim:PowerTransformer.isPartOfGeneratorUnit": false,
@@ -2407,7 +2407,7 @@
                 "@id": "urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191"
             },
             "cim:PowerTransformerEnd.PowerTransformer": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             }
         },
         {
@@ -2433,7 +2433,7 @@
                 "@id": "urn:uuid:92d33bf7-7034-11eb-a65a-74e5f963e191"
             },
             "cim:PowerTransformerEnd.PowerTransformer": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             }
         },
         {
@@ -2829,7 +2829,7 @@
                 "@id": "urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501"
+                "@id": "urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e"
             }
         },
         {
@@ -2846,7 +2846,7 @@
                 "@id": "urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -3029,7 +3029,7 @@
                 "@id": "urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f"
+                "@id": "urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845"
             }
         },
         {
@@ -3043,7 +3043,7 @@
                 "@id": "urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4"
             }
         },
         {
@@ -3060,7 +3060,7 @@
                 "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4"
             }
         },
         {
@@ -3077,7 +3077,7 @@
                 "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -3091,7 +3091,7 @@
                 "@id": "urn:uuid:13d2fd99-e200-4f43-bd9f-a16dc4959edb"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -3116,7 +3116,7 @@
             "cim:IdentifiedObject.name": "T1 ARENDAL T1 420 P",
             "cim:ACDCTerminal.sequenceNumber": 1,
             "cim:Terminal.ConductingEquipment": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             },
             "cim:Terminal.ConnectivityNode": {
                 "@id": "urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c"
@@ -3669,7 +3669,7 @@
                 "@id": "urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95"
+                "@id": "urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432"
             }
         },
         {
@@ -3851,7 +3851,7 @@
                 "@id": "urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501"
+                "@id": "urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e"
             }
         },
         {
@@ -3865,7 +3865,7 @@
                 "@id": "urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95"
+                "@id": "urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432"
             }
         },
         {
@@ -3879,7 +3879,7 @@
                 "@id": "urn:uuid:48668646-105a-490d-aaad-3259b852aa23"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f"
+                "@id": "urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845"
             }
         },
         {
@@ -3896,7 +3896,7 @@
                 "@id": "urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465"
+                "@id": "urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e"
             }
         },
         {
@@ -3910,10 +3910,10 @@
                 "@id": "cim:PhaseCode.ABCN"
             },
             "cim:Terminal.ConductingEquipment": {
-                "@id": "urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191"
+                "@id": "urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13"
+                "@id": "urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37"
             }
         },
         {
@@ -4275,7 +4275,7 @@
                 "@id": "urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa"
             },
             "cim:Terminal.ConnectivityNode": {
-                "@id": "urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465"
+                "@id": "urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e"
             }
         },
         {

@@ -108,7 +108,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T2 ARENDAL 132 T1E";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:48668646-105a-490d-aaad-3259b852aa23>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845> .
     
     <urn:uuid:f822f3a2-4516-9048-913a-b808866ec168>
             rdf:type                      cim:CurrentLimit;
@@ -343,7 +343,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 ARENDAL 132 T1 PC";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:62585c75-b020-614c-89a1-fec7c118c3fa>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e>;
             cim:Terminal.phases            cim:PhaseCode.N .
     
     <urn:uuid:e190ae57-ed18-f340-90c2-ddbbfe168ed8>
@@ -511,11 +511,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:VoltageLevel.BaseVoltage  <urn:uuid:2dd90174-bdfb-11e5-94fa-c8f73332c8f4>;
             cim:VoltageLevel.Substation   <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f> .
     
-    <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501>
+    <urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e>
             rdf:type                   cim:ConnectivityNode;
             cim:ConnectivityNode.ConnectivityNodeContainer
                     <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
-            cim:IdentifiedObject.mRID  "d33115d5-f70a-7543-818c-f15f9b7d4501";
+            cim:IdentifiedObject.mRID  "2751922a-47e7-714b-a611-b90281f72c7e";
             cim:IdentifiedObject.name  "ARENDAL CN 009" .
     
     <urn:uuid:d2a2232a-024f-467c-b698-2b16ddf2547a>
@@ -600,7 +600,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T2 ARENDAL 132 T1 SD_S";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432> .
     
     <urn:uuid:cc0fef15-9e1b-4b59-8ca2-0b002c6556e1>
             rdf:type                   cim:ConnectivityNode;
@@ -1157,8 +1157,8 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID      "92d33bf7-7034-11eb-a65a-74e5f963e191";
             cim:IdentifiedObject.name      "T2 ARENDAL T1 132 S";
             cim:Terminal.ConductingEquipment
-                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>;
+                    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37>;
             cim:Terminal.phases            cim:PhaseCode.ABCN .
     
     <urn:uuid:92d33bf5-7034-11eb-a65a-74e5f963e191>
@@ -1170,7 +1170,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID      "92d33bf5-7034-11eb-a65a-74e5f963e191";
             cim:IdentifiedObject.name      "T1 ARENDAL T1 420 P";
             cim:Terminal.ConductingEquipment
-                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+                    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>;
             cim:Terminal.ConnectivityNode  <urn:uuid:cb837454-5c66-d341-be63-d0c044e5fd3c> .
     
     <urn:uuid:92d33bf3-7034-11eb-a65a-74e5f963e191>
@@ -1539,11 +1539,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
                     <urn:uuid:411847e0-02b3-49df-951a-f1cf780f4738>;
             cim:Terminal.ConnectivityNode  <urn:uuid:ff2e9331-31f5-0247-ac4c-77a2bc179624> .
     
-    <urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465>
+    <urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e>
             rdf:type                   cim:ConnectivityNode;
             cim:ConnectivityNode.ConnectivityNodeContainer
                     <urn:uuid:bec6d236-5e89-403b-b7d5-5799eaeea1ce>;
-            cim:IdentifiedObject.mRID  "8f69bfc5-3f5a-7f49-aeab-7df584878465";
+            cim:IdentifiedObject.mRID  "634c0b31-4fe8-2545-b189-6afde342600e";
             cim:IdentifiedObject.name  "ARENDAL CN 011" .
     
     <urn:uuid:8e0075c4-ea93-4669-b57c-3f6b229bb6d3>
@@ -1620,7 +1620,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 ARENDAL 132 T1 SD_S";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:ce365fed-87da-da4c-b646-6d39ba7eb406>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4> .
     
     <urn:uuid:86c847a4-9732-9844-b480-c53b70f6ceec>
             rdf:type                       cim:Terminal;
@@ -1686,7 +1686,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 ARENDAL 132 T1E";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:48668646-105a-490d-aaad-3259b852aa23>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4>;
             cim:Terminal.phases            cim:PhaseCode.ABC .
     
     <urn:uuid:81e0db9e-aa30-474d-b017-def591771422>
@@ -1826,11 +1826,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7544cd75-be72-9644-b333-a932ff3ba603";
             cim:IdentifiedObject.name  "ENGENE 023 ZT Ba1" .
     
-    <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95>
+    <urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432>
             rdf:type                   cim:ConnectivityNode;
             cim:ConnectivityNode.ConnectivityNodeContainer
                     <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
-            cim:IdentifiedObject.mRID  "730d0140-2cfb-1046-a131-fe4022d80e95";
+            cim:IdentifiedObject.mRID  "b20d8f4b-ad02-ff4e-bd3f-f34a841f2432";
             cim:IdentifiedObject.name  "ARENDAL CN 012" .
     
     <urn:uuid:71f76f1e-c868-44c9-bcff-86f2e5eb3202>
@@ -1850,7 +1850,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T2 ARENDAL 132 T1 LD_S";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e> .
     
     <urn:uuid:6cc409d6-980c-481b-8b67-127ecf5dc19c>
             rdf:type                       cim:Terminal;
@@ -2102,7 +2102,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID       "681a2fea-5a55-11eb-a658-74e5f963e191";
             cim:IdentifiedObject.name       "ARENDAL T1 132 S";
             cim:PowerTransformerEnd.PowerTransformer
-                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+                    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>;
             cim:PowerTransformerEnd.b       0;
             cim:PowerTransformerEnd.connectionKind
                     cim:WindingConnection.Y;
@@ -2141,7 +2141,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID       "681a2fe0-5a55-11eb-a658-74e5f963e191";
             cim:IdentifiedObject.name       "ARENDAL T1 420 P";
             cim:PowerTransformerEnd.PowerTransformer
-                    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>;
+                    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>;
             cim:PowerTransformerEnd.b       0;
             cim:PowerTransformerEnd.connectionKind
                     cim:WindingConnection.Y;
@@ -2154,13 +2154,13 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:TransformerEnd.endNumber    1;
             cim:TransformerEnd.grounded     false .
     
-    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>
+    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:PowerTransformer;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:f1769670-9aeb-11e5-91da-b8763fd99c5f>;
             cim:IdentifiedObject.description
                     "Arendal 420kV / 132kV Transformer 1";
-            cim:IdentifiedObject.mRID  "681a2fdd-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.mRID  "f1769e1e-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "ARENDAL T1";
             cim:PowerTransformer.isPartOfGeneratorUnit
                     false .
@@ -2539,11 +2539,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "681a1e88-5a55-11eb-a658-74e5f963e191";
             cim:IdentifiedObject.name  "ENGENE CN 009" .
     
-    <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191>
+    <urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4>
             rdf:type                   cim:ConnectivityNode;
             cim:ConnectivityNode.ConnectivityNodeContainer
                     <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
-            cim:IdentifiedObject.mRID  "681a1e80-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.mRID  "6b8e0ffe-1129-e541-9ba1-65e69ebff7a4";
             cim:IdentifiedObject.name  "ARENDAL CN 007" .
     
     <urn:uuid:681a1e65-5a55-11eb-a658-74e5f963e191>
@@ -2729,7 +2729,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T2 132 ARENDAL-T1 ACLS 1";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432> .
     
     <urn:uuid:5b299df4-d232-4348-9d1e-096f6d10fb5a>
             rdf:type                   cim:Bay;
@@ -2830,11 +2830,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:OperationalLimitSet.Terminal
                     <urn:uuid:f6e8c471-b1eb-467b-af68-78c6aa25771b> .
     
-    <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>
+    <urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37>
             rdf:type                   cim:ConnectivityNode;
             cim:ConnectivityNode.ConnectivityNodeContainer
                     <urn:uuid:d4959144-d4c4-4885-a5fd-2a8ad9abbe2c>;
-            cim:IdentifiedObject.mRID  "517ac677-7ac0-dd4d-ac94-a191b7c05b13";
+            cim:IdentifiedObject.mRID  "4fdd3c67-0b4a-5145-b123-8404da4b4c37";
             cim:IdentifiedObject.name  "ARENDAL CN 010" .
     
     <urn:uuid:4e8ec3b0-386c-43d4-8311-e98d8a8f565a>
@@ -2872,7 +2872,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 132ARENDAL-FROLAND1";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:681a26f3-5a55-11eb-a658-74e5f963e191>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e> .
     
     <urn:uuid:48668646-105a-490d-aaad-3259b852aa23>
             rdf:type                   cim:Breaker;
@@ -2897,7 +2897,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T2 ARENDAL 132 T1SP1E";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:8f69bfc5-3f5a-7f49-aeab-7df584878465>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:634c0b31-4fe8-2545-b189-6afde342600e>;
             cim:Terminal.phases            cim:PhaseCode.N .
     
     <urn:uuid:47f5ebe7-1d03-4d20-b599-9b6068319987>
@@ -2939,7 +2939,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 ARENDAL 132 T1SP1E";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:e3b199ca-485b-4df8-99f0-fdd5e4f3ff73>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37>;
             cim:Terminal.phases            cim:PhaseCode.N .
     
     <urn:uuid:457c0964-f107-4223-a3c3-92eff4b11f5c>
@@ -3340,11 +3340,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
                     <urn:uuid:842aed4c-0828-4e7a-babc-ce724633a43d>;
             cim:Terminal.ConnectivityNode  <urn:uuid:681a2162-5a55-11eb-a658-74e5f963e191> .
     
-    <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f>
+    <urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845>
             rdf:type                   cim:ConnectivityNode;
             cim:ConnectivityNode.ConnectivityNodeContainer
                     <urn:uuid:5b498a4e-d2de-7f41-8f17-be255b3489db>;
-            cim:IdentifiedObject.mRID  "1aea01d1-2f09-1a4d-a2b1-872e3f11457f";
+            cim:IdentifiedObject.mRID  "20c2eb92-4ef1-204b-9054-c1baaba29845";
             cim:IdentifiedObject.name  "ARENDAL CN 008" .
     
     <urn:uuid:1ac100c3-7a71-4b22-b32c-47fd73c3d01a>
@@ -3391,7 +3391,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 132 ARENDAL-T1 ACLS 1";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:1f19556f-4604-8545-b930-0d96b163c57a>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>;
+            cim:Terminal.ConnectivityNode  <urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37>;
             cim:Terminal.phases            cim:PhaseCode.ABC .
     
     <urn:uuid:17264ab0-1492-6243-8e2d-44d85d0841fc>
@@ -3515,7 +3515,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 ARENDAL 132A";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:13d2fd99-e200-4f43-bd9f-a16dc4959edb>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37> .
     
     <urn:uuid:0b8f03ae-b704-664c-8665-49300c9c1fff>
             rdf:type                   cim:ConformLoadGroup;
@@ -3585,7 +3585,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "T1 ARENDAL 132 T1 LD_S";
             cim:Terminal.ConductingEquipment
                     <urn:uuid:a8afc199-8a20-41d8-8ada-5261202610eb>;
-            cim:Terminal.ConnectivityNode  <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f> .
+            cim:Terminal.ConnectivityNode  <urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845> .
     
     <urn:uuid:0506353c-8adf-4f48-999f-bb1975c03467>
             rdf:type                      cim:StationSupply;

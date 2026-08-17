@@ -266,7 +266,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:734aa243-9549-11ec-b226-48ba4eadba68> .
     
-    <urn:uuid:d33115d5-f70a-7543-818c-f15f9b7d4501>
+    <urn:uuid:2751922a-47e7-714b-a611-b90281f72c7e>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68> .
@@ -1189,7 +1189,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1f4fabd4-8c57-c245-b107-4e64c9007ae3> .
     
-    <urn:uuid:730d0140-2cfb-1046-a131-fe4022d80e95>
+    <urn:uuid:b20d8f4b-ad02-ff4e-bd3f-f34a841f2432>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68> .
@@ -1268,7 +1268,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:734aa23d-9549-11ec-b226-48ba4eadba68> .
     
-    <urn:uuid:681a1e80-5a55-11eb-a658-74e5f963e191>
+    <urn:uuid:6b8e0ffe-1129-e541-9ba1-65e69ebff7a4>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68> .
@@ -1411,7 +1411,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:734aa255-9549-11ec-b226-48ba4eadba68> .
     
-    <urn:uuid:517ac677-7ac0-dd4d-ac94-a191b7c05b13>
+    <urn:uuid:4fdd3c67-0b4a-5145-b123-8404da4b4c37>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:734aa237-9549-11ec-b226-48ba4eadba68> .
@@ -1679,7 +1679,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:Terminal;
             cim:Terminal.TopologicalNode  <urn:uuid:734aa239-9549-11ec-b226-48ba4eadba68> .
     
-    <urn:uuid:1aea01d1-2f09-1a4d-a2b1-872e3f11457f>
+    <urn:uuid:20c2eb92-4ef1-204b-9054-c1baaba29845>
             rdf:type  cim:ConnectivityNode;
             cim:ConnectivityNode.TopologicalNode
                     <urn:uuid:734aa236-9549-11ec-b226-48ba4eadba68> .

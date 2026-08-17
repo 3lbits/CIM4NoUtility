@@ -525,38 +525,38 @@
         <cim:IdentifiedObject.description>Boundary on Arendal 420 Bus</cim:IdentifiedObject.description>
     </cim:ConnectivityNode>
  
-    <cim:ConnectivityNode rdf:ID="_681a1e80-5a55-11eb-a658-74e5f963e191">
-        <cim:IdentifiedObject.mRID>681a1e80-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    <cim:ConnectivityNode rdf:ID="_6b8e0ffe-1129-e541-9ba1-65e69ebff7a4">
+        <cim:IdentifiedObject.mRID>6b8e0ffe-1129-e541-9ba1-65e69ebff7a4</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>ARENDAL CN 007</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_5b498a4e-d2de-7f41-8f17-be255b3489db" />
     </cim:ConnectivityNode>
  
-    <cim:ConnectivityNode rdf:ID="_1aea01d1-2f09-1a4d-a2b1-872e3f11457f">
-        <cim:IdentifiedObject.mRID>1aea01d1-2f09-1a4d-a2b1-872e3f11457f</cim:IdentifiedObject.mRID>
+    <cim:ConnectivityNode rdf:ID="_20c2eb92-4ef1-204b-9054-c1baaba29845">
+        <cim:IdentifiedObject.mRID>20c2eb92-4ef1-204b-9054-c1baaba29845</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>ARENDAL CN 008</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_5b498a4e-d2de-7f41-8f17-be255b3489db" />
     </cim:ConnectivityNode>
  
-    <cim:ConnectivityNode rdf:ID="_d33115d5-f70a-7543-818c-f15f9b7d4501">
-        <cim:IdentifiedObject.mRID>d33115d5-f70a-7543-818c-f15f9b7d4501</cim:IdentifiedObject.mRID>
+    <cim:ConnectivityNode rdf:ID="_2751922a-47e7-714b-a611-b90281f72c7e">
+        <cim:IdentifiedObject.mRID>2751922a-47e7-714b-a611-b90281f72c7e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>ARENDAL CN 009</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_5b498a4e-d2de-7f41-8f17-be255b3489db" />
     </cim:ConnectivityNode>
  
-    <cim:ConnectivityNode rdf:ID="_517ac677-7ac0-dd4d-ac94-a191b7c05b13">
-        <cim:IdentifiedObject.mRID>517ac677-7ac0-dd4d-ac94-a191b7c05b13</cim:IdentifiedObject.mRID>
+    <cim:ConnectivityNode rdf:ID="_4fdd3c67-0b4a-5145-b123-8404da4b4c37">
+        <cim:IdentifiedObject.mRID>4fdd3c67-0b4a-5145-b123-8404da4b4c37</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>ARENDAL CN 010</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c" />
     </cim:ConnectivityNode>
  
-    <cim:ConnectivityNode rdf:ID="_8f69bfc5-3f5a-7f49-aeab-7df584878465">
-        <cim:IdentifiedObject.mRID>8f69bfc5-3f5a-7f49-aeab-7df584878465</cim:IdentifiedObject.mRID>
+    <cim:ConnectivityNode rdf:ID="_634c0b31-4fe8-2545-b189-6afde342600e">
+        <cim:IdentifiedObject.mRID>634c0b31-4fe8-2545-b189-6afde342600e</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>ARENDAL CN 011</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_bec6d236-5e89-403b-b7d5-5799eaeea1ce" />
     </cim:ConnectivityNode>
  
-    <cim:ConnectivityNode rdf:ID="_730d0140-2cfb-1046-a131-fe4022d80e95">
-        <cim:IdentifiedObject.mRID>730d0140-2cfb-1046-a131-fe4022d80e95</cim:IdentifiedObject.mRID>
+    <cim:ConnectivityNode rdf:ID="_b20d8f4b-ad02-ff4e-bd3f-f34a841f2432">
+        <cim:IdentifiedObject.mRID>b20d8f4b-ad02-ff4e-bd3f-f34a841f2432</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.name>ARENDAL CN 012</cim:IdentifiedObject.name>
         <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_5b498a4e-d2de-7f41-8f17-be255b3489db" />
     </cim:ConnectivityNode>
@@ -1612,8 +1612,8 @@
         <cim:Equipment.EquipmentContainer rdf:resource="#_d4959144-d4c4-4885-a5fd-2a8ad9abbe2c" />
     </cim:PetersenCoil>
  
-    <cim:PowerTransformer rdf:ID="_681a2fdd-5a55-11eb-a658-74e5f963e191">
-        <cim:IdentifiedObject.mRID>681a2fdd-5a55-11eb-a658-74e5f963e191</cim:IdentifiedObject.mRID>
+    <cim:PowerTransformer rdf:ID="_f1769e1e-9aeb-11e5-91da-b8763fd99c5f">
+        <cim:IdentifiedObject.mRID>f1769e1e-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
         <cim:IdentifiedObject.description>Arendal 420kV / 132kV Transformer 1</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>ARENDAL T1</cim:IdentifiedObject.name>
         <cim:PowerTransformer.isPartOfGeneratorUnit>false</cim:PowerTransformer.isPartOfGeneratorUnit>
@@ -1658,7 +1658,7 @@
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4" />
         <cim:TransformerEnd.Terminal rdf:resource="#_92d33bf5-7034-11eb-a65a-74e5f963e191" />
         <cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y" />
-        <cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191" />
+        <cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:PowerTransformerEnd>
  
     <cim:PowerTransformerEnd rdf:ID="_681a2fea-5a55-11eb-a658-74e5f963e191">
@@ -1675,7 +1675,7 @@
         <cim:TransformerEnd.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4" />
         <cim:TransformerEnd.Terminal rdf:resource="#_92d33bf7-7034-11eb-a65a-74e5f963e191" />
         <cim:PowerTransformerEnd.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y" />
-        <cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191" />
+        <cim:PowerTransformerEnd.PowerTransformer rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" />
     </cim:PowerTransformerEnd>
  
     <cim:PowerTransformerEnd rdf:ID="_681a308a-5a55-11eb-a658-74e5f963e191">
@@ -1951,7 +1951,7 @@
         <cim:IdentifiedObject.name>T1 132ARENDAL-FROLAND1</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_681a26f3-5a55-11eb-a658-74e5f963e191" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_d33115d5-f70a-7543-818c-f15f9b7d4501" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_2751922a-47e7-714b-a611-b90281f72c7e" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_19be92de-7307-074e-af23-2acb6521214a">
@@ -1961,7 +1961,7 @@
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_1f19556f-4604-8545-b930-0d96b163c57a" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_517ac677-7ac0-dd4d-ac94-a191b7c05b13" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_4fdd3c67-0b4a-5145-b123-8404da4b4c37" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_92d33b9a-7034-11eb-a65a-74e5f963e191">
@@ -2077,7 +2077,7 @@
         <cim:IdentifiedObject.name>T1 ARENDAL 132 T1 LD_S</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_a8afc199-8a20-41d8-8ada-5261202610eb" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_1aea01d1-2f09-1a4d-a2b1-872e3f11457f" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_20c2eb92-4ef1-204b-9054-c1baaba29845" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_86def089-155d-984b-a28f-2d4835cc7dfe">
@@ -2086,7 +2086,7 @@
         <cim:IdentifiedObject.name>T1 ARENDAL 132 T1 SD_S</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_ce365fed-87da-da4c-b646-6d39ba7eb406" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e80-5a55-11eb-a658-74e5f963e191" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_6b8e0ffe-1129-e541-9ba1-65e69ebff7a4" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_8266f01c-2b3d-4111-957e-b871f71f0fad">
@@ -2096,7 +2096,7 @@
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABC" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_681a1e80-5a55-11eb-a658-74e5f963e191" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_6b8e0ffe-1129-e541-9ba1-65e69ebff7a4" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_45fbf47e-a9b2-4131-8851-afceeecf0ec9">
@@ -2106,7 +2106,7 @@
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.N" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_517ac677-7ac0-dd4d-ac94-a191b7c05b13" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_4fdd3c67-0b4a-5145-b123-8404da4b4c37" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_0e748f98-11fe-4783-9501-0e673cab8f0d">
@@ -2115,7 +2115,7 @@
         <cim:IdentifiedObject.name>T1 ARENDAL 132A</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_13d2fd99-e200-4f43-bd9f-a16dc4959edb" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_517ac677-7ac0-dd4d-ac94-a191b7c05b13" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_4fdd3c67-0b4a-5145-b123-8404da4b4c37" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_e190ae57-ed18-f340-90c2-ddbbfe168ed8">
@@ -2132,7 +2132,7 @@
         <cim:IdentifiedObject.description>Primary Winding Side</cim:IdentifiedObject.description>
         <cim:IdentifiedObject.name>T1 ARENDAL T1 420 P</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
-        <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191" />
+        <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" />
         <cim:Terminal.ConnectivityNode rdf:resource="#_cb837454-5c66-d341-be63-d0c044e5fd3c" />
     </cim:Terminal>
  
@@ -2478,7 +2478,7 @@
         <cim:IdentifiedObject.name>T2 132 ARENDAL-T1 ACLS 1</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_1f19556f-4604-8545-b930-0d96b163c57a" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_730d0140-2cfb-1046-a131-fe4022d80e95" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_b20d8f4b-ad02-ff4e-bd3f-f34a841f2432" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_92d33bce-7034-11eb-a65a-74e5f963e191">
@@ -2593,7 +2593,7 @@
         <cim:IdentifiedObject.name>T2 ARENDAL 132 T1 LD_S</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_a8afc199-8a20-41d8-8ada-5261202610eb" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_d33115d5-f70a-7543-818c-f15f9b7d4501" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_2751922a-47e7-714b-a611-b90281f72c7e" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_ccbe9368-07f4-184b-b3e5-9af9b1a08592">
@@ -2602,7 +2602,7 @@
         <cim:IdentifiedObject.name>T2 ARENDAL 132 T1 SD_S</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_ce365fed-87da-da4c-b646-6d39ba7eb406" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_730d0140-2cfb-1046-a131-fe4022d80e95" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_b20d8f4b-ad02-ff4e-bd3f-f34a841f2432" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_f8846bea-b1a3-4b2c-8da5-7fa0231079f6">
@@ -2611,7 +2611,7 @@
         <cim:IdentifiedObject.name>T2 ARENDAL 132 T1E</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.ConductingEquipment rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_1aea01d1-2f09-1a4d-a2b1-872e3f11457f" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_20c2eb92-4ef1-204b-9054-c1baaba29845" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_484698af-2887-c446-afa2-c1f4bb5a9e65">
@@ -2621,7 +2621,7 @@
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.N" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_8f69bfc5-3f5a-7f49-aeab-7df584878465" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_634c0b31-4fe8-2545-b189-6afde342600e" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_92d33bf7-7034-11eb-a65a-74e5f963e191">
@@ -2630,8 +2630,8 @@
         <cim:IdentifiedObject.name>T2 ARENDAL T1 132 S</cim:IdentifiedObject.name>
         <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.ABCN" />
-        <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_517ac677-7ac0-dd4d-ac94-a191b7c05b13" />
+        <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_4fdd3c67-0b4a-5145-b123-8404da4b4c37" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_cb3849f8-60a6-406b-8567-39293b5a1f76">
@@ -2857,7 +2857,7 @@
         <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
         <cim:Terminal.phases rdf:resource="http://iec.ch/TC57/CIM100#PhaseCode.N" />
         <cim:Terminal.ConductingEquipment rdf:resource="#_62585c75-b020-614c-89a1-fec7c118c3fa" />
-        <cim:Terminal.ConnectivityNode rdf:resource="#_8f69bfc5-3f5a-7f49-aeab-7df584878465" />
+        <cim:Terminal.ConnectivityNode rdf:resource="#_634c0b31-4fe8-2545-b189-6afde342600e" />
     </cim:Terminal>
  
     <cim:Terminal rdf:ID="_0a936e9d-6e05-6547-af77-18e442db0913">

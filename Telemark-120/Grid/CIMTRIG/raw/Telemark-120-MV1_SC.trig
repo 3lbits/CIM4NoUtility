@@ -166,9 +166,9 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID    "681a2fe0-5a55-11eb-a658-74e5f963e191";
             cim:TransformerEnd.grounded  false .
     
-    <urn:uuid:681a2fdd-5a55-11eb-a658-74e5f963e191>
+    <urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:PowerTransformer;
-            cim:IdentifiedObject.mRID  "681a2fdd-5a55-11eb-a658-74e5f963e191";
+            cim:IdentifiedObject.mRID  "f1769e1e-9aeb-11e5-91da-b8763fd99c5f";
             cim:PowerTransformer.isPartOfGeneratorUnit
                     false .
     
